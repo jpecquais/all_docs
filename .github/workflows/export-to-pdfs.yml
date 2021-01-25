@@ -4,6 +4,8 @@ on:
   release:
     types: [published]
 
+  workflow_dispatch: ~
+
 jobs:
   build:
 
@@ -15,35 +17,18 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-
-    - name: Use Node.js ${{ matrix.node-version }}
-      uses: actions/setup-node@v1
+    - uses: actions/setup-python@v2
       with:
-        node-version: ${{ matrix.node-version }}
+        python-version: '3.x'
 
-    - name: Get yarn cache directory path
-      id: yarn-cache-dir-path
-      run: echo "::set-output name=dir::$(yarn cache dir)"
+    - name: Update pip
+      run: pip install -U pip
 
-    - uses: actions/cache@v1
-      id: yarn-cache # use this to check for `cache-hit` (`steps.yarn-cache.outputs.cache-hit != 'true'`)
-      with:
-        path: ${{ steps.yarn-cache-dir-path.outputs.dir }}
-        key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
-        restore-keys: |
-          ${{ runner.os }}-yarn-
+    - name: Install requirements
+      run: pip install -r requirements.txt
 
-    - name: Install yarn packages
-      run: yarn
-
-    - name: Configure system
-      run: |
-          echo fs.inotify.max_user_watches=524288 | sudo tee /etc/sysctl.d/50-max-user-watches.conf
-          sudo sysctl -p
-          sudo systemctl restart systemd-sysctl.service
-
-    - name: Export PDFs
-      run: yarn run export-to-pdf
+    - name: Build PDF
+      run: make latexpdf
 
     - name: Store artifacts
       uses: actions/upload-artifact@v1

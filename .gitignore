@@ -1,6 +1,3 @@
-node_modules/
-yarn-error.log
-_site/
-.jekyll-cache/
-static/
+build
+env
 .DS_Store
