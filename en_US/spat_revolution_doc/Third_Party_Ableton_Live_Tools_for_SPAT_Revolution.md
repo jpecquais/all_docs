@@ -10,25 +10,17 @@
 
 This is a complete guide of a workflow with a set of custom-built Ableton Live Devices, created to increase significantly the compatibility between the DAW and SPAT Revolution.
 
-We will focus on everything from downloading and installing the tools, setting them up, optimizing your computer, a complete description of the provided tools, and then the actual workflow and how to create an entire project in the most efficient way possible!
-
 ### Why using Ableton Live with SPAT Revolution?
 
 Maybe Ableton Live is your main DAW and so the most obvious choice, this is the case for some of us at FLUX:: and is also why we created this workflow in the first place, but we would also like to add, that Live could be a great choice for anyone getting into creating, sound designing, etc… in an Immersive Audio Context. 
 
 The capabilities of Ableton Live in terms of automations are monstrous and so make this DAW an incredible tool for making great Immersive Audio content that will include lots of spatial movements and effects.
 
-### Why using SPAT Revolution at all?
-
-Immersive Audio is gaining more and more traction recently, Apple Spatial Audio, Dolby Atmos, Binaural, if you have been working in the music industry at any level this past few years you probably have heard of those.
-
-So SPAT Revolution will help you to create and to expand ideas into a whole new world or should I say, into new spaces! 
-
 And now after reading this guide, it will be as easy as making good old fader automation, as this is not just a do this and it will do that guide, but more of a do this and here why it does that, type of guide!
 
 This guide works as a base and not an “end all be all”, any ideas on how to improve this workflow, the devices provided, the templates, and any other type of feedback is very welcomed!
 
-!> DISCLAIMER: This workflow has been specifically thought of for maximum compatibility between Ableton Live and SPAT Revolution under macOS. Some parts of this guide *(mainly the devices provided)* can still be applied to Windows or/and other DAWs.
+!> This workflow has been specifically thought of for maximum compatibility between Ableton Live and SPAT Revolution under macOS. Some parts of this guide *(mainly the devices provided)* can still be applied to Windows or/and other DAWs.
 
 ## Demo
 
@@ -36,37 +28,7 @@ This guide works as a base and not an “end all be all”, any ideas on how to 
 
 ## Installation
 
-> If you already have a FLUX:: account as well as an iLok account and already have a SPAT Revolution License or Trial you can jump to the [next section of the guide](https://doc.flux.audio/#/en_US/spat_revolution_doc/Third_Party_Ableton_Live_Tools_for_SPAT_Revolution?id=tools).
-
-> You can follow this part with the dedicated video as well: *link* (not available yet)
-
-- So we are going to first create our FLUX:: account [here](https://shop.flux.audio/en_US/register).
-
-*Don’t forget that you need to activate your account, an email will be sent to your email address.*
-
-*(if you don’t see it, please check your spam inbox or search for the email directly using its name: "email address verification")*
-
-- Once your FLUX:: account has been created we are now going to create an iLok account [here](https://ilok.com/#!registration).
-
-*For those who don’t know, iLok is simple a license platform and will allow us to activate our SPAT Revolution license.*
-
-Same as for the FLUX:: account don’t forget to activate your account with the email sent to you.
-
-We are now going to download the FLUX:: Center and the iLok License Manager app.
-
-Download:
-- FLUX:: Center: https://www.flux.audio/download
-- iLok License Manager app: https://ilok.com
-
-Now that both accounts have been created and activated, and both the FLUX Center and iLok license manager apps have been downloaded and installed, we can now link our iLok account to the FLUX:: account.
-
-To do so simply go into the [iLok Licenses](https://shop.flux.audio/en_US/account/trial/request) section of your FLUX:: account, and follow the procedure.
-
-Last step is to go into the trial section and request a trial for SPAT Revolution Ultimate. The license will be automatically placed on your iLok account.
-
-Now open the iLok License Manager app and activate your license by drag and dropping it to your computer. You can then close the iLok app and open the FLUX:: Center.
-
-Connect to your FLUX account and download the SPAT Revolution, when you download the SPAT Revolution the plugins and the Ableton Live Tools for SPAT Revolution will be automatically installed as well.
+Ableton Live Tools for SPAT Revolution are automatically installed with SPAT Revolution. If you have problems to install it, report to the [following section](Installation_and_Activation.md)
 
 ### Tools
 
@@ -102,16 +64,6 @@ We will see later in the guide that there are many ways this can be very helpful
 **BlackHole virtual audio driver can be found here:** [https://existential.audio/blackhole](https://existential.audio/blackhole)
 
 > If you plan to have a dual computer setup, you don’t have to get BlackHole. More on that workflow later.*
-
-### Useful addition
-
-Software such as **Loopback** from **Rogue Amoeba** can be very useful to route audio between multiple devices/apps and can be a very good alternative to Aggregate and Multi-Output devices that you can already make inside the **Audio MIDI setup** of macOS.
-
-![Loopback](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/Live_Tools/loopback.png)
-
-**Loopback:** [https://rogueamoeba.com/loopback](https://rogueamoeba.com/loopback)
-
-!> Don’t forget to restart your mac after installing all that.
 
 ## Optimization
 
@@ -212,16 +164,6 @@ The small windows poping up are the actual spat revolution plugins, on which the
 - Activate the OSC and set up the connection (find more about OSC configuration on the [OSC documentation section](Ecosystem_&_integration_OSC_Connections_Matrix.md):
 
 ![SPAT OSC Setup](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/Live_Tools/enable_OSC.gif)
-
-### What is OSC?
-
-Open Sound Control (OSC) is a protocol for networking sound synthesizers, computers, and other multimedia devices for purposes such as musical performance or show control. OSC's advantages include interoperability, accuracy, flexibility and enhanced organization and documentation. The first specification was released in March 2002.
-
-Here, we will use the OSC to send the automation information made in Live to SPAT Revolution.
-
-Want to learn more about OSC? [wikipedia.org](https://en.wikipedia.org/wiki/Open_Sound_Control)
-
-<!-- COMMENT: Maybe this part can be polished (I have good complementary documents) and added to the OSC Connections Matrix part of the documentation (it misses a little presentation of OSC indeed) -->
 
 ## Devices Description
 
@@ -475,7 +417,7 @@ Now comes the time to think about how to render what we made inside Ableton Live
 
 There's a few strategies about this, which have multiples solutions, and a few factors to consider like the number of Room, Return, Channels, etc...
 
-But the absolute main thing we cannot avoid is that we need to render real-time everything we made.
+But the absolute main thing we cannot avoid is that we need to render everything we made online.
 
 Let's have a use case to demonstrate how you can print our mix.
 
@@ -560,14 +502,11 @@ How To uninstall software installed with FLUX:: Center:
 How to manually uninstall audio plugins:
 - https://www.flux.audio/knowledge-base/how-to-manually-uninstall-audio-plugins
 
-
-
 ## Thanks!
-
 
 The Immersive Audio World is full of new possibilities and we hope that this guide helped you understand lots of what spatial audio has to offer and how to utilize it with Ableton Live!
 
-Let us know if there's anything missing from this guide (and the devices provided), ideas on how to better it, or simply what are you thoughts!
+Let us know if there's anything missing from this guide (and the devices provided), ideas on how to improve it, or simply what are you thoughts!
 
 You can contact me directly here:
 - Instagram: https://instagram.com/arsene_music
@@ -588,115 +527,3 @@ You can contact me directly here:
 - https://www.devinrothmusic.com
 
 To the Ableton Team for making such an amazing DAW.
-
-## Troubleshooting / Q&A
-
-### iLok Message
-
-If you ever get that message when starting SPAT Revolution, first if you have activated your license from the iLok License Manager app, this error can still happens.
-
-![iLok Message](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/Live_Tools/Screenshot%202022-03-31%20at%2018.32.48.png)
-
-You can fix it by simply launching the SPAT Revolution again once or twice depending on your luck. This is an issue that still needs to be addressed by the FLUX:: Team.
-
-If however this wasn't the solution please check the following:
-- is your FLUX:: Center up to date? *(http://flux.audio/download)*
-- is your SPAT Revolution up to date? *(inside the FLUX:: Center)*
-- is your license correctly activated in your iLok License Manager app?
-- is your iLok License Manager up to date? *(https://ilok.com)*
-
-If none of it solve the issue please contact the FLUX:: Tech Support here: support@flux.audio
-
-### Windows?
-
-Q: Do you plan on making a Windows specific guide?
-
-A: Maybe if we get lots of requests about it.
-
-### OSC issues? (Automation not going to SPAT)
-
-If a source in SPAT doesn't seem to receive the Automation parameters please check the following:
-
-- is the OSC Output port and IP Output in the send plugin *(ref n°13 in the SEND description)* match the ip and port inside the OSC settings *(Preference panel in SPAT)*?
-
-![ip and port stuff](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/Live_Tools/ip_and_port_stuff.png)
-
-- is OSC enabled *(Preference panel in SPAT)*
-
-![osc enabled](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/Live_Tools/osc%20enabled.png)
-
-If you want to see if SPAT is correclty receiving the OSC messages you can activate the "Enable commands log" option which will now display every message reveived by SPAT in the Terminal. 
-
-You can open the SPAT Terminal with the following shortcuts:
-
->Show/Hide Terminal = *F7*
-
->Show/Hide Terminal (mini) = *shift+F7*
-
->Popup Terminal = *cmd+F7*
-
-![terminal](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/Live_Tools/terminal.gif)
-
-- also make sure the OSC Index number in the SPAT plugin *(inside the send device)* match the number of the track inside SPAT Revolution
-
-![osc index ref](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/Live_Tools/osc_index_ref.png)
-
-You can apply the same treatment to the ROOM and RETURN has well if the automations on those aren't working too.
-
-So to sum up again:
-- IP in/out check in both the plugins and in the SPAT Revolution Preferences
-- OSC Index check in both the plugin and the source number in SPAT Revolution
-- And of course, check if OSC is simply not activated
-
-If you work with moving setup you might sometimes get an error showing the OSC Port in red. To fix it simply change the IP address to another network then go back to the original one.
-
-If that doesn't do it you can also change the OSC Port to something else, and then set back the correct port number.
-
-![osc error](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/Live_Tools/osc_in_error.gif)
-
-### SPAT Revolution Essential Version?
-
-Q: Is this workflow compatible with the Essential Version of SPAT Revolution?
-
-A: For now due to limitation of the Essential version this workflow isn't fully compatible, maybe later with some future update of Essential and some tweaking on my end. Making this workflow work for Essential would require to change it some much that you could not call this the same Workflow.
-
-## You want More?!
-
-So you got completely hooked to Immersive Audio, while this guide will be updated we already have a lot more resources you can checkout right away!
-
-Main SPAT Revolution Page
-- https://www.flux.audio/project/spat-revolution
-
-Latest Release
-- https://www.flux.audio/spat-revolution-22-02
-
-The complete user guide of SPAT Revolution
-- https://doc.flux.audio/#/en_US/spat_revolution_doc/A_User_Guide
-
-Knowledge Base on http://flux.audio
-- https://www.flux.audio/knowledge-base/category/spat-revolution
-
-YouTube Playlists:
-- SPAT Revolution: https://youtube.com/playlist?list=PL_Dcg2GwhLHlwimLMVsBEAlNsLzEkxF4y
-- Set-up your DAW with SPAT Revolution: https://youtube.com/playlist?list=PL_Dcg2GwhLHkk4JUNIwGnHLFC5-XFlCHG
-- ReaVolution: https://youtube.com/playlist?list=PL_Dcg2GwhLHmdWDRuCyGZRLd5BA2UBvls
-- w/ Hervé Déjardin: https://youtube.com/playlist?list=PL_Dcg2GwhLHkWtIPwUUvK0NTCIm10eluW
-- Artist: https://youtube.com/playlist?list=PL_Dcg2GwhLHmF2fwn9GWJSur3U0xWqcJr
-- SPAT Revolution - AVID Venue S6L: https://youtube.com/playlist?list=PL_Dcg2GwhLHkhrYJpAkP23bvR7wnhPrqy
-- LIVESTREAMS: https://youtube.com/playlist?list=PL_Dcg2GwhLHnHq87gdWjqeTw3KpEcwHPa
-- EVENTS: https://www.youtube.com/playlist?list=PL_Dcg2GwhLHlTS8KLSdk2yZqWgUUAwKxw
-
-User Stories
-- https://www.flux.audio/category/user-stories
-
-Technical Articles
-- https://www.flux.audio/category/tech-articles
-
-New & Press
-- https://www.flux.audio/category/news
-
-Training & Workshops
-- https://www.flux.audio/training-and-workshops
-
-Facebook User Group
-- https://www.facebook.com/groups/fluximmersive.usergroup

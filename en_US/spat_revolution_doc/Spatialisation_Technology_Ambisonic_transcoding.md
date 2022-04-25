@@ -3,7 +3,31 @@
 ## Default transcoding
 When patching an HOA or B-Format input to a source, or a HOA room to a channel-based output, a transcoder will be automatically inserted. This transcoder will, by default, be set to the Ring or Sloane speaker arrangement corresponding to the HOA order, and, will select an AllRad decoder.
 
-> Ring and Sloane are uniform setups which are recommended for optimized transcoding. I will guarantee a precise localization, in particular when transcoding an ambisonic input in order to use it in a room.
+> Ring and Sloane are uniform setups which are recommended for optimized transcoding. It will guarantee a precise localization, in particular when transcoding an ambisonic input in order to use it in a room.
+
+## Basic rules of thumb when transcoding ambisonic to speaker
+
+### Ambisonic order and number of speakers
+
+There is a direct link between the ambisonic order and the number of speaker we want to use. **There must always be at least as many speaker as ambisonic channels**. For exemple, first order ambisonic encapsulate 4 channels and second order ambisonic encapsulate 9 channels. So, we should use first order ambisonic for 3D speaker array up to 8 speakers, then move on to order two. We could still use order 2 until our speaker array goes up to use more than 15 speakers. We can apply the way of thinking up to the 7th order ambisonic.
+
+### How to handle multiple rendering from a single ambisonic room
+
+A exemple of ambisonic workflow would be to use one seventh order room, and then, decode it to the desired speaker array. As we said before, to do so, we need to adapt the ambisonic order depending on the number of speaker. It possible to do so by editing the order of the input stream in the master transcoder. When done, higher order channels will not affect the rendering.
+
+In the same fashion, you sould use 2D transcoder when transcoding to a 2D speaker layout.
+
+### Using an ambisonic source in a channel based room
+
+Sending an ambisonic source, like an A-format microphone, into a channel base is quite simple. We simply need an input transcoder using the speaker array of the target room as its output stream format. Once done, you should set the input stream format according to selected speaker array.
+
+In most case, Energy-preserving is the recommanded method when decoding ambisonic stream on non homogeneous speaker arrays.
+
+### Using an ambisonic source in an ambisonic room
+
+Sending an ambisonic source, like a A-format microphone, into an ambisonic room can be done by using a specific transcoder setting. To do so, we should set the transcoding method to "projection", and use a sloan uniform speaker array according to the ambisonic order. For first order ambisonic, we should use a sloan-4 speaker array.
+
+This way we can benefit from the SPAT Revolution reverb engine on an ambisonic source, inside an ambisonic room
 
 ## Transcoding method
 
