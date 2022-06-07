@@ -421,7 +421,7 @@ But the absolute main thing we cannot avoid is that we need to render everything
 
 Let's have a use case to demonstrate how you can print our mix.
 
-Here is a session which we are going to render for the Binaural *(3d on headphones)* Version and at the same time generate a Bed for an ATMOS render later.
+Here is a session which we are going to render for the Binaural *(3d on headphones)* Version and at the same time generate a Bed for an Atmos render later.
 
 ![Ready to Print](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/Live_Tools/ready_to_render.png)
 
@@ -527,3 +527,115 @@ You can contact me directly here:
 - https://www.devinrothmusic.com
 
 To the Ableton Team for making such an amazing DAW.
+
+## Troubleshooting / Q&A
+
+### iLok Message
+
+If you ever get that message when starting SPAT Revolution, first if you have activated your license from the iLok License Manager app, this error can still happens.
+
+![iLok Message](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/Live_Tools/Screenshot%202022-03-31%20at%2018.32.48.png)
+
+You can fix it by simply launching the SPAT Revolution again once or twice depending on your luck. This is an issue that still needs to be addressed by the FLUX:: Team.
+
+If however this wasn't the solution please check the following:
+- is your FLUX:: Center up to date? *(http://flux.audio/download)*
+- is your SPAT Revolution up to date? *(inside the FLUX:: Center)*
+- is your license correctly activated in your iLok License Manager app?
+- is your iLok License Manager up to date? *(https://ilok.com)*
+
+If none of it solve the issue please contact the FLUX:: Tech Support here: support@flux.audio
+
+### Windows?
+
+Q: Do you plan on making a Windows specific guide?
+
+A: Maybe if we get lots of requests about it.
+
+### OSC issues? (Automation not going to SPAT)
+
+If a source in SPAT doesn't seem to receive the Automation parameters please check the following:
+
+- is the OSC Output port and IP Output in the send plugin *(ref n°13 in the SEND description)* match the ip and port inside the OSC settings *(Preference panel in SPAT)*?
+
+![ip and port stuff](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/Live_Tools/ip_and_port_stuff.png)
+
+- is OSC enabled *(Preference panel in SPAT)*
+
+![osc enabled](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/Live_Tools/osc%20enabled.png)
+
+If you want to see if SPAT is correctly receiving the OSC messages you can activate the "Enable commands log" option which will now display every message received by SPAT in the Terminal. 
+
+You can open the SPAT Terminal with the following shortcuts:
+
+>Show/Hide Terminal = *F7*
+
+>Show/Hide Terminal (mini) = *shift+F7*
+
+>Popup Terminal = *cmd+F7*
+
+![terminal](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/Live_Tools/terminal.gif)
+
+- also make sure the OSC Index number in the SPAT plugin *(inside the send device)* match the number of the track inside SPAT Revolution
+
+![osc index ref](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/Live_Tools/osc_index_ref.png)
+
+You can apply the same treatment to the ROOM and RETURN has well if the automations on those aren't working too.
+
+So to sum up again:
+- IP in/out check in both the plugins and in the SPAT Revolution Preferences
+- OSC Index check in both the plugin and the source number in SPAT Revolution
+- And of course, check if OSC is simply not activated
+
+If you work with moving setup you might sometimes get an error showing the OSC Port in red. To fix it simply change the IP address to another network then go back to the original one.
+
+If that doesn't do it you can also change the OSC Port to something else, and then set back the correct port number.
+
+![osc error](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/Live_Tools/osc_in_error.gif)
+
+### SPAT Revolution Essential Version?
+
+Q: Is this workflow compatible with the Essential Version of SPAT Revolution?
+
+A: For now due to limitation of the Essential version this workflow isn't fully compatible, maybe later with some future update of Essential and some tweaking on my end. Making this workflow work for Essential would require to change it some much that you could not call this the same Workflow.
+
+## You want More?!
+
+So you got completely hooked to Immersive Audio, while this guide will be updated we already have a lot more resources you can checkout right away!
+
+Main SPAT Revolution Page
+- https://www.flux.audio/project/spat-revolution
+
+Latest Release
+- https://www.flux.audio/spat-revolution-22-02
+
+The complete user guide of SPAT Revolution
+- https://doc.flux.audio/#/en_US/spat_revolution_doc/A_User_Guide
+
+Knowledge Base on http://flux.audio
+- https://www.flux.audio/knowledge-base/category/spat-revolution
+
+YouTube Playlists:
+- SPAT Revolution: https://youtube.com/playlist?list=PL_Dcg2GwhLHlwimLMVsBEAlNsLzEkxF4y
+- Setup your DAW with SPAT Revolution: https://youtube.com/playlist?list=PL_Dcg2GwhLHkk4JUNIwGnHLFC5-XFlCHG
+- ReaVolution: https://youtube.com/playlist?list=PL_Dcg2GwhLHmdWDRuCyGZRLd5BA2UBvls
+- Hervé Déjardin: https://youtube.com/playlist?list=PL_Dcg2GwhLHkWtIPwUUvK0NTCIm10eluW
+- Artist: https://youtube.com/playlist?list=PL_Dcg2GwhLHmF2fwn9GWJSur3U0xWqcJr
+- SPAT Revolution - AVID Venue S6L: https://youtube.com/playlist?list=PL_Dcg2GwhLHkhrYJpAkP23bvR7wnhPrqy
+- LIVESTREAMS: https://youtube.com/playlist?list=PL_Dcg2GwhLHnHq87gdWjqeTw3KpEcwHPa
+- EVENTS: https://www.youtube.com/playlist?list=PL_Dcg2GwhLHlTS8KLSdk2yZqWgUUAwKxw
+
+User Stories
+- https://www.flux.audio/category/user-stories
+
+Technical Articles
+- https://www.flux.audio/category/tech-articles
+
+New & Press
+- https://www.flux.audio/category/news
+
+Training & Workshops
+- https://www.flux.audio/training-and-workshops
+
+Facebook User Group
+- https://www.facebook.com/groups/fluximmersive.usergroup
