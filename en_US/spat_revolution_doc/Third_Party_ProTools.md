@@ -78,6 +78,11 @@ In SPAT, go to *Preferences/Hardware IO* , then set:
 
 <!-- TODO: update the image -->
 
+### Latency compensation
+
+![Show latency](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/protool_latency.png)
+
+![Show latency](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/protools_show_pdc.png)
 
 ### Setting Up Object Tracks
 

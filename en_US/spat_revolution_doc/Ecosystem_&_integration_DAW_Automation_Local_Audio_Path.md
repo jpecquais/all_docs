@@ -77,6 +77,8 @@ If SPAT is running, then a Send or Return IO module will automatically appear in
 
 **Override** - In Return only, override the DAW input path.
 
+**Input delay** - In Send only, allow to manually compensate for the potential latency induced by prior processing.
+
 ## DAW routing priority
 
 In order to make sure that no sync error can happen between SPAT Revolution and the DAW of your choice, it is obligatory to make sure that **each track containing a Spat Send plug-in have to be routed to every and each track containing a Spat Return plug-in.**
@@ -94,3 +96,9 @@ Some DAWs, like REAPER, use some technic to reduce the load of VST plug-ins on t
 Other DAWs, like Ableton live, put plug-ins that does not receive or send any audio in an off-line state. Although it is not necessary displayed to the user, this can create some major issues when working with Spat Revolution PI.
 
 !> Be sure to consult our [third-party integration](Third_Party_Integration.md) section for more DAW specific information.
+
+## Delay compensation and using the local audio path
+
+Taking the signal inside the FX insert blocks and sending it to SPAT Revolution as many impacts on how we integrate with DAWs. For instance, many DAWs compensate for processing latency after the whole processing chain (or even at the last summing point possible). This means that the audio sent to SPAT Revolution with LAP is, by default, not latency compensated.
+
+To work around this, we have implemented a delay compensation algorithm right into SPAT Revolution. To use it, we have to manually enter how much latency is induced by the processing chain prior to each LAP plug-in. Each DAWs have different ways of reporting this latency. To know how the one you are using can display it, consult our third party section. If your DAW of choice does not appear here, then refer to its user guide.

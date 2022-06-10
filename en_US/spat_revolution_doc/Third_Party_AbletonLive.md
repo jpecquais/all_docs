@@ -73,6 +73,13 @@ Now, simply drop the *SyncBox.amxd* device in this folder. It can be downloaded 
  
 [SyncBox Optimization workaround](https://public.3.basecamp.com/p/UzFGokKV5483RXDxY5RpCifX)
 
+## Latency compensation
+
+If you plan to use SPAT send plug-in at the end of an FX chain, and don't use the object track strategy described below, you will have to manually set delay compensation inside the SPAT Send.
+
+To get the latency of one plug-in/FX, simply hover it with your mouse, and the value will be shown below. You will add to measure this latency for each plug-in before a SPAT Send, then sum all the values, and report the sum to the SPAT Send plug-in. Note that you also need to take prior routing and track folder into account when you calculate the total latency. For exemple, if three tracks are routed to one folder track that act as a SPAT object send, you must take into acount the latency of the most delayed child track of this folder.
+
+![LIVE_TMPLT__simpleStrBin_userLib](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/ableton_latency.png)
 
 ## Ableton Live routing
 
