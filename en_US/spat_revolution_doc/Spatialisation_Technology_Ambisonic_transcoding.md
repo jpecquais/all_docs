@@ -38,8 +38,8 @@ This way we can benefit from the SPAT Revolution reverb engine on an ambisonic s
 Projection decoding is also sometimes called “sampling ambisonic decoding” (SAD).
 It is the simplest form of ambisonic decoding.
 It samples the virtual panning function at the loudspeaker directions.
-SAD is optimal for loudspeakers arranged as t-design layouts, with t ≥ (2N+1) ( N being the Ambisonics order).
-Typically, the SAD should only be used for 2D loudspeaker layouts, i.e., regularly arranged in a circle. Avoids this decoder for 3D setups.
+SAD is optimal for loudspeakers arranged as t-design layouts.
+<!--Typically, the SAD should only be used for 2D loudspeaker layouts, i.e., regularly arranged in a circle. Avoids this decoder for 3D setups.-->
 
 *What is a T-Design Layout?*
 
