@@ -56,6 +56,8 @@ To recall through OSC a snapshot, the name or the index is required. As snapshot
 
 It is possible to reorder the all the snapshot index according to list order. To do so, click on the menu <code>Snasphot/Reindex all snapshots</code>.
 
+Last, the index can be manually edited, right-clicking on a snapshot and selecting <code>Edit snapshot index</code>.
+
 ### Global snapshot preferences, global and override
 
 The snapshot list also exposes four recall options on its top right corner : the recall time, the source option, the room option and the master option. These parameters affect each snapshot.
@@ -73,7 +75,9 @@ Beside each snapshot, there is a tickbox, under a collumn named "**GLobal**". If
 
 ![Coloring snapshot](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Snapshots/SnapshotColor.png)
 
-To help to a better organisation of the session, snapshots can be recolored. To do so, right-click on the selected snapshot and choose <code>Set colors</code>. A palette, from which you can pick a color, will appear. 
+To help to a better organisation of the session, snapshots can be recolored. To do so, right-click on the selected snapshot and choose <code>Set colors</code>. A palette, from which you can pick a color, will appear.
+
+It is also possible to <code>Generate colors</code> automatically for a multiselection of snapshots. Right-click on one of them and click on the corresponding list entry.
 
 ## Version history
 
@@ -128,4 +132,5 @@ This toolbar has been designed to help playing with snapshots without navigating
 - The name of the <code>Current</code> snapshot. Clicking on it will display the snapshot list, enabling to recall any snapshot of the list.
 - Recall the <code>Next</code> snapshot.
 - <code>Update</code> the current snapshot.
+- <code>Create snapshot</code>.
 - Enable or disable the <code>Relative Recall</code>.
