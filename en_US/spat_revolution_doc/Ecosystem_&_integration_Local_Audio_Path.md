@@ -76,6 +76,10 @@ If _SPAT Revolution_ is running, then a Send or Return IO module will automatica
 
 **Override** - In Return only, override the DAW input path.
 
+**Position mode** - Choose to listen to AED or XYZ automation lanes.
+
+**Input delay** - Use this text field to enter the latency induced by the previous plug-ins in the signal chain. For example, if you use a compressor with a look ahead above in the audio stream that delays the signal by 100 samples, you should enter 100 in the **input delay** field of the SPAT plug-in. Every other incoming streams will be delayed by this value. In more complex cases, where many input latency is set up in different SPAT send instances, the lowest possible delay is applied.
+
 ## DAW routing priority
 
 In order to make sure that no sync error can happen between _SPAT Revolution_ and the DAW of your choice, it is obligatory to make sure that **each track containing a Spat Send plug-in have to be routed to every and each track containing a Spat Return plug-in.**

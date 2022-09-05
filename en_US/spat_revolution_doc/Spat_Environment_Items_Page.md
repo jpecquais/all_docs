@@ -1,6 +1,6 @@
 # Items' page
 
-This page gives an overview and allows to edit the major parameters for each item type (Input, Source, Room, etc.)
+The item page is designed to give an overview of your session with a quick glance. It allows editing the major parameters for each item type (Input, Source, Room, etc.)
 
 ![The items' page](https://media.githubusercontent.com/media/FLUX-SE/doc_images/SpatR/Items/Page.png)
 
@@ -10,7 +10,7 @@ The following video illustrates some possibilities that this page offers.
 
 ## Items type selection
 
-The upper left list control allows to choose which kind of items you want to display in the Items' Page.
+The upper left list control allows choosing which kinds of items you want to display in the Items' Page.
 
 ![Items' selection](https://media.githubusercontent.com/media/FLUX-SE/doc_images/SpatR/Items/ItemSelection.gif)
 
@@ -50,7 +50,7 @@ In addition to the common parameters, when the _Source_ item's type is selected,
 - **Remote**: define if the source can be controlled by OSC or not.
 - **Remote number**: define the index of the source on OSC side. _If set to 0, the remote number is equal to the source number. Careful with this behavior: this will be edited with the source order._
 - **Automation**: define if the source can be controlled by automation via Local Audio Path.
-- **Snapshot**: define if the source can be controlled by snapshot recall.
+- **Snapshot**: define if the source can be controlled by snapshots recall.
 - **RTTrPM number**: define the RTTrPM beacon number used for control this source. If set to 0, the tracking will be disabled. _Ultimate license only._
 - **Gain**: define the gain of the source.
 - **Mute**: define the mute status of the source.
@@ -78,10 +78,10 @@ In order to give an easy navigation on this page and its parameters, keyboard sh
 
 - <code>Up</code>: select the cell of the previous row.
 - <code>Shift + Up</code>: add the previous row to the row selection.
-- <code>Down</code>: select the celle of the next row.
+- <code>Down</code>: select the cell of the next row.
 - <code>Shift + Down</code>: add the next row to the row selection.
 - <code>Shift + click</code>: select all the rows in between the two selected
-- <code>Ctrl + click</code>: select only the wanted rows.
+- <code>Ctrl + click</code>: only select the wanted rows.
 - <code>Left key</code>: select the previous cell.
 - <code>Right key</code>: select the next cell.
 - <code>Space</code> on an on/off button: it will toggle the button for the actual selection.
@@ -104,4 +104,3 @@ Enter text in the top search field to filter the displayed objects. This will se
 ### Group sources by rooms
 
 ![Group by rooms](https://media.githubusercontent.com/media/FLUX-SE/doc_images/SpatR/Items/GroupBy.gif)
-
