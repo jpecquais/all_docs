@@ -1,6 +1,6 @@
 * Welcome
     * [Thank you](00_Pure_Analyzer_00_Pure_Analyzer.md)
-    * [Pure analyzer versions](00_Pure_Analyzer_01_Pure-analyzer-versions.md)
+    * [Analyzer versions](00_Pure_Analyzer_01_Pure-analyzer-versions.md)
 * Initial setup
     * [Introduction](01_Initial_Setup_00_Introduction.md)
     * Samplegrabber
@@ -108,14 +108,14 @@
         * [Magnitude](13_Transfer_function_measurement_05_Setup_04_Magnitude.md)
         * [Phase](13_Transfer_function_measurement_05_Setup_05_Phase.md)
         * [Other](13_Transfer_function_measurement_05_Setup_06_Other.md)
-* Impluse response measurement
-    * [Introduction](14_Impluse_response_measurement_01_Introduction.md)
-    * [General procedure](14_Impluse_response_measurement_02_General_procedure.md)
-    * [Time averaging](14_Impluse_response_measurement_03_Time_averaging.md)
-    * [Main setup](14_Impluse_response_measurement_04_Main_setup.md)
-    * [Time](14_Impluse_response_measurement_05_Time.md)
-    * [Scale](14_Impluse_response_measurement_06_Scale.md)
-    * [Other](14_Impluse_response_measurement_07_Other.md)
+* Impulse response measurement
+    * [Introduction](14_Impulse_response_measurement_01_Introduction.md)
+    * [General procedure](14_Impulse_response_measurement_02_General_procedure.md)
+    * [Time averaging](14_Impulse_response_measurement_03_Time_averaging.md)
+    * [Main setup](14_Impulse_response_measurement_04_Main_setup.md)
+    * [Time](14_Impulse_response_measurement_05_Time.md)
+    * [Scale](14_Impulse_response_measurement_06_Scale.md)
+    * [Other](14_Impulse_response_measurement_07_Other.md)
 * Spectrogram
     * [Usage](15_Spectrogram_01_Usage.md)
     * [Setup](15_Spectrogram_02_Setup.md)
@@ -128,7 +128,6 @@
 * System requirements
     * [System requirements](18_System_Requirements_00_System_requirements.md)
     * [Compatibility](18_System_Requirements_01_Compatibility.md)
-* Appendix 
+* Appendix
 	* [Credits](19_Credits.md)
 	* [Release Notes](flux_analyser_release_notes.md)
-

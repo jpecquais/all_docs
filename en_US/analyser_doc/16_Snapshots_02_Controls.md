@@ -1,24 +1,24 @@
 # Controls
-![](include/Snapshots.png)
+![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Snapshots/Main.png)
 
 > Snapshot list and controls
 
-The snapshot area shows a list view, where one or more snapshots can be selected. 
+The snapshot area shows a list view, where one or more snapshots can be selected.
 The selected snapshot(s) will be highlighted accordingly, both in the list and the corresponding display(s), with increased curve thickness.
 
 ## Selection and navigation
 The snapshot list follows standard user interface guidelines, which means you can:
 
-* Use keyboard up and down arrows to change the currently selected snapshot. 
-Note: the snapshot area must have focus for this to have effect.
+* Use keyboard up and down arrows to change the currently selected snapshot.
+Note: the snapshot section area must be in focus for this to have effect.
 * Click on any snapshot to select it.
 * <code>Shift + click</code> to define a selection range of multiple snapshots.
 
 ## Add new snapshot
-Clicking the icon immediately creates a new snapshot, stores it on disk, adds it to the current project and selects it.
+Clicking the ![](include/CreateSnapshot.png) icon immediately creates a new snapshot, stores it on disk, in the folder, adds it to the current project and selects it.
 
 ## Acquire sweep
-The ![](include/Sweep.png) button launches acquisition of a sweep snapshot. 
+The ![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Generic/Sweep.png) button launches acquisition of a sweep snapshot. 
 This special type of snapshot automates the acquisition of transfer function and impulse response curves using a swept sine generator output.
 
 Please check the following for proper operation:
@@ -32,7 +32,7 @@ Providing the previous requirements are met, a progress dialog will then be disp
 > Ensure the outputs of the generator and the connected speakers are set to reasonable levels in order to prevent damage to your equipment and hearing loss.
 
 ## Create average
-Click the ![](include/Average.png) button with multiple snapshots selected to create a new snapshot average of these.
+Click the ![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Generic/Average.png) button with multiple snapshots selected to create a new snapshot average of these.
 
 The new snapshot curve data is computed from the selected snapshot data as follows:
 
@@ -53,11 +53,11 @@ The averaging can only be performed if the snapshots are compatible with one ano
 
 A warning message will inform you the averaging cannot be performed if one of the above conditions are not met.
 
-> The snapshot average stores the average of the snapshots at the moment it was created. 
+> The snapshot average stores the average of the snapshots at the moment it was created.
 > If you change the snapshots in any way, the snapshot average will not change.
 
 ## Update current
-Clicking the ![](include/Update.png) button will overwrite the last selected snapshot contents with the most current data.
+Clicking the ![](https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Generic/Update.png) button will overwrite the last selected snapshot contents with the most current data.
 
 This is especially useful when you are fine-tuning your measurement setup and only want to keep the latest one, without creating several snapshots and deleting them afterwards.
 
@@ -88,3 +88,6 @@ By the default, newly created snapshots are given the name <c>unlabeled-x</c>, w
 
 ## Invert (Iv)
 Inverts the magnitude curve of the Transfer function.
+
+<!-- LIVEVERSION-->
+<!-- TODO: Load IR, not documentated  -->
