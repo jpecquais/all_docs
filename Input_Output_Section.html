@@ -6,10 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="FLUX:: Immersive">
-<meta name="dcterms.date" content="2023-02-06">
 
-<title>Syrah</title>
+<title>Syrah - 4&nbsp; Input Output Section</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -32,7 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./Introduction.html" rel="next">
+<link href="./Processing_Section.html" rel="next">
+<link href="./User_Interface.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -74,7 +73,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Syrah</span></a></li></ol></nav>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./Input_Output_Section.html"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Input Output Section</span></a></li></ol></nav>
       <a class="flex-grow-1" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
       </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -104,7 +103,7 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link active"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Syrah</span></a>
+  <a href="./index.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Syrah</span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -119,7 +118,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./Input_Output_Section.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Input Output Section</span></a>
+  <a href="./Input_Output_Section.html" class="sidebar-item-text sidebar-link active"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Input Output Section</span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -177,10 +176,13 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#syrah" id="toc-syrah" class="nav-link active" data-scroll-target="#syrah"><span class="header-section-number">1</span> Syrah</a>
-  <ul class="collapse">
-  <li><a href="#the-creative-adaptive-dynamics-processor" id="toc-the-creative-adaptive-dynamics-processor" class="nav-link" data-scroll-target="#the-creative-adaptive-dynamics-processor"><span class="header-section-number">1.0.1</span> The Creative adaptive-dynamics processor</a></li>
-  </ul></li>
+  <li><a href="#input-gain-1" id="toc-input-gain-1" class="nav-link active" data-scroll-target="#input-gain-1"><span class="header-section-number">4.1</span> Input Gain (1)</a></li>
+  <li><a href="#output-gain-2" id="toc-output-gain-2" class="nav-link" data-scroll-target="#output-gain-2"><span class="header-section-number">4.2</span> Output Gain (2)</a></li>
+  <li><a href="#link-3" id="toc-link-3" class="nav-link" data-scroll-target="#link-3"><span class="header-section-number">4.3</span> Link (3)</a></li>
+  <li><a href="#gain-comp.-4" id="toc-gain-comp.-4" class="nav-link" data-scroll-target="#gain-comp.-4"><span class="header-section-number">4.4</span> Gain Comp. (4)</a></li>
+  <li><a href="#dry-mix-5" id="toc-dry-mix-5" class="nav-link" data-scroll-target="#dry-mix-5"><span class="header-section-number">4.5</span> Dry Mix (5)</a></li>
+  <li><a href="#clipper-6" id="toc-clipper-6" class="nav-link" data-scroll-target="#clipper-6"><span class="header-section-number">4.6</span> Clipper (6)</a></li>
+  <li><a href="#bypass-7" id="toc-bypass-7" class="nav-link" data-scroll-target="#bypass-7"><span class="header-section-number">4.7</span> Bypass (7)</a></li>
   </ul>
 </nav>
     </div>
@@ -189,26 +191,14 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Syrah</h1>
+<h1 class="title"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Input Output Section</span></h1>
 </div>
 
 
 
 <div class="quarto-title-meta">
 
-    <div>
-    <div class="quarto-title-meta-heading">Author</div>
-    <div class="quarto-title-meta-contents">
-             <p>FLUX:: Immersive </p>
-          </div>
-  </div>
     
-    <div>
-    <div class="quarto-title-meta-heading">Published</div>
-    <div class="quarto-title-meta-contents">
-      <p class="date">February 6, 2023</p>
-    </div>
-  </div>
   
     
   </div>
@@ -216,16 +206,48 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<section id="syrah" class="level1" data-number="1">
-<h1 data-number="1"><span class="header-section-number">1</span> Syrah</h1>
-<section id="the-creative-adaptive-dynamics-processor" class="level3" data-number="1.0.1">
-<h3 data-number="1.0.1" class="anchored" data-anchor-id="the-creative-adaptive-dynamics-processor"><span class="header-section-number">1.0.1</span> The Creative adaptive-dynamics processor</h3>
-<p><a href="https://www.flux.audio/project/syrah/">Product Page</a> | <a href="https://shop.flux.audio/en_US/products/syrah">Shop Page</a></p>
-<p>Thank you for using Syrah. We hope that you will get good use of the information found in this manual, and to help you getting acquainted with Syrah we have included a basic walk through in the end of the document.</p>
-<p><img src="https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Plugins/syrah/syrah_01.png" class="img-fluid"></p>
-
-
+<section id="input-gain-1" class="level2" data-number="4.1">
+<h2 data-number="4.1" class="anchored" data-anchor-id="input-gain-1"><span class="header-section-number">4.1</span> Input Gain (1)</h2>
+<p>Controls the gain applied to the dynamic processing input. This setting may affect the dynamics signal detection.</p>
+<p>Unit: Decibel (dB)<br>
+Range: -48.00 to +48.<br>
+Min. Steps: 0.<br>
+Default Value: 0.</p>
 </section>
+<section id="output-gain-2" class="level2" data-number="4.2">
+<h2 data-number="4.2" class="anchored" data-anchor-id="output-gain-2"><span class="header-section-number">4.2</span> Output Gain (2)</h2>
+<p>Controls the gain at the output stage of the dynamic processing, right before the Clipper (and the Clipper is the last, final step, in the entire processing chain).</p>
+<p>Unit: Decibel (dB)<br>
+Range: -48.00 to +48.<br>
+Min. Steps: 0.<br>
+Default Value: 0.</p>
+</section>
+<section id="link-3" class="level2" data-number="4.3">
+<h2 data-number="4.3" class="anchored" data-anchor-id="link-3"><span class="header-section-number">4.3</span> Link (3)</h2>
+<p>Connects Output Gain to Input Gain, when adjusting Input Gain the Output Gain automatically reflects the change.</p>
+</section>
+<section id="gain-comp.-4" class="level2" data-number="4.4">
+<h2 data-number="4.4" class="anchored" data-anchor-id="gain-comp.-4"><span class="header-section-number">4.4</span> Gain Comp. (4)</h2>
+<p>The gain compensation attempts to adjust the output level to match the input level, and compensate for gain alterations produced by the dynamic processing (compression, de-expansion).<br>
+Due to the extreme range of possible gain structure modifications in the algorithm, according to the complexity of the audio material, a precise result is nearly impossible to accomplish, and so forth the gain compensation should not be expected to achieve perfection.</p>
+</section>
+<section id="dry-mix-5" class="level2" data-number="4.5">
+<h2 data-number="4.5" class="anchored" data-anchor-id="dry-mix-5"><span class="header-section-number">4.5</span> Dry Mix (5)</h2>
+<p>A true dry/wet mix control with gain compensation allowing for parallel compression or simply for fine adjustment of the entire processing.</p>
+<p>Unit: Percent (%)<br>
+Range: 0.00 to 100.<br>
+Min. Steps: 0.<br>
+Default Value: 0.</p>
+</section>
+<section id="clipper-6" class="level2" data-number="4.6">
+<h2 data-number="4.6" class="anchored" data-anchor-id="clipper-6"><span class="header-section-number">4.6</span> Clipper (6)</h2>
+<p>The Brick wall clipper is applied at the very last stage of the processing chain. The clipper knee is dependent on other parameter settings and is automatically adjusted in the algorithm. When setting “Mode” to one of the “Dynamic” settings the knee will also alter according to the audio material.</p>
+</section>
+<section id="bypass-7" class="level2" data-number="4.7">
+<h2 data-number="4.7" class="anchored" data-anchor-id="bypass-7"><span class="header-section-number">4.7</span> Bypass (7)</h2>
+<p>Bypasses the plug-in processing by routing the input direct to the output. The actual processing is still performed in the background allowing for a true and smooth transition between the processed and the actual incoming signal.</p>
+
+
 </section>
 
 </main> <!-- /main -->
@@ -464,10 +486,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
+      <a href="./User_Interface.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">User Interface</span></span>
+      </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./Introduction.html" class="pagination-link">
-        <span class="nav-page-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Introduction</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./Processing_Section.html" class="pagination-link">
+        <span class="nav-page-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Processing Section</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

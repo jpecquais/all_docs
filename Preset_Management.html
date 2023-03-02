@@ -6,10 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="FLUX:: Immersive">
-<meta name="dcterms.date" content="2023-02-06">
 
-<title>Syrah</title>
+<title>Syrah - 7&nbsp; Preset Management</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -32,7 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./Introduction.html" rel="next">
+<link href="./Plug-in_Settings.html" rel="next">
+<link href="./Metering_Section.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -74,7 +73,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Syrah</span></a></li></ol></nav>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./Preset_Management.html"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Preset Management</span></a></li></ol></nav>
       <a class="flex-grow-1" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
       </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -104,7 +103,7 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link active"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Syrah</span></a>
+  <a href="./index.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Syrah</span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -134,7 +133,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./Preset_Management.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Preset Management</span></a>
+  <a href="./Preset_Management.html" class="sidebar-item-text sidebar-link active"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Preset Management</span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -177,10 +176,15 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#syrah" id="toc-syrah" class="nav-link active" data-scroll-target="#syrah"><span class="header-section-number">1</span> Syrah</a>
-  <ul class="collapse">
-  <li><a href="#the-creative-adaptive-dynamics-processor" id="toc-the-creative-adaptive-dynamics-processor" class="nav-link" data-scroll-target="#the-creative-adaptive-dynamics-processor"><span class="header-section-number">1.0.1</span> The Creative adaptive-dynamics processor</a></li>
-  </ul></li>
+  <li><a href="#additional-controls-in-the-preset-manager-window" id="toc-additional-controls-in-the-preset-manager-window" class="nav-link active" data-scroll-target="#additional-controls-in-the-preset-manager-window"><span class="header-section-number">7.1</span> Additional Controls In The Preset Manager Window</a></li>
+  <li><a href="#preset-management-controls" id="toc-preset-management-controls" class="nav-link" data-scroll-target="#preset-management-controls"><span class="header-section-number">7.2</span> Preset Management Controls</a></li>
+  <li><a href="#save-32" id="toc-save-32" class="nav-link" data-scroll-target="#save-32"><span class="header-section-number">7.3</span> Save (32)</a></li>
+  <li><a href="#recall-33" id="toc-recall-33" class="nav-link" data-scroll-target="#recall-33"><span class="header-section-number">7.4</span> Recall (33)</a></li>
+  <li><a href="#copy-ab-34" id="toc-copy-ab-34" class="nav-link" data-scroll-target="#copy-ab-34"><span class="header-section-number">7.5</span> Copy A/B (34)</a></li>
+  <li><a href="#morphing-slider-35" id="toc-morphing-slider-35" class="nav-link" data-scroll-target="#morphing-slider-35"><span class="header-section-number">7.6</span> Morphing Slider (35)</a></li>
+  <li><a href="#automation-morphing-slider-36" id="toc-automation-morphing-slider-36" class="nav-link" data-scroll-target="#automation-morphing-slider-36"><span class="header-section-number">7.7</span> Automation (Morphing Slider) (36)</a></li>
+  <li><a href="#preset-name-37" id="toc-preset-name-37" class="nav-link" data-scroll-target="#preset-name-37"><span class="header-section-number">7.8</span> Preset Name (37)</a></li>
+  <li><a href="#preset-slot-38" id="toc-preset-slot-38" class="nav-link" data-scroll-target="#preset-slot-38"><span class="header-section-number">7.9</span> Preset Slot (38)</a></li>
   </ul>
 </nav>
     </div>
@@ -189,26 +193,14 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Syrah</h1>
+<h1 class="title"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Preset Management</span></h1>
 </div>
 
 
 
 <div class="quarto-title-meta">
 
-    <div>
-    <div class="quarto-title-meta-heading">Author</div>
-    <div class="quarto-title-meta-contents">
-             <p>FLUX:: Immersive </p>
-          </div>
-  </div>
     
-    <div>
-    <div class="quarto-title-meta-heading">Published</div>
-    <div class="quarto-title-meta-contents">
-      <p class="date">February 6, 2023</p>
-    </div>
-  </div>
   
     
   </div>
@@ -216,16 +208,61 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<section id="syrah" class="level1" data-number="1">
-<h1 data-number="1"><span class="header-section-number">1</span> Syrah</h1>
-<section id="the-creative-adaptive-dynamics-processor" class="level3" data-number="1.0.1">
-<h3 data-number="1.0.1" class="anchored" data-anchor-id="the-creative-adaptive-dynamics-processor"><span class="header-section-number">1.0.1</span> The Creative adaptive-dynamics processor</h3>
-<p><a href="https://www.flux.audio/project/syrah/">Product Page</a> | <a href="https://shop.flux.audio/en_US/products/syrah">Shop Page</a></p>
-<p>Thank you for using Syrah. We hope that you will get good use of the information found in this manual, and to help you getting acquainted with Syrah we have included a basic walk through in the end of the document.</p>
-<p><img src="https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Plugins/syrah/syrah_01.png" class="img-fluid"></p>
-
-
+<p>Syrah, as well as all other Flux:: plug-ins, provides two preset slots referred to as slot A and slot B, which means that you can have direct access to two sets of parameter settings simultaneously. In addition to just recall (33) the settings for each of the slots individually and alternate between their settings, a morphing slider (35) is provided offering the possibility to morph between the slots and their corresponding settings. When clicking on one of the preset slots (38), the built in preset manager appears.</p>
+<p>The preset manager contains three preset banks, the Factory bank contains factory presets, this bank is not available for saving of presets but any of the presets can be loaded into a preset slot and then saved into, the User bank, where all user presets are saved. Finally, the Global bank, which is a bit special, here you can save a complete snapshot with all the settings from both preset slots, as well as the position of the morphing slider.</p>
+<p>In the preset manager, any preset can be loaded into a preset slot by double clicking on the name of the desired preset in the actual preset list, the preset will then be loaded into the preset slot corresponding to the position of the morphing slider.</p>
+<section id="additional-controls-in-the-preset-manager-window" class="level2" data-number="7.1">
+<h2 data-number="7.1" class="anchored" data-anchor-id="additional-controls-in-the-preset-manager-window"><span class="header-section-number">7.1</span> Additional Controls In The Preset Manager Window</h2>
+<ul>
+<li>Recall A loads the selected preset into the corresponding slot.</li>
+<li>Recall B loads the selected preset into the corresponding slot.</li>
+<li>Update, saves the current settings into the selected preset.</li>
+<li>New, saves the current settings into a new preset.</li>
+<li>Duplicate creates a copy of the selected preset and saves it to the list.</li>
+<li>Edit allows for changes to the preset meta properties.</li>
+<li>Delete, removes the selected preset.</li>
+<li>Export, creates a file reflecting the content of the current preset bank.</li>
+<li>Import, allows for import of a preset bank file by adding the imported banks content to the content in the current preset bank.</li>
+</ul>
+<p>When saving or editing a preset, an option to protect the preset is presented. The preset protection, if engaged, only allows the original preset author to uncheck and edit the preset. This means that you can protect your presets in a multi-user configuration. Protected presets can only be modified using the session used for their creation. If used in another user session they can only be imported or deleted.</p>
 </section>
+<section id="preset-management-controls" class="level2" data-number="7.2">
+<h2 data-number="7.2" class="anchored" data-anchor-id="preset-management-controls"><span class="header-section-number">7.2</span> Preset Management Controls</h2>
+</section>
+<section id="save-32" class="level2" data-number="7.3">
+<h2 data-number="7.3" class="anchored" data-anchor-id="save-32"><span class="header-section-number">7.3</span> Save (32)</h2>
+<p>To save a new preset using the built in preset manager, simply click Save in the corresponding preset slot (A/B), and to save changes to your preset, simply click Save again.<br>
+If you want to resave your preset under a new name, open the preset manager by clicking the corresponding (A/B) preset slot (38), select New, enter a name for your preset, and press Save.</p>
+</section>
+<section id="recall-33" class="level2" data-number="7.4">
+<h2 data-number="7.4" class="anchored" data-anchor-id="recall-33"><span class="header-section-number">7.4</span> Recall (33)</h2>
+<p>Recalls the settings of the corresponding slot.</p>
+</section>
+<section id="copy-ab-34" class="level2" data-number="7.5">
+<h2 data-number="7.5" class="anchored" data-anchor-id="copy-ab-34"><span class="header-section-number">7.5</span> Copy A/B (34)</h2>
+<p>To copy all parameters between the preset slots (A to B or B to A), press the Copy A or Copy B button, and the parameters from the corresponding preset slot will be copied into the current preset slot. When copying parameters from one slot to another, the preset morph slider will automatically slide to the slot the parameters where copied to.</p>
+</section>
+<section id="morphing-slider-35" class="level2" data-number="7.6">
+<h2 data-number="7.6" class="anchored" data-anchor-id="morphing-slider-35"><span class="header-section-number">7.6</span> Morphing Slider (35)</h2>
+<p>The morphing slider provides mixing between the settings of slot A and B and allows for some very creative tweaking.<br>
+The result of the morphing can be saved as a global preset containing the actual settings of both preset slots as well as the morphing slider position.<br>
+To save a Global preset, open the preset manager by clicking the corresponding (A/B) preset slot (38), then click Global, select New and enter a name for your global preset, then press Save.</p>
+</section>
+<section id="automation-morphing-slider-36" class="level2" data-number="7.7">
+<h2 data-number="7.7" class="anchored" data-anchor-id="automation-morphing-slider-36"><span class="header-section-number">7.7</span> Automation (Morphing Slider) (36)</h2>
+<p>When enabling the Automation control button, the morphing slider will be exposed and available for both automation read and write.<br>
+Though with the button engaged, only the morphing slider value is applied when reading automation.<br>
+The Automation control button must be engaged if the morphing slider needs to be mapped on a control surface.</p>
+</section>
+<section id="preset-name-37" class="level2" data-number="7.8">
+<h2 data-number="7.8" class="anchored" data-anchor-id="preset-name-37"><span class="header-section-number">7.8</span> Preset Name (37)</h2>
+<p>Displays the name of the current preset.</p>
+</section>
+<section id="preset-slot-38" class="level2" data-number="7.9">
+<h2 data-number="7.9" class="anchored" data-anchor-id="preset-slot-38"><span class="header-section-number">7.9</span> Preset Slot (38)</h2>
+<p>By pressing the little arrows in the preset slot, the built in preset manager appears</p>
+
+
 </section>
 
 </main> <!-- /main -->
@@ -464,10 +501,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
+      <a href="./Metering_Section.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Metering Section</span></span>
+      </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./Introduction.html" class="pagination-link">
-        <span class="nav-page-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Introduction</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./Plug-in_Settings.html" class="pagination-link">
+        <span class="nav-page-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Plug-in Settings</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

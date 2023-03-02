@@ -6,10 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="FLUX:: Immersive">
-<meta name="dcterms.date" content="2023-02-06">
 
-<title>Syrah</title>
+<title>Syrah - 10&nbsp; Specifications</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -32,7 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./Introduction.html" rel="next">
+<link href="./../flux_processing_release_notes.html" rel="next">
+<link href="./Get_started.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -74,7 +73,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Syrah</span></a></li></ol></nav>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./Specifications.html"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Specifications</span></a></li></ol></nav>
       <a class="flex-grow-1" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
       </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -104,7 +103,7 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link active"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Syrah</span></a>
+  <a href="./index.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Syrah</span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -149,7 +148,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./Specifications.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Specifications</span></a>
+  <a href="./Specifications.html" class="sidebar-item-text sidebar-link active"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Specifications</span></a>
   </div>
 </li>
         <li class="sidebar-item sidebar-item-section">
@@ -177,9 +176,13 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#syrah" id="toc-syrah" class="nav-link active" data-scroll-target="#syrah"><span class="header-section-number">1</span> Syrah</a>
+  <li><a href="#processing-specifications---syrah" id="toc-processing-specifications---syrah" class="nav-link active" data-scroll-target="#processing-specifications---syrah"><span class="header-section-number">10.0.1</span> Processing Specifications - Syrah</a></li>
+  <li><a href="#processing-specifications---syrah-studio-session" id="toc-processing-specifications---syrah-studio-session" class="nav-link" data-scroll-target="#processing-specifications---syrah-studio-session"><span class="header-section-number">10.0.2</span> Processing Specifications - Syrah Studio Session</a></li>
+  <li><a href="#licence-requirements" id="toc-licence-requirements" class="nav-link" data-scroll-target="#licence-requirements"><span class="header-section-number">10.0.3</span> Licence Requirements</a></li>
+  <li><a href="#compatibility" id="toc-compatibility" class="nav-link" data-scroll-target="#compatibility"><span class="header-section-number">11</span> Compatibility</a>
   <ul class="collapse">
-  <li><a href="#the-creative-adaptive-dynamics-processor" id="toc-the-creative-adaptive-dynamics-processor" class="nav-link" data-scroll-target="#the-creative-adaptive-dynamics-processor"><span class="header-section-number">1.0.1</span> The Creative adaptive-dynamics processor</a></li>
+  <li><a href="#windows---10-64-bits-only." id="toc-windows---10-64-bits-only." class="nav-link" data-scroll-target="#windows---10-64-bits-only."><span class="header-section-number">11.0.1</span> Windows - 10, 64 bits only.</a></li>
+  <li><a href="#macos-intel-and-arm---10.12-sierra-and-more-11-and-12." id="toc-macos-intel-and-arm---10.12-sierra-and-more-11-and-12." class="nav-link" data-scroll-target="#macos-intel-and-arm---10.12-sierra-and-more-11-and-12."><span class="header-section-number">11.0.2</span> macOS (Intel and ARM) - 10.12 (Sierra) and more, 11 and 12.</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -189,26 +192,14 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Syrah</h1>
+<h1 class="title"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Specifications</span></h1>
 </div>
 
 
 
 <div class="quarto-title-meta">
 
-    <div>
-    <div class="quarto-title-meta-heading">Author</div>
-    <div class="quarto-title-meta-contents">
-             <p>FLUX:: Immersive </p>
-          </div>
-  </div>
     
-    <div>
-    <div class="quarto-title-meta-heading">Published</div>
-    <div class="quarto-title-meta-contents">
-      <p class="date">February 6, 2023</p>
-    </div>
-  </div>
   
     
   </div>
@@ -216,13 +207,51 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<section id="syrah" class="level1" data-number="1">
-<h1 data-number="1"><span class="header-section-number">1</span> Syrah</h1>
-<section id="the-creative-adaptive-dynamics-processor" class="level3" data-number="1.0.1">
-<h3 data-number="1.0.1" class="anchored" data-anchor-id="the-creative-adaptive-dynamics-processor"><span class="header-section-number">1.0.1</span> The Creative adaptive-dynamics processor</h3>
-<p><a href="https://www.flux.audio/project/syrah/">Product Page</a> | <a href="https://shop.flux.audio/en_US/products/syrah">Shop Page</a></p>
-<p>Thank you for using Syrah. We hope that you will get good use of the information found in this manual, and to help you getting acquainted with Syrah we have included a basic walk through in the end of the document.</p>
-<p><img src="https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Plugins/syrah/syrah_01.png" class="img-fluid"></p>
+<section id="processing-specifications---syrah" class="level3" data-number="10.0.1">
+<h3 data-number="10.0.1" class="anchored" data-anchor-id="processing-specifications---syrah"><span class="header-section-number">10.0.1</span> Processing Specifications - Syrah</h3>
+<ul>
+<li>Up to 16 channels Input/Output.</li>
+<li>64-bits internal floating point processing.</li>
+<li>Sampling rate up to 384 kHz DXD (Pyramix and Ovation MassCore/Native).</li>
+<li>Sampling rate up to 192 kHz for Native (AU/VST/ST3/AAX/AAX AudioSuite).</li>
+</ul>
+</section>
+<section id="processing-specifications---syrah-studio-session" class="level3" data-number="10.0.2">
+<h3 data-number="10.0.2" class="anchored" data-anchor-id="processing-specifications---syrah-studio-session"><span class="header-section-number">10.0.2</span> Processing Specifications - Syrah Studio Session</h3>
+<ul>
+<li>Mono/Stereo Input/Output.</li>
+<li>64-bits internal floating point processing.</li>
+<li>Sampling rate up to 96 kHz.</li>
+</ul>
+</section>
+<section id="licence-requirements" class="level3" data-number="10.0.3">
+<h3 data-number="10.0.3" class="anchored" data-anchor-id="licence-requirements"><span class="header-section-number">10.0.3</span> Licence Requirements</h3>
+<p>In order to use Syrah or Syrah Studio Session, an iLok.com user account is required (the iLok USB Smart Key is not required).</p>
+</section>
+<section id="compatibility" class="level1" data-number="11">
+<h1 data-number="11"><span class="header-section-number">11</span> Compatibility</h1>
+<section id="windows---10-64-bits-only." class="level3" data-number="11.0.1">
+<h3 data-number="11.0.1" class="anchored" data-anchor-id="windows---10-64-bits-only."><span class="header-section-number">11.0.1</span> Windows - 10, 64 bits only.</h3>
+<ul>
+<li>VST (2.4) in 64 bit</li>
+<li>VST3 (3.1) in 64 bit</li>
+<li>AAX Native/DSP/AudioSuite, all in 64 bit*</li>
+<li>Waves WPAPI Native/Soundgrid in 64 bit</li>
+<li>VS3** Pyramix 10 and more in 64 bit and Ovation 6 and more</li>
+<li>AVID VENUE Systems</li>
+</ul>
+</section>
+<section id="macos-intel-and-arm---10.12-sierra-and-more-11-and-12." class="level3" data-number="11.0.2">
+<h3 data-number="11.0.2" class="anchored" data-anchor-id="macos-intel-and-arm---10.12-sierra-and-more-11-and-12."><span class="header-section-number">11.0.2</span> macOS (Intel and ARM) - 10.12 (Sierra) and more, 11 and 12.</h3>
+<ul>
+<li>VST (2.4) in 64 bit</li>
+<li>VST3 (3.1) in 64 bit</li>
+<li>AU in 64 bit</li>
+<li>AAX Native/DSP/AudioSuite, all in 64 bit*</li>
+<li>Waves WPAPI Native/Soundgrid in 64 bit</li>
+<li>AVID VENUE Systems</li>
+</ul>
+<p>** VS3 for Pyramix &amp; Ovation Native/MassCore sold only through Merging Technologies and authorized dealers.</p>
 
 
 </section>
@@ -464,10 +493,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
+      <a href="./Get_started.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Get started</span></span>
+      </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./Introduction.html" class="pagination-link">
-        <span class="nav-page-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Introduction</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./../flux_processing_release_notes.html" class="pagination-link">
+        <span class="nav-page-text"><span class="chapter-number">A</span>&nbsp; <span class="chapter-title">Release Notes</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
