@@ -6,10 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="FLUX:: Immersive">
-<meta name="dcterms.date" content="2023-02-06">
 
-<title>Solera</title>
+<title>Solera - 4&nbsp; Dynamic Section Settings</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -32,7 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./General_Settings.html" rel="next">
+<link href="./Display.html" rel="next">
+<link href="./Time_Related_Settings.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -74,7 +73,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Solera</span></a></li></ol></nav>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./Dynamic_Section_Settings.html"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Dynamic Section Settings</span></a></li></ol></nav>
       <a class="flex-grow-1" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
       </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -104,7 +103,7 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link active"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Solera</span></a>
+  <a href="./index.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Solera</span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -119,7 +118,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./Dynamic_Section_Settings.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Dynamic Section Settings</span></a>
+  <a href="./Dynamic_Section_Settings.html" class="sidebar-item-text sidebar-link active"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Dynamic Section Settings</span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -167,14 +166,23 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#solera" id="toc-solera" class="nav-link active" data-scroll-target="#solera"><span class="header-section-number">1</span> Solera</a>
-  <ul class="collapse">
-  <li><a href="#display-area" id="toc-display-area" class="nav-link" data-scroll-target="#display-area"><span class="header-section-number">1.1</span> Display Area</a></li>
-  <li><a href="#ms-mode" id="toc-ms-mode" class="nav-link" data-scroll-target="#ms-mode"><span class="header-section-number">1.2</span> MS Mode</a></li>
-  <li><a href="#side-chain-detector-equalizer" id="toc-side-chain-detector-equalizer" class="nav-link" data-scroll-target="#side-chain-detector-equalizer"><span class="header-section-number">1.3</span> Side Chain &amp; Detector Equalizer</a></li>
-  <li><a href="#delay" id="toc-delay" class="nav-link" data-scroll-target="#delay"><span class="header-section-number">1.4</span> Delay</a></li>
-  <li><a href="#dry-mix" id="toc-dry-mix" class="nav-link" data-scroll-target="#dry-mix"><span class="header-section-number">1.5</span> Dry Mix</a></li>
-  </ul></li>
+  <li><a href="#peak-detection-amount-22" id="toc-peak-detection-amount-22" class="nav-link active" data-scroll-target="#peak-detection-amount-22"><span class="header-section-number">4.1</span> Peak Detection Amount (22)</a></li>
+  <li><a href="#dynamic-ratio-23" id="toc-dynamic-ratio-23" class="nav-link" data-scroll-target="#dynamic-ratio-23"><span class="header-section-number">4.2</span> Dynamic Ratio (23)</a></li>
+  <li><a href="#dynamic-ratio-inverter-24" id="toc-dynamic-ratio-inverter-24" class="nav-link" data-scroll-target="#dynamic-ratio-inverter-24"><span class="header-section-number">4.3</span> Dynamic Ratio Inverter (24)</a></li>
+  <li><a href="#l.i.d.-level-independent-detector-25" id="toc-l.i.d.-level-independent-detector-25" class="nav-link" data-scroll-target="#l.i.d.-level-independent-detector-25"><span class="header-section-number">4.4</span> L.I.D. (Level Independent Detector) (25)</a></li>
+  <li><a href="#l.i.d..-threshold-26" id="toc-l.i.d..-threshold-26" class="nav-link" data-scroll-target="#l.i.d..-threshold-26"><span class="header-section-number">4.5</span> L.I.D.. Threshold (26)</a></li>
+  <li><a href="#l.i.d.-maximum-27" id="toc-l.i.d.-maximum-27" class="nav-link" data-scroll-target="#l.i.d.-maximum-27"><span class="header-section-number">4.6</span> L.I.D. Maximum (27)</a></li>
+  <li><a href="#threshold-28" id="toc-threshold-28" class="nav-link" data-scroll-target="#threshold-28"><span class="header-section-number">4.7</span> Threshold (28)</a></li>
+  <li><a href="#ratio-29" id="toc-ratio-29" class="nav-link" data-scroll-target="#ratio-29"><span class="header-section-number">4.8</span> Ratio (29)</a></li>
+  <li><a href="#infinite-30" id="toc-infinite-30" class="nav-link" data-scroll-target="#infinite-30"><span class="header-section-number">4.9</span> Infinite (30)</a></li>
+  <li><a href="#range-31" id="toc-range-31" class="nav-link" data-scroll-target="#range-31"><span class="header-section-number">4.10</span> Range (31)</a></li>
+  <li><a href="#knee-32" id="toc-knee-32" class="nav-link" data-scroll-target="#knee-32"><span class="header-section-number">4.11</span> Knee (32)</a></li>
+  <li><a href="#dynamic-section-onoff-33" id="toc-dynamic-section-onoff-33" class="nav-link" data-scroll-target="#dynamic-section-onoff-33"><span class="header-section-number">4.12</span> Dynamic Section On/Off (33)</a></li>
+  <li><a href="#compressor-section-selector-35" id="toc-compressor-section-selector-35" class="nav-link" data-scroll-target="#compressor-section-selector-35"><span class="header-section-number">4.13</span> Compressor Section Selector (35)</a></li>
+  <li><a href="#dcompressor-section-selector-36" id="toc-dcompressor-section-selector-36" class="nav-link" data-scroll-target="#dcompressor-section-selector-36"><span class="header-section-number">4.14</span> DCompressor Section Selector (36)</a></li>
+  <li><a href="#expander-section-selector-37" id="toc-expander-section-selector-37" class="nav-link" data-scroll-target="#expander-section-selector-37"><span class="header-section-number">4.15</span> Expander Section Selector (37)</a></li>
+  <li><a href="#dexpander-section-selector-38" id="toc-dexpander-section-selector-38" class="nav-link" data-scroll-target="#dexpander-section-selector-38"><span class="header-section-number">4.16</span> DExpander Section Selector (38)</a></li>
+  <li><a href="#dynamic-section-activity-34" id="toc-dynamic-section-activity-34" class="nav-link" data-scroll-target="#dynamic-section-activity-34"><span class="header-section-number">4.17</span> Dynamic Section Activity (34)</a></li>
   </ul>
 </nav>
     </div>
@@ -183,26 +191,14 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Solera</h1>
+<h1 class="title"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Dynamic Section Settings</span></h1>
 </div>
 
 
 
 <div class="quarto-title-meta">
 
-    <div>
-    <div class="quarto-title-meta-heading">Author</div>
-    <div class="quarto-title-meta-contents">
-             <p>FLUX:: Immersive </p>
-          </div>
-  </div>
     
-    <div>
-    <div class="quarto-title-meta-heading">Published</div>
-    <div class="quarto-title-meta-contents">
-      <p class="date">February 6, 2023</p>
-    </div>
-  </div>
   
     
   </div>
@@ -210,48 +206,21 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<section id="solera" class="level1" data-number="1">
-<h1 data-number="1"><span class="header-section-number">1</span> Solera</h1>
-<p><a href="https://www.flux.audio/project/solera/">Product Page</a> | <a href="https://shop.flux.audio/en_US/products/solera">Shop Page</a></p>
-<p>The Solera dynamic processor is a comprehensive dynamic processor providing a compressor, expander, de-compressor and de-expander, that each may be enabled individually, all processing in parallel using one single common detector.</p>
-<p>Each of the dynamics sections employs independent Dynamic Ratio and L.I.D. (Level Independent Detector) settings, two parameters that are kind of unique to dynamic processing, using the dynamic range content of the signal and not just the signal levels as standard dynamics processors do.</p>
-<p>Dynamic Ratio (23) is controlling the amount of auto-ratio determined by the signal dynamics and the manual ratio setting.</p>
-<p>L.I.D. (25) (Level Independent Detector) controls the amount of auto-threshold determined by the signal dynamics and the manual threshold value, providing processing of the audio signal independently of the sound level and instead in regards to the signal dynamic range.</p>
-<section id="display-area" class="level2" data-number="1.1">
-<h2 data-number="1.1" class="anchored" data-anchor-id="display-area"><span class="header-section-number">1.1</span> Display Area</h2>
-<p>For full visual control over the processing Solera provides a comprehensive display area including:</p>
-<ul>
-<li>Resultant dynamics curve</li>
-<li>Parametric curve for the side-chain EQ</li>
-<li>Input level (VU-Meter referenced to -16 dB FS by default)</li>
-<li>Output level</li>
-<li>Resultant envelope (Compression, De-Compression, Expansion, De-Expansion &amp; Clipper activity)</li>
-<li>Dynamic difference between input and output</li>
-<li>Level difference between input and output</li>
-</ul>
+<section id="peak-detection-amount-22" class="level2" data-number="4.1">
+<h2 data-number="4.1" class="anchored" data-anchor-id="peak-detection-amount-22"><span class="header-section-number">4.1</span> Peak Detection Amount (22)</h2>
+<p>Percentage of the instant peak value used to feed the detector section, making the dynamic processing more sensitive to audio transients. 0 % means 100 % RMS signal feeding the detector section; 100 % means only peak signal is feeding the detector section, and 50 % is fifty-fifty of each.</p>
+<p>Unit: %<br>
+Value Range: 0 / 100<br>
+Step: 1<br>
+Default Value: 0 %</p>
 </section>
-<section id="ms-mode" class="level2" data-number="1.2">
-<h2 data-number="1.2" class="anchored" data-anchor-id="ms-mode"><span class="header-section-number">1.2</span> MS Mode</h2>
-<p>To conform with the demands of serious audio mastering Solera features a Mid/Side (MS) encoder/decoder section encoding the signal from the stereo inputs by summing left and right channels to produce the Mid, and by phase switching the right channel from the left channel to produce the Side signal.</p>
-<p>Processing M and S as separate components with a compressor makes it possible to achieve results that would be impossible with a regular stereo setup.</p>
-<p><strong>Example:</strong></p>
-<p>A bass drum in the stereo center with a fluctuating level surrounded by a synthesizer pad. The M channel featuring the bass drum can be processed without affecting the S channel featuring the Synthesizer pad. Changing the S gain when decoding allows controlling the stereo width using MS Width (20).</p>
-<p>The Solera MS mode should only be used with stereo signal and it is strongly recommended to avoid this on already MS encoded signal.</p>
-</section>
-<section id="side-chain-detector-equalizer" class="level2" data-number="1.3">
-<h2 data-number="1.3" class="anchored" data-anchor-id="side-chain-detector-equalizer"><span class="header-section-number">1.3</span> Side Chain &amp; Detector Equalizer</h2>
-<p>Solera features a three band Detector Equalizer for frequency-sensitive processing. The Detector EQ does not affect the direct audio signal, but instead it applies to the signal detection channel that drives the processing, offering the option to shape the actual processing to be performed within a certain frequency range. For further control of the processing, optional external side-chain signal feeding is provided.</p>
-<p>Even though the Detector EQ parameters value ranges may seem extreme, with a Q-Factor up to 10, frequencies above 20 KHz and with cumulative gain, really smooth results can be achieved without deteriorating artefacts even when dealing with frequencies out of the audio spectrum. The purpose with this is to be able to use a part of the correction and include it into the audio spectrum; this is one of the secrets behind the “Air” correction often featured on vintage audio processors.</p>
-<p>The wide range processing ensures a perfect accuracy in terms of phase and propagation time. Filtering the control signal upstream of the envelope gain generation allows for controlling the overall tonal balance by increasing or decreasing the processing of a particular part of the audio spectrum.</p>
-<p>Reducing the gain for the low frequencies before the detection, increase the low frequencies in the processed signal if the processing settings reduce the gain according to the signal level. With this configuration, increasing the gain for the high frequencies makes the processing more sensitive to this particular part of the audio spectrum, and turns Solera into a sibilance controller.</p>
-</section>
-<section id="delay" class="level2" data-number="1.4">
-<h2 data-number="1.4" class="anchored" data-anchor-id="delay"><span class="header-section-number">1.4</span> Delay</h2>
-<p>A delay line can be inserted into the processed signal with the main purpose to produce a zero/null attack time for the processing when the delay value equals the Attack time. The Auto (46) button automatically sets the delay value according to the Attack time. Setting the delay time lower than the Attack time preserves the peaks from the processing.</p>
-</section>
-<section id="dry-mix" class="level2" data-number="1.5">
-<h2 data-number="1.5" class="anchored" data-anchor-id="dry-mix"><span class="header-section-number">1.5</span> Dry Mix</h2>
-<p>The original dry signal can be mixed with the processed material using the Dry Mix (2) dial. The original audio peaks are kept and added to the processed sound to preserve the sensitive information of the sound attacks.</p>
+<section id="dynamic-ratio-23" class="level2" data-number="4.2">
+<h2 data-number="4.2" class="anchored" data-anchor-id="dynamic-ratio-23"><span class="header-section-number">4.2</span> Dynamic Ratio (23)</h2>
+<p>The Dynamic Ratio setting relaxes the ratio applied to the processor section when the detected signal dynamic rises, and literally opens the sound, increases the dynamic impression and maintains some crest by adjusting the ratio of every dynamic processing section in realtime, both their current ratio settings and the signal content (mainly dynamic range).</p>
+<p>Unit: %<br>
+Value Range: 0 / 100<br>
+Step: 1<br>
+Default Value: 0 %</p>
 <div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -262,13 +231,113 @@ Note
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Note that the Dry Mix function takes the delay that may be introduced by the processing into account. The summing is done before the clipper stage, and the displayed gain also reflects the Dry Mix setting.</p>
+<p>To start understanding this setting and easily hear it, take a full mixed drum kit or a complete mix with punchy drums, set the compression threshold and ratio to values that makes it close to a pumping or an aggressive compression. Then increase the output gain to compensate the gain lost and toggle between 0 and 100% of Dynamic Ratio. At 100 % you should hear more air in the sound, more transient and less of the compression impression, especially the attack.</p>
 </div>
 </div>
-<p><img src="https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Plugins/solera/solera_02.png" class="img-fluid"></p>
-
-
 </section>
+<section id="dynamic-ratio-inverter-24" class="level2" data-number="4.3">
+<h2 data-number="4.3" class="anchored" data-anchor-id="dynamic-ratio-inverter-24"><span class="header-section-number">4.3</span> Dynamic Ratio Inverter (24)</h2>
+<p>When engaged, the behaviour of the Dynamic Ratio is inverted.<br>
+The ratio value is increased depending of the detected signal dynamics.</p>
+</section>
+<section id="l.i.d.-level-independent-detector-25" class="level2" data-number="4.4">
+<h2 data-number="4.4" class="anchored" data-anchor-id="l.i.d.-level-independent-detector-25"><span class="header-section-number">4.4</span> L.I.D. (Level Independent Detector) (25)</h2>
+<p>Controls the amount of auto-threshold determined by the signal dynamics and the manual threshold value, providing processing of the audio signal independently of the sound level and instead in regards to the signal dynamic range.</p>
+<p>Unit: %<br>
+Value Range: 0 / 100<br>
+Step: 1<br>
+Default Value: 0 %</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Use a full song mix. Set the ratio to 3-4 for the compression to start working and the threshold of the compressor to the max value, the compressor will stop working because the sound level will never reach the threshold. Now increase the L.I.D. and you will hear the compression working again. Next decrease or increase the input gain, the compression will continue to work equally completely independent of the sound level, only depending on Ratio, Knee and sound content.</p>
+<p>When you have too much dynamic in the sound, going from -3, -6 dB Vu (or less) to +12 dB, and you want to compress the low levels, you will get a pumping effect when the sound reaches the high levels. The only thing to do with a standard compressor is to increase the threshold to retain the airiness in the sound. But when this is done the compressor will not work any more on the low levels and you will hear differences (in term density, live space, grain etc.) especially when the compressor starts working.</p>
+<p>With Solera, adjust the threshold and ratio on the high levels to what you find okay, then increase the L.I.D. (from 20 to 50 %) and listen to the low levels and especially the transition between low and high levels. You can also increase the ratio for a stronger effect, and you will notice that the compression will still be present and still affect the high/loud levels (unless you set 100% L.I.D.) and make the compression very smooth with no more pumping. In addition to the Dynamic Ratio function you will be able to set a constant and very natural envelope that allows to increase low levels, low frequency and to keep the important transients.</p>
+</div>
+</div>
+</section>
+<section id="l.i.d..-threshold-26" class="level2" data-number="4.5">
+<h2 data-number="4.5" class="anchored" data-anchor-id="l.i.d..-threshold-26"><span class="header-section-number">4.5</span> L.I.D.. Threshold (26)</h2>
+<p>Sets the gain range of the L.I.D. parameter.</p>
+<ul>
+<li>Up: Increasing of the L.I.D. action.</li>
+<li>Down: Decreasing of the L.I.D. action.</li>
+</ul>
+<p>Two green lines on the Dynamic Activity display reflect the current L.I.D. threshold value. For Compressor and DCompressor sections, the L.I.D. action is effective only when the orange Dynamic Activity (18) exceeds the area between the two green lines. For Expander and DExpander sections, the L.I.D. action is effective only when the orange Dynamic Activity (18) stays inside the area between the two green lines.</p>
+</section>
+<section id="l.i.d.-maximum-27" class="level2" data-number="4.6">
+<h2 data-number="4.6" class="anchored" data-anchor-id="l.i.d.-maximum-27"><span class="header-section-number">4.6</span> L.I.D. Maximum (27)</h2>
+<p>When engaged, the threshold for the processing is determined by the maximum values from RMS/peak detection OR from the signal dynamic detection. The L.I.D. Threshold is still active, but the L.I.D. mix button is disabled. This feature allows the whole process to be more reactive to the signal content, very efficient when used on drum tracks.</p>
+</section>
+<section id="threshold-28" class="level2" data-number="4.7">
+<h2 data-number="4.7" class="anchored" data-anchor-id="threshold-28"><span class="header-section-number">4.7</span> Threshold (28)</h2>
+<p>Sets the threshold of the specific dynamic processing section. This dB scale refers to an RMS value.</p>
+<p>The threshold effective value is modified by the L.I.D, L.I.D. Threshold and L.I.D. Maximum settings.</p>
+<p>Unit: dB<br>
+Value Ranges:<br>
+-32 to +16 (Compressor/DCompressor)<br>
+-80 to +16 (Expander/DExpander)<br>
+Default Value: 0</p>
+</section>
+<section id="ratio-29" class="level2" data-number="4.8">
+<h2 data-number="4.8" class="anchored" data-anchor-id="ratio-29"><span class="header-section-number">4.8</span> Ratio (29)</h2>
+<p>Sets the ratio of the specific dynamic processing section. The ratio effective value is modified by the Dynamic Ratio amount.</p>
+<p>Unit: dB<br>
+Value Range: 1 to 10<br>
+Step: 0.01<br>
+Default Value: 1</p>
+</section>
+<section id="infinite-30" class="level2" data-number="4.9">
+<h2 data-number="4.9" class="anchored" data-anchor-id="infinite-30"><span class="header-section-number">4.9</span> Infinite (30)</h2>
+<p>Sets the ratio to its maximum possible value depending of the dynamic section.<br>
+The DCcompressor section is limited to 12 when this button is engaged</p>
+</section>
+<section id="range-31" class="level2" data-number="4.10">
+<h2 data-number="4.10" class="anchored" data-anchor-id="range-31"><span class="header-section-number">4.10</span> Range (31)</h2>
+<p>Sets the maximum allowed gain variation for a specific dynamic processing section.</p>
+<p>Unit: dB<br>
+Value Range: 0 to 48/140/24/16 (Compressor/Expander/DCompressor/DExpander)<br>
+Default Value: 24/96/12/12</p>
+</section>
+<section id="knee-32" class="level2" data-number="4.11">
+<h2 data-number="4.11" class="anchored" data-anchor-id="knee-32"><span class="header-section-number">4.11</span> Knee (32)</h2>
+<p>Sets the smoothness of the transmission curve for the specific dynamic processing section. The curve is smoothed around the threshold value of the dB amount set with the knee value.</p>
+<p>Unit: dB<br>
+Value Range: 0 / +24<br>
+Default Value: 0</p>
+</section>
+<section id="dynamic-section-onoff-33" class="level2" data-number="4.12">
+<h2 data-number="4.12" class="anchored" data-anchor-id="dynamic-section-onoff-33"><span class="header-section-number">4.12</span> Dynamic Section On/Off (33)</h2>
+<p>Activates the specific section.</p>
+</section>
+<section id="compressor-section-selector-35" class="level2" data-number="4.13">
+<h2 data-number="4.13" class="anchored" data-anchor-id="compressor-section-selector-35"><span class="header-section-number">4.13</span> Compressor Section Selector (35)</h2>
+<p>Selects the Compressor section.</p>
+</section>
+<section id="dcompressor-section-selector-36" class="level2" data-number="4.14">
+<h2 data-number="4.14" class="anchored" data-anchor-id="dcompressor-section-selector-36"><span class="header-section-number">4.14</span> DCompressor Section Selector (36)</h2>
+<p>Selects the DCompressor section.</p>
+</section>
+<section id="expander-section-selector-37" class="level2" data-number="4.15">
+<h2 data-number="4.15" class="anchored" data-anchor-id="expander-section-selector-37"><span class="header-section-number">4.15</span> Expander Section Selector (37)</h2>
+<p>Selects the Expander section.</p>
+</section>
+<section id="dexpander-section-selector-38" class="level2" data-number="4.16">
+<h2 data-number="4.16" class="anchored" data-anchor-id="dexpander-section-selector-38"><span class="header-section-number">4.16</span> DExpander Section Selector (38)</h2>
+<p>Selects the DExpander section.</p>
+</section>
+<section id="dynamic-section-activity-34" class="level2" data-number="4.17">
+<h2 data-number="4.17" class="anchored" data-anchor-id="dynamic-section-activity-34"><span class="header-section-number">4.17</span> Dynamic Section Activity (34)</h2>
+<p>The gain is displayed in a 12 dB scale from left to right for gain increase and from right to left for gain decrease for the corresponding dynamic section.</p>
+
+
 </section>
 
 </main> <!-- /main -->
@@ -507,10 +576,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
+      <a href="./Time_Related_Settings.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Time Related Settings</span></span>
+      </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./General_Settings.html" class="pagination-link">
-        <span class="nav-page-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">General Settings</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./Display.html" class="pagination-link">
+        <span class="nav-page-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Display</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
