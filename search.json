@@ -2,93 +2,100 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Pure Compressor",
+    "title": "Pure DCompressor",
     "section": "",
-    "text": "1 Pure Compressor\nProduct Page | Shop Page\n\n\nPure Compressor is the compressor section of the Solera. A compressor is used to automatically reduce the gain above the Threshold. Pure Compressor produces a wide range of compressions from ultra clean subtle compressions to classic heavy pumping ones - It’s all up to your artistic choices, not to the technology limitations.\nThe Threshold value is expressed in dB - The plug-in compares it to the RMS (Root Mean Square or effective power) of the input signal. This value is displayed as a green rectangle on the input level meter.\nThe level variations above the threshold are affected by the Ratio value.\nFor a 1:1 compression ratio, the processed signal isn’t affected by the processing: A 1 dB variation above the threshold at the input is reflected by a 1 dB variation at the output. Try applying a 3:1 ratio, if the input signal rises above 3 dB the threshold value, the output signal rises only from 1 dB: Here is the compressor action. The input signal gain is reduced by a 3:1 ratio above the threshold point.\nThe Knee sets how progressive is the start up of the compressor action – In other words, It smoothes the transition point between no processing and full processing. If the Knee value expressed in dB is increased, the progressiveness of the action will be spread below and above the threshold point.\nThe Range value sets the processing maximum action. No gain variation can exceed this value."
-  },
-  {
-    "objectID": "General_Settings.html#input-gain-1",
-    "href": "General_Settings.html#input-gain-1",
-    "title": "2  General Settings",
-    "section": "2.1 Input Gain (1)",
-    "text": "2.1 Input Gain (1)\nUnit: dB\nValue Range: -48 / +48\nStep: 0.01\nDefault Value: 0 dB\nSets the gain applied to the dynamic processing input."
+    "text": "1 Pure DCompressor\nProduct Page | Shop Page\n\n\nPure DCompressor is the de-compressor section of the Solera. A De-compressor must be used to automatically increase the peak dynamic. Pure DCompressor allows you to restore the original dynamic of a sound. It‘s very useful for heavily compressed signal. Pure DCompressor adds some naturalness.\nThe Threshold value is expressed in dB – The plug-in compares it to the RMS (Root Mean Square or effective power) of the input signal. This value is displayed as a green rectangle on the input level meter. The level variations above the threshold are affected by the Ratio value. For a 1:1 de-compressor ratio, the processed signal isn’t affected by the processing: A 1 dB variation above the threshold at the input is reflected by a 1 dB variation at the output. Let’s apply now a 3:1 ratio. If the input signal rises above 1 dB the threshold value, the output signal rises from 3 dB: Here is the de-compressor action. The input signal gain is increased by a 3:1 ratio above the threshold point.\nThe Knee sets how progressive is the start up of the compressor action – In other words, It smoothes the transition point between no processing and full processing. If the Knee value expressed in dB is increased, the progressiveness of the action will be spread below and above the threshold point. The Range value sets the processing maximum action. No gain variation can exceed this value."
   },
   {
     "objectID": "General_Settings.html#output-gain-2",
     "href": "General_Settings.html#output-gain-2",
     "title": "2  General Settings",
-    "section": "2.2 Output Gain (2)",
-    "text": "2.2 Output Gain (2)\nUnit: dB\nValue Range: -48 / +48\nStep: 0.01\nDefault Value: 0 dB\nSets the global gain applied to the dynamic processing output."
+    "section": "2.1 Output Gain (2)",
+    "text": "2.1 Output Gain (2)\nUnit: dB\nValue Range: -48 / +48\nStep: 0.01\nDefault Value: 0 dB\nSets the global gain applied to the dynamic processing output."
   },
   {
     "objectID": "General_Settings.html#invert-phase-3",
     "href": "General_Settings.html#invert-phase-3",
     "title": "2  General Settings",
-    "section": "2.3 Invert Phase (3)",
-    "text": "2.3 Invert Phase (3)\nDefault Value: Off\nWhen this button is engaged, the phase of the processed signal is inverted.\nThis 180° phase shift is also applied on the Solo of the detector Equalizer."
+    "section": "2.2 Invert Phase (3)",
+    "text": "2.2 Invert Phase (3)\nDefault Value: Off\nWhen this button is engaged, the phase of the processed signal is inverted.\nThis 180° phase shift is also applied on the Solo of the detector Equalizer."
   },
   {
     "objectID": "General_Settings.html#dry-mix-4",
     "href": "General_Settings.html#dry-mix-4",
     "title": "2  General Settings",
-    "section": "2.4 Dry Mix (4)",
-    "text": "2.4 Dry Mix (4)\nDefault Value: -144 dB\nThis slider controls the amount of the original signal that can be added to the processed audio. This feature is dedicated to mastering works requiring both heavy processing and subtle control. The mix is done before the output gain."
+    "section": "2.3 Dry Mix (4)",
+    "text": "2.3 Dry Mix (4)\nDefault Value: -144 dB\nThis slider controls the amount of the original signal that can be added to the processed audio. This feature is dedicated to mastering works requiring both heavy processing and subtle control. The mix is done before the output gain."
   },
   {
     "objectID": "General_Settings.html#clipper-knee-5",
     "href": "General_Settings.html#clipper-knee-5",
     "title": "2  General Settings",
-    "section": "2.5 Clipper Knee (5)",
-    "text": "2.5 Clipper Knee (5)\nUnit: dB\nValue Range: 0 / +3\nStep: 0.01\nDefault Value: 1 dB\nSets the smoothness of the transmission curve."
+    "section": "2.4 Clipper Knee (5)",
+    "text": "2.4 Clipper Knee (5)\nUnit: dB\nValue Range: 0 / +3\nStep: 0.01\nDefault Value: 1 dB\nSets the smoothness of the transmission curve."
   },
   {
     "objectID": "General_Settings.html#enable-clipper-6",
     "href": "General_Settings.html#enable-clipper-6",
     "title": "2  General Settings",
-    "section": "2.6 Enable Clipper (6)",
-    "text": "2.6 Enable Clipper (6)\nThe Clipper is the very last stage of the processing chain."
+    "section": "2.5 Enable Clipper (6)",
+    "text": "2.5 Enable Clipper (6)\nThe Clipper is the very last stage of the processing chain."
   },
   {
     "objectID": "General_Settings.html#clipper-celling-7",
     "href": "General_Settings.html#clipper-celling-7",
     "title": "2  General Settings",
-    "section": "2.7 Clipper Celling (7)",
-    "text": "2.7 Clipper Celling (7)\nThe Clipper is the very last stage of the processing chain."
+    "section": "2.6 Clipper Celling (7)",
+    "text": "2.6 Clipper Celling (7)\nThe Clipper is the very last stage of the processing chain."
   },
   {
     "objectID": "General_Settings.html#bypass-50",
     "href": "General_Settings.html#bypass-50",
     "title": "2  General Settings",
-    "section": "2.8 Bypass (50)",
-    "text": "2.8 Bypass (50)\nIt’s a global bypass."
+    "section": "2.7 Bypass (50)",
+    "text": "2.7 Bypass (50)\nIt’s a global bypass."
   },
   {
     "objectID": "General_Settings.html#channel-processing-selector-8",
     "href": "General_Settings.html#channel-processing-selector-8",
     "title": "2  General Settings",
-    "section": "2.9 Channel Processing Selector (8)",
-    "text": "2.9 Channel Processing Selector (8)\nWhen operating on a multi-channel bus, all channels are processed by default, but it can be useful to remove some channels from the processing for some reasons. This selector allows to keep the unchecked channels untouched. This feature may be used if different settings are required. Several instancies of a plug-in can be used in series, each one processing a particular channel with its own settings."
+    "section": "2.8 Channel Processing Selector (8)",
+    "text": "2.8 Channel Processing Selector (8)\nWhen operating on a multi-channel bus, all channels are processed by default, but it can be useful to remove some channels from the processing for some reasons. This selector allows to keep the unchecked channels untouched.\nThis feature may be used if different settings are required. Several instances of a plug-in can be used in series, each one processing a particular channel with its own settings."
   },
   {
     "objectID": "General_Settings.html#channel-side-chain-routing-9",
     "href": "General_Settings.html#channel-side-chain-routing-9",
     "title": "2  General Settings",
-    "section": "2.10 Channel Side Chain Routing (9)",
-    "text": "2.10 Channel Side Chain Routing (9)\nSide chain is only available for mono and stereo. When operating on a multi-channel bus, all channels are feeding the side chain by default, but it can be useful to prevent some channels feeding the side chain for some reasons. The external side chain button is the one that appear with the channel count + 1 label (for mono, label is “2”, for stereo label is “3”).\nHere are the different behaviors for external side chain depending of the host applications:\n\nAudio Unit : The side chain button is displayed when the side chain is connected by the host.\nAAX : The side chain button is only active if a side chain buss is selected from the plug-in handler.\nVST : No side chain feature is available."
+    "section": "2.9 Channel Side Chain Routing (9)",
+    "text": "2.9 Channel Side Chain Routing (9)\nSide chain is only available for mono and stereo.\nWhen operating on a multi-channel bus, all channels are feeding the side chain by default, but it can be useful to prevent some channels feeding the side chain for some reasons. The external side chain button is the one that appear with the channel count + 1 label (for mono, label is “2”, for stereo label is “3”).\nHere are the different behaviors for external side chain depending of the host applications:\n\nAudio Unit : The side chain button is displayed when the side chain is connected by the host.\nAAX : The side chain button is only active if a side chain buss is selected from the plug-in handler.\nVST : No side chain feature is available."
   },
   {
     "objectID": "General_Settings.html#ms-width-control-10",
     "href": "General_Settings.html#ms-width-control-10",
     "title": "2  General Settings",
-    "section": "2.11 MS Width Control (10)",
-    "text": "2.11 MS Width Control (10)\nUnit: dB\nValue Range: -6 / +6\nStep: 0.01\nDefault Value: 0\nSets the stereo width of the processed signal. A -6 dB value deceases the stereo width. A +6 dB value increases the wideness of the stereo mix but can produce phase issue."
+    "section": "2.10 MS Width Control (10)",
+    "text": "2.10 MS Width Control (10)\nUnit: dB\nValue Range: -6 / +6\nStep: 0.01\nDefault Value: 0\nSets the stereo width of the processed signal. A -6 dB value deceases the stereo width. A +6 dB value increases the wideness of the stereo mix but can produce phase issue."
   },
   {
     "objectID": "General_Settings.html#ms-mode-onoff-11",
     "href": "General_Settings.html#ms-mode-onoff-11",
     "title": "2  General Settings",
-    "section": "2.12 MS Mode On/Off (11)",
-    "text": "2.12 MS Mode On/Off (11)\nDefault Value: Off\nEnables one MS encoding matrix at the input and one MS decoding matrix at the output of the dynamic processing in order to control the stereo width of the mix. When engaged, the side chain is fed by a MS encoded signal that is reflected in the display section. M channel corresponds to the normal left channel. And the S channel corresponds to the normal right channel This feature is only available when two channels (no more, no less) are processed."
+    "section": "2.11 MS Mode On/Off (11)",
+    "text": "2.11 MS Mode On/Off (11)\nDefault Value: Off\nEnables one MS encoding matrix at the input and one MS decoding matrix at the output of the dynamic processing in order to control the stereo width of the mix. When engaged, the side chain is fed by a MS encoded signal that is reflected in the display section. M channel corresponds to the normal left channel. And the S channel corresponds to the normal right channel This feature is only available when two channels (no more, no less) are processed."
+  },
+  {
+    "objectID": "General_Settings.html#link-12",
+    "href": "General_Settings.html#link-12",
+    "title": "2  General Settings",
+    "section": "2.12 Link (12)",
+    "text": "2.12 Link (12)\nDefault: Enabled\nBy default the maximum value issued from all channels feeding the side chain is retained as source for processing. This manner, the space information is kept for the processed multi-channel signals.\nWhen disabled, every channel uses its own value for individual processing.\nThis configuration may be used in conjunction with the MS width section which encode the signal in MS before processing, and decode at the output. This manner, the M signal can be processed while keeping the S channel untouched."
+  },
+  {
+    "objectID": "General_Settings.html#smooth-13",
+    "href": "General_Settings.html#smooth-13",
+    "title": "2  General Settings",
+    "section": "2.13 Smooth (13)",
+    "text": "2.13 Smooth (13)\nDefault: Enabled\nWhen engaged, the side chain is set to preserve bass frequencies from excessive processing."
   },
   {
     "objectID": "Time_Related_Settings.html#delay-14",
@@ -109,7 +116,7 @@
     "href": "Time_Related_Settings.html#mode-16",
     "title": "3  Time Related Settings",
     "section": "3.3 Mode (16)",
-    "text": "3.3 Mode (16)\nDefault Value: Solera\n8 different detection modes are available:\n\nSolera: The Attack setting also controls the integration time for RMS detection. When “Auto” is engaged for the delay value, the produced attack time is zero.\nSolera Feed Backward: The Attack setting also controls the integration time for RMS detection which is done on the output of the processor. This mode disables the Delay feature. Note also that the Solera Feed Backward prevents to use the external side chain because it’s the processed signal which feed the side chain.\nClassic Fast: The integration time for RMS detection is 10 ms with no direct relation with the Attack setting. But when “Auto” is engaged for the delay value, the produced attack time is zero.\nClassic Medium: The integration time for RMS detection is 40 ms with no direct relation with the Attack setting. But when “Auto” is engaged for the delay value, the produced attack time is zero.\nClassic Slow: The integration time for RMS detection is 80 ms with no direct relation with the Attack setting. But when “Auto” is engaged for the delay value, the produced attack time is zero.\nClassic Feed Backward Fast: The integration time is 10 ms for RMS detection which is done on the output of the processor. This mode disables the Delay feature. Note also that the Feed Backward mode prevents to use the external side chain because it’s the processed signal which feed the side chain.\nClassic Feed Backward Medium: The integration time is 40 ms for RMS detection which is done on the output of the processor. Note also that the Feed Backward mode prevents to use the external side chain because it’s the processed signal which feed the side chain.\nClassic Feed Backward Slow: The integration time is 80 ms for RMS detection which is done on the output of the processor. Note also that the Feed Backward mode prevents to use the external side chain because it’s the processed signal which feed the side chain.\n\n\n\n\n\n\n\nNote\n\n\n\nThese Feed Backward modes have been inspired by vintage hardware architectures. they create a sort of auto regulation of the processing which produces a naturally beefy sound."
+    "text": "3.3 Mode (16)\nDefault Value: Solera\n8 different detection modes are available:\n\nSolera: The Attack setting also controls the integration time for RMS detection. When “Auto” is engaged for the delay value, the produced attack time is zero.\nSolera Feed Backward: The Attack setting also controls the integration time for RMS detection which is done on the output of the processor. This mode disables the Delay feature. Note also that the Solera Feed Backward prevents to use the external side chain because it’s the processed signal which feed the side chain.\nClassic Fast: The integration time for RMS detection is 10 ms with no direct relation with the Attack setting. But when “Auto” is engaged for the delay value, the produced attack time is zero.\nClassic Medium: The integration time for RMS detection is 40 ms with no direct relation with the Attack setting. But when “Auto” is engaged for the delay value, the produced attack time is zero.\nClassic Slow: The integration time for RMS detection is 80 ms with no direct relation with the Attack setting. But when “Auto” is engaged for the delay value, the produced attack time is zero.\nClassic Feed Backward Fast: The integration time is 10 ms for RMS detection which is done on the output of the processor. This mode disables the Delay feature. Note also that the Feed Backward mode prevents to use the external side chain because it’s the processed signal which feed the side chain.\nClassic Feed Backward Medium: The integration time is 40 ms for RMS detection which is done on the output of the processor. Note also that the Feed Backward mode prevents to use the external side chain because it’s the processed signal which feed the side chain.\nClassic Feed Backward Slow: The integration time is 80 ms for RMS detection which is done on the output of the processor. Note also that the Feed Backward mode prevents to use the external side chain because it’s the processed signal which feed the side chain.\n\nThese Feed Backward modes have been inspired by vintage hardware architectures. they create a sort of auto regulation of the processing which produces a naturally beefy sound."
   },
   {
     "objectID": "Time_Related_Settings.html#attack-17",
@@ -123,7 +130,7 @@
     "href": "Time_Related_Settings.html#hold-18",
     "title": "3  Time Related Settings",
     "section": "3.5 Hold (18)",
-    "text": "3.5 Hold (18)\nUnit: ms\nValue Range: 0 ms / 500 ms.\nDefault Value: 0 ms\nThis parameter is the only one in the time related settings, that is independent per dynamic processor. The compressor and the expander may have different hold time.\n\n\n\n\n\n\nNote\n\n\n\nUsed in the Expander section, this setting allows very precise gating of drum tracks. It can also be used for creative purpose on the other dynamic sections."
+    "text": "3.5 Hold (18)\nUnit: ms\nValue Range: 0 ms / 500 ms.\nDefault Value: 0 ms\nThis parameter is the only one in the time related settings, that is independent per dynamic processor. The compressor and the expander may have different hold time.\nUsed in the Expander section, this setting allows very precise gating of drum tracks. It can also be used for creative purpose on the other dynamic sections."
   },
   {
     "objectID": "Time_Related_Settings.html#release-mode-19",
@@ -165,7 +172,7 @@
     "href": "Dynamic_Section_Settings.html#threshold-24",
     "title": "4  Dynamic Section Settings",
     "section": "4.1 Threshold (24)",
-    "text": "4.1 Threshold (24)\nUnit: dB\nValue Range: -32 to +16\nDefault Value: 0\nSets the threshold of the specific dynamic processing section. This dB scale refers to an RMS value. The threshold effective value is modified by the L.I.D., the L.I.D. Threshold and, the L.I.D. Maximum settings."
+    "text": "4.1 Threshold (24)\nUnit: dB\nValue Range: -32 to +16\nDefault Value: 0\nSets the threshold of the specific dynamic processing section. This dB scale refers to an RMS value.\nThe threshold effective value is modified by the L.I.D., the L.I.D. Threshold and, the L.I.D. Maximum settings."
   },
   {
     "objectID": "Dynamic_Section_Settings.html#ratio-25",
@@ -221,7 +228,7 @@
     "href": "Dynamic_Section_Settings.html#l.i.d..-level-independent-detector-32",
     "title": "4  Dynamic Section Settings",
     "section": "4.9 L.I.D.. (Level Independent Detector) (32)",
-    "text": "4.9 L.I.D.. (Level Independent Detector) (32)\nUnit: %\nValue Range: 0 / 100\nStep: 1\nDefault Value: 0 %\nAllows process the audio signal independently of the sound level but regarding the signal dynamic range. It is mixed with the standard compression scheme.\n\n\n\n\n\n\nNote\n\n\n\nTake a piece of full mixed music, set the ratio to 3-4 and the compression will start working. Now set the threshold of the compressor to the maximum value, the compressor will stop working because the sound level will never reach the threshold. Then increase the L.I.D.. and you will see (and hear) the compression working again!!! Now decrease or increase the input gain (in Solera or before, as you want) and you will see that the compression will continue to work equally; it’s totally, completely independent of the sound level and depends only on Ratio, Knee and sound content. How can this be used? When you have too much dynamic in the sound, going for e.g. from -3, -6 dB Vu (or less) to +12 dB; If you want to compress the low levels you will hear the sound ™pumping∫ when the sound reaches the High levels and the only thing to do with standard compressor will be to increase the threshold to rescue some airiness in the sound. But when doing that the compressor will not work any more on the low levels and you will hear some sound differences (in term density, live space, grain etcº ) especially when the compressor starts working. With Solera L.I.D.., adjust the threshold and ratio on the High levels to what you think OK, then increase the L.I.D.. (from 20 to 50 %) and listen now the low levels and especially the transition between Low and High levels. You can also start increasing the ratio to increase the effect. You’ll then notice that the compression will always be active but can still take care of High, loud levels (unless you set 100% L.I.D..) and make the compression very smooth and no more pumpingº In addition with the Dynamic Ratio function, you’ll be able to set a constant and very natural envelop that allows to increase low levels, low frequency and to keep important transients."
+    "text": "4.9 L.I.D.. (Level Independent Detector) (32)\nUnit: %\nValue Range: 0 / 100\nStep: 1\nDefault Value: 0 %\nAllows process the audio signal independently of the sound level but regarding the signal dynamic range. It is mixed with the standard compression scheme.\n\n\n\n\n\n\nNote\n\n\n\nTake a piece of full mixed music, set the ratio to 3-4 and the compression will start working. Now set the threshold of the compressor to the maximum value, the compressor will stop working because the sound level will never reach the threshold. Then increase the L.I.D.. and you will see (and hear) the compression working again!!! Now decrease or increase the input gain (in Solera or before, as you want) and you will see that the compression will continue to work equally; it’s totally, completely independent of the sound level and depends only on Ratio, Knee and sound content. How can this be used? When you have too much dynamic in the sound, going for e.g. from -3, -6 dB Vu (or less) to +12 dB; If you want to compress the low levels you will hear the sound “pumping” when the sound reaches the High levels and the only thing to do with standard compressor will be to increase the threshold to rescue some airiness in the sound. But when doing that the compressor will not work any more on the low levels and you will hear some sound differences (in term density, live space, grain etc…) especially when the compressor starts working. With Solera L.I.D.., adjust the threshold and ratio on the High levels to what you think OK, then increase the L.I.D.. (from 20 to 50 %) and listen now the low levels and especially the transition between Low and High levels. You can also start increasing the ratio to increase the effect. You’ll then notice that the compression will always be active but can still take care of High, loud levels (unless you set 100% L.I.D..) and make the compression very smooth and no more pumping… In addition with the Dynamic Ratio function, you’ll be able to set a constant and very natural envelop that allows to increase low levels, low frequency and to keep important transients."
   },
   {
     "objectID": "Dynamic_Section_Settings.html#l.i.d..-threshold-33",
@@ -235,7 +242,7 @@
     "href": "Dynamic_Section_Settings.html#l.i.d..-maximum-34",
     "title": "4  Dynamic Section Settings",
     "section": "4.11 L.I.D.. Maximum (34)",
-    "text": "4.11 L.I.D.. Maximum (34)\nWhen engaged, the threshold for the processing is determined by the maximum values from RMS/peak detection OR from the signal dynamic detection. The L.I.D. Threshold is still active, but the L.I.D. mix button is disabled.\n\n\n\n\n\n\nNote\n\n\n\nThis feature allows the whole process to be more reactive to the signal content. It worth to be tried on drum tracks."
+    "text": "4.11 L.I.D.. Maximum (34)\nWhen engaged, the threshold for the processing is determined by the maximum values from RMS/peak detection OR from the signal dynamic detection. The L.I.D. Threshold is still active, but the L.I.D. mix button is disabled. This feature allows the whole process to be more reactive to the signal content. It worth to be tried on drum tracks."
   },
   {
     "objectID": "Display.html#resulting-transfer-curve-35",
@@ -319,7 +326,7 @@
     "href": "Preset_Management.html#morphing-slider-46",
     "title": "6  Preset Management",
     "section": "6.4 Morphing Slider (46)",
-    "text": "6.4 Morphing Slider (46)\nThis horizontal slider has no unity nor specific value display. It allows to morph current settings between two loaded presets.\nDouble-click on one side of the slider area toggles between full A and full B settings.\nThe results of an in-between setting can be saved as a new preset.\nA global preset including the two loaded presets and the morphing slider position can also be saved from preset management window."
+    "text": "6.4 Morphing Slider (46)\nThis horizontal slider has no unity nor specific value display. It allows to morph current settings between two loaded presets. Double-click on one side of the slider area toggles between full A and full B settings.\nThe results of an in-between setting can be saved as a new preset.\nA global preset including the two loaded presets and the morphing slider position can also be saved from preset management window."
   },
   {
     "objectID": "Preset_Management.html#automation-control-of-the-morphing-slider-47",
@@ -329,11 +336,11 @@
     "text": "6.5 Automation Control of the Morphing Slider (47)\nDefault Value: Off\nWhen this button is disabled, all the plug-in parameters values are recorded when writing automation. The morphing slider is ignored.\nWhen reading automation, if this button is disabled, all the plug-in parameters are controlled by the host automation except the morphing slider.\nWhen this button is engaged, all parameters are recorded when writing automation uncluding the morphing slider.\nWhen this button is engaged, ONLY the morphing slider value is applied when reading automation.\nThe Automation button must be engaged if the morphing slider has to be mapped on a control surface."
   },
   {
-    "objectID": "Preset_Management.html#loaded-preset-preset-display-48",
-    "href": "Preset_Management.html#loaded-preset-preset-display-48",
+    "objectID": "Preset_Management.html#loaded-preset-display-48",
+    "href": "Preset_Management.html#loaded-preset-display-48",
     "title": "6  Preset Management",
-    "section": "6.6 Loaded Preset Preset Display (48)",
-    "text": "6.6 Loaded Preset Preset Display (48)"
+    "section": "6.6 Loaded Preset Display (48)",
+    "text": "6.6 Loaded Preset Display (48)"
   },
   {
     "objectID": "Preset_Management.html#preset-manager-access-49",
@@ -343,39 +350,25 @@
     "text": "6.7 Preset Manager Access (49)"
   },
   {
-    "objectID": "Plug-in_Settings.html",
-    "href": "Plug-in_Settings.html",
-    "title": "7  Plug-in Settings",
-    "section": "",
-    "text": "Pressing the cogwheels in the top right corner opens a settings window providing information about the plug-in version/build, a direct access button to the user manual, as well as setup for latency report and OSC (Open Sound Control). OSC is available in Pure Compressor only, and is not supported in Pure Compressor Studio Session."
+    "objectID": "Specifications.html#processing-specifications---pure-dcompressor",
+    "href": "Specifications.html#processing-specifications---pure-dcompressor",
+    "title": "7  Specifications",
+    "section": "7.1 Processing Specifications - Pure DCompressor",
+    "text": "7.1 Processing Specifications - Pure DCompressor\n\nUp to 16 channels Input/Output.\n64-bits internal floating point processing.\nSampling rate up to 384 kHz DXD (Pyramix and Ovation MassCore/Native).\nSampling rate up to 192 kHz for Native (AU/VST/ST3/AAX/AAX AudioSuite)."
   },
   {
-    "objectID": "Specifications.html#processing-specifications---pure-compressor",
-    "href": "Specifications.html#processing-specifications---pure-compressor",
-    "title": "8  Specifications",
-    "section": "8.1 Processing Specifications - Pure Compressor",
-    "text": "8.1 Processing Specifications - Pure Compressor\n\nUp to 16 channels Input/Output.\n64-bits internal floating point processing.\nSampling rate up to 384 kHz DXD (Pyramix and Ovation MassCore/Native).\nSampling rate up to 192 kHz for Native (AU/VST/ST3/AAX/AAX AudioSuite)."
-  },
-  {
-    "objectID": "Specifications.html#processing-specifications---pure-compressor-session",
-    "href": "Specifications.html#processing-specifications---pure-compressor-session",
-    "title": "8  Specifications",
-    "section": "8.2 Processing Specifications - Pure Compressor Session",
-    "text": "8.2 Processing Specifications - Pure Compressor Session\n\nMono/Stereo Input/Output.\n64-bits internal floating point processing.\nSampling rate up to 96 kHz."
+    "objectID": "Specifications.html#processing-specifications---pure-dcompressor-session",
+    "href": "Specifications.html#processing-specifications---pure-dcompressor-session",
+    "title": "7  Specifications",
+    "section": "7.2 Processing Specifications - Pure DCompressor Session",
+    "text": "7.2 Processing Specifications - Pure DCompressor Session\n\nMono/Stereo Input/Output.\n64-bits internal floating point processing.\nSampling rate up to 96 kHz."
   },
   {
     "objectID": "Specifications.html#licence-requirements",
     "href": "Specifications.html#licence-requirements",
-    "title": "8  Specifications",
-    "section": "8.3 Licence Requirements",
-    "text": "8.3 Licence Requirements\nIn order to use Pure Compressor or Pure Compressor Session, one of the following is required: - An iLok.com user account (the iLok USB Smart Key is not required). - A Flux:: USB Dongle (Available in our online store)."
-  },
-  {
-    "objectID": "Compatibility.html#pure-compressor",
-    "href": "Compatibility.html#pure-compressor",
-    "title": "9  Compatibility",
-    "section": "9.1 Pure Compressor",
-    "text": "9.1 Pure Compressor\n\n9.1.1 Windows - 10, 64 bits only.\n\nVST (2.4) in 64 bit\nVST3 (3.1) in 64 bit\nAAX Native/DSP/AudioSuite, all in 64 bit*\nWaves WPAPI Native/Soundgrid in 64 bit\nVS3** Pyramix 10 and more in 64 bit and Ovation 6 and more\nAVID VENUE Systems\n\n\n\n9.1.2 macOS (Intel and ARM) - 10.12 (Sierra) and more, 11 and 12.\n\nVST (2.4) in 64 bit\nVST3 (3.1) in 64 bit\nAU in 64 bit\nAAX Native/DSP/AudioSuite, all in 64 bit*\nWaves WPAPI Native/Soundgrid in 64 bit\nAVID VENUE Systems\n\n** VS3 for Pyramix & Ovation Native/MassCore sold only through Merging Technologies and authorized dealers."
+    "title": "7  Specifications",
+    "section": "7.3 Licence Requirements",
+    "text": "7.3 Licence Requirements\nIn order to use Pure DCompressor or Pure DCompressor Studio Session, one of the following is required: - An iLok.com user account (the iLok USB Smart Key is not required). - A Flux:: USB Dongle (Available in our online store)."
   },
   {
     "objectID": "../flux_processing_release_notes.html#build-23.1.0.50251---all-plugins",

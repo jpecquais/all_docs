@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Pure Compressor - 6&nbsp; Preset Management</title>
+<title>Pure DCompressor - 6&nbsp; Preset Management</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,7 +30,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./Plug-in_Settings.html" rel="next">
+<link href="./Specifications.html" rel="next">
 <link href="./Display.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
@@ -88,9 +88,9 @@ ul.task-list li input[type="checkbox"] {
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation floating overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
-      <a href="./">Pure Compressor</a> 
+      <a href="./">Pure DCompressor</a> 
         <div class="sidebar-tools-main">
-    <a href="./Pure-Compressor.pdf" title="Download PDF" class="quarto-navigation-tool px-1" aria-label="Download PDF"><i class="bi bi-file-pdf"></i></a>
+    <a href="./Pure-DCompressor.pdf" title="Download PDF" class="quarto-navigation-tool px-1" aria-label="Download PDF"><i class="bi bi-file-pdf"></i></a>
 </div>
     </div>
       </div>
@@ -103,7 +103,7 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Pure Compressor</span></a>
+  <a href="./index.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Pure DCompressor</span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -133,17 +133,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./Plug-in_Settings.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Plug-in Settings</span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./Specifications.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Specifications</span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./Compatibility.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Compatibility</span></a>
+  <a href="./Specifications.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Specifications</span></a>
   </div>
 </li>
         <li class="sidebar-item sidebar-item-section">
@@ -176,7 +166,7 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#copy-a-copy-b-45" id="toc-copy-a-copy-b-45" class="nav-link" data-scroll-target="#copy-a-copy-b-45"><span class="header-section-number">6.3</span> Copy A / Copy B (45)</a></li>
   <li><a href="#morphing-slider-46" id="toc-morphing-slider-46" class="nav-link" data-scroll-target="#morphing-slider-46"><span class="header-section-number">6.4</span> Morphing Slider (46)</a></li>
   <li><a href="#automation-control-of-the-morphing-slider-47" id="toc-automation-control-of-the-morphing-slider-47" class="nav-link" data-scroll-target="#automation-control-of-the-morphing-slider-47"><span class="header-section-number">6.5</span> Automation Control of the Morphing Slider (47)</a></li>
-  <li><a href="#loaded-preset-preset-display-48" id="toc-loaded-preset-preset-display-48" class="nav-link" data-scroll-target="#loaded-preset-preset-display-48"><span class="header-section-number">6.6</span> Loaded Preset Preset Display (48)</a></li>
+  <li><a href="#loaded-preset-display-48" id="toc-loaded-preset-display-48" class="nav-link" data-scroll-target="#loaded-preset-display-48"><span class="header-section-number">6.6</span> Loaded Preset Display (48)</a></li>
   <li><a href="#preset-manager-access-49" id="toc-preset-manager-access-49" class="nav-link" data-scroll-target="#preset-manager-access-49"><span class="header-section-number">6.7</span> Preset Manager Access (49)</a></li>
   </ul>
 </nav>
@@ -215,8 +205,7 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="morphing-slider-46" class="level2" data-number="6.4">
 <h2 data-number="6.4" class="anchored" data-anchor-id="morphing-slider-46"><span class="header-section-number">6.4</span> Morphing Slider (46)</h2>
-<p>This horizontal slider has no unity nor specific value display. It allows to morph current settings between two loaded presets.</p>
-<p>Double-click on one side of the slider area toggles between full A and full B settings.</p>
+<p>This horizontal slider has no unity nor specific value display. It allows to morph current settings between two loaded presets. Double-click on one side of the slider area toggles between full A and full B settings.</p>
 <p>The results of an in-between setting can be saved as a new preset.</p>
 <p>A global preset including the two loaded presets and the morphing slider position can also be saved from preset management window.</p>
 </section>
@@ -229,8 +218,8 @@ ul.task-list li input[type="checkbox"] {
 <p>When this button is engaged, ONLY the morphing slider value is applied when reading automation.</p>
 <p>The Automation button must be engaged if the morphing slider has to be mapped on a control surface.</p>
 </section>
-<section id="loaded-preset-preset-display-48" class="level2" data-number="6.6">
-<h2 data-number="6.6" class="anchored" data-anchor-id="loaded-preset-preset-display-48"><span class="header-section-number">6.6</span> Loaded Preset Preset Display (48)</h2>
+<section id="loaded-preset-display-48" class="level2" data-number="6.6">
+<h2 data-number="6.6" class="anchored" data-anchor-id="loaded-preset-display-48"><span class="header-section-number">6.6</span> Loaded Preset Display (48)</h2>
 </section>
 <section id="preset-manager-access-49" class="level2" data-number="6.7">
 <h2 data-number="6.7" class="anchored" data-anchor-id="preset-manager-access-49"><span class="header-section-number">6.7</span> Preset Manager Access (49)</h2>
@@ -479,8 +468,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./Plug-in_Settings.html" class="pagination-link">
-        <span class="nav-page-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Plug-in Settings</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./Specifications.html" class="pagination-link">
+        <span class="nav-page-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Specifications</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

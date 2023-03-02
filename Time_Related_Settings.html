@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Pure Compressor - 3&nbsp; Time Related Settings</title>
+<title>Pure DCompressor - 3&nbsp; Time Related Settings</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -88,9 +88,9 @@ ul.task-list li input[type="checkbox"] {
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation floating overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
-      <a href="./">Pure Compressor</a> 
+      <a href="./">Pure DCompressor</a> 
         <div class="sidebar-tools-main">
-    <a href="./Pure-Compressor.pdf" title="Download PDF" class="quarto-navigation-tool px-1" aria-label="Download PDF"><i class="bi bi-file-pdf"></i></a>
+    <a href="./Pure-DCompressor.pdf" title="Download PDF" class="quarto-navigation-tool px-1" aria-label="Download PDF"><i class="bi bi-file-pdf"></i></a>
 </div>
     </div>
       </div>
@@ -103,7 +103,7 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Pure Compressor</span></a>
+  <a href="./index.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Pure DCompressor</span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -133,17 +133,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./Plug-in_Settings.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Plug-in Settings</span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./Specifications.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Specifications</span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./Compatibility.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Compatibility</span></a>
+  <a href="./Specifications.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Specifications</span></a>
   </div>
 </li>
         <li class="sidebar-item sidebar-item-section">
@@ -239,13 +229,13 @@ Warning
 </section>
 <section id="auto-delay-15" class="level2" data-number="3.2">
 <h2 data-number="3.2" class="anchored" data-anchor-id="auto-delay-15"><span class="header-section-number">3.2</span> Auto Delay (15)</h2>
-<p>Default Value: Off<br>
-When enabled, the delay value is linked to the attack value. Be aware that the latency introduced by this function is now equal to your attack time devide by 2.</p>
+<p>Default Value: Off</p>
+<p>When enabled, the delay value is linked to the attack value. Be aware that the latency introduced by this function is now equal to your attack time devide by 2.</p>
 </section>
 <section id="mode-16" class="level2" data-number="3.3">
 <h2 data-number="3.3" class="anchored" data-anchor-id="mode-16"><span class="header-section-number">3.3</span> Mode (16)</h2>
-<p>Default Value: Solera<br>
-8 different detection modes are available:</p>
+<p>Default Value: Solera</p>
+<p>8 different detection modes are available:</p>
 <ul>
 <li>Solera: The Attack setting also controls the integration time for RMS detection. When “Auto” is engaged for the delay value, the produced attack time is zero.</li>
 <li>Solera Feed Backward: The Attack setting also controls the integration time for RMS detection which is done on the output of the processor. This mode disables the Delay feature. Note also that the Solera Feed Backward prevents to use the external side chain because it’s the processed signal which feed the side chain.</li>
@@ -256,26 +246,14 @@ When enabled, the delay value is linked to the attack value. Be aware that the l
 <li>Classic Feed Backward Medium: The integration time is 40 ms for RMS detection which is done on the output of the processor. Note also that the Feed Backward mode prevents to use the external side chain because it’s the processed signal which feed the side chain.</li>
 <li>Classic Feed Backward Slow: The integration time is 80 ms for RMS detection which is done on the output of the processor. Note also that the Feed Backward mode prevents to use the external side chain because it’s the processed signal which feed the side chain.</li>
 </ul>
-<div class="callout callout-style-default callout-note callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Note
-</div>
-</div>
-<div class="callout-body-container callout-body">
 <p>These Feed Backward modes have been inspired by vintage hardware architectures. they create a sort of auto regulation of the processing which produces a naturally beefy sound.</p>
-</div>
-</div>
 </section>
 <section id="attack-17" class="level2" data-number="3.4">
 <h2 data-number="3.4" class="anchored" data-anchor-id="attack-17"><span class="header-section-number">3.4</span> Attack (17)</h2>
 <p>Unit: ms<br>
 Value Range: 0 ms to 100 ms<br>
-Default Value: 0.0 ms<br>
-Sets the attack time of the processing envelop. It also controls the manner the RMS value is computed from the incoming signal.</p>
+Default Value: 0.0 ms</p>
+<p>Sets the attack time of the processing envelop. It also controls the manner the RMS value is computed from the incoming signal.</p>
 <div class="callout callout-style-default callout-warning callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -296,24 +274,12 @@ Warning
 Value Range: 0 ms / 500 ms.<br>
 Default Value: 0 ms</p>
 <p>This parameter is the only one in the time related settings, that is independent per dynamic processor. The compressor and the expander may have different hold time.</p>
-<div class="callout callout-style-default callout-note callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Note
-</div>
-</div>
-<div class="callout-body-container callout-body">
 <p>Used in the Expander section, this setting allows very precise gating of drum tracks. It can also be used for creative purpose on the other dynamic sections.</p>
-</div>
-</div>
 </section>
 <section id="release-mode-19" class="level2" data-number="3.6">
 <h2 data-number="3.6" class="anchored" data-anchor-id="release-mode-19"><span class="header-section-number">3.6</span> Release Mode (19)</h2>
-<p>Default Value: Auto<br>
-Three release modes are available for the envelop of the dynamic processing.</p>
+<p>Default Value: Auto</p>
+<p>Three release modes are available for the envelop of the dynamic processing.</p>
 <ul>
 <li>Manual corresponds to the value you have set.</li>
 <li>Auto enables our specific algorithm to generate a signal dependent value to avoid typical pumping effects.</li>
