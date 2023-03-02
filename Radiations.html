@@ -6,10 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="FLUX:: Immersive">
-<meta name="dcterms.date" content="2023-02-06">
 
-<title>IRCAM Spat</title>
+<title>IRCAM Spat - 5&nbsp; Radiations</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -32,7 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./Sources.html" rel="next">
+<link href="./Axis_Omni_Filters.html" rel="next">
+<link href="./Perceptual_Factors_.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -74,7 +73,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">IRCAM Spat</span></a></li></ol></nav>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./Sources.html">Sources</a></li><li class="breadcrumb-item"><a href="./Radiations.html"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Radiations</span></a></li></ol></nav>
       <a class="flex-grow-1" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
       </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -104,7 +103,7 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link active"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">IRCAM Spat</span></a>
+  <a href="./index.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">IRCAM Spat</span></a>
   </div>
 </li>
         <li class="sidebar-item sidebar-item-section">
@@ -132,7 +131,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./Radiations.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Radiations</span></a>
+  <a href="./Radiations.html" class="sidebar-item-text sidebar-link active"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Radiations</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -262,11 +261,13 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#ircam-spat" id="toc-ircam-spat" class="nav-link active" data-scroll-target="#ircam-spat"><span class="header-section-number">1</span> IRCAM Spat</a>
-  <ul class="collapse">
-  <li><a href="#introduction" id="toc-introduction" class="nav-link" data-scroll-target="#introduction"><span class="header-section-number">1.1</span> Introduction</a></li>
-  <li><a href="#perceptual-factors-vs.-acoustical-criteria" id="toc-perceptual-factors-vs.-acoustical-criteria" class="nav-link" data-scroll-target="#perceptual-factors-vs.-acoustical-criteria"><span class="header-section-number">1.2</span> Perceptual factors Vs. Acoustical criteria</a></li>
-  </ul></li>
+  <li><a href="#distance" id="toc-distance" class="nav-link active" data-scroll-target="#distance"><span class="header-section-number">5.1</span> (19) Distance</a></li>
+  <li><a href="#azimuth" id="toc-azimuth" class="nav-link" data-scroll-target="#azimuth"><span class="header-section-number">5.2</span> (20) Azimuth</a></li>
+  <li><a href="#yaw" id="toc-yaw" class="nav-link" data-scroll-target="#yaw"><span class="header-section-number">5.3</span> (21) Yaw</a></li>
+  <li><a href="#relative-direction" id="toc-relative-direction" class="nav-link" data-scroll-target="#relative-direction"><span class="header-section-number">5.4</span> (22) Relative direction</a></li>
+  <li><a href="#elevation" id="toc-elevation" class="nav-link" data-scroll-target="#elevation"><span class="header-section-number">5.5</span> (23) Elevation</a></li>
+  <li><a href="#pitch" id="toc-pitch" class="nav-link" data-scroll-target="#pitch"><span class="header-section-number">5.6</span> (24) Pitch</a></li>
+  <li><a href="#aperture" id="toc-aperture" class="nav-link" data-scroll-target="#aperture"><span class="header-section-number">5.7</span> (25) Aperture</a></li>
   </ul>
 </nav>
     </div>
@@ -275,26 +276,14 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">IRCAM Spat</h1>
+<h1 class="title"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Radiations</span></h1>
 </div>
 
 
 
 <div class="quarto-title-meta">
 
-    <div>
-    <div class="quarto-title-meta-heading">Author</div>
-    <div class="quarto-title-meta-contents">
-             <p>FLUX:: Immersive </p>
-          </div>
-  </div>
     
-    <div>
-    <div class="quarto-title-meta-heading">Published</div>
-    <div class="quarto-title-meta-contents">
-      <p class="date">February 6, 2023</p>
-    </div>
-  </div>
   
     
   </div>
@@ -302,22 +291,64 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<section id="ircam-spat" class="level1" data-number="1">
-<h1 data-number="1"><span class="header-section-number">1</span> IRCAM Spat</h1>
-<p><img src="https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Plugins/ircam-spat/spat_01.jpg" class="img-fluid"></p>
-<section id="introduction" class="level2" data-number="1.1">
-<h2 data-number="1.1" class="anchored" data-anchor-id="introduction"><span class="header-section-number">1.1</span> Introduction</h2>
-<p>The Spat is a very powerful tool for spatialization. It can handle both aspects of spatialization (source localization and room acoustic simulation) in a very homogeneous and coherent way. A set of sources (up to eight in this plug-in, may be linked in stereo pairs) are localized in a 3D space (in the Source control tab). Each of these source is connected to a room (also called reverb).<br>
-Up to 3 rooms are available in parallel, in order to simulate complex spaces (coupled room acoustics…).</p>
+<p><img src="https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Plugins/ircam-spat/spat_06.jpg" class="img-fluid"></p>
+<section id="distance" class="level2" data-number="5.1">
+<h2 data-number="5.1" class="anchored" data-anchor-id="distance"><span class="header-section-number">5.1</span> (19) Distance</h2>
+<p>Distance from the source to the center reference point (listener position), in meters.</p>
 </section>
-<section id="perceptual-factors-vs.-acoustical-criteria" class="level2" data-number="1.2">
-<h2 data-number="1.2" class="anchored" data-anchor-id="perceptual-factors-vs.-acoustical-criteria"><span class="header-section-number">1.2</span> Perceptual factors Vs. Acoustical criteria</h2>
-<p>In both sources edition and reverb edition, controls are available as a set of “perceptual factors”. Each of these parameters corresponds to a real-world criterion that actually has proper significance in terms of hearing perception, and not some obscure algorithm-specific parameter translating more-or-less to some kind of aesthetic interpretation. This is a feature unique to the Spat, which is the result of substantial research and development work at IRCAM and Flux, providing a relationship between these parameters and the plug-in internal parameters. Internally, the plug-in perceptual mapper translates the GUI parameters into a much larger set of parameters required for the actual reverb engine computations.</p>
-<p>This way the complexities of the reverb algorithm internals are hidden from the user so one can make predictable and guided adjustments, instead of having to resort to a “poke in the dark” approach, adjusting settings at semi-random trying to find some “magical” combination of parameters to obtain the desired result.</p>
-<p>In parallel, a display is detailing the “acoustical criteria”, these parameters are more familiar for those who are well acquainted with acoustics, and here instead will find the more commonly used terms.</p>
+<section id="azimuth" class="level2" data-number="5.2">
+<h2 data-number="5.2" class="anchored" data-anchor-id="azimuth"><span class="header-section-number">5.2</span> (20) Azimuth</h2>
+<p>Angle between the source location and the listener-front reference axis, in degrees.</p>
+</section>
+<section id="yaw" class="level2" data-number="5.3">
+<h2 data-number="5.3" class="anchored" data-anchor-id="yaw"><span class="header-section-number">5.3</span> (21) Yaw</h2>
+<p>Angle of the source direction orientation relative to the listener-source axis, in degrees.</p>
+</section>
+<section id="relative-direction" class="level2" data-number="5.4">
+<h2 data-number="5.4" class="anchored" data-anchor-id="relative-direction"><span class="header-section-number">5.4</span> (22) Relative direction</h2>
+<p>When engaged, the source movement done with the mouse in the display are done in a way that the source always keep the same source-listener orientation.<br>
+If not, the source direction is constant.</p>
+</section>
+<section id="elevation" class="level2" data-number="5.5">
+<h2 data-number="5.5" class="anchored" data-anchor-id="elevation"><span class="header-section-number">5.5</span> (23) Elevation</h2>
+<p>Elevation angle, in degrees.</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Please note that when the source is not located onto the base horizontal plane, at listener ear level (z = 0), a small gauge is displayed on the right edge of the preview, which gives the distance of the source to listener projected onto the Z axis, for easier handling of elevation.</p>
+</div>
+</div>
+</section>
+<section id="pitch" class="level2" data-number="5.6">
+<h2 data-number="5.6" class="anchored" data-anchor-id="pitch"><span class="header-section-number">5.6</span> (24) Pitch</h2>
+<p>Source direction orientation pitch angle, in degrees.</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Please pay attention to the fact that the graphic preview cannot not display pitch movements because of the 2D projection constraints.</p>
+</div>
+</div>
+</section>
+<section id="aperture" class="level2" data-number="5.7">
+<h2 data-number="5.7" class="anchored" data-anchor-id="aperture"><span class="header-section-number">5.7</span> (25) Aperture</h2>
+<p>The aperture parameter relates to the “sound cone” projected by the virtual source in the acoustic space, and is measured in degrees. It determines wether the source will be very directive (small aperture), or omnidirectional (large aperture) inside the reverberant environment. You can use this parameter to simulate the how a source will interact with its acoustical environment.</p>
+<p>Each source has a set of two three-band equalizers associated with it, as described below.</p>
 
 
-</section>
 </section>
 
 </main> <!-- /main -->
@@ -556,10 +587,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
+      <a href="./Perceptual_Factors_.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Perceptual Factors</span></span>
+      </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./Sources.html" class="pagination-link">
-        <span class="nav-page-text">Sources</span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./Axis_Omni_Filters.html" class="pagination-link">
+        <span class="nav-page-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Axis Omni Filters</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

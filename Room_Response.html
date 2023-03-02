@@ -6,10 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="FLUX:: Immersive">
-<meta name="dcterms.date" content="2023-02-06">
 
-<title>IRCAM Spat</title>
+<title>IRCAM Spat - 11&nbsp; Room Response</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -32,7 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./Sources.html" rel="next">
+<link href="./Display2.html" rel="next">
+<link href="./Perceptual_Factors.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -74,7 +73,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">IRCAM Spat</span></a></li></ol></nav>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./Reverb.html">Reverb</a></li><li class="breadcrumb-item"><a href="./Room_Response.html"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Room Response</span></a></li></ol></nav>
       <a class="flex-grow-1" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
       </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -104,7 +103,7 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link active"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">IRCAM Spat</span></a>
+  <a href="./index.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">IRCAM Spat</span></a>
   </div>
 </li>
         <li class="sidebar-item sidebar-item-section">
@@ -172,7 +171,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./Room_Response.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Room Response</span></a>
+  <a href="./Room_Response.html" class="sidebar-item-text sidebar-link active"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Room Response</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -262,11 +261,13 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#ircam-spat" id="toc-ircam-spat" class="nav-link active" data-scroll-target="#ircam-spat"><span class="header-section-number">1</span> IRCAM Spat</a>
-  <ul class="collapse">
-  <li><a href="#introduction" id="toc-introduction" class="nav-link" data-scroll-target="#introduction"><span class="header-section-number">1.1</span> Introduction</a></li>
-  <li><a href="#perceptual-factors-vs.-acoustical-criteria" id="toc-perceptual-factors-vs.-acoustical-criteria" class="nav-link" data-scroll-target="#perceptual-factors-vs.-acoustical-criteria"><span class="header-section-number">1.2</span> Perceptual factors Vs. Acoustical criteria</a></li>
-  </ul></li>
+  <li><a href="#early-shape" id="toc-early-shape" class="nav-link active" data-scroll-target="#early-shape"><span class="header-section-number">11.1</span> (58) Early Shape</a></li>
+  <li><a href="#early-minimum" id="toc-early-minimum" class="nav-link" data-scroll-target="#early-minimum"><span class="header-section-number">11.2</span> (59) Early Minimum</a></li>
+  <li><a href="#early-maximum" id="toc-early-maximum" class="nav-link" data-scroll-target="#early-maximum"><span class="header-section-number">11.3</span> (60) Early Maximum</a></li>
+  <li><a href="#early-distribution" id="toc-early-distribution" class="nav-link" data-scroll-target="#early-distribution"><span class="header-section-number">11.4</span> (61) Early Distribution</a></li>
+  <li><a href="#cluster-minimum" id="toc-cluster-minimum" class="nav-link" data-scroll-target="#cluster-minimum"><span class="header-section-number">11.5</span> (62) Cluster Minimum</a></li>
+  <li><a href="#cluster-maximum" id="toc-cluster-maximum" class="nav-link" data-scroll-target="#cluster-maximum"><span class="header-section-number">11.6</span> (63) Cluster Maximum</a></li>
+  <li><a href="#cluster-distribution" id="toc-cluster-distribution" class="nav-link" data-scroll-target="#cluster-distribution"><span class="header-section-number">11.7</span> (64) Cluster Distribution</a></li>
   </ul>
 </nav>
     </div>
@@ -275,26 +276,14 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">IRCAM Spat</h1>
+<h1 class="title"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Room Response</span></h1>
 </div>
 
 
 
 <div class="quarto-title-meta">
 
-    <div>
-    <div class="quarto-title-meta-heading">Author</div>
-    <div class="quarto-title-meta-contents">
-             <p>FLUX:: Immersive </p>
-          </div>
-  </div>
     
-    <div>
-    <div class="quarto-title-meta-heading">Published</div>
-    <div class="quarto-title-meta-contents">
-      <p class="date">February 6, 2023</p>
-    </div>
-  </div>
   
     
   </div>
@@ -302,22 +291,50 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<section id="ircam-spat" class="level1" data-number="1">
-<h1 data-number="1"><span class="header-section-number">1</span> IRCAM Spat</h1>
-<p><img src="https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Plugins/ircam-spat/spat_01.jpg" class="img-fluid"></p>
-<section id="introduction" class="level2" data-number="1.1">
-<h2 data-number="1.1" class="anchored" data-anchor-id="introduction"><span class="header-section-number">1.1</span> Introduction</h2>
-<p>The Spat is a very powerful tool for spatialization. It can handle both aspects of spatialization (source localization and room acoustic simulation) in a very homogeneous and coherent way. A set of sources (up to eight in this plug-in, may be linked in stereo pairs) are localized in a 3D space (in the Source control tab). Each of these source is connected to a room (also called reverb).<br>
-Up to 3 rooms are available in parallel, in order to simulate complex spaces (coupled room acoustics…).</p>
+<p><img src="https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Plugins/ircam-spat/spat_13.jpg" class="img-fluid"></p>
+<section id="early-shape" class="level2" data-number="11.1">
+<h2 data-number="11.1" class="anchored" data-anchor-id="early-shape"><span class="header-section-number">11.1</span> (58) Early Shape</h2>
+<p>Governs the amplitude rise or fall of early reflections. The default setting of 0.5 corresponds to early reflections all having the same level. This mimics an acoustical space where reflective surfaces are all located at roughly the same distance to the listener. Below 0.5 early reflections decay with time, above 0.5 they rise with time.</p>
+<p>Early reflections of decreasing level would be typical of a space where most of the reflective surfaces are grouped at a range closest to the listener.</p>
 </section>
-<section id="perceptual-factors-vs.-acoustical-criteria" class="level2" data-number="1.2">
-<h2 data-number="1.2" class="anchored" data-anchor-id="perceptual-factors-vs.-acoustical-criteria"><span class="header-section-number">1.2</span> Perceptual factors Vs. Acoustical criteria</h2>
-<p>In both sources edition and reverb edition, controls are available as a set of “perceptual factors”. Each of these parameters corresponds to a real-world criterion that actually has proper significance in terms of hearing perception, and not some obscure algorithm-specific parameter translating more-or-less to some kind of aesthetic interpretation. This is a feature unique to the Spat, which is the result of substantial research and development work at IRCAM and Flux, providing a relationship between these parameters and the plug-in internal parameters. Internally, the plug-in perceptual mapper translates the GUI parameters into a much larger set of parameters required for the actual reverb engine computations.</p>
-<p>This way the complexities of the reverb algorithm internals are hidden from the user so one can make predictable and guided adjustments, instead of having to resort to a “poke in the dark” approach, adjusting settings at semi-random trying to find some “magical” combination of parameters to obtain the desired result.</p>
-<p>In parallel, a display is detailing the “acoustical criteria”, these parameters are more familiar for those who are well acquainted with acoustics, and here instead will find the more commonly used terms.</p>
+<section id="early-minimum" class="level2" data-number="11.2">
+<h2 data-number="11.2" class="anchored" data-anchor-id="early-minimum"><span class="header-section-number">11.2</span> (59) Early Minimum</h2>
+<p>Early reflections minimum time, i.e.&nbsp;the time at which the early reflections start to appear, in milliseconds. This is the analogous of the ubiquitous “pre-delay” setting found on most reverberation processors. It represent the time between the direct sound and the first early reflection.</p>
+</section>
+<section id="early-maximum" class="level2" data-number="11.3">
+<h2 data-number="11.3" class="anchored" data-anchor-id="early-maximum"><span class="header-section-number">11.3</span> (60) Early Maximum</h2>
+<p>Early reflections maximum time, i.e.&nbsp;the time at which these cease to appear.</p>
+</section>
+<section id="early-distribution" class="level2" data-number="11.4">
+<h2 data-number="11.4" class="anchored" data-anchor-id="early-distribution"><span class="header-section-number">11.4</span> (61) Early Distribution</h2>
+<p>Early reflections distribution. Determines the way early reflections are scattered in time, inside the Early Min. / Early Max. interval. The default setting of 0.5 corresponds to regularly spaced reflections, above these are more grouped towards the Early Max. value, and vice-versa.</p>
+</section>
+<section id="cluster-minimum" class="level2" data-number="11.5">
+<h2 data-number="11.5" class="anchored" data-anchor-id="cluster-minimum"><span class="header-section-number">11.5</span> (62) Cluster Minimum</h2>
+<p>See 59, Early Min.</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Please keep in mind the cluster is fed with the input of the early reflections processor section, as is shown accordingly on the display.</p>
+</div>
+</div>
+</section>
+<section id="cluster-maximum" class="level2" data-number="11.6">
+<h2 data-number="11.6" class="anchored" data-anchor-id="cluster-maximum"><span class="header-section-number">11.6</span> (63) Cluster Maximum</h2>
+<p>See 60, Early Max.</p>
+</section>
+<section id="cluster-distribution" class="level2" data-number="11.7">
+<h2 data-number="11.7" class="anchored" data-anchor-id="cluster-distribution"><span class="header-section-number">11.7</span> (64) Cluster Distribution</h2>
+<p>See 61, Early Distribution.</p>
 
 
-</section>
 </section>
 
 </main> <!-- /main -->
@@ -556,10 +573,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
+      <a href="./Perceptual_Factors.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Perceptual Factors</span></span>
+      </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./Sources.html" class="pagination-link">
-        <span class="nav-page-text">Sources</span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./Display2.html" class="pagination-link">
+        <span class="nav-page-text"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">Display</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
