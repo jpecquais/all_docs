@@ -2,107 +2,114 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Pure DCompressor",
+    "title": "Pure DExpander",
     "section": "",
-    "text": "1 Pure DCompressor\nProduct Page | Shop Page\n\n\nPure DCompressor is the de-compressor section of the Solera. A De-compressor must be used to automatically increase the peak dynamic. Pure DCompressor allows you to restore the original dynamic of a sound. It‘s very useful for heavily compressed signal. Pure DCompressor adds some naturalness.\nThe Threshold value is expressed in dB – The plug-in compares it to the RMS (Root Mean Square or effective power) of the input signal. This value is displayed as a green rectangle on the input level meter. The level variations above the threshold are affected by the Ratio value. For a 1:1 de-compressor ratio, the processed signal isn’t affected by the processing: A 1 dB variation above the threshold at the input is reflected by a 1 dB variation at the output. Let’s apply now a 3:1 ratio. If the input signal rises above 1 dB the threshold value, the output signal rises from 3 dB: Here is the de-compressor action. The input signal gain is increased by a 3:1 ratio above the threshold point.\nThe Knee sets how progressive is the start up of the compressor action – In other words, It smoothes the transition point between no processing and full processing. If the Knee value expressed in dB is increased, the progressiveness of the action will be spread below and above the threshold point. The Range value sets the processing maximum action. No gain variation can exceed this value."
+    "text": "1 Pure DExpander\nProduct Page | Shop Page\n\n\nPure DExpander is the de-expander section of the Solera. Pure DExpander enhances the low levels of the sound. The space information is magnified. Pure DExpander also makes your sound more compact. The Dynamic Ratio algorithm permits some heavy processing while keeping an organic character. The Threshold value is expressed in dB – The plug-in compares it to the RMS (Root Mean Square or effective power) of the input signal. This value is displayed as a green rectangle on the input level meter. The level variations below the threshold are affected by the Ratio parameter. For a 1:1 de-expander ratio, the processed signal isn’t affected by the processing: A 1 dB variation above the threshold at the input is reflected by a 3 dB variation at the output. Let’s apply now a 3:1 ratio. If the input signal rises above 1 dB the threshold value, the output signal rises from 3 dB: Here is the de-expander action. The input signal gain is increased by a 3:1 ratio above the threshold point. The Knee sets how progressive is the start up of the compressor action – In other words, It smoothes the transition point between no processing and full processing. If the Knee value expressed in dB is increased, the progressiveness of the action will be spread below and above the threshold point.\nThe Range value sets the processing maximum action. No gain variation can exceed this value."
+  },
+  {
+    "objectID": "General_Settings.html#input-gain-1",
+    "href": "General_Settings.html#input-gain-1",
+    "title": "2  General Settings",
+    "section": "2.1 Input Gain (1)",
+    "text": "2.1 Input Gain (1)\nUnit: dB\nValue Range: -48 / +48\nStep: 0.01\nDefault Value: 0 dB\nSets the gain applied to the dynamic processing input."
   },
   {
     "objectID": "General_Settings.html#output-gain-2",
     "href": "General_Settings.html#output-gain-2",
     "title": "2  General Settings",
-    "section": "2.1 Output Gain (2)",
-    "text": "2.1 Output Gain (2)\nUnit: dB\nValue Range: -48 / +48\nStep: 0.01\nDefault Value: 0 dB\nSets the global gain applied to the dynamic processing output."
+    "section": "2.2 Output Gain (2)",
+    "text": "2.2 Output Gain (2)\nUnit: dB\nValue Range: -48 / +48\nStep: 0.01\nDefault Value: 0 dB\nSets the global gain applied to the dynamic processing output."
   },
   {
     "objectID": "General_Settings.html#invert-phase-3",
     "href": "General_Settings.html#invert-phase-3",
     "title": "2  General Settings",
-    "section": "2.2 Invert Phase (3)",
-    "text": "2.2 Invert Phase (3)\nDefault Value: Off\nWhen this button is engaged, the phase of the processed signal is inverted.\nThis 180° phase shift is also applied on the Solo of the detector Equalizer."
+    "section": "2.3 Invert Phase (3)",
+    "text": "2.3 Invert Phase (3)\nDefault Value: Off\nWhen this button is engaged, the phase of the processed signal is inverted. This 180° phase shift is also applied on the Solo of the detector Equalizer."
   },
   {
     "objectID": "General_Settings.html#dry-mix-4",
     "href": "General_Settings.html#dry-mix-4",
     "title": "2  General Settings",
-    "section": "2.3 Dry Mix (4)",
-    "text": "2.3 Dry Mix (4)\nDefault Value: -144 dB\nThis slider controls the amount of the original signal that can be added to the processed audio. This feature is dedicated to mastering works requiring both heavy processing and subtle control. The mix is done before the output gain."
+    "section": "2.4 Dry Mix (4)",
+    "text": "2.4 Dry Mix (4)\nDefault Value: -144 dB\nThis slider controls the amount of the original signal that can be added to the processed audio. This feature is dedicated to mastering works requiring both heavy processing and subtle control. The mix is done before the output gain."
   },
   {
     "objectID": "General_Settings.html#clipper-knee-5",
     "href": "General_Settings.html#clipper-knee-5",
     "title": "2  General Settings",
-    "section": "2.4 Clipper Knee (5)",
-    "text": "2.4 Clipper Knee (5)\nUnit: dB\nValue Range: 0 / +3\nStep: 0.01\nDefault Value: 1 dB\nSets the smoothness of the transmission curve."
+    "section": "2.5 Clipper Knee (5)",
+    "text": "2.5 Clipper Knee (5)\nUnit: dB\nValue Range: 0 / +3\nStep: 0.01\nDefault Value: 1 dB\nSets the smoothness of the transmission curve."
   },
   {
     "objectID": "General_Settings.html#enable-clipper-6",
     "href": "General_Settings.html#enable-clipper-6",
     "title": "2  General Settings",
-    "section": "2.5 Enable Clipper (6)",
-    "text": "2.5 Enable Clipper (6)\nThe Clipper is the very last stage of the processing chain."
+    "section": "2.6 Enable Clipper (6)",
+    "text": "2.6 Enable Clipper (6)\nThe Clipper is the very last stage of the processing chain."
   },
   {
     "objectID": "General_Settings.html#clipper-celling-7",
     "href": "General_Settings.html#clipper-celling-7",
     "title": "2  General Settings",
-    "section": "2.6 Clipper Celling (7)",
-    "text": "2.6 Clipper Celling (7)\nThe Clipper is the very last stage of the processing chain."
+    "section": "2.7 Clipper Celling (7)",
+    "text": "2.7 Clipper Celling (7)\nThe Clipper is the very last stage of the processing chain."
   },
   {
     "objectID": "General_Settings.html#bypass-50",
     "href": "General_Settings.html#bypass-50",
     "title": "2  General Settings",
-    "section": "2.7 Bypass (50)",
-    "text": "2.7 Bypass (50)\nIt’s a global bypass."
+    "section": "2.8 Bypass (50)",
+    "text": "2.8 Bypass (50)\nIt’s a global bypass."
   },
   {
     "objectID": "General_Settings.html#channel-processing-selector-8",
     "href": "General_Settings.html#channel-processing-selector-8",
     "title": "2  General Settings",
-    "section": "2.8 Channel Processing Selector (8)",
-    "text": "2.8 Channel Processing Selector (8)\nWhen operating on a multi-channel bus, all channels are processed by default, but it can be useful to remove some channels from the processing for some reasons. This selector allows to keep the unchecked channels untouched.\nThis feature may be used if different settings are required. Several instances of a plug-in can be used in series, each one processing a particular channel with its own settings."
+    "section": "2.9 Channel Processing Selector (8)",
+    "text": "2.9 Channel Processing Selector (8)\nWhen operating on a multi-channel bus, all channels are processed by default, but it can be useful to remove some channels from the processing for some reasons. This selector allows to keep the unchecked channels untouched. This feature may be used if different settings are required. Several instancies of a plug-in can be used in series, each one processing a particular channel with its own settings."
   },
   {
     "objectID": "General_Settings.html#channel-side-chain-routing-9",
     "href": "General_Settings.html#channel-side-chain-routing-9",
     "title": "2  General Settings",
-    "section": "2.9 Channel Side Chain Routing (9)",
-    "text": "2.9 Channel Side Chain Routing (9)\nSide chain is only available for mono and stereo.\nWhen operating on a multi-channel bus, all channels are feeding the side chain by default, but it can be useful to prevent some channels feeding the side chain for some reasons. The external side chain button is the one that appear with the channel count + 1 label (for mono, label is “2”, for stereo label is “3”).\nHere are the different behaviors for external side chain depending of the host applications:\n\nAudio Unit : The side chain button is displayed when the side chain is connected by the host.\nAAX : The side chain button is only active if a side chain buss is selected from the plug-in handler.\nVST : No side chain feature is available."
+    "section": "2.10 Channel Side Chain Routing (9)",
+    "text": "2.10 Channel Side Chain Routing (9)\nSide chain is only available for mono and stereo. When operating on a multi-channel bus, all channels are feeding the side chain by default, but it can be useful to prevent some channels feeding the side chain for some reasons. The external side chain button is the one that appear with the channel count + 1 label (for mono, label is “2”, for stereo label is “3”).\nHere are the different behaviors for external side chain depending of the host applications:\n\nAudio Unit : The side chain button is displayed when the side chain is connected by the host.\nAAX : The side chain button is only active if a side chain buss is selected from the plug-in handler.\nVST : No side chain feature is available."
   },
   {
     "objectID": "General_Settings.html#ms-width-control-10",
     "href": "General_Settings.html#ms-width-control-10",
     "title": "2  General Settings",
-    "section": "2.10 MS Width Control (10)",
-    "text": "2.10 MS Width Control (10)\nUnit: dB\nValue Range: -6 / +6\nStep: 0.01\nDefault Value: 0\nSets the stereo width of the processed signal. A -6 dB value deceases the stereo width. A +6 dB value increases the wideness of the stereo mix but can produce phase issue."
+    "section": "2.11 MS Width Control (10)",
+    "text": "2.11 MS Width Control (10)\nUnit: dB\nValue Range: -6 / +6\nStep: 0.01\nDefault Value: 0\nSets the stereo width of the processed signal. A -6 dB value deceases the stereo width. A +6 dB value increases the wideness of the stereo mix but can produce phase issue."
   },
   {
     "objectID": "General_Settings.html#ms-mode-onoff-11",
     "href": "General_Settings.html#ms-mode-onoff-11",
     "title": "2  General Settings",
-    "section": "2.11 MS Mode On/Off (11)",
-    "text": "2.11 MS Mode On/Off (11)\nDefault Value: Off\nEnables one MS encoding matrix at the input and one MS decoding matrix at the output of the dynamic processing in order to control the stereo width of the mix. When engaged, the side chain is fed by a MS encoded signal that is reflected in the display section. M channel corresponds to the normal left channel. And the S channel corresponds to the normal right channel This feature is only available when two channels (no more, no less) are processed."
+    "section": "2.12 MS Mode On/Off (11)",
+    "text": "2.12 MS Mode On/Off (11)\nDefault Value: Off\nEnables one MS encoding matrix at the input and one MS decoding matrix at the output of the dynamic processing in order to control the stereo width of the mix. When engaged, the side chain is fed by a MS encoded signal that is reflected in the display section. M channel corresponds to the normal left channel. And the S channel corresponds to the normal right channel This feature is only available when two channels (no more, no less) are processed."
   },
   {
     "objectID": "General_Settings.html#link-12",
     "href": "General_Settings.html#link-12",
     "title": "2  General Settings",
-    "section": "2.12 Link (12)",
-    "text": "2.12 Link (12)\nDefault: Enabled\nBy default the maximum value issued from all channels feeding the side chain is retained as source for processing. This manner, the space information is kept for the processed multi-channel signals.\nWhen disabled, every channel uses its own value for individual processing.\nThis configuration may be used in conjunction with the MS width section which encode the signal in MS before processing, and decode at the output. This manner, the M signal can be processed while keeping the S channel untouched."
+    "section": "2.13 Link (12)",
+    "text": "2.13 Link (12)\nDefault: Enabled\nBy default the maximum value issued from all channels feeding the side chain is retained as source for processing.\nThis manner, the space information is kept for the processed multi-channel signals.\nWhen disabled, every channel uses its own value for individual processing.\nThis configuration may be used in conjunction with the MS width section which encode the signal in MS before processing, and decode at the output. This manner, the M signal can be processed while keeping the S channel untouched."
   },
   {
     "objectID": "General_Settings.html#smooth-13",
     "href": "General_Settings.html#smooth-13",
     "title": "2  General Settings",
-    "section": "2.13 Smooth (13)",
-    "text": "2.13 Smooth (13)\nDefault: Enabled\nWhen engaged, the side chain is set to preserve bass frequencies from excessive processing."
+    "section": "2.14 Smooth (13)",
+    "text": "2.14 Smooth (13)\nDefault: Enabled\nWhen engaged, the side chain is set to preserve bass frequencies from excessive processing.\nRemoving the Smooth profile is usually a great help when trying to smash a kick drum."
   },
   {
     "objectID": "Time_Related_Settings.html#delay-14",
     "href": "Time_Related_Settings.html#delay-14",
     "title": "3  Time Related Settings",
     "section": "3.1 Delay (14)",
-    "text": "3.1 Delay (14)\nUnit: ms\nValue Range: 0 to 50.0 ms\nDefault Value: 0 ms\nA delay reflecting the attack time can be introduced into the signal path in order to produce a zero attack time for the dynamic processing. Shifting the delay value from the attack time allows to control transients. A delay value inferior to the attack value lets peaks untouched by the processing.\n\n\n\n\n\n\nNote\n\n\n\nNote that the different delay values of every band are automatically compensated. Solera can’t be used to produce delay based special effects.\n\n\n\n\n\n\n\n\nWarning\n\n\n\nWarning: Morphing between presets with different delay values produces sound artefacts. Of course this delay introduces latency in the processing."
+    "text": "3.1 Delay (14)\nUnit: ms\nValue Range: 0 to 50.0 ms\nDefault Value: 0 ms\nA delay reflecting the attack time can be introduced into the signal path in order to produce a zero attack time for the dynamic processing. Shifting the delay value from the attack time allows to control transients. A delay value inferior to the attack value lets peaks untouched by the processing.\n\n\n\n\n\n\nNote\n\n\n\nNote that the different delay values of every band are automatically compensated. Solera can’t be used to produce delay based special effects.\n\n\n\n\n\n\n\n\nWarning\n\n\n\nWarning: Morphing between presets with different delay values produces sound artefacts.\nOf course this delay introduces latency in the processing."
   },
   {
     "objectID": "Time_Related_Settings.html#auto-delay-15",
@@ -130,56 +137,63 @@
     "href": "Time_Related_Settings.html#hold-18",
     "title": "3  Time Related Settings",
     "section": "3.5 Hold (18)",
-    "text": "3.5 Hold (18)\nUnit: ms\nValue Range: 0 ms / 500 ms.\nDefault Value: 0 ms\nThis parameter is the only one in the time related settings, that is independent per dynamic processor. The compressor and the expander may have different hold time.\nUsed in the Expander section, this setting allows very precise gating of drum tracks. It can also be used for creative purpose on the other dynamic sections."
+    "text": "3.5 Hold (18)\nUnit: ms\nValue Range: 0 ms / 500 ms.\nDefault Value: 0 ms"
+  },
+  {
+    "objectID": "Time_Related_Settings.html#hold-18-1",
+    "href": "Time_Related_Settings.html#hold-18-1",
+    "title": "3  Time Related Settings",
+    "section": "3.6 Hold (18)",
+    "text": "3.6 Hold (18)\nUnit: ms\nValue Range: 0 ms / 500 ms.\nDefault Value: 0 ms\nThis parameter is the only one in the time related settings, that is independent per dynamic processor. The compressor and the expander may have different hold time.\nUsed in the Expander section, this setting allows very precise gating of drum tracks. It can also be used for creative purpose on the other dynamic sections."
   },
   {
     "objectID": "Time_Related_Settings.html#release-mode-19",
     "href": "Time_Related_Settings.html#release-mode-19",
     "title": "3  Time Related Settings",
-    "section": "3.6 Release Mode (19)",
-    "text": "3.6 Release Mode (19)\nDefault Value: Auto\nThree release modes are available for the envelop of the dynamic processing.\n\nManual corresponds to the value you have set.\nAuto enables our specific algorithm to generate a signal dependent value to avoid typical pumping effects.\nAdvanced gives access to two different values for release and to the control of the velocity of the variations between the maximum and the minimum release values."
+    "section": "3.7 Release Mode (19)",
+    "text": "3.7 Release Mode (19)\nDefault Value: Auto\nThree release modes are available for the envelop of the dynamic processing.\n\nManual corresponds to the value you have set.\nAuto enables our specific algorithm to generate a signal dependent value to avoid typical pumping effects.\nAdvanced gives access to two different values for release and to the control of the velocity of the variations between the maximum and the minimum release values."
   },
   {
     "objectID": "Time_Related_Settings.html#release-20",
     "href": "Time_Related_Settings.html#release-20",
     "title": "3  Time Related Settings",
-    "section": "3.7 Release (20)",
-    "text": "3.7 Release (20)\nUnit: ms\nValue Range: 0.67 ms / 10000.00 ms\nDefault Value: 500.00 ms\nSets the manual release value and the maximum release value when in Advanced Mode."
+    "section": "3.8 Release (20)",
+    "text": "3.8 Release (20)\nUnit: ms\nValue Range: 0.67 ms / 10000.00 ms\nDefault Value: 500.00 ms\nSets the manual release value and the maximum release value when in Advanced Mode."
   },
   {
     "objectID": "Time_Related_Settings.html#release-minimum-21",
     "href": "Time_Related_Settings.html#release-minimum-21",
     "title": "3  Time Related Settings",
-    "section": "3.8 Release Minimum (21)",
-    "text": "3.8 Release Minimum (21)\nUnit: ms\nValue Range: 0.67ms / 5000.00\nStep: 0.01\nDefault Value: 1.30 ms\nSets the minimum release value when in Advanced Mode."
+    "section": "3.9 Release Minimum (21)",
+    "text": "3.9 Release Minimum (21)\nUnit: ms\nValue Range: 0.67ms / 5000.00\nStep: 0.01\nDefault Value: 1.30 ms\nSets the minimum release value when in Advanced Mode."
   },
   {
     "objectID": "Time_Related_Settings.html#dynamic-factor-22",
     "href": "Time_Related_Settings.html#dynamic-factor-22",
     "title": "3  Time Related Settings",
-    "section": "3.9 Dynamic Factor (22)",
-    "text": "3.9 Dynamic Factor (22)\nUnit: x\nValue Range: 0 / 3.0\nStep: variable.\nDefault Value: 1\nAmplify or dim the extracted real time dynamic informations."
+    "section": "3.10 Dynamic Factor (22)",
+    "text": "3.10 Dynamic Factor (22)\nUnit: x\nValue Range: 0 / 3.0\nStep: variable.\nDefault Value: 1\nAmplify or dim the extracted real time dynamic informations."
   },
   {
     "objectID": "Time_Related_Settings.html#dynamic-velocity-23",
     "href": "Time_Related_Settings.html#dynamic-velocity-23",
     "title": "3  Time Related Settings",
-    "section": "3.10 Dynamic Velocity (23)",
-    "text": "3.10 Dynamic Velocity (23)\nUnit: %\nValue Range: 10 / 1000\nStep: 1\nDefault Value: 50 %\nSets the speed of variation on the dynamic informations."
+    "section": "3.11 Dynamic Velocity (23)",
+    "text": "3.11 Dynamic Velocity (23)\nUnit: %\nValue Range: 10 / 1000\nStep: 1\nDefault Value: 50 %\nSets the speed of variation on the dynamic informations."
   },
   {
     "objectID": "Dynamic_Section_Settings.html#threshold-24",
     "href": "Dynamic_Section_Settings.html#threshold-24",
     "title": "4  Dynamic Section Settings",
     "section": "4.1 Threshold (24)",
-    "text": "4.1 Threshold (24)\nUnit: dB\nValue Range: -32 to +16\nDefault Value: 0\nSets the threshold of the specific dynamic processing section. This dB scale refers to an RMS value.\nThe threshold effective value is modified by the L.I.D., the L.I.D. Threshold and, the L.I.D. Maximum settings."
+    "text": "4.1 Threshold (24)\nUnit: dB\nValue Range: -32 to +16\nDefault Value: 0\nSets the threshold of the specific dynamic processing section. This dB scale refers to an RMS value. The threshold effective value is modified by the L.I.D., the L.I.D. Threshold and, the L.I.D. Maximum settings."
   },
   {
     "objectID": "Dynamic_Section_Settings.html#ratio-25",
     "href": "Dynamic_Section_Settings.html#ratio-25",
     "title": "4  Dynamic Section Settings",
     "section": "4.2 Ratio (25)",
-    "text": "4.2 Ratio (25)\nUnit: dB\nValue Range: 1 to 10\nStep: 0.01\nDefault Value: 1\nSets the ratio of the specific dynamic processing section.\nThe ratio effective value is modified by the Dynamic Ratio amount."
+    "text": "4.2 Ratio (25)\nUnit: dB\nValue Range: 1 to 10\nStep: 0.01\nDefault Value: 1\nSets the ratio of the specific dynamic processing section. The ratio effective value is modified by the Dynamic Ratio amount."
   },
   {
     "objectID": "Dynamic_Section_Settings.html#infinite-26",
@@ -235,7 +249,7 @@
     "href": "Dynamic_Section_Settings.html#l.i.d..-threshold-33",
     "title": "4  Dynamic Section Settings",
     "section": "4.10 L.I.D.. Threshold (33)",
-    "text": "4.10 L.I.D.. Threshold (33)\nSets the gain range of the L.I.D. parameter.\n\nUp: Increasing of the L.I.D. action\nDown: Decreasing of the L.I.D. action\n\nThe current L.I.D. Threshold value is reflected by two blue lines on the Dynamic Activity display.\nFor Compressor and DCompressor sections, the L.I.D. action is effective only when the orange Dynamic Activity (18) exceeds the area between the two blue lines. For Expander and DExpander sections, the L.I.D. action is effective only when the orange Dynamic Activity (18) stays inside the area between the two blue lines."
+    "text": "4.10 L.I.D.. Threshold (33)\nSets the gain range of the L.I.D. parameter.\n\nUp: Increasing of the L.I.D. action\nDown: Decreasing of the L.I.D. action The current L.I.D. Threshold value is reflected by two blue lines on the Dynamic Activity display.\n\nFor Compressor and DCompressor sections, the L.I.D. action is effective only when the orange Dynamic Activity (18) exceeds the area between the two blue lines. For Expander and DExpander sections, the L.I.D. action is effective only when the orange Dynamic Activity (18) stays inside the area between the two blue lines."
   },
   {
     "objectID": "Dynamic_Section_Settings.html#l.i.d..-maximum-34",
@@ -256,42 +270,42 @@
     "href": "Display.html#input-level-meter-36",
     "title": "5  Display",
     "section": "5.2 Input Level Meter (36)",
-    "text": "5.2 Input Level Meter (36)\nVu-meter not peak-meter, referenced to -16 dB Fs by default, with auto scale depending of the threshold values. When the MS Width section is engaged, the M (Middle) level is displayed on the left meter. S (Side) is displayed on the right meter.\nThe green index reflects the threshold value."
+    "text": "5.2 Input Level Meter (36)\nVu-meter not peak-meter, referenced to -16 dB Fs by default, with auto scale depending of the threshold values.\nWhen the MS Width section is engaged, the M (Middle) level is displayed on the left meter. S (Side) is displayed on the right meter.\nThe green index reflects the threshold value."
   },
   {
     "objectID": "Display.html#output-level-meter-37",
     "href": "Display.html#output-level-meter-37",
     "title": "5  Display",
     "section": "5.3 Output Level Meter (37)",
-    "text": "5.3 Output Level Meter (37)\nVu-meter not peak-meter, referenced to -16 dB Fs by default, with auto scale depending of the threshold values. When the MS Width section is engaged, the M (Middle) level is displayed on the left meter. S (Side) is displayed on the right meter."
+    "text": "5.3 Output Level Meter (37)\nVu-meter not peak-meter, referenced to -16 dB Fs by default, with auto scale depending of the threshold values.\nWhen the MS Width section is engaged, the M (Middle) level is displayed on the left meter. S (Side) is displayed on the right meter."
   },
   {
     "objectID": "Display.html#resultant-envelop-38",
     "href": "Display.html#resultant-envelop-38",
     "title": "5  Display",
     "section": "5.4 Resultant Envelop (38)",
-    "text": "5.4 Resultant Envelop (38)\nVu-meter not peak-meter, referenced to -16 dB Fs by default. The scale is +/- 12 dB.\nThis is the compression, decompression, expander and de-expander summing envelop."
+    "text": "5.4 Resultant Envelop (38)\nVu-meter not peak-meter, referenced to -16 dB Fs by default.\nThe scale is +/- 12 dB.\nThis is the compression, decompression, expander and de-expander summing envelop."
   },
   {
     "objectID": "Display.html#dynamic-difference-between-in-and-out-39",
     "href": "Display.html#dynamic-difference-between-in-and-out-39",
     "title": "5  Display",
     "section": "5.5 Dynamic difference between in and out (39)",
-    "text": "5.5 Dynamic difference between in and out (39)\nVu-meter not peak-meter, referenced to -16 dB Fs by default. The scale is +/- 12 dB."
+    "text": "5.5 Dynamic difference between in and out (39)\nVu-meter not peak-meter, referenced to -16 dB Fs by default.\nThe scale is +/- 12 dB."
   },
   {
     "objectID": "Display.html#level-difference-between-in-and-out-40",
     "href": "Display.html#level-difference-between-in-and-out-40",
     "title": "5  Display",
     "section": "5.6 Level difference between in and out (40)",
-    "text": "5.6 Level difference between in and out (40)\nVu-meter not peak-meter, referenced to -16 dB Fs by default. The scale is +/- 12 dB.\nThis is the compression, decompression, expander and de-expander summing envelop which also takes account of the input and output gains of the band."
+    "text": "5.6 Level difference between in and out (40)\nVu-meter not peak-meter, referenced to -16 dB Fs by default.\nThe scale is +/- 12 dB.\nThis is the compression, decompression, expander and de-expander summing envelop which also takes account of the input and output gains of the band."
   },
   {
     "objectID": "Display.html#dynamic-activity-display-41",
     "href": "Display.html#dynamic-activity-display-41",
     "title": "5  Display",
     "section": "5.7 Dynamic Activity Display (41)",
-    "text": "5.7 Dynamic Activity Display (41)\nNo scale\nThe current L.I.D. Threshold value is reflected by two blue lines on the Dynamic Activity display.\nThe L.I.D. action is effective only when the orange Dynamic Activity (41) exceeds the area between the two blue lines."
+    "text": "5.7 Dynamic Activity Display (41)\nNo scale\nThe current Hysteresis Threshold value is reflected by two green lines on the Dynamic Activity display.\nThe hysteresis action is effective only when the orange Dynamic Activity stays inside the area between the two green lines."
   },
   {
     "objectID": "Display.html#instant-release-value-42",
@@ -326,7 +340,7 @@
     "href": "Preset_Management.html#morphing-slider-46",
     "title": "6  Preset Management",
     "section": "6.4 Morphing Slider (46)",
-    "text": "6.4 Morphing Slider (46)\nThis horizontal slider has no unity nor specific value display. It allows to morph current settings between two loaded presets. Double-click on one side of the slider area toggles between full A and full B settings.\nThe results of an in-between setting can be saved as a new preset.\nA global preset including the two loaded presets and the morphing slider position can also be saved from preset management window."
+    "text": "6.4 Morphing Slider (46)\nThis horizontal slider has no unity nor specific value display. It allows to morph current settings between two loaded presets.\nDouble-click on one side of the slider area toggles between full A and full B settings.\nThe results of an in-between setting can be saved as a new preset.\nA global preset including the two loaded presets and the morphing slider position can also be saved from preset management window."
   },
   {
     "objectID": "Preset_Management.html#automation-control-of-the-morphing-slider-47",
@@ -336,11 +350,11 @@
     "text": "6.5 Automation Control of the Morphing Slider (47)\nDefault Value: Off\nWhen this button is disabled, all the plug-in parameters values are recorded when writing automation. The morphing slider is ignored.\nWhen reading automation, if this button is disabled, all the plug-in parameters are controlled by the host automation except the morphing slider.\nWhen this button is engaged, all parameters are recorded when writing automation uncluding the morphing slider.\nWhen this button is engaged, ONLY the morphing slider value is applied when reading automation.\nThe Automation button must be engaged if the morphing slider has to be mapped on a control surface."
   },
   {
-    "objectID": "Preset_Management.html#loaded-preset-display-48",
-    "href": "Preset_Management.html#loaded-preset-display-48",
+    "objectID": "Preset_Management.html#loaded-preset-preset-display-48",
+    "href": "Preset_Management.html#loaded-preset-preset-display-48",
     "title": "6  Preset Management",
-    "section": "6.6 Loaded Preset Display (48)",
-    "text": "6.6 Loaded Preset Display (48)"
+    "section": "6.6 Loaded Preset Preset Display (48)",
+    "text": "6.6 Loaded Preset Preset Display (48)"
   },
   {
     "objectID": "Preset_Management.html#preset-manager-access-49",
@@ -350,25 +364,25 @@
     "text": "6.7 Preset Manager Access (49)"
   },
   {
-    "objectID": "Specifications.html#processing-specifications---pure-dcompressor",
-    "href": "Specifications.html#processing-specifications---pure-dcompressor",
+    "objectID": "Specifications.html#processing-specifications---pure-dexpander",
+    "href": "Specifications.html#processing-specifications---pure-dexpander",
     "title": "7  Specifications",
-    "section": "7.1 Processing Specifications - Pure DCompressor",
-    "text": "7.1 Processing Specifications - Pure DCompressor\n\nUp to 16 channels Input/Output.\n64-bits internal floating point processing.\nSampling rate up to 384 kHz DXD (Pyramix and Ovation MassCore/Native).\nSampling rate up to 192 kHz for Native (AU/VST/ST3/AAX/AAX AudioSuite)."
+    "section": "7.1 Processing Specifications - Pure DExpander",
+    "text": "7.1 Processing Specifications - Pure DExpander\n\nUp to 16 channels Input/Output.\n64-bits internal floating point processing.\nSampling rate up to 384 kHz DXD (Pyramix and Ovation MassCore/Native).\nSampling rate up to 192 kHz for Native (AU/VST/ST3/AAX/AAX AudioSuite)."
   },
   {
-    "objectID": "Specifications.html#processing-specifications---pure-dcompressor-session",
-    "href": "Specifications.html#processing-specifications---pure-dcompressor-session",
+    "objectID": "Specifications.html#processing-specifications---pure-dexpander-session",
+    "href": "Specifications.html#processing-specifications---pure-dexpander-session",
     "title": "7  Specifications",
-    "section": "7.2 Processing Specifications - Pure DCompressor Session",
-    "text": "7.2 Processing Specifications - Pure DCompressor Session\n\nMono/Stereo Input/Output.\n64-bits internal floating point processing.\nSampling rate up to 96 kHz."
+    "section": "7.2 Processing Specifications - Pure DExpander Session",
+    "text": "7.2 Processing Specifications - Pure DExpander Session\n\nMono/Stereo Input/Output.\n64-bits internal floating point processing.\nSampling rate up to 96 kHz."
   },
   {
     "objectID": "Specifications.html#licence-requirements",
     "href": "Specifications.html#licence-requirements",
     "title": "7  Specifications",
     "section": "7.3 Licence Requirements",
-    "text": "7.3 Licence Requirements\nIn order to use Pure DCompressor or Pure DCompressor Studio Session, one of the following is required: - An iLok.com user account (the iLok USB Smart Key is not required). - A Flux:: USB Dongle (Available in our online store)."
+    "text": "7.3 Licence Requirements\nIn order to use Pure DExpander or Pure DExpander Session, one of the following is required: - An iLok.com user account (the iLok USB Smart Key is not required). - A Flux:: USB Dongle (Available in our online store)."
   },
   {
     "objectID": "../flux_processing_release_notes.html#build-23.1.0.50251---all-plugins",
