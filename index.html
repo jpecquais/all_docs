@@ -9,7 +9,7 @@
 <meta name="author" content="FLUX:: Immersive">
 <meta name="dcterms.date" content="2023-02-06">
 
-<title>Stereo Tool</title>
+<title>Studio Session Analyser</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -74,7 +74,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Stereo Tool</span></a></li></ol></nav>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Studio Session Analyser</span></a></li></ol></nav>
       <a class="flex-grow-1" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
       </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -89,9 +89,9 @@ ul.task-list li input[type="checkbox"] {
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation floating overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
-      <a href="./">Stereo Tool</a> 
+      <a href="./">Studio Session Analyser</a> 
         <div class="sidebar-tools-main">
-    <a href="./Stereo-Tool.pdf" title="Download PDF" class="quarto-navigation-tool px-1" aria-label="Download PDF"><i class="bi bi-file-pdf"></i></a>
+    <a href="./Studio-Session-Analyser.pdf" title="Download PDF" class="quarto-navigation-tool px-1" aria-label="Download PDF"><i class="bi bi-file-pdf"></i></a>
 </div>
     </div>
       </div>
@@ -104,7 +104,7 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link active"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Stereo Tool</span></a>
+  <a href="./index.html" class="sidebar-item-text sidebar-link active"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Studio Session Analyser</span></a>
   </div>
 </li>
         <li class="sidebar-item sidebar-item-section">
@@ -132,16 +132,10 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#stereo-tool" id="toc-stereo-tool" class="nav-link active" data-scroll-target="#stereo-tool"><span class="header-section-number">1</span> Stereo Tool</a>
+  <li><a href="#studio-session-analyser" id="toc-studio-session-analyser" class="nav-link active" data-scroll-target="#studio-session-analyser"><span class="header-section-number">1</span> Studio Session Analyser</a>
   <ul class="collapse">
-  <li><a href="#channel-adjustment-parameters" id="toc-channel-adjustment-parameters" class="nav-link" data-scroll-target="#channel-adjustment-parameters"><span class="header-section-number">1.1</span> Channel adjustment parameters</a></li>
-  <li><a href="#stereo-image-adjustment-parameters" id="toc-stereo-image-adjustment-parameters" class="nav-link" data-scroll-target="#stereo-image-adjustment-parameters"><span class="header-section-number">1.2</span> Stereo image adjustment parameters</a></li>
-  <li><a href="#visualization-and-metering" id="toc-visualization-and-metering" class="nav-link" data-scroll-target="#visualization-and-metering"><span class="header-section-number">1.3</span> Visualization and metering</a></li>
-  <li><a href="#goniometer-interpretation" id="toc-goniometer-interpretation" class="nav-link" data-scroll-target="#goniometer-interpretation"><span class="header-section-number">1.4</span> Goniometer interpretation</a>
-  <ul class="collapse">
-  <li><a href="#identify-mono-signals" id="toc-identify-mono-signals" class="nav-link" data-scroll-target="#identify-mono-signals"><span class="header-section-number">1.4.1</span> Identify mono signals</a></li>
-  <li><a href="#identify-issues-in-stereo-signal" id="toc-identify-issues-in-stereo-signal" class="nav-link" data-scroll-target="#identify-issues-in-stereo-signal"><span class="header-section-number">1.4.2</span> Identify issues in stereo signal</a></li>
-  </ul></li>
+  <li><a href="#welcome" id="toc-welcome" class="nav-link" data-scroll-target="#welcome"><span class="header-section-number">1.1</span> Welcome</a></li>
+  <li><a href="#user-documentation" id="toc-user-documentation" class="nav-link" data-scroll-target="#user-documentation"><span class="header-section-number">1.2</span> User documentation</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -151,7 +145,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Stereo Tool</h1>
+<h1 class="title">Studio Session Analyser</h1>
 </div>
 
 
@@ -178,67 +172,39 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<section id="stereo-tool" class="level1" data-number="1">
-<h1 data-number="1"><span class="header-section-number">1</span> Stereo Tool</h1>
-<p>Stereo Tool is the perfect tool for correcting the stereophonic image of audio tracks and buses, both for mixing and mastering. The integrated goniometer allows you to easily visualize and identify problems with your stereo signals.</p>
-<p><img src="https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Plugins/stereotool/Stereotool_loupes.png" class="img-fluid"></p>
-<section id="channel-adjustment-parameters" class="level2" data-number="1.1">
-<h2 data-number="1.1" class="anchored" data-anchor-id="channel-adjustment-parameters"><span class="header-section-number">1.1</span> Channel adjustment parameters</h2>
+<section id="studio-session-analyser" class="level1" data-number="1">
+<h1 data-number="1"><span class="header-section-number">1</span> Studio Session Analyser</h1>
+<section id="welcome" class="level2" data-number="1.1">
+<h2 data-number="1.1" class="anchored" data-anchor-id="welcome"><span class="header-section-number">1.1</span> Welcome</h2>
+<p>Thank you for purchasing the Studio Session Plugins (bundle) which includes the <strong>Studio Session Analyser</strong></p>
+<p>The Studio Session Analyser is a light version of our renowned <a href="../analyser_doc/00_Pure_Analyzer_00_Pure_Analyzer.md">FLUX:: Real Time Analyzer System</a></p>
+<p>The Session Analyser is installed as a single application. It has the same basic functioning as with the standard FLUX:: Analyser with the following limitations;</p>
 <ul>
-<li>1 - Left channel input gain trim<br>
-</li>
-<li>2 - Right channel channel input gain trim<br>
-</li>
-<li>3 - Left channel phase invert<br>
-</li>
-<li>4 - Right channel phase invert<br>
-</li>
-<li>5 - Left channel pan pot<br>
-</li>
-<li>6 - Right channel pan pot</li>
+<li>Inputs &amp; Outputs : Mono / Stereo</li>
+<li>I/O Configuration: SampleGrabber Plug-in Only (no hardware I/O)</li>
+<li>Max 96kHz sample rate. 44.1, 48, 88.2, 96</li>
+<li>No Support for any add-on options</li>
 </ul>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Please note that the Studio Session Pack license is a bundle license and the Studio Session Analyzer can only be used on the same computer as the rest of the plug-ins in the bundle are used.</p>
+</div>
+</div>
 </section>
-<section id="stereo-image-adjustment-parameters" class="level2" data-number="1.2">
-<h2 data-number="1.2" class="anchored" data-anchor-id="stereo-image-adjustment-parameters"><span class="header-section-number">1.2</span> Stereo image adjustment parameters</h2>
-<ul>
-<li><p>7 - Stereo width Moving the slider to the right will enlarge the stereophonic image. To the left the image will be tightened.</p></li>
-<li><p>8 - Stereo pan/rotation<br>
-Refocuses the stereo image</p></li>
-</ul>
-</section>
-<section id="visualization-and-metering" class="level2" data-number="1.3">
-<h2 data-number="1.3" class="anchored" data-anchor-id="visualization-and-metering"><span class="header-section-number">1.3</span> Visualization and metering</h2>
-<ul>
-<li>9 - Input peak meter<br>
-</li>
-<li>10 - Output peak meter<br>
-</li>
-<li>11-12 - Goniometer<br>
-The goniometer gives informations about the phase between left and right channels. It also gives a visualisation of the stereo image width and panning.</li>
-</ul>
-</section>
-<section id="goniometer-interpretation" class="level2" data-number="1.4">
-<h2 data-number="1.4" class="anchored" data-anchor-id="goniometer-interpretation"><span class="header-section-number">1.4</span> Goniometer interpretation</h2>
-<section id="identify-mono-signals" class="level3" data-number="1.4.1">
-<h3 data-number="1.4.1" class="anchored" data-anchor-id="identify-mono-signals"><span class="header-section-number">1.4.1</span> Identify mono signals</h3>
-<p><strong>Mono centered</strong><br>
-<img src="https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Plugins/stereotool/mono_center.png" class="img-fluid"></p>
-<p><strong>Mono left panned</strong><br>
-<img src="https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Plugins/stereotool/mono_left.png" class="img-fluid"></p>
-<p><strong>Mono right panned</strong><br>
-<img src="https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Plugins/stereotool/mono_right.png" class="img-fluid"></p>
-</section>
-<section id="identify-issues-in-stereo-signal" class="level3" data-number="1.4.2">
-<h3 data-number="1.4.2" class="anchored" data-anchor-id="identify-issues-in-stereo-signal"><span class="header-section-number">1.4.2</span> Identify issues in stereo signal</h3>
-<p><strong>Out of phase</strong><br>
-<img src="https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Plugins/stereotool/out_of_phase.png" class="img-fluid"></p>
-<p><strong>Phase issue/ too wide</strong><br>
-<img src="https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Plugins/stereotool/phase_issue.png" class="img-fluid"></p>
-<p><strong>Hyper-compressed signal</strong><br>
-<img src="https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Plugins/stereotool/Stereotool_hypercompressed.png" class="img-fluid"></p>
+<section id="user-documentation" class="level2" data-number="1.2">
+<h2 data-number="1.2" class="anchored" data-anchor-id="user-documentation"><span class="header-section-number">1.2</span> User documentation</h2>
+<p>Please refer to the <strong><a href="../analyser_doc/00_Pure_Analyzer_00_Pure_Analyzer.md">FLUX:: Real Time Analyzer System</a></strong> user documentation.</p>
+<p>…</p>
 
 
-</section>
 </section>
 </section>
 
