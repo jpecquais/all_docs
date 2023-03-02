@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Elixir - 6&nbsp; Main Setup</title>
+<title>Elixir V3 (Legacy) - 5&nbsp; Authorization</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,8 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./Specifications.html" rel="next">
-<link href="./User_interface.html" rel="prev">
+<link href="./User_interface.html" rel="next">
+<link href="./Installation.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -73,7 +73,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./Preferences.html"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Main Setup</span></a></li></ol></nav>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./Authorization.html"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Authorization</span></a></li></ol></nav>
       <a class="flex-grow-1" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
       </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -88,9 +88,9 @@ ul.task-list li input[type="checkbox"] {
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation floating overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
-      <a href="./">Elixir</a> 
+      <a href="./">Elixir V3 (Legacy)</a> 
         <div class="sidebar-tools-main">
-    <a href="./Elixir.pdf" title="Download PDF" class="quarto-navigation-tool px-1" aria-label="Download PDF"><i class="bi bi-file-pdf"></i></a>
+    <a href="./Elixir-V3--Legacy-.pdf" title="Download PDF" class="quarto-navigation-tool px-1" aria-label="Download PDF"><i class="bi bi-file-pdf"></i></a>
 </div>
     </div>
       </div>
@@ -103,7 +103,7 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Elixir - Real Multichannel True Peak Limiter</span></a>
+  <a href="./index.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Elixir v3 - Real Multichannel True Peak Limiter</span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -118,22 +118,22 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./Installation_authorization.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Installation</span></a>
+  <a href="./Installation.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Installation</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./User_interface.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">User interface</span></a>
+  <a href="./Authorization.html" class="sidebar-item-text sidebar-link active"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Authorization</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./Preferences.html" class="sidebar-item-text sidebar-link active"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Main Setup</span></a>
+  <a href="./User_interface.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">User interface</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./Specifications.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Technical Details</span></a>
+  <a href="./Technical_Details.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Technical Details</span></a>
   </div>
 </li>
         <li class="sidebar-item sidebar-item-section">
@@ -161,15 +161,11 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#display-quality" id="toc-display-quality" class="nav-link active" data-scroll-target="#display-quality"><span class="header-section-number">6.1</span> Display Quality</a></li>
-  <li><a href="#config" id="toc-config" class="nav-link" data-scroll-target="#config"><span class="header-section-number">6.2</span> Config</a></li>
-  <li><a href="#ui-size" id="toc-ui-size" class="nav-link" data-scroll-target="#ui-size"><span class="header-section-number">6.3</span> UI size</a></li>
-  <li><a href="#report-latency" id="toc-report-latency" class="nav-link" data-scroll-target="#report-latency"><span class="header-section-number">6.4</span> Report latency</a></li>
-  <li><a href="#process-in-multithread" id="toc-process-in-multithread" class="nav-link" data-scroll-target="#process-in-multithread"><span class="header-section-number">6.5</span> Process in multithread</a></li>
-  <li><a href="#osc" id="toc-osc" class="nav-link" data-scroll-target="#osc"><span class="header-section-number">6.6</span> OSC</a>
+  <li><a href="#using-ilok" id="toc-using-ilok" class="nav-link active" data-scroll-target="#using-ilok"><span class="header-section-number">5.1</span> Using iLok</a></li>
+  <li><a href="#using-flux-dongle" id="toc-using-flux-dongle" class="nav-link" data-scroll-target="#using-flux-dongle"><span class="header-section-number">5.2</span> Using Flux:: dongle</a>
   <ul class="collapse">
-  <li><a href="#enable" id="toc-enable" class="nav-link" data-scroll-target="#enable"><span class="header-section-number">6.6.1</span> Enable</a></li>
-  <li><a href="#input-and-output-port-and-ip-address" id="toc-input-and-output-port-and-ip-address" class="nav-link" data-scroll-target="#input-and-output-port-and-ip-address"><span class="header-section-number">6.6.2</span> Input and Output port and IP address</a></li>
+  <li><a href="#windows" id="toc-windows" class="nav-link" data-scroll-target="#windows"><span class="header-section-number">5.2.1</span> Windows</a></li>
+  <li><a href="#os-x" id="toc-os-x" class="nav-link" data-scroll-target="#os-x"><span class="header-section-number">5.2.2</span> OS X</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -179,7 +175,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Main Setup</span></h1>
+<h1 class="title"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Authorization</span></h1>
 </div>
 
 
@@ -194,53 +190,30 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<p>These parameters are global for all Elixir instances. They are saved on the preferences document folder, and are commun for all the DAW.</p>
-<section id="display-quality" class="level2" data-number="6.1">
-<h2 data-number="6.1" class="anchored" data-anchor-id="display-quality"><span class="header-section-number">6.1</span> Display Quality</h2>
-<p>Set the display refresh of the UI. Default: 30 fps.</p>
+<section id="using-ilok" class="level2" data-number="5.1">
+<h2 data-number="5.1" class="anchored" data-anchor-id="using-ilok"><span class="header-section-number">5.1</span> Using iLok</h2>
+<p>Unless you purchased your license in the fluxhome.com online store, you need to activate your license.</p>
+<p>To activate your license, please go to:<br>
+https://www.flux.audio/activation/</p>
+<p>When your license is activated, you need to login with iLok.com and synchronize your iLok in order to download the new license to your iLok.</p>
 </section>
-<section id="config" class="level2" data-number="6.2">
-<h2 data-number="6.2" class="anchored" data-anchor-id="config"><span class="header-section-number">6.2</span> Config</h2>
-<p>Allow to choose the input/output config of the plugin. The field is editable or not, according to the DAW.</p>
+<section id="using-flux-dongle" class="level2" data-number="5.2">
+<h2 data-number="5.2" class="anchored" data-anchor-id="using-flux-dongle"><span class="header-section-number">5.2</span> Using Flux:: dongle</h2>
+<p>If you have purchased the license together with a new Flux:: dongle, the license is already present on the dongle and no further action is needed.</p>
+<p>If you already own a Flux:: dongle and purchased a new license, please login to the user download area, then follow the instructions in the Authorization Updates section at the top of the page. http://www.flux.audio/download/</p>
+<p>When the corresponding authorization update is downloaded you need to install the license on your Flux:: dongle.</p>
+<p>Run the security manager and the serial number of the dongle currently plugged in to your computer will be presented.</p>
+<section id="windows" class="level3" data-number="5.2.1">
+<h3 data-number="5.2.1" class="anchored" data-anchor-id="windows"><span class="header-section-number">5.2.1</span> Windows</h3>
+<p>SecurityManager.exe located in: <code>C:\\ProgramFiles\\Flux\\Plug-ins\\Misc</code></p>
 </section>
-<section id="ui-size" class="level2" data-number="6.3">
-<h2 data-number="6.3" class="anchored" data-anchor-id="ui-size"><span class="header-section-number">6.3</span> UI size</h2>
-<p>Set the plugin size.</p>
-<div class="callout callout-style-default callout-note callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Note
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>If you choose a too big size and cannot change it anymore, please close the UI of all Elixir instances, and delete “Preferences” on “/Documents/FLUX SE/Elixir”.</p>
-</div>
-</div>
-</section>
-<section id="report-latency" class="level2" data-number="6.4">
-<h2 data-number="6.4" class="anchored" data-anchor-id="report-latency"><span class="header-section-number">6.4</span> Report latency</h2>
-<p>Allow to report the latency to the DAW or not. Default: On</p>
-</section>
-<section id="process-in-multithread" class="level2" data-number="6.5">
-<h2 data-number="6.5" class="anchored" data-anchor-id="process-in-multithread"><span class="header-section-number">6.5</span> Process in multithread</h2>
-<p>Parameter set by default according to the DAW, defining if the automation is processed on the main thread or on another thread. Please tweak this parameter only on FLUX:: support request.</p>
-</section>
-<section id="osc" class="level2" data-number="6.6">
-<h2 data-number="6.6" class="anchored" data-anchor-id="osc"><span class="header-section-number">6.6</span> OSC</h2>
-<p>All plugins are controllable by OSC.</p>
-<section id="enable" class="level3" data-number="6.6.1">
-<h3 data-number="6.6.1" class="anchored" data-anchor-id="enable"><span class="header-section-number">6.6.1</span> Enable</h3>
-<p>Enable OSC control, IN and OUT.</p>
-</section>
-<section id="input-and-output-port-and-ip-address" class="level3" data-number="6.6.2">
-<h3 data-number="6.6.2" class="anchored" data-anchor-id="input-and-output-port-and-ip-address"><span class="header-section-number">6.6.2</span> Input and Output port and IP address</h3>
-<p>Set it according to the destination port and IP number, and the network wanted.</p>
-<!-- ### Use Inst. in command
-
-??????  -->
+<section id="os-x" class="level3" data-number="5.2.2">
+<h3 data-number="5.2.2" class="anchored" data-anchor-id="os-x"><span class="header-section-number">5.2.2</span> OS X</h3>
+<p>SecurityManager.app is found on the download section of fluxhome.com.</p>
+<p>http://www.flux.audio/download/</p>
+<p>Then press the Update button, select the license update that you previously downloaded, then press Open.</p>
+<p>The active licenses are listed in the security manager, and you are now ready to start using Elixir v3.</p>
+<p>If you are upgrading from a version prior to version 1.2, your Flux:: dongle requires an update in order to work. If you haven’t already received this update by e-mail, please contact Flux:: support, (support@fluxhome.com).</p>
 
 
 </section>
@@ -482,13 +455,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./User_interface.html" class="pagination-link">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">User interface</span></span>
+      <a href="./Installation.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Installation</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./Specifications.html" class="pagination-link">
-        <span class="nav-page-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Technical Details</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./User_interface.html" class="pagination-link">
+        <span class="nav-page-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">User interface</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
