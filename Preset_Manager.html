@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Evo Touch - 2&nbsp; General Settings</title>
+<title>Evo Touch - 7&nbsp; Preset Manager</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,8 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./Module_Settings.html" rel="next">
-<link href="./index.html" rel="prev">
+<link href="./Specifications.html" rel="next">
+<link href="./Preset_Management.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -73,7 +73,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./General_Settings.html"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">General Settings</span></a></li></ol></nav>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./Preset_Manager.html"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Preset Manager</span></a></li></ol></nav>
       <a class="flex-grow-1" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
       </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -108,7 +108,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./General_Settings.html" class="sidebar-item-text sidebar-link active"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">General Settings</span></a>
+  <a href="./General_Settings.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">General Settings</span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -133,7 +133,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./Preset_Manager.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Preset Manager</span></a>
+  <a href="./Preset_Manager.html" class="sidebar-item-text sidebar-link active"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Preset Manager</span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -162,21 +162,14 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">Table of contents</h2>
-   
-  <ul>
-  <li><a href="#bypass" id="toc-bypass" class="nav-link active" data-scroll-target="#bypass"><span class="header-section-number">2.1</span> Bypass</a></li>
-  <li><a href="#skin" id="toc-skin" class="nav-link" data-scroll-target="#skin"><span class="header-section-number">2.2</span> Skin</a></li>
-  </ul>
-</nav>
+        
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">General Settings</span></h1>
+<h1 class="title"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Preset Manager</span></h1>
 </div>
 
 
@@ -191,20 +184,25 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<section id="bypass" class="level2" data-number="2.1">
-<h2 data-number="2.1" class="anchored" data-anchor-id="bypass"><span class="header-section-number">2.1</span> Bypass</h2>
-<p>Global bypass, when pressed, the signal is routed directly from the inputs to the outputs.</p>
-<p>Value Range : Enabled/Disabled</p>
-<p>Default Value : Disabled</p>
-</section>
-<section id="skin" class="level2" data-number="2.2">
-<h2 data-number="2.2" class="anchored" data-anchor-id="skin"><span class="header-section-number">2.2</span> Skin</h2>
-<p>The look of the EVO Touch user interface.</p>
-<p>Value Range : Light/Dark</p>
-<p>Default Value : Light</p>
+<p>The preset manager contains two preset banks, the Factory bank contains factory presets, this bank is not available for saving of presets but any of the presets can be loaded into a preset slot and then saved into, the User bank, where all user presets are saved.</p>
+<p><img src="https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Plugins/evo-touch/evoTouch_preset.png" class="img-fluid"></p>
+<p>In the preset manager, any preset can be loaded into a preset slot by double clicking on the name of the desired preset in the actual preset list, the preset will then be loaded into the preset slot corresponding to the position of the morphing slider.</p>
+<ul>
+<li>Additional controls in the preset manager</li>
+<li>Recall A loads the selected preset into the corresponding slot.</li>
+<li>Recall B loads the selected preset into the corresponding slot.</li>
+<li>Update, saves the current settings into the selected preset. (Available in User Bank only)</li>
+<li>New, saves the current settings into a new preset. (Available in User Bank only)</li>
+<li>Duplicate creates a copy of the selected preset and saves it to the list.</li>
+<li>Edit allows for changes to the preset meta properties. (Available in User Bank only)</li>
+<li>Delete, removes the selected preset. (Available in User Bank only)</li>
+<li>Export, creates a file reflecting the content of the current preset bank.</li>
+<li>Import, allows for import of a preset bank file by adding the imported banks content to the content in the current preset bank.</li>
+</ul>
+<p>When saving or editing a preset, an option to protect the preset is presented. The preset protection, if engaged, only allows the original preset author to uncheck and edit the preset. This means that you can protect your presets in a multi-user configuration. Protected presets can only be modified using the session used for their creation. If used in another user session they can only be imported or deleted.</p>
+<p><img src="https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Plugins/evo-touch/evoTouch_newPreset.png" class="img-fluid"> <img src="https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Plugins/evo-touch/evoTouch_userPreset.png" class="img-fluid"></p>
 
 
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -442,13 +440,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./index.html" class="pagination-link">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Introduction</span></span>
+      <a href="./Preset_Management.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Preset Management</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./Module_Settings.html" class="pagination-link">
-        <span class="nav-page-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Module Settings</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./Specifications.html" class="pagination-link">
+        <span class="nav-page-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Specifications</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

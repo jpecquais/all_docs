@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Evo Touch - 2&nbsp; General Settings</title>
+<title>Evo Touch - 4&nbsp; Geek Settings</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,8 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./Module_Settings.html" rel="next">
-<link href="./index.html" rel="prev">
+<link href="./Plugin_Settings.html" rel="next">
+<link href="./Module_Settings.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -73,7 +73,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./General_Settings.html"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">General Settings</span></a></li></ol></nav>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./Geek_Settings.html"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Geek Settings</span></a></li></ol></nav>
       <a class="flex-grow-1" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
       </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -108,7 +108,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./General_Settings.html" class="sidebar-item-text sidebar-link active"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">General Settings</span></a>
+  <a href="./General_Settings.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">General Settings</span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -118,7 +118,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./Geek_Settings.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Geek Settings</span></a>
+  <a href="./Geek_Settings.html" class="sidebar-item-text sidebar-link active"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Geek Settings</span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -166,8 +166,10 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#bypass" id="toc-bypass" class="nav-link active" data-scroll-target="#bypass"><span class="header-section-number">2.1</span> Bypass</a></li>
-  <li><a href="#skin" id="toc-skin" class="nav-link" data-scroll-target="#skin"><span class="header-section-number">2.2</span> Skin</a></li>
+  <li><a href="#slope" id="toc-slope" class="nav-link active" data-scroll-target="#slope"><span class="header-section-number">4.1</span> Slope</a></li>
+  <li><a href="#release" id="toc-release" class="nav-link" data-scroll-target="#release"><span class="header-section-number">4.2</span> Release</a></li>
+  <li><a href="#bandwidth" id="toc-bandwidth" class="nav-link" data-scroll-target="#bandwidth"><span class="header-section-number">4.3</span> Bandwidth</a></li>
+  <li><a href="#zero-crossing-threshold" id="toc-zero-crossing-threshold" class="nav-link" data-scroll-target="#zero-crossing-threshold"><span class="header-section-number">4.4</span> Zero Crossing Threshold</a></li>
   </ul>
 </nav>
     </div>
@@ -176,7 +178,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">General Settings</span></h1>
+<h1 class="title"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Geek Settings</span></h1>
 </div>
 
 
@@ -191,17 +193,30 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<section id="bypass" class="level2" data-number="2.1">
-<h2 data-number="2.1" class="anchored" data-anchor-id="bypass"><span class="header-section-number">2.1</span> Bypass</h2>
-<p>Global bypass, when pressed, the signal is routed directly from the inputs to the outputs.</p>
-<p>Value Range : Enabled/Disabled</p>
-<p>Default Value : Disabled</p>
+<p>These settings are available by clicking on the “Yves Jaget” icon.</p>
+<section id="slope" class="level2" data-number="4.1">
+<h2 data-number="4.1" class="anchored" data-anchor-id="slope"><span class="header-section-number">4.1</span> Slope</h2>
+<p>The Slope sets the number of frequency-dependent components controlling the slope of the frequency response. One component, referred to as 1 (First-Order), gives a 6 dB/Octave slope, adding a second component, referred to as 2 (Second-Order), gives a 12 dB/Octave slope etc. The higher the Frequency Order is, the steeper the slope of the frequency response becomes.</p>
+<p><strong>Value Range:</strong> 6 / 12 / 18 / 24 - dB Per Octave<br>
+<strong>Default Value:</strong> 6 dB/o</p>
 </section>
-<section id="skin" class="level2" data-number="2.2">
-<h2 data-number="2.2" class="anchored" data-anchor-id="skin"><span class="header-section-number">2.2</span> Skin</h2>
-<p>The look of the EVO Touch user interface.</p>
-<p>Value Range : Light/Dark</p>
-<p>Default Value : Light</p>
+<section id="release" class="level2" data-number="4.2">
+<h2 data-number="4.2" class="anchored" data-anchor-id="release"><span class="header-section-number">4.2</span> Release</h2>
+<p>Adjusts the release time for the transient processing envelope.</p>
+<p><strong>Value Range:</strong> 0.00 ms / 500.00 ms<br>
+<strong>Default Value:</strong> 0.00 ms</p>
+</section>
+<section id="bandwidth" class="level2" data-number="4.3">
+<h2 data-number="4.3" class="anchored" data-anchor-id="bandwidth"><span class="header-section-number">4.3</span> Bandwidth</h2>
+<p><strong>Value Range:</strong> Static BW/Dynamic BW/Flat Sum<br>
+<strong>Default Value:</strong> Static BW</p>
+<p>Static bandwidth provides a constant Q factor, no matter of the gain factor of the filter. It’s computed by having a constant bandwidth at +- 3 dB from 0 dB.</p>
+<p>Dynamic bandwidth provides a dynamic Q factor, dependent on the gain factor of the filter. It’s computed by having a constant bandwidth at +- 3 dB from peak levels of the filter.</p>
+<p>Flat Sum is a more traditional way of computing the Q factor. The bandwidth is constant for the gain factor divided by two.</p>
+</section>
+<section id="zero-crossing-threshold" class="level2" data-number="4.4">
+<h2 data-number="4.4" class="anchored" data-anchor-id="zero-crossing-threshold"><span class="header-section-number">4.4</span> Zero Crossing Threshold</h2>
+<p>The Zero Crossing refers to the amount of time the signal crosses the point of an amplitude of zero. It gives an indication on transient detection, as they tend to produce bursts of zero crossing.</p>
 
 
 </section>
@@ -442,13 +457,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./index.html" class="pagination-link">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Introduction</span></span>
+      <a href="./Module_Settings.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Module Settings</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./Module_Settings.html" class="pagination-link">
-        <span class="nav-page-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Module Settings</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./Plugin_Settings.html" class="pagination-link">
+        <span class="nav-page-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Plugin Settings</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

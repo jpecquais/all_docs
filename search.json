@@ -2,9 +2,9 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Evo In",
+    "title": "Evo Touch",
     "section": "",
-    "text": "Product Page | Shop Page\n\n1 Introduction\nEVO In - Stay In Phase – Maintain The Vitality\nUnique, Precise, Arbitrary and Linear Phase Rotation, Phase Group to enable and disable Phase for all of the included tracks at the same time. Electrical polarity inverter. Soft saturation to attain roundness and warmth, restoring and maintaining the vitality of the sound!"
+    "text": "Product Page | Shop Page\n\n1 Introduction\nEVO Touch - The icing on the cake that brings out the magic !\nThe Final Touch module EVO Touch, also available in EVO Channel, is a polymorphic section offering a variety of different processors designed to adapt to the requirements of the material, with seven different processing modes including a frequency dependent DeEsser, Expander and a Transient and Sustain Designer."
   },
   {
     "objectID": "General_Settings.html#bypass",
@@ -18,105 +18,175 @@
     "href": "General_Settings.html#skin",
     "title": "2  General Settings",
     "section": "2.2 Skin",
-    "text": "2.2 Skin\nThe look of the EVO In user interface.\nValue Range : Light/Dark\nDefault Value : Light"
+    "text": "2.2 Skin\nThe look of the EVO Touch user interface.\nValue Range : Light/Dark\nDefault Value : Light"
   },
   {
-    "objectID": "Module_Settings.html#drive",
-    "href": "Module_Settings.html#drive",
+    "objectID": "Module_Settings.html#input",
+    "href": "Module_Settings.html#input",
     "title": "3  Module Settings",
-    "section": "3.1 Drive",
-    "text": "3.1 Drive\nIn EVO In a signal Drive is available for restoring and maintaining the vitality of the sound.\nThe EVO IN Drive adds a soft saturation to attain roundness and warmth, restoring and maintaining the vitality of the sound, by generating harmonics important for the constancy of the sound without any audible distortion, on all types of sounds and instruments.\nValue Range : 0% / 100%\nDefault Value : 0%"
+    "section": "3.1 Input",
+    "text": "3.1 Input\n\n3.1.1 Input Gain\nThe input gain control trims the level of the signal at the input of EVO Touch. The meter shows both RMS signal (VU-Meter, blue) and peak signal (peak meter, green), from -24 to +18 dB range, referenced at -18dB.\nValue Range : -24.0 dB / +18.0 dB\nColors : - Blue : RMS Value - Green : Peak Value\nDefault Value : 0.0 dB\n\n\n3.1.2 Drive\nIn EVO Touch a signal Drive is available direct at the input Gain for restoring and maintaining the vitality of the sound.\nThe drive module has been specially designed to add a soft saturation and warmth to your audio tracks.\nValue Range : 0% / 100%\nDefault Value : 0%"
   },
   {
-    "objectID": "Module_Settings.html#phase",
-    "href": "Module_Settings.html#phase",
+    "objectID": "Module_Settings.html#touch",
+    "href": "Module_Settings.html#touch",
     "title": "3  Module Settings",
-    "section": "3.2 Phase",
-    "text": "3.2 Phase\nOne of the most crucial parameters to take into account; Phase, or “The art of using multiple microphones on one and the same sound source”, a classic example is when setting up the sound for a drumkit.\nControlling the Phase of microphones is universal and relevant both for studio and live use. In EVO In an Arbitrary and Linear Phase Rotation throughout the spectrum is provided, to accomplish the same natural thing as when physically moving a microphone, of course without adding any latency.\n\nThe phase must be enabled for all the drum tracks. Then set the same group number for all these tracks. It allows to enable and disable the phase for all the drums in one click (simply switch on/off for the phase in one of the tracks).\n\n\n3.2.1 Phase Switch\nThe Phase is the result of Flux:: proprietary research, this unique algorithm allows linear phase correction with zero latency.\nActivate the phase module on all of the tracks that were recorded at the same time and in the same room (multi- microphones tracking or live recording in exemple), and then use the slider on the different tracks until you get full control over the phase and everything sounds correct.\nWhen enabled, the phase correction is turned on.\nValue Range : Enabled/Disabled\nDefault Value : Disabled\n\n\n3.2.2 Phase Group\nAdd an EVO In instance to a Phase Group. You can add an instance of EVO In to a group, all the members of the same group can then have their Phase enabled or disabled at one and the same time. To do so, add the instance to a group by selecting the group number for the desired group. Now when you then turn the phase switch on or off in any of the instances in the group, this will affect all instances that are members of the same group.\nValue Range : None/Group number\nNumber of groups : 8 groups\nDefault Value : Disabled\n\n\n3.2.3 Phase Correction\nSet the shift value used to correct the phase.\nValue Range : -180° / 180°\nDefault Value : 0°\n\n\n3.2.4 Polarity Invert\nWhen enabled, polarity inversion is applied to the signal.\nValue Range : Enabled / Disabled\nDefault Value : Disabled"
+    "section": "3.2 Touch",
+    "text": "3.2 Touch\nDifferent types of material require different tools, whether it’s a vocal cut, drums, guitar, piano or something else, it requires the accurate specific treatment for the material.\nThe Touch module in EVO Touch is a polymorphic section offering a variety of different processors designed to adapt to the requirements of the material, with seven different processing modes including a DeEsser, Expander and a Transient and Sustain Designer.\nWith the adjustable signal flow in EVO Touch the Touch module can be inserted where it’s best doing its job, like having the DeEsser or Expander first in the flow, or the Transient designer after the compressor.\n\n\n3.2.1 Mode\nMode parameter defines the processor used by the touch module. Seven different modes are provided.\nAvailable modes :\n\nTransient Boost\nTransient Kill\nSustain Boost\nSustain Kill\nDeEsser 1\nDeEsser 2\nExpander\n\nDefault Value : DeEsser 2\n\n\n3.2.2 Amount\nThe amount of signal processed by the Touch module.\nValue Range : 0% / 100%\nDefault Value : 0%\n\n\n3.2.3 Release/Range\nThere is a release parameter for the following modes :\n\nTransient Boost\nTransient Kill\nSustain Boost\nSustain Kill\nExpander\n\nValue Range : 1ms / 1000ms\nDefault Value : 20ms\nThe two deesser modes offers a range parameter, to limit the maximum gain reduction.\nValue Range : 0dB / 24dB\nDefault Value : 12dB\n\n\n3.2.4 Frequency Range\nThe Touch module works on a defined frequency range.\nValue Range :\nMinimal bound : 20Hz\nMaximal bound : Sampling Rate / 2\nDefault Value :\nInferior bound : 3.9kHz\nSuperior bound : up to Sampling Rate / 2\nRange width : Depends on the sampling rate.\n\n\n3.2.5 Listen\nWhen enabled, you can monitor the actual signal setup with the frequency range.\nValue Range : Enabled / Disabled\nDefault Value : Disabled"
+  },
+  {
+    "objectID": "Module_Settings.html#output",
+    "href": "Module_Settings.html#output",
+    "title": "3  Module Settings",
+    "section": "3.3 Output",
+    "text": "3.3 Output\n\n3.3.1 Output Gain\nThe output gain control trims the level of the signal at the output of EVO Touch. The meter shows both RMS signal (VU-Meter, blue) and peak signal (peak meter, green), from -24 to +18 dB range, referenced at -18dB.\nValue Range : -24.0 dB / +18.0 dB\nColors : - Blue : RMS Value - Green : Peak Value\nDefault Value : 0.0 dB"
+  },
+  {
+    "objectID": "Geek_Settings.html#slope",
+    "href": "Geek_Settings.html#slope",
+    "title": "4  Geek Settings",
+    "section": "4.1 Slope",
+    "text": "4.1 Slope\nThe Slope sets the number of frequency-dependent components controlling the slope of the frequency response. One component, referred to as 1 (First-Order), gives a 6 dB/Octave slope, adding a second component, referred to as 2 (Second-Order), gives a 12 dB/Octave slope etc. The higher the Frequency Order is, the steeper the slope of the frequency response becomes.\nValue Range: 6 / 12 / 18 / 24 - dB Per Octave\nDefault Value: 6 dB/o"
+  },
+  {
+    "objectID": "Geek_Settings.html#release",
+    "href": "Geek_Settings.html#release",
+    "title": "4  Geek Settings",
+    "section": "4.2 Release",
+    "text": "4.2 Release\nAdjusts the release time for the transient processing envelope.\nValue Range: 0.00 ms / 500.00 ms\nDefault Value: 0.00 ms"
+  },
+  {
+    "objectID": "Geek_Settings.html#bandwidth",
+    "href": "Geek_Settings.html#bandwidth",
+    "title": "4  Geek Settings",
+    "section": "4.3 Bandwidth",
+    "text": "4.3 Bandwidth\nValue Range: Static BW/Dynamic BW/Flat Sum\nDefault Value: Static BW\nStatic bandwidth provides a constant Q factor, no matter of the gain factor of the filter. It’s computed by having a constant bandwidth at +- 3 dB from 0 dB.\nDynamic bandwidth provides a dynamic Q factor, dependent on the gain factor of the filter. It’s computed by having a constant bandwidth at +- 3 dB from peak levels of the filter.\nFlat Sum is a more traditional way of computing the Q factor. The bandwidth is constant for the gain factor divided by two."
+  },
+  {
+    "objectID": "Geek_Settings.html#zero-crossing-threshold",
+    "href": "Geek_Settings.html#zero-crossing-threshold",
+    "title": "4  Geek Settings",
+    "section": "4.4 Zero Crossing Threshold",
+    "text": "4.4 Zero Crossing Threshold\nThe Zero Crossing refers to the amount of time the signal crosses the point of an amplitude of zero. It gives an indication on transient detection, as they tend to produce bursts of zero crossing."
   },
   {
     "objectID": "Plugin_Settings.html#main-setup",
     "href": "Plugin_Settings.html#main-setup",
-    "title": "4  Plugin Settings",
-    "section": "4.1 Main Setup",
-    "text": "4.1 Main Setup\n\n4.1.1 UI Refresh Rate\nMax refresh rate of the plug-in’s UI."
+    "title": "5  Plugin Settings",
+    "section": "5.1 Main Setup",
+    "text": "5.1 Main Setup\n\n5.1.1 UI Refresh Rate\nMax refresh rate of the plug-in’s UI."
   },
   {
     "objectID": "Plugin_Settings.html#io",
     "href": "Plugin_Settings.html#io",
-    "title": "4  Plugin Settings",
-    "section": "4.2 I/O",
-    "text": "4.2 I/O\n\n4.2.1 Input / Output\nI/O Config and Layout is not always available, though it is always displayed, it can only be edited in some configurations and formats.\n\n\n4.2.2 Config\nCurrent I/O configuration, is only available in certain VST hosts; typically hosts with limited capabilities for handling multichannel configurations.\n\n\n4.2.3 Layout\nAvailable I/O routings based on current I/O configuration. Layout is available for editing if more than two input channels are available. If the Layout is changed from the default value, an asterisk * is displayed next to the Layout information in the Input section."
+    "title": "5  Plugin Settings",
+    "section": "5.2 I/O",
+    "text": "5.2 I/O\n\n5.2.1 Input / Output\nI/O Config and Layout is not always available, though it is always displayed, it can only be edited in some configurations and formats.\n\n\n5.2.2 Config\nCurrent I/O configuration, is only available in certain VST hosts; typically hosts with limited capabilities for handling multichannel configurations.\n\n\n5.2.3 Layout\nAvailable I/O routings based on current I/O configuration. Layout is available for editing if more than two input channels are available. If the Layout is changed from the default value, an asterisk * is displayed next to the Layout information in the Input section."
   },
   {
     "objectID": "Plugin_Settings.html#processing",
     "href": "Plugin_Settings.html#processing",
-    "title": "4  Plugin Settings",
-    "section": "4.3 Processing",
-    "text": "4.3 Processing\n\n4.3.1 Report Latency\nEnables/Disables the latency reporting to the host."
+    "title": "5  Plugin Settings",
+    "section": "5.3 Processing",
+    "text": "5.3 Processing\n\n5.3.1 Report Latency\nEnables/Disables the latency reporting to the host."
   },
   {
     "objectID": "Plugin_Settings.html#automation",
     "href": "Plugin_Settings.html#automation",
-    "title": "4  Plugin Settings",
-    "section": "4.4 Automation",
-    "text": "4.4 Automation\n\n4.4.1 Multithread\nEnables/Disables Multithread Automation."
+    "title": "5  Plugin Settings",
+    "section": "5.4 Automation",
+    "text": "5.4 Automation\n\n5.4.1 Multithread\nEnables/Disables Multithread Automation."
   },
   {
     "objectID": "Plugin_Settings.html#osc",
     "href": "Plugin_Settings.html#osc",
-    "title": "4  Plugin Settings",
-    "section": "4.5 OSC",
-    "text": "4.5 OSC\nOSC is available in EVO In.\n\n4.5.1 Enable\nEnables/Disables OSC control and mapping of the plug-in’s parameters."
+    "title": "5  Plugin Settings",
+    "section": "5.5 OSC",
+    "text": "5.5 OSC\nOSC is available in EVO Touch.\n\n5.5.1 Enable\nEnables/Disables OSC control and mapping of the plug-in’s parameters."
   },
   {
     "objectID": "Plugin_Settings.html#version-information",
     "href": "Plugin_Settings.html#version-information",
-    "title": "4  Plugin Settings",
-    "section": "4.6 Version Information",
-    "text": "4.6 Version Information\nPlug-in version and build-number information."
+    "title": "5  Plugin Settings",
+    "section": "5.6 Version Information",
+    "text": "5.6 Version Information\nPlug-in version and build-number information."
   },
   {
     "objectID": "Plugin_Settings.html#user-manual-credits",
     "href": "Plugin_Settings.html#user-manual-credits",
-    "title": "4  Plugin Settings",
-    "section": "4.7 User Manual / Credits",
-    "text": "4.7 User Manual / Credits\nQuick link to the User Manual. Plug-in creation credits."
+    "title": "5  Plugin Settings",
+    "section": "5.7 User Manual / Credits",
+    "text": "5.7 User Manual / Credits\nQuick link to the User Manual. Plug-in creation credits."
+  },
+  {
+    "objectID": "Preset_Management.html#preset-sections",
+    "href": "Preset_Management.html#preset-sections",
+    "title": "6  Preset Management",
+    "section": "6.1 Preset Sections",
+    "text": "6.1 Preset Sections\nEVO Touch provides two preset sections referred to as section A and section B, offering simultaneous access to two full sets of parameter settings. Clicking the A section (bottom left) or the B section (bottom right), or clicking the arrow in the Current Selected Preset display, opens a new window accessing the built-in preset manager."
+  },
+  {
+    "objectID": "Preset_Management.html#save",
+    "href": "Preset_Management.html#save",
+    "title": "6  Preset Management",
+    "section": "6.2 Save",
+    "text": "6.2 Save\nSave replaces the selected preset by a new one under the same name featuring the current settings. If you want to keep an existing preset without your new modifications, just select an empty place into the preset list, enter a new name for this modified preset featuring the current settings and press Save. Recall\nOnce a preset is selected from the preset list it must be explicitly loaded into section A or the section B by using the recall button. A preset is effective only after it has been recalled."
+  },
+  {
+    "objectID": "Preset_Management.html#copy-a-copy-b",
+    "href": "Preset_Management.html#copy-a-copy-b",
+    "title": "6  Preset Management",
+    "section": "6.3 Copy A / Copy B",
+    "text": "6.3 Copy A / Copy B\nThe current parameters of a section are copied to the other one. The section A or B is re-initialized with the current values and the morphing slider is parked at 100% of the corresponding section."
+  },
+  {
+    "objectID": "Preset_Management.html#morphing-slider",
+    "href": "Preset_Management.html#morphing-slider",
+    "title": "6  Preset Management",
+    "section": "6.4 Morphing Slider",
+    "text": "6.4 Morphing Slider\nMorphs the parameter values of both parameter sections, it has no unity or specific value display; it provides morphing of the current values from both of the parameter sections (A & B). A double-click on one side of the slider area toggles between the two parameter sections. The actual result of the morphed parameter settings can be saved as a new preset."
+  },
+  {
+    "objectID": "Preset_Manager.html",
+    "href": "Preset_Manager.html",
+    "title": "7  Preset Manager",
+    "section": "",
+    "text": "The preset manager contains two preset banks, the Factory bank contains factory presets, this bank is not available for saving of presets but any of the presets can be loaded into a preset slot and then saved into, the User bank, where all user presets are saved.\n\nIn the preset manager, any preset can be loaded into a preset slot by double clicking on the name of the desired preset in the actual preset list, the preset will then be loaded into the preset slot corresponding to the position of the morphing slider.\n\nAdditional controls in the preset manager\nRecall A loads the selected preset into the corresponding slot.\nRecall B loads the selected preset into the corresponding slot.\nUpdate, saves the current settings into the selected preset. (Available in User Bank only)\nNew, saves the current settings into a new preset. (Available in User Bank only)\nDuplicate creates a copy of the selected preset and saves it to the list.\nEdit allows for changes to the preset meta properties. (Available in User Bank only)\nDelete, removes the selected preset. (Available in User Bank only)\nExport, creates a file reflecting the content of the current preset bank.\nImport, allows for import of a preset bank file by adding the imported banks content to the content in the current preset bank.\n\nWhen saving or editing a preset, an option to protect the preset is presented. The preset protection, if engaged, only allows the original preset author to uncheck and edit the preset. This means that you can protect your presets in a multi-user configuration. Protected presets can only be modified using the session used for their creation. If used in another user session they can only be imported or deleted."
   },
   {
     "objectID": "Specifications.html#availability",
     "href": "Specifications.html#availability",
-    "title": "5  Specifications",
-    "section": "5.1 Availability",
-    "text": "5.1 Availability\nEVO In is available in:\nAU / VST / VST3 / AAX Native/ AAX DSP /AAX AudioSuite* / AAX VENUE / Waves WPAPI\n* In Pro Tools 11 and later"
+    "title": "8  Specifications",
+    "section": "8.1 Availability",
+    "text": "8.1 Availability\nEVO Touch is available in:\nAU / VST / VST3 / AAX Native/ AAX AudioSuite / Waves WPAPI\n* AAX Native & AAX AudioSuite in Pro Tools 11 and later"
   },
   {
     "objectID": "Specifications.html#processing",
     "href": "Specifications.html#processing",
-    "title": "5  Specifications",
-    "section": "5.2 Processing",
-    "text": "5.2 Processing\nEVO In provides :\n\nUp to 16 channels Input/Output in VST/VST3/AU/AAX.\nUp to 8 channels in WPAPI for Waves Soundgrid.\n64-bits internal floating point processing.\nSampling rate up to 384 kHz."
+    "title": "8  Specifications",
+    "section": "8.2 Processing",
+    "text": "8.2 Processing\nEVO Touch provides :\n\nUp to 16 channels Input/Output in VST/VST3/AU/AAX.\nUp to 8 channels in WPAPI for Waves Soundgrid.\n64-bits internal floating point processing.\nSampling rate up to 384 kHz."
   },
   {
     "objectID": "Specifications.html#hardware-requirements",
     "href": "Specifications.html#hardware-requirements",
-    "title": "5  Specifications",
-    "section": "5.3 Hardware Requirements",
-    "text": "5.3 Hardware Requirements\nA graphic card fully supporting OpenGL 2.0 is required.\nmacOS : OpenGL 2.0 required – Mac Pro 1.1 & Mac Pro 2.1 are not supported.\nWindows : If your computer has an ATi or NVidia graphics card, please assure the latest graphic drivers from the ATi or NVidia website are installed."
+    "title": "8  Specifications",
+    "section": "8.3 Hardware Requirements",
+    "text": "8.3 Hardware Requirements\nA graphic card fully supporting OpenGL 2.0 is required.\n\nmacOS : OpenGL 2.0 required – Mac Pro 1.1 & Mac Pro 2.1 are not supported.\nWindows : If your computer has an ATi or NVidia graphics card, please assure the latest graphic drivers from the ATi or NVidia website are installed."
   },
   {
     "objectID": "Specifications.html#software-license-requirements",
     "href": "Specifications.html#software-license-requirements",
-    "title": "5  Specifications",
-    "section": "5.4 Software License Requirements",
-    "text": "5.4 Software License Requirements\nIn order to use the software an iLok.com user account is required (the iLok USB Smart Key is not required)."
+    "title": "8  Specifications",
+    "section": "8.4 Software License Requirements",
+    "text": "8.4 Software License Requirements\nIn order to use the software an iLok.com user account is required (the iLok USB Smart Key is not required)."
   },
   {
     "objectID": "Specifications.html#compatibility",
     "href": "Specifications.html#compatibility",
-    "title": "5  Specifications",
-    "section": "5.5 Compatibility",
-    "text": "5.5 Compatibility\nAll major native formats are supported\n\n5.5.1 Windows – 10, in 64 bits only.\n\nVST (2.4)\nVST3 (3.1)\nAAX Native*\nAAX AudioSuite*\nWaves WPAPI\n\n\n\n5.5.2 macOS (Intel and ARM)\nAll versions from Sierra (10.12) to latest. (Compatible with previous versions but not supported)\n\nVST (2.4)\nVST3 (3.1)\nAU\nAAX Native*\nAAX AudioSuite*\nWaves WPAPI\n\n* AAX Native & AAX AudioSuite in Pro Tools 11 and later"
+    "title": "8  Specifications",
+    "section": "8.5 Compatibility",
+    "text": "8.5 Compatibility\nAll major native formats are supported\n\n8.5.1 Windows – 10, in 64 bits only.\n\nVST (2.4)\nVST3 (3.1)\nAAX Native*\nAAX AudioSuite*\nWaves WPAPI\n\n\n\n8.5.2 macOS (Intel and ARM)\nAll versions from Sierra (10.12) to latest. (Compatible with previous versions but not supported)\n\nVST (2.4)\nVST3 (3.1)\nAU\nAAX Native*\nAAX AudioSuite*\nWaves WPAPI\n\n* AAX Native & AAX AudioSuite in Pro Tools 11 and later"
   },
   {
     "objectID": "../flux_processing_release_notes.html#build-23.1.0.50251---all-plugins",

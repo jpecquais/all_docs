@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Evo In - 3&nbsp; Module Settings</title>
+<title>Evo Touch - 3&nbsp; Module Settings</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,7 +30,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./Plugin_Settings.html" rel="next">
+<link href="./Geek_Settings.html" rel="next">
 <link href="./General_Settings.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
@@ -88,9 +88,9 @@ ul.task-list li input[type="checkbox"] {
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation floating overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
-      <a href="./">Evo In</a> 
+      <a href="./">Evo Touch</a> 
         <div class="sidebar-tools-main">
-    <a href="./Evo-In.pdf" title="Download PDF" class="quarto-navigation-tool px-1" aria-label="Download PDF"><i class="bi bi-file-pdf"></i></a>
+    <a href="./Evo-Touch.pdf" title="Download PDF" class="quarto-navigation-tool px-1" aria-label="Download PDF"><i class="bi bi-file-pdf"></i></a>
 </div>
     </div>
       </div>
@@ -118,12 +118,27 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./Plugin_Settings.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Plugin Settings</span></a>
+  <a href="./Geek_Settings.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Geek Settings</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./Specifications.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Specifications</span></a>
+  <a href="./Plugin_Settings.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Plugin Settings</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Preset_Management.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Preset Management</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Preset_Manager.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Preset Manager</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Specifications.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Specifications</span></a>
   </div>
 </li>
         <li class="sidebar-item sidebar-item-section">
@@ -151,13 +166,22 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#drive" id="toc-drive" class="nav-link active" data-scroll-target="#drive"><span class="header-section-number">3.1</span> Drive</a></li>
-  <li><a href="#phase" id="toc-phase" class="nav-link" data-scroll-target="#phase"><span class="header-section-number">3.2</span> Phase</a>
+  <li><a href="#input" id="toc-input" class="nav-link active" data-scroll-target="#input"><span class="header-section-number">3.1</span> Input</a>
   <ul class="collapse">
-  <li><a href="#phase-switch" id="toc-phase-switch" class="nav-link" data-scroll-target="#phase-switch"><span class="header-section-number">3.2.1</span> Phase Switch</a></li>
-  <li><a href="#phase-group" id="toc-phase-group" class="nav-link" data-scroll-target="#phase-group"><span class="header-section-number">3.2.2</span> Phase Group</a></li>
-  <li><a href="#phase-correction" id="toc-phase-correction" class="nav-link" data-scroll-target="#phase-correction"><span class="header-section-number">3.2.3</span> Phase Correction</a></li>
-  <li><a href="#polarity-invert" id="toc-polarity-invert" class="nav-link" data-scroll-target="#polarity-invert"><span class="header-section-number">3.2.4</span> Polarity Invert</a></li>
+  <li><a href="#input-gain" id="toc-input-gain" class="nav-link" data-scroll-target="#input-gain"><span class="header-section-number">3.1.1</span> Input Gain</a></li>
+  <li><a href="#drive" id="toc-drive" class="nav-link" data-scroll-target="#drive"><span class="header-section-number">3.1.2</span> Drive</a></li>
+  </ul></li>
+  <li><a href="#touch" id="toc-touch" class="nav-link" data-scroll-target="#touch"><span class="header-section-number">3.2</span> Touch</a>
+  <ul class="collapse">
+  <li><a href="#mode" id="toc-mode" class="nav-link" data-scroll-target="#mode"><span class="header-section-number">3.2.1</span> Mode</a></li>
+  <li><a href="#amount" id="toc-amount" class="nav-link" data-scroll-target="#amount"><span class="header-section-number">3.2.2</span> Amount</a></li>
+  <li><a href="#releaserange" id="toc-releaserange" class="nav-link" data-scroll-target="#releaserange"><span class="header-section-number">3.2.3</span> Release/Range</a></li>
+  <li><a href="#frequency-range" id="toc-frequency-range" class="nav-link" data-scroll-target="#frequency-range"><span class="header-section-number">3.2.4</span> Frequency Range</a></li>
+  <li><a href="#listen" id="toc-listen" class="nav-link" data-scroll-target="#listen"><span class="header-section-number">3.2.5</span> Listen</a></li>
+  </ul></li>
+  <li><a href="#output" id="toc-output" class="nav-link" data-scroll-target="#output"><span class="header-section-number">3.3</span> Output</a>
+  <ul class="collapse">
+  <li><a href="#output-gain" id="toc-output-gain" class="nav-link" data-scroll-target="#output-gain"><span class="header-section-number">3.3.1</span> Output Gain</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -182,46 +206,92 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<section id="drive" class="level2" data-number="3.1">
-<h2 data-number="3.1" class="anchored" data-anchor-id="drive"><span class="header-section-number">3.1</span> Drive</h2>
-<p>In EVO In a signal Drive is available for restoring and maintaining the vitality of the sound.</p>
-<p>The EVO IN Drive adds a soft saturation to attain roundness and warmth, restoring and maintaining the vitality of the sound, by generating harmonics important for the constancy of the sound without any audible distortion, on all types of sounds and instruments.</p>
+<section id="input" class="level2" data-number="3.1">
+<h2 data-number="3.1" class="anchored" data-anchor-id="input"><span class="header-section-number">3.1</span> Input</h2>
+<section id="input-gain" class="level3" data-number="3.1.1">
+<h3 data-number="3.1.1" class="anchored" data-anchor-id="input-gain"><span class="header-section-number">3.1.1</span> Input Gain</h3>
+<p>The input gain control trims the level of the signal at the input of EVO Touch. The meter shows both RMS signal (VU-Meter, blue) and peak signal (peak meter, green), from -24 to +18 dB range, referenced at -18dB.</p>
+<p>Value Range : -24.0 dB / +18.0 dB</p>
+<p>Colors : - Blue : RMS Value - Green : Peak Value</p>
+<p>Default Value : 0.0 dB</p>
+</section>
+<section id="drive" class="level3" data-number="3.1.2">
+<h3 data-number="3.1.2" class="anchored" data-anchor-id="drive"><span class="header-section-number">3.1.2</span> Drive</h3>
+<p>In EVO Touch a signal Drive is available direct at the input Gain for restoring and maintaining the vitality of the sound.</p>
+<p>The drive module has been specially designed to add a soft saturation and warmth to your audio tracks.</p>
 <p>Value Range : 0% / 100%</p>
 <p>Default Value : 0%</p>
 </section>
-<section id="phase" class="level2" data-number="3.2">
-<h2 data-number="3.2" class="anchored" data-anchor-id="phase"><span class="header-section-number">3.2</span> Phase</h2>
-<p>One of the most crucial parameters to take into account; Phase, or “The art of using multiple microphones on one and the same sound source”, a classic example is when setting up the sound for a drumkit.</p>
-<p>Controlling the Phase of microphones is universal and relevant both for studio and live use. In EVO In an Arbitrary and Linear Phase Rotation throughout the spectrum is provided, to accomplish the same natural thing as when physically moving a microphone, of course without adding any latency.</p>
-<p><img src="https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Plugins/evo-in/ManualEvoIn-004.jpg" class="img-fluid"></p>
-<p>The phase must be enabled for all the drum tracks. Then set the same group number for all these tracks. It allows to enable and disable the phase for all the drums in one click (simply switch on/off for the phase in one of the tracks).</p>
-<p><img src="https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Plugins/evo-in/ManualEvoIn-005.jpg" class="img-fluid"></p>
-<section id="phase-switch" class="level3" data-number="3.2.1">
-<h3 data-number="3.2.1" class="anchored" data-anchor-id="phase-switch"><span class="header-section-number">3.2.1</span> Phase Switch</h3>
-<p>The Phase is the result of Flux:: proprietary research, this unique algorithm allows linear phase correction with zero latency.</p>
-<p>Activate the phase module on all of the tracks that were recorded at the same time and in the same room (multi- microphones tracking or live recording in exemple), and then use the slider on the different tracks until you get full control over the phase and everything sounds correct.</p>
-<p>When enabled, the phase correction is turned on.</p>
-<p>Value Range : Enabled/Disabled</p>
-<p>Default Value : Disabled</p>
 </section>
-<section id="phase-group" class="level3" data-number="3.2.2">
-<h3 data-number="3.2.2" class="anchored" data-anchor-id="phase-group"><span class="header-section-number">3.2.2</span> Phase Group</h3>
-<p>Add an EVO In instance to a Phase Group. You can add an instance of EVO In to a group, all the members of the same group can then have their Phase enabled or disabled at one and the same time. To do so, add the instance to a group by selecting the group number for the desired group. Now when you then turn the phase switch on or off in any of the instances in the group, this will affect all instances that are members of the same group.</p>
-<p>Value Range : None/Group number</p>
-<p>Number of groups : 8 groups</p>
-<p>Default Value : Disabled</p>
+<section id="touch" class="level2" data-number="3.2">
+<h2 data-number="3.2" class="anchored" data-anchor-id="touch"><span class="header-section-number">3.2</span> Touch</h2>
+<p>Different types of material require different tools, whether it’s a vocal cut, drums, guitar, piano or something else, it requires the accurate specific treatment for the material.</p>
+<p>The Touch module in EVO Touch is a polymorphic section offering a variety of different processors designed to adapt to the requirements of the material, with seven different processing modes including a DeEsser, Expander and a Transient and Sustain Designer.</p>
+<p>With the adjustable signal flow in EVO Touch the Touch module can be inserted where it’s best doing its job, like having the DeEsser or Expander first in the flow, or the Transient designer after the compressor.</p>
+<p><img src="https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Plugins/evo-touch/evoTouch_panel.png" class="img-fluid"></p>
+<section id="mode" class="level3" data-number="3.2.1">
+<h3 data-number="3.2.1" class="anchored" data-anchor-id="mode"><span class="header-section-number">3.2.1</span> Mode</h3>
+<p>Mode parameter defines the processor used by the touch module. Seven different modes are provided.</p>
+<p>Available modes :</p>
+<ul>
+<li>Transient Boost</li>
+<li>Transient Kill</li>
+<li>Sustain Boost</li>
+<li>Sustain Kill</li>
+<li>DeEsser 1</li>
+<li>DeEsser 2</li>
+<li>Expander</li>
+</ul>
+<p>Default Value : DeEsser 2</p>
 </section>
-<section id="phase-correction" class="level3" data-number="3.2.3">
-<h3 data-number="3.2.3" class="anchored" data-anchor-id="phase-correction"><span class="header-section-number">3.2.3</span> Phase Correction</h3>
-<p>Set the shift value used to correct the phase.</p>
-<p>Value Range : -180° / 180°</p>
-<p>Default Value : 0°</p>
+<section id="amount" class="level3" data-number="3.2.2">
+<h3 data-number="3.2.2" class="anchored" data-anchor-id="amount"><span class="header-section-number">3.2.2</span> Amount</h3>
+<p>The amount of signal processed by the Touch module.</p>
+<p>Value Range : 0% / 100%</p>
+<p>Default Value : 0%</p>
 </section>
-<section id="polarity-invert" class="level3" data-number="3.2.4">
-<h3 data-number="3.2.4" class="anchored" data-anchor-id="polarity-invert"><span class="header-section-number">3.2.4</span> Polarity Invert</h3>
-<p>When enabled, polarity inversion is applied to the signal.</p>
+<section id="releaserange" class="level3" data-number="3.2.3">
+<h3 data-number="3.2.3" class="anchored" data-anchor-id="releaserange"><span class="header-section-number">3.2.3</span> Release/Range</h3>
+<p>There is a release parameter for the following modes :</p>
+<ul>
+<li>Transient Boost</li>
+<li>Transient Kill</li>
+<li>Sustain Boost</li>
+<li>Sustain Kill</li>
+<li>Expander</li>
+</ul>
+<p>Value Range : 1ms / 1000ms</p>
+<p>Default Value : 20ms</p>
+<p>The two deesser modes offers a range parameter, to limit the maximum gain reduction.</p>
+<p>Value Range : 0dB / 24dB</p>
+<p>Default Value : 12dB</p>
+</section>
+<section id="frequency-range" class="level3" data-number="3.2.4">
+<h3 data-number="3.2.4" class="anchored" data-anchor-id="frequency-range"><span class="header-section-number">3.2.4</span> Frequency Range</h3>
+<p>The Touch module works on a defined frequency range.</p>
+<p>Value Range :</p>
+<p>Minimal bound : 20Hz<br>
+Maximal bound : Sampling Rate / 2</p>
+<p>Default Value :</p>
+<p>Inferior bound : 3.9kHz<br>
+Superior bound : up to Sampling Rate / 2<br>
+Range width : Depends on the sampling rate.</p>
+</section>
+<section id="listen" class="level3" data-number="3.2.5">
+<h3 data-number="3.2.5" class="anchored" data-anchor-id="listen"><span class="header-section-number">3.2.5</span> Listen</h3>
+<p>When enabled, you can monitor the actual signal setup with the frequency range.</p>
 <p>Value Range : Enabled / Disabled</p>
 <p>Default Value : Disabled</p>
+</section>
+</section>
+<section id="output" class="level2" data-number="3.3">
+<h2 data-number="3.3" class="anchored" data-anchor-id="output"><span class="header-section-number">3.3</span> Output</h2>
+<section id="output-gain" class="level3" data-number="3.3.1">
+<h3 data-number="3.3.1" class="anchored" data-anchor-id="output-gain"><span class="header-section-number">3.3.1</span> Output Gain</h3>
+<p>The output gain control trims the level of the signal at the output of EVO Touch. The meter shows both RMS signal (VU-Meter, blue) and peak signal (peak meter, green), from -24 to +18 dB range, referenced at -18dB.</p>
+<p>Value Range : -24.0 dB / +18.0 dB</p>
+<p>Colors : - Blue : RMS Value - Green : Peak Value</p>
+<p>Default Value : 0.0 dB</p>
 
 
 </section>
@@ -468,8 +538,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./Plugin_Settings.html" class="pagination-link">
-        <span class="nav-page-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Plugin Settings</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./Geek_Settings.html" class="pagination-link">
+        <span class="nav-page-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Geek Settings</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
