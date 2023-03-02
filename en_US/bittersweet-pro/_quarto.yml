@@ -1,0 +1,29 @@
+project:
+  type: book
+  output-dir: ../../_build/bittersweet-pro
+
+book:
+  title: "Bittersweet Pro"
+  author: "FLUX:: Immersive"
+  date: "2/6/2023"
+  downloads: [pdf]
+  chapters:
+    - index.qmd
+    - General_Settings.qmd
+    - Geek.qmd
+    - Plugin_Settings.qmd
+    - Preset_Management.qmd
+    - Preset_Manager.qmd
+    #- Measurements.qmd
+    - Specification.qmd
+  appendices:
+    - ../flux_processing_release_notes.qmd
+
+format:
+  html:
+    theme: cosmo
+    default-image-extension: gif
+  pdf:
+    documentclass: scrreport
+    default-image-extension: png
+    include-in-header: ../fluxtemplate.tex

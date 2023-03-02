@@ -1,0 +1,27 @@
+project:
+  type: book
+  output-dir: ../../_build/epure
+  
+book:
+  title: "Epure"
+  author: "FLUX:: Immersive"
+  date: "2/6/2023"
+  downloads: [pdf]
+  chapters:
+    - index.qmd
+    - Special_Functions.qmd
+    - Setup_-_Input_Routing_-_MS_Encode_Decode_-_Groups.qmd
+    - Specifications.qmd
+    - Compatibility.qmd
+  appendices:
+    - ../flux_processing_release_notes.qmd
+
+
+format:
+  html:
+    theme: cosmo
+    default-image-extension: gif
+  pdf:
+    documentclass: scrreport
+    default-image-extension: png
+    include-in-header: ../fluxtemplate.tex
