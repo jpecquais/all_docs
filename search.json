@@ -2,744 +2,688 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "IRCAM Spat",
+    "title": "IRCAM Trax",
     "section": "",
-    "text": "1 IRCAM Spat"
+    "text": "Product Page | Shop Page"
   },
   {
-    "objectID": "index.html#introduction",
-    "href": "index.html#introduction",
-    "title": "IRCAM Spat",
-    "section": "1.1 Introduction",
-    "text": "1.1 Introduction\nThe Spat is a very powerful tool for spatialization. It can handle both aspects of spatialization (source localization and room acoustic simulation) in a very homogeneous and coherent way. A set of sources (up to eight in this plug-in, may be linked in stereo pairs) are localized in a 3D space (in the Source control tab). Each of these source is connected to a room (also called reverb).\nUp to 3 rooms are available in parallel, in order to simulate complex spaces (coupled room acoustics…)."
+    "objectID": "Mode.html#voice",
+    "href": "Mode.html#voice",
+    "title": "2  Mode",
+    "section": "2.1 (1) Voice",
+    "text": "2.1 (1) Voice\nVoice Mode is specifically targeted at voice processing, be it spoken word or sung material. By default, the Polyphonic option is disabled in this mode, as a monophonic voice (one speaker or singer) is the most common case. If you’re dealing with a choir or harmonized voice, you should enable the polyphonic setting - but not when processing double-tracked vocals."
   },
   {
-    "objectID": "index.html#perceptual-factors-vs.-acoustical-criteria",
-    "href": "index.html#perceptual-factors-vs.-acoustical-criteria",
-    "title": "IRCAM Spat",
-    "section": "1.2 Perceptual factors Vs. Acoustical criteria",
-    "text": "1.2 Perceptual factors Vs. Acoustical criteria\nIn both sources edition and reverb edition, controls are available as a set of “perceptual factors”. Each of these parameters corresponds to a real-world criterion that actually has proper significance in terms of hearing perception, and not some obscure algorithm-specific parameter translating more-or-less to some kind of aesthetic interpretation. This is a feature unique to the Spat, which is the result of substantial research and development work at IRCAM and Flux, providing a relationship between these parameters and the plug-in internal parameters. Internally, the plug-in perceptual mapper translates the GUI parameters into a much larger set of parameters required for the actual reverb engine computations.\nThis way the complexities of the reverb algorithm internals are hidden from the user so one can make predictable and guided adjustments, instead of having to resort to a “poke in the dark” approach, adjusting settings at semi-random trying to find some “magical” combination of parameters to obtain the desired result.\nIn parallel, a display is detailing the “acoustical criteria”, these parameters are more familiar for those who are well acquainted with acoustics, and here instead will find the more commonly used terms."
+    "objectID": "Mode.html#instrument",
+    "href": "Mode.html#instrument",
+    "title": "2  Mode",
+    "section": "2.2 (2) Instrument",
+    "text": "2.2 (2) Instrument\nInstrument Mode should be used when dealing with any kind of material other than vocals, whether this originates from an acoustic, analog or digital source recording, as long as it originates from an instrument that is playing individual pitched notes. Polyphonic is disabled by default in this mode, and should only be enabled with a true polyphonic recording, such as a guitar or piano playing chords or a melody accompanied by a bass line. A mix of two different instruments, each playing an independent monophonic line, does not fall into this case, as it involves two different timbres, and the Music mode should therefore be used instead."
   },
   {
-    "objectID": "Main_Section.html#source",
-    "href": "Main_Section.html#source",
-    "title": "2  Main Section",
-    "section": "2.1 (1) Source",
-    "text": "2.1 (1) Source\nActivates the source tab, where source localization, perceptual and acoustical parameters are set."
+    "objectID": "Mode.html#music",
+    "href": "Mode.html#music",
+    "title": "2  Mode",
+    "section": "2.3 (3) Music",
+    "text": "2.3 (3) Music\nMusic Mode should only be used for treating a full mix, that is material consisting of several instruments playing. In this mode, the Polyphonic option is enabled and locked, and processing is restricted to a global transposition, so the plug-in operates as a high-quality pitch-shift unit."
   },
   {
-    "objectID": "Main_Section.html#reverb",
-    "href": "Main_Section.html#reverb",
-    "title": "2  Main Section",
-    "section": "2.2 (2) Reverb",
-    "text": "2.2 (2) Reverb\nActivates the reverb tab, where the reverberation characteristics of the simulated acoustic space are adjusted."
+    "objectID": "Mode.html#polyphonic",
+    "href": "Mode.html#polyphonic",
+    "title": "2  Mode",
+    "section": "2.4 (4) Polyphonic",
+    "text": "2.4 (4) Polyphonic\nWhen enabled, the Polyphonic option disables some functions such as the pitch-tracking module. Pitch-tracking and extraction of overlapping notes in a reliable and artifact-free manner is currently extremely difficult to achieve and generally requires advanced user interaction.\nHere monophonic means one-note at a time, and not monaural (single channel). The plug-in itself can naturally process any channel configuration, be it mono, stereo, as well as surround recordings. The mono sum of all input channels is used for the detection.\nSometimes it is not so straightforward to decide wether the source is monophonic or not, as in the case of a complex electronic sound texture, or if a monophonic part is drenched in echo and reverberation, leading to notes that overlap in time a lot. In this case you should also try the Music setting and let your ears decide which is best."
   },
   {
-    "objectID": "Main_Section.html#setup",
-    "href": "Main_Section.html#setup",
-    "title": "2  Main Section",
-    "section": "2.3 (3) Setup",
-    "text": "2.3 (3) Setup\nActivates the setup tab, where input, source and output mappings are determined."
+    "objectID": "Source.html#source-preset",
+    "href": "Source.html#source-preset",
+    "title": "3  Source",
+    "section": "3.1 (5) Source Preset",
+    "text": "3.1 (5) Source Preset\nThis setting, only relevant to voice mode, should match the recorded singer’s or speaker’s age and gender.\nAvailable presets: * Man * Woman * Young Man * Young Woman * Boy * Girl"
   },
   {
-    "objectID": "Main_Section.html#selected-source",
-    "href": "Main_Section.html#selected-source",
-    "title": "2  Main Section",
-    "section": "2.4 (4) Selected Source",
-    "text": "2.4 (4) Selected Source\nSelects the source currently active for editing, which is highlighted accordingly in the visual space representation. Each source has its own set of parameters which is completely independent of others, while sharing the same reverberation engine(s) that depict the acoustic response of the simulated space these sources are place into.\n\n\n\n\n\n\nNote\n\n\n\nNote: The number of sources and mapping thereof is handled in the Setup tab."
+    "objectID": "Source.html#source-registers",
+    "href": "Source.html#source-registers",
+    "title": "3  Source",
+    "section": "3.2 (6) Source Registers",
+    "text": "3.2 (6) Source Registers\nThe source register setting is only relevant to voice and instrument modes, and should match the source material register as closely as possible.\n\n3.2.1 Available presets in Voice mode:\nThe following list of registers is available in Voice mode * Spoken Voice * Singing Bass * Singing Baritone * Singing Tenor * Singing Counter Tenor * Singing Contralto * Singing Mezzo Soprano * Singing Soprano\nThe selection of spoken and singing registers changes not only the analysis parameters but also the transformation algorithms that are linked to high level target controls. Transforming Man into Woman with Spoken voice will affect formant structure and pitch, while transforming Man Singing Tenor into Woman Singing tenor will only affect the formant structure.\n\n\n3.2.2 Instrument mode:\nThe following list of registers is available in Instrument mode. If you do not know the register of the source, you can resort to manual tuning of the fundamental frequency, and refer to the chart below * Undefined. Default, general setting * Bass * Baritone * Tenor * Counter Tenor * Contralto * Mezzo Soprano * Soprano"
   },
   {
-    "objectID": "Main_Section.html#source-on",
-    "href": "Main_Section.html#source-on",
-    "title": "2  Main Section",
-    "section": "2.5 (5) Source On",
-    "text": "2.5 (5) Source On\nToggles the source on and off in the global output mix. Used in conjunction with the solo button below, this allows to switch rapidly between listening to each source in isolation, for precise adjustments or tweaking settings, and listening to all sources simultaneously, which is essential to getting a good balance between the various sources and achieve a coherent mix."
+    "objectID": "Source.html#f0-min",
+    "href": "Source.html#f0-min",
+    "title": "3  Source",
+    "section": "3.3 (7) F0 Min",
+    "text": "3.3 (7) F0 Min\nThis low-level parameter defines the minimum of the allowed variation range for the source fundamental frequency. When doing manual adjustments, this frequency should roughly be set to that of the lowest note expected in your source material. This parameter determines the window size for monophonic material. Setting it too low may introduce reverberation artifacts, may prevent the detection of fast onsets ,and moreover, may introduce pitch detection errors. Setting it too high will create artifacts in low pitch notes and may as well lead to fundamental frequency estimation error."
   },
   {
-    "objectID": "Main_Section.html#source-solo",
-    "href": "Main_Section.html#source-solo",
-    "title": "2  Main Section",
-    "section": "2.6 (6) Source Solo",
-    "text": "2.6 (6) Source Solo\nIsolates the currently active source, effectively muting all other sources."
+    "objectID": "Source.html#f0-mean",
+    "href": "Source.html#f0-mean",
+    "title": "3  Source",
+    "section": "3.4 (8) F0 Mean",
+    "text": "3.4 (8) F0 Mean\nThis low-level parameter sets the expected average fundamental frequency. You can tune this by ear or determine it precisely using the frequency corresponding to the note most often played, for example, or the root key of the song if you know it. This value is used mainly for the ambitus control in recto tono mode."
   },
   {
-    "objectID": "Display.html#source",
-    "href": "Display.html#source",
-    "title": "3  Display",
-    "section": "3.1 (7) Source",
-    "text": "3.1 (7) Source\nA source represented by a yellow disk with its corresponding number. Clicking on this disk makes this source active and highlighted, allowing it to be moved and edited.\nAlt-clicking (MacOS: Alt/option key) and dragging on the yellow source disk changes its aperture (See 21)\nCtrl-clicking (MacOS: Apple/command key) and dragging on the yellow source disk changes its yaw (See 20)\nWhen two sources are associated in a stereo pair, this yellow disc is surrounded by a yellow circle."
+    "objectID": "Source.html#f0-max",
+    "href": "Source.html#f0-max",
+    "title": "3  Source",
+    "section": "3.5 (9) F0 Max",
+    "text": "3.5 (9) F0 Max\nMaximum of the allowed variation range for the source fundamental frequency."
   },
   {
-    "objectID": "Display.html#aperture",
-    "href": "Display.html#aperture",
-    "title": "3  Display",
-    "section": "3.2 (8) Aperture",
-    "text": "3.2 (8) Aperture\nRepresents spatial width and direction of the source signal part, which determines the preferred directivity. See 25."
+    "objectID": "Source.html#tune-a",
+    "href": "Source.html#tune-a",
+    "title": "3  Source",
+    "section": "3.6 (10) Tune (A)",
+    "text": "3.6 (10) Tune (A)\nSets the actual reference tuning used in the source material, which is defined as the frequency of A4 in Hertz. The default value is 440Hz, which matches the standard concert tuning almost always used nowadays.\nThis frequency will be used as the reference for transposition; you should therefore adjust it accordingly if your instrument is tuned in a non-standard way, or working with a recording of unknown origin."
   },
   {
-    "objectID": "Display.html#speaker",
-    "href": "Display.html#speaker",
-    "title": "3  Display",
-    "section": "3.3 (9) Speaker",
-    "text": "3.3 (9) Speaker\nSpeaker location and direction. Each speaker can individually be moved by clicking and dragging, and reset to its default position with a right click.\nSpeakers can also be hidden by right-clicking anywhere in an empty space.\nPlease note the number and characteristics speakers are respectively adjusted in the Setup sub-menu and tab"
+    "objectID": "Source.html#learn",
+    "href": "Source.html#learn",
+    "title": "3  Source",
+    "section": "3.7 (11) Learn",
+    "text": "3.7 (11) Learn\nThe Learn button, when engaged, puts the plug-in into fundamental frequency parameter learn mode, wherein the incoming audio is analyzed to refine F0 min, mean and max values. The learn mode is linked to the presets and can be used only to refine preset parameters. It will not work if the selected preset does not match the audio.\n\n\nhttp://www.independentrecording.net/irn/resources/freqchart/main_display.htm"
   },
   {
-    "objectID": "Display.html#radius",
-    "href": "Display.html#radius",
-    "title": "3  Display",
-    "section": "3.4 (10) Radius",
-    "text": "3.4 (10) Radius\nRepresents the the no-drop zone (See 40, Drop) as a transparent blue disk of corresponding radius."
+    "objectID": "Target.html#target-preset",
+    "href": "Target.html#target-preset",
+    "title": "4  Target",
+    "section": "4.1 (12) Target Preset",
+    "text": "4.1 (12) Target Preset\nOnly available in Voice Mode, the Target Presets cover a selection of gender and age combinations. Available presets\n\nMan\nWoman\nYoung Man\nYoung Woman\nBoy\nGirl"
   },
   {
-    "objectID": "Display.html#full-size-display",
-    "href": "Display.html#full-size-display",
-    "title": "3  Display",
-    "section": "3.5 (11) Full Size Display",
-    "text": "3.5 (11) Full Size Display\nToggles between standard display as a sub-panel and a full-size display, which is more convenient when very precise settings are need, or when doing intensive source localization automation for example."
+    "objectID": "Target.html#target-register",
+    "href": "Target.html#target-register",
+    "title": "4  Target",
+    "section": "4.2 (13) Target Register",
+    "text": "4.2 (13) Target Register\nAvailable in Voice and Instrument Mode, the Target Register presets allow to change the register of the material. Ensure source and target registers match if you want to preserve register.\nRegister is locked to spoken voice when the source is defined as a spoken voice also, as in this case there is no “melody” for the target voice to follow.\n\n4.2.1 Registers available in Voice mode:\n\nSpoken Voice\nSinging Bass\nSinging Baritone\nSinging Tenor\nSinging Counter Tenor\nSinging Contralto\nSinging Mezzo Soprano\nSinging Soprano\n\n\n\n4.2.2 Registers available in instrument mode:\n\nUndefined. Only choice available if “Undefined” is selected as Source register.\nBass\nBaritone\nTenor\nCounter Tenor\nContralto\nMezzo Soprano\nSoprano"
   },
   {
-    "objectID": "Perceptual_Factors_.html#source-presence",
-    "href": "Perceptual_Factors_.html#source-presence",
-    "title": "4  Perceptual Factors",
-    "section": "4.1 (12) Source Presence",
-    "text": "4.1 (12) Source Presence\nSource presence refers to the prominence of the direct sound with respect to the reverberated sound. It is not just equivalent to a dry/wet ratio, and is influenced by other settings such as distance, radius and drop-factor."
+    "objectID": "Target.html#transpose",
+    "href": "Target.html#transpose",
+    "title": "4  Target",
+    "section": "4.3 (14) Transpose",
+    "text": "4.3 (14) Transpose\nApplies a global transposition, also known as pitch-shift to the incoming audio, expressed in semi–tones. This affects the pitched content only, preserving formant and transient content for the most natural result. An octave shift corresponds to a Transpose factor of 12 semitones."
   },
   {
-    "objectID": "Perceptual_Factors_.html#source-warmth",
-    "href": "Perceptual_Factors_.html#source-warmth",
-    "title": "4  Perceptual Factors",
-    "section": "4.2 (13) Source Warmth",
-    "text": "4.2 (13) Source Warmth\nPresence of the low frequency content part of the source."
+    "objectID": "Target.html#formant",
+    "href": "Target.html#formant",
+    "title": "4  Target",
+    "section": "4.4 (15) Formant",
+    "text": "4.4 (15) Formant\nApplies a global frequency-shift of the formant content, independently of pitched and transient content."
   },
   {
-    "objectID": "Perceptual_Factors_.html#source-brillance",
-    "href": "Perceptual_Factors_.html#source-brillance",
-    "title": "4  Perceptual Factors",
-    "section": "4.3 (14) Source Brillance",
-    "text": "4.3 (14) Source Brillance\nPresence of the high frequency content part of the source."
+    "objectID": "Target.html#link",
+    "href": "Target.html#link",
+    "title": "4  Target",
+    "section": "4.5 (16) Link",
+    "text": "4.5 (16) Link\nWhen engaged, the Format shift factor is locked onto the transpose factor value, and only the Transpose slider can be moved."
   },
   {
-    "objectID": "Perceptual_Factors_.html#room-presence",
-    "href": "Perceptual_Factors_.html#room-presence",
-    "title": "4  Perceptual Factors",
-    "section": "4.4 (15) Room Presence",
-    "text": "4.4 (15) Room Presence\nProminence of the reverberation with respect to the source, or in other words, how much the room sound dominates the overall sound."
+    "objectID": "Target.html#inv.",
+    "href": "Target.html#inv.",
+    "title": "4  Target",
+    "section": "4.6 (17) Inv.",
+    "text": "4.6 (17) Inv.\nWhen the inverse button is engaged, the Formant shift amount follows the Transpose factor, in inverse fashion, i.e.  formants are shifted by an amount opposite of the pitch."
   },
   {
-    "objectID": "Perceptual_Factors_.html#running-reverb",
-    "href": "Perceptual_Factors_.html#running-reverb",
-    "title": "4  Perceptual Factors",
-    "section": "4.5 (16) Running Reverb",
-    "text": "4.5 (16) Running Reverb\nThis parameter controls the amount of perceived reverb when feeding a continuous music message, where the overall sound is a tight blend of the dry and wet signals and the reverb part cannot be mentally separated. It is linked to the early reflections decay time.\n\n\n\n\n\n\nNote\n\n\n\nNote: this setting is distinct from ‘reverberance’ in the reverb tab."
+    "objectID": "Target.html#voice-forger-target-f0",
+    "href": "Target.html#voice-forger-target-f0",
+    "title": "4  Target",
+    "section": "4.7 (18) Voice Forger Target F(0)",
+    "text": "4.7 (18) Voice Forger Target F(0)\nThe VoiceForger sub-section is used for more sophisticating pitch and formant transformations.\nHere the incoming source characteristics extracted by the detection stage are used as input to a series of modifiers. The first possible modifier, F(0), changes the fundamental frequency of incoming notes, “squeezing” them back into a series of reference target intervals, defined by the modes which we explain below, with the Flat&lt;–&gt;Expr. controlling the “tightness” of this “squeeze”.\nThis can be used to correct a less than perfect take, impart a robotic character to a voice, make an instrument sound like a synthesizer, etc.\n\nRecto Tono\nModifies the pitch with regard to the reference mean F0 as defined in the Source parameters, by an amount specified by the Flat&lt;&gt;Expr (FE) control. With FE set to -100% (Flat), no pitch variation remains in the processed sound, which gives a completely monotonous voice, reminiscent of early voice synthesizers.\nRecto Tono (Tuned)\nSame as above, but taking into account the source tuning.\nChromatic\nBrings back the pitch of the notes towards a chromatic, equal-temperament scale.\nMode 1 tr 1 (tone)\nAttracts pitch towards the closest note on a succession of full-tone (2 half-tones) intervals.\nMode 1 tr 2 (tone)\nSame as above, transposed 1 semitone above root key.\nMode 2 tr 1 (tone, semi tone)\nWorks on a succession of intervals made up of groups of a full-tone followed by a semi-tone.\nMode 2 tr 2 (tone, semi tone)\nSame as above, first interval is a semi-tone.\nMode 2 tr 3 (tone, semi tone)\nSame as above, first interval is a tone."
   },
   {
-    "objectID": "Perceptual_Factors_.html#envelop.",
-    "href": "Perceptual_Factors_.html#envelop.",
-    "title": "4  Perceptual Factors",
-    "section": "4.6 (17) Envelop.",
-    "text": "4.6 (17) Envelop.\nEnvelopment corresponds to the the perceived notion of how much the listener feels being surrounded by the ambient sound. In a multichannel configuration, one could describe this as the feeling of being wrapped inside the imaginary “sound sphere” that the listener pictures in his mind. It can also be described as the energy of the early room effect with respect to direct sound."
+    "objectID": "Target.html#integration",
+    "href": "Target.html#integration",
+    "title": "4  Target",
+    "section": "4.8 (19) Integration",
+    "text": "4.8 (19) Integration\nThis controls smoothing of the time-variations of the fundamental frequency. Increasing it will therefore give more progressive note-to-note transitions, for a more “legato” playing type of feel."
   },
   {
-    "objectID": "Perceptual_Factors_.html#accoustical-criteria",
-    "href": "Perceptual_Factors_.html#accoustical-criteria",
-    "title": "4  Perceptual Factors",
-    "section": "4.7 (18) Accoustical Criteria",
-    "text": "4.7 (18) Accoustical Criteria\nThis sub-panel displays the acoustical parameter values associated with the current settings. They are provided for the more technically inclined users who already know how they can make use of them; you can safely ignore them otherwise.\n\n\n\n\n\n\nNote\n\n\n\nPlease note this is an indicative feature only, as these settings can not directly be changed here.\n\n\n\nRT60 (Reverberation Time, in seconds): measure of reverberation decay time, namely the time taken by the reverb to drop below -60dB of attenuation.\nEDT (Early Decay Time, in seconds): time to decay to -60dB, derived from a linear fit of the decay curve between 0 and -10dB. It explains the very early evolution of a reverberation\nEs (dB): Early sound : power of direct sound and early room effect\nRev (dB): Late sound : power of later reverberation\nASW (Apparent Source Width, in dB).\nDesh (dB): Relative early sound at high frequencies\nRtHi (dB): Same as RT60, but in high frequency.\nRtLow (dB) Same as RT60, but in low frequency.\nDesl (dB):"
+    "objectID": "Target.html#flat-expr.-voice-and-instrument-mode-only",
+    "href": "Target.html#flat-expr.-voice-and-instrument-mode-only",
+    "title": "4  Target",
+    "section": "4.9 (20) Flat <–> Expr. (Voice and Instrument Mode only)",
+    "text": "4.9 (20) Flat &lt;–&gt; Expr. (Voice and Instrument Mode only)\nThe Flat &lt;–&gt; Expression knob defines the amount of pitch correction taking place. When set to “Flat” (-100%), this controls how close towards the target reference notes (single note for Recto Tono, chromatic scale, etc.) the fundamental frequency is pulled. Conversely, when set to “Expr.”, it exaggerates the pitch differences with respect from the target reference notes. As you expect, a 0% expression setting leaves the pitch unaffected by this section."
   },
   {
-    "objectID": "Radiations.html#distance",
-    "href": "Radiations.html#distance",
-    "title": "5  Radiations",
-    "section": "5.1 (19) Distance",
-    "text": "5.1 (19) Distance\nDistance from the source to the center reference point (listener position), in meters."
+    "objectID": "Target.html#young-old-voice-mode-only",
+    "href": "Target.html#young-old-voice-mode-only",
+    "title": "4  Target",
+    "section": "4.10 (21) Young <–> Old (Voice Mode only)",
+    "text": "4.10 (21) Young &lt;–&gt; Old (Voice Mode only)\nThis high-level control gradually alters the perceived age of a voice, either sung or spoken."
   },
   {
-    "objectID": "Radiations.html#azimuth",
-    "href": "Radiations.html#azimuth",
-    "title": "5  Radiations",
-    "section": "5.2 (20) Azimuth",
-    "text": "5.2 (20) Azimuth\nAngle between the source location and the listener-front reference axis, in degrees."
+    "objectID": "Target.html#male-female-voice-mode-only",
+    "href": "Target.html#male-female-voice-mode-only",
+    "title": "4  Target",
+    "section": "4.11 (22) Male <–> Female (Voice Mode only)",
+    "text": "4.11 (22) Male &lt;–&gt; Female (Voice Mode only)\nThis high-level control gradually alters the perceived gender of a voice, either sung or spoken."
   },
   {
-    "objectID": "Radiations.html#yaw",
-    "href": "Radiations.html#yaw",
-    "title": "5  Radiations",
-    "section": "5.3 (21) Yaw",
-    "text": "5.3 (21) Yaw\nAngle of the source direction orientation relative to the listener-source axis, in degrees."
+    "objectID": "Target.html#breathy-voice-and-instrument-mode-only",
+    "href": "Target.html#breathy-voice-and-instrument-mode-only",
+    "title": "4  Target",
+    "section": "4.12 (23) Breathy (Voice and Instrument Mode only)",
+    "text": "4.12 (23) Breathy (Voice and Instrument Mode only)\nIncrease the “breathiness” of a voice, or an instrument, making it whisper.\nIncreasing this close to 100% will give you that chain-smoker voice timbre, ala Don Corleone in the Godfather, without the risks and costs involved. You can also use this with a wind instrument to accentuate the breathing sound which gives so much character to a performance.\nThis panel acts as a mini-mixing console where the various components of the audio are sent to and summed-back to the output. It allows for further tweaking of the final result and isolation of each part of the sound, and one can also use this to achieve special effects."
   },
   {
-    "objectID": "Radiations.html#relative-direction",
-    "href": "Radiations.html#relative-direction",
-    "title": "5  Radiations",
-    "section": "5.4 (22) Relative direction",
-    "text": "5.4 (22) Relative direction\nWhen engaged, the source movement done with the mouse in the display are done in a way that the source always keep the same source-listener orientation.\nIf not, the source direction is constant."
+    "objectID": "Remix.html#remix-on-off",
+    "href": "Remix.html#remix-on-off",
+    "title": "5  Remix",
+    "section": "5.1 (24) Remix On / Off",
+    "text": "5.1 (24) Remix On / Off\nToggles the Remix console in and out of the signal path.\nWhen disengaged, all signals are simply summed back with equal gain, and the processing does remain active."
   },
   {
-    "objectID": "Radiations.html#elevation",
-    "href": "Radiations.html#elevation",
-    "title": "5  Radiations",
-    "section": "5.5 (23) Elevation",
-    "text": "5.5 (23) Elevation\nElevation angle, in degrees.\n\n\n\n\n\n\nNote\n\n\n\nPlease note that when the source is not located onto the base horizontal plane, at listener ear level (z = 0), a small gauge is displayed on the right edge of the preview, which gives the distance of the source to listener projected onto the Z axis, for easier handling of elevation."
+    "objectID": "Remix.html#sinus",
+    "href": "Remix.html#sinus",
+    "title": "5  Remix",
+    "section": "5.2 (25) Sinus",
+    "text": "5.2 (25) Sinus\nThis channel contains the sinusoidal components of the source sound, with or without modification depending on target, modulation and spectral envelope settings.\nSinusoidal components represent the regular part of the sound, e.g, the pitched part of musical instruments or the long resonances of cymbal and bells"
   },
   {
-    "objectID": "Radiations.html#pitch",
-    "href": "Radiations.html#pitch",
-    "title": "5  Radiations",
-    "section": "5.6 (24) Pitch",
-    "text": "5.6 (24) Pitch\nSource direction orientation pitch angle, in degrees.\n\n\n\n\n\n\nNote\n\n\n\nPlease pay attention to the fact that the graphic preview cannot not display pitch movements because of the 2D projection constraints."
+    "objectID": "Remix.html#sinus-solo",
+    "href": "Remix.html#sinus-solo",
+    "title": "5  Remix",
+    "section": "5.3 (26) Sinus Solo",
+    "text": "5.3 (26) Sinus Solo\nIsolates the Sinus Channel."
   },
   {
-    "objectID": "Radiations.html#aperture",
-    "href": "Radiations.html#aperture",
-    "title": "5  Radiations",
-    "section": "5.7 (25) Aperture",
-    "text": "5.7 (25) Aperture\nThe aperture parameter relates to the “sound cone” projected by the virtual source in the acoustic space, and is measured in degrees. It determines wether the source will be very directive (small aperture), or omnidirectional (large aperture) inside the reverberant environment. You can use this parameter to simulate the how a source will interact with its acoustical environment.\nEach source has a set of two three-band equalizers associated with it, as described below."
+    "objectID": "Remix.html#sinus-mute",
+    "href": "Remix.html#sinus-mute",
+    "title": "5  Remix",
+    "section": "5.4 (27) Sinus Mute",
+    "text": "5.4 (27) Sinus Mute\nMutes the Sinus Channel."
   },
   {
-    "objectID": "Axis_Omni_Filters.html#omni",
-    "href": "Axis_Omni_Filters.html#omni",
-    "title": "6  Axis Omni Filters",
-    "section": "6.1 (26) Omni",
-    "text": "6.1 (26) Omni\nToggles the equalizer associated with the omnidirectional part of the sound radiated by the virtual source. This equalizer mimics the global frequency-response of the source, just as a loudspeaker colors the sound."
+    "objectID": "Remix.html#noise",
+    "href": "Remix.html#noise",
+    "title": "5  Remix",
+    "section": "5.5 (28) Noise",
+    "text": "5.5 (28) Noise\nContains the noise part of the material, i.e. anything that doesn’t have a defined pitch and does not possess a transient quality."
   },
   {
-    "objectID": "Axis_Omni_Filters.html#axis",
-    "href": "Axis_Omni_Filters.html#axis",
-    "title": "6  Axis Omni Filters",
-    "section": "6.2 (27) Axis",
-    "text": "6.2 (27) Axis\nToggles the equalizer associated with the on-axis part of the sound radiated by the virtual source.\nMost, if not all commercially available loudspeakers do exhibit a radically different frequency response whether you’re listening right in front or on the sides. Setting a rather flat on-axis equalizer curve, and maybe cutting the treble and mids for the omni response would be a good starting point to emulate a real-world speaker."
+    "objectID": "Remix.html#noise-solo",
+    "href": "Remix.html#noise-solo",
+    "title": "5  Remix",
+    "section": "5.6 (29) Noise Solo",
+    "text": "5.6 (29) Noise Solo\nIsolates the Noise Channel."
   },
   {
-    "objectID": "Axis_Omni_Filters.html#low-freq.",
-    "href": "Axis_Omni_Filters.html#low-freq.",
-    "title": "6  Axis Omni Filters",
-    "section": "6.3 (28) Low Freq.",
-    "text": "6.3 (28) Low Freq.\nLow-pass filter frequency cutoff of the currently selected equalizer. Value can be quickly adjusted using the mouse by clicking and holding the value box or the vertical bar on the graphical frequency-response display, or exactly by clicking the value box and entering a value with the keyboard."
+    "objectID": "Remix.html#noise-mute",
+    "href": "Remix.html#noise-mute",
+    "title": "5  Remix",
+    "section": "5.7 (30) Noise Mute",
+    "text": "5.7 (30) Noise Mute\nMutes the Noise Channel."
   },
   {
-    "objectID": "Axis_Omni_Filters.html#high-freq.",
-    "href": "Axis_Omni_Filters.html#high-freq.",
-    "title": "6  Axis Omni Filters",
-    "section": "6.4 (29) High Freq.",
-    "text": "6.4 (29) High Freq.\nHigh-pass filter frequency cutoff of the currently selected equalizer."
+    "objectID": "Remix.html#noise-error",
+    "href": "Remix.html#noise-error",
+    "title": "5  Remix",
+    "section": "5.8 (31) Noise error",
+    "text": "5.8 (31) Noise error\nSets the amount of allowed error, in terms of statistical content, at the analyzer stage. This controls how the pitched and noise content are allowed to overlap. Most of the time you can leave this at the default value of 10%."
   },
   {
-    "objectID": "Axis_Omni_Filters.html#axis---omni-curves",
-    "href": "Axis_Omni_Filters.html#axis---omni-curves",
-    "title": "6  Axis Omni Filters",
-    "section": "6.5 (30) Axis - Omni Curves",
-    "text": "6.5 (30) Axis - Omni Curves\nActual frequency response curve of the currently selected equalizer, expressed in dB (deciBel).\nClick and drag one of the three square points with your mouse to quickly change the gain of the corresponding band, or one of the two vertical bars to adjust the transition frequencies of the bands."
+    "objectID": "Remix.html#transient",
+    "href": "Remix.html#transient",
+    "title": "5  Remix",
+    "section": "5.9 (32) Transient",
+    "text": "5.9 (32) Transient\nContains the transient part of the material, which has a rapidly changing energy profile. In other words, this is the attack or percussive phase of a sound, if any. Please note Transients are only computed when the Transient button is enable in the Options panel (See 47)."
   },
   {
-    "objectID": "Axis_Omni_Filters.html#low-gain",
-    "href": "Axis_Omni_Filters.html#low-gain",
-    "title": "6  Axis Omni Filters",
-    "section": "6.6 (31) Low Gain",
-    "text": "6.6 (31) Low Gain\nGain applied to the low frequency band of the currently selected equalizer."
+    "objectID": "Remix.html#transient-solo",
+    "href": "Remix.html#transient-solo",
+    "title": "5  Remix",
+    "section": "5.10 (33) Transient Solo",
+    "text": "5.10 (33) Transient Solo\nIsolates the Transient Channel."
   },
   {
-    "objectID": "Axis_Omni_Filters.html#med-gain",
-    "href": "Axis_Omni_Filters.html#med-gain",
-    "title": "6  Axis Omni Filters",
-    "section": "6.7 (32) Med Gain",
-    "text": "6.7 (32) Med Gain\nGain applied to the medium frequency band of the currently selected equalizer."
+    "objectID": "Remix.html#transient-mute",
+    "href": "Remix.html#transient-mute",
+    "title": "5  Remix",
+    "section": "5.11 (34) Transient Mute",
+    "text": "5.11 (34) Transient Mute\nMutes the Transient Channel."
   },
   {
-    "objectID": "Axis_Omni_Filters.html#high-gain",
-    "href": "Axis_Omni_Filters.html#high-gain",
-    "title": "6  Axis Omni Filters",
-    "section": "6.8 (33) High Gain",
-    "text": "6.8 (33) High Gain\nGain applied to the high frequency band of the currently selected equalizer."
+    "objectID": "Remix.html#transient-relax",
+    "href": "Remix.html#transient-relax",
+    "title": "5  Remix",
+    "section": "5.12 (35) Transient relax",
+    "text": "5.12 (35) Transient relax\nIncreasing this above the 0ms default setting allows to relax the transient detection scheme by the given amount, to let more of the tail of a transient pass through. The effect is similar to that of the release control found on a compressor A two-band filter section that can be applied on the incoming or outgoing material, depending on the Post setting."
   },
   {
-    "objectID": "Axis_Omni_Filters.html#global-gain",
-    "href": "Axis_Omni_Filters.html#global-gain",
-    "title": "6  Axis Omni Filters",
-    "section": "6.9 (34) Global Gain",
-    "text": "6.9 (34) Global Gain\nOverall gain applied to the currently selected equalizer."
+    "objectID": "Filters.html#filter-curve",
+    "href": "Filters.html#filter-curve",
+    "title": "6  Filters",
+    "section": "6.1 (36) Filter Curve",
+    "text": "6.1 (36) Filter Curve\nThe filter curve displays the overall frequency response of the filter section."
   },
   {
-    "objectID": "Options.html#target-reverb",
-    "href": "Options.html#target-reverb",
+    "objectID": "Filters.html#high-pass",
+    "href": "Filters.html#high-pass",
+    "title": "6  Filters",
+    "section": "6.2 (37) High Pass",
+    "text": "6.2 (37) High Pass\nInserts a 6dB/octave high pass filter in the signal chain."
+  },
+  {
+    "objectID": "Filters.html#high-pass-on",
+    "href": "Filters.html#high-pass-on",
+    "title": "6  Filters",
+    "section": "6.3 (38) High Pass On",
+    "text": "6.3 (38) High Pass On\nToggles the High Pass Filter in and out."
+  },
+  {
+    "objectID": "Filters.html#post-high-pass",
+    "href": "Filters.html#post-high-pass",
+    "title": "6  Filters",
+    "section": "6.4 (39) Post High Pass",
+    "text": "6.4 (39) Post High Pass\nDetermines whether the filter acts on the input or output signal. When off, which is the default setting, the corresponding frequencies are filtered out prior to analysis and transformation, which can be used to prevent possible tracking errors induced by any excessive rumble or mains interference picked up during recording. If you only want to equalize the signal, enable Post to circumvent this behaviour."
+  },
+  {
+    "objectID": "Filters.html#low-pass",
+    "href": "Filters.html#low-pass",
+    "title": "6  Filters",
+    "section": "6.5 (40) Low Pass",
+    "text": "6.5 (40) Low Pass\nInserts a 6dB/octave low pass filter in the signal chain."
+  },
+  {
+    "objectID": "Filters.html#low-pass-on",
+    "href": "Filters.html#low-pass-on",
+    "title": "6  Filters",
+    "section": "6.6 (41) Low Pass On",
+    "text": "6.6 (41) Low Pass On\nToggles the Low Pass Filter in and out."
+  },
+  {
+    "objectID": "Filters.html#post-low-pass",
+    "href": "Filters.html#post-low-pass",
+    "title": "6  Filters",
+    "section": "6.7 (42) Post Low Pass",
+    "text": "6.7 (42) Post Low Pass\nSee 39."
+  },
+  {
+    "objectID": "Options.html#window-size-music-mode-only",
+    "href": "Options.html#window-size-music-mode-only",
     "title": "7  Options",
-    "section": "7.1 (35) Target Reverb",
-    "text": "7.1 (35) Target Reverb\nDrop-down menu indicating the currently selected reverb engine. Clicking this menu allows you to choose between the three available engines, each one having its one independent set of parameters. For example, you could combine two or three reverbs in order to simulate a complex room architecture, made up of different spaces with completely different sizes and materials, or to achieve special effects."
+    "section": "7.1 (43) Window Size (Music Mode only)",
+    "text": "7.1 (43) Window Size (Music Mode only)\nComputed automatically in Voice and Instrument mode, the window size is set manually in Music mode. The window size determines the time frame base used to extract time-localized data in time from the incoming material. As general guidance, window size should be small for fast tempos and larger for slow music."
   },
   {
-    "objectID": "Options.html#doppler",
-    "href": "Options.html#doppler",
+    "objectID": "Options.html#overlap",
+    "href": "Options.html#overlap",
     "title": "7  Options",
-    "section": "7.2 (36) Doppler",
-    "text": "7.2 (36) Doppler\nToggles Doppler effect handling on and off. The Doppler effect is a well-known wave propagation phenomenon where the height of a sound perceived from a listener standpoint rises when the source is accelerating, and falls when decelerating. This is the ambulance or police siren pitch going up then down when passing you by effect you are familiar with.\nIt will only be heard if you rapidly move the sources locations quite fast, but thanks to the virtual nature of the Spat, you can bypass Physics’ laws and manually inhibit it using this switch, should it be a nuisance for the particular application you’re dealing with."
+    "section": "7.2 (44) Overlap",
+    "text": "7.2 (44) Overlap\nThis determines how much extraction windows overlap during a given time-frame, in other terms, the update rate of the analysis for a given window size. Increasing this setting usually gives better results but also leads to more CPU resources being used, as more data has to be analyzed. The default setting of 4 is a good trade-off, but you can increase provided you have a reasonably fast machine and hear a noticeable difference."
   },
   {
-    "objectID": "Options.html#air-absorption",
-    "href": "Options.html#air-absorption",
+    "objectID": "Options.html#oversampling",
+    "href": "Options.html#oversampling",
     "title": "7  Options",
-    "section": "7.3 (37) Air Absorption",
-    "text": "7.3 (37) Air Absorption\nSimulates the frequency-dependent absorption of air, where high frequencies roll-off quicker than low-frequencies with respect to distance. You’ve most probably noticed this other real-world phenomenon when you’re far away from a concert venue and only able to hear the bass, and gradually start to hear the whole mix as you get closer."
+    "section": "7.3 (45) Oversampling",
+    "text": "7.3 (45) Oversampling\nOversampling effects the sampling of the spectral representation of the source material. The quality difference achieved with oversampling is mostly noticeable with complex material with a broad frequency spectrum such as a full mix or a instrument such as the piano, but as the performance hit is quite high, you should only enable it if necessary, and if your hardware is sufficiently fast to handle the extra processing demands."
   },
   {
-    "objectID": "Options.html#clear-solo",
-    "href": "Options.html#clear-solo",
+    "objectID": "Options.html#mode",
+    "href": "Options.html#mode",
     "title": "7  Options",
-    "section": "7.4 (38) Clear Solo",
-    "text": "7.4 (38) Clear Solo\nClear all solo that have been previously engaged on sources."
+    "section": "7.4 (46) Mode",
+    "text": "7.4 (46) Mode\nSets the internal analysis/re-synthesis engine type to use.\n\nAuto: default setting, selects best setting for lowest CPU utilization and best quality depending on the value of transformation parameters\nFrequency domain: lowest CPU utilization, performs best when pitching up\nTime-domain: highest quality and CPU utilization"
   },
   {
-    "objectID": "Options.html#drop-mode",
-    "href": "Options.html#drop-mode",
+    "objectID": "Options.html#transient",
+    "href": "Options.html#transient",
     "title": "7  Options",
-    "section": "7.5 (39) Drop Mode",
-    "text": "7.5 (39) Drop Mode\nOwing to a fundamental law of acoustics and geometry, namely energy conservation, sound pressure drops in level as one moves away from the source. Choose “Log2” for an acoustically accurate setting, which corresponds to a “Drop” value attenuation every time the distance from the source is doubled (logarithmic behaviour), or “Linear”, for a less radical drop law."
+    "section": "7.5 (47) Transient",
+    "text": "7.5 (47) Transient\nToggles transient processing on (default setting) and off. You can disable transient processing if you don’t need to treat transient separately, which will allow you to gain a little CPU. In this case however you will naturally not be able to control the transient level independently of other content."
   },
   {
-    "objectID": "Options.html#drop",
-    "href": "Options.html#drop",
-    "title": "7  Options",
-    "section": "7.6 (40) Drop",
-    "text": "7.6 (40) Drop\nThis value determines the value of the level attenuation in dB (deciBels), according to the selected drop mode. Default is 6dB, which is the physically accurate value."
+    "objectID": "Modulation.html#transpose",
+    "href": "Modulation.html#transpose",
+    "title": "8  Modulation",
+    "section": "8.1 (48) Transpose",
+    "text": "8.1 (48) Transpose\nToggles pitch modulation on and off. This is akin to a LFO on an analog synthesizer, except with this you can apply it to any kind of material. You can easily achieve wild results here and go overboard if you’re not careful, so it is advised to toggle this switch on an off quite often when doing adjustments to check you’re not overdoing the effect."
   },
   {
-    "objectID": "Options.html#radius",
-    "href": "Options.html#radius",
-    "title": "7  Options",
-    "section": "7.7 (41) Radius",
-    "text": "7.7 (41) Radius\nSpecifies the radius of a disk, in meters, centered around the listener’s head, where the drop attenuation is not taken into account, and the sound level is kept constant with regards to distance. This is not only useful to prevent any dramatic sound level peak when placing a source too close to the listener, it also reflects real-world behaviour quite accurately, where sources do have a certain physical size, unlike point sources that are commonly used to model far-field acoustics.\nThis “no-drop” zone is displayed as a transparent-blue disk of matching radius on the preview."
+    "objectID": "Modulation.html#formant-onoff",
+    "href": "Modulation.html#formant-onoff",
+    "title": "8  Modulation",
+    "section": "8.2 (49) Formant On/Off",
+    "text": "8.2 (49) Formant On/Off\nToggles formant modulation on an off."
   },
   {
-    "objectID": "Options.html#pan_rev",
-    "href": "Options.html#pan_rev",
-    "title": "7  Options",
-    "section": "7.8 (42) Pan_rev",
-    "text": "7.8 (42) Pan_rev\nBy default, only early reflections are panned, and the cluster reflections, which form the diffuse part of the early reverberation, are panned dead center. Pan_rev allows you to modify cluster panning, thus imparting some directionality or perceived direction to the diffuse part of the sound."
+    "objectID": "Modulation.html#waveform",
+    "href": "Modulation.html#waveform",
+    "title": "8  Modulation",
+    "section": "8.3 (50) Waveform",
+    "text": "8.3 (50) Waveform\nThree classic modulation waveforms are available:\n\nSine\nTriangle\nSawtooth\n\nDeciding which is best is really a matter of taste and depends entirely on the incoming material."
   },
   {
-    "objectID": "Options.html#early-width",
-    "href": "Options.html#early-width",
-    "title": "7  Options",
-    "section": "7.9 (43) Early Width",
-    "text": "7.9 (43) Early Width\nControls the width of the sound projection lobe of the early reflections from a source in the virtual acoustic space, in degrees. The minimum setting, 1°, gives a very directional source, whereas 180° makes it omnidirectional."
+    "objectID": "Modulation.html#random",
+    "href": "Modulation.html#random",
+    "title": "8  Modulation",
+    "section": "8.4 (51) Random",
+    "text": "8.4 (51) Random\nAs the name implies, this adds some random amount to the modulation, which is great to make pitch variations seem less obvious and predictable."
   },
   {
-    "objectID": "Main_Input_-_Output_Section.html#input-gain",
-    "href": "Main_Input_-_Output_Section.html#input-gain",
-    "title": "8  Main Input - Output Section",
-    "section": "8.1 (44) Input Gain",
-    "text": "8.1 (44) Input Gain\nAdjust the level of the signal fed to the plug-in, in dB increments."
+    "objectID": "Modulation.html#freq.",
+    "href": "Modulation.html#freq.",
+    "title": "8  Modulation",
+    "section": "8.5 (52) Freq.",
+    "text": "8.5 (52) Freq.\nModulation Frequency in Hertz (Hz). The faster this setting, the faster the pitch and/or wobble. Can be used to make a voice quaver at a few Hz, do whammy effects popular with electric guitar players, simulate an old warped record, but be warned this can induce sea-sickness if used without restraint."
+  },
+  {
+    "objectID": "Modulation.html#depth",
+    "href": "Modulation.html#depth",
+    "title": "8  Modulation",
+    "section": "8.6 (53) Depth",
+    "text": "8.6 (53) Depth\nDepth of the modulation, in percent. Determines the amount of rise and fall of the pitch and/or formants. Go for a value around or below the default 25% unless you’re looking for extreme results."
+  },
+  {
+    "objectID": "Modulation.html#freq.-range",
+    "href": "Modulation.html#freq.-range",
+    "title": "8  Modulation",
+    "section": "8.7 (54) Freq. Range",
+    "text": "8.7 (54) Freq. Range\nWhen the Random button is on, this sets the extent of the random variations around the modulator base frequency."
+  },
+  {
+    "objectID": "Modulation.html#depth-range",
+    "href": "Modulation.html#depth-range",
+    "title": "8  Modulation",
+    "section": "8.8 (55) Depth Range",
+    "text": "8.8 (55) Depth Range\nDetermines the amount of randomization applied. Setting this to 100% gives completely random modulation, going towards 0% makes the modulator resemble more to the original waveform."
+  },
+  {
+    "objectID": "Spectral_Envelope.html#spectral-envelope",
+    "href": "Spectral_Envelope.html#spectral-envelope",
+    "title": "9  Spectral Envelope",
+    "section": "9.1 (56) Spectral Envelope",
+    "text": "9.1 (56) Spectral Envelope\nToggles Spectral Envelope processing on and off."
+  },
+  {
+    "objectID": "Spectral_Envelope.html#full-size-display",
+    "href": "Spectral_Envelope.html#full-size-display",
+    "title": "9  Spectral Envelope",
+    "section": "9.2 (57) Full Size Display",
+    "text": "9.2 (57) Full Size Display\nToggles the size of the Spectral Envelope editor, for detailed editing."
+  },
+  {
+    "objectID": "Spectral_Envelope.html#first-formant-region",
+    "href": "Spectral_Envelope.html#first-formant-region",
+    "title": "9  Spectral Envelope",
+    "section": "9.3 (58) First formant region",
+    "text": "9.3 (58) First formant region\nThe first transparent gray square indicates the region of the first formant (200…800Hz) for an average human voice, which corresponds to the first resonance of the vocal tract, and the gray disks to the average peak resonance location (500Hz). Alongside with the second formant, this is the area that has the most influence when processing voice."
+  },
+  {
+    "objectID": "Spectral_Envelope.html#second-formant-region",
+    "href": "Spectral_Envelope.html#second-formant-region",
+    "title": "9  Spectral Envelope",
+    "section": "9.4 (59) Second formant region",
+    "text": "9.4 (59) Second formant region\nSecond formant, ranging from 600 to 2.8kHz, peaking at 1.5kHz."
+  },
+  {
+    "objectID": "Spectral_Envelope.html#spectral-envelope-curve",
+    "href": "Spectral_Envelope.html#spectral-envelope-curve",
+    "title": "9  Spectral Envelope",
+    "section": "9.5 (60) Spectral Envelope Curve",
+    "text": "9.5 (60) Spectral Envelope Curve\nThe curve defines how the input spectrum frequencies, on the horizontal axis, are remapped (transposed) on the vertical axis.\nDefining and modifying the curve is done by manipulating line segments using the following methods\n\nDouble-click and drag on the diagonal blue line to add and place a control point\nClick and drag an existing point to move it\nAlt-click an existing point to snap it back to the diagonal line\nCtrl-click (MacOS: Apple/Command + click) an existing point to constrain its movement and prevent it to go past or beyond its immediate neighbors, which is useful when doing fine adjustments with a lot of points close to each other."
+  },
+  {
+    "objectID": "Main_Input_-_Output_Section.html#input-level",
+    "href": "Main_Input_-_Output_Section.html#input-level",
+    "title": "10  Main Input - Output Section",
+    "section": "10.1 (61) Input Level",
+    "text": "10.1 (61) Input Level\nAdjusts the level of the signal fed to the plug-in, in dB increments."
   },
   {
     "objectID": "Main_Input_-_Output_Section.html#input-level-meter",
     "href": "Main_Input_-_Output_Section.html#input-level-meter",
-    "title": "8  Main Input - Output Section",
-    "section": "8.2 (45) Input level meter",
-    "text": "8.2 (45) Input level meter\nShows the current level of the input signal after applying input gain, in dB FS (deciBel Full Scale)."
+    "title": "10  Main Input - Output Section",
+    "section": "10.2 (62) Input level-meter",
+    "text": "10.2 (62) Input level-meter\nShows the current peak level of the input signal after applying input gain, in RMS, with reference at -18 dB FS."
   },
   {
-    "objectID": "Main_Input_-_Output_Section.html#output-gain",
-    "href": "Main_Input_-_Output_Section.html#output-gain",
-    "title": "8  Main Input - Output Section",
-    "section": "8.3 (46) Output Gain",
-    "text": "8.3 (46) Output Gain\nUsed to trim the output signal and possibly avoid any overloading of the signal in the rest of the signal-chain."
+    "objectID": "Main_Input_-_Output_Section.html#output-level",
+    "href": "Main_Input_-_Output_Section.html#output-level",
+    "title": "10  Main Input - Output Section",
+    "section": "10.3 (63) Output Level",
+    "text": "10.3 (63) Output Level\nUsed to trim the output signal and possibly avoid any overloading of the signal in the rest of the signal-chain."
   },
   {
     "objectID": "Main_Input_-_Output_Section.html#output-level-meter",
     "href": "Main_Input_-_Output_Section.html#output-level-meter",
-    "title": "8  Main Input - Output Section",
-    "section": "8.4 (47) Output level meter",
-    "text": "8.4 (47) Output level meter\nShows the current level of the input signal after applying output gain, in dB FS(deciBel Full Scale)."
+    "title": "10  Main Input - Output Section",
+    "section": "10.4 (64) Output level-meter",
+    "text": "10.4 (64) Output level-meter\nShows the current peak level of the input signal after applying output gain, in RMS, with reference at -18 dB FS."
   },
   {
     "objectID": "Main_Input_-_Output_Section.html#day---night",
     "href": "Main_Input_-_Output_Section.html#day---night",
-    "title": "8  Main Input - Output Section",
-    "section": "8.5 (48) Day - Night",
-    "text": "8.5 (48) Day - Night\nToggles between two interface schemes, which, as the name implies, are best suited to high or low light environments respectively. In a dimly-lit studio environment, switching to the nigthtime scheme with its darker color palette and lower contrast will minimize eye-fatigue when doing long sessions."
+    "title": "10  Main Input - Output Section",
+    "section": "10.5 (65) Day - Night",
+    "text": "10.5 (65) Day - Night\nToggles between two interface schemes, which, as the name implies, are best suited to high or low light environments respectively. In a dimly-lit studio environment, switching to the nighttime scheme with its darker color palette and lower contrast helps to minimize eye-fatigue when doing long sessions."
   },
   {
-    "objectID": "Main_Input_-_Output_Section.html#setting",
-    "href": "Main_Input_-_Output_Section.html#setting",
-    "title": "8  Main Input - Output Section",
-    "section": "8.6 (49) Setting",
-    "text": "8.6 (49) Setting\nGives access to a sub-menu where you can either select the I/O configuration, namely the input channel count followed by the output channel count, for hosts that support dynamic I/O configuration, or display the credits page.\nThe exact I/O combinations available depend on your actual audio hardware and host configuration."
+    "objectID": "Main_Input_-_Output_Section.html#bypass",
+    "href": "Main_Input_-_Output_Section.html#bypass",
+    "title": "10  Main Input - Output Section",
+    "section": "10.6 (67) Bypass",
+    "text": "10.6 (67) Bypass\nBypasses the plug-in processing by routing the input direct to the output. The actual processing is still performed in the background allowing for a true and smooth transition between the processed and the actual incoming signal."
   },
   {
-    "objectID": "Main_Section2.html#selected-reverb",
-    "href": "Main_Section2.html#selected-reverb",
-    "title": "9  Main Section",
-    "section": "9.1 (50) Selected Reverb",
-    "text": "9.1 (50) Selected Reverb\nSelects and indicates the reverb engine currently being edited. Three engines, working in parallel and independently, are available"
+    "objectID": "Main_Input_-_Output_Section.html#drywet",
+    "href": "Main_Input_-_Output_Section.html#drywet",
+    "title": "10  Main Input - Output Section",
+    "section": "10.7 (68) Dry/Wet",
+    "text": "10.7 (68) Dry/Wet\nWhen used as insert effect, one can dial the right amount of “wet”, processed signal with respect to the “dry”, direct input signal.\nThe default 100-percent wet setting is mostly intended for the typical and preferred use in a send-effect configuration. You can get some interesting chorus and harmonizer type effects if you blend the dry and wet signals."
   },
   {
-    "objectID": "Main_Section2.html#reverb-on",
-    "href": "Main_Section2.html#reverb-on",
-    "title": "9  Main Section",
-    "section": "9.2 (51) Reverb On",
-    "text": "9.2 (51) Reverb On\nToggles the currently selected reverb engine on or off. Use this switch at design time, to listen to one reverb in isolation."
+    "objectID": "Cross_Synthesis_&_Source_Filter_Tools.html#introduction",
+    "href": "Cross_Synthesis_&_Source_Filter_Tools.html#introduction",
+    "title": "Cross Synthesis & Source Filter Tools",
+    "section": "Introduction:",
+    "text": "Introduction:\nThese plugins can only operate in a fixed 2 input - 2 output channel configuration only at the time of this writing. The plugin treats the stereo input as a dual mono input, and the two channels stereo output are identical. You will most likely want to use two separate DAW channels to be processed. The most convenient way to achieve this is to create a dedicated buss , with the plugin as an insert, and two separate direct sends from each source channels to this buss, panned hard right and left. You should probably also bring the corresponding channel faders all the way down and set the send as “pre-fader” to hear the result of the processed signal only."
   },
   {
-    "objectID": "Perceptual_Factors.html#reverberance",
-    "href": "Perceptual_Factors.html#reverberance",
-    "title": "10  Perceptual Factors",
-    "section": "10.1 (52) Reverberance",
-    "text": "10.1 (52) Reverberance\nReverberance affects the amount by which the listener perceives the music to be prolonged by the reverb, when the musical message suddenly stops. The effect of this setting is also obvious when the source material is of percussive nature. Reverberance is tightly related to overall decay time of the mid-frequencies, which in turn is the time taken by the late reflections to vanish into silence."
+    "objectID": "Cross_Synthesis.html#oversampling",
+    "href": "Cross_Synthesis.html#oversampling",
+    "title": "11  Cross Synthesis",
+    "section": "11.1 (69) Oversampling",
+    "text": "11.1 (69) Oversampling\nAdjusts the spectral domain oversampling factor, set to zero (none) by default. Increasing this setting can increase the processing the processing quality, depending on the audio material, although at the expense of higher CPU usage, which roughly doubles for every increment."
   },
   {
-    "objectID": "Perceptual_Factors.html#heaviness",
-    "href": "Perceptual_Factors.html#heaviness",
-    "title": "10  Perceptual Factors",
-    "section": "10.2 (53) Heaviness",
-    "text": "10.2 (53) Heaviness\nRelative decay time of low-frequency content, relative to the reverberance."
+    "objectID": "Cross_Synthesis.html#overlapp",
+    "href": "Cross_Synthesis.html#overlapp",
+    "title": "11  Cross Synthesis",
+    "section": "11.2 (70) Overlapp",
+    "text": "11.2 (70) Overlapp\nThis determines how much extraction windows overlap during a given time-frame, or in other terms, how often the analysis is updated for a given window size. Increasing this setting usually gives better results but also leads to more CPU resources being used, as more data has to be analyzed. The default setting of 4 is a good trade-off, but you can increase provided you have a reasonably fast machine and hear a noticeable difference."
   },
   {
-    "objectID": "Perceptual_Factors.html#liveness",
-    "href": "Perceptual_Factors.html#liveness",
-    "title": "10  Perceptual Factors",
-    "section": "10.3 (54) Liveness",
-    "text": "10.3 (54) Liveness\nRelative decay time of high-frequency content, relative to the reverberance. Describes the liveliness and movement associated with the reverb tail (late reflections)."
+    "objectID": "Cross_Synthesis.html#window-size",
+    "href": "Cross_Synthesis.html#window-size",
+    "title": "11  Cross Synthesis",
+    "section": "11.3 (71) Window Size",
+    "text": "11.3 (71) Window Size\nWindow size determines the time-frame base used to extract time-localized data in time from the incoming material. It is the most important parameter for all spectral domain signal transformations. It affects the capability of the algorithm to detect and identify the individual components of the signal (sinusoids, noise and transients/onsets) and to treat them independently. As general guidance, window size should be small for fast tempos and larger for slow music and at the same time larger for spectrally dense or low pitched sounds and smaller for spectrally sparse or high pitched sounds. In some cases, e.g. fast orchestral passages (that are spectrally dense and at the same time fast) the spectral and temporal characteristics ask for different windows sizes. In these cases finding the optimal window size requires some experimentation with different settings."
   },
   {
-    "objectID": "Perceptual_Factors.html#freq.-low",
-    "href": "Perceptual_Factors.html#freq.-low",
-    "title": "10  Perceptual Factors",
-    "section": "10.4 (55) Freq. Low",
-    "text": "10.4 (55) Freq. Low\nSets the frequency below which decay time is determined by the Heaviness setting, expressed in Hertz(Hz).\nDefault value: 180 Hz"
+    "objectID": "Cross_Synthesis.html#transient",
+    "href": "Cross_Synthesis.html#transient",
+    "title": "11  Cross Synthesis",
+    "section": "11.4 (72) Transient",
+    "text": "11.4 (72) Transient\nFor the T.R.A.X. Cross Synthesis plug-in, toggles transient processing on and off."
   },
   {
-    "objectID": "Perceptual_Factors.html#freq.-high",
-    "href": "Perceptual_Factors.html#freq.-high",
-    "title": "10  Perceptual Factors",
-    "section": "10.5 (56) Freq. High",
-    "text": "10.5 (56) Freq. High\nSets the frequency above which decay time is determined by the Liveliness setting, expressed in Hertz(Hz).\nDefault value: 5657 Hz"
+    "objectID": "Cross_Synthesis.html#amplitude",
+    "href": "Cross_Synthesis.html#amplitude",
+    "title": "11  Cross Synthesis",
+    "section": "11.5 Amplitude:",
+    "text": "11.5 Amplitude:\nThis sub-panel determines how the output amplitude is affected by the left and right channels.\n\n11.5.1 (73) Amplitude Left\nSets the percentage of the left channel used to derive the output amplitude.\n\n\n11.5.2 (74) Amplitude Right\nSets the percentage of the right channel used to derive the output amplitude.\n\n\n11.5.3 (75) Amplitude Link\nLinks left and right channel amplitude controls in inverse fashion, which gives a kind of panning control.\n\n\n11.5.4 (76) Product\nDetermines the amount of the product of the amplitudes of both channels that will be mixed into the output amplitude.\n\n\n11.5.5 (77) Power\nExponent of the power law that is applied to the amplitude product. Default value of 0.5 corresponds to a square root, which produces the geometric mean of the amplitudes of both channels and is the setting that best preserves the signal power of the product amplitude spectrum when compared to the original input amplitude spectra. Smaller values of the power control will equalize low and high amplitude components while larger values will amplify the differences in the amplitude spectrum (amplifying spectral components in locations that are strong in both input spectra and suppressing spectral components that are weak in either or both input spectra)."
   },
   {
-    "objectID": "Perceptual_Factors.html#acoustical-criteria",
-    "href": "Perceptual_Factors.html#acoustical-criteria",
-    "title": "10  Perceptual Factors",
-    "section": "10.6 (57) Acoustical criteria",
-    "text": "10.6 (57) Acoustical criteria"
+    "objectID": "Cross_Synthesis.html#frequency",
+    "href": "Cross_Synthesis.html#frequency",
+    "title": "11  Cross Synthesis",
+    "section": "11.6 Frequency :",
+    "text": "11.6 Frequency :\nThis sub-panel determines the frequency content of the output with respect to the inputs.\n\n11.6.1 (78) Frequency Left\nSets the percentage of the left channel used to derive the output frequency spectrum.\n\n\n11.6.2 (79) Frequency Link\nControls the gain applied to the dynamic processing input. This setting may affect the dynamics signal detection.\n\n\n11.6.3 (80) Frequency Right\nSets the percentage of the right channel used to derive the output frequency spectrum."
   },
   {
-    "objectID": "Room_Response.html#early-shape",
-    "href": "Room_Response.html#early-shape",
-    "title": "11  Room Response",
-    "section": "11.1 (58) Early Shape",
-    "text": "11.1 (58) Early Shape\nGoverns the amplitude rise or fall of early reflections. The default setting of 0.5 corresponds to early reflections all having the same level. This mimics an acoustical space where reflective surfaces are all located at roughly the same distance to the listener. Below 0.5 early reflections decay with time, above 0.5 they rise with time.\nEarly reflections of decreasing level would be typical of a space where most of the reflective surfaces are grouped at a range closest to the listener."
+    "objectID": "Source_Filter.html#oversampling",
+    "href": "Source_Filter.html#oversampling",
+    "title": "12  Source Filter",
+    "section": "12.1 (81) Oversampling",
+    "text": "12.1 (81) Oversampling\nAdjusts the oversampling factor, set to zero (none) by default. Increasing this setting can increase the processing the processing quality, depending on the audio material, although at the expense of higher CPU usage, which roughly doubles for every increment."
   },
   {
-    "objectID": "Room_Response.html#early-minimum",
-    "href": "Room_Response.html#early-minimum",
-    "title": "11  Room Response",
-    "section": "11.2 (59) Early Minimum",
-    "text": "11.2 (59) Early Minimum\nEarly reflections minimum time, i.e. the time at which the early reflections start to appear, in milliseconds. This is the analogous of the ubiquitous “pre-delay” setting found on most reverberation processors. It represent the time between the direct sound and the first early reflection."
+    "objectID": "Source_Filter.html#overlap",
+    "href": "Source_Filter.html#overlap",
+    "title": "12  Source Filter",
+    "section": "12.2 (82) Overlap",
+    "text": "12.2 (82) Overlap\nThis determines how much extraction windows overlap during a given time-frame, or in other terms, how often the analysis is updated for a given window size. Increasing this setting usually gives better results but also leads to more CPU resources being used, as more data has to be analyzed. The default setting of 4 is a good trade-off, but you should try to go above this value if you have a reasonably fast machine and hear a noticeable difference."
   },
   {
-    "objectID": "Room_Response.html#early-maximum",
-    "href": "Room_Response.html#early-maximum",
-    "title": "11  Room Response",
-    "section": "11.3 (60) Early Maximum",
-    "text": "11.3 (60) Early Maximum\nEarly reflections maximum time, i.e. the time at which these cease to appear."
+    "objectID": "Source_Filter.html#window-size",
+    "href": "Source_Filter.html#window-size",
+    "title": "12  Source Filter",
+    "section": "12.3 (83) Window Size",
+    "text": "12.3 (83) Window Size\nWindow size determines the time-frame base used to extract time-localized data from the incoming material. As general guidance, window size should be small for fast tempos and larger for slow music."
   },
   {
-    "objectID": "Room_Response.html#early-distribution",
-    "href": "Room_Response.html#early-distribution",
-    "title": "11  Room Response",
-    "section": "11.4 (61) Early Distribution",
-    "text": "11.4 (61) Early Distribution\nEarly reflections distribution. Determines the way early reflections are scattered in time, inside the Early Min. / Early Max. interval. The default setting of 0.5 corresponds to regularly spaced reflections, above these are more grouped towards the Early Max. value, and vice-versa."
+    "objectID": "Source_Filter.html#temporal-envelopes",
+    "href": "Source_Filter.html#temporal-envelopes",
+    "title": "12  Source Filter",
+    "section": "12.4 (84) Temporal envelopes",
+    "text": "12.4 (84) Temporal envelopes\nThe slider controls the blend of dynamics between the two channels. In other words, this controls how much of channel 2’s versus channel 1’s dynamics will be imprinted onto the output signal."
   },
   {
-    "objectID": "Room_Response.html#cluster-minimum",
-    "href": "Room_Response.html#cluster-minimum",
-    "title": "11  Room Response",
-    "section": "11.5 (62) Cluster Minimum",
-    "text": "11.5 (62) Cluster Minimum\nSee 59, Early Min.\n\n\n\n\n\n\nNote\n\n\n\nPlease keep in mind the cluster is fed with the input of the early reflections processor section, as is shown accordingly on the display."
+    "objectID": "Source_Filter.html#true-env.",
+    "href": "Source_Filter.html#true-env.",
+    "title": "12  Source Filter",
+    "section": "12.5 (85) True Env.",
+    "text": "12.5 (85) True Env.\nSets track analysis to True Envelope mode, an advanced proprietary IRCAM algorithm."
   },
   {
-    "objectID": "Room_Response.html#cluster-maximum",
-    "href": "Room_Response.html#cluster-maximum",
-    "title": "11  Room Response",
-    "section": "11.6 (63) Cluster Maximum",
-    "text": "11.6 (63) Cluster Maximum\nSee 60, Early Max."
+    "objectID": "Source_Filter.html#max-f0",
+    "href": "Source_Filter.html#max-f0",
+    "title": "12  Source Filter",
+    "section": "12.6 (86) Max F(0)",
+    "text": "12.6 (86) Max F(0)\nWhen True Envelope mode is selected, this sets the maximum allowed fundamental frequency to track, depending on the input material. Avoid setting this unnecessarily high as this might increase the possibility of tracking errors."
   },
   {
-    "objectID": "Room_Response.html#cluster-distribution",
-    "href": "Room_Response.html#cluster-distribution",
-    "title": "11  Room Response",
-    "section": "11.7 (64) Cluster Distribution",
-    "text": "11.7 (64) Cluster Distribution\nSee 61, Early Distribution."
+    "objectID": "Source_Filter.html#lpc",
+    "href": "Source_Filter.html#lpc",
+    "title": "12  Source Filter",
+    "section": "12.7 (87) LPC",
+    "text": "12.7 (87) LPC\nSets track analysis to LPC (Linear Predictive Coding, for filter coefficients prediction) mode, which is a classic source-filter estimation method."
   },
   {
-    "objectID": "Display2.html#direct-signal",
-    "href": "Display2.html#direct-signal",
-    "title": "12  Display",
-    "section": "12.1 (65) Direct signal",
-    "text": "12.1 (65) Direct signal\nThe grey bar at the start of the reverberation pictogram represents the direct sound send at the input of the plug-in. In the time structure of the reverberation, it is the first element that is heard."
+    "objectID": "Source_Filter.html#order",
+    "href": "Source_Filter.html#order",
+    "title": "12  Source Filter",
+    "section": "12.8 (88) Order",
+    "text": "12.8 (88) Order\nDetermines the order or number of coefficients used in the LPC prediction algorithm. The higher this setting, the better the LPC can adapt to the hills and valleys in the spectral envelope, but this also increases the chance of over-adapting to the short-term variations in the signal, which leads to artifacts."
   },
   {
-    "objectID": "Display2.html#early",
-    "href": "Display2.html#early",
-    "title": "12  Display",
-    "section": "12.2 (66) Early",
-    "text": "12.2 (66) Early\nOverall representation of the early reflections distribution. Vertical bars roughly indicate at what time locations (horizontally) and levels (bar height) these early reflections occur."
+    "objectID": "Source_Filter.html#mix",
+    "href": "Source_Filter.html#mix",
+    "title": "12  Source Filter",
+    "section": "12.9 (89) Mix",
+    "text": "12.9 (89) Mix"
   },
   {
-    "objectID": "Display2.html#cluster",
-    "href": "Display2.html#cluster",
-    "title": "12  Display",
-    "section": "12.3 (67) Cluster",
-    "text": "12.3 (67) Cluster\nOverall representation of the cluster reflections distribution. Vertical bars roughly indicate at what time locations (horizontally) and levels (bar height) these early reflections occur."
+    "objectID": "Preset_Section.html#save-preset",
+    "href": "Preset_Section.html#save-preset",
+    "title": "13  Preset Section",
+    "section": "13.1 (90) Save Preset",
+    "text": "13.1 (90) Save Preset\nSaves a snapshot of the current settings for future use.\nShort description and assorted comments can be provided, which comes in especially handy when sharing presets with other users, when the preset is part of a large preset bank, or to identify the author and source.\nEntering a descriptive keyword is a good practice to be able to quickly sort your presets, according to character, the type of space they simulate (e.g. hall, room, etc.), and the intended usage (e.g voice, percussion, guitar, etc.)\nA preset can be locked to prevent any further editing.\nTo re-save your preset under a new name, open the preset manager by clicking the corresponding (A/B) preset slot, then select New, enter a name for your preset, and finally press Save."
   },
   {
-    "objectID": "Display2.html#reverb",
-    "href": "Display2.html#reverb",
-    "title": "12  Display",
-    "section": "12.4 (68) Reverb",
-    "text": "12.4 (68) Reverb\nShows a graphical representation of the reverberation tail part of the engine. The decay curves of the high, mid and low bands, which are controlled by the decay time settings, are superimposed in different colors and can rapidly be assessed and checked.\nAlso see 12."
+    "objectID": "Preset_Section.html#recall-preset",
+    "href": "Preset_Section.html#recall-preset",
+    "title": "13  Preset Section",
+    "section": "13.2 (91) Recall Preset",
+    "text": "13.2 (91) Recall Preset\nRecall the settings from the currently selected preset, overwriting any current settings of the plug-in."
   },
   {
-    "objectID": "Display2.html#room-size",
-    "href": "Display2.html#room-size",
-    "title": "12  Display",
-    "section": "12.5 (69) Room Size",
-    "text": "12.5 (69) Room Size\nThis is a meta-parameter that takes care of varying several other parameters in order to quickly set the equivalent size of the virtual room, adjusting early, cluster and tail reverb parameters to match the room characteristics."
-  },
-  {
-    "objectID": "Display2.html#reverb-start",
-    "href": "Display2.html#reverb-start",
-    "title": "12  Display",
-    "section": "12.6 (70) Reverb Start",
-    "text": "12.6 (70) Reverb Start\nReverb start sets the duration between the direct, dry source signal, and the first late reflections, or start of the reverb tail.\n\n\n\n\n\n\nNote\n\n\n\nPlease note its value can never go below that of the cluster minimum time as the reverb tail is fed with an signal derived from the cluster section."
-  },
-  {
-    "objectID": "Options2.html#infinite",
-    "href": "Options2.html#infinite",
-    "title": "13  Options",
-    "section": "13.1 (71) Infinite",
-    "text": "13.1 (71) Infinite\nWhen activated, decay time temporarily rises to infinity, making the signal recirculate indefinitely inside the reverberation engine. This is best suited for one-off special effects such as “deep-freezing” audio material, or if you’re looking to create something a little less conventional than a fade-out for the end of your track."
-  },
-  {
-    "objectID": "Options2.html#air-absorption",
-    "href": "Options2.html#air-absorption",
-    "title": "13  Options",
-    "section": "13.2 (72) Air Absorption",
-    "text": "13.2 (72) Air Absorption\nSimulates the frequency-dependent absorption of air, where high frequencies roll-off quicker than low-frequencies with respect to distance. You’ve most probably noticed this real-world phenomenon when you’re far away from a concert venue and only able to hear the bass, and gradually start to hear the whole mix as you get closer."
-  },
-  {
-    "objectID": "Options2.html#air-roll.-freq.",
-    "href": "Options2.html#air-roll.-freq.",
-    "title": "13  Options",
-    "section": "13.3 (73) Air Roll. Freq.",
-    "text": "13.3 (73) Air Roll. Freq.\nRoll-off frequency for the air absorption simulation. Signal content above this frequency vanishes faster."
-  },
-  {
-    "objectID": "Options2.html#modal-density",
-    "href": "Options2.html#modal-density",
-    "title": "13  Options",
-    "section": "13.4 (74) Modal Density",
-    "text": "13.4 (74) Modal Density\nScales the modal density with respect to the current setting, which is internal to the plug-in engine, and depends on other parameters such as reverberation time, etc.\nThe modal density governs the frequency “smoothness” of the verb engine. Increasing this setting reduces the graininess of the reverberation. Adjust to taste, depending on the source material and desired result."
-  },
-  {
-    "objectID": "Setup2.html#inv.-phase",
-    "href": "Setup2.html#inv.-phase",
-    "title": "15  Setup",
-    "section": "15.1 (75) Inv. Phase",
-    "text": "15.1 (75) Inv. Phase\nThis little button labelled “Ø” inverts the phase of the source, applying a 180° phase shift."
-  },
-  {
-    "objectID": "Setup2.html#input-level-meter",
-    "href": "Setup2.html#input-level-meter",
-    "title": "15  Setup",
-    "section": "15.2 (76) Input level meter",
-    "text": "15.2 (76) Input level meter\nGives an indication of the signal presence and peak level for the corresponding input source."
-  },
-  {
-    "objectID": "Setup2.html#stereo-pair",
-    "href": "Setup2.html#stereo-pair",
-    "title": "15  Setup",
-    "section": "15.3 (77) Stereo Pair",
-    "text": "15.3 (77) Stereo Pair\nEnable two successive inputs to be treated as a stereo pair, displayed by a yellow vertical block overlapping the two inputs, which make it possible to adjust their width in the stereo space."
-  },
-  {
-    "objectID": "Setup2.html#source-on",
-    "href": "Setup2.html#source-on",
-    "title": "15  Setup",
-    "section": "15.4 (78) Source On",
-    "text": "15.4 (78) Source On\nToggles wether the corresponding source is active or not (muted)."
-  },
-  {
-    "objectID": "Setup2.html#output-arangement",
-    "href": "Setup2.html#output-arangement",
-    "title": "15  Setup",
-    "section": "15.5 (79) Output Arangement",
-    "text": "15.5 (79) Output Arangement\nDepending on the number of I/O channels you have selected in the setup menu, accessed via the cog icon between the I/O meters, this drop-down menu allows you to select the desired output arrangement amongst a choice of stereo and a variety of surround configurations, with or without a sub-woofer.\nThis setting is provided so you can operate the Spat on a subset of your surround channels, should your project require this.\nFor example, when mixing a film soundtrack, it is mandatory that the center channel, which is reserved for voice material, be left empty. The solution is to work with a so-called virtual center (equal energy in channels), disabling processing by the Spat for the physical center channel."
-  },
-  {
-    "objectID": "Setup2.html#panning-method",
-    "href": "Setup2.html#panning-method",
-    "title": "15  Setup",
-    "section": "15.6 (80) Panning Method",
-    "text": "15.6 (80) Panning Method\nDepending on the Output arrangement setting, choose the method to use for placement of the sources inside the audio space.\nPossible choices are (some will be grayed out depending on your output configuration):\n\nRecursive\nAngular pairwise (default)\nSurround LRS\nSurround LRCS\nBinaural. Intended for stereo reproduction. Prefer transaural output encoding when loudspeakers are to be used.\nVBAP 2D (Vector Base Amplitude Panning).\nAllows for arbitrary placement of the speakers onto a horizontal plane.\nRefer to http://www.acoustics.hut.fi/~ville/ for more information on this technique.\nVBAP 3D\nSame as above, but for a 3D speaker setup.\nDBAP (Distance-Based Amplitude Panning).\nDoes not rely on any assumptions regarding speaker array or listener position, which is good for avoiding sweet spots.\nRefer to http://jamoma.org/papers/icmc2009-dbap.pdf for more information.\nB-Format 2D.\nA basic variant of Ambisonics. Amongst Ambisonics strong points are a good stability of the audio image with respect to listener position, free speaker positioning, and independence towards the reproduction system used.\nB-Format 3D\n2nd order Ambisonic 2D\n2nd order Ambisonic 3D\nXY. Stereo only.\nM/S (Mid/Side). Stereo only.\nA-B. Stereo only."
-  },
-  {
-    "objectID": "Setup2.html#output-decoding",
-    "href": "Setup2.html#output-decoding",
-    "title": "15  Setup",
-    "section": "15.7 (81) Output Decoding",
-    "text": "15.7 (81) Output Decoding\nSpat can encode its output in the following currently supported formats\n\nPass-trough, i.e. no encoding (default)\nTransaural. A method to reproduce binaural audio when using loudspeakers.\nB-Format 2D. A variant of Ambisonic encoding.\nB-Format 3D\n2nd order Ambisonic 2D\n2nd order Ambisonic 3D\nSurround LRS\nSurround LRCS"
-  },
-  {
-    "objectID": "Setup2.html#hrtf",
-    "href": "Setup2.html#hrtf",
-    "title": "15  Setup",
-    "section": "15.8 (82) HRTF",
-    "text": "15.8 (82) HRTF\nWhen the Binaural panning method is chosen, one can select between a variety of head HRTF profiles, which stands for Head-Related Transfer Function.\nIn essence, a HRTF models the way a listener’s head modifies an incoming sound beam, depending on its direction. One can then measure and replicate the interaction of the head of a particular listener to recreate a sensation of 3D space.\n\n\n\n\n\n\nNote\n\n\n\nPlease keep in mind this technique is only applicable to the stereo case. The default one available is the Kemar head, a standard Manikin head. Some others are available (choose the HRTF library at install time). Their numbers refers to the anonymous id of the listeners that have sampled their profile at IRCAM laboratories."
-  },
-  {
-    "objectID": "Setup2.html#reverb-density",
-    "href": "Setup2.html#reverb-density",
-    "title": "15  Setup",
-    "section": "15.9 (83) Reverb Density",
-    "text": "15.9 (83) Reverb Density\nInternally, spatial variations are computed using a kind of 2D-network of reverbs, and this setting toggles between an 8x8 (standard) or 16x16 size (high). The choice of which sounds best is left up to you, as this depends on the source material at hand, although it must be emphasized that the high density consumes a little more CPU and that the color of the reverb can be altered by this setting, particularly at some extreme parameter setting combinations."
-  },
-  {
-    "objectID": "Setup2.html#speaker-on",
-    "href": "Setup2.html#speaker-on",
-    "title": "15  Setup",
-    "section": "15.10 (84) Speaker On",
-    "text": "15.10 (84) Speaker On\nToggles the corresponding speaker output on and off, which can prove useful for checking purposes. In general it is advisable to use your DAW surround mixer capabilities instead, as these are global to your project."
-  },
-  {
-    "objectID": "Setup2.html#output-delays",
-    "href": "Setup2.html#output-delays",
-    "title": "15  Setup",
-    "section": "15.11 (85) Output Delays",
-    "text": "15.11 (85) Output Delays\nAn output delay, expressed in milliseconds, can be inserted just before output to the speaker, for example to compensate for a non-standard speaker arrangement.\n\n\n\n\n\n\nNote\n\n\n\nPlease note that if you move a speaker in the source view, the associated delay is automatically applied on the corresponding output according to the speaker distance."
-  },
-  {
-    "objectID": "Routing.html#subwoofer-on",
-    "href": "Routing.html#subwoofer-on",
-    "title": "16  Routing",
-    "section": "16.1 (86) Subwoofer On",
-    "text": "16.1 (86) Subwoofer On\nActivates send of a speaker output to the subwoofer bus."
-  },
-  {
-    "objectID": "Routing.html#output-level-meter",
-    "href": "Routing.html#output-level-meter",
-    "title": "16  Routing",
-    "section": "16.2 (87) Output level meter",
-    "text": "16.2 (87) Output level meter\nOutput peak level meter."
-  },
-  {
-    "objectID": "Routing.html#output-routing-preset",
-    "href": "Routing.html#output-routing-preset",
-    "title": "16  Routing",
-    "section": "16.3 (88) Output routing preset",
-    "text": "16.3 (88) Output routing preset\nGives quick access to commonly used output mappings."
-  },
-  {
-    "objectID": "Routing.html#output-routing",
-    "href": "Routing.html#output-routing",
-    "title": "16  Routing",
-    "section": "16.4 (89) Output routing",
-    "text": "16.4 (89) Output routing\nHere you can map any Spat speaker output to a “physical” output. The plugin always ensures there is a one-to-one correspondence between Spats internal outputs and the plugin output channels, and remaps channels automatically when necessary."
-  },
-  {
-    "objectID": "Stereo_Pair_Width_-_Subwoofer.html#stereo-pair-width",
-    "href": "Stereo_Pair_Width_-_Subwoofer.html#stereo-pair-width",
-    "title": "17  Stereo Pair Width - Subwoofer",
-    "section": "17.1 (90) Stereo Pair Width",
-    "text": "17.1 (90) Stereo Pair Width\nSets the width of a stereo pair, if previously defined, in degrees."
-  },
-  {
-    "objectID": "Stereo_Pair_Width_-_Subwoofer.html#subwoofer-speaker-gain",
-    "href": "Stereo_Pair_Width_-_Subwoofer.html#subwoofer-speaker-gain",
-    "title": "17  Stereo Pair Width - Subwoofer",
-    "section": "17.2 (91) Subwoofer Speaker Gain",
-    "text": "17.2 (91) Subwoofer Speaker Gain\nThis is the send level value from each of the Spat reverb outputs having the Subwoofer checkbock ticked, expressed in dB (deciBels)."
-  },
-  {
-    "objectID": "Stereo_Pair_Width_-_Subwoofer.html#slope",
-    "href": "Stereo_Pair_Width_-_Subwoofer.html#slope",
-    "title": "17  Stereo Pair Width - Subwoofer",
-    "section": "17.3 (92) Slope",
-    "text": "17.3 (92) Slope\nSlope of the low-pass filter section applied to the subwoofer buss, in dB per octave."
-  },
-  {
-    "objectID": "Stereo_Pair_Width_-_Subwoofer.html#cut-off-frequency",
-    "href": "Stereo_Pair_Width_-_Subwoofer.html#cut-off-frequency",
-    "title": "17  Stereo Pair Width - Subwoofer",
-    "section": "17.4 (93) Cut Off Frequency",
-    "text": "17.4 (93) Cut Off Frequency\nCutoff frequency of the low-pass subwoofer section, expressed in Hz (Hertz, default 110Hz). This filter ensures only the frequencies reproducible with a subwoofer are sent to the corresponding hardware output."
-  },
-  {
-    "objectID": "Stereo_Pair_Width_-_Subwoofer.html#subwoofer-global-output-gain",
-    "href": "Stereo_Pair_Width_-_Subwoofer.html#subwoofer-global-output-gain",
-    "title": "17  Stereo Pair Width - Subwoofer",
-    "section": "17.5 (94) Subwoofer Global Output Gain",
-    "text": "17.5 (94) Subwoofer Global Output Gain\nAdjusts the overall gain of the subwoofer buss."
-  },
-  {
-    "objectID": "Preset_Section.html#save",
-    "href": "Preset_Section.html#save",
-    "title": "19  Preset Section",
-    "section": "19.1 (95) Save",
-    "text": "19.1 (95) Save\nSaves a snapshot of the current settings for future use.\nShort description and assorted comments can be provided, which comes in especially handy when sharing presets with other users, when the preset is part of a large preset bank, or to identify the author and source.\nEntering a descriptive keyword is a good practice to be able to quickly sort your presets, according to character, the type of space they simulate (e.g. hall, room, etc.), and the intended usage (e.g voice, percussion, guitar, etc.)\nA preset can be locked to prevent any further editing.\nTo re-save your preset under a new name, open the preset manager by clicking the corresponding (A/B) preset slot, then select New, enter a name for your preset, and finally press Save."
-  },
-  {
-    "objectID": "Preset_Section.html#recall",
-    "href": "Preset_Section.html#recall",
-    "title": "19  Preset Section",
-    "section": "19.2 (96) Recall",
-    "text": "19.2 (96) Recall\nRecall the settings from the currently selected preset, overwriting any current settings of the plug-in. The sub-menu which appears allows to recall at your choice:\n\nall parameters\nall parameters but setup: intended for when your particular speaker configuration is different from that of the preset’s author (typically stereo)\nall parameters but setup and dry/wet mix: useful in a mix setting when comparing and choosing presets"
-  },
-  {
-    "objectID": "Preset_Section.html#copy-b",
-    "href": "Preset_Section.html#copy-b",
-    "title": "19  Preset Section",
-    "section": "19.3 (97) Copy B",
-    "text": "19.3 (97) Copy B\nCopy current settings to the second parameter slot (B). To try out a variation of the current settings without erasing the reference, press this button, switch to B and adjust your parameters of choice, then switch or morph between A and B. When copying a preset to a slot, the morphing slider will automatically fly to the corresponding slot."
+    "objectID": "Preset_Section.html#copy-a-b",
+    "href": "Preset_Section.html#copy-a-b",
+    "title": "13  Preset Section",
+    "section": "13.3 (92) Copy A-B",
+    "text": "13.3 (92) Copy A-B\nCopy current settings to the other parameter slot (A to B or vice versa).\nTo try out a variation of the current settings without erasing the reference, press this button, switch to the other preset slot, and adjust your parameters of choice, then switch or morph between them.\nWhen copying a preset to a slot, the morphing slider will automatically fly to the corresponding slot."
   },
   {
     "objectID": "Preset_Section.html#preset-name",
     "href": "Preset_Section.html#preset-name",
-    "title": "19  Preset Section",
-    "section": "19.4 (98) Preset Name",
-    "text": "19.4 (98) Preset Name\nDisplays the current preset name, if any. Clicking the associated button (up&down arrows) brings up the preset manager."
+    "title": "13  Preset Section",
+    "section": "13.4 (93) Preset Name",
+    "text": "13.4 (93) Preset Name\nDisplays the current preset name, if any. Clicking the associated button (up and down arrows) brings up the preset manager."
   },
   {
-    "objectID": "Preset_Section.html#morphing-a-b",
-    "href": "Preset_Section.html#morphing-a-b",
-    "title": "19  Preset Section",
-    "section": "19.5 (99) Morphing A B",
-    "text": "19.5 (99) Morphing A B\nGradually morphes parameters from A to B slots. The parameter set associated with the current morphing slider position can be saved as a preset. In addition, when the morphing slider is in an intermediary position, any edit made to a parameter switches the slider back to slot A or B, whichever is closest to the current position."
+    "objectID": "Preset_Section.html#a---b-morphing",
+    "href": "Preset_Section.html#a---b-morphing",
+    "title": "13  Preset Section",
+    "section": "13.5 (94) A - B Morphing",
+    "text": "13.5 (94) A - B Morphing\nGradually morphes parameters from A to B slots or vice versa.\nThe parameter set associated with the current morphing slider position can be saved as a preset. In addition, when the morphing slider is in an intermediary position, any edit made to a parameter switches the slider back to slot A or B, whichever is closest to the current position."
   },
   {
     "objectID": "Preset_Section.html#automation",
     "href": "Preset_Section.html#automation",
-    "title": "19  Preset Section",
-    "section": "19.6 (100) Automation",
-    "text": "19.6 (100) Automation\nEnabling the Automation control switch makes the morphing slider exposed and available for automation read.\nWhen engaged, keep in mind only the morphing slider value is used for automation, and other parameter values are ignored. This behavior is intended and necessary to prevent any parameter conflicts that would otherwise occur.\nAs a consequence of this, you need to make sure the Automation switch is engaged when mapping the morphing slider mapped to a control surface hardware knob or slider. On the opposite, when not engaged, the plug-in will listen for any parameter automation, except the morphing slider."
+    "title": "13  Preset Section",
+    "section": "13.6 (95) Automation",
+    "text": "13.6 (95) Automation\nEnabling the Automation control switch makes the morphing slider exposed and available for automation read.\nWhen engaged, keep in mind only the morphing slider value is used for automation, and other parameter values are ignored. This behavior is intended and necessary to prevent any parameter conflicts that would otherwise occur.\nAs a consequence of this, you need to make sure the Automation switch is engaged when mapping the morphing slider mapped to a control surface hardware knob or slider. On the opposite, when not engaged, the plug-in will listen for any parameter automation, except the morphing slider."
   },
   {
-    "objectID": "Preset_Management.html#from-the-plug-in-interface",
-    "href": "Preset_Management.html#from-the-plug-in-interface",
-    "title": "20  Preset Management",
-    "section": "20.1 From the Plug-in interface",
-    "text": "20.1 From the Plug-in interface\n\n20.1.1 A-B Sections\nA plug-in features two preset sections : A & B. Clicking on the slot of a specific section reaches the shared preset bank. From the preset management window you can select the preset you want to recall in the specific preset section.\n\n\n20.1.2 Save\nSave replaces the selected preset by a new one under the same name featuring the current settings. If you want to keep an existing preset without your new modifications, just select an empty place into the preset list, enter a new name for this modified preset featuring the current settings and press Save.\n\n\n20.1.3 Recall\nOnce a preset is selected from the preset list it must be explicitly loaded into the section A or the section B by using the recall button. A preset is effective only after it has been recalled.\nDouble-clicking on the preset name from the list, reloads the preset into the selected slot.\n\n\n20.1.4 AB Slider\nThis horizontal slider has no unity nor specific value display. It allows to morph current settings between two loaded presets. A double-click on one side of the slider area toggles between full A and full B settings. The results of an in between setting can be save as a new preset."
+    "objectID": "Presets_Management.html#from-the-plug-in-interface",
+    "href": "Presets_Management.html#from-the-plug-in-interface",
+    "title": "14  Presets Management",
+    "section": "14.1 From the Plug-in interface",
+    "text": "14.1 From the Plug-in interface\n\n14.1.1 A-B Sections\nA plug-in features two preset sections : A & B. Clicking on the slot of a specific section reaches the shared preset bank.\nFrom the preset management window you can select the preset you want to recall in the specific preset section.\n\n\n14.1.2 Save\nSave replaces the selected preset by a new one under the same name featuring the current settings. If you want to keep an existing preset without your new modifications, just select an empty place into the preset list, enter a new name for this modified preset featuring the current settings and press Save.\n\n\n14.1.3 Recall\nOnce a preset is selected from the preset list it must be explicitly loaded into the section A or the section B by using the recall button. A preset is effective only after it has been recalled.\nDouble-clicking on the preset name from the list, reloads the preset into the selected slot.\n\n\n14.1.4 AB Slider\nThis horizontal slider has no unity nor specific value display. It allows to morph current settings between two loaded presets. A double-click on one side of the slider area toggles between full A and full B settings. The results of an in between setting can be save as a new preset."
   },
   {
-    "objectID": "Preset_Management.html#from-the-preset-management-window",
-    "href": "Preset_Management.html#from-the-preset-management-window",
-    "title": "20  Preset Management",
-    "section": "20.2 From the Preset Management Window",
-    "text": "20.2 From the Preset Management Window\nThe Preset Management Window features three preset banks:\n\nThe Factory bank gathers presets that can’t be edited by users.\nThe User bank is dedicated to the users presets.\nThe Global bank features presets for A, B and morphing sections. A single global preset includes A and B section content and the morphing slider position.\n\nA Preset can directly be recalled into the preset section selected by the morphing slider position, by double-clicking on its name on the list. The preset lists can be filtered. This filter is applied to any preset information such as name, description, author, comments or key words.\n\n\n20.2.1 Recall A\nrecalls the selected preset into the corresponding section.\n\n\n20.2.2 Recall B\nrecalls the selected preset into the corresponding section.\n\n\n20.2.3 Copy A and Copy B\nbuttons allow to easily create a variation around a preset.\n\n\n20.2.4 Update\nallows to save the current settings for the selected preset.\n\n\n20.2.5 New\ncreates a new preset in the list.\n\n\n20.2.6 Duplicate\ncreates a new preset in the list from the selected one.\n\n\n20.2.7 Edit\ngives access to the specific windows which allows to change preset name, description, key words…..\n\n\n20.2.8 Delete\nsuppresses the selected preset.\n\n\n20.2.9 Export\ncreates a file reflecting the content of the preset bank.\n\n\n20.2.10 Import\nadds existing presets into the preset bank.\n\n\n20.2.11 Ordering arrows\norders the presets into the list.\n\nThe preset protection if engaged, allows only its original modification author to uncheck and edit. So you can protect your presets in a multi-user configuration. Protected presets can only be modified using the session of their creator. If used in another user session they can only be imported or deleted."
+    "objectID": "Presets_Management.html#from-the-preset-management-window",
+    "href": "Presets_Management.html#from-the-preset-management-window",
+    "title": "14  Presets Management",
+    "section": "14.2 From the Preset Management Window",
+    "text": "14.2 From the Preset Management Window\nThe Presets Management Window features three preset banks:\n\nThe Factory bank gathers presets that can’t be edited by users.\nThe User bank is dedicated to the users presets.\nThe Global bank features presets for A, B and morphing sections. A single global preset includes A and B section content and the morphing slider position.\n\nA Preset can directly be recalled into the preset section selected by the morphing slider position, by double-clicking on its name on the list. The preset lists can be filtered. This filter is applied to any preset information such as name, description, author, comments or key words.\n\n\n14.2.1 Recall A\nrecalls the selected preset into the corresponding section.\n\n\n14.2.2 Recall B\nrecalls the selected preset into the corresponding section.\n\n\n14.2.3 Copy A and Copy B\nbuttons allow to easily create a variation around a preset.\n\n\n14.2.4 Update\nallows to save the current settings for the selected preset.\n\n\n14.2.5 New\ncreates a new preset in the list.\n\n\n14.2.6 Duplicate\ncreates a new preset in the list from the selected one.\n\n\n14.2.7 Edit\ngives access to the specific windows which allows to change preset name, description, key words…..\n\n\n14.2.8 Delete\nsuppresses the selected preset.\n\n\n14.2.9 Export\ncreates a file reflecting the content of the preset bank.\n\n\n14.2.10 Import\nadds existing presets into the preset bank.\n\n\n14.2.11 Ordering arrows\norders the presets into the list.\n\nThe preset protection if engaged, allows only its original modification author to uncheck and edit. So you can protect your presets in a multi-user configuration. Protected presets can only be modified using the session of their creator. If used in another user session they can only be imported or deleted."
   },
   {
     "objectID": "Credits.html",
     "href": "Credits.html",
-    "title": "21  Credits",
+    "title": "15  Credits",
     "section": "",
-    "text": "Spatialisateur and Spat~ are trademarks of Ircam and Espaces Nouveaux.\nDesign of digital signal processing algorithms and implementation in Max: Jean-Marc Jot (Espaces Nouveaux / Ircam).\nObjective and perceptual characterization of room acoustical quality: Jean-Pascal Jullien, Olivier Warusfel, Eckhard Kahle.\nAdditional contributions by Gerard Assayag, Georges Bloch, Martine Marin, véronique Larcher, Guillaume Vandernoot and Khoa-Van Nguyen.\nC++ development code : Thibaut Carpentier , Remy Muller; additional contributions: Gael Martinet.\nThanks to Xavier Chabot, Eric Daubresse, Gerhard Eckel, Serge Lemouton, Gilbert Nouno, Laurent Pottier, Manuel Poletti, Leslie Stuck, and Zack Settel for instructive discussions and advice.\nIrcam R&D Director : Hugues Vinet\nCollection Manager: Frederick Rousseau\nCopyright © 2010 Ircam. All rights reserved.\nIRCAMTOOLS\nCollection Manager for IRCAM: Frederick Rousseau\nCollection Manager for Flux:: Gael Martinet\nIRCAMTOOLS SPAT, VERB\nCopyright © 2010 Ircam and Flux:: sound and picture development. All rights reserved.\nFlux::\nHead software engineering: Gael Martinet\nDeveloppers: Gael Martinet, Samuel Tracol, Siegfried Hand\nDesigner: Nicolas Philippot\nContributions: Lorcan Mcdonagh"
+    "text": "SuperVP is a registered trademark of Ircam.\nDesign and C++ implementation of signal analysis and signal transformation algorithms (SuperVP): Axel Röbel.\nDesign and C++ implementation of voice transformation algorithms (VoiceForger): Snorre Farner, Xavier Rodet and Axel Röbel.\nThanks for additional contributions, instructive discussions and advice to Frederic Cornu, Chunghsin Yeh, Alain Lithaud, Niels Bogaards, Norbert Schnell, Fernando Villavicencio Marquez, Greg Beller, and Joshua Fineberg, Gael Martinet.\nIrcam R&D Director : Hugues Vinet\nCollection Manager: Frederick Rousseau\nCopyright © 2010 Ircam. All rights reserved.\nIRCAMTOOLS\nCollection Manager for IRCAM: Frederick Rousseau\nCollection Manager for Flux:: Gael Martinet\nIRCAMTOOLS TRAX, TRAX CS, TRAX SF\nCopyright © 2010 Ircam and Flux:: sound and picture development. All rights reserved.\nFlux::\nHead software engineering: Gael Martinet\nDeveloppers: Gael Martinet, Samuel Tracol, Siegfried Hand\nDesigner: Nicolas Philippot\nContributions: Lorcan Mcdonagh"
+  },
+  {
+    "objectID": "Specifications.html#availability",
+    "href": "Specifications.html#availability",
+    "title": "16  Specifications",
+    "section": "16.1 Availability",
+    "text": "16.1 Availability\nIRCAM Trax is available in:\nAU / VST / VST3 / AAX Native/ AAX AudioSuite\n* AAX Native & AAX AudioSuite in Pro Tools 11 and later"
+  },
+  {
+    "objectID": "Specifications.html#processing",
+    "href": "Specifications.html#processing",
+    "title": "16  Specifications",
+    "section": "16.2 Processing",
+    "text": "16.2 Processing\nEVO Touch provides :\n\nUp to 2 channels Input/Output in VST/VST3/AU/AAX.\n64-bits internal floating point processing.\nSampling rate up to 384 kHz."
+  },
+  {
+    "objectID": "Specifications.html#hardware-requirements",
+    "href": "Specifications.html#hardware-requirements",
+    "title": "16  Specifications",
+    "section": "16.3 Hardware Requirements",
+    "text": "16.3 Hardware Requirements\nA graphic card fully supporting OpenGL 2.0 is required.\n\nmacOS : OpenGL 2.0 required – Mac Pro 1.1 & Mac Pro 2.1 are not supported.\nWindows : If your computer has an ATi or NVidia graphics card, please assure the latest graphic drivers from the ATi or NVidia website are installed."
+  },
+  {
+    "objectID": "Specifications.html#software-license-requirements",
+    "href": "Specifications.html#software-license-requirements",
+    "title": "16  Specifications",
+    "section": "16.4 Software License Requirements",
+    "text": "16.4 Software License Requirements\nIn order to use the software an iLok.com user account is required (the iLok USB Smart Key is not required)."
+  },
+  {
+    "objectID": "Specifications.html#compatibility",
+    "href": "Specifications.html#compatibility",
+    "title": "16  Specifications",
+    "section": "16.5 Compatibility",
+    "text": "16.5 Compatibility\nAll major native formats are supported\n\n16.5.1 Windows – 10, in 64 bits only.\n\nVST (2.4)\nVST3 (3.1)\nAAX Native*\nAAX AudioSuite*\n\n\n\n16.5.2 macOS (Intel and ARM)\nAll versions from Sierra (10.12) to latest. (Compatible with previous versions but not supported)\n\nVST (2.4)\nVST3 (3.1)\nAU\nAAX Native*\nAAX AudioSuite*\n\n* AAX Native & AAX AudioSuite in Pro Tools 11 and later"
   },
   {
     "objectID": "../flux_processing_release_notes.html#build-23.1.0.50251---all-plugins",
