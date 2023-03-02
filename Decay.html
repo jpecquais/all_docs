@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>IRCAM Trax - Cross Synthesis &amp; Source Filter Tools</title>
+<title>IRCAM Verb - 3&nbsp; Decay</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,8 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./Cross_Synthesis.html" rel="next">
-<link href="./Main_Input_-_Output_Section.html" rel="prev">
+<link href="./Time_Structure_Display.html" rel="next">
+<link href="./Quick_start_guide.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -73,7 +73,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./Cross_Synthesis_&amp;_Source_Filter_Tools.html">Cross Synthesis &amp; Source Filter Tools</a></li></ol></nav>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./Decay.html"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Decay</span></a></li></ol></nav>
       <a class="flex-grow-1" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
       </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -88,9 +88,9 @@ ul.task-list li input[type="checkbox"] {
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation floating overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
-      <a href="./">IRCAM Trax</a> 
+      <a href="./">IRCAM Verb</a> 
         <div class="sidebar-tools-main">
-    <a href="./IRCAM-Trax.pdf" title="Download PDF" class="quarto-navigation-tool px-1" aria-label="Download PDF"><i class="bi bi-file-pdf"></i></a>
+    <a href="./IRCAM-Verb.pdf" title="Download PDF" class="quarto-navigation-tool px-1" aria-label="Download PDF"><i class="bi bi-file-pdf"></i></a>
 </div>
     </div>
       </div>
@@ -103,112 +103,67 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">index.html</span></a>
+  <a href="./index.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">IRCAM Verb</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Quick_start_guide.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Quick start guide</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Decay.html" class="sidebar-item-text sidebar-link active"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Decay</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Time_Structure_Display.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Time Structure Display</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Options.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Options</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Time_Structure_Settings.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Time Structure Settings</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Input_Output_Section.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Input Output Section</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Preset_Section.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Preset Section</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Preset_Management.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Preset Management</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Credits.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Credits</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Specifications.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Specifications</span></a>
   </div>
 </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="./Transformer.html" class="sidebar-item-text sidebar-link">Transformer.html</a>
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">Appendices</a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./Mode.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Mode</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./Source.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Source</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./Target.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Target</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./Remix.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Remix</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./Filters.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Filters</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./Options.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Options</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./Modulation.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Modulation</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./Spectral_Envelope.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Spectral Envelope</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./Main_Input_-_Output_Section.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Main Input - Output Section</span></a>
-  </div>
-</li>
-      </ul>
-  </li>
-        <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a href="./Cross_Synthesis_&amp;_Source_Filter_Tools.html" class="sidebar-item-text sidebar-link active">Cross Synthesis &amp; Source Filter Tools</a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./Cross_Synthesis.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Cross Synthesis</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./Source_Filter.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">Source Filter</span></a>
-  </div>
-</li>
-      </ul>
-  </li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./Preset_Section.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">13</span>&nbsp; <span class="chapter-title">Preset Section</span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./Presets_Management.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">14</span>&nbsp; <span class="chapter-title">Presets Management</span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./Credits.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">15</span>&nbsp; <span class="chapter-title">Credits</span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./Specifications.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">16</span>&nbsp; <span class="chapter-title">Specifications</span></a>
-  </div>
-</li>
-        <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true">Appendices</a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./../flux_processing_release_notes.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">A</span>&nbsp; <span class="chapter-title">Release Notes</span></a>
@@ -226,7 +181,12 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction">Introduction:</a></li>
+  <li><a href="#decay-time" id="toc-decay-time" class="nav-link active" data-scroll-target="#decay-time"><span class="header-section-number">3.1</span> (1) Decay time</a></li>
+  <li><a href="#decay-high" id="toc-decay-high" class="nav-link" data-scroll-target="#decay-high"><span class="header-section-number">3.2</span> (2) Decay High</a></li>
+  <li><a href="#decay-mid" id="toc-decay-mid" class="nav-link" data-scroll-target="#decay-mid"><span class="header-section-number">3.3</span> (3) Decay Mid</a></li>
+  <li><a href="#decay-low" id="toc-decay-low" class="nav-link" data-scroll-target="#decay-low"><span class="header-section-number">3.4</span> (4) Decay Low</a></li>
+  <li><a href="#crossover-freq-high" id="toc-crossover-freq-high" class="nav-link" data-scroll-target="#crossover-freq-high"><span class="header-section-number">3.5</span> (5) Crossover Freq High</a></li>
+  <li><a href="#crossover-freq-low" id="toc-crossover-freq-low" class="nav-link" data-scroll-target="#crossover-freq-low"><span class="header-section-number">3.6</span> (6) Crossover Freq Low</a></li>
   </ul>
 </nav>
     </div>
@@ -235,7 +195,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Cross Synthesis &amp; Source Filter Tools</h1>
+<h1 class="title"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Decay</span></h1>
 </div>
 
 
@@ -250,10 +210,38 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<p><img src="https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Plugins/ircam-trax/trax_12.png" class="img-fluid"></p>
-<section id="introduction" class="level2">
-<h2 class="anchored" data-anchor-id="introduction">Introduction:</h2>
-<p>These plugins can only operate in a fixed 2 input - 2 output channel configuration only at the time of this writing. The plugin treats the stereo input as a dual mono input, and the two channels stereo output are identical. You will most likely want to use two separate DAW channels to be processed. The most convenient way to achieve this is to create a dedicated buss , with the plugin as an insert, and two separate direct sends from each source channels to this buss, panned hard right and left. You should probably also bring the corresponding channel faders all the way down and set the send as “pre-fader” to hear the result of the processed signal only.</p>
+<p><img src="https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Plugins/ircam-verb/verb_03.png" class="img-fluid"></p>
+<section id="decay-time" class="level2" data-number="3.1">
+<h2 data-number="3.1" class="anchored" data-anchor-id="decay-time"><span class="header-section-number">3.1</span> (1) Decay time</h2>
+<p>This is the duration of the reverberation ‘tail’ in seconds, in other words how long it takes for the reverberated sound to vanish away. In more technical terms, this is sometimes referred to as the RT60 factor, which is the time at which the response of the reverberation to an input signal goes below -60dB of attenuation.</p>
+<p>Please bear in mind that the master decay and high/mid/low controls are interactive, which means that the same audible result can be attained with different settings. This is intentional, as this allows you to get to the result faster and in a manner suited to your personal habits.<br>
+Generally speaking, it might be more convenient to adjust the master decay time using the resulting sound as a guideline, then fine tune using high and/or low decay controls and leave the mid decay at the default setting. On the other hand, if you specifically to concentrate on the mids, for example to create a ‘hollow room’ sound, it’s easier to focus on the mid decay control, leaving hi and mid decay untouched.</p>
+</section>
+<section id="decay-high" class="level2" data-number="3.2">
+<h2 data-number="3.2" class="anchored" data-anchor-id="decay-high"><span class="header-section-number">3.2</span> (2) Decay High</h2>
+<p>Adjusts relative decay time of high frequencies specifically. It is expressed as a ratio of the global decay time setting explained above. Default setting is 0.5, meaning the high frequencies decay faster than the main decay time. This behavior is quite typical of natural spaces, where high frequencies are easily absorbed (by furniture, carpet, etc…) before the lowest ones. Roughly speaking, for a given master decay time, increasing this ratio increases the sense of liveliness of the acoustic space, whereas decreasing it deadens it.</p>
+<p>The correspondingly affected band frequencies are determined by the Crossover freq. high control setting.</p>
+</section>
+<section id="decay-mid" class="level2" data-number="3.3">
+<h2 data-number="3.3" class="anchored" data-anchor-id="decay-mid"><span class="header-section-number">3.3</span> (3) Decay Mid</h2>
+<p>Adjusts relative decay time of medium frequencies specifically. Default setting is 1.</p>
+<p>The mid range is where the human ear is most sensitive, and roughly corresponds to the frequency spectrum of the human voice. The correspondingly affected band frequencies are comprised in between the Crossover freq. high and low control frequency values .</p>
+</section>
+<section id="decay-low" class="level2" data-number="3.4">
+<h2 data-number="3.4" class="anchored" data-anchor-id="decay-low"><span class="header-section-number">3.4</span> (4) Decay Low</h2>
+<p>Adjusts relative decay time of low frequencies specifically. Default setting is 1.<br>
+In most real acoustic spaces, low frequencies reverberate freely in the sense that wall materials barely affect the low-frequency response, except if specifically adapted materials have been employed such as bass-traps and anything that acts as a tuned resonator. Generally room size and shape is what influences the low-frequency reverberation content the most, so one could say the default setting corresponds to a space with no low-frequency specific acoustic treatment.</p>
+<p>The correspondingly affected band frequencies are determined by the Crossover freq. low control setting.</p>
+</section>
+<section id="crossover-freq-high" class="level2" data-number="3.5">
+<h2 data-number="3.5" class="anchored" data-anchor-id="crossover-freq-high"><span class="header-section-number">3.5</span> (5) Crossover Freq High</h2>
+<p>Sets the frequency above which reverberation time is determined by the Decay high setting, expressed in Hertz(Hz).<br>
+Default value: 5657 Hz</p>
+</section>
+<section id="crossover-freq-low" class="level2" data-number="3.6">
+<h2 data-number="3.6" class="anchored" data-anchor-id="crossover-freq-low"><span class="header-section-number">3.6</span> (6) Crossover Freq Low</h2>
+<p>Sets the frequency below which reverberation time is determined by the Decay low setting, expressed in Hertz(Hz).<br>
+Default value: 177 Hz</p>
 
 
 </section>
@@ -494,13 +482,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./Main_Input_-_Output_Section.html" class="pagination-link">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Main Input - Output Section</span></span>
+      <a href="./Quick_start_guide.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Quick start guide</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./Cross_Synthesis.html" class="pagination-link">
-        <span class="nav-page-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Cross Synthesis</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./Time_Structure_Display.html" class="pagination-link">
+        <span class="nav-page-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Time Structure Display</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
