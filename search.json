@@ -2,162 +2,36 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Evo In",
+    "title": "FLUX:: Documentation",
     "section": "",
-    "text": "Product Page | Shop Page\n\n1 Introduction\nEVO In - Stay In Phase – Maintain The Vitality\nUnique, Precise, Arbitrary and Linear Phase Rotation, Phase Group to enable and disable Phase for all of the included tracks at the same time. Electrical polarity inverter. Soft saturation to attain roundness and warmth, restoring and maintaining the vitality of the sound!"
+    "text": "SPAT Revolution\nIRCAM-Tools HEar"
   },
   {
-    "objectID": "General_Settings.html#bypass",
-    "href": "General_Settings.html#bypass",
-    "title": "2  General Settings",
-    "section": "2.1 Bypass",
-    "text": "2.1 Bypass\nGlobal bypass, when pressed, the signal is routed directly from the inputs to the outputs.\nValue Range : Enabled/Disabled\nDefault Value : Disabled"
+    "objectID": "index.html#analysis",
+    "href": "index.html#analysis",
+    "title": "FLUX:: Documentation",
+    "section": "Analysis",
+    "text": "Analysis\n\nFLUX:: Analyzer\nStudio Session Analyzer"
   },
   {
-    "objectID": "General_Settings.html#skin",
-    "href": "General_Settings.html#skin",
-    "title": "2  General Settings",
-    "section": "2.2 Skin",
-    "text": "2.2 Skin\nThe look of the EVO In user interface.\nValue Range : Light/Dark\nDefault Value : Light"
+    "objectID": "index.html#evo-modules",
+    "href": "index.html#evo-modules",
+    "title": "FLUX:: Documentation",
+    "section": "Evo Modules",
+    "text": "Evo Modules\n\nEvo Channel\nEvo In\nEvo EQ\nEvo Compressor\nEvo Touch"
   },
   {
-    "objectID": "Module_Settings.html#drive",
-    "href": "Module_Settings.html#drive",
-    "title": "3  Module Settings",
-    "section": "3.1 Drive",
-    "text": "3.1 Drive\nIn EVO In a signal Drive is available for restoring and maintaining the vitality of the sound.\nThe EVO IN Drive adds a soft saturation to attain roundness and warmth, restoring and maintaining the vitality of the sound, by generating harmonics important for the constancy of the sound without any audible distortion, on all types of sounds and instruments.\nValue Range : 0% / 100%\nDefault Value : 0%"
+    "objectID": "index.html#processing",
+    "href": "index.html#processing",
+    "title": "FLUX:: Documentation",
+    "section": "Processing",
+    "text": "Processing\n\nAlchemist\nBittersweet\nBittersweet Pro\nElixir\nEpure\nIRCAM-Tools Trax\nIRCAM-Tools Verb\nIRCAM-Tools Verb Session\nPure Compressor\nPure Dcompressor\nPure Dexpander\nPure Expander\nPure Limiter\nSolera\nStereo Tool\nStudio Session Plugins\nSyrah"
   },
   {
-    "objectID": "Module_Settings.html#phase",
-    "href": "Module_Settings.html#phase",
-    "title": "3  Module Settings",
-    "section": "3.2 Phase",
-    "text": "3.2 Phase\nOne of the most crucial parameters to take into account; Phase, or “The art of using multiple microphones on one and the same sound source”, a classic example is when setting up the sound for a drumkit.\nControlling the Phase of microphones is universal and relevant both for studio and live use. In EVO In an Arbitrary and Linear Phase Rotation throughout the spectrum is provided, to accomplish the same natural thing as when physically moving a microphone, of course without adding any latency.\n\nThe phase must be enabled for all the drum tracks. Then set the same group number for all these tracks. It allows to enable and disable the phase for all the drums in one click (simply switch on/off for the phase in one of the tracks).\n\n\n3.2.1 Phase Switch\nThe Phase is the result of Flux:: proprietary research, this unique algorithm allows linear phase correction with zero latency.\nActivate the phase module on all of the tracks that were recorded at the same time and in the same room (multi- microphones tracking or live recording in exemple), and then use the slider on the different tracks until you get full control over the phase and everything sounds correct.\nWhen enabled, the phase correction is turned on.\nValue Range : Enabled/Disabled\nDefault Value : Disabled\n\n\n3.2.2 Phase Group\nAdd an EVO In instance to a Phase Group. You can add an instance of EVO In to a group, all the members of the same group can then have their Phase enabled or disabled at one and the same time. To do so, add the instance to a group by selecting the group number for the desired group. Now when you then turn the phase switch on or off in any of the instances in the group, this will affect all instances that are members of the same group.\nValue Range : None/Group number\nNumber of groups : 8 groups\nDefault Value : Disabled\n\n\n3.2.3 Phase Correction\nSet the shift value used to correct the phase.\nValue Range : -180° / 180°\nDefault Value : 0°\n\n\n3.2.4 Polarity Invert\nWhen enabled, polarity inversion is applied to the signal.\nValue Range : Enabled / Disabled\nDefault Value : Disabled"
-  },
-  {
-    "objectID": "Plugin_Settings.html#main-setup",
-    "href": "Plugin_Settings.html#main-setup",
-    "title": "4  Plugin Settings",
-    "section": "4.1 Main Setup",
-    "text": "4.1 Main Setup\n\n4.1.1 UI Refresh Rate\nMax refresh rate of the plug-in’s UI."
-  },
-  {
-    "objectID": "Plugin_Settings.html#io",
-    "href": "Plugin_Settings.html#io",
-    "title": "4  Plugin Settings",
-    "section": "4.2 I/O",
-    "text": "4.2 I/O\n\n4.2.1 Input / Output\nI/O Config and Layout is not always available, though it is always displayed, it can only be edited in some configurations and formats.\n\n\n4.2.2 Config\nCurrent I/O configuration, is only available in certain VST hosts; typically hosts with limited capabilities for handling multichannel configurations.\n\n\n4.2.3 Layout\nAvailable I/O routings based on current I/O configuration. Layout is available for editing if more than two input channels are available. If the Layout is changed from the default value, an asterisk * is displayed next to the Layout information in the Input section."
-  },
-  {
-    "objectID": "Plugin_Settings.html#processing",
-    "href": "Plugin_Settings.html#processing",
-    "title": "4  Plugin Settings",
-    "section": "4.3 Processing",
-    "text": "4.3 Processing\n\n4.3.1 Report Latency\nEnables/Disables the latency reporting to the host."
-  },
-  {
-    "objectID": "Plugin_Settings.html#automation",
-    "href": "Plugin_Settings.html#automation",
-    "title": "4  Plugin Settings",
-    "section": "4.4 Automation",
-    "text": "4.4 Automation\n\n4.4.1 Multithread\nEnables/Disables Multithread Automation."
-  },
-  {
-    "objectID": "Plugin_Settings.html#osc",
-    "href": "Plugin_Settings.html#osc",
-    "title": "4  Plugin Settings",
-    "section": "4.5 OSC",
-    "text": "4.5 OSC\nOSC is available in EVO In.\n\n4.5.1 Enable\nEnables/Disables OSC control and mapping of the plug-in’s parameters."
-  },
-  {
-    "objectID": "Plugin_Settings.html#version-information",
-    "href": "Plugin_Settings.html#version-information",
-    "title": "4  Plugin Settings",
-    "section": "4.6 Version Information",
-    "text": "4.6 Version Information\nPlug-in version and build-number information."
-  },
-  {
-    "objectID": "Plugin_Settings.html#user-manual-credits",
-    "href": "Plugin_Settings.html#user-manual-credits",
-    "title": "4  Plugin Settings",
-    "section": "4.7 User Manual / Credits",
-    "text": "4.7 User Manual / Credits\nQuick link to the User Manual. Plug-in creation credits."
-  },
-  {
-    "objectID": "Specifications.html#availability",
-    "href": "Specifications.html#availability",
-    "title": "5  Specifications",
-    "section": "5.1 Availability",
-    "text": "5.1 Availability\nEVO In is available in:\nAU / VST / VST3 / AAX Native/ AAX DSP /AAX AudioSuite* / AAX VENUE / Waves WPAPI\n* In Pro Tools 11 and later"
-  },
-  {
-    "objectID": "Specifications.html#processing",
-    "href": "Specifications.html#processing",
-    "title": "5  Specifications",
-    "section": "5.2 Processing",
-    "text": "5.2 Processing\nEVO In provides :\n\nUp to 16 channels Input/Output in VST/VST3/AU/AAX.\nUp to 8 channels in WPAPI for Waves Soundgrid.\n64-bits internal floating point processing.\nSampling rate up to 384 kHz."
-  },
-  {
-    "objectID": "Specifications.html#hardware-requirements",
-    "href": "Specifications.html#hardware-requirements",
-    "title": "5  Specifications",
-    "section": "5.3 Hardware Requirements",
-    "text": "5.3 Hardware Requirements\nA graphic card fully supporting OpenGL 2.0 is required.\nmacOS : OpenGL 2.0 required – Mac Pro 1.1 & Mac Pro 2.1 are not supported.\nWindows : If your computer has an ATi or NVidia graphics card, please assure the latest graphic drivers from the ATi or NVidia website are installed."
-  },
-  {
-    "objectID": "Specifications.html#software-license-requirements",
-    "href": "Specifications.html#software-license-requirements",
-    "title": "5  Specifications",
-    "section": "5.4 Software License Requirements",
-    "text": "5.4 Software License Requirements\nIn order to use the software an iLok.com user account is required (the iLok USB Smart Key is not required)."
-  },
-  {
-    "objectID": "Specifications.html#compatibility",
-    "href": "Specifications.html#compatibility",
-    "title": "5  Specifications",
-    "section": "5.5 Compatibility",
-    "text": "5.5 Compatibility\nAll major native formats are supported\n\n5.5.1 Windows – 10, in 64 bits only.\n\nVST (2.4)\nVST3 (3.1)\nAAX Native*\nAAX AudioSuite*\nWaves WPAPI\n\n\n\n5.5.2 macOS (Intel and ARM)\nAll versions from Sierra (10.12) to latest. (Compatible with previous versions but not supported)\n\nVST (2.4)\nVST3 (3.1)\nAU\nAAX Native*\nAAX AudioSuite*\nWaves WPAPI\n\n* AAX Native & AAX AudioSuite in Pro Tools 11 and later"
-  },
-  {
-    "objectID": "../flux_processing_release_notes.html#build-23.1.0.50251---all-plugins",
-    "href": "../flux_processing_release_notes.html#build-23.1.0.50251---all-plugins",
-    "title": "Appendix A — Release Notes",
-    "section": "A.1 Build 23.1.0.50251 - All plugins",
-    "text": "A.1 Build 23.1.0.50251 - All plugins\n\nA.1.1 New features\n\nNew plugins Evo Compressor, Evo Touch and Evo EQ.\nVST3 support\nARM support for AAX, AU and VST3\nPlugins are now resizable\nElixir now supports 32 channels\nAlchemist, BitterSweet, Epure, Pure Compressor, Pure DCompressor, Pure Expander, Pure DExpander, PureLimiter, Solera, Syrah now support 16 channels\n\n\n\nA.1.2 Bugs fixes\n\nAll plugins - Preset Manager - Update user preset do not work\nAll plugins - Preset manager - Crash or freeze when saving a preset\nAll plugins - UI may be black on Intel UHD 630 graphical cards\nAll plugins - AU/VST3 - Preset manager - Default preset is not applied to parameters at plugin instantiation\nAll plugins - AAX - Crash with OSC when changing fx slot in Pro Tools\nAll plugins - AU - Logic Pro - Automation of boolean/integer parameters broken\nAll plugins - AU - Plugins crash in Da Vinci Resolve\nAll plugins - DaVinci Resolve - VST - UI is truncated\nAll plugins - Streamlabs - Plugins do not work\nAll plugins - Licensing issue in DaVinci Resolve and GarageBand\nAlchemist - The range parameter works only for the 1st band\nBitterSweet - Not possible to tweak the Output gain after unlinking it\nBitterSweet - Output gain not reloaded properly when the link is disabled\nBSPro - some modes are not accessible due to GUI issue\nEpure - macOS - Bad graphic scale initialization at 2&4FS\nEvo Channel - Meter reference is not saved\nSyrah - Crash when selecting preset “Static fast compression”\nTRAX Tr - When the link is activated, the Formant slider does not have the expected audio effect\nTRAX Tr - ProTools - Issue in AudioStudio when the modulation is enabled\nVerbSession/VerbSession Studio Session and BSPro StudioSession - Pyramix - VST crash when instantiated\nVerb/Verb Studio Session - Crash when reloading session having 2 instances\n\n\n\nA.1.3 Known issues\n\nAll plugins - VST - GUI issue in Izotope Ozone and RX\nAll plugins - AAX - Preset manager - Default preset is not applied to parameters at plugin instantiation\nElixir - Latency not properly compensated after changing stage parameters value in VST and AudioUnit\nTRAX tr - Learn function returning wrong values\nVerbV3 - HOA 3rd order not working properly"
-  },
-  {
-    "objectID": "../flux_processing_release_notes.html#build-21.12.0.50123---all-plugins-except-trax-and-studiosession",
-    "href": "../flux_processing_release_notes.html#build-21.12.0.50123---all-plugins-except-trax-and-studiosession",
-    "title": "Appendix A — Release Notes",
-    "section": "A.2 Build 21.12.0.50123 - All plugins except TRAX and StudioSession",
-    "text": "A.2 Build 21.12.0.50123 - All plugins except TRAX and StudioSession\nBug fixes\n\nAll plugins AudioUnit - GUI issue with Hdpi displays on macOS Monterey\nAll plugins VST - Plugin scan freeze in Wavelab 11 on Mac M1 machines\nAll plugins VST - Crash in Adobe Audition on macOS\nAll plugins VST macOS - Fix crashes with Ableton live\nElixir - Automation is not read for toggle parameters.\nElixir - Crash when clicking on the settings button on Session version\nElixir - Several fixes on the UI\nElixir - Windows AAX - Refresh issue with two instances in ProTools\nHEar - Bypass is working in AAX\nHEar AAX - Crash when doing offline bounce on macOS\nHEar AAX - Crash when editing the matrix on macOS\nHEar AAX - Stereo - Change on Matrix are not applied until we change the preset\nHEar AudioUnit - Ableton crashes when inserting a second instance"
-  },
-  {
-    "objectID": "../flux_processing_release_notes.html#build-21.11.0.50107-hear-ircam-verb",
-    "href": "../flux_processing_release_notes.html#build-21.11.0.50107-hear-ircam-verb",
-    "title": "Appendix A — Release Notes",
-    "section": "A.3 Build 21.11.0.50107 (HEar, IRCAM Verb)",
-    "text": "A.3 Build 21.11.0.50107 (HEar, IRCAM Verb)\nNOTE: CURRENTLY NOT COMPLIANT WITH ABLETON LIVE MACOS\nImprovement\n\nHEar - 5.1.4 & 5.0.4 now available\n\nBug fixes\n\nHEar - Fix meters refresh issue\nHEar - No verb on some presets\nHEar - Protools crashes when doing offline bounce on macOS"
-  },
-  {
-    "objectID": "../flux_processing_release_notes.html#flux-immersive---plugins-including-ircam-tools-21.09",
-    "href": "../flux_processing_release_notes.html#flux-immersive---plugins-including-ircam-tools-21.09",
-    "title": "Appendix A — Release Notes",
-    "section": "A.4 FLUX:: Immersive - Plugins (including IRCAM Tools) 21.09",
-    "text": "A.4 FLUX:: Immersive - Plugins (including IRCAM Tools) 21.09\nThis release includes updates for all FLUX::Immersive plugin processing products with the exception of EVO Channel, Epure, IRCAM Trax, Studio Session.\nNOTE: CURRENTLY NOT COMPLIANT WITH ABLETON LIVE MACOS\nMajor optimizations\n\nApple computers Big Sur (new M1 chips) AU validation\n\nImportant updates to the Ircam Verb + Session\nOverall better handling of multichannel track setups such for Atmos. (Ircam Hear, Verb and more)\nAutomatic detection of track format / channel order for DAWs when possible.\n\n\nA.4.1 Build 21.9.0.50083\nBug fixes\n\nApple computers Big Sur (new M1 chips) AU validation failing\nEmpty GUI when close/reopen plugin - Windows 10 - UHD630 graphics\nAudioUnit in Reaper - do not process audio when offline bounce\nDefault preset not loaded correctly on instantiation of Verb + Verb Session\nEvo.Channel on Retina - Input and Output Sliders badly scaled\nIncompatible AudioUnit issue in Apple Final Cut Pro\nPlugins: Recall Preset Flags (e.g. “All but setup”) recall always everything\nPreset Manager - UI issue with small plugins when a preset has been created\nIrcam Verb Session reload in VST with audio interruption\nVST Plugins Session not correctly reloaded if it integrate an IO configuration change\nVerb session - Dry/wet not applied in offline render\nVerb v3 Atmos crash on AAX\nVerb: AU validation failed on Apple M1\nVerb: LFE not disabled by default on ProTools\nVerb: Recall Preset may be not correct with double click inside the preset manager\nVerb: disabled channel is not re-injected according to dry/wet parameter (100 % wet means muted)\nVerb: init issue with Nuendo\nAAX - Some plugins - Crash on Mac / No GUI on Windows\nOverall reliability / stability fixes.\nPlugin size not correct\nPotential plugins crash when opening UI"
-  },
-  {
-    "objectID": "../flux_processing_release_notes.html#flux-immersive---plugins-including-ircam-tools-20.12",
-    "href": "../flux_processing_release_notes.html#flux-immersive---plugins-including-ircam-tools-20.12",
-    "title": "Appendix A — Release Notes",
-    "section": "A.5 FLUX:: Immersive - Plugins (including IRCAM Tools) 20.12",
-    "text": "A.5 FLUX:: Immersive - Plugins (including IRCAM Tools) 20.12\nThis major release includes updates for all FLUX::Immersive products with the exception of IRCAM Spat V3 legacy product. Please refer to Spat V3 - Spat Revolution crossgrade options.\nMajor optimizations\n\nHiDPI / Retina support + display enhancements and fixes\nPage Table unification for Avid Control, S1, S3, S4, S6 and S6L.\nOSC Control for plugins.\nIRCAM Verb support for Dolby Atmos, Multichannel support up to 16 channels\nIRCAM Hear - Multichannel stability improvement, Now up to 10 channels. (Dolby Atmos 7.1.2)\nIRCAM Tools - Audio I/O Matrix and Multichannel enhancement\nMost plugins support of 8 channel.\n16 channel support for Bittersweet Pro, Evo In and Evo Channel\n\n\nA.5.1 Build 20.12.0.49880\nBug fixes\nCore:\n\nBSPro - Latency report issue (AAX)\nIRCAM TRAX Tr - Latency report issue\nIRCAM Verb - Wrong initialization value for Reverb density\nIRCAM Verb -Dry signal still goes out in disabled channels when wet is 100%\nAll Pure Dynamics PI + Alchemist - Wrong Thresholds initialization values\nAAX “monolithic” are broken like Hear, TRAX etc…\nAlmost all AAX plugins don’t reload parameters from 47856 version session.\nPure Limiter - Diff feature bypassed the input gain.\nPure Limiter - Inverted sidechain filters.\nAny plugin except Evo Channel - Research Presets resets when click on a preset.\nEvo channel - Wrong values when reloading touch section.\n\nUI:\n\nCurrent preset name disappear on re-opening GUI or session"
-  },
-  {
-    "objectID": "../flux_processing_release_notes.html#known-issues-1",
-    "href": "../flux_processing_release_notes.html#known-issues-1",
-    "title": "Appendix A — Release Notes",
-    "section": "A.6 Known Issues",
-    "text": "A.6 Known Issues\n\nWavelab “Sample rate not supported” when a plugin is inserted on a clip, track or output section.\nTRAX Tr - Learn frequencies display wrong values (AAX only).\nHear - Internal config labels change when modify LFE input config from routing matrix.\nWhen using OSC on a plugin in Pro Tools, a chrash will occur if you change/move FX insert slots"
+    "objectID": "index.html#legacy",
+    "href": "index.html#legacy",
+    "title": "FLUX:: Documentation",
+    "section": "Legacy",
+    "text": "Legacy\n\nElixir v3\nIRCAM-Tools Spat (Plugin)\nJünger Level Magic"
   }
 ]
