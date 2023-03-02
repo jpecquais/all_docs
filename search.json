@@ -2,23 +2,23 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Studio Session Analyser",
+    "title": "Studio Session Plugins",
     "section": "",
-    "text": "1 Studio Session Analyser"
+    "text": "1 Studio Session Plugins"
   },
   {
     "objectID": "index.html#welcome",
     "href": "index.html#welcome",
-    "title": "Studio Session Analyser",
+    "title": "Studio Session Plugins",
     "section": "1.1 Welcome",
-    "text": "1.1 Welcome\nThank you for purchasing the Studio Session Plugins (bundle) which includes the Studio Session Analyser\nThe Studio Session Analyser is a light version of our renowned FLUX:: Real Time Analyzer System\nThe Session Analyser is installed as a single application. It has the same basic functioning as with the standard FLUX:: Analyser with the following limitations;\n\nInputs & Outputs : Mono / Stereo\nI/O Configuration: SampleGrabber Plug-in Only (no hardware I/O)\nMax 96kHz sample rate. 44.1, 48, 88.2, 96\nNo Support for any add-on options\n\n\n\n\n\n\n\nNote\n\n\n\nPlease note that the Studio Session Pack license is a bundle license and the Studio Session Analyzer can only be used on the same computer as the rest of the plug-ins in the bundle are used."
+    "text": "1.1 Welcome\nThank you for purchasing the Studio Session Plugins (bundle).\nThe bundles include some of our finest recording and mixing tools, the essential FLUX:: technologies for the studio projects.\nThe bundle includes:\n\nBittersweet Pro\nEpure\nIrcam Verb Session\nPure Compressor\nPure Expander\nPure Limiter\nStudio Session Analyzer\nSyrah\n\nThe Studio Session Plugins are installed as a single bundle that contains the above products. They have the exact same capacities with the following limitations:\n\nFormats: AU / VST / VST3 / AAX Native only (not available for AAX VENUE and Waves WPAPI)\nInputs & Outputs : Mono / Stereo only\nMax 96kHz sample rate. 44.1, 48, 88.2, 96\nNo support For Open Sound Control"
   },
   {
-    "objectID": "index.html#user-documentation",
-    "href": "index.html#user-documentation",
-    "title": "Studio Session Analyser",
-    "section": "1.2 User documentation",
-    "text": "1.2 User documentation\nPlease refer to the FLUX:: Real Time Analyzer System user documentation.\n…"
+    "objectID": "index.html#user-documentation-and-resources",
+    "href": "index.html#user-documentation-and-resources",
+    "title": "Studio Session Plugins",
+    "section": "1.2 User documentation and resources",
+    "text": "1.2 User documentation and resources\nUser documentation is the same as the standard products. Please refer to:\n\nBittersweet Pro\nEpure\nIrcam Verb Session\nPure Compressor\nPure Expander\nPure Limiter\nStudio Session Analyzer\nSyrah\n\nTutorials are as well available for How to mix with Studio Session Pack:\n\nHow to mix with Studio Session Pack - Balance and EQ\nHow to mix with Studio Session Pack - Dynamic treatment\nHow to mix with Studio Session Pack - Reverberation\nHow to mix with Studio Session Pack - Last stage of production"
   },
   {
     "objectID": "../flux_processing_release_notes.html#build-23.1.0.50251---all-plugins",
