@@ -1,0 +1,233 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Elixir",
+    "section": "",
+    "text": "1 Elixir - Real Multichannel True Peak Limiter\nProduct Page | Shop Page\nThank you for using Elixir. We hope that you will get good use of the information found in this manual."
+  },
+  {
+    "objectID": "Introduction.html",
+    "href": "Introduction.html",
+    "title": "2  Introduction",
+    "section": "",
+    "text": "Elixir is the improved and revamp version of the legacy Elixir. Such as it, Elixir is a novel kind of program limiter carefully designed to accomplish a truly natural sounding result without changing the nature of the audio material and its timbre, presenting none, or effectively reduced, conventional limiting “pumping” effects even during heavy processing. Now supporting up to 32 channels, 64bits float audio processing and conforming with the ITU-R and EBU loudness norms, Elixir Essential is an indispensable tool for immersive audio productions.\nIt’s a REAL True Peak Limiter, providing a guaranteed True Peak output level according to the ITU-R-BS 1770 or the ITU-R-BS 1770-3, and EBU R128 norms. The algorithm is using an oversampled representation of the audio sample as a reference when it defines the gain envelope; still, the processing is only applied to the original none oversampled data in order to reduce artifacts (like aliasing), and to achieve the most excellent sounding result.\nWorking on 64bits audio processing when the Digital Audio Workstation supports it, Elixir is incredibly easy to achieve great results with: set the input level, adjust ‘Threshold’ according to the amount of limiting you want, and finally enable ‘Make Up’ to compensate the gain and to add loudness - That’s it! There is no need to care about release time or any other conventional limiter settings!\nThere’s an additional feature provided to increase the processing quality in Elixir called ‘Stages’. Stages present the option to set the algorithm to perform the limiting processing in multi-stages, for a limitation more natural and more respectful of the sound material.\n\n3 Elixir Session, Elixir\nElixir comes with two different licensing options: - Elixir supports up to 32 channels and a sample rate up to 384kHz - Elixir Session supports up to 2 channels and a sample rate up to 96kHz.\nThe build is the same for both versions, the licensing allowing to use the plug-in as Elixir Session or Elixir."
+  },
+  {
+    "objectID": "About_True_Peak.html",
+    "href": "About_True_Peak.html",
+    "title": "3  About True Peak",
+    "section": "",
+    "text": "All digital audio wave signal is ultimately converted back to analog at some point, and while it is often desirable to maximize the overall volume of a signal or a complete mix, care must be taken in order not to go above the digital scale zero decibel ceiling, or nasty distortion and clipping will occur. This common and widely used rule is however not entirely sufficient, as the digital and analog processing involved in a D/A converter does not guarantee that a 0dBfs peak signal will exactly translate to a 0dB peak in the analog domain.\nWithout getting into too much detail, this phenomenon can be attributed to the over-sampling and reconstruction filters present in D/A converters, whose role are to rebuild a continuous time signal from a set of discrete digital values sampled at regularly spaced time intervals. This interpolation process can therefore generate values, which lie above 0dB, and is known as overshoot.\nRelying solely on the peak value of samples can lead to the following problems:\n\nInconsistent readings between successive playbacks of the same material.\nUnexpected overloads of the D/A output converter.\nUnder-readings and beating of pure tones.\n\nUsing True Peak value aims to overcome these limitations by mimicking parts of the D/A conversion process, effectively up-sampling the measured signal, in order to use the true value of peaks that occur in the analog domain."
+  },
+  {
+    "objectID": "Installation_authorization.html#create-and-account",
+    "href": "Installation_authorization.html#create-and-account",
+    "title": "4  Installation",
+    "section": "4.1 Create and account",
+    "text": "4.1 Create and account\n Create an account"
+  },
+  {
+    "objectID": "Installation_authorization.html#redeem-a-license-code-from-activation-code",
+    "href": "Installation_authorization.html#redeem-a-license-code-from-activation-code",
+    "title": "4  Installation",
+    "section": "4.2 Redeem a License Code from activation code",
+    "text": "4.2 Redeem a License Code from activation code\nUnless you purchased your license in the flux.audio online store, you will need to redeem your license.\nFLUX:: uses the iLok license management system to deliver software licenses to users. If you have received an activation code (such as from a dealer purchase),you can use the Redeem License Code window to activate your license.\n\nVisit our License Code Activation page.\n\n\n\n\n\n\nNote\n\n\n\nTwo different licenses are available for this product: Elixir Session and Elixir Essential. Check the technical details page for more informations."
+  },
+  {
+    "objectID": "Installation_authorization.html#ilok-user-account",
+    "href": "Installation_authorization.html#ilok-user-account",
+    "title": "4  Installation",
+    "section": "4.3 iLok User Account",
+    "text": "4.3 iLok User Account\nTo activate licenses:\n\n\nAn iLok user account is required.\nAn iLok USB key is optional.\n\nFLUX:: uses the iLok license management system to deliver software licenses to users. If you don’t have an iLok account yet, please create a free iLok account at http://www.ilok.com and download the iLok license manager. All FLUX:: plug-ins come with two activations. Having two activations gives you the possibility of a fixed license on one particular machine and a portable license on an iLok USB key if you own one.\n\n\n\n\n\n\nWarning\n\n\n\nCloud license currently not supported"
+  },
+  {
+    "objectID": "Installation_authorization.html#ilok-license-manager",
+    "href": "Installation_authorization.html#ilok-license-manager",
+    "title": "4  Installation",
+    "section": "4.4 iLok License Manager",
+    "text": "4.4 iLok License Manager\nIf you have redeemed your software license or completed your purchase process, your license will automatically be delivered into your iLok account\n\nFor new iLok users, the first step is to download and install the iLok license manager available on the home page of the iLok website. When your user account is successfully activated and the iLok license manager is correctly installed, you can start the license manager software and log in to your iLok user account."
+  },
+  {
+    "objectID": "Installation_authorization.html#transferring-license",
+    "href": "Installation_authorization.html#transferring-license",
+    "title": "4  Installation",
+    "section": "4.5 Transferring license",
+    "text": "4.5 Transferring license\n\nPressing on the sign in button will allow you to connect to your account. After Logging in, you are now ready to transfer any licenses to a computer or to any iLok USB key if you happen to have one. The process of transferring a license is as simple as dragging the license from the Available tab to your Local Computer (or iLok key) on the left side.\nSimply drag your license to your Local Computer or on an iLok USB key. You are now set!\n\n\n\n\n\n\nNote\n\n\n\nIf you require further information about iLok and managing licenses please refer to iLok.com website"
+  },
+  {
+    "objectID": "Installation_authorization.html#flux-center",
+    "href": "Installation_authorization.html#flux-center",
+    "title": "4  Installation",
+    "section": "4.6 FLUX:: Center",
+    "text": "4.6 FLUX:: Center\n\nNext step is to get the installers for the FLUX:: products you are licensed for. All the software and plugins from FLUX:: are available via our FLUX:: Center software. This is a Mac or Windows application we have created to help keep your FLUX:: products up to date and to give you a clear overview of what you have installed. Firstly, please visit the download section of the FLUX:: Website to get the installer for the FLUX:: Center application.\nOn this page you will find a macOS, a Windows 64 bits, as well as legacy versions for older operating systems. After downloading and installing, you can open the FLUX:: Center applications to begin the process of installing the Elixir.\n\n\n\n\n\n\nWarning\n\n\n\nAn authentification is required at the launch of FLUX:: Center. This is the login details of your FLUX shop account which allows you to see only your products licensed for (temporary or permanent)\n\n\n\n\n\n\n\n\nNote\n\n\n\nTo be noted: The binary is the same for either Session and Essential version."
+  },
+  {
+    "objectID": "Installation_authorization.html#center-preferences",
+    "href": "Installation_authorization.html#center-preferences",
+    "title": "4  Installation",
+    "section": "4.7 Center Preferences",
+    "text": "4.7 Center Preferences\n\nWhen you open FLUX:: Center you will see a page that lists all FLUX:: products available for you to install. You will also find information about which version you have currently installed on your system and which new versions might be available for you to update to. You can select versions to install - or uninstall if necessary - using the pull down menus. If you would like to access more installer options such as your preferred plug-in format, please click on the gear icon to the top right of the header area."
+  },
+  {
+    "objectID": "Installation_authorization.html#center-preferences-and-options",
+    "href": "Installation_authorization.html#center-preferences-and-options",
+    "title": "4  Installation",
+    "section": "4.8 Center Preferences and Options",
+    "text": "4.8 Center Preferences and Options\n\nThis preference page will allow you to choose various installation options such as preferred plug-in formats for your system. Choosing your format and returning to the main page by pressing the OK button will show all your install options for software and plugins based on the desired formats chosen.\nIf you would like to be closer to the most current development cycles of the software, you can enable the Beta Versions option. This will give you access to a special set of software installers from the pull down menus on the main FLUX:: Center page. Beta versions are the new builds that are still under development but may contain useful bug fixes and new features. If you find that a beta version is not stable enough for you, then you can always roll back to a stable release version at any time through the FLUX:: Center installers. Note that these versions starts with a “B” where official releases start with a “V”."
+  },
+  {
+    "objectID": "User_interface.html#commun-parameters",
+    "href": "User_interface.html#commun-parameters",
+    "title": "5  User interface",
+    "section": "5.1 Commun parameters",
+    "text": "5.1 Commun parameters\n\n5.1.1 Threshold dBTP (3)\nControl the threshold (or ceiling) used for limiting.\nUnit: Decibel (dB) Range: -12.000 to 0. Min. Steps: 0. Default Value: 0.\n\n\n5.1.2 Input Gain (1)\nControl the gain applied to the limiter input.\nUnit: Decibel (dB) Range: -12.000 to +12. Min. Steps: 0. Default Value: 0.\n\n\n5.1.3 Output Gain (2)\nControl the gain at the output stage of the limiter.\nUnit: Decibel (dB) Range: -12.000 to +12. Min. Steps: 0. Default Value: 0.\n\n\n5.1.4 Diff. (8)\nAllow to hear the difference only. Used to better understand the action and allow to easily tweak the parameters.\nOn/Off Default Value: Off\n\n\n5.1.5 Make Up (9)\nApply Gain compensation. Add the invert of the threshold gain to the output gain.\nOn/Off\nDefault Value: Off\n\n\n5.1.6 Bypass (10)\nBypass the plug-in processing by routing the input direct to the output. The actual processing is still performed in the background allowing for a true and smooth transition between the processed and the actual incoming signal.\n\n\n5.1.7 ITU BS.1770-3 (20)\nWhen activated, the algorithm used to limit the input signal follow the ITU BS.1770-3 recommandation."
+  },
+  {
+    "objectID": "User_interface.html#processing-section",
+    "href": "User_interface.html#processing-section",
+    "title": "5  User interface",
+    "section": "5.2 Processing Section",
+    "text": "5.2 Processing Section\n\n5.2.1 Ch. Link (4)\n% of channels linkage\nUnit: Percent (%) Range: 0 to 100 Min. Steps: 1\nDefault Value: 0\n\n\n5.2.2 Ch. Link Dynamic (7)\nMake the channels’ linkage dynamic according to the signal. It means: when activated, the Channel Link will automatically move from 0 when high dynamic (i.e. high transients) are detected and the desired value when no dynamic (i.e. low transients) are detected.\nUnit: On/Off Default Value: Off\n\n\n5.2.3 Stages (5)\nNumber of stages (passes or steps) used by the algorithm. Because the algorithm adapts itself to the audio material, doing multi stages allows for the processing to be even more precise and provides an even more natural sounding result. For e.g. if the threshold is set to -3 dB and Stages set to 3: first stage will limit at -1dB, second stage will limit at -2dB and third will limit at -3dB with analyzing done for each stage!\nRange: 1 to 12 Min. Steps: 1 Default Value: 1\n\n\n5.2.4 Speed (6)\nAllow to change how the algorithm will react regarding the audio material. This will change how the gain envelop will be generated with more or less look-ahead, release and curve smoothing. Leave it at 50% by default which will be optimal for most case. Prefer increasing stages before trying to reduce it and remember that from 50% to 100 % it can generate more and more distortion…\nUnit: Percent (%)\nRange: 0.0 to 100. Min. Steps: 0. Default Value: 50."
+  },
+  {
+    "objectID": "User_interface.html#metering-section",
+    "href": "User_interface.html#metering-section",
+    "title": "5  User interface",
+    "section": "5.3 Metering Section",
+    "text": "5.3 Metering Section\n\n5.3.1 Signal Input dBTP True Peak Meter (11)\n\n\n5.3.2 Signal Output dBFS True Peak Meter (12)\n\n\n5.3.3 Comp. dBFS Meter (13)\nAll information is displayed at a refresh rate of 60 fps (if possible) and displaying the maximum action during the processing period."
+  },
+  {
+    "objectID": "User_interface.html#preset-management",
+    "href": "User_interface.html#preset-management",
+    "title": "5  User interface",
+    "section": "5.4 Preset management",
+    "text": "5.4 Preset management\nElixir, as well as all other FLUX:: plug-ins, provides two preset slots referred to as slot A and slot B, which means that you can have direct access to two sets of parameter settings simultaneously. In addition to just recall (33) the settings for each of the slots individually and alternate between their settings, a morphing slider (35) is provided offering the possibility to morph between the slots and their corresponding settings. When clicking on one of the preset slots (38), the built-in preset manager appears.\nThe preset manager contains three preset banks: - the Factory bank contains factory presets, this bank is not available for saving of presets but any of the presets can be loaded into a preset slot and then saved into, - the User bank, where all user presets are saved, - the Global bank, which is a bit special: here you can save a complete snapshot with all the settings from both preset slots, as well as the position of the morphing slider.\nIn the preset manager, any preset can be loaded into a preset slot by double-clicking on the name of the desired preset in the actual preset list, the preset will then be loaded into the preset slot corresponding to the position of the morphing slider."
+  },
+  {
+    "objectID": "User_interface.html#additional-controls-in-the-preset-manager",
+    "href": "User_interface.html#additional-controls-in-the-preset-manager",
+    "title": "5  User interface",
+    "section": "5.5 Additional controls in the preset manager",
+    "text": "5.5 Additional controls in the preset manager\n\nRecall A loads the selected preset into the corresponding slot.\nRecall B loads the selected preset into the corresponding slot.\nUpdate saves the current settings into the selected preset.\nNew saves the current settings into a new preset.\nDuplicate creates a copy of the selected preset and saves it to the list.\nEdit allows for changes to the preset meta properties.\nDelete removes the selected preset.\nExport creates a file reflecting the content of the current preset bank.\nImport allows for import of a preset bank file by adding the imported banks content to the content in the current preset bank.\n\nWhen saving or editing a preset, an option to protect the preset is presented. The preset protection, if engaged, only allows the original preset author to uncheck and edit the preset. This means that you can protect your presets in a multi-user configuration. Protected presets can only be modified using the session used for their creation. If used in another user session they can only be imported or deleted."
+  },
+  {
+    "objectID": "User_interface.html#elixir-preset-controls",
+    "href": "User_interface.html#elixir-preset-controls",
+    "title": "5  User interface",
+    "section": "5.6 Elixir Preset Controls",
+    "text": "5.6 Elixir Preset Controls\n\n5.6.1 Save (13)\nTo save a new preset using the built-in preset manager, simply click Save in the corresponding preset slot (A/B), and to save changes to your preset, simply click Save again.\nIf you want to resave your preset under a new name, open the preset manager by clicking the corresponding (A/B) preset slot (38), select New, enter a name for your preset, and press Save.\n\n\n5.6.2 Recall (14)\nRecalls the settings of the corresponding slot.\n\n\n5.6.3 Copy A/B (15)\nTo copy all parameters between the preset slots (A to B or B to A), press the Copy A or Copy B button, and the parameters from the corresponding preset slot will be copied into the current preset slot. When copying parameters from one slot to another, the preset morph slider will automatically slide to the slot the parameters where copied to.\n\n\n5.6.4 Morphing Slider (16)\nThe morphing slider provides mixing between the settings of slot A and B and allows for some very creative tweaking.\nThe result of the morphing can be saved as a global preset containing the actual settings of both preset slots as well as the morphing slider position.\nTo save a Global preset, open the preset manager by clicking the corresponding (A/B) preset slot (38), then click Global, select New and enter a name for your global preset, then press Save.\n\n\n5.6.5 Automation (Morphing Slider) (17)\nWhen enabling the Automation control button, the morphing slider will be exposed and available for both automation read and write.\nThough with the button engaged, only the morphing slider value is applied when reading automation.\nThe Automation control button must be engaged if the morphing slider needs to be mapped on a control surface.\n\n\n5.6.6 Preset Name (18)\nDisplays the name of the current preset.\n\n\n5.6.7 Preset Slot (19)\nBy pressing the little arrows in the preset slot, the built-in preset manager appears."
+  },
+  {
+    "objectID": "Preferences.html#display-quality",
+    "href": "Preferences.html#display-quality",
+    "title": "6  Main Setup",
+    "section": "6.1 Display Quality",
+    "text": "6.1 Display Quality\nSet the display refresh of the UI. Default: 30 fps."
+  },
+  {
+    "objectID": "Preferences.html#config",
+    "href": "Preferences.html#config",
+    "title": "6  Main Setup",
+    "section": "6.2 Config",
+    "text": "6.2 Config\nAllow to choose the input/output config of the plugin. The field is editable or not, according to the DAW."
+  },
+  {
+    "objectID": "Preferences.html#ui-size",
+    "href": "Preferences.html#ui-size",
+    "title": "6  Main Setup",
+    "section": "6.3 UI size",
+    "text": "6.3 UI size\nSet the plugin size.\n\n\n\n\n\n\nNote\n\n\n\nIf you choose a too big size and cannot change it anymore, please close the UI of all Elixir instances, and delete “Preferences” on “/Documents/FLUX SE/Elixir”."
+  },
+  {
+    "objectID": "Preferences.html#report-latency",
+    "href": "Preferences.html#report-latency",
+    "title": "6  Main Setup",
+    "section": "6.4 Report latency",
+    "text": "6.4 Report latency\nAllow to report the latency to the DAW or not. Default: On"
+  },
+  {
+    "objectID": "Preferences.html#process-in-multithread",
+    "href": "Preferences.html#process-in-multithread",
+    "title": "6  Main Setup",
+    "section": "6.5 Process in multithread",
+    "text": "6.5 Process in multithread\nParameter set by default according to the DAW, defining if the automation is processed on the main thread or on another thread. Please tweak this parameter only on FLUX:: support request."
+  },
+  {
+    "objectID": "Preferences.html#osc",
+    "href": "Preferences.html#osc",
+    "title": "6  Main Setup",
+    "section": "6.6 OSC",
+    "text": "6.6 OSC\nAll plugins are controllable by OSC.\n\n6.6.1 Enable\nEnable OSC control, IN and OUT.\n\n\n6.6.2 Input and Output port and IP address\nSet it according to the destination port and IP number, and the network wanted."
+  },
+  {
+    "objectID": "Specifications.html",
+    "href": "Specifications.html",
+    "title": "7  Technical Details",
+    "section": "",
+    "text": "8 Plug-in formats and platforms supported\nWindows 7, Windows 8, Windows 10 : 64 bit - AAX : 64 bit (ProTools 10 or later required) - VST : 64 bit - VST3 : 64 bit\nmacOS 10.12 (Sierra), macOS 10.13 (High Sierra), macOS 10.14 (Mojave), macOS 10.15 (Catalina), macOS 11 (Big Sur), macOS 12 (Monterey): - AAX : 64 bit (ProTools 10 or later required) - VST : 64 bit - VST3 : 64 bit - AU : 64 bit"
+  },
+  {
+    "objectID": "Specifications.html#elixir-aax-native-specifications",
+    "href": "Specifications.html#elixir-aax-native-specifications",
+    "title": "7  Technical Details",
+    "section": "8.1 Elixir AAX Native Specifications:",
+    "text": "8.1 Elixir AAX Native Specifications:\nElixir Essential * Support up to 12 stages * Support up to 192 KHz * Support up to 32 channels\nElixir Session * Support up to 12 stages * Support up to 96 kHz * Support up to 2 channels"
+  },
+  {
+    "objectID": "Specifications.html#elixir-au-vst-and-vst3-native-specifications",
+    "href": "Specifications.html#elixir-au-vst-and-vst3-native-specifications",
+    "title": "7  Technical Details",
+    "section": "8.2 Elixir AU, VST and VST3 Native Specifications:",
+    "text": "8.2 Elixir AU, VST and VST3 Native Specifications:\nElixir Essential * Support up to 12 stages * Support up to 384 KHz * Support up to 32 channels\nElixir Session * Support up to 12 stages * Support up to 96 KHz * Support up to 2 channels"
+  },
+  {
+    "objectID": "Specifications.html#elixir---1-stage-aax-dsp-specifications",
+    "href": "Specifications.html#elixir---1-stage-aax-dsp-specifications",
+    "title": "7  Technical Details",
+    "section": "8.3 Elixir - 1 Stage AAX DSP Specifications:",
+    "text": "8.3 Elixir - 1 Stage AAX DSP Specifications:\n\nSupport only 1 stage\nSupport up to 192 KHz\nSupport up to 8 channels"
+  },
+  {
+    "objectID": "../flux_processing_release_notes.html#build-23.1.0.50251---all-plugins",
+    "href": "../flux_processing_release_notes.html#build-23.1.0.50251---all-plugins",
+    "title": "Appendix A — Release Notes",
+    "section": "A.1 Build 23.1.0.50251 - All plugins",
+    "text": "A.1 Build 23.1.0.50251 - All plugins\n\nA.1.1 New features\n\nNew plugins Evo Compressor, Evo Touch and Evo EQ.\nVST3 support\nARM support for AAX, AU and VST3\nPlugins are now resizable\nElixir now supports 32 channels\nAlchemist, BitterSweet, Epure, Pure Compressor, Pure DCompressor, Pure Expander, Pure DExpander, PureLimiter, Solera, Syrah now support 16 channels\n\n\n\nA.1.2 Bugs fixes\n\nAll plugins - Preset Manager - Update user preset do not work\nAll plugins - Preset manager - Crash or freeze when saving a preset\nAll plugins - UI may be black on Intel UHD 630 graphical cards\nAll plugins - AU/VST3 - Preset manager - Default preset is not applied to parameters at plugin instantiation\nAll plugins - AAX - Crash with OSC when changing fx slot in Pro Tools\nAll plugins - AU - Logic Pro - Automation of boolean/integer parameters broken\nAll plugins - AU - Plugins crash in Da Vinci Resolve\nAll plugins - DaVinci Resolve - VST - UI is truncated\nAll plugins - Streamlabs - Plugins do not work\nAll plugins - Licensing issue in DaVinci Resolve and GarageBand\nAlchemist - The range parameter works only for the 1st band\nBitterSweet - Not possible to tweak the Output gain after unlinking it\nBitterSweet - Output gain not reloaded properly when the link is disabled\nBSPro - some modes are not accessible due to GUI issue\nEpure - macOS - Bad graphic scale initialization at 2&4FS\nEvo Channel - Meter reference is not saved\nSyrah - Crash when selecting preset “Static fast compression”\nTRAX Tr - When the link is activated, the Formant slider does not have the expected audio effect\nTRAX Tr - ProTools - Issue in AudioStudio when the modulation is enabled\nVerbSession/VerbSession Studio Session and BSPro StudioSession - Pyramix - VST crash when instantiated\nVerb/Verb Studio Session - Crash when reloading session having 2 instances\n\n\n\nA.1.3 Known issues\n\nAll plugins - VST - GUI issue in Izotope Ozone and RX\nAll plugins - AAX - Preset manager - Default preset is not applied to parameters at plugin instantiation\nElixir - Latency not properly compensated after changing stage parameters value in VST and AudioUnit\nTRAX tr - Learn function returning wrong values\nVerbV3 - HOA 3rd order not working properly"
+  },
+  {
+    "objectID": "../flux_processing_release_notes.html#build-21.12.0.50123---all-plugins-except-trax-and-studiosession",
+    "href": "../flux_processing_release_notes.html#build-21.12.0.50123---all-plugins-except-trax-and-studiosession",
+    "title": "Appendix A — Release Notes",
+    "section": "A.2 Build 21.12.0.50123 - All plugins except TRAX and StudioSession",
+    "text": "A.2 Build 21.12.0.50123 - All plugins except TRAX and StudioSession\nBug fixes\n\nAll plugins AudioUnit - GUI issue with Hdpi displays on macOS Monterey\nAll plugins VST - Plugin scan freeze in Wavelab 11 on Mac M1 machines\nAll plugins VST - Crash in Adobe Audition on macOS\nAll plugins VST macOS - Fix crashes with Ableton live\nElixir - Automation is not read for toggle parameters.\nElixir - Crash when clicking on the settings button on Session version\nElixir - Several fixes on the UI\nElixir - Windows AAX - Refresh issue with two instances in ProTools\nHEar - Bypass is working in AAX\nHEar AAX - Crash when doing offline bounce on macOS\nHEar AAX - Crash when editing the matrix on macOS\nHEar AAX - Stereo - Change on Matrix are not applied until we change the preset\nHEar AudioUnit - Ableton crashes when inserting a second instance"
+  },
+  {
+    "objectID": "../flux_processing_release_notes.html#build-21.11.0.50107-hear-ircam-verb",
+    "href": "../flux_processing_release_notes.html#build-21.11.0.50107-hear-ircam-verb",
+    "title": "Appendix A — Release Notes",
+    "section": "A.3 Build 21.11.0.50107 (HEar, IRCAM Verb)",
+    "text": "A.3 Build 21.11.0.50107 (HEar, IRCAM Verb)\nNOTE: CURRENTLY NOT COMPLIANT WITH ABLETON LIVE MACOS\nImprovement\n\nHEar - 5.1.4 & 5.0.4 now available\n\nBug fixes\n\nHEar - Fix meters refresh issue\nHEar - No verb on some presets\nHEar - Protools crashes when doing offline bounce on macOS"
+  },
+  {
+    "objectID": "../flux_processing_release_notes.html#flux-immersive---plugins-including-ircam-tools-21.09",
+    "href": "../flux_processing_release_notes.html#flux-immersive---plugins-including-ircam-tools-21.09",
+    "title": "Appendix A — Release Notes",
+    "section": "A.4 FLUX:: Immersive - Plugins (including IRCAM Tools) 21.09",
+    "text": "A.4 FLUX:: Immersive - Plugins (including IRCAM Tools) 21.09\nThis release includes updates for all FLUX::Immersive plugin processing products with the exception of EVO Channel, Epure, IRCAM Trax, Studio Session.\nNOTE: CURRENTLY NOT COMPLIANT WITH ABLETON LIVE MACOS\nMajor optimizations\n\nApple computers Big Sur (new M1 chips) AU validation\n\nImportant updates to the Ircam Verb + Session\nOverall better handling of multichannel track setups such for Atmos. (Ircam Hear, Verb and more)\nAutomatic detection of track format / channel order for DAWs when possible.\n\n\nA.4.1 Build 21.9.0.50083\nBug fixes\n\nApple computers Big Sur (new M1 chips) AU validation failing\nEmpty GUI when close/reopen plugin - Windows 10 - UHD630 graphics\nAudioUnit in Reaper - do not process audio when offline bounce\nDefault preset not loaded correctly on instantiation of Verb + Verb Session\nEvo.Channel on Retina - Input and Output Sliders badly scaled\nIncompatible AudioUnit issue in Apple Final Cut Pro\nPlugins: Recall Preset Flags (e.g. “All but setup”) recall always everything\nPreset Manager - UI issue with small plugins when a preset has been created\nIrcam Verb Session reload in VST with audio interruption\nVST Plugins Session not correctly reloaded if it integrate an IO configuration change\nVerb session - Dry/wet not applied in offline render\nVerb v3 Atmos crash on AAX\nVerb: AU validation failed on Apple M1\nVerb: LFE not disabled by default on ProTools\nVerb: Recall Preset may be not correct with double click inside the preset manager\nVerb: disabled channel is not re-injected according to dry/wet parameter (100 % wet means muted)\nVerb: init issue with Nuendo\nAAX - Some plugins - Crash on Mac / No GUI on Windows\nOverall reliability / stability fixes.\nPlugin size not correct\nPotential plugins crash when opening UI"
+  },
+  {
+    "objectID": "../flux_processing_release_notes.html#flux-immersive---plugins-including-ircam-tools-20.12",
+    "href": "../flux_processing_release_notes.html#flux-immersive---plugins-including-ircam-tools-20.12",
+    "title": "Appendix A — Release Notes",
+    "section": "A.5 FLUX:: Immersive - Plugins (including IRCAM Tools) 20.12",
+    "text": "A.5 FLUX:: Immersive - Plugins (including IRCAM Tools) 20.12\nThis major release includes updates for all FLUX::Immersive products with the exception of IRCAM Spat V3 legacy product. Please refer to Spat V3 - Spat Revolution crossgrade options.\nMajor optimizations\n\nHiDPI / Retina support + display enhancements and fixes\nPage Table unification for Avid Control, S1, S3, S4, S6 and S6L.\nOSC Control for plugins.\nIRCAM Verb support for Dolby Atmos, Multichannel support up to 16 channels\nIRCAM Hear - Multichannel stability improvement, Now up to 10 channels. (Dolby Atmos 7.1.2)\nIRCAM Tools - Audio I/O Matrix and Multichannel enhancement\nMost plugins support of 8 channel.\n16 channel support for Bittersweet Pro, Evo In and Evo Channel\n\n\nA.5.1 Build 20.12.0.49880\nBug fixes\nCore:\n\nBSPro - Latency report issue (AAX)\nIRCAM TRAX Tr - Latency report issue\nIRCAM Verb - Wrong initialization value for Reverb density\nIRCAM Verb -Dry signal still goes out in disabled channels when wet is 100%\nAll Pure Dynamics PI + Alchemist - Wrong Thresholds initialization values\nAAX “monolithic” are broken like Hear, TRAX etc…\nAlmost all AAX plugins don’t reload parameters from 47856 version session.\nPure Limiter - Diff feature bypassed the input gain.\nPure Limiter - Inverted sidechain filters.\nAny plugin except Evo Channel - Research Presets resets when click on a preset.\nEvo channel - Wrong values when reloading touch section.\n\nUI:\n\nCurrent preset name disappear on re-opening GUI or session"
+  },
+  {
+    "objectID": "../flux_processing_release_notes.html#known-issues-1",
+    "href": "../flux_processing_release_notes.html#known-issues-1",
+    "title": "Appendix A — Release Notes",
+    "section": "A.6 Known Issues",
+    "text": "A.6 Known Issues\n\nWavelab “Sample rate not supported” when a plugin is inserted on a clip, track or output section.\nTRAX Tr - Learn frequencies display wrong values (AAX only).\nHear - Internal config labels change when modify LFE input config from routing matrix.\nWhen using OSC on a plugin in Pro Tools, a chrash will occur if you change/move FX insert slots"
+  }
+]

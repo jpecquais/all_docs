@@ -1,0 +1,1871 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "FLUX:: Analyzer",
+    "section": "",
+    "text": "1 Welcome"
+  },
+  {
+    "objectID": "index.html#thank-you",
+    "href": "index.html#thank-you",
+    "title": "FLUX:: Analyzer",
+    "section": "1.1 Thank You!",
+    "text": "1.1 Thank You!\nThank you for purchasing FLUX:: Analyzer System.\nProduct Page | Shop Page"
+  },
+  {
+    "objectID": "Pure_Analyzer_Pure-analyzer-versions.html",
+    "href": "Pure_Analyzer_Pure-analyzer-versions.html",
+    "title": "2  FLUX:: Analyzer Versions",
+    "section": "",
+    "text": "The Analyzer is available in two different software versions, The Analyzer:: Essential, and the Analyzer:: Session.\nThe main difference between the two are:\n\n\n\n\n\n\nAnalyzer:: Session\n\n\nAnalyzer:: Essential\n\n\n\n\nInputs/Outputs\n\n\nMono / Stereo\n\n\nMono / Stereo / MultiChannel* up to 16.\n\n\n\n\nI/O Configuration\n\n\nSampleGrabber Plug-in Hardware I/O: ASIO / Core Audio\n\n\nSampleGrabber Plug-in Hardware I/O: ASIO / Core Audio\n\n\n\n\nSample Rates (kHz)\n\n\n44.1, 48, 88.2, 96\n\n\n44.1, 48, 88.2, 96, 176.4, 192, 384 DXD\n\n\n\n\nSupported Options\n\n\nN/A\n\n\nLive / Metering / MultiChannel\n\n\n\n\n\nMultichannel operation requires the Multichannel add-on option."
+  },
+  {
+    "objectID": "User_Interface_Common_workflow_Mouse_commands_and_conventions.html#modifier-click",
+    "href": "User_Interface_Common_workflow_Mouse_commands_and_conventions.html#modifier-click",
+    "title": "3  Mouse commands and conventions",
+    "section": "3.1 Modifier + click",
+    "text": "3.1 Modifier + click\nCtrl-click is equivalent to right-click\nInside a setup menu item, Alt-click resets the corresponding setting to its default value.\nAlt-click inside an item with a zoom factor greater than one, resets the current zoom to full view (Factor = 1)."
+  },
+  {
+    "objectID": "User_Interface_Common_workflow_Mouse_commands_and_conventions.html#double-click",
+    "href": "User_Interface_Common_workflow_Mouse_commands_and_conventions.html#double-click",
+    "title": "3  Mouse commands and conventions",
+    "section": "3.2 Double-click",
+    "text": "3.2 Double-click\nDouble-clicking on an editable control such as a slider or text box enters keyboard entry mode, double-clicking again validates the new value.\nDouble-clicking anywhere inside a panel switches the panel to full-window mode, where the whole application screen is occupied by the corresponding panel; double-clicking a second time reverts to the normal layout."
+  },
+  {
+    "objectID": "User_Interface_Common_workflow_Mouse_commands_and_conventions.html#click-and-drag",
+    "href": "User_Interface_Common_workflow_Mouse_commands_and_conventions.html#click-and-drag",
+    "title": "3  Mouse commands and conventions",
+    "section": "3.3 Click and drag",
+    "text": "3.3 Click and drag\nClick + drag inside an item with a zoom factor greater than one shifts the current scale.\nAlt + Click + drag inside an item with a Zoom Factor allows to setup a new zoom according to the defined selection."
+  },
+  {
+    "objectID": "User_Interface_Common_workflow_Mouse_commands_and_conventions.html#scroll-wheel-click-and-drag",
+    "href": "User_Interface_Common_workflow_Mouse_commands_and_conventions.html#scroll-wheel-click-and-drag",
+    "title": "3  Mouse commands and conventions",
+    "section": "3.4 Scroll wheel + click and drag",
+    "text": "3.4 Scroll wheel + click and drag\nTurning the middle mouse wheel, if present, affects the current horizontal zoom level of the item under the cursor.\nActivating the wheel with the middle button simultaneously engaged shifts the current scale when the current zoom factor is greater than one."
+  },
+  {
+    "objectID": "User_Interface_Common_workflow_Keyboard_shortcuts.html#main",
+    "href": "User_Interface_Common_workflow_Keyboard_shortcuts.html#main",
+    "title": "4  Keyboard shortcuts",
+    "section": "4.1 Main",
+    "text": "4.1 Main\n\n\n\n\nToggle full screen mode\n\n\nAlt + Return\n\n\n\n\nDisplay context help / credits page\n\n\nF1\n\n\n\n\nReconnect network\n\n\nF5\n\n\n\n\nSwitch to next layout\n\n\nTAB\n\n\n\n\nSwitch to previous layout\n\n\nShift + TAB\n\n\n\n\nToggle mouse info update on/off\n\n\nF6\n\n\n\n\nToggle real-time curves display\n\n\nEnter / Return"
+  },
+  {
+    "objectID": "User_Interface_Common_workflow_Keyboard_shortcuts.html#layout",
+    "href": "User_Interface_Common_workflow_Keyboard_shortcuts.html#layout",
+    "title": "4  Keyboard shortcuts",
+    "section": "4.2 Layout",
+    "text": "4.2 Layout\n\n\n\n\nCTrl + F… Key\n\n\ngo to specified layout"
+  },
+  {
+    "objectID": "User_Interface_Common_workflow_Keyboard_shortcuts.html#snapshot",
+    "href": "User_Interface_Common_workflow_Keyboard_shortcuts.html#snapshot",
+    "title": "4  Keyboard shortcuts",
+    "section": "4.3 Snapshot",
+    "text": "4.3 Snapshot\n\n\n\n\nCreate new snapshot\n\n\nSpace\n\n\n\n\nCreate new sweep snapshot\n\n\nShift + Space\n\n\n\n\nCreate new average snapshot\n\n\nWindows: Ctrl + Shift + Space\nmacOS: alt + Space\n\n\n\n\nUpdate first selected snapshot\n\n\nWindows: Ctrl + Space\nmacOS: Ctrl + Shift + Space\n\n\n\n\nDelete selected snapshot(s)\n\n\nDelete\n\n\n\n\nLoad snapshot project\n\n\nCtrl + O\n\n\n\n\nExport selected snapshot(s)\n\n\nCtrl + S\n\n\n\n\nSelect all snapshots\n\n\nCtrl + A\n\n\n\n\nDe-select all snapshots\n\n\nEscape\n\n\n\n\nSelect next snapshot\n\n\nDown Arrow\n\n\n\n\nSelect previous snapshot\n\n\nUp Arrow\n\n\n\n\nAdd next snapshot to selection\n\n\nShift + Down\n\n\n\n\nAdd previous snapshot to selection\n\n\nShift + Up\n\n\n\n\nSelect first snapshot\n\n\nHome\n\n\n\n\nSelect last snapshot\n\n\nEnd\n\n\n\n\nToggle selected snapshot Main curve on/off\n\n\n0\n\n\n\n\nToggle selected snapshot Coherence curve on/off\n\n\n1\n\n\n\n\nToggle selected snapshot Mag curve on/off\n\n\n2\n\n\n\n\nToggle selected snapshot Phase curve on/off\n\n\n3\n\n\n\n\nToggle selected snapshot Spectrum curve on/off\n\n\n4\n\n\n\n\nToggle selected snapshot IR curve on/off\n\n\n5"
+  },
+  {
+    "objectID": "User_Interface_Common_workflow_Keyboard_shortcuts.html#impulse-response",
+    "href": "User_Interface_Common_workflow_Keyboard_shortcuts.html#impulse-response",
+    "title": "4  Keyboard shortcuts",
+    "section": "4.4 Impulse Response",
+    "text": "4.4 Impulse Response\n\n\n\n\nAdd delay\n\n\nCtrl + Add (NUMPAD +)\n\n\n\n\nSubtract delay\n\n\nCtrl + Subtract (NUMPAD -)"
+  },
+  {
+    "objectID": "User_Interface_Common_workflow_Keyboard_shortcuts.html#delay-finder",
+    "href": "User_Interface_Common_workflow_Keyboard_shortcuts.html#delay-finder",
+    "title": "4  Keyboard shortcuts",
+    "section": "4.5 Delay Finder",
+    "text": "4.5 Delay Finder\n\n\n\n\nIncrement delay by one sample\n\n\nAdd (NUMPAD +)\n\n\n\n\nDecrement delay by one sample\n\n\nSubtract (NUMPAD -)\n\n\n\n\nFind delay\n\n\nCtrl + F\n\n\n\n\nReset delay\n\n\nCtrl + NUMPAD 0\n\n\n\n\nCompensate delay\n\n\nCtrl + D"
+  },
+  {
+    "objectID": "User_Interface_Common_workflow_Keyboard_shortcuts.html#generator",
+    "href": "User_Interface_Common_workflow_Keyboard_shortcuts.html#generator",
+    "title": "4  Keyboard shortcuts",
+    "section": "4.6 Generator",
+    "text": "4.6 Generator\n\n\n\n\nToggle generator on/off\n\n\nG"
+  },
+  {
+    "objectID": "User_Interface_Common_workflow_Keyboard_shortcuts.html#meters",
+    "href": "User_Interface_Common_workflow_Keyboard_shortcuts.html#meters",
+    "title": "4  Keyboard shortcuts",
+    "section": "4.7 Meters",
+    "text": "4.7 Meters\n\n\n\n\nRefresh all meters\n\n\nM"
+  },
+  {
+    "objectID": "User_Interface_Common_workflow_Keyboard_shortcuts.html#metering-history",
+    "href": "User_Interface_Common_workflow_Keyboard_shortcuts.html#metering-history",
+    "title": "4  Keyboard shortcuts",
+    "section": "4.8 Metering history",
+    "text": "4.8 Metering history\n\n\n\n\nSet Timecode offset\n\n\nT\n\n\n\n\nReset Timecode offset\n\n\nR"
+  },
+  {
+    "objectID": "User_Interface_Audio_source.html",
+    "href": "User_Interface_Audio_source.html",
+    "title": "5  Audio source",
+    "section": "",
+    "text": "Audio source allows you to select which source to use as input. Depending on your current configuration and settings, this will include:\n\nAvailable SampleGrabber instance(s), either local or remote.\nAvailable hardware device(s), if one or several sound cards are present on the host system, and the corresponding device has been selected in the Hardware IO configuration dialog.\n\n\n\n\n\n\n\nWarning\n\n\n\nIMPORTANT! - The Pure Analyzer Studio Session supports audio input only by using the plug-in. No hardware input/output options are supported for the Pure Analyzer Session."
+  },
+  {
+    "objectID": "User_Interface_Layout_mode.html#studio",
+    "href": "User_Interface_Layout_mode.html#studio",
+    "title": "6  Layout mode",
+    "section": "6.1 Studio",
+    "text": "6.1 Studio\nFor recording and mastering studio applications, these layouts allow simultaneous monitoring of the spectrum amplitude and spatial distribution, program level and phase."
+  },
+  {
+    "objectID": "User_Interface_Layout_mode.html#film-mixing",
+    "href": "User_Interface_Layout_mode.html#film-mixing",
+    "title": "6  Layout mode",
+    "section": "6.2 Film mixing",
+    "text": "6.2 Film mixing\nProvide an overview of the signal amplitude spectrum, phase and levels.\nFilm C & D provide Stereo Vector Scope + phase in addition."
+  },
+  {
+    "objectID": "User_Interface_Layout_mode.html#mastering",
+    "href": "User_Interface_Layout_mode.html#mastering",
+    "title": "6  Layout mode",
+    "section": "6.3 Mastering",
+    "text": "6.3 Mastering\nSpecial emphasis is put on controlling program level, spectral equilibrium and spatial image. These layouts all offer a Nebula / Spatial Spectrogram, a Vector/Surround Scope, Spectrum Amplitude and Level Meters, in different size combinations."
+  },
+  {
+    "objectID": "User_Interface_Layout_mode.html#live-sound-system-alignment",
+    "href": "User_Interface_Layout_mode.html#live-sound-system-alignment",
+    "title": "6  Layout mode",
+    "section": "6.4 Live sound system alignment",
+    "text": "6.4 Live sound system alignment\nThese layouts provide the elements needed by the live sound engineer when performing speaker array calibration tasks, namely delay finder, level meter, transfer function magnitude, phase and coherence spectra, impulse response, and snapshot facilities."
+  },
+  {
+    "objectID": "User_Interface_Layout_mode.html#live---show",
+    "href": "User_Interface_Layout_mode.html#live---show",
+    "title": "6  Layout mode",
+    "section": "6.5 Live - Show",
+    "text": "6.5 Live - Show\nThese layouts are intended for use by a live sound engineer during the course of a show, allowing for constant monitoring of the principal level and spectral indicators of the FOH mix."
+  },
+  {
+    "objectID": "User_Interface_Layout_mode.html#metering-statistics",
+    "href": "User_Interface_Layout_mode.html#metering-statistics",
+    "title": "6  Layout mode",
+    "section": "6.6 Metering statistics",
+    "text": "6.6 Metering statistics\nOverview of all metering data at a glance.\n\n\nLayout contents matrix\n\n\n\n\n\n\n\nNote\n\n\n\nSome layouts might not be available in your Pure Analyzer edition."
+  },
+  {
+    "objectID": "User_Interface_Main_setup.html#configuration",
+    "href": "User_Interface_Main_setup.html#configuration",
+    "title": "7  Main setup",
+    "section": "7.1 Configuration",
+    "text": "7.1 Configuration\nSave / restore a user-defined configuration to and from disk, including all the settings in this panel, as well as IO Configuration and UI Setup."
+  },
+  {
+    "objectID": "User_Interface_Main_setup.html#samplegrabber",
+    "href": "User_Interface_Main_setup.html#samplegrabber",
+    "title": "7  Main setup",
+    "section": "7.2 SampleGrabber",
+    "text": "7.2 SampleGrabber\nSampleGrabber password\nThe password entered in this field should match the one used by the SampleGrabber you wish to use as a source. This provides a reasonable level a security and prevents unauthorized access to your audio material broadcast over the network. Please take into consideration the encryption used only provides moderate protection, and is not intended to replace other security guards such as firewalls etc."
+  },
+  {
+    "objectID": "User_Interface_Main_setup.html#graphic-engine",
+    "href": "User_Interface_Main_setup.html#graphic-engine",
+    "title": "7  Main setup",
+    "section": "7.3 Graphic engine",
+    "text": "7.3 Graphic engine\n\n\n\n\n\n\n\nNote\n\n\n\nAvailable graphic engine frame rates\n\n\nHere you can specify the rate at which the display should be refreshed. Please note higher frame rates place higher demands on the GPU, and to a lesser extent, on the CPU.\n\nThe effective frame rate can be displayed by typing SetRenderStats(1) in the console."
+  },
+  {
+    "objectID": "User_Interface_Main_setup.html#time-code",
+    "href": "User_Interface_Main_setup.html#time-code",
+    "title": "7  Main setup",
+    "section": "7.4 Time code",
+    "text": "7.4 Time code\n\n\n\nAvailable display frame rates\n\n\n\n7.4.1 Display frame rate\nSets the frame-rate used for time display in various parts of the program. Set it to match the frame-rate of your source material to facilitate locating time events, when working with film, TV or other time-stamped material.\n\n\n7.4.2 Absolute Timecode\nThis setting toggles between absolute and relative time-code display formats. Absolute Timecode is taken from the time the application was started. Relative Timecode is the time-elapsed since the Timecode offset position. See metering history usage for information on working with Timecode."
+  },
+  {
+    "objectID": "User_Interface_Main_setup.html#main",
+    "href": "User_Interface_Main_setup.html#main",
+    "title": "7  Main setup",
+    "section": "7.5 Main",
+    "text": "7.5 Main\n\n7.5.1 RTA block size\n\nDefines the size of the blocks, in samples, fed to the main spectrum analyzer engine, which is used by the spectrum magnitude, Nebula and spectrogram views.\nPure spectrum Toggles between optimized frequency analysis (default) and standard FFT.\n\n\n7.5.2 TF/Sweep Block size\n\nBlock size used for the transfer function and snapshot performed with sine-sweep. The default is 32768, which is appropriate for most cases.\nIncreasing this value gives better frequency resolution, at the expense of CPU load. Lower values can be employed if you’re only interested in the overall response of the analyzed system.\n\n\n7.5.3 Overlap Mode\n\nThe overlap mode setting determines how much incoming audio frames overlap each-other. A higher overlap results in a smoother display update, at the expense of increased CPU usage. The available settings are: * Full: highest overlap * Auto: optimized overlap depending on available CPU resources (Default). * Less: minimized overlap for minimal CPU usage (useful for slow machines)\n\n\n7.5.4 Analysis window\n\nSelects the analysis window applied to the incoming blocks.\nAvailable choices are:\n\nRectangular (None).\nBartlett.\nBlackmann standard (default).\nBlackmann optimized.\nHamming.\nHann.\n\nThere is no reason to change this setting unless you have a specific reason to do so and fully understand the implications.\n\n\n7.5.5 Normalization\n\nSelects the normalization mode used to normalize the global gain of the spectrum display.\nAvailable choices are:\n\nCoherent (sinus): 0dB peak sine gives 0dB amplitude.\nIncoherent (noise/music): 0dB RMS noise or music gives 0dB power.\n\n\n\n7.5.6 Scaling\n\nThis setting controls the frequency dependent amplitude spectrum correction curve.\nAvailable choices are:\n\nAmplitude: equivalent to no scaling. Amplitude of pure tones at different frequencies register at the same value. Incoming white noise is displayed as a (quasi) flat curve.\nPower (default): scaling inversely proportional to frequency (1/f). Incoming pink noise is displayed as a flat curve."
+  },
+  {
+    "objectID": "User_Interface_Main_setup.html#averaging",
+    "href": "User_Interface_Main_setup.html#averaging",
+    "title": "7  Main setup",
+    "section": "7.6 Averaging",
+    "text": "7.6 Averaging\n\nTime averaging: engages averaging of spectrum magnitudes over time. Default is off.\n\n7.6.1 Mode\n\nRunning: the average display is updated as soon as a new incoming block arrives. This is the default.\nFill-freeze: the display is only updated when a fresh batch of N new incoming blocks has arrived. The display is frozen until the next batch of N blocks arrive, and so on. N corresponds to the length setting defined below.\n\n\n\n7.6.2 Length\nThe number of incoming blocks over which the resulting average spectrum is computed. Lower values lead to faster apparent display update rates, while higher values smooth-out any time-variations more. Default is 32.\n\nRunning average employs a weighting window that gives more importance to the last incoming blocks of samples. This type of time averaging is also called moving average, rolling average or running average, and is good for smoothing out abrupt variations in time and still be able to monitor in a continuous fashion. Fill-freeze mode is useful for stabilizing a flickering display while still following long-term variations, which permits a more detailed study of the curve(s). This mode is therefore useful to get a very steady picture of the spectrum while still monitoring some of the mid-term changes, and saves you from holding and resetting the display manually again and again."
+  },
+  {
+    "objectID": "User_Interface_Main_setup.html#various",
+    "href": "User_Interface_Main_setup.html#various",
+    "title": "7  Main setup",
+    "section": "7.7 Various",
+    "text": "7.7 Various\n\n7.7.1 Auto-pause threshold\nAnalysis is paused whenever the level of any channel of the incoming audio falls below this level. Set this a tad above the acoustic and electronic noise floor of your input signal chain to retain measurements even though the audio (music program or test signal) has stopped.\n\n\n7.7.2 Metric system\nToggle displayed units between:\n\nMetric system (default): distance expressed in meters, temperature in degrees Celsius.\nImperial units: distance expressed in inches and feet, temperature in degrees Fahrenheit.\n\n\n\n7.7.3 Temperature\nThis should be set to the ambient temperature at the current location in order to get the most accurate time to distance conversions in the delay finder and impulse response panels. The following table gives an idea of how much the speed of sound varies with temperature.\n\n\n\n\nTemperature (°C)\n\n\nSpeed of sound (m/s)\n\n\n\n\n0\n\n\n331.3\n\n\n\n\n15\n\n\n340.31\n\n\n\n\n25\n\n\n346.18\n\n\n\n\n35\n\n\n351.96\n\n\n\n\n\n\n7.7.4 Preferences reset\nResets “Default” application configuration settings to their default initial value. Please note the changes are only effective after restarting the application."
+  },
+  {
+    "objectID": "User_Interface_UI_setup.html#configuration",
+    "href": "User_Interface_UI_setup.html#configuration",
+    "title": "8  UI Setup",
+    "section": "8.1 Configuration",
+    "text": "8.1 Configuration\nSaves / restores a complete user defined configuration."
+  },
+  {
+    "objectID": "User_Interface_UI_setup.html#fonts-small-scale",
+    "href": "User_Interface_UI_setup.html#fonts-small-scale",
+    "title": "8  UI Setup",
+    "section": "8.2 Fonts: Small Scale",
+    "text": "8.2 Fonts: Small Scale\nSets the size of the smallest font used for drawing the grid labels."
+  },
+  {
+    "objectID": "User_Interface_UI_setup.html#fonts-large-scale",
+    "href": "User_Interface_UI_setup.html#fonts-large-scale",
+    "title": "8  UI Setup",
+    "section": "8.3 Fonts: Large Scale",
+    "text": "8.3 Fonts: Large Scale\nSets the size of the largest font used for drawing the grid labels."
+  },
+  {
+    "objectID": "User_Interface_UI_setup.html#fonts-spectrum-peak-label",
+    "href": "User_Interface_UI_setup.html#fonts-spectrum-peak-label",
+    "title": "8  UI Setup",
+    "section": "8.4 Fonts: Spectrum Peak Label",
+    "text": "8.4 Fonts: Spectrum Peak Label\nSets the size of the font used for the Spectrum peak label."
+  },
+  {
+    "objectID": "User_Interface_UI_setup.html#brightness",
+    "href": "User_Interface_UI_setup.html#brightness",
+    "title": "8  UI Setup",
+    "section": "8.5 Brightness",
+    "text": "8.5 Brightness\nAdjusts global user interface brightness."
+  },
+  {
+    "objectID": "User_Interface_UI_setup.html#contrast",
+    "href": "User_Interface_UI_setup.html#contrast",
+    "title": "8  UI Setup",
+    "section": "8.6 Contrast",
+    "text": "8.6 Contrast\nAdjusts global user interface contrast."
+  },
+  {
+    "objectID": "User_Interface_UI_setup.html#reverse-color-scheme",
+    "href": "User_Interface_UI_setup.html#reverse-color-scheme",
+    "title": "8  UI Setup",
+    "section": "8.7 Reverse color scheme",
+    "text": "8.7 Reverse color scheme\nWhen engaged, the user interface color scheme switches from white/grey on black to black/grey on white, for improved readability in an outdoor environment.\n\n\nReverse color scheme off.\n\n\n\n\nReverse color scheme on."
+  },
+  {
+    "objectID": "User_Interface_UI_setup.html#layout-shortcuts",
+    "href": "User_Interface_UI_setup.html#layout-shortcuts",
+    "title": "8  UI Setup",
+    "section": "8.8 Layout Shortcuts",
+    "text": "8.8 Layout Shortcuts\nThis list allows you to set up to nine shortcuts for direct access to your most frequently used layouts."
+  },
+  {
+    "objectID": "User_Interface_IO_Configuration.html",
+    "href": "User_Interface_IO_Configuration.html",
+    "title": "9  IO Configuration",
+    "section": "",
+    "text": "10 Hardware IO\nThe following group of settings are displayed for every channel selected in Channels. The heading displays the channel number, followed by its name, and whether it corresponds to the reference or microphone input signal for the first two channels in Live IO mode."
+  },
+  {
+    "objectID": "User_Interface_IO_Configuration.html#configuration",
+    "href": "User_Interface_IO_Configuration.html#configuration",
+    "title": "9  IO Configuration",
+    "section": "9.1 Configuration",
+    "text": "9.1 Configuration\nSaves / restores a complete user defined configuration."
+  },
+  {
+    "objectID": "User_Interface_IO_Configuration.html#device",
+    "href": "User_Interface_IO_Configuration.html#device",
+    "title": "9  IO Configuration",
+    "section": "10.1 Device",
+    "text": "10.1 Device\n\nThis setting lets you choose amongst a selection of devices, depending on your particular hardware configuration.\n\n\n\n\n\n\nWarning\n\n\n\nIMPORTANT! - The Pure Analyzer Studio Session supports audio input only by using the SampleGrabber plug-in. No hardware input/output options are supported for the Pure Analyzer Session.\n\n\n\n10.1.1 None\nThis disables hardware input and output altogether. This is the recommended choice if you do not want to take advantage of Pure Analyzer’s built-in audio capabilities, for example if you’re working with a SampleGrabber inside a DAW or Avid Venue console setup. With some sound cards that aren’t multi-client capable - meaning only one program can access it at once - disabling I/O is necessary to continue using another program simultaneously.\n\n\n10.1.2 Your soundcard\nAny installed soundcard(s) will be listed here. Under Windows, it might appear several times, in which case be sure to select the native ASIO driver for performance, not an emulated driver which be labeled something like ASIO DirectX Full Duplex Driver, Generic Low Latency ASIO Driver or similar."
+  },
+  {
+    "objectID": "User_Interface_IO_Configuration.html#sampling-rate",
+    "href": "User_Interface_IO_Configuration.html#sampling-rate",
+    "title": "9  IO Configuration",
+    "section": "10.2 Sampling rate",
+    "text": "10.2 Sampling rate\n\n\n\nAvailable sampling rates (hardware specific)\n\n\nSets the sampling rate used internally by the application. When a hardware device is selected, be sure to match this to the sampling rate set in the application panel of your soundcard control panel. We deliberately chose not to employ resampling, which in our opinion has no place in a measurement instrument. Instead we generally advise you to set your soundcard’s sampling rate to 44.1k or 48k, which covers the entire audio hearing range (20-20kHz). Increasing the sampling rate above these values increases the processing power required to carry out the computations without any benefit for most practical applications."
+  },
+  {
+    "objectID": "User_Interface_IO_Configuration.html#buffer-size",
+    "href": "User_Interface_IO_Configuration.html#buffer-size",
+    "title": "9  IO Configuration",
+    "section": "10.3 Buffer size",
+    "text": "10.3 Buffer size\n\nDisplays the current soundcard I/O buffer size. Depending on your soundcard, you might be able to change this to a different value directly in Pure Analyzer without opening its control panel beforehand. Smaller buffer sizes leads to a shorter latency between incoming audio, display update, and audio output. This setting is certainly not as crucial as in the context of live sound processing, so there is no need to go down to extremely small values here, as this only increases the system load without offering any practical advantage.\nKeep in mind a display refresh rate of 60Hz means one frame lasts for approx. 16ms, which is a bit longer than one 512 buffer at 44.1kHz, so the display will always lag less than one frame after the audio with such a setting."
+  },
+  {
+    "objectID": "User_Interface_IO_Configuration.html#control-panel",
+    "href": "User_Interface_IO_Configuration.html#control-panel",
+    "title": "9  IO Configuration",
+    "section": "10.4 Control panel",
+    "text": "10.4 Control panel\nOpens the ASIO (Windows) / CoreAudio (MacOS) control panel for the selected soundcard driver, where you can make further settings depending on your particular hardware, such as routing, input gain etc."
+  },
+  {
+    "objectID": "User_Interface_IO_Configuration.html#max-number-of-channels",
+    "href": "User_Interface_IO_Configuration.html#max-number-of-channels",
+    "title": "9  IO Configuration",
+    "section": "11.1 Max number of channels",
+    "text": "11.1 Max number of channels\n\nSelects the maximum number of channels to be used by the application, or equivalently the number of channels in the application I/O bus. You should set this according to the source material format you want to analyze and visualize. This determines notably how many real-time curves are displayed in the Spectrum analyzer view, whether the Surround scope is displayed, etc.\n\n\n\n\n\n\nWarning\n\n\n\nIMPORTANT! - The Pure Analyzer Studio Session supports only 2 channels of audio."
+  },
+  {
+    "objectID": "User_Interface_IO_Configuration.html#reference-configuration",
+    "href": "User_Interface_IO_Configuration.html#reference-configuration",
+    "title": "9  IO Configuration",
+    "section": "11.2 Reference configuration",
+    "text": "11.2 Reference configuration\n\n\n\nReference configurations available with 8 max. channels\n\n\nDepending on the setting above, the possible standard channel configurations will be listed here, and will be a subset of the following:\n\nMono (C): single center channel\nStereo (L|R): two left-right channels\nSurround: various standard configurations depending on the exact channel count\n\nThe channels are labeled according to this configuration to make them easier to identify."
+  },
+  {
+    "objectID": "User_Interface_IO_Configuration.html#output",
+    "href": "User_Interface_IO_Configuration.html#output",
+    "title": "9  IO Configuration",
+    "section": "12.1 Output",
+    "text": "12.1 Output\n\n\n\nExample of a output channel routing (hardware specific)\n\n\nSelects one or two physical channels to which the Signal generator output should be sent.\n\nIn case of stereo output, the signal is identical on both channels. This is provided as a facility for soundcards with minimal routing capabilities, and to avoid using a Y patch cable."
+  },
+  {
+    "objectID": "User_Interface_IO_Configuration.html#phase-invert",
+    "href": "User_Interface_IO_Configuration.html#phase-invert",
+    "title": "9  IO Configuration",
+    "section": "13.1 Phase invert",
+    "text": "13.1 Phase invert\nWhen engaged, the phase of the corresponding channel is inverted in order to compensate for a reverse polarity somewhere else in the signal chain. Default is off.\nThis can happen with incorrect or non-standard wiring, when a phase switch is engaged on the preamplifier, an analog device has an odd number of inverting stages … Use this with caution as it can compromise measurements if the “real” input signal phase does not match.\n\n13.1.1 Input\nSelects which hardware device input should be routed to the corresponding internal application input.\n\n\n13.1.2 Output\nSelects which hardware device output the corresponding internal application output should be routed to."
+  },
+  {
+    "objectID": "User_Interface_Other.html",
+    "href": "User_Interface_Other.html",
+    "title": "10  Hold info text",
+    "section": "",
+    "text": "When this button is disengaged, textual information overlays displayed above curves are held until the button is engaged again. This allows you to check a particular value precisely, such as an amplitude, gain, or phase at a particular frequency determined by the mouse cursor position when the switch was engaged. The most convenient to use this feature is to use the corresponding keyboard shortcut (F6).\n\n11 Full-screen mode\nToggles full-screen mode on and off, to maximize screen real estate by masking the task bar (Windows) or Dock (MacOS) if desired.\n\n\n12 Close\nExits the application.\n\n\n13 Help / about\nDisplays the application credits, Pure Analyzer software version number, available options with the current license, as well as a table summarizing assigned keyboard shortcuts."
+  },
+  {
+    "objectID": "Spectrum_analyzer_Basic_principles.html",
+    "href": "Spectrum_analyzer_Basic_principles.html",
+    "title": "11  Basic principles",
+    "section": "",
+    "text": "The global principle and purpose of a spectrum analyzer is to transform an incoming signal, which is basically a series of amplitudes taken at successive points in time, into a series of values versus frequency. Transforming an audio signal onto a frequency scale is indeed of great interest in a wide range of tasks, and notably allows to display a global, perceptually meaningful and precise picture of the audio contents.\nThe display represents the so-called magnitude spectrum of the incoming signal, which is a two-dimensional curve of the magnitudes of the signal taken at frequencies ranging from 0 (DC) to half that of the current sampling rate (or Nyquist frequency in signal processing jargon). This is probably the most commonplace and most easily understood spectrum analyzer visualization, and the place where you should start most of the time when you want to inspect the frequency content of your audio material.\n\n\n\nMagnitude spectrum of a stereo signal with summing disabled, max and smoothed curves enabled\n\n\n\n\n\nMagnitude spectrum of a 5.1 surround signal sum with max and smoothed curves enabled\n\n\n\n\n\nMagnitude spectrum of a 5.1 surround signal with summing disabled\n\n\n\n\n\nMagnitude spectrum with Slide option enabled (Real time waterfall)\n\n\n\n\n\nMagnitude spectrum setup dialog"
+  },
+  {
+    "objectID": "Spectrum_analyzer_Block_size.html",
+    "href": "Spectrum_analyzer_Block_size.html",
+    "title": "12  Block size",
+    "section": "",
+    "text": "Keep in mind that the incoming audio needs to be accumulated in a buffer for a certain amount of time before the data can be computed and the display updated. In contrast with the buffers you probably know from soundcards, this block-processing is not just a computer technicality and only a source of undesirable latency, but an integral part of the process related to the mathematical aspects involved (Time-frequency product uncertainty principle).\nAs such, it determines both the precision of the analysis and the maximum display rate, and should be adjusted depending on the specifics of your application.\n\nIn order to maintain a sufficiently responsive display refresh rate, blocks overlap by 75 %.\n\n\nThe default setting is 8192 samples, which corresponds to a length of roughly 180ms at 44.1kHz sampling rate. This value constitutes a good compromise between precision and responsiveness for most situations. However, if you need to measure a particular frequency with great precision, you should raise the analysis block size. On the other hand, if you need to follow rapid spectrum variations, this value should be lowered."
+  },
+  {
+    "objectID": "Spectrum_analyzer_Transform_type.html",
+    "href": "Spectrum_analyzer_Transform_type.html",
+    "title": "13  Transform type",
+    "section": "",
+    "text": "The discrete Fourier transform (DFT) is the traditional method employed to compute the frequency spectrum of a discrete digital signal. DFT can be seen as a series of notch filters centered around frequency bins that are uniformly distributed along the frequency axis, and of constant width.\nThe quality factor of a resonant filter, commonly denoted as Q, is defined as the ratio of its bandwidth relative to its center frequency. The DFT process is therefore analogous to a variable Q filter-bank: in other words, its frequency resolution is constant across the spectrum. When applied to sliding blocks, this process is called STFT, for Short-term Fourier transform.\nAlthough convenient in terms of computation, this can be seen as less than ideal for many audio applications, for several reasons, the first and foremost being that human perception of frequency is known to be quasi-logarithmic. Logarithmic means that a two-fold increase in frequency translates to a one octave shift, a four-fold increase as a two-octave shift - and not four as this would be the case, were our perception linear in nature.\nPure Analyzer employs both standard DFT and proprietary algorithms that more closely model the human perception. In addition to greatly improving the legibility of the resulting curves, this proprietary transform has the additional benefit of reducing sensitivity to noise in the high-frequency portion of the spectrum especially, and provides more stable readouts.\n\n\n\n\n\n\nNote\n\n\n\nYou can of course switch back to standard DFT by disengaging the Pure spectrum button."
+  },
+  {
+    "objectID": "Spectrum_analyzer_Window_type.html",
+    "href": "Spectrum_analyzer_Window_type.html",
+    "title": "14  Window type",
+    "section": "",
+    "text": "As previously mentioned, the first step is to split the incoming signal into overlapping blocks. Each block is then multiplied with a so-called window signal prior to the spectrum computation. The purpose of this is to minimize side effects of the block processing, such as introduction of transients at the block boundaries, etc.\nThe window type to use is set in the Main setup.\n\n\n\n\n\n\nNote\n\n\n\nWe suggest you leave this setting to the default unless you are quite knowledgeable with these aspects, or in the case you should need to explicitly recreate a specific measurement such as a particular method specified in a standard’s document.\n\n\nThe Wikipedia entry on window functions in the context of signal processing is a good reference if you want to get a more thorough understanding of the subject.\n\n\n\n\n\n\nNote\n\n\n\nWhile the windowing process is implemented in the time-domain, it can be also be seen as a smoothing filter in the frequency domain, and as such the choice of window is a compromise between frequency resolution and immunity to artifacts. Skipping the windowing process altogether, which is the same as applying a rectangular window, is not recommended. Although the rectangular window provides the best frequency resolution, it has very poor leakage characteristics."
+  },
+  {
+    "objectID": "Spectrum_analyzer_Ballistics.html#release-time",
+    "href": "Spectrum_analyzer_Ballistics.html#release-time",
+    "title": "15  Ballistics",
+    "section": "15.1 Release time",
+    "text": "15.1 Release time\nThe release time determines how fast the main curve falls back to zero. Default is 300ms."
+  },
+  {
+    "objectID": "Spectrum_analyzer_Ballistics.html#max-release-time",
+    "href": "Spectrum_analyzer_Ballistics.html#max-release-time",
+    "title": "15  Ballistics",
+    "section": "15.2 Max release time",
+    "text": "15.2 Max release time\nThe controls the release time of the optional Max curve, which serves to display the medium-to-long term tendency of the magnitude spectrum. Longer times mean curve maxima/peaks will be seen for a longer period.\nDefault is 50 seconds.\n\n\n\n\n\n\nNote\n\n\n\nThe attack time is zero so the curve displays reacts instantaneously to a rising amplitude."
+  },
+  {
+    "objectID": "Spectrum_analyzer_Averaging_Spectrum.html",
+    "href": "Spectrum_analyzer_Averaging_Spectrum.html",
+    "title": "16  Averaging",
+    "section": "",
+    "text": "This is a global setting controlled in the Averaging section of the main setup."
+  },
+  {
+    "objectID": "Spectrum_analyzer_Frequency_scaling.html",
+    "href": "Spectrum_analyzer_Frequency_scaling.html",
+    "title": "17  Frequency scaling",
+    "section": "",
+    "text": "Scaling controls how the scaling applied to spectrum magnitudes. This is a global setting accessed through the Main setup panel.\nScaling controls whether frequency-dependent amplitude scaling should be applied. This affects how various standard reference signals register on the display. The default power scaling will result in a signal with spectrum components of constant power registering as a flat curve, whilst amplitude will have the same effect for components of constant amplitude such as pure tones (sine signal).\nThe table below shows how the curve appearance depending on the type of input signal. 1/f corresponds to a rectilinear slope on the display with both X and Y axis being logarithmic.\n\n\n\nInput signal\nSine\nWhite\nPink noise\n\n\n\n\nPower scaling\n1/f\n1/f\nFlat\n\n\nAmplitude scaling\nFlat\nFlat\n1/f\n\n\n\nFor monitoring a mix, it makes most sense to use power scaling, as this is the way our hearing responds. If you need to measure a room’s acoustic response, an outboard unit or a plugin’s frequency response, the system magnitude transfer function is best suited for this purpose and scaling has no effect.\nThe amplitude scaling setting should therefore really be employed if you need to measure relative amplitude values, such as those of sine test tones at various frequencies. Also, note that plain DFT corresponds to scaling set to amplitude.\nThe power of a time-signal is proportional to the square of its amplitude, or equivalently, its power in dB is double the amplitude. However, in the case of a spectrum, we are measuring the output of a filter-bank, which reacts very much differently depending on the type of input signal, so the simple previous formula doesn’t apply anymore."
+  },
+  {
+    "objectID": "Spectrum_analyzer_Display_range.html#db-min-db-max",
+    "href": "Spectrum_analyzer_Display_range.html#db-min-db-max",
+    "title": "18  Display range",
+    "section": "18.1 dB Min / dB Max",
+    "text": "18.1 dB Min / dB Max\nSets the minimum and maximum magnitude to display, in decibels. This is visible the range of the display that is taken into account when auto-range is off.\nDefault range is -18dB (min) to -114dB (max)."
+  },
+  {
+    "objectID": "Spectrum_analyzer_Display_range.html#range-mode",
+    "href": "Spectrum_analyzer_Display_range.html#range-mode",
+    "title": "18  Display range",
+    "section": "18.2 Range mode",
+    "text": "18.2 Range mode\nDefault is Manual.\n\n18.2.1 Manual\nUses a fixed range as specified by the above settings.\n\n\n\n18.2.2 Auto\nWhen engaged, auto-range continuously adjusts the display to the current range of the data.\n\n\n\n\n\n\nNote\n\n\n\nA slight envelope is applied to the auto-range values in order to improve legibility, avoiding the display to follow every minor change. Peaks are always registered however, as these provide valuable information that should not be missed.\n\n\n\n\n18.2.3 Compressed\nThe range is defined by dB Min/Max values, and the Y-axis is also compressed in the lower range. This can bring out peaks and valleys in the spectrum to better visualize resonant frequencies and such.\n\n\n\n18.2.4 Compressed | Auto\nCombines Compressed and Auto modes."
+  },
+  {
+    "objectID": "Spectrum_analyzer_Mode.html",
+    "href": "Spectrum_analyzer_Mode.html",
+    "title": "19  Smoothing mode",
+    "section": "",
+    "text": "Switches between Window (the default) and various per-octave smoothing types.\nWhen Window type is selected, a sliding window average of adjustable width is applied to the curve, which results in more or less frequency detail being removed, depending on the Smoothing detail setting.\nWhen any of the Octave types are selected, the average of the spectrum over the corresponding ISO bands is displayed, as series of horizontal bars. The following series are available: * Octave * 2/3 octave * 1/2 octave * 1/3 octave * 1/6 octave * 1/12 octave\n\n20 Smoothing detail\nControls the amount of frequency detail of the smoothed curve, when using window smoothing. The value roughly corresponds to the maximum number of valleys and peaks that can stand out the smoothed curve. A low value lets the global tendency of the amplitude spectrum pass through, while values above 20 or so preserve more detail such as harmonics and sharp equalizer cuts and boosts. Default is 3.\n\n\n\n\n\n\nNote\n\n\n\nThis curves acts as a kind of zoom-out control, as it shows the global frequency content of the signal, leaving out details such as harmonic peaks and variations imputable to transient and noise components. Typical uses for this curve is to monitor the global frequency balance of a mix and to visualize the influence of broad equalizer corrections on the mix.\n\n\n\n\n21 Curve display\n\nToggles between the following curve display modes: * Full: main curve only (no smoothing). * Smoothed: smoothed curve only. * All: both unsmoothed and smoothed curves.\n\n\n\n\n\n\nNote\n\n\n\nSelecting one of the first two modes is recommended to avoid display clutter when comparing several channels and/or snapshots.\n\n\n\n\n22 Max curve\n\nThe max curve employs much longer release time compared to the main curve, and as such registers short peaks much more easily.\nThe max curve setting controls its visibility and whether smoothing is applied: * None: curve not displayed. * Full: visible, unsmoothed. * Smoothed: visible, smoothed.\n\n\n\n\n\n\nNote\n\n\n\nThe max curve is never displayed for snapshots, as it would be the same as the main curve, since this type of curve does not evolve in time.\n\n\n\n\n23 Peak type\n\nThis setting controls the manner in which spectrum magnitude peaks are computed: * Max (global): compute a global maximum over the entire spectrum range. * Max (user): compute the maximum across a user defined portion of the spectrum set in the Peak range.\n\n\n24 Peak label\n\nDetermines the appearance of the peak display: * None: peaks are not shown. * Bar (Full): vertical bar at current peak located at current frequency. * Bar: vertical bar from base to peak value. * Mark: text box indicating peak value, in dB, and frequency (Hz) at peak location. * Mark + Arrow: same as above, with text at the top of the display and arrow pointing at peak location. This is the most precise indication, but takes up more space.\n\n\n25 Peak range\nUsed in combination with the Max (user) Peak type setting, this defines the minimum and maximum frequencies to take into account when computing the peak."
+  },
+  {
+    "objectID": "Spectrum_analyzer_Summation.html",
+    "href": "Spectrum_analyzer_Summation.html",
+    "title": "20  Summation",
+    "section": "",
+    "text": "These settings allow you to modify the appearance of the curves in channel sum mode.\n\n21 Filled\nToggles whether the main curve is drawn as a solid-color fill or a plain line.\nDefault is on.\n\n\n22 Width\nThickness of the pen used to draw the curve lines, in pixels.\nDefault is 1.0.\n\nThis setting also affects individual curves when channel sum mode is disabled.\n\n\n\n23 Full curve color\nColor of the pen used to draw the main, full-detail, unsmoothed curve.\n\n\n24 Smoothed curve color\nColor of the pen used to draw the smoothed curve.\n\n\n25 Max curve color\nColor of the pen used to draw the max curve.\n\n\n26 Color grading\nApplies an optional frequency-dependent coloring to the main channel-sum curve.\n\nMagnitude spectrum with color grading enabled\n\n\n\n\n\n\nNote\n\n\n\nWhen enabled, any of the above fixed color settings are overridden."
+  },
+  {
+    "objectID": "Spectrum_analyzer_Channels.html",
+    "href": "Spectrum_analyzer_Channels.html",
+    "title": "21  Channels",
+    "section": "",
+    "text": "This group of settings controls the appearance of curves when channel sum mode is disabled. There is one Ch.N curve color setting per channel, so you can fine-tune the color scheme employed if you wish to do so.\n\n22 Filled\nControls whether channel curves are drawn as a solid color fill or a plain line.\n\n\n23 Opacity\nControls the opacity of the fill when Filled is enabled. 100% gives a fully opaque fill, lowering this value makes the curve fill more transparent.\n#Channel curve color This setting controls the color of the curve corresponding to the nthchannel, when summation mode is disabled."
+  },
+  {
+    "objectID": "Spectrum_analyzer_Slide_Real_time_waterfall.html",
+    "href": "Spectrum_analyzer_Slide_Real_time_waterfall.html",
+    "title": "22  Slide (Real Time waterfall)",
+    "section": "",
+    "text": "23 Enable\nEnable/disable the slide mode.\n\n\n24 Direction\nDefine the sliding Direction. From -5 to 5.\nDefault is 0.\n\n\n25 Fading\nControls display persistence, i.e. the “fade to black” amount for a frame. Lowering this value retains past particles longer, whereas increasing this make them disappear faster.\n\n\n26 Blur\nEnable / Disable sliding blur.\n\n\n27 Blur Kernel Size\nControls the radius of the blur effect applied to past particles. Particles are “smeared” more and more as they become older, depending on this setting. Naturally, a bigger value increases the smearing, at the expense of processing power.\n\n\n\n\n\n\nNote\n\n\n\nChoosing the value for this setting is really matter of taste, although please keep in mind values that above 5 will require a sufficiently powerful graphics card in order to maintain a responsive display."
+  },
+  {
+    "objectID": "Spectrum_analyzer_Various.html",
+    "href": "Spectrum_analyzer_Various.html",
+    "title": "23  Zoom",
+    "section": "",
+    "text": "This setting allows to check and change the current X-axis zoom level.\nDefault is 1.0, which corresponds to the whole frequency spectrum. Zooming with the mouse is the preferred way, as it offers more control."
+  },
+  {
+    "objectID": "Nebula_Spatial_Spectrogram_Principle_of_operation_and_intended_usage.html",
+    "href": "Nebula_Spatial_Spectrogram_Principle_of_operation_and_intended_usage.html",
+    "title": "24  Principle of operation",
+    "section": "",
+    "text": "Nebula / Spatial Spectrogram provides a unique representation of the audio material in terms of spectral content and localization in the stereo and/or surround space. Its combines the functionality of a spectrum analyzer and a vector scope in a novel real-time display. As such it provides to be an invaluable tool to get a complete and detailed overview of your mix, which you can finely tune in many aspects to suit your particular needs and preferences. A lot of work has gone into optimizing the real-time rendering of the display, not solely for aesthetic reasons, but because we wanted the display to react instantly to all the details in the incoming audio. The idea is literally for you to be able to see what you hear and feel, and not some gross simplification wrapped into shiny eye-candy, however pleasing to the eye.\nThe overall principles behind Nebula / Spatial Spectrogram are quite straightforward:\n\nAt any given time, and for every frequency, the engine computes the position of a frequency in space (2D in stereo , ND for N channel-surround). This position is taken as the center of gravity of the various channels, weighted by the relative amplitude of the signal in their corresponding channel.\nA projection onto an LR-spectrum plane is computed, giving a spectrum-space frame constrained to the stereo field.\nIncoming spectrum-space frames are added back to the previous frames.\nPast frames are progressively “forgotten”, using blur and dimming, in order to make place for new information, and increase legibility.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNebula / Spatial Spectrogram display with stereo input\nNebula / Spatial Spectrogram display with surround input\n\n\n\n\n\n\n\n\n\n\nNote\n\n\n\nNebula / Spatial Spectrogram setup options"
+  },
+  {
+    "objectID": "Nebula_Spatial_Spectrogram_Scale.html",
+    "href": "Nebula_Spatial_Spectrogram_Scale.html",
+    "title": "25  Focus",
+    "section": "",
+    "text": "Controls the stereo image width X-axis display range, in dB.\nA value comprised between ±18 and ±24dB correlates well with our abilities in perceiving the stereo image.\nDefault is ±18dB.\n\n\n\n\n\n\nNote\n\n\n\nPixels outside the focus range are clamped to the view boundaries.\n\n\n\n26 AutoScale\nThis parameter controls whether the intensity of the particles are modulated by the overall audio level variations. In essence, when enabled, the color nuances will vary according to the relative amplitude of a frequency, allowing to monitor the relative amplitude spectrum variations. When disabled, the color will reflect the absolute audio level. You can also think of this as a kind of auto-gain setting.\n\n\n27 AutoScale release\nThis controls whether color variations should be smoothed in time or not. When engaged, color variations is slowed down a bit, which makes overall level transitions more obvious.\n\nYou should to enable this setting when you want to visualize quick level variations such as those that frequently occur in movie soundtracks.\n\n\n\n28 Linear blend range\nAdds a constant blend amount to the particle. This ensures some particles are always blended into the image even if its original magnitude is low.\nA low value for this setting has the effect of stabilizing the appearance of particles. With large values more of the spectrum dynamics are taken into account, and only peaks mostly come through.\n\n\n29 Log blending\nToggles between linear and logarithmic blending of the current particle with old particles.\nThe default is off, i.e. linear blending, which tends to favor the display of peaks.\nLogarithmic blending on the other hand preserves more of the full dynamic range of the data, and also gives some visibility to lower levels."
+  },
+  {
+    "objectID": "Nebula_Spatial_Spectrogram_Display.html",
+    "href": "Nebula_Spatial_Spectrogram_Display.html",
+    "title": "26  Fading",
+    "section": "",
+    "text": "Controls display persistence, i.e. the “fade to black” amount for a frame. Lowering this value retains past particles longer, whereas increasing this make them disappear faster.\n\n27 Size factor\nControls the size of individual particles with respect to screen size.\n\n\n28 Blur kernel size\n\nControls the radius of the blur effect applied to past particles. Particles are “smeared” more and more as they become older, depending on this setting. Naturally, a bigger value increases the smearing, at the expense of processing power.\n\n\n\n\n\n\nNote\n\n\n\nChoosing the value for this setting is really matter of taste, although please keep in mind values that above 5 will require a sufficiently powerful graphics card in order to maintain a responsive display.\n\n\n\n\n29 Particle scaling\nToggles automatic adjustment of particle size with screen size. When enabled, the overall aspect of the display will remain similar even if the view size changes.\n\n\n30 Color mode\nProvides the following particle-coloring modes: * Power: the color varies according to the power of the signal in the frequency region * Dynamics: same as previous except this mode works on signal dynamics * Power / dynamics: a mix of the above * Frequency: the color varies according to frequency only, using a rainbow-palette"
+  },
+  {
+    "objectID": "Vector_scope_Usage.html#modes-in-surround",
+    "href": "Vector_scope_Usage.html#modes-in-surround",
+    "title": "27  Usage",
+    "section": "27.1 Modes in Surround :",
+    "text": "27.1 Modes in Surround :\n\nL-R\nUse only Left and Right Channels.\nFront\nUse a stereo down mix with all front channels.\nRear\nUse a stereo down mix with all Rear channels.\nStereo downmix\nUse a stereo down mix with all channels.\nLt/Rt downmix\nUse a Lt/Rt down mix with all channels.\nLR-Lfe\nUse a mono summation of Left and Right + the Lfe (sub) channel.\nCenter-Lfe\nUse Center + Lfe (sub) channel.\nFront-Lfe\nUse a mono summation of the front channels + the Lfe (sub) channel."
+  },
+  {
+    "objectID": "Vector_scope_Display.html",
+    "href": "Vector_scope_Display.html",
+    "title": "28  Display",
+    "section": "",
+    "text": ":::{.callout-note} Vector scope setup options\n\n29 Fs\n\nOver-sampling factor in multiples of FS, that is the incoming audio is up-sampled as necessary to reach this multiple times 48kHz. Increasing this value increases the display precision and reactivity, at the expense of a little CPU overhead.\n\n\n30 Blending\nControls the amount of particle blending with the current image, from 1 to 100%. A higher value gives more priority to the incoming audio over past frames.\n\n\n31 Fading\nControls display persistence, i.e. the “fade to black” amount for a frame. Lowering this value retains past particles longer, whereas increasing this make them disappear faster.\n\n\n32 Size factor\nControls the size of individual particles with respect to screen size.\n\n\n33 Blur kernel size\nControls the radius of the blur effect applied to past particles. Particles are “smeared” more and more as they become older, depending on this setting. Naturally, a bigger value increases the smearing, at the expense of processing power.\n\n\n\n\n\n\nNote\n\n\n\nChoosing the value for this setting is really matter of taste, although please keep in mind values that above 5 will require a sufficiently powerful graphics card in order to maintain a responsive display.\n\n\n\n\n34 Color mode\n\nThis defines how the particle color is determined: * Static color: use only particle start color (see below) * Power grading: color is modulated by overall signal RMS power * Dynamic grading: color is modulated by signal dynamics * Pw+Dyn grading: mix of the two previous modes\n\n\n35 Particle start/end colors\nSets the particle color range to be used."
+  },
+  {
+    "objectID": "Nebula_Surround_scope_Usage.html",
+    "href": "Nebula_Surround_scope_Usage.html",
+    "title": "29  Usage",
+    "section": "",
+    "text": "The Nebula | Surround scope displays a representation of how a surround signal’s various components are distributed in a surround environment. The inner region displays the location of the signal frequency components in the selected surround configuration, while the outer ring shows the phase-correlation between channels.\nPhase correlation between adjacent channels is shown as white section with a length proportional to the correlation. Additionally, L-R phase correlation is displayed on the top portion of the ring, and L-C and C-R inter-channel phase correlations are displayed just above the top of the ring.\nPhysical locations of the speakers for the selected configuration are marked on the ring itself for reference.\n\n30 Music\nThis is the typical surround speaker arrangement for musical reproduction.\n\n\n\nNebula | Surround scope in Music speaker mode\n\n\n\n\n31 Equidistant\nThis mode employs equidistant speakers arranged as an equilateral polygon.\n\n\n\nNebula | Surround scope display with equidistant speaker mode selected\n\n\n\n\n32 Square\nThis arrangement employs speakers arranged on a square.\n\n\n\nNebula | Surround scope display in Square speaker mode\n\n\n\n\n33 Theater\nThis is the typical arrangement employed in movie theaters, with redundant rear channels.\n\n\n\nNebula | Surround scope display in Theater speaker mode"
+  },
+  {
+    "objectID": "Nebula_Surround_scope_Display.html",
+    "href": "Nebula_Surround_scope_Display.html",
+    "title": "30  Display",
+    "section": "",
+    "text": "31 Mode\nDetermines the start and end colors used with “Power grading” color mode selected."
+  },
+  {
+    "objectID": "Nebula_Surround_scope_Display.html#speaker-mode",
+    "href": "Nebula_Surround_scope_Display.html#speaker-mode",
+    "title": "30  Display",
+    "section": "31.1 Speaker mode",
+    "text": "31.1 Speaker mode\n\nSelects between various commonly employed surround speaker arrangements."
+  },
+  {
+    "objectID": "Nebula_Surround_scope_Display.html#phases",
+    "href": "Nebula_Surround_scope_Display.html#phases",
+    "title": "30  Display",
+    "section": "31.2 Phases",
+    "text": "31.2 Phases\nToggles phase-correlation display on and off."
+  },
+  {
+    "objectID": "Nebula_Surround_scope_Display.html#auto-scale",
+    "href": "Nebula_Surround_scope_Display.html#auto-scale",
+    "title": "30  Display",
+    "section": "32.1 Auto-scale",
+    "text": "32.1 Auto-scale\nThis parameter controls whether the intensity of the particles are modulated by the overall audio level variations. In essence, when enabled, the color nuances will vary according to the relative amplitude of a frequency, allowing to monitor the relative amplitude spectrum variations. When disabled, the color will reflect the absolute audio level. You can also think of this as a kind of auto-gain setting."
+  },
+  {
+    "objectID": "Nebula_Surround_scope_Display.html#auto-scale-release",
+    "href": "Nebula_Surround_scope_Display.html#auto-scale-release",
+    "title": "30  Display",
+    "section": "32.2 Auto-scale release",
+    "text": "32.2 Auto-scale release\nThis controls whether color variations should be smoothed in time or not. When engaged, color variations is slowed down a bit, which makes overall level transitions more obvious.\n\n\n\n\n\n\nNote\n\n\n\nYou should enable this setting when you want to visualize quick level variations such as those that frequently occur in movie soundtracks."
+  },
+  {
+    "objectID": "Nebula_Surround_scope_Display.html#linear-blend-range",
+    "href": "Nebula_Surround_scope_Display.html#linear-blend-range",
+    "title": "30  Display",
+    "section": "32.3 Linear blend range",
+    "text": "32.3 Linear blend range\nAdds a constant blend amount to the particle. This ensures some particles are always blended into the image even if its original magnitude is low.\nA low value for this setting has the effect of stabilizing the appearance of particles. With large values more of the spectrum dynamics are taken into account, and only peaks mostly come through."
+  },
+  {
+    "objectID": "Nebula_Surround_scope_Display.html#log-blending",
+    "href": "Nebula_Surround_scope_Display.html#log-blending",
+    "title": "30  Display",
+    "section": "32.4 Log blending",
+    "text": "32.4 Log blending\nToggles between linear and logarithmic blending of the current particle with old particles.\nThe default is off, i.e. linear blending, which tends to favor the display of peaks.\nLogarithmic blending on the other hand preserves more of the full dynamic range of the data, and also gives some visibility to lower levels."
+  },
+  {
+    "objectID": "Nebula_Surround_scope_Display.html#color-mode",
+    "href": "Nebula_Surround_scope_Display.html#color-mode",
+    "title": "30  Display",
+    "section": "32.5 Color mode",
+    "text": "32.5 Color mode"
+  },
+  {
+    "objectID": "Nebula_Surround_scope_Display.html#fading",
+    "href": "Nebula_Surround_scope_Display.html#fading",
+    "title": "30  Display",
+    "section": "32.6 Fading",
+    "text": "32.6 Fading\nControls display persistence, i.e. the “fade to black” amount for a frame. Lowering this value retains past particles longer, whereas increasing this make them disappear faster."
+  },
+  {
+    "objectID": "Nebula_Surround_scope_Display.html#size-factor",
+    "href": "Nebula_Surround_scope_Display.html#size-factor",
+    "title": "30  Display",
+    "section": "32.7 Size factor",
+    "text": "32.7 Size factor\nControls the size of individual particles with respect to screen size."
+  },
+  {
+    "objectID": "Nebula_Surround_scope_Display.html#blur-kernel-size",
+    "href": "Nebula_Surround_scope_Display.html#blur-kernel-size",
+    "title": "30  Display",
+    "section": "32.8 Blur kernel size",
+    "text": "32.8 Blur kernel size\nControls the radius of the blur effect applied to past particles. Particles are “smeared” more and more as they become older, depending on this setting. Naturally, a bigger value increases the smearing, at the expense of processing power.\n\n\n\n\n\n\nNote\n\n\n\nChoosing the value for this setting is really matter of taste, although please keep in mind values that above 5 will require a sufficiently powerful graphics card in order to maintain a responsive display."
+  },
+  {
+    "objectID": "Nebula_Surround_scope_Display.html#particle-factor-count",
+    "href": "Nebula_Surround_scope_Display.html#particle-factor-count",
+    "title": "30  Display",
+    "section": "32.9 Particle factor count",
+    "text": "32.9 Particle factor count\nDetermines the amount of particles to display, relative to the default number used for the current screen size."
+  },
+  {
+    "objectID": "Nebula_Surround_scope_Display.html#particle-scaling",
+    "href": "Nebula_Surround_scope_Display.html#particle-scaling",
+    "title": "30  Display",
+    "section": "32.10 Particle scaling",
+    "text": "32.10 Particle scaling\nToggles automatic adjustment of particle size with screen size. When enabled, the overall aspect of the display will remain similar even if the view size changes."
+  },
+  {
+    "objectID": "Nebula_Surround_scope_Display.html#color-mode-1",
+    "href": "Nebula_Surround_scope_Display.html#color-mode-1",
+    "title": "30  Display",
+    "section": "32.11 Color mode",
+    "text": "32.11 Color mode\nThis defines how the particle color is determined: * Power grading: color is modulated by overall signal RMS power. * Dynamic grading: color is modulated by signal dynamics. * Pw+Dyn grading: mix of the two previous modes. * Freq. grading: color is modulated by frequency."
+  },
+  {
+    "objectID": "Metering_Metering.html",
+    "href": "Metering_Metering.html",
+    "title": "31  Metering",
+    "section": "",
+    "text": "All meters display the current signal meter values as solid vertical bars, and the peaks are indicated with horizontal lines at the corresponding value. Peak hold time can be adjusted in the settings if necessary. The peak value is also displayed in a numeric format at the top of the meter, which is emphasized in red in case of clipping or overload.\nSeveral meter displays are available, each scrupulously implementing one of the more common and up-to-date industry norms, as detailed in the following paragraphs.\n\n\n\nMeters with stereo input.\n\n\n\n\n\nMeters with 5.1 surround input."
+  },
+  {
+    "objectID": "Metering_RMS_Metering_Introduction.html",
+    "href": "Metering_RMS_Metering_Introduction.html",
+    "title": "32  Introduction",
+    "section": "",
+    "text": "RMS stands for Root Mean Square, is a measure of the average magnitude of a varying signal, or equivalently, the average power over the signal over a time period, called the integration time.\n\nThe live layouts display dB SPL (Sound Pressure Level) values, which is the standard measure of acoustic pressure. This requires that your input chain first be calibrated in order to get accurate and meaningful readings, as factors such as your particular microphone’s sensitivity and preamplifier gain are not known in advance. For this, you will need to get your hands on a calibrator, which is a box fitted with a transducer that outputs a known acoustic level and features a socket designed to hold the microphone."
+  },
+  {
+    "objectID": "Metering_RMS_Metering_Preset.html#custom",
+    "href": "Metering_RMS_Metering_Preset.html#custom",
+    "title": "33  Preset",
+    "section": "33.1 Custom",
+    "text": "33.1 Custom\nUser defined values."
+  },
+  {
+    "objectID": "Metering_RMS_Metering_Preset.html#default",
+    "href": "Metering_RMS_Metering_Preset.html#default",
+    "title": "33  Preset",
+    "section": "33.2 Default",
+    "text": "33.2 Default\nAll-round settings with:\n\nFrom -48 to +18 dB range, referenced at -18dB.\n160ms integration time, 16dB/s release, 1dB peak release and 60 frames peak hold."
+  },
+  {
+    "objectID": "Metering_RMS_Metering_Preset.html#ref--18db-abck",
+    "href": "Metering_RMS_Metering_Preset.html#ref--18db-abck",
+    "title": "33  Preset",
+    "section": "33.3 Ref -18dB A/B/C/K",
+    "text": "33.3 Ref -18dB A/B/C/K\nDefault settings with pre-equalization following either normalized ANSI A/B/C or ITU-R BS.1170-2 weighting curves, referenced to -18dB."
+  },
+  {
+    "objectID": "Metering_RMS_Metering_Preset.html#ref--20db-abck",
+    "href": "Metering_RMS_Metering_Preset.html#ref--20db-abck",
+    "title": "33  Preset",
+    "section": "33.4 Ref -20dB A/B/C/K",
+    "text": "33.4 Ref -20dB A/B/C/K\nDefault settings with pre-equalization following either normalized ANSI A/B/C or ITU-R BS.1170-2 weighting curves, referenced to -20dB."
+  },
+  {
+    "objectID": "Metering_RMS_Metering_Preset.html#vu-meter-standard",
+    "href": "Metering_RMS_Metering_Preset.html#vu-meter-standard",
+    "title": "33  Preset",
+    "section": "33.5 VU meter Standard",
+    "text": "33.5 VU meter Standard\nStandard reference VU settings, with 300ms integration, 66/7dB/s release and peak release times, referenced at 0VU/-4dBu/-18dBFS. The scale is non-linear and covers -20 to +3VU, complying with IEC 60268-17."
+  },
+  {
+    "objectID": "Metering_RMS_Metering_Preset.html#k-system-vu",
+    "href": "Metering_RMS_Metering_Preset.html#k-system-vu",
+    "title": "33  Preset",
+    "section": "33.6 K-System / VU",
+    "text": "33.6 K-System / VU\nLinear scale, conforming to Bob Katz’s recommendations, referenced at either -12, -14 or -20dB, 300ms integration, 66.7dB/s release and 12dB/s peak release times, 180 frames peak hold."
+  },
+  {
+    "objectID": "Metering_RMS_Metering_Preset.html#k-system-slow",
+    "href": "Metering_RMS_Metering_Preset.html#k-system-slow",
+    "title": "33  Preset",
+    "section": "33.7 K-System / Slow",
+    "text": "33.7 K-System / Slow\nIdentical to K-System/VU, except that integration times are doubled. This reflects Bob Katz’s view that Vu-meter timings are appropriate for speech, but that longer timings are better suited to music."
+  },
+  {
+    "objectID": "Metering_RMS_Metering_Preset.html#din-45406",
+    "href": "Metering_RMS_Metering_Preset.html#din-45406",
+    "title": "33  Preset",
+    "section": "33.8 DIN 45406",
+    "text": "33.8 DIN 45406\nThis preset conforms to the standard used many European broadcasters such as French (PAD) and German (IRT) television. Integration time is 10ms for a 90% signal increase; fall-back time is 1.7s per 20dB; with a linear scale covering a range from -50 to +5dB, referenced at -9dBFS. The corresponding standards are DIN 45406, IEC 60268-1, and ARD Pfl.H.3/6."
+  },
+  {
+    "objectID": "Metering_RMS_Metering_Preset.html#nordic-n9",
+    "href": "Metering_RMS_Metering_Preset.html#nordic-n9",
+    "title": "33  Preset",
+    "section": "33.9 Nordic N9",
+    "text": "33.9 Nordic N9\n5ms integration time for an 80% increase, fall-back time 1.7s per 20dB, linear scale covering the range from -40 to +9dB, referenced at -18dBFS, according to IEC 60268-10/1 + N9 supp."
+  },
+  {
+    "objectID": "Metering_RMS_Metering_Preset.html#bbc-normal",
+    "href": "Metering_RMS_Metering_Preset.html#bbc-normal",
+    "title": "33  Preset",
+    "section": "33.10 BBC Normal",
+    "text": "33.10 BBC Normal\n10ms integration time for an 80% increase, fall-back time 2.8s per 24dB, custom scale with graduations spaced apart by 4dB, and 4 stands for the -18dBFS reference, according to IEC 60268-10/2a."
+  },
+  {
+    "objectID": "Metering_RMS_Metering_Preset.html#bbc-slow",
+    "href": "Metering_RMS_Metering_Preset.html#bbc-slow",
+    "title": "33  Preset",
+    "section": "33.11 BBC Slow",
+    "text": "33.11 BBC Slow\nSame as above except for ballistics, where the integration time is changed to 69.2ms for an 80% increase, and 3.8s per 24dB fall-back."
+  },
+  {
+    "objectID": "Metering_RMS_Metering_Preset.html#ebu-normal",
+    "href": "Metering_RMS_Metering_Preset.html#ebu-normal",
+    "title": "33  Preset",
+    "section": "33.12 EBU Normal",
+    "text": "33.12 EBU Normal\n10ms integration time for an 80% increase, fall-back time 2.8s per 24dB, linear scale covering the range from -12 to +12dB, referenced at -18dBFS, according to IEC 60268-10/2b."
+  },
+  {
+    "objectID": "Metering_RMS_Metering_Preset.html#ebu-slow",
+    "href": "Metering_RMS_Metering_Preset.html#ebu-slow",
+    "title": "33  Preset",
+    "section": "33.13 EBU Slow",
+    "text": "33.13 EBU Slow\nSame as above except for ballistics, where the integration time is changed to 69.2ms for an 80% increase, and 3.8s per 24dB fall-back."
+  },
+  {
+    "objectID": "Metering_RMS_Metering_Reference.html#zero-reference",
+    "href": "Metering_RMS_Metering_Reference.html#zero-reference",
+    "title": "34  Reference",
+    "section": "34.1 Zero reference",
+    "text": "34.1 Zero reference\nAdjusts the reference point. Default is -18dB (DVD standard). Do not change this unless you specifically want to divert from the standard, as this will otherwise compromise meter readings.\nStandard values are -18dB for DVD authoring and -20dB for film."
+  },
+  {
+    "objectID": "Metering_RMS_Metering_Reference.html#weighting",
+    "href": "Metering_RMS_Metering_Reference.html#weighting",
+    "title": "34  Reference",
+    "section": "34.2 Weighting",
+    "text": "34.2 Weighting\n\nApplies an optional weighting filter conforming to various standard curves:\n\nNone (default).\nITU 1770: K-weighting filter, comprising a shelving and a high-pass (RLB-weighting) filter in series, as specified in ITU-R BS.1170-2 and employed by EBU R128 (PLOUD).\nANSI A, which is roughly the inverse of the Fletcher-Munson curve.\nANSI B.\nANSI C.\nANSI D."
+  },
+  {
+    "objectID": "Metering_RMS_Metering_SPL.html#spl-reference",
+    "href": "Metering_RMS_Metering_SPL.html#spl-reference",
+    "title": "35  SPL",
+    "section": "35.1 SPL reference",
+    "text": "35.1 SPL reference\nThis is the reference level of the calibrator’s output, indicated on the device itself or in the corresponding datasheet. A typical value is -94dB."
+  },
+  {
+    "objectID": "Metering_RMS_Metering_SPL.html#spl-trim",
+    "href": "Metering_RMS_Metering_SPL.html#spl-trim",
+    "title": "35  SPL",
+    "section": "35.2 SPL trim",
+    "text": "35.2 SPL trim\nThis is the offset applied to RMS dB values in order to obtain dB SPL readings. It is determined automatically by the calibration procedure."
+  },
+  {
+    "objectID": "Metering_RMS_Metering_SPL.html#calibrate",
+    "href": "Metering_RMS_Metering_SPL.html#calibrate",
+    "title": "35  SPL",
+    "section": "35.3 Calibrate",
+    "text": "35.3 Calibrate\nPress this button after having insert the microphone into the calibrator socket and activated it in order to determine the SPL trim value."
+  },
+  {
+    "objectID": "Metering_RMS_Metering_Range.html",
+    "href": "Metering_RMS_Metering_Range.html",
+    "title": "36  Min / max",
+    "section": "",
+    "text": "Defines the minimum and maximum values to be displayed on the meter bars. This does not affect the text readings above the bars."
+  },
+  {
+    "objectID": "Metering_RMS_Metering_Time.html#integration",
+    "href": "Metering_RMS_Metering_Time.html#integration",
+    "title": "37  Time",
+    "section": "37.1 Integration",
+    "text": "37.1 Integration\nDefines the meter integration time constant, in milliseconds. This corresponds to the length of the time window over which an RMS level value is computed. Decrease this to respond to signal level variations more quickly, at the expense of meter precision and stability. Default is 160ms."
+  },
+  {
+    "objectID": "Metering_RMS_Metering_Time.html#release",
+    "href": "Metering_RMS_Metering_Time.html#release",
+    "title": "37  Time",
+    "section": "37.2 Release",
+    "text": "37.2 Release\nRelease time of the meter, in decibels per second. This controls the falloff rate of the meter. Decrease this to respond to signal level variations more quickly, at the expense of readability. Default is 16 dB/s."
+  },
+  {
+    "objectID": "Metering_RMS_Metering_Time.html#peak-release",
+    "href": "Metering_RMS_Metering_Time.html#peak-release",
+    "title": "37  Time",
+    "section": "37.3 Peak release",
+    "text": "37.3 Peak release\nRelease time of the peak indicator, in decibels per second. This controls the falloff rate of the peak hold indicators. Increase this to retain peaks for a longer time. Default is 1dB/second."
+  },
+  {
+    "objectID": "Metering_RMS_Metering_Time.html#peak-hold",
+    "href": "Metering_RMS_Metering_Time.html#peak-hold",
+    "title": "37  Time",
+    "section": "37.4 Peak hold",
+    "text": "37.4 Peak hold\nSets the number of display frames to wait until the peaks actually start to fall-back to zero. Default is 60 frames."
+  },
+  {
+    "objectID": "Metering_RMS_Metering_Scale_and_split.html#scale",
+    "href": "Metering_RMS_Metering_Scale_and_split.html#scale",
+    "title": "38  Scale & split",
+    "section": "38.1 Scale",
+    "text": "38.1 Scale\nMeter labels are defined here as a comma separated list of dB values to be shown on the side of the meters. This also defines where to the corresponding horizontal markings. Default is -72; -40; -18; -9; -6; -3; -1; 0; 1; 3."
+  },
+  {
+    "objectID": "Metering_RMS_Metering_Scale_and_split.html#colors",
+    "href": "Metering_RMS_Metering_Scale_and_split.html#colors",
+    "title": "38  Scale & split",
+    "section": "38.2 Colors",
+    "text": "38.2 Colors\nThis lets you customize the values at which color transitions occur. You can enter as many values as you wish, as a comma separated list, but make sure the values are in increasing order. Default is -9;0.\nThe last value always defines the clip level, which will be indicated in red."
+  },
+  {
+    "objectID": "Metering_RMS_Metering_Bar_Graph_Texturing.html",
+    "href": "Metering_RMS_Metering_Bar_Graph_Texturing.html",
+    "title": "39  Bar-graph texturing",
+    "section": "",
+    "text": "Controls whether meters are drawn with texture or in a plain solid color.\nDefault is on."
+  },
+  {
+    "objectID": "Metering_True_peak_metering_True_Peak_metering.html",
+    "href": "Metering_True_peak_metering_True_Peak_metering.html",
+    "title": "40  True Peak metering",
+    "section": "",
+    "text": "All digital audio wave signals are ultimately converted back to analog at some point, and while it is often desirable to maximize the overall volume of a signal or a complete mix, care must be taken in order not to go above the digital scale zero decibel ceiling, or nasty distortion and clipping will occur. This common and widely used rule is however not entirely sufficient, as the digital and analog processing involved in a D/A converter does not guarantee that a 0dBfs peak signal will exactly translate to a 0dB peak in the analog domain.\nWithout getting into too much detail, this phenomenon can be attributed to the over-sampling and reconstruction filters present in the D/A convertors, whose role are to rebuild a continuous time signal from a set of discrete digital values sampled at regularly spaced time intervals. This interpolation process can therefore generate values which lie above 0dB, which is known as overshoot.\nRelying solely on the peak value of samples can lead to the following problems:\n\nInconsistent readings between successive playbacks of the same material.\nUnexpected overloads of the D/A output converter.\nUnder-readings and beating of pure tones.\n\nTruePeak metering aims to overcome these limitations by mimicking parts of the D/A conversion process, effectively up-sampling the measured signal, in order to display the true value of peaks that occur in the analog domain.\n\n\n\nTruePeak metering setup options"
+  },
+  {
+    "objectID": "Metering_True_peak_metering_Preset.html#custom",
+    "href": "Metering_True_peak_metering_Preset.html#custom",
+    "title": "41  Preset",
+    "section": "41.1 Custom",
+    "text": "41.1 Custom\nUser defined values."
+  },
+  {
+    "objectID": "Metering_True_peak_metering_Preset.html#default",
+    "href": "Metering_True_peak_metering_Preset.html#default",
+    "title": "41  Preset",
+    "section": "41.2 Default",
+    "text": "41.2 Default\nThis preset uses the following all-round settings:\n\nRange: -72 … +3 dB referenced at 0dB.\nScale: 1.8x power factor, 0.06x reference display offset.\nBallistics: 16dB/s release time, 1dB/s peak release, 60 frames peak hold.\nScale / split: -72, -40, -18, -9, -6, -1, 0, +1, +3 dB."
+  },
+  {
+    "objectID": "Metering_True_peak_metering_Preset.html#ebu-r128",
+    "href": "Metering_True_peak_metering_Preset.html#ebu-r128",
+    "title": "41  Preset",
+    "section": "41.3 EBU R128",
+    "text": "41.3 EBU R128\nReferenced at -1dB."
+  },
+  {
+    "objectID": "Metering_True_peak_metering_Preset.html#ebu-r128-max--3db",
+    "href": "Metering_True_peak_metering_Preset.html#ebu-r128-max--3db",
+    "title": "41  Preset",
+    "section": "41.4 EBU R128 Max -3dB",
+    "text": "41.4 EBU R128 Max -3dB\nReferenced at -3dB."
+  },
+  {
+    "objectID": "Metering_True_peak_metering_Preset.html#section",
+    "href": "Metering_True_peak_metering_Preset.html#section",
+    "title": "41  Preset",
+    "section": "41.5 -48.0 -> +3",
+    "text": "41.5 -48.0 -&gt; +3\nLimited -48 … +3dB range with adapted scale/split values. ## -144.5 -&gt; +3 Wide -144.5 … +3dB range with adapted scale/split values, to monitor the full 24-bit dynamic range and possible clipping."
+  },
+  {
+    "objectID": "Metering_True_peak_metering_Range.html#min-max",
+    "href": "Metering_True_peak_metering_Range.html#min-max",
+    "title": "42  Range",
+    "section": "42.1 Min / max",
+    "text": "42.1 Min / max\nDefines the minimum and maximum values to be displayed on the meter bars. This does not affect the text readings above the bars."
+  },
+  {
+    "objectID": "Metering_True_peak_metering_Range.html#ref",
+    "href": "Metering_True_peak_metering_Range.html#ref",
+    "title": "42  Range",
+    "section": "42.2 Ref",
+    "text": "42.2 Ref\nControls the position of the reference value on the display. This does not affect the meter values per se, it is a cosmetic setting only."
+  },
+  {
+    "objectID": "Metering_True_peak_metering_Scale.html#power-factor",
+    "href": "Metering_True_peak_metering_Scale.html#power-factor",
+    "title": "43  Scale",
+    "section": "43.1 Power factor",
+    "text": "43.1 Power factor\nControls the scaling of the display with respect to meter values. This allows to stretch or compress the display around Reference."
+  },
+  {
+    "objectID": "Metering_True_peak_metering_Scale.html#ref-pixel-offset-factor",
+    "href": "Metering_True_peak_metering_Scale.html#ref-pixel-offset-factor",
+    "title": "43  Scale",
+    "section": "43.2 Ref pixel offset factor",
+    "text": "43.2 Ref pixel offset factor\nAdjusts the offset of the reference value (Reference) with respect to meter height."
+  },
+  {
+    "objectID": "Metering_True_peak_metering_Time.html#release",
+    "href": "Metering_True_peak_metering_Time.html#release",
+    "title": "44  Time",
+    "section": "44.1 Release",
+    "text": "44.1 Release\nRelease speed of the meter in decibels per second."
+  },
+  {
+    "objectID": "Metering_True_peak_metering_Time.html#peak-release",
+    "href": "Metering_True_peak_metering_Time.html#peak-release",
+    "title": "44  Time",
+    "section": "44.2 Peak release",
+    "text": "44.2 Peak release\nRelease speed of the peaks in decibel per second."
+  },
+  {
+    "objectID": "Metering_True_peak_metering_Time.html#peak-hold",
+    "href": "Metering_True_peak_metering_Time.html#peak-hold",
+    "title": "44  Time",
+    "section": "44.3 Peak hold",
+    "text": "44.3 Peak hold\nNumber of frames to hold the peaks, before the actual release phase begins. 60 frames corresponds to 1 second on a fast system, capable of a 60Hz refresh rate."
+  },
+  {
+    "objectID": "Metering_True_peak_metering_Time.html#infinite-hold",
+    "href": "Metering_True_peak_metering_Time.html#infinite-hold",
+    "title": "44  Time",
+    "section": "44.4 Infinite hold",
+    "text": "44.4 Infinite hold\nWhen enabled, peaks are held until the next reset, which is useful for checking a whole track never clips."
+  },
+  {
+    "objectID": "Metering_True_peak_metering_Time.html#reset",
+    "href": "Metering_True_peak_metering_Time.html#reset",
+    "title": "44  Time",
+    "section": "44.5 Reset",
+    "text": "44.5 Reset\n button resets the meter to its initial state (values and peaks at minimum)."
+  },
+  {
+    "objectID": "Metering_True_peak_metering_Scale_and_split.html#colors",
+    "href": "Metering_True_peak_metering_Scale_and_split.html#colors",
+    "title": "45  Scale",
+    "section": "45.1 Colors",
+    "text": "45.1 Colors\nThis lets you customize the values at which color transitions occur. You can enter as many values as you wish, as a comma separated list, but make sure the values are in increasing order. Default is -9;0.\nThe last value always defines the clip level, which will be indicated in red."
+  },
+  {
+    "objectID": "Metering_True_peak_metering_Other.html",
+    "href": "Metering_True_peak_metering_Other.html",
+    "title": "46  Other",
+    "section": "",
+    "text": "Controls whether meters are drawn with texture or in a plain solid color. Default is on."
+  },
+  {
+    "objectID": "Metering_Loudness_ITU-R_BS._1770_and_EBU-R128_PLOUD_Loudness_ITU-R_BS._1770_and_EBU-R128_PLOUD.html",
+    "href": "Metering_Loudness_ITU-R_BS._1770_and_EBU-R128_PLOUD_Loudness_ITU-R_BS._1770_and_EBU-R128_PLOUD.html",
+    "title": "47  Loudness ITU-R BS 1770 &amp EBU R128 PLOUD",
+    "section": "",
+    "text": "ITU-R BS.1170-4 and EBU R128 recommendations introduce a new paradigm for audio metering, which define a way to measure perceived loudness of audio material in a normalized and reproducible manner.\nPlease refer to the official documents freely available online at tech.ebu.ch/groups/ploud * or consult a reference book such as “Audio Metering. Measurements, standards and practice” by Eddy Brixen (Focal Press, ISBN 9780240814674) for detailed information on this subject."
+  },
+  {
+    "objectID": "Metering_Loudness_ITU-R_BS._1770_and_EBU-R128_PLOUD_Principles.html",
+    "href": "Metering_Loudness_ITU-R_BS._1770_and_EBU-R128_PLOUD_Principles.html",
+    "title": "48  Units",
+    "section": "",
+    "text": "ITU-R BS.1170-2 notably defines LU (Loudness Unit) and LUFS (Loudness Unit, referenced to Full Scale) units, which are used by EBU R128, and Maximum True Peak Level.\n\nLU is used for measurements relative to a reference level and measuring range.\nLUFS is used for absolute measurements.\n\nThe meter display is switchable between LUFS (absolute, default) and LU (relative). The target loudness level to aim for is -23 LUFS = 0 LU.\n\n49 Loudness and EBU mode\nEBU mode specifies three time scales corresponding to three different, complementary loudness levels\n\nM: Momentary, 400ms integration time\nS: Short-term, 3s integration time\nI: Integrated from start of measurement or last reset, gated\n\n\n\n\n\n\n\nNote\n\n\n\nLoudness is a measure of global loudness, so individual channel metering is not relevant in this context.\nNo additional slowdown of the attack or release of the meter is employed, as indicated by the norm.\n\n\nThe integrated loudness can be understood as the overload loudness of the audio over time, excluding very soft passages through the use of absolute and relative gating.\n\n\n50 Loudness Range (LRA)\nLoudness range measures the average long-term variations of the loudness; it is expressed in LU.\n\n\n51 Scales\nEBU R128 specifies two normalized scales:\n\nEBU +9, ranging from -18.0 LU to +9.0 LU (-41.0 LUFS to -14.0 LUFS)\nEBU +18, ranging from -36.0 LU to +18.0 LU (-59.0 LUFS to -5.0 LUFS) (Default)"
+  },
+  {
+    "objectID": "Metering_Loudness_ITU-R_BS._1770_and_EBU-R128_PLOUD_Dolby_Dialogue_Intelligence.html",
+    "href": "Metering_Loudness_ITU-R_BS._1770_and_EBU-R128_PLOUD_Dolby_Dialogue_Intelligence.html",
+    "title": "49  Dolby Dialogue Intelligence",
+    "section": "",
+    "text": "50 Copyright & patent information\nCreated under license from Dolby Laboratories Licensing Corporation. Use of this Software does not convey a license nor imply a right under any patent, or any other industrial or intellectual property right of Dolby Laboratories.\nDolby and the double-D symbol are registered trademarks of Dolby Laboratories. Dialogue Intelligence is a trademark of Dolby Laboratories.\nPATENT LIST - DIALOGUE INTELLIGENCE\nPATENTS\nPATENT APPLICATIONS"
+  },
+  {
+    "objectID": "Metering_Loudness_ITU-R_BS._1770_and_EBU-R128_PLOUD_Dolby_Dialogue_Intelligence.html#introduction",
+    "href": "Metering_Loudness_ITU-R_BS._1770_and_EBU-R128_PLOUD_Dolby_Dialogue_Intelligence.html#introduction",
+    "title": "49  Dolby Dialogue Intelligence",
+    "section": "49.1 Introduction",
+    "text": "49.1 Introduction\nWhile EBU R128 aims to measure global perceived loudness, irrespectively of the audio material, Dolby Dialogue Intelligence is a patented technology designed to specifically measure the perceived loudness of dialogue elements in the audio. It is therefore targeted towards broadcast applications."
+  },
+  {
+    "objectID": "Metering_Loudness_ITU-R_BS._1770_and_EBU-R128_PLOUD_Dolby_Dialogue_Intelligence.html#general-principle",
+    "href": "Metering_Loudness_ITU-R_BS._1770_and_EBU-R128_PLOUD_Dolby_Dialogue_Intelligence.html#general-principle",
+    "title": "49  Dolby Dialogue Intelligence",
+    "section": "49.2 General principle",
+    "text": "49.2 General principle\nDialogue Intelligence replaces EBU R128’s level-based gate with a speech-content ratio based gate. The algorithm computes several low-level features for the incoming signal in speech channels. These are then combined into an overall speech percentage figure. When speech content is detected, Integrated Loudness is computed from the speech channels which have a speech content ratio above a certain threshold.\nWhen other material is detected, i.e. not speech, standard EBU R128 Integrated Loudness computation is employed."
+  },
+  {
+    "objectID": "Metering_Loudness_ITU-R_BS._1770_and_EBU-R128_PLOUD_Dolby_Dialogue_Intelligence.html#display",
+    "href": "Metering_Loudness_ITU-R_BS._1770_and_EBU-R128_PLOUD_Dolby_Dialogue_Intelligence.html#display",
+    "title": "49  Dolby Dialogue Intelligence",
+    "section": "49.3 Display",
+    "text": "49.3 Display\nThe current speech content is displayed as text below the current gate status.\nAdditionally, color coding indicates the speech content ratio.\n\nSpeech : speech content present\nGreen: high speech content\nOrange: medium speech content\nRed: low speech content\nOther: other material present"
+  },
+  {
+    "objectID": "Metering_Loudness_ITU-R_BS._1770_and_EBU-R128_PLOUD_Dolby_Dialogue_Intelligence.html#delay-and-compensation",
+    "href": "Metering_Loudness_ITU-R_BS._1770_and_EBU-R128_PLOUD_Dolby_Dialogue_Intelligence.html#delay-and-compensation",
+    "title": "49  Dolby Dialogue Intelligence",
+    "section": "49.4 Delay and compensation",
+    "text": "49.4 Delay and compensation\nThe sophistication of the algorithms employed in Dialogue Intelligence incurs an overall latency of 2048ms (approx. 2s).\nWhen Dialogue Intelligence is enabled, the display of other Loudness values is compensated to make sure meter readings are consistent. Other real-time meter (RMS, TruePeak) displays are not compensated, as we feel in this case maintaining the best reactivity to the incoming signal is more important.\nAll meter statistics are time-aligned."
+  },
+  {
+    "objectID": "Metering_Loudness_ITU-R_BS._1770_and_EBU-R128_PLOUD_Dolby_Dialogue_Intelligence.html#surround",
+    "href": "Metering_Loudness_ITU-R_BS._1770_and_EBU-R128_PLOUD_Dolby_Dialogue_Intelligence.html#surround",
+    "title": "49  Dolby Dialogue Intelligence",
+    "section": "49.5 Surround",
+    "text": "49.5 Surround\nChannels taken into account by the algorithm are determined based on the current channel configuration.\nFor mono/stereo signals, all channels are taken into account. For surround configurations, only Left/Right and Center channels are taken into account, if present.\n\n\n\n\n\n\nNote\n\n\n\nDialogue Intelligence computation only affects I (Integrated) Loudness values.\nToggling Dialogue Intelligence on and off forces a reset of the meter values."
+  },
+  {
+    "objectID": "Metering_Loudness_ITU-R_BS._1770_and_EBU-R128_PLOUD_Controls_and_display.html#display",
+    "href": "Metering_Loudness_ITU-R_BS._1770_and_EBU-R128_PLOUD_Controls_and_display.html#display",
+    "title": "50  Controls and display",
+    "section": "50.1 Display",
+    "text": "50.1 Display\nThe meter display has the following arrangement\n\nleft bar: Momentary Loudness value\nright bar: Short-term Loudness\ntext overlay: Integrated Loudness and Loudness Range (LU) values, Gated indicator lights red when gate is active\n\nThe Loudness Range value is displayed once measurement has been running for at least 60 seconds, according to the EBU Tech 3342 specification, otherwise a ‘LRA Unstable’ warning is shown."
+  },
+  {
+    "objectID": "Metering_Loudness_ITU-R_BS._1770_and_EBU-R128_PLOUD_Controls_and_display.html#pause",
+    "href": "Metering_Loudness_ITU-R_BS._1770_and_EBU-R128_PLOUD_Controls_and_display.html#pause",
+    "title": "50  Controls and display",
+    "section": "50.2 Pause",
+    "text": "50.2 Pause\nClicking the  button pauses measurement; clicking again resumes it. This allows you to make adjustments without affecting Integrated Loudness, instead of having to start all over again."
+  },
+  {
+    "objectID": "Metering_Loudness_ITU-R_BS._1770_and_EBU-R128_PLOUD_Controls_and_display.html#reset",
+    "href": "Metering_Loudness_ITU-R_BS._1770_and_EBU-R128_PLOUD_Controls_and_display.html#reset",
+    "title": "50  Controls and display",
+    "section": "50.3 Reset",
+    "text": "50.3 Reset\nClicking the  button resets the meter to its initial state.\n\n\n\n\n\n\nNote\n\n\n\nDon’t forget to reset the Loudness meter if you’re starting playback of a new track, as Integrated Loudness, by design, measures the overall Loudness since the last reset.\nOtherwise you’d be measuring the overall Loudness of the combined tracks, which is probably not what you want."
+  },
+  {
+    "objectID": "Metering_Loudness_ITU-R_BS._1770_and_EBU-R128_PLOUD_Setup.html#presets",
+    "href": "Metering_Loudness_ITU-R_BS._1770_and_EBU-R128_PLOUD_Setup.html#presets",
+    "title": "51  Setup",
+    "section": "51.1 Presets",
+    "text": "51.1 Presets\n\n\n51.1.1 Custom\nUses user-defined custom range according to min./max. values below.\n\n\n51.1.2 Default\nSets the meter to the recommended scale (EBU +18 LUFS).\n\n\n51.1.3 EBU +9 LU\nSets the meter to use EBU +9 scale in LU units.\n\n\n51.1.4 EBU\n+9 LUFS Sets the meter to use EBU +9 scale in LUFS units.\n\n\n51.1.5 EBU +18\nLU Sets the meter to use EBU +18 scale in LU units.\n\n\n51.1.6 EBU +18 LUFS\nSets the meter to use EBU +18 scale in LUFS units.\n\n\n51.1.7 -23 LUFS Long program\nCST specification\nSets the meter to use EBU +18 scale in LUFS units with reference @ -23 LUFS and color split @-/+ 7LU from the reference.\n\n\n51.1.8 -23 LUFS Short program\nCST specification\nSets the meter to use EBU +18 scale in LUFS units with reference @ -23 LUFS and Max defined 3LU up to the reference."
+  },
+  {
+    "objectID": "Metering_Loudness_ITU-R_BS._1770_and_EBU-R128_PLOUD_Setup.html#dolby-dialogue-intelligence",
+    "href": "Metering_Loudness_ITU-R_BS._1770_and_EBU-R128_PLOUD_Setup.html#dolby-dialogue-intelligence",
+    "title": "51  Setup",
+    "section": "51.2 Dolby Dialogue Intelligence",
+    "text": "51.2 Dolby Dialogue Intelligence\n\n51.2.1 Dolby Dialogue Intelligence (TM)\nToggles usage of Dolby Dialogue Intelligence speech gate.\n\n\n51.2.2 Speech threshold\nDefines the speech content threshold in %. Speech channels with a speech content ratio below this value do not participate in the Loudness computation."
+  },
+  {
+    "objectID": "Metering_Loudness_ITU-R_BS._1770_and_EBU-R128_PLOUD_Setup.html#range",
+    "href": "Metering_Loudness_ITU-R_BS._1770_and_EBU-R128_PLOUD_Setup.html#range",
+    "title": "51  Setup",
+    "section": "51.3 Range",
+    "text": "51.3 Range\n\n51.3.1 Min.\nMinimum Loudness to display on the bar-graphs. User adjustable.\n\n\n51.3.2 Max.\nMaximum Loudness to display on the bar-graphs. User adjustable."
+  },
+  {
+    "objectID": "Metering_Loudness_ITU-R_BS._1770_and_EBU-R128_PLOUD_Setup.html#scale-split",
+    "href": "Metering_Loudness_ITU-R_BS._1770_and_EBU-R128_PLOUD_Setup.html#scale-split",
+    "title": "51  Setup",
+    "section": "51.4 Scale / split",
+    "text": "51.4 Scale / split\n\n51.4.1 Scale\nMeter labels are defined here as a comma separated list of dB values to be shown on the side of the meters. This also defines where to the corresponding horizontal markings. Default is -72;-40;-18;-9;-6;-3;-1;0;1;3.\n\n\n51.4.2 Colors\nThis lets you customize the values at which color transitions occur. You can enter as many values as you wish, as a comma separated list, but make sure the values are in increasing order. Default is -9;0.\nThe last value always defines the clip level, which will be indicated in red."
+  },
+  {
+    "objectID": "Metering_Loudness_ITU-R_BS._1770_and_EBU-R128_PLOUD_Setup.html#other",
+    "href": "Metering_Loudness_ITU-R_BS._1770_and_EBU-R128_PLOUD_Setup.html#other",
+    "title": "51  Setup",
+    "section": "51.5 Other",
+    "text": "51.5 Other\nControls whether meters are drawn with texture or in a plain solid color. Default is on."
+  },
+  {
+    "objectID": "Metering_Leq_Metering_Introduction.html#time-weighted-sound-level",
+    "href": "Metering_Leq_Metering_Introduction.html#time-weighted-sound-level",
+    "title": "52  Introduction",
+    "section": "52.1 Time-weighted sound level",
+    "text": "52.1 Time-weighted sound level\nLA is the root-mean-square sound level obtained after exponential time weighting.\nExponential averaging has the effect of progressively ‘forgetting’ past sample values.\nThe norm specifies two time-weighting constants:\n\nFast : 125ms\nSlow: 1s\n\n\n\n\n\n\n\nNote\n\n\n\nThe corresponding letter symbol is LAF for an A-frequency weighted and F time-weighted sound level, for example."
+  },
+  {
+    "objectID": "Metering_Leq_Metering_Introduction.html#time-average-sound-level",
+    "href": "Metering_Leq_Metering_Introduction.html#time-average-sound-level",
+    "title": "52  Introduction",
+    "section": "52.2 Time-average sound level",
+    "text": "52.2 Time-average sound level\nTime-average sound level is basically an RMS meter with frequency-weighting applied."
+  },
+  {
+    "objectID": "Metering_Leq_Metering_Introduction.html#sound-exposure-level",
+    "href": "Metering_Leq_Metering_Introduction.html#sound-exposure-level",
+    "title": "52  Introduction",
+    "section": "52.3 Sound exposure level",
+    "text": "52.3 Sound exposure level\nThis measures the sound exposure equivalent to a ‘dose’ received for a second.\n\n\n\n\n\n\nNote\n\n\n\nIt is useful for determining the amount of sound pressure to which listeners have been exposed for a certain duration.\nThis value naturally increases with time. For a constant source level, this value increases in a logarithmic fashion."
+  },
+  {
+    "objectID": "Metering_Leq_Metering_Mic_Channel_Setup.html#zero-ref.",
+    "href": "Metering_Leq_Metering_Mic_Channel_Setup.html#zero-ref.",
+    "title": "53  Mic. channel Leq setup",
+    "section": "53.1 Zero ref.",
+    "text": "53.1 Zero ref.\nAdjusts the reference point. See RMS for more information."
+  },
+  {
+    "objectID": "Metering_Leq_Metering_Mic_Channel_Setup.html#weighting",
+    "href": "Metering_Leq_Metering_Mic_Channel_Setup.html#weighting",
+    "title": "53  Mic. channel Leq setup",
+    "section": "53.2 Weighting",
+    "text": "53.2 Weighting\nFrequency weighting employed. Can be switched between ANSI standard (A, B, C, D) and none. The default is A."
+  },
+  {
+    "objectID": "Metering_Leq_Metering_Mic_Channel_Setup.html#time-weighted-f",
+    "href": "Metering_Leq_Metering_Mic_Channel_Setup.html#time-weighted-f",
+    "title": "53  Mic. channel Leq setup",
+    "section": "53.3 Time-weighted F",
+    "text": "53.3 Time-weighted F\nIndicates the time-constant for the Fast time-weighted sound level."
+  },
+  {
+    "objectID": "Metering_Leq_Metering_Mic_Channel_Setup.html#time-weighted-s",
+    "href": "Metering_Leq_Metering_Mic_Channel_Setup.html#time-weighted-s",
+    "title": "53  Mic. channel Leq setup",
+    "section": "53.4 Time-weighted S",
+    "text": "53.4 Time-weighted S\nIndicates the time-constant for the Slow time-weighted sound level."
+  },
+  {
+    "objectID": "Metering_Leq_Metering_Mic_Channel_Setup.html#average-integration",
+    "href": "Metering_Leq_Metering_Mic_Channel_Setup.html#average-integration",
+    "title": "53  Mic. channel Leq setup",
+    "section": "53.5 Average integration",
+    "text": "53.5 Average integration\nSets the integration time for the time-average sound level, between 1s and 14400s (4 hours). Default is 10s."
+  },
+  {
+    "objectID": "Metering_Leq_Metering_Mic_Channel_Setup.html#main-display",
+    "href": "Metering_Leq_Metering_Mic_Channel_Setup.html#main-display",
+    "title": "53  Mic. channel Leq setup",
+    "section": "53.6 Main display",
+    "text": "53.6 Main display\nSwitches the main measurement display from time-average sound level (the default) to sound exposure level."
+  },
+  {
+    "objectID": "Metering_Leq_Metering_SPL.html#spl-reference",
+    "href": "Metering_Leq_Metering_SPL.html#spl-reference",
+    "title": "54  SPL",
+    "section": "54.1 SPL reference",
+    "text": "54.1 SPL reference\nThis is the reference level of the calibrator’s output, indicated on the device itself or in the corresponding datasheet. A typical value is -94dB."
+  },
+  {
+    "objectID": "Metering_Leq_Metering_SPL.html#spl-trim",
+    "href": "Metering_Leq_Metering_SPL.html#spl-trim",
+    "title": "54  SPL",
+    "section": "54.2 SPL trim",
+    "text": "54.2 SPL trim\nThis is the offset applied to RMS dB values in order to obtain dB SPL readings. It is determined automatically by the calibration procedure."
+  },
+  {
+    "objectID": "Metering_Leq_Metering_SPL.html#calibrate",
+    "href": "Metering_Leq_Metering_SPL.html#calibrate",
+    "title": "54  SPL",
+    "section": "54.3 Calibrate",
+    "text": "54.3 Calibrate\nPress this button after having insert the microphone into the calibrator socket and activated it in order to determine the SPL trim value."
+  },
+  {
+    "objectID": "Metering_Leq_Metering_Leq_Color.html#font-back",
+    "href": "Metering_Leq_Metering_Leq_Color.html#font-back",
+    "title": "55  Color",
+    "section": "55.1 Font back",
+    "text": "55.1 Font back\nCommon font background color."
+  },
+  {
+    "objectID": "Metering_Leq_Metering_Leq_Color.html#level",
+    "href": "Metering_Leq_Metering_Leq_Color.html#level",
+    "title": "55  Color",
+    "section": "55.2 Level",
+    "text": "55.2 Level\nMain level font color."
+  },
+  {
+    "objectID": "Metering_Leq_Metering_Leq_Color.html#time-weighted-f",
+    "href": "Metering_Leq_Metering_Leq_Color.html#time-weighted-f",
+    "title": "55  Color",
+    "section": "55.3 Time-weighted F",
+    "text": "55.3 Time-weighted F\nFast time-weighted level font color."
+  },
+  {
+    "objectID": "Metering_Leq_Metering_Leq_Color.html#time-weighted-s",
+    "href": "Metering_Leq_Metering_Leq_Color.html#time-weighted-s",
+    "title": "55  Color",
+    "section": "55.4 Time-weighted S",
+    "text": "55.4 Time-weighted S\nSlow time-weighted level font color."
+  },
+  {
+    "objectID": "Metering_Leq_Metering_Leq_Color.html#name",
+    "href": "Metering_Leq_Metering_Leq_Color.html#name",
+    "title": "55  Color",
+    "section": "55.5 Name",
+    "text": "55.5 Name\nName font color"
+  },
+  {
+    "objectID": "Metering_Leq_Metering_Leq_Color.html#unit",
+    "href": "Metering_Leq_Metering_Leq_Color.html#unit",
+    "title": "55  Color",
+    "section": "55.6 Unit",
+    "text": "55.6 Unit\nUnit display font color."
+  },
+  {
+    "objectID": "Metering_Leq_Metering_Leq_Color.html#freq.-weighting",
+    "href": "Metering_Leq_Metering_Leq_Color.html#freq.-weighting",
+    "title": "55  Color",
+    "section": "55.7 Freq. weighting",
+    "text": "55.7 Freq. weighting\nFrequency weighting type display font color."
+  },
+  {
+    "objectID": "Metering_Leq_Metering_Leq_Color.html#font-blur",
+    "href": "Metering_Leq_Metering_Leq_Color.html#font-blur",
+    "title": "55  Color",
+    "section": "55.8 Font blur",
+    "text": "55.8 Font blur\nToggles font blurring on (default) and off."
+  },
+  {
+    "objectID": "Metering_History_Usage.html#timecode-offset",
+    "href": "Metering_History_Usage.html#timecode-offset",
+    "title": "56  Usage",
+    "section": "56.1 Timecode offset",
+    "text": "56.1 Timecode offset\nClicking the  defines the current time as the Timecode offset."
+  },
+  {
+    "objectID": "Metering_History_Usage.html#timecode-offset-reset",
+    "href": "Metering_History_Usage.html#timecode-offset-reset",
+    "title": "56  Usage",
+    "section": "56.2 Timecode offset reset",
+    "text": "56.2 Timecode offset reset\nClicking the  button resets the Timecode offset to zero. Absolute and relative Timecode will then be the same."
+  },
+  {
+    "objectID": "Metering_History_Usage.html#play",
+    "href": "Metering_History_Usage.html#play",
+    "title": "56  Usage",
+    "section": "56.3 Play",
+    "text": "56.3 Play\nClicking the  toggles history recording on and off. Metering values are discarded when off.\n\n\n\n\n\n\nNote\n\n\n\nThe metering history relies on the same settings as those defined in the various meters. However, when multiple meter values are displayed simultaneously, the display range of the history is adapted so it encompasses the display ranges of the meters.\nKeep in mind different meters can be set to different zero reference points when comparing meter history curves."
+  },
+  {
+    "objectID": "Metering_History_Setup.html",
+    "href": "Metering_History_Setup.html",
+    "title": "57  Setup",
+    "section": "",
+    "text": "58 TimeCode\nThese settings allow to specify whether Peak and/or TruePeak curves should be displayed, as well the color to use when drawing them.\nToggle RMS curve display on and off, and specify the color to use for drawing.\nThe dynamics is the current dynamic range of the signal, that is the ratio of the peaks with respect to the average, i.e.the crest factor of the signal.\nThese settings allow to specify whether Short-term and/or Momentary EBU R128 Loudness curves should be displayed, as well the color to use when drawing them."
+  },
+  {
+    "objectID": "Metering_History_Setup.html#absolute-timecode",
+    "href": "Metering_History_Setup.html#absolute-timecode",
+    "title": "57  Setup",
+    "section": "58.1 Absolute Timecode",
+    "text": "58.1 Absolute Timecode\nSwitches between absolute and relative Timecode formats."
+  },
+  {
+    "objectID": "Metering_History_Setup.html#update-factor",
+    "href": "Metering_History_Setup.html#update-factor",
+    "title": "57  Setup",
+    "section": "58.2 Update Factor",
+    "text": "58.2 Update Factor\nDivides the History refresh interval; allowing to increase the history time period."
+  },
+  {
+    "objectID": "Metering_History_Setup.html#color",
+    "href": "Metering_History_Setup.html#color",
+    "title": "57  Setup",
+    "section": "59.1 Color",
+    "text": "59.1 Color\nSets the color to use when only a single curve is selected for display."
+  },
+  {
+    "objectID": "Metering_History_Setup.html#dynamics-1",
+    "href": "Metering_History_Setup.html#dynamics-1",
+    "title": "57  Setup",
+    "section": "62.1 Dynamics",
+    "text": "62.1 Dynamics\nToggles dynamics curve display on and off."
+  },
+  {
+    "objectID": "Metering_History_Setup.html#integration",
+    "href": "Metering_History_Setup.html#integration",
+    "title": "57  Setup",
+    "section": "62.2 Integration",
+    "text": "62.2 Integration\nSet the integration time, in milliseconds."
+  },
+  {
+    "objectID": "Metering_History_Setup.html#color-1",
+    "href": "Metering_History_Setup.html#color-1",
+    "title": "57  Setup",
+    "section": "62.3 Color",
+    "text": "62.3 Color\nSpecify the color to use for drawing the curve.\n\n\n\n\n\n\nNote\n\n\n\nPercussive content such as drums or rhythm guitar exhibit high dynamics, as opposed to sustained sounds such as strings and synthesizer pads."
+  },
+  {
+    "objectID": "Metering_statistics_Audio_level_statistics.html#overview",
+    "href": "Metering_statistics_Audio_level_statistics.html#overview",
+    "title": "58  Metering statistics",
+    "section": "58.1 Overview",
+    "text": "58.1 Overview\nThe display shows the average and range for the various level meter values, since the start of the application or the last time the meter was reset, in a spread-sheet type view.\n\n58.1.1 Peak, TruePeak and RMS\nMean as well as overall minimum and maximum values are shown. For min. and max. values, the corresponding Timecode position is also indicated.\n\n\n58.1.2 Loudness\nAs EBU R128 Loudness already incorporates statistical computations, only the current values are shown."
+  },
+  {
+    "objectID": "Metering_statistics_Audio_level_statistics.html#file-export",
+    "href": "Metering_statistics_Audio_level_statistics.html#file-export",
+    "title": "58  Metering statistics",
+    "section": "58.2 File export",
+    "text": "58.2 File export\nExports a report containing a summary of the metering statistics data to a text file.\nClicking the  button brings up a standard file dialog where you can specify the desired file name for the dialog."
+  },
+  {
+    "objectID": "Metering_statistics_Audio_level_statistics.html#setup",
+    "href": "Metering_statistics_Audio_level_statistics.html#setup",
+    "title": "58  Metering statistics",
+    "section": "58.3 Setup",
+    "text": "58.3 Setup\n\n\n58.3.1 Absolute Timecode\nToggles between relative and absolute Timecode display. See TimeCode for more information."
+  },
+  {
+    "objectID": "Metering_statistics_Incident_reporting.html",
+    "href": "Metering_statistics_Incident_reporting.html",
+    "title": "59  Overview",
+    "section": "",
+    "text": "60 Setup"
+  },
+  {
+    "objectID": "Metering_statistics_Incident_reporting.html#max.-incident-count",
+    "href": "Metering_statistics_Incident_reporting.html#max.-incident-count",
+    "title": "59  Overview",
+    "section": "60.1 Max. incident count",
+    "text": "60.1 Max. incident count\nTo avoid overloading the display, and eventually, the computer’s memory, there is a limit placed on the number of registered incidents, which is 2000 by default. If you go above this, it might be a good idea to back off the master fader a bit anyway to let that music breathe !\nHowever, you can override this behavior by setting this value to -1, which will remove the limit altogether."
+  },
+  {
+    "objectID": "Metering_statistics_Incident_reporting.html#truepeak-incident-enable-threshold",
+    "href": "Metering_statistics_Incident_reporting.html#truepeak-incident-enable-threshold",
+    "title": "59  Overview",
+    "section": "60.2 TruePeak Incident Enable + threshold",
+    "text": "60.2 TruePeak Incident Enable + threshold\nDefines the threshold above which an incident will be registered. Default is 0dBTP, which corresponding to full digital scale. A conservative value would be -0.1dBTP, to be on the safe side.\nKeep in mind TruePeak is designed to measure inter-sample peaks, and that 0dBTP is actually a few tenths of decibels softer than digital peak."
+  },
+  {
+    "objectID": "Metering_statistics_Incident_reporting.html#ebu-r128-short-term-dialog-incident-enable-thresholds",
+    "href": "Metering_statistics_Incident_reporting.html#ebu-r128-short-term-dialog-incident-enable-thresholds",
+    "title": "59  Overview",
+    "section": "60.3 EBU R128 Short term / Dialog Incident Enable + thresholds",
+    "text": "60.3 EBU R128 Short term / Dialog Incident Enable + thresholds\nDefines the threshold under/above which an incident will be registered."
+  },
+  {
+    "objectID": "Metering_statistics_Off-line_processing_media_queue.html#principle",
+    "href": "Metering_statistics_Off-line_processing_media_queue.html#principle",
+    "title": "60  Usage",
+    "section": "60.1 Principle",
+    "text": "60.1 Principle\nThe media queue is intended for processing a soundtrack possibly split across several reels and channels. Reels are processed in the order in which they are added and in which they appear in the list."
+  },
+  {
+    "objectID": "Metering_statistics_Off-line_processing_media_queue.html#usage",
+    "href": "Metering_statistics_Off-line_processing_media_queue.html#usage",
+    "title": "60  Usage",
+    "section": "60.2 Usage",
+    "text": "60.2 Usage\nAudio files are added by clicking the icon , which brings up a standard file selection dialog, where you can select as many files as you want, provided they all have the same channel count and in a supported format, with a recognized extension (.wav). When you are ready, click the  icon to start processing the list, which will be computed much faster than real-time, especially if you have a fast computer.\nThe results are displayed when ready in the main view, and you can export these to a file just as you would with metering statistics computed on incoming audio."
+  },
+  {
+    "objectID": "Metering_statistics_Off-line_processing_media_queue.html#reel-grouping",
+    "href": "Metering_statistics_Off-line_processing_media_queue.html#reel-grouping",
+    "title": "60  Usage",
+    "section": "60.3 Reel grouping",
+    "text": "60.3 Reel grouping\nIf reels are split across several multichannel files, you can add all the files at once directly in the file selection dialog. Reel order corresponds to the order in which the files were added."
+  },
+  {
+    "objectID": "Metering_statistics_Off-line_processing_media_queue.html#channel-grouping",
+    "href": "Metering_statistics_Off-line_processing_media_queue.html#channel-grouping",
+    "title": "60  Usage",
+    "section": "60.4 Channel grouping",
+    "text": "60.4 Channel grouping\nIf your source material consists of mono-tracks, you must add reels one-by-one, adding all files for the various channels of the current reel. Please ensure different reels have the same channel count or the software will report an error. Channel configuration and names are inferred from the file names using a fuzzy-logic algorithm that looks for the presence of typical marker characters such as C / Center for the center channel, R / Right for the right channel etc. (case insensitive).\nIf the automatic channel grouping does not succeed, an error message will be displayed. Please rename the offending file(s) according to one of the expected schemes above to correct the problem.\n\n\n\n\n\n\nNote\n\n\n\nThis function is not intended to process unrelated soundtracks in batch mode.\nPlease repeat the operation as necessary if you wish to obtain separate results for individual tracks."
+  },
+  {
+    "objectID": "System_analysis_Introduction.html",
+    "href": "System_analysis_Introduction.html",
+    "title": "61  Introduction",
+    "section": "",
+    "text": "At first glance, an audio signal chain is very much like a series of black boxes. As an audio engineer, you can trust your ears and the manufacturer’s data-sheets to assess the effects this chain has on the incoming audio. In a variety of cases, however, this is either simply impractical, not possible or not precise enough. Such situations include live sound setups, recording setups, etc., where unknown factors such as the venue’s or studio’s acoustic response are a crucial part of the chain.\nIt is therefore necessary to resort to scientific measurement procedures and tools to obtain precise, trustworthy and reproducible results. The main tools at your disposal for this purpose are transfer curve and impulse response measurement, which are especially designed for this task.\nAs with any measurement instrument, it is important to have a good grasp of its mode of operation as well as any possible limitations in order to use it most efficiently. Some knowledge of acoustic principles and notions of signal processing are naturally required as well. While this manual tries to cover most typical use cases and point out common do’s and dont’s, it obviously cannot replace neither a good textbook nor practical experience."
+  },
+  {
+    "objectID": "System_analysis_Initial_setup.html",
+    "href": "System_analysis_Initial_setup.html",
+    "title": "62  Initial setup",
+    "section": "",
+    "text": "Throughout this documentation, we will refer to the measured signal processing chain as the system (sometimes called device under test in electronics literature). This system input is fed with a source signal, which produces a response signal at its output(s). Both source and response are recorded and monitored by the analyzer, from which several measurement curves are produced.\nThe first step is therefore to setup the measurement chain. In cases where an outboard or plugin device’s characteristics are to be measured, this is just a matter of routing the inputs and outputs in your DAW.\nIf you’re measuring the acoustic response of a physical space, you’ll need to place at least one microphone at the preferred listening position to record the response. The source can either be picked up directly at the DAW output or recorded with a second microphone placed in front of the loudspeaker(s), depending on whether you want to include the loudspeaker’s influence or not in the measurement.\n\n\n\n\n\n\n\nNote\n\n\n\nSystem analysis overall principle."
+  },
+  {
+    "objectID": "System_analysis_Practical_considerations_for_capturing_measurement_signals.html#use-a-measurement-microphone",
+    "href": "System_analysis_Practical_considerations_for_capturing_measurement_signals.html#use-a-measurement-microphone",
+    "title": "63  Practical considerations for capturing measurement signals",
+    "section": "63.1 Use a measurement microphone",
+    "text": "63.1 Use a measurement microphone\nThe goal here is to take the measurement chain out of the equation, so only specially designed microphones that exhibit a flat curve, minimal coloration, lowest noise and distortion should be used."
+  },
+  {
+    "objectID": "System_analysis_Practical_considerations_for_capturing_measurement_signals.html#choose-a-neutral-preamplifier-and-calibrate-it-accurately",
+    "href": "System_analysis_Practical_considerations_for_capturing_measurement_signals.html#choose-a-neutral-preamplifier-and-calibrate-it-accurately",
+    "title": "63  Practical considerations for capturing measurement signals",
+    "section": "63.2 Choose a neutral preamplifier and calibrate it accurately",
+    "text": "63.2 Choose a neutral preamplifier and calibrate it accurately\nFor the same reasons, select the most neutral preamplifier and A/D D/A convertors you have at your disposal. It is especially important to be able to set accurate and reproducible gain, linear and flat response. Take special care that the signal is not so hot as to clip or distort the preamplifier input stages, as this would distort the measurements accordingly and induce you into error."
+  },
+  {
+    "objectID": "System_analysis_Practical_considerations_for_capturing_measurement_signals.html#maximize-signal-to-noise-ratio",
+    "href": "System_analysis_Practical_considerations_for_capturing_measurement_signals.html#maximize-signal-to-noise-ratio",
+    "title": "63  Practical considerations for capturing measurement signals",
+    "section": "63.3 Maximize signal-to-noise ratio",
+    "text": "63.3 Maximize signal-to-noise ratio\nWhen measuring an acoustic system, raise up the volume as high as practical for maximal signal-to-noise ratio, and try to minimize any spurious acoustic noises such as footsteps and conversation. As always, the goal is to set the test signal as high as possible above the noise floor while ensuring all devices still operate in their linear region. Finally, make sure the microphone is firmly held in position and acoustically decoupled from the floor.\nIn a live concert context, especially with the audience present, using a noise signal is not practical. In this case you can still perform measurements, using a music signal, but the measurements will be less accurate as the signal isn’t known in advance and does not necessarily contain all frequencies like noise does."
+  },
+  {
+    "objectID": "System_analysis_System_analysis_config.html",
+    "href": "System_analysis_System_analysis_config.html",
+    "title": "64  Measurement setup",
+    "section": "",
+    "text": "Typical configuration for a live venue measurement setup using external signal generator.\n\n\n\n\n\nTypical configuration for a live venue measurement setup using Pure Analyzer’s internal signal generator and loopback"
+  },
+  {
+    "objectID": "System_analysis_Test_signals.html",
+    "href": "System_analysis_Test_signals.html",
+    "title": "65  Test signals",
+    "section": "",
+    "text": "Pure Analyzer is designed to cover the broadest range of practical use cases, and does not impose a limitation on the measurement signal used.\nTraditionally, transfer curve and impulse response measurements are performed by feeding a specially designed test signal into the system, the most commonly employed being pink and white noise and swept sines. While these type of signals are those that give the best and more accurate results, with each having its own strength and weaknesses, they do prohibit the measurement of a system in the context of a live system with the audience present.\nPerforming measurements using a live music signal allows the engineer to fine tune the system settings to compensate for changing conditions such as the effect of the crowd on acoustic reflections and damping, varying temperature and humidity, etc. Although less pleasing to the ear, we do however recommend using a noise test signal whenever possible, at least as a starting point.\nYou are free to use any kind of test signal generator, outboard or plugin, provided you trust it being reliable and easy to use. A selection of plugins suitable for this task is shown in the chart below.\n\n\n\n\n\n\nNote\n\n\n\nWhile Pure Analyzer does not impose any limitation on the test signal used, we recommend using the integrated Signal generator, which has been especially designed for this task. We conducted thorough tests on a wide panel of signal generators available as plugins or integrated into DAW software and found that many do not meet the requirements for performing accurate and reliable measurements."
+  },
+  {
+    "objectID": "Live_IO_Introduction.html",
+    "href": "Live_IO_Introduction.html",
+    "title": "66  Introduction",
+    "section": "",
+    "text": "The delay finder’s role is to determine the total delay of the signal path, from source to response. Note that this excludes any delays induced by your soundcard and DAW, as these should be compensated for and equivalent to zero as explained before. Here we are only concerned with the time taken by sound-pressure waves to travel the distance from loudspeakers to the measurement microphone placed at the listener position.\nThis figure must be determined with sample accuracy in order to establish proper transfer function and impulse response measurements. In a sound installation context, computing precise time-delay is crucial to align multiple speakers and transducers properly, as to minimize comb-filtering artifacts."
+  },
+  {
+    "objectID": "Live_IO_Basic_operation.html#compute-the-delay",
+    "href": "Live_IO_Basic_operation.html#compute-the-delay",
+    "title": "67  Basic operation",
+    "section": "67.1 Compute the delay",
+    "text": "67.1 Compute the delay\nPress the  button to find the delay using the most recent incoming audio. The resulting figure is displayed almost instantly as a:\n\nDelay in samples (smp).\nDistance in meters (m) or Imperial feet (ft.) depending on whether Metric system is enabled.\nDelay in milliseconds (ms)."
+  },
+  {
+    "objectID": "Live_IO_Basic_operation.html#compensate-the-delay",
+    "href": "Live_IO_Basic_operation.html#compensate-the-delay",
+    "title": "67  Basic operation",
+    "section": "67.2 Compensate the delay",
+    "text": "67.2 Compensate the delay\nPressing the  button activates a delay line in the source signal path to compensate for the currently displayed delay value, effectively time-aligning source and response signals. Pressing again deactivates the delay line, which allows for quick comparison between uncompensated and compensated signal paths."
+  },
+  {
+    "objectID": "Live_IO_Basic_operation.html#fine-tune-manually",
+    "href": "Live_IO_Basic_operation.html#fine-tune-manually",
+    "title": "67  Basic operation",
+    "section": "67.3 Fine-tune manually",
+    "text": "67.3 Fine-tune manually\nIf necessary, you can manually adjust the delay figure using either of these methods:\n\nDirect keyboard numeric value entry as time or distance figure.\nIncrement / decrement by clicking the +/- icons.\nIncrement / decrement using the +/- numeric keys."
+  },
+  {
+    "objectID": "Live_IO_Basic_operation.html#perform-a-new-measurement",
+    "href": "Live_IO_Basic_operation.html#perform-a-new-measurement",
+    "title": "67  Basic operation",
+    "section": "67.4 Perform a new measurement",
+    "text": "67.4 Perform a new measurement\nPress the  button again to perform a new measurement. This will overwrite any previous value."
+  },
+  {
+    "objectID": "Live_IO_Notes.html#max.-delay-time-and-roomvenue-size",
+    "href": "Live_IO_Notes.html#max.-delay-time-and-roomvenue-size",
+    "title": "68  Notes",
+    "section": "68.1 Max. delay time and room/venue size",
+    "text": "68.1 Max. delay time and room/venue size\nThe maximum measurable delay time is adjustable in the settings. Attempting to measure a delay greater than this will inevitably lead to corrupt measurements. The default setting is 1s, which should cover the vast majority of real-world situations, since it covers a distance of 330 meters."
+  },
+  {
+    "objectID": "Live_IO_Notes.html#ensure-stable-conditions-while-performing-a-measurement",
+    "href": "Live_IO_Notes.html#ensure-stable-conditions-while-performing-a-measurement",
+    "title": "68  Notes",
+    "section": "68.2 Ensure stable conditions while performing a measurement",
+    "text": "68.2 Ensure stable conditions while performing a measurement\nYou should ensure both source and response signals have reached stability before attempting measurement. In particular, do not stop or start the audio, change the volume or any other parameter just before or during measurement. This would invalidate the measurement and you would have to start again."
+  },
+  {
+    "objectID": "Live_IO_Notes.html#limitations",
+    "href": "Live_IO_Notes.html#limitations",
+    "title": "68  Notes",
+    "section": "68.3 Limitations",
+    "text": "68.3 Limitations\nPlease note there are many unknowns in play when determining the optimum delay figure. While we did our best to make this tool as robust and accurate as possible, as with all automatic procedures there is always a possibility that it will fail. In this case you should repeat the process or resort to manual adjustment until you get satisfactory results."
+  },
+  {
+    "objectID": "Live_IO_Notes.html#multiple-paths",
+    "href": "Live_IO_Notes.html#multiple-paths",
+    "title": "68  Notes",
+    "section": "68.4 Multiple paths",
+    "text": "68.4 Multiple paths\nThe major assumption behind delay compensation is that there is a main direct path from source to listener. In a very reverberant or complex-shaped acoustic space, this obviously does not apply anymore. This is where acoustics expertise and trial-and-error comes into play, in order to attain the best compromise."
+  },
+  {
+    "objectID": "Live_IO_User_interface_and_controls.html#name",
+    "href": "Live_IO_User_interface_and_controls.html#name",
+    "title": "69  User interface and controls",
+    "section": "69.1 Name",
+    "text": "69.1 Name\n\nAllows to define a custom name for each channel. This is a global name; saved and restored with the preset but not directly related to the Hardware I/O Interface. As this, it will be consistent even if you switch the Hardware I/O Interface or switch to connect to a SampleGrabber."
+  },
+  {
+    "objectID": "Live_IO_User_interface_and_controls.html#ref",
+    "href": "Live_IO_User_interface_and_controls.html#ref",
+    "title": "69  User interface and controls",
+    "section": "69.2 Ref",
+    "text": "69.2 Ref\nThe  button toggles whether the corresponding channel should be used as a reference signal.\nMultiple channels can be used as reference, in which case a mono-sum of these channels is used as the internal reference signal."
+  },
+  {
+    "objectID": "Live_IO_User_interface_and_controls.html#mic",
+    "href": "Live_IO_User_interface_and_controls.html#mic",
+    "title": "69  User interface and controls",
+    "section": "69.3 Mic",
+    "text": "69.3 Mic\nThe  button toggles whether the corresponding channel should be used as a microphone input signal, which is used to capture the response of the system.\nMultiple channels can be used as microphone input, in which case a mono-sum of these channels is used as the internal microphone signal."
+  },
+  {
+    "objectID": "Live_IO_User_interface_and_controls.html#phase-invert",
+    "href": "Live_IO_User_interface_and_controls.html#phase-invert",
+    "title": "69  User interface and controls",
+    "section": "69.4 Phase invert",
+    "text": "69.4 Phase invert\nThe  toggles phase inversion of the selected channel on and off. This can be used to compensate another known phase inversion somewhere else in the analog signal chain."
+  },
+  {
+    "objectID": "Live_IO_User_interface_and_controls.html#onoff",
+    "href": "Live_IO_User_interface_and_controls.html#onoff",
+    "title": "69  User interface and controls",
+    "section": "69.5 On/Off",
+    "text": "69.5 On/Off\nThe  button toggles delay compensation on and off. When the correct delay has been determined, engage this button to insert a delay line in the reference channel, to align reference and measured signals, and get correct transfer function and impulse response.\n\nOn/Off delay button appears only on channels toggled as microphone&gt;"
+  },
+  {
+    "objectID": "Live_IO_User_interface_and_controls.html#delay-value",
+    "href": "Live_IO_User_interface_and_controls.html#delay-value",
+    "title": "69  User interface and controls",
+    "section": "69.6 Delay value",
+    "text": "69.6 Delay value\nThe delay value is displayed simultaneously as:\n\nA number of samples (at the current sampling rate).\nA time delay, in milliseconds.\nA distance, in meters or feet.\n\nYou can manually adjust any of these values, using either keyboard input or fine increments with the up and down arrows; the two other values will change accordingly.\nPlease note precision of the distance value depends on correctness of the temperature value inserted in the main setup. In a concert hall with an audience present, there will probably important temperature variations, so this value should only be seen as a rough measure.\nLastly, remember the delay value in samples is the master value, from which others are derived.\n\nDelay values appears only on channels toggled as microphone&gt;"
+  },
+  {
+    "objectID": "Live_IO_User_interface_and_controls.html#find",
+    "href": "Live_IO_User_interface_and_controls.html#find",
+    "title": "69  User interface and controls",
+    "section": "69.7 Find",
+    "text": "69.7 Find\nClicking the  button starts a new delay value computation. Previous values, whether computed using the delay finder or entered by hand, will be erased. The algorithm accumulates a certain amount of incoming signal before the actual computation is actually performed, to ensure the delay is always computed using the most current audio.\n\nFind Delay appears only on channels toggled as microphone&gt;"
+  },
+  {
+    "objectID": "Live_IO_User_interface_and_controls.html#progress",
+    "href": "Live_IO_User_interface_and_controls.html#progress",
+    "title": "69  User interface and controls",
+    "section": "69.8 Progress",
+    "text": "69.8 Progress\nAn informational text showing the progress of the computation is shown when the  delay find button is clicked, as well any error potentially encountered."
+  },
+  {
+    "objectID": "Live_IO_Setup.html",
+    "href": "Live_IO_Setup.html",
+    "title": "70  Setup",
+    "section": "",
+    "text": "Note\n\n\n\nDelay finder setup options.\n\n\n\n71 Max delay\nSets the maximum delay that can be computed. The default is 1 second, which equates to a maximum distance between microphone and speakers of roughly 300 meters, and should be large enough for most practical applications. You can decrease this value as this minimizes the possibility of false readings.\n\n\n72 Algorithm\n\nSelects between three different delay finding algorithms:\n\nBasic: lowest CPU load, less robust to noise and interference.\nStandard: medium CPU load, the default.\nAdvanced: heavy CPU load, can help in very noisy environments.\n\n\n\n\n\n\n\nNote\n\n\n\nIn the rare case where the standard method fails in your particular environment, you should try other methods.\n\n\n\n\n73 Search passes\n\nThe delay can be set to work in one or two passes:\n\nFull (default): one search pass covering all possible values.\nTwo-stage: first pass to determine a rough delay value, followed by a second to refine the reading.\n\n\n\n\n\n\n\nNote\n\n\n\nTwo-stage delay finding can improve accuracy in the context of an environment with heavy multiple reflections."
+  },
+  {
+    "objectID": "Signal_generator_Signal_types.html",
+    "href": "Signal_generator_Signal_types.html",
+    "title": "71  Pink noise",
+    "section": "",
+    "text": "Pink noise is a random signal with an amplitude falloff inversely proportional to frequency. This is the most commonly employed variety noise in audio measurement, as it a constant-energy perceived content.\n\n72 White noise\nWhite noise is a random signal with constant energy across the audio range. Compared to pink noise, it sounds much brighter as it has more energy in high-frequencies. Commonly employed for electronic apparatus measurements.\n\n\n73 Sine\nFixed-frequency, pure tone generator.\n\n\n74 Sweep\nGenerates a variable tone from start to end frequencies. Linear and logarithmic variants are available. Log. sweep is best suited for audio measurements as this corresponds to constant time per octave."
+  },
+  {
+    "objectID": "Signal_generator_Controls.html",
+    "href": "Signal_generator_Controls.html",
+    "title": "72  Controls",
+    "section": "",
+    "text": "Signal generator controls.\n\n\n\n73 Type\n\nSets the signal type to generate.\n\n\n74 Level\nOutput level of the waveform, expressed in dB RMS.\n\n\n75 Enable\nToggles signal generator output on and off."
+  },
+  {
+    "objectID": "Signal_generator_Setup.html#output",
+    "href": "Signal_generator_Setup.html#output",
+    "title": "73  Setup",
+    "section": "73.1 Output",
+    "text": "73.1 Output\nSelects the hardware output(s) to which the signal generator should be routed. Set to? None? to disable the signal generator output entirely.\n\n73.1.1 Output 1\nFirst generator output.\n\n\n73.1.2 Output 2\nSecond generator output.\n\n\n\n\n\n\nNote\n\n\n\nBoth signals sent to the hardware output channels are identical."
+  },
+  {
+    "objectID": "Signal_generator_Setup.html#feed-input-reference",
+    "href": "Signal_generator_Setup.html#feed-input-reference",
+    "title": "73  Setup",
+    "section": "73.2 Feed input reference",
+    "text": "73.2 Feed input reference\nFed the reference input (default input 1) with the signal generator."
+  },
+  {
+    "objectID": "Signal_generator_Setup.html#sine-frequency",
+    "href": "Signal_generator_Setup.html#sine-frequency",
+    "title": "73  Setup",
+    "section": "73.3 Sine frequency",
+    "text": "73.3 Sine frequency\nSets the frequency of the sine generator, only applicable when the signal type is set to Sine."
+  },
+  {
+    "objectID": "Signal_generator_Setup.html#sweep-startend-frequencies",
+    "href": "Signal_generator_Setup.html#sweep-startend-frequencies",
+    "title": "73  Setup",
+    "section": "73.4 Sweep start/end frequencies",
+    "text": "73.4 Sweep start/end frequencies\nSets the range of frequencies to sweep.\n\n\n\n\n\n\nNote\n\n\n\nReverse start and end frequencies to obtain reverse sweep."
+  },
+  {
+    "objectID": "Signal_generator_Setup.html#sweep-length",
+    "href": "Signal_generator_Setup.html#sweep-length",
+    "title": "73  Setup",
+    "section": "73.5 Sweep length",
+    "text": "73.5 Sweep length\nSets the overall duration of the sweep in seconds,i.e. the time taken to go from start to end frequency."
+  },
+  {
+    "objectID": "Signal_generator_Setup.html#level",
+    "href": "Signal_generator_Setup.html#level",
+    "title": "73  Setup",
+    "section": "73.6 Level",
+    "text": "73.6 Level\nGenerator output level in dB RMS."
+  },
+  {
+    "objectID": "Impulse_response_measurement_Introduction.html#analyze-freeze",
+    "href": "Impulse_response_measurement_Introduction.html#analyze-freeze",
+    "title": "74  Introduction",
+    "section": "74.1 Analyze / freeze",
+    "text": "74.1 Analyze / freeze\nThe  button toggles the impulse response real-time update on and off."
+  },
+  {
+    "objectID": "Impulse_response_measurement_Introduction.html#delay-set",
+    "href": "Impulse_response_measurement_Introduction.html#delay-set",
+    "title": "74  Introduction",
+    "section": "74.2 Delay Set",
+    "text": "74.2 Delay Set\nThe  delay Set button set value of the peak time location to the delay value currently set for microphone channels in the Live IO panel.\nIf Real Time curve is disable, the Max value of the selected snapshot is used."
+  },
+  {
+    "objectID": "Impulse_response_measurement_Introduction.html#delay-add",
+    "href": "Impulse_response_measurement_Introduction.html#delay-add",
+    "title": "74  Introduction",
+    "section": "74.3 Delay add",
+    "text": "74.3 Delay add\nThe  delay add button adds value of the peak time location to the delay value currently set for microphone channels in the Live IO panel.\nIf Real Time curve is disable, the Max value of the selected snapshot is used."
+  },
+  {
+    "objectID": "Impulse_response_measurement_Introduction.html#delay-subtract",
+    "href": "Impulse_response_measurement_Introduction.html#delay-subtract",
+    "title": "74  Introduction",
+    "section": "74.4 Delay subtract",
+    "text": "74.4 Delay subtract\nThe  delay subtract button subtracts the peak value to the microphone channels delay.\nIf Real Time curve is disable, the Max value of the selected snapshot is used.\n\n\n\n\n\n\nNote\n\n\n\nThe impulse response is closely tied to the transfer function, in that they are both related to another by a Fourier transform.\nFor practical aspects, FLUX:: Analyzer employs two distinct analysis engines to compute the impulse response and transfer function, as this allows to use separate settings for the two, which is often necessary in practice."
+  },
+  {
+    "objectID": "Impulse_response_measurement_General_procedure.html",
+    "href": "Impulse_response_measurement_General_procedure.html",
+    "title": "75  General procedure",
+    "section": "",
+    "text": "Impulse response (IR) measurement requires that sufficient samples be accumulated before the actual computation is ready, depending on the values of the Max Length and Time averaging settings. The user interface displays a message indicating the remaining time before the display is ready, whenever the related settings are changed or the reset button is pressed.\nBecause the software cannot detect whenever you make changes to the analyzed system, you need to press the Reset button in the setup or wait for the display to stabilize before reading the display.\nOnce your test setup is ready, press the ‘Reset’ button and wait for the display showing remaining time to disappear, at which point the IR display is ready. When a sufficient amount of samples has been accumulated, IR computation goes on as long as the ‘Run’ button is active, and is updated with new incoming samples.\n\n\n\n\n\n\nNote\n\n\n\nMake sure the actual impulse response is shorter than the maximum specified time, otherwise mild to severe time-aliasing will occur, and the measurement will not be reliable.\nA good rule of thumb is to set the Max length parameter to twice that of the estimated RT60 of the room.\nIf in doubt, raise the Max length setting until the impulse response curve does not change, and check the tail of the curve does indeed fall to zero."
+  },
+  {
+    "objectID": "Impulse_response_measurement_Time_averaging.html",
+    "href": "Impulse_response_measurement_Time_averaging.html",
+    "title": "76  Time averaging",
+    "section": "",
+    "text": "The time averaging function computes the mean of several IR measurements over time, which is very useful to filter out noise and other artifacts. It is enabled by default as this gives better display stability and measurement robustness, however averaging also slows down the reactivity of the display to incoming variations, so you can disable it if needed.\n\nWhen IR averaging is enabled, a message is shown giving the number of currently computed impulse responses versus averaging length. The display switches to show the mean confidence percentage when ready."
+  },
+  {
+    "objectID": "Impulse_response_measurement_Main_setup.html",
+    "href": "Impulse_response_measurement_Main_setup.html",
+    "title": "77  Main setup",
+    "section": "",
+    "text": "78 Reset\nResets the impulse response computation, including the averaging buffer."
+  },
+  {
+    "objectID": "Impulse_response_measurement_Main_setup.html#run",
+    "href": "Impulse_response_measurement_Main_setup.html#run",
+    "title": "77  Main setup",
+    "section": "77.1 Run",
+    "text": "77.1 Run\nToggles impulse response live update on and off. Default is on. You can temporarily freeze the impulse response with this button, to examine it in detail at your leisure, without worrying about changing external conditions.\nDisabling ‘Run’ is equivalent to freezing the measurement, and leaves the averaging buffer as is."
+  },
+  {
+    "objectID": "Impulse_response_measurement_Time.html",
+    "href": "Impulse_response_measurement_Time.html",
+    "title": "78  Max length",
+    "section": "",
+    "text": "Sets the maximum length of the impulse response in seconds. If the reverberation time in your room exceeds this value, time-aliasing will occur, meaning that the impulse response computation will be incorrect and some of the reverberation tail might end up at the start of the display. The default value is 0.3s.\nIncreasing this value not only requires more processing power, it also increases the time needed to wait for the display to be updated, as the calculations involved need a greater amount of incoming audio samples to be processed.\nCombining time averaging and a long length setting mean you’ll have to wait 30 seconds or so for the display to stabilize, so you should really do this if you need to or do not mind waiting.\n\n79 Time averaging\nAccumulates several impulse response measurements and averages them before display. This allows for more precise measurements and lessens the effect of spurious acoustic noise interfering with the measurement, but it also means having to wait longer for the measurement to be ready."
+  },
+  {
+    "objectID": "Impulse_response_measurement_Scale.html",
+    "href": "Impulse_response_measurement_Scale.html",
+    "title": "79  AutoRange",
+    "section": "",
+    "text": "Toggles auto-scaling the vertical axis to the effective range of the impulse response data in the current timeframe. It functions as an automatic zoom alongside the vertical axis, which can provide useful for hands-free operation."
+  },
+  {
+    "objectID": "Impulse_response_measurement_Other.html#zoom-x",
+    "href": "Impulse_response_measurement_Other.html#zoom-x",
+    "title": "80  Zoom",
+    "section": "80.1 Zoom X",
+    "text": "80.1 Zoom X\nAdjusts the horizontal axis zoom factor, which can also be changed by clicking inside the impulse response display itself and rotating the mouse center wheel up and down (scroll in / out), if your mouse has this feature."
+  },
+  {
+    "objectID": "Impulse_response_measurement_Other.html#zoom-y-",
+    "href": "Impulse_response_measurement_Other.html#zoom-y-",
+    "title": "80  Zoom",
+    "section": "80.2 Zoom Y-/+",
+    "text": "80.2 Zoom Y-/+\nAdjusts the vertical axis zoom factor."
+  },
+  {
+    "objectID": "Spectrogram_Usage.html",
+    "href": "Spectrogram_Usage.html",
+    "title": "81  Usage",
+    "section": "",
+    "text": "The spectrogram is a two-dimensional view of the evolution of the signal’s spectrum over time, i.e. a frequency (Y-axis) versus time (X-axis) plot (or the invert, depending on the direction setting), with the magnitude modulating the color and intensity of the pixels.\nA spectrogram can be computed using the STFT (short-term Fourier transform) as well as other means. It serves as a useful tool to get a global picture of how the frequency content of a signal changes over a time, and eases identification of its structure. Broadband noise appears as background, a pure tone as a horizontal line, and a transient as a vertical line.\nHarmonic content appears as horizontal groups of parallel lines and vertical bars respectively, etc.\n \n\n\n\n\n\n\nNote\n\n\n\nExample spectrogram view"
+  },
+  {
+    "objectID": "Spectrogram_Setup.html#direction",
+    "href": "Spectrogram_Setup.html#direction",
+    "title": "82  Setup",
+    "section": "82.1 Direction",
+    "text": "82.1 Direction\n\nDefines the scrolling direction of the spectrogram."
+  },
+  {
+    "objectID": "Spectrogram_Setup.html#log-gain",
+    "href": "Spectrogram_Setup.html#log-gain",
+    "title": "82  Setup",
+    "section": "82.2 Log Gain",
+    "text": "82.2 Log Gain\nToggles logarithmic scaling of the magnitude spectrum on and off.\nDefault is on.\nWhen enabled, the magnitude at a given time-frequency point is applied a logarithmic scaling before being converted to a pixel value. This has the effect of compressing the dynamic range, and makes low energy components stand out more, but also decreases the contrast of the display."
+  },
+  {
+    "objectID": "Spectrogram_Setup.html#threshold",
+    "href": "Spectrogram_Setup.html#threshold",
+    "title": "82  Setup",
+    "section": "82.3 Threshold",
+    "text": "82.3 Threshold\n\n82.3.1 Threshold - Range Max\nSets the maximum amplitude spectrum value to be displayed.\n\n\n82.3.2 Threshold - Range Min\nSets the minimum amplitude spectrum value to be displayed."
+  },
+  {
+    "objectID": "Spectrogram_Setup.html#color-mode",
+    "href": "Spectrogram_Setup.html#color-mode",
+    "title": "82  Setup",
+    "section": "82.4 Color Mode",
+    "text": "82.4 Color Mode\n\n\n82.4.1 Duotone\nIn this color mode, the amplitude of a time-frequency point is mapped to a pixel using a two-color palette, set using start/end colors.\n\n\n82.4.2 Black On White\nIn this color mode, the amplitude of a time-frequency point is mapped to a pixel using a Black & White color palette with White as background.\n\n\n82.4.3 White On Black\nIn this color mode, the amplitude of a time-frequency point is mapped to a pixel using a Black & White color palette with Black as background.\n\n\n82.4.4 Power grading 1, 2, 3, 4, 5\nIn this color mode, the amplitude of a time-frequency point is mapped to a pixel using different predefined color palette.\n\n\n82.4.5 Frequency grading\nIn this color mode, the amplitude of a time-frequency point determines the intensity of the corresponding pixel, whose color varies according to frequency.\n\n\n82.4.6 Duo-tone grading start/end colors\nSets the color to use for minimum and maximum amplitude components respectively, when color mode is set to Duotone."
+  },
+  {
+    "objectID": "Snapshots_Snapshots.html",
+    "href": "Snapshots_Snapshots.html",
+    "title": "83  Snapshots",
+    "section": "",
+    "text": "Curves can be saved on disk for subsequent loading, allowing for comparison between mixes, comparison to a reference spectra, etc.\nA snapshot contains the state of the curves at the time it was taken:\n\nChannel spectra.\nTransfer function.\nImpulse response.\n\nA snapshot, as implied by the name, is like a picture of the whole application at a given time. A snapshot contains all the data to save the current signal analysis as displayed on screen, and restore it at any given time, as well as to make comparisons between different locations, setups, etc."
+  },
+  {
+    "objectID": "Snapshots_Usage.html#snapshots",
+    "href": "Snapshots_Usage.html#snapshots",
+    "title": "84  Usage",
+    "section": "84.1 Snapshots",
+    "text": "84.1 Snapshots\nAny number of snapshots can be stored and recalled for further use, and are organized into a group container called a project.\nPlease keep in mind computing and displaying the data associated with a snapshot is not free in terms of processing power and memory. How many snapshots you can use at a time will depends on your particular configuration."
+  },
+  {
+    "objectID": "Snapshots_Usage.html#project",
+    "href": "Snapshots_Usage.html#project",
+    "title": "84  Usage",
+    "section": "84.2 Project",
+    "text": "84.2 Project\nFLUX:: Analyzer creates a default project at startup, which the snapshots will be added to. Projects are stored on disk as a folder containing associated data files. Projects can therefore be renamed, moved, archived and transferred between computers using any method you wish, provided you include all data files inside the project folder.\nYou can save and reload as many projects as you want, disk space permitting.\n\nProjects are saved in\n\n&lt;User folder&gt;/FLUX SE/Pure Analyzer System/Data/&lt;Project Name&gt; &gt;"
+  },
+  {
+    "objectID": "Snapshots_Controls.html#selection-and-navigation",
+    "href": "Snapshots_Controls.html#selection-and-navigation",
+    "title": "85  Controls",
+    "section": "85.1 Selection and navigation",
+    "text": "85.1 Selection and navigation\nThe snapshot list follows standard user interface guidelines, which means you can:\n\nUse keyboard up and down arrows to change the currently selected snapshot. Note: the snapshot section area must be in focus for this to have effect.\nClick on any snapshot to select it.\nShift + click to define a selection range of multiple snapshots."
+  },
+  {
+    "objectID": "Snapshots_Controls.html#add-new-snapshot",
+    "href": "Snapshots_Controls.html#add-new-snapshot",
+    "title": "85  Controls",
+    "section": "85.2 Add new snapshot",
+    "text": "85.2 Add new snapshot\nClicking the  icon immediately creates a new snapshot, stores it on disk, in the folder, adds it to the current project and selects it."
+  },
+  {
+    "objectID": "Snapshots_Controls.html#acquire-sweep",
+    "href": "Snapshots_Controls.html#acquire-sweep",
+    "title": "85  Controls",
+    "section": "85.3 Acquire sweep",
+    "text": "85.3 Acquire sweep\nThe  button launches acquisition of a sweep snapshot. This special type of snapshot automates the acquisition of transfer function and impulse response curves using a swept sine generator output.\nPlease check the following for proper operation:\n\nGenerator output(s) should be properly assigned to the corresponding hardware channels .\nHardware IO should be properly configured and set to hardware output(s).\nSweep start/end frequencies should be set as desired.\n\nProviding the previous requirements are met, a progress dialog will then be displayed until all data has been acquired and the snapshot is computed and ready for display.\n\n\n\n\n\n\nNote\n\n\n\nEnsure the outputs of the generator and the connected speakers are set to reasonable levels in order to prevent damage to your equipment and hearing loss."
+  },
+  {
+    "objectID": "Snapshots_Controls.html#create-average",
+    "href": "Snapshots_Controls.html#create-average",
+    "title": "85  Controls",
+    "section": "85.4 Create average",
+    "text": "85.4 Create average\nClick the  button with multiple snapshots selected to create a new snapshot average of these.\nThe new snapshot curve data is computed from the selected snapshot data as follows:\n\nSpectrum magnitude: average of magnitude vectors.\nTransfer function magnitude: average of magnitude vectors.\nTransfer function phase is set to zero as there is no mathematically significant meaning to averaging of potentially unrelated phase spectra.\nTransfer function coherence: average of coherence vectors.\nImpulse response: average of signals.\n\nThe averaging can only be performed if the snapshots are compatible with one another, that is they have identical:\n\nSampling rate.\nNumber of channels.\nSpectrum type.\nImpulse response length.\n\nA warning message will inform you the averaging cannot be performed if one of the above conditions are not met.\n\n\n\n\n\n\nNote\n\n\n\nThe snapshot average stores the average of the snapshots at the moment it was created.\nIf you change the snapshots in any way, the snapshot average will not change."
+  },
+  {
+    "objectID": "Snapshots_Controls.html#update-current",
+    "href": "Snapshots_Controls.html#update-current",
+    "title": "85  Controls",
+    "section": "85.5 Update current",
+    "text": "85.5 Update current\nClicking the  button will overwrite the last selected snapshot contents with the most current data.\nThis is especially useful when you are fine-tuning your measurement setup and only want to keep the latest one, without creating several snapshots and deleting them afterwards.\n\n\n\n\n\n\nNote\n\n\n\nThis function is destructive: there is no means to revert the original snapshot data."
+  },
+  {
+    "objectID": "Snapshots_Controls.html#load-project",
+    "href": "Snapshots_Controls.html#load-project",
+    "title": "85  Controls",
+    "section": "85.6 Load project",
+    "text": "85.6 Load project\nOpens a dialog box where you can select an existing folder containing a previously saved project.\nTo create a new empty project, creating a new folder and name it, then selecting using in this dialog."
+  },
+  {
+    "objectID": "Snapshots_Controls.html#curve-visibility",
+    "href": "Snapshots_Controls.html#curve-visibility",
+    "title": "85  Controls",
+    "section": "85.7 Curve visibility",
+    "text": "85.7 Curve visibility\nFor each snapshot, you can control which curve should be displayed. These controls are intended to select only those curves that you really need to be displayed when there are many visible snapshots, and still maintain a legible display:\n\nTransfer function coherence.\nTransfer function magnitude.\nTransfer function phase.\nMagnitude spectrum.\nImpulse response.\n\n\n\n\n\n\n\nNote\n\n\n\nThe default visibility of newly created curves can be customized in Display defaults."
+  },
+  {
+    "objectID": "Snapshots_Controls.html#color",
+    "href": "Snapshots_Controls.html#color",
+    "title": "85  Controls",
+    "section": "85.8 Color",
+    "text": "85.8 Color\nOpens up a color selector dialog where you can manually set the color used to identify the snapshot, both in the list and as a curve."
+  },
+  {
+    "objectID": "Snapshots_Controls.html#name",
+    "href": "Snapshots_Controls.html#name",
+    "title": "85  Controls",
+    "section": "85.9 Name",
+    "text": "85.9 Name\nBy the default, newly created snapshots are given the name unlabeled-x, where x is the current number of snapshots in the project. You are strongly encouraged to edit this name for further reference."
+  },
+  {
+    "objectID": "Snapshots_Controls.html#invert-iv",
+    "href": "Snapshots_Controls.html#invert-iv",
+    "title": "85  Controls",
+    "section": "85.10 Invert (Iv)",
+    "text": "85.10 Invert (Iv)\nInverts the magnitude curve of the Transfer function."
+  },
+  {
+    "objectID": "Snapshots_Setup.html#name",
+    "href": "Snapshots_Setup.html#name",
+    "title": "86  Setup",
+    "section": "86.1 Name",
+    "text": "86.1 Name\nYou can here define a new project name which will ultimately create a new folder in the user data folder &lt;User folder&gt;/FLUX SE/Pure Analyzer System/Data/&lt;Project Name&gt;"
+  },
+  {
+    "objectID": "Snapshots_Setup.html#display-defaults",
+    "href": "Snapshots_Setup.html#display-defaults",
+    "title": "86  Setup",
+    "section": "86.2 Display defaults",
+    "text": "86.2 Display defaults\nToggles the default curve visibility applied to newly created snapshots.\n‘All’ controls whether new snapshots should be visible by default, and you can fine-tune which curves should also be shown/hidden here."
+  },
+  {
+    "objectID": "Wave_scope_Wave_scope.html",
+    "href": "Wave_scope_Wave_scope.html",
+    "title": "Wave scope",
+    "section": "",
+    "text": "The wave scope is a simple oscilloscope-type waveform display.\n\n\n\nWave scope display with stereo input.\n\n\n\n\n\n\nNote\n\n\n\nThe wave scope will include more functionality and settings in future releases."
+  },
+  {
+    "objectID": "Wave_scope_ScopeSetup.html#time",
+    "href": "Wave_scope_ScopeSetup.html#time",
+    "title": "87  Setup",
+    "section": "87.1 Time",
+    "text": "87.1 Time\nTime window in milliseconds."
+  },
+  {
+    "objectID": "Wave_scope_ScopeSetup.html#color-mode",
+    "href": "Wave_scope_ScopeSetup.html#color-mode",
+    "title": "87  Setup",
+    "section": "87.2 Color Mode",
+    "text": "87.2 Color Mode\n\n\n87.2.1 Static\nDisplays the waves using 1 unique static color.\n\n\n87.2.2 Custom Dynamic\nDisplays the waves according to the transient using a 2 user defined colors gradient.\n\nIf custom dynamic chosen, user defined Color 1 and Color 2 will be used&gt;\n\n\n\n87.2.3 Rainbow Dynamic\nDisplays the waves according to the transient using a rainbow colors gradient."
+  },
+  {
+    "objectID": "System_Requirements_System_requirements.html#minimum-requirements",
+    "href": "System_Requirements_System_requirements.html#minimum-requirements",
+    "title": "88  System requirements",
+    "section": "88.1 Minimum requirements",
+    "text": "88.1 Minimum requirements\n\nCPU: Intel Core 2 Duo.\nGPU: OpenGL 2.0 or superior compatible, with pixel-shader support."
+  },
+  {
+    "objectID": "System_Requirements_System_requirements.html#recommended-configuration",
+    "href": "System_Requirements_System_requirements.html#recommended-configuration",
+    "title": "88  System requirements",
+    "section": "88.2 Recommended configuration",
+    "text": "88.2 Recommended configuration\nCPU: Intel Core i5 or better.\nGPU: AMD/ATI Radeon or nVidia video-card. Intel integrated graphics are not powerful enough and should be avoided."
+  },
+  {
+    "objectID": "System_Requirements_System_requirements.html#common-requirements",
+    "href": "System_Requirements_System_requirements.html#common-requirements",
+    "title": "88  System requirements",
+    "section": "88.3 Common requirements",
+    "text": "88.3 Common requirements\nA free USB port to connect the iLok key if not using machine authorization\n:::{.callout-note} Please check the latest version of vendor-provided, optimized drivers are installed for your graphics card. Generic drivers are generally less up-to-date and may contain bugs or miss optimizations present in drivers specific to your particular model."
+  },
+  {
+    "objectID": "System_Requirements_Compatibility.html#operating-systems",
+    "href": "System_Requirements_Compatibility.html#operating-systems",
+    "title": "89  Compatibility",
+    "section": "89.1 Operating Systems",
+    "text": "89.1 Operating Systems\n\nPC: Windows 10\nApple: macOS versions 10.13 and up (macOS Big Sur, Monterey compliant, Compatible with ARM / Silicon)"
+  },
+  {
+    "objectID": "System_Requirements_Compatibility.html#hardware-io-support",
+    "href": "System_Requirements_Compatibility.html#hardware-io-support",
+    "title": "89  Compatibility",
+    "section": "89.2 Hardware IO support",
+    "text": "89.2 Hardware IO support\nAny soundcard with a driver compliant with these standards:\n\nASIO(Windows).\nCore Audio (macOS)."
+  },
+  {
+    "objectID": "System_Requirements_Compatibility.html#software---sample-push-support",
+    "href": "System_Requirements_Compatibility.html#software---sample-push-support",
+    "title": "89  Compatibility",
+    "section": "89.3 Software - Sample Push support",
+    "text": "89.3 Software - Sample Push support\nSampleGrabber is a 32-bit plug-in compatible using 64-bit double precision internal processing, compatible with 32-bit and 64-bit (via bridge) hosts\nAll major native formats (AAX, VST, AU, RTAS, TDM, AAX VENUE) are supported."
+  },
+  {
+    "objectID": "System_Requirements_Compatibility.html#supported-formats",
+    "href": "System_Requirements_Compatibility.html#supported-formats",
+    "title": "89  Compatibility",
+    "section": "89.4 Supported formats",
+    "text": "89.4 Supported formats\n\nWindows 10\n\nVST (2.4)\nRTAS*\nTDM*\nAAX\nAAX VENUE\n\nmacOS - 10.12 and later\n\nVST (2.4)\nAU\nAAX\nRTAS*\nTDM*\n\n\n\n\n\n\n\n\nWarning\n\n\n\n*The TDM/RTAS version requires ProTools version 7 or above."
+  },
+  {
+    "objectID": "Credits.html",
+    "href": "Credits.html",
+    "title": "Appendix A — Credits",
+    "section": "",
+    "text": "Project manager and Designer\n\n\nGael Martinet\n\n\n\n\nDeveloped by\n\n\nGael Martinet\nSiegfried Hand\nLorcan Mc Donagh\nSamuel Tracol\n\n\n\n\nDSP Algorithms Specialist\n\n\nLorcan Mc Donagh\n\n\n\n\nGraphic engine\n\n\nEmmanuel Julien\nGael Martinet\n\n\n\n\nContributors\n\n\nFelix Niklasson\nCyril Holtz\nPhilippe Amouroux\nYves Jaget\nLaurent Delenclos (a.k.a Bellote)\nMadje Malki\nNiels Barletta\nJerome Blondel\nSergio Valero Garcia\nAnthony Belard\n\n\n\n\nand thanks to all fantastic testers…\nSpecial Thanks to Alain, Yves, Bruno, Cyril and Claude for helping to shape our minds over the years."
+  },
+  {
+    "objectID": "flux_analyser_release_notes.html#flux-analyser-20.12",
+    "href": "flux_analyser_release_notes.html#flux-analyser-20.12",
+    "title": "Appendix B — Release Notes",
+    "section": "B.1 FLUX:: Analyser 20.12",
+    "text": "B.1 FLUX:: Analyser 20.12"
+  },
+  {
+    "objectID": "flux_analyser_release_notes.html#major-additions",
+    "href": "flux_analyser_release_notes.html#major-additions",
+    "title": "Appendix B — Release Notes",
+    "section": "B.2 Major Additions",
+    "text": "B.2 Major Additions\n\nStability improvements (hardening) with all latest operating systems (OS).\nCatalina, Big Sur and Apple notarization official support.\nNew built in error reporting tools for FLUX:: Analyser.\nNew V20.12 release (new versioning system), now including 1 year of support and upgrade with perpetual license purchase.\nNew Apple and Windows menu and shortcuts.\nMany internal improvements and optimizations - CPU and GPU."
+  },
+  {
+    "objectID": "flux_analyser_release_notes.html#major-optimizations",
+    "href": "flux_analyser_release_notes.html#major-optimizations",
+    "title": "Appendix B — Release Notes",
+    "section": "B.3 Major optimizations",
+    "text": "B.3 Major optimizations\n\nFLUX:: Analyser and Analyser High Precision (64 bit)\nHiDPI / Retina\nLoudness metering conformance for many broadcast/streaming\n\nAES Streaming, Apple, Amazon, Deezer, Netflix, Spotify, TIDAL, YouTube and more.\n\nRevised loudness meter display (clearer, more info and overload warnings)\nNow with 2 perceptual colormaps to spectrogram for improved readability.\nMusical note peak display (label mode)\nImproved spectrum display interpolation\nImproved pure spectrum mode side-lobe analysis\nExternal IR loading in snapshots\n\nvisualizing them as impulse responses and magnitude spectra\n\nI/O layout preference for various channel based arrangements and order.\nOSC support"
+  },
+  {
+    "objectID": "flux_analyser_release_notes.html#other-improvements",
+    "href": "flux_analyser_release_notes.html#other-improvements",
+    "title": "Appendix B — Release Notes",
+    "section": "B.4 Other Improvements",
+    "text": "B.4 Other Improvements\n\nApplication is now notarized to comply with macOS Catalina, Big Sur requirements.\nSpectrum Frequency scale start at 0Hz\nLimit generator output level to prevent sound card clipping.\nSmoother generator volume changes\nNew main menu on macOS (Edit and View Menu)"
+  },
+  {
+    "objectID": "flux_analyser_release_notes.html#bug-fixes",
+    "href": "flux_analyser_release_notes.html#bug-fixes",
+    "title": "Appendix B — Release Notes",
+    "section": "B.5 Bug fixes",
+    "text": "B.5 Bug fixes\n\nB.5.1 FLUX:: Analyser 20.12\n\nB.5.1.1 Build 49931\nFixes;\n\nStudio Session Analyzer is not working\n\n\n\nB.5.1.2 Build 49880\nFixes;\nCore:\n\nMetering Stats (Offline processing) unstable or returning wrong values.\nMetering Stats (Offline processing) file batch loading issue.\nEnsure saved IO setup is still present on reload.\nFix transfer function magnitude smoothing.\nLimit data tooltips to actual range and fix refresh lag.\nFix a number crashes that could occur in various scenarios.\nSuppressed some memory leaks.\nFixed a crash that could occur when switching from pure spectrum / FFT mode.\nFixed snapshot reload issues.\nImproved network connection stability.\nAdded workarounds for various OpenGL driver bugs that were causing display issues on certain setups.\nAll sample rates initialized to 48k by default\n\nUI:\n\nDisplay issues and improvements on macOS\nAdded workarounds for various OpenGL driver bugs that were causing display issues on certain setups.\n\nTruePeak preset name not reflected in UI\nMeter peak value text is clamped to range\n\nVarious:\n\nFix data races\n\n\n\n\nB.5.2 Sample Grabber Plug-ins 20.12\n\nB.5.2.1 Build 49880\nFixes;\n\nSampleGrabber base name truncated after close/reopen host.\nSampleGrabber AAX - Win&Mac - Changing the plug-ins layout has no effect on the analyser.\nSampleGrabber - Win&Mac - AAX/AU/VST - GUI issue with Layout list."
+  },
+  {
+    "objectID": "flux_analyser_release_notes.html#known-issues",
+    "href": "flux_analyser_release_notes.html#known-issues",
+    "title": "Appendix B — Release Notes",
+    "section": "B.6 Known Issues",
+    "text": "B.6 Known Issues\n\nWrong channel order with SampleGrabber and Nuendo\nIssues in some scenarios with Avid VENUE S6L - Sample Grabber AAX VENUE - Doesn’t appear to work (works in AAX Native)"
+  }
+]
