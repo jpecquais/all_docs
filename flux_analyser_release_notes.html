@@ -6,10 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="FLUX:: Immersive">
-<meta name="dcterms.date" content="2023-02-06">
 
-<title>FLUX:: Analyzer</title>
+<title>FLUX:: Analyzer - Appendix B — Release Notes</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -32,7 +30,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./Pure_Analyzer_Pure-analyzer-versions.html" rel="next">
+<link href="./Credits.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -74,7 +72,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Welcome</span></a></li></ol></nav>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./Credits.html">Appendices</a></li><li class="breadcrumb-item"><a href="./flux_analyser_release_notes.html"><span class="chapter-number">B</span>&nbsp; <span class="chapter-title">Release Notes</span></a></li></ol></nav>
       <a class="flex-grow-1" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
       </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -104,7 +102,7 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link active"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Welcome</span></a>
+  <a href="./index.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Welcome</span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -738,7 +736,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./flux_analyser_release_notes.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">B</span>&nbsp; <span class="chapter-title">Release Notes</span></a>
+  <a href="./flux_analyser_release_notes.html" class="sidebar-item-text sidebar-link active"><span class="chapter-number">B</span>&nbsp; <span class="chapter-title">Release Notes</span></a>
   </div>
 </li>
       </ul>
@@ -753,10 +751,16 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#welcome" id="toc-welcome" class="nav-link active" data-scroll-target="#welcome"><span class="header-section-number">1</span> Welcome</a>
+  <li><a href="#flux-analyser-20.12" id="toc-flux-analyser-20.12" class="nav-link active" data-scroll-target="#flux-analyser-20.12"><span class="header-section-number">B.1</span> FLUX:: Analyser 20.12</a></li>
+  <li><a href="#major-additions" id="toc-major-additions" class="nav-link" data-scroll-target="#major-additions"><span class="header-section-number">B.2</span> Major Additions</a></li>
+  <li><a href="#major-optimizations" id="toc-major-optimizations" class="nav-link" data-scroll-target="#major-optimizations"><span class="header-section-number">B.3</span> Major optimizations</a></li>
+  <li><a href="#other-improvements" id="toc-other-improvements" class="nav-link" data-scroll-target="#other-improvements"><span class="header-section-number">B.4</span> Other Improvements</a></li>
+  <li><a href="#bug-fixes" id="toc-bug-fixes" class="nav-link" data-scroll-target="#bug-fixes"><span class="header-section-number">B.5</span> Bug fixes</a>
   <ul class="collapse">
-  <li><a href="#thank-you" id="toc-thank-you" class="nav-link" data-scroll-target="#thank-you"><span class="header-section-number">1.1</span> Thank You!</a></li>
+  <li><a href="#flux-analyser-20.12-1" id="toc-flux-analyser-20.12-1" class="nav-link" data-scroll-target="#flux-analyser-20.12-1"><span class="header-section-number">B.5.1</span> FLUX:: Analyser 20.12</a></li>
+  <li><a href="#sample-grabber-plug-ins-20.12" id="toc-sample-grabber-plug-ins-20.12" class="nav-link" data-scroll-target="#sample-grabber-plug-ins-20.12"><span class="header-section-number">B.5.2</span> Sample Grabber Plug-ins 20.12</a></li>
   </ul></li>
+  <li><a href="#known-issues" id="toc-known-issues" class="nav-link" data-scroll-target="#known-issues"><span class="header-section-number">B.6</span> Known Issues</a></li>
   </ul>
 </nav>
     </div>
@@ -765,26 +769,14 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">FLUX:: Analyzer</h1>
+<h1 class="title">Appendix B — Release Notes</h1>
 </div>
 
 
 
 <div class="quarto-title-meta">
 
-    <div>
-    <div class="quarto-title-meta-heading">Author</div>
-    <div class="quarto-title-meta-contents">
-             <p>FLUX:: Immersive </p>
-          </div>
-  </div>
     
-    <div>
-    <div class="quarto-title-meta-heading">Published</div>
-    <div class="quarto-title-meta-contents">
-      <p class="date">February 6, 2023</p>
-    </div>
-  </div>
   
     
   </div>
@@ -792,15 +784,117 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<section id="welcome" class="level1" data-number="1">
-<h1 data-number="1"><span class="header-section-number">1</span> Welcome</h1>
-<section id="thank-you" class="level2" data-number="1.1">
-<h2 data-number="1.1" class="anchored" data-anchor-id="thank-you"><span class="header-section-number">1.1</span> Thank You!</h2>
-<p>Thank you for purchasing FLUX:: Analyzer System.</p>
-<p><a href="https://www.flux.audio/project/flux-analyzer/">Product Page</a> | <a href="https://shop.flux.audio/en_US/products/flux-analyzer">Shop Page</a></p>
-
-
+<section id="flux-analyser-20.12" class="level2" data-number="B.1">
+<h2 data-number="B.1" class="anchored" data-anchor-id="flux-analyser-20.12"><span class="header-section-number">B.1</span> FLUX:: Analyser 20.12</h2>
 </section>
+<section id="major-additions" class="level2" data-number="B.2">
+<h2 data-number="B.2" class="anchored" data-anchor-id="major-additions"><span class="header-section-number">B.2</span> Major Additions</h2>
+<ul>
+<li>Stability improvements (hardening) with all latest operating systems (OS).</li>
+<li>Catalina, Big Sur and Apple notarization official support.</li>
+<li>New built in error reporting tools for FLUX:: Analyser.</li>
+<li>New V20.12 release (new versioning system), now including 1 year of support and upgrade with perpetual license purchase.</li>
+<li>New Apple and Windows menu and shortcuts.</li>
+<li>Many internal improvements and optimizations - CPU and GPU.</li>
+</ul>
+</section>
+<section id="major-optimizations" class="level2" data-number="B.3">
+<h2 data-number="B.3" class="anchored" data-anchor-id="major-optimizations"><span class="header-section-number">B.3</span> Major optimizations</h2>
+<ul>
+<li>FLUX:: Analyser and Analyser High Precision (64 bit)</li>
+<li>HiDPI / Retina</li>
+<li>Loudness metering conformance for many broadcast/streaming
+<ul>
+<li>AES Streaming, Apple, Amazon, Deezer, Netflix, Spotify, TIDAL, YouTube and more.</li>
+</ul></li>
+<li>Revised loudness meter display (clearer, more info and overload warnings)</li>
+<li>Now with 2 perceptual colormaps to spectrogram for improved readability.</li>
+<li>Musical note peak display (label mode)</li>
+<li>Improved spectrum display interpolation</li>
+<li>Improved pure spectrum mode side-lobe analysis</li>
+<li>External IR loading in snapshots
+<ul>
+<li>visualizing them as impulse responses and magnitude spectra</li>
+</ul></li>
+<li>I/O layout preference for various channel based arrangements and order.</li>
+<li>OSC support</li>
+</ul>
+</section>
+<section id="other-improvements" class="level2" data-number="B.4">
+<h2 data-number="B.4" class="anchored" data-anchor-id="other-improvements"><span class="header-section-number">B.4</span> Other Improvements</h2>
+<ul>
+<li>Application is now notarized to comply with macOS Catalina, Big Sur requirements.</li>
+<li>Spectrum Frequency scale start at 0Hz</li>
+<li>Limit generator output level to prevent sound card clipping.</li>
+<li>Smoother generator volume changes</li>
+<li>New main menu on macOS (Edit and View Menu)</li>
+</ul>
+</section>
+<section id="bug-fixes" class="level2" data-number="B.5">
+<h2 data-number="B.5" class="anchored" data-anchor-id="bug-fixes"><span class="header-section-number">B.5</span> Bug fixes</h2>
+<section id="flux-analyser-20.12-1" class="level3" data-number="B.5.1">
+<h3 data-number="B.5.1" class="anchored" data-anchor-id="flux-analyser-20.12-1"><span class="header-section-number">B.5.1</span> FLUX:: Analyser 20.12</h3>
+<section id="build-49931" class="level4" data-number="B.5.1.1">
+<h4 data-number="B.5.1.1" class="anchored" data-anchor-id="build-49931"><span class="header-section-number">B.5.1.1</span> Build 49931</h4>
+<p><strong>Fixes;</strong></p>
+<ul>
+<li>Studio Session Analyzer is not working</li>
+</ul>
+</section>
+<section id="build-49880" class="level4" data-number="B.5.1.2">
+<h4 data-number="B.5.1.2" class="anchored" data-anchor-id="build-49880"><span class="header-section-number">B.5.1.2</span> Build 49880</h4>
+<p><strong>Fixes;</strong></p>
+<p>Core:</p>
+<ul>
+<li>Metering Stats (Offline processing) unstable or returning wrong values.</li>
+<li>Metering Stats (Offline processing) file batch loading issue.</li>
+<li>Ensure saved IO setup is still present on reload.</li>
+<li>Fix transfer function magnitude smoothing.</li>
+<li>Limit data tooltips to actual range and fix refresh lag.</li>
+<li>Fix a number crashes that could occur in various scenarios.</li>
+<li>Suppressed some memory leaks.</li>
+<li>Fixed a crash that could occur when switching from pure spectrum / FFT mode.</li>
+<li>Fixed snapshot reload issues.</li>
+<li>Improved network connection stability.</li>
+<li>Added workarounds for various OpenGL driver bugs that were causing display issues on certain setups.</li>
+<li>All sample rates initialized to 48k by default</li>
+</ul>
+<p>UI:</p>
+<ul>
+<li>Display issues and improvements on macOS</li>
+<li>Added workarounds for various OpenGL driver bugs that were causing display issues on certain setups.<br>
+</li>
+<li>TruePeak preset name not reflected in UI</li>
+<li>Meter peak value text is clamped to range</li>
+</ul>
+<p>Various:</p>
+<ul>
+<li>Fix data races</li>
+</ul>
+</section>
+</section>
+<section id="sample-grabber-plug-ins-20.12" class="level3" data-number="B.5.2">
+<h3 data-number="B.5.2" class="anchored" data-anchor-id="sample-grabber-plug-ins-20.12"><span class="header-section-number">B.5.2</span> Sample Grabber Plug-ins 20.12</h3>
+<section id="build-49880-1" class="level4" data-number="B.5.2.1">
+<h4 data-number="B.5.2.1" class="anchored" data-anchor-id="build-49880-1"><span class="header-section-number">B.5.2.1</span> Build 49880</h4>
+<p><strong>Fixes;</strong></p>
+<ul>
+<li>SampleGrabber base name truncated after close/reopen host.</li>
+<li>SampleGrabber AAX - Win&amp;Mac - Changing the plug-ins layout has no effect on the analyser.</li>
+<li>SampleGrabber - Win&amp;Mac - AAX/AU/VST - GUI issue with Layout list.</li>
+</ul>
+</section>
+</section>
+</section>
+<section id="known-issues" class="level2" data-number="B.6">
+<h2 data-number="B.6" class="anchored" data-anchor-id="known-issues"><span class="header-section-number">B.6</span> Known Issues</h2>
+<ul>
+<li>Wrong channel order with SampleGrabber and Nuendo</li>
+<li>Issues in some scenarios with Avid VENUE S6L - Sample Grabber AAX VENUE - Doesn’t appear to work (works in AAX Native)</li>
+</ul>
+<hr>
+
+
 </section>
 
 </main> <!-- /main -->
@@ -1039,11 +1133,11 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
+      <a href="./Credits.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">A</span>&nbsp; <span class="chapter-title">Credits</span></span>
+      </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./Pure_Analyzer_Pure-analyzer-versions.html" class="pagination-link">
-        <span class="nav-page-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">FLUX:: Analyzer Versions</span></span> <i class="bi bi-arrow-right-short"></i>
-      </a>
   </div>
 </nav>
 </div> <!-- /content -->

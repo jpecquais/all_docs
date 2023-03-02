@@ -6,10 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="FLUX:: Immersive">
-<meta name="dcterms.date" content="2023-02-06">
 
-<title>FLUX:: Analyzer</title>
+<title>FLUX:: Analyzer - 59&nbsp; Overview</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -32,7 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./Pure_Analyzer_Pure-analyzer-versions.html" rel="next">
+<link href="./Metering_statistics_Off-line_processing_media_queue.html" rel="next">
+<link href="./Metering_statistics_Audio_level_statistics.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -74,7 +73,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Welcome</span></a></li></ol></nav>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./Metering_statistics_Audio_level_statistics.html">Metering statistics</a></li><li class="breadcrumb-item"><a href="./Metering_statistics_Incident_reporting.html"><span class="chapter-number">59</span>&nbsp; <span class="chapter-title">Overview</span></a></li></ol></nav>
       <a class="flex-grow-1" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
       </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -104,7 +103,7 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link active"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Welcome</span></a>
+  <a href="./index.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Welcome</span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -495,7 +494,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./Metering_statistics_Incident_reporting.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">59</span>&nbsp; <span class="chapter-title">Overview</span></a>
+  <a href="./Metering_statistics_Incident_reporting.html" class="sidebar-item-text sidebar-link active"><span class="chapter-number">59</span>&nbsp; <span class="chapter-title">Overview</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -753,9 +752,11 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#welcome" id="toc-welcome" class="nav-link active" data-scroll-target="#welcome"><span class="header-section-number">1</span> Welcome</a>
+  <li><a href="#setup" id="toc-setup" class="nav-link active" data-scroll-target="#setup"><span class="header-section-number">60</span> Setup</a>
   <ul class="collapse">
-  <li><a href="#thank-you" id="toc-thank-you" class="nav-link" data-scroll-target="#thank-you"><span class="header-section-number">1.1</span> Thank You!</a></li>
+  <li><a href="#max.-incident-count" id="toc-max.-incident-count" class="nav-link" data-scroll-target="#max.-incident-count"><span class="header-section-number">60.1</span> Max. incident count</a></li>
+  <li><a href="#truepeak-incident-enable-threshold" id="toc-truepeak-incident-enable-threshold" class="nav-link" data-scroll-target="#truepeak-incident-enable-threshold"><span class="header-section-number">60.2</span> TruePeak Incident Enable + threshold</a></li>
+  <li><a href="#ebu-r128-short-term-dialog-incident-enable-thresholds" id="toc-ebu-r128-short-term-dialog-incident-enable-thresholds" class="nav-link" data-scroll-target="#ebu-r128-short-term-dialog-incident-enable-thresholds"><span class="header-section-number">60.3</span> EBU R128 Short term / Dialog Incident Enable + thresholds</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -765,26 +766,14 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">FLUX:: Analyzer</h1>
+<h1 class="title"><span class="chapter-number">59</span>&nbsp; <span class="chapter-title">Overview</span></h1>
 </div>
 
 
 
 <div class="quarto-title-meta">
 
-    <div>
-    <div class="quarto-title-meta-heading">Author</div>
-    <div class="quarto-title-meta-contents">
-             <p>FLUX:: Immersive </p>
-          </div>
-  </div>
     
-    <div>
-    <div class="quarto-title-meta-heading">Published</div>
-    <div class="quarto-title-meta-contents">
-      <p class="date">February 6, 2023</p>
-    </div>
-  </div>
   
     
   </div>
@@ -792,12 +781,28 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<section id="welcome" class="level1" data-number="1">
-<h1 data-number="1"><span class="header-section-number">1</span> Welcome</h1>
-<section id="thank-you" class="level2" data-number="1.1">
-<h2 data-number="1.1" class="anchored" data-anchor-id="thank-you"><span class="header-section-number">1.1</span> Thank You!</h2>
-<p>Thank you for purchasing FLUX:: Analyzer System.</p>
-<p><a href="https://www.flux.audio/project/flux-analyzer/">Product Page</a> | <a href="https://shop.flux.audio/en_US/products/flux-analyzer">Shop Page</a></p>
+<p>All TruePeak and R128 Short term values that cross the thresholds are recorded and displayed as a list. Each row in the list shows a record of the offending peak value in dB alongside with the time-code at which the event occurred. You can navigate the list and locate the time positions of the incident, then playback again the corresponding source material in order to identify and correct the problem.</p>
+<section id="setup" class="level1" data-number="60">
+<h1 data-number="60"><span class="header-section-number">60</span> Setup</h1>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/MeteringStatistics/IncidentSetup.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption">Incidents setup options.</figcaption><p></p>
+</figure>
+</div>
+<section id="max.-incident-count" class="level2" data-number="60.1">
+<h2 data-number="60.1" class="anchored" data-anchor-id="max.-incident-count"><span class="header-section-number">60.1</span> Max. incident count</h2>
+<p>To avoid overloading the display, and eventually, the computer’s memory, there is a limit placed on the number of registered incidents, which is 2000 by default. If you go above this, it might be a good idea to back off the master fader a bit anyway to let that music breathe !</p>
+<p>However, you can override this behavior by setting this value to -1, which will remove the limit altogether.</p>
+</section>
+<section id="truepeak-incident-enable-threshold" class="level2" data-number="60.2">
+<h2 data-number="60.2" class="anchored" data-anchor-id="truepeak-incident-enable-threshold"><span class="header-section-number">60.2</span> TruePeak Incident Enable + threshold</h2>
+<p>Defines the threshold above which an incident will be registered. Default is 0dBTP, which corresponding to full digital scale. A conservative value would be -0.1dBTP, to be on the safe side.</p>
+<p>Keep in mind TruePeak is designed to measure inter-sample peaks, and that 0dBTP is actually a few tenths of decibels softer than digital peak.</p>
+</section>
+<section id="ebu-r128-short-term-dialog-incident-enable-thresholds" class="level2" data-number="60.3">
+<h2 data-number="60.3" class="anchored" data-anchor-id="ebu-r128-short-term-dialog-incident-enable-thresholds"><span class="header-section-number">60.3</span> EBU R128 Short term / Dialog Incident Enable + thresholds</h2>
+<p>Defines the threshold under/above which an incident will be registered.</p>
 
 
 </section>
@@ -1039,10 +1044,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
+      <a href="./Metering_statistics_Audio_level_statistics.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">58</span>&nbsp; <span class="chapter-title">Metering statistics</span></span>
+      </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./Pure_Analyzer_Pure-analyzer-versions.html" class="pagination-link">
-        <span class="nav-page-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">FLUX:: Analyzer Versions</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./Metering_statistics_Off-line_processing_media_queue.html" class="pagination-link">
+        <span class="nav-page-text"><span class="chapter-number">60</span>&nbsp; <span class="chapter-title">Usage</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

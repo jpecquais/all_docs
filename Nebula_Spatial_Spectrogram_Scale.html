@@ -6,10 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="FLUX:: Immersive">
-<meta name="dcterms.date" content="2023-02-06">
 
-<title>FLUX:: Analyzer</title>
+<title>FLUX:: Analyzer - 25&nbsp; Focus</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -32,7 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./Pure_Analyzer_Pure-analyzer-versions.html" rel="next">
+<link href="./Nebula_Spatial_Spectrogram_Display.html" rel="next">
+<link href="./Nebula_Spatial_Spectrogram_Principle_of_operation_and_intended_usage.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -74,7 +73,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Welcome</span></a></li></ol></nav>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./Nebula_Spatial_Spectrogram_Principle_of_operation_and_intended_usage.html">Nebula (spatial spectrogram)</a></li><li class="breadcrumb-item"><a href="./Nebula_Spatial_Spectrogram_Scale.html"><span class="chapter-number">25</span>&nbsp; <span class="chapter-title">Focus</span></a></li></ol></nav>
       <a class="flex-grow-1" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
       </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -104,7 +103,7 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link active"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Welcome</span></a>
+  <a href="./index.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Welcome</span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -255,7 +254,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./Nebula_Spatial_Spectrogram_Scale.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">25</span>&nbsp; <span class="chapter-title">Focus</span></a>
+  <a href="./Nebula_Spatial_Spectrogram_Scale.html" class="sidebar-item-text sidebar-link active"><span class="chapter-number">25</span>&nbsp; <span class="chapter-title">Focus</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -753,10 +752,10 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#welcome" id="toc-welcome" class="nav-link active" data-scroll-target="#welcome"><span class="header-section-number">1</span> Welcome</a>
-  <ul class="collapse">
-  <li><a href="#thank-you" id="toc-thank-you" class="nav-link" data-scroll-target="#thank-you"><span class="header-section-number">1.1</span> Thank You!</a></li>
-  </ul></li>
+  <li><a href="#autoscale" id="toc-autoscale" class="nav-link active" data-scroll-target="#autoscale"><span class="header-section-number">26</span> AutoScale</a></li>
+  <li><a href="#autoscale-release" id="toc-autoscale-release" class="nav-link" data-scroll-target="#autoscale-release"><span class="header-section-number">27</span> AutoScale release</a></li>
+  <li><a href="#linear-blend-range" id="toc-linear-blend-range" class="nav-link" data-scroll-target="#linear-blend-range"><span class="header-section-number">28</span> Linear blend range</a></li>
+  <li><a href="#log-blending" id="toc-log-blending" class="nav-link" data-scroll-target="#log-blending"><span class="header-section-number">29</span> Log blending</a></li>
   </ul>
 </nav>
     </div>
@@ -765,26 +764,14 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">FLUX:: Analyzer</h1>
+<h1 class="title"><span class="chapter-number">25</span>&nbsp; <span class="chapter-title">Focus</span></h1>
 </div>
 
 
 
 <div class="quarto-title-meta">
 
-    <div>
-    <div class="quarto-title-meta-heading">Author</div>
-    <div class="quarto-title-meta-contents">
-             <p>FLUX:: Immersive </p>
-          </div>
-  </div>
     
-    <div>
-    <div class="quarto-title-meta-heading">Published</div>
-    <div class="quarto-title-meta-contents">
-      <p class="date">February 6, 2023</p>
-    </div>
-  </div>
   
     
   </div>
@@ -792,15 +779,45 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<section id="welcome" class="level1" data-number="1">
-<h1 data-number="1"><span class="header-section-number">1</span> Welcome</h1>
-<section id="thank-you" class="level2" data-number="1.1">
-<h2 data-number="1.1" class="anchored" data-anchor-id="thank-you"><span class="header-section-number">1.1</span> Thank You!</h2>
-<p>Thank you for purchasing FLUX:: Analyzer System.</p>
-<p><a href="https://www.flux.audio/project/flux-analyzer/">Product Page</a> | <a href="https://shop.flux.audio/en_US/products/flux-analyzer">Shop Page</a></p>
-
-
+<p>Controls the stereo image width X-axis display range, in dB.</p>
+<p>A value comprised between ±18 and ±24dB correlates well with our abilities in perceiving the stereo image.</p>
+<p>Default is ±18dB.</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Pixels outside the focus range are clamped to the view boundaries.</p>
+</div>
+</div>
+<section id="autoscale" class="level1" data-number="26">
+<h1 data-number="26"><span class="header-section-number">26</span> AutoScale</h1>
+<p>This parameter controls whether the intensity of the particles are modulated by the overall audio level variations. In essence, when enabled, the color nuances will vary according to the relative amplitude of a frequency, allowing to monitor the relative amplitude spectrum variations. When disabled, the color will reflect the absolute audio level. You can also think of this as a kind of auto-gain setting.</p>
 </section>
+<section id="autoscale-release" class="level1" data-number="27">
+<h1 data-number="27"><span class="header-section-number">27</span> AutoScale release</h1>
+<p>This controls whether color variations should be smoothed in time or not. When engaged, color variations is slowed down a bit, which makes overall level transitions more obvious.</p>
+<blockquote class="blockquote">
+<p>You should to enable this setting when you want to visualize quick level variations such as those that frequently occur in movie soundtracks.</p>
+</blockquote>
+</section>
+<section id="linear-blend-range" class="level1" data-number="28">
+<h1 data-number="28"><span class="header-section-number">28</span> Linear blend range</h1>
+<p>Adds a constant blend amount to the particle. This ensures some particles are always blended into the image even if its original magnitude is low.</p>
+<p>A low value for this setting has the effect of stabilizing the appearance of particles. With large values more of the spectrum dynamics are taken into account, and only peaks mostly come through.</p>
+</section>
+<section id="log-blending" class="level1" data-number="29">
+<h1 data-number="29"><span class="header-section-number">29</span> Log blending</h1>
+<p>Toggles between linear and logarithmic blending of the current particle with old particles.</p>
+<p>The default is off, i.e.&nbsp;linear blending, which tends to favor the display of peaks.</p>
+<p>Logarithmic blending on the other hand preserves more of the full dynamic range of the data, and also gives some visibility to lower levels.</p>
+
+
 </section>
 
 </main> <!-- /main -->
@@ -1039,10 +1056,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
+      <a href="./Nebula_Spatial_Spectrogram_Principle_of_operation_and_intended_usage.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">24</span>&nbsp; <span class="chapter-title">Principle of operation</span></span>
+      </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./Pure_Analyzer_Pure-analyzer-versions.html" class="pagination-link">
-        <span class="nav-page-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">FLUX:: Analyzer Versions</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./Nebula_Spatial_Spectrogram_Display.html" class="pagination-link">
+        <span class="nav-page-text"><span class="chapter-number">26</span>&nbsp; <span class="chapter-title">Fading</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

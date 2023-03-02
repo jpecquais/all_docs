@@ -6,10 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="FLUX:: Immersive">
-<meta name="dcterms.date" content="2023-02-06">
 
-<title>FLUX:: Analyzer</title>
+<title>FLUX:: Analyzer - 28&nbsp; Display</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -32,7 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./Pure_Analyzer_Pure-analyzer-versions.html" rel="next">
+<link href="./Nebula_Surround_scope_Usage.html" rel="next">
+<link href="./Vector_scope_Usage.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -74,7 +73,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Welcome</span></a></li></ol></nav>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./Vector_scope_Usage.html">Vector scope</a></li><li class="breadcrumb-item"><a href="./Vector_scope_Display.html"><span class="chapter-number">28</span>&nbsp; <span class="chapter-title">Display</span></a></li></ol></nav>
       <a class="flex-grow-1" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
       </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -104,7 +103,7 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link active"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Welcome</span></a>
+  <a href="./index.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Welcome</span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -280,7 +279,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./Vector_scope_Display.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">28</span>&nbsp; <span class="chapter-title">Display</span></a>
+  <a href="./Vector_scope_Display.html" class="sidebar-item-text sidebar-link active"><span class="chapter-number">28</span>&nbsp; <span class="chapter-title">Display</span></a>
   </div>
 </li>
       </ul>
@@ -753,10 +752,13 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#welcome" id="toc-welcome" class="nav-link active" data-scroll-target="#welcome"><span class="header-section-number">1</span> Welcome</a>
-  <ul class="collapse">
-  <li><a href="#thank-you" id="toc-thank-you" class="nav-link" data-scroll-target="#thank-you"><span class="header-section-number">1.1</span> Thank You!</a></li>
-  </ul></li>
+  <li><a href="#fs" id="toc-fs" class="nav-link active" data-scroll-target="#fs"><span class="header-section-number">29</span> Fs</a></li>
+  <li><a href="#blending" id="toc-blending" class="nav-link" data-scroll-target="#blending"><span class="header-section-number">30</span> Blending</a></li>
+  <li><a href="#fading" id="toc-fading" class="nav-link" data-scroll-target="#fading"><span class="header-section-number">31</span> Fading</a></li>
+  <li><a href="#size-factor" id="toc-size-factor" class="nav-link" data-scroll-target="#size-factor"><span class="header-section-number">32</span> Size factor</a></li>
+  <li><a href="#blur-kernel-size" id="toc-blur-kernel-size" class="nav-link" data-scroll-target="#blur-kernel-size"><span class="header-section-number">33</span> Blur kernel size</a></li>
+  <li><a href="#color-mode" id="toc-color-mode" class="nav-link" data-scroll-target="#color-mode"><span class="header-section-number">34</span> Color mode</a></li>
+  <li><a href="#particle-startend-colors" id="toc-particle-startend-colors" class="nav-link" data-scroll-target="#particle-startend-colors"><span class="header-section-number">35</span> Particle start/end colors</a></li>
   </ul>
 </nav>
     </div>
@@ -765,26 +767,14 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">FLUX:: Analyzer</h1>
+<h1 class="title"><span class="chapter-number">28</span>&nbsp; <span class="chapter-title">Display</span></h1>
 </div>
 
 
 
 <div class="quarto-title-meta">
 
-    <div>
-    <div class="quarto-title-meta-heading">Author</div>
-    <div class="quarto-title-meta-contents">
-             <p>FLUX:: Immersive </p>
-          </div>
-  </div>
     
-    <div>
-    <div class="quarto-title-meta-heading">Published</div>
-    <div class="quarto-title-meta-contents">
-      <p class="date">February 6, 2023</p>
-    </div>
-  </div>
   
     
   </div>
@@ -792,15 +782,52 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<section id="welcome" class="level1" data-number="1">
-<h1 data-number="1"><span class="header-section-number">1</span> Welcome</h1>
-<section id="thank-you" class="level2" data-number="1.1">
-<h2 data-number="1.1" class="anchored" data-anchor-id="thank-you"><span class="header-section-number">1.1</span> Thank You!</h2>
-<p>Thank you for purchasing FLUX:: Analyzer System.</p>
-<p><a href="https://www.flux.audio/project/flux-analyzer/">Product Page</a> | <a href="https://shop.flux.audio/en_US/products/flux-analyzer">Shop Page</a></p>
-
-
+<p><img src="https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/VectorScope/Setup.png" class="img-fluid"></p>
+<p>:::{.callout-note} Vector scope setup options</p>
+<section id="fs" class="level1" data-number="29">
+<h1 data-number="29"><span class="header-section-number">29</span> Fs</h1>
+<p><img src="https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/VectorScope/FS.png" class="img-fluid"></p>
+<p>Over-sampling factor in multiples of FS, that is the incoming audio is up-sampled as necessary to reach this multiple times 48kHz. Increasing this value increases the display precision and reactivity, at the expense of a little CPU overhead.</p>
 </section>
+<section id="blending" class="level1" data-number="30">
+<h1 data-number="30"><span class="header-section-number">30</span> Blending</h1>
+<p>Controls the amount of particle blending with the current image, from 1 to 100%. A higher value gives more priority to the incoming audio over past frames.</p>
+</section>
+<section id="fading" class="level1" data-number="31">
+<h1 data-number="31"><span class="header-section-number">31</span> Fading</h1>
+<p>Controls display persistence, <i>i.e.</i> the “fade to black” amount for a frame. Lowering this value retains past particles longer, whereas increasing this make them disappear faster.</p>
+</section>
+<section id="size-factor" class="level1" data-number="32">
+<h1 data-number="32"><span class="header-section-number">32</span> Size factor</h1>
+<p>Controls the size of individual particles with respect to screen size.</p>
+</section>
+<section id="blur-kernel-size" class="level1" data-number="33">
+<h1 data-number="33"><span class="header-section-number">33</span> Blur kernel size</h1>
+<p>Controls the radius of the blur effect applied to past particles. Particles are “smeared” more and more as they become older, depending on this setting. Naturally, a bigger value increases the smearing, at the expense of processing power.</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Choosing the value for this setting is really matter of taste, although please keep in mind values that above 5 will require a sufficiently powerful graphics card in order to maintain a responsive display.</p>
+</div>
+</div>
+</section>
+<section id="color-mode" class="level1" data-number="34">
+<h1 data-number="34"><span class="header-section-number">34</span> Color mode</h1>
+<p><img src="https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/VectorScope/ColorMode.png" class="img-fluid"></p>
+<p>This defines how the particle color is determined: * Static color: use only particle start color (see below) * Power grading: color is modulated by overall signal RMS power * Dynamic grading: color is modulated by signal dynamics * Pw+Dyn grading: mix of the two previous modes</p>
+</section>
+<section id="particle-startend-colors" class="level1" data-number="35">
+<h1 data-number="35"><span class="header-section-number">35</span> Particle start/end colors</h1>
+<p>Sets the particle color range to be used.</p>
+
+
 </section>
 
 </main> <!-- /main -->
@@ -1039,10 +1066,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
+      <a href="./Vector_scope_Usage.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">27</span>&nbsp; <span class="chapter-title">Usage</span></span>
+      </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./Pure_Analyzer_Pure-analyzer-versions.html" class="pagination-link">
-        <span class="nav-page-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">FLUX:: Analyzer Versions</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./Nebula_Surround_scope_Usage.html" class="pagination-link">
+        <span class="nav-page-text"><span class="chapter-number">29</span>&nbsp; <span class="chapter-title">Usage</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

@@ -6,10 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="FLUX:: Immersive">
-<meta name="dcterms.date" content="2023-02-06">
 
-<title>FLUX:: Analyzer</title>
+<title>FLUX:: Analyzer - 19&nbsp; Smoothing mode</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -32,7 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./Pure_Analyzer_Pure-analyzer-versions.html" rel="next">
+<link href="./Spectrum_analyzer_Summation.html" rel="next">
+<link href="./Spectrum_analyzer_Display_range.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -74,7 +73,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Welcome</span></a></li></ol></nav>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./Spectrum_analyzer_Basic_principles.html">Spectrum analyzer</a></li><li class="breadcrumb-item"><a href="./Spectrum_analyzer_Mode.html"><span class="chapter-number">19</span>&nbsp; <span class="chapter-title">Smoothing mode</span></a></li></ol></nav>
       <a class="flex-grow-1" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
       </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -104,7 +103,7 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link active"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Welcome</span></a>
+  <a href="./index.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Welcome</span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -215,7 +214,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./Spectrum_analyzer_Mode.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">19</span>&nbsp; <span class="chapter-title">Smoothing mode</span></a>
+  <a href="./Spectrum_analyzer_Mode.html" class="sidebar-item-text sidebar-link active"><span class="chapter-number">19</span>&nbsp; <span class="chapter-title">Smoothing mode</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -753,10 +752,12 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#welcome" id="toc-welcome" class="nav-link active" data-scroll-target="#welcome"><span class="header-section-number">1</span> Welcome</a>
-  <ul class="collapse">
-  <li><a href="#thank-you" id="toc-thank-you" class="nav-link" data-scroll-target="#thank-you"><span class="header-section-number">1.1</span> Thank You!</a></li>
-  </ul></li>
+  <li><a href="#smoothing-detail" id="toc-smoothing-detail" class="nav-link active" data-scroll-target="#smoothing-detail"><span class="header-section-number">20</span> Smoothing detail</a></li>
+  <li><a href="#curve-display" id="toc-curve-display" class="nav-link" data-scroll-target="#curve-display"><span class="header-section-number">21</span> Curve display</a></li>
+  <li><a href="#max-curve" id="toc-max-curve" class="nav-link" data-scroll-target="#max-curve"><span class="header-section-number">22</span> Max curve</a></li>
+  <li><a href="#peak-type" id="toc-peak-type" class="nav-link" data-scroll-target="#peak-type"><span class="header-section-number">23</span> Peak type</a></li>
+  <li><a href="#peak-label" id="toc-peak-label" class="nav-link" data-scroll-target="#peak-label"><span class="header-section-number">24</span> Peak label</a></li>
+  <li><a href="#peak-range" id="toc-peak-range" class="nav-link" data-scroll-target="#peak-range"><span class="header-section-number">25</span> Peak range</a></li>
   </ul>
 </nav>
     </div>
@@ -765,26 +766,14 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">FLUX:: Analyzer</h1>
+<h1 class="title"><span class="chapter-number">19</span>&nbsp; <span class="chapter-title">Smoothing mode</span></h1>
 </div>
 
 
 
 <div class="quarto-title-meta">
 
-    <div>
-    <div class="quarto-title-meta-heading">Author</div>
-    <div class="quarto-title-meta-contents">
-             <p>FLUX:: Immersive </p>
-          </div>
-  </div>
     
-    <div>
-    <div class="quarto-title-meta-heading">Published</div>
-    <div class="quarto-title-meta-contents">
-      <p class="date">February 6, 2023</p>
-    </div>
-  </div>
   
     
   </div>
@@ -792,15 +781,78 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<section id="welcome" class="level1" data-number="1">
-<h1 data-number="1"><span class="header-section-number">1</span> Welcome</h1>
-<section id="thank-you" class="level2" data-number="1.1">
-<h2 data-number="1.1" class="anchored" data-anchor-id="thank-you"><span class="header-section-number">1.1</span> Thank You!</h2>
-<p>Thank you for purchasing FLUX:: Analyzer System.</p>
-<p><a href="https://www.flux.audio/project/flux-analyzer/">Product Page</a> | <a href="https://shop.flux.audio/en_US/products/flux-analyzer">Shop Page</a></p>
-
-
+<p>Switches between Window (the default) and various per-octave smoothing types.</p>
+<p>When <i>Window</i> type is selected, a sliding window average of adjustable width is applied to the curve, which results in more or less frequency detail being removed, depending on the Smoothing detail setting.</p>
+<p>When any of the Octave types are selected, the average of the spectrum over the corresponding ISO bands is displayed, as series of horizontal bars. The following series are available: * Octave * 2/3 octave * 1/2 octave * 1/3 octave * 1/6 octave * 1/12 octave</p>
+<section id="smoothing-detail" class="level1" data-number="20">
+<h1 data-number="20"><span class="header-section-number">20</span> Smoothing detail</h1>
+<p>Controls the amount of frequency detail of the smoothed curve, when using window smoothing. The value roughly corresponds to the maximum number of valleys and peaks that can stand out the smoothed curve. A low value lets the global tendency of the amplitude spectrum pass through, while values above 20 or so preserve more detail such as harmonics and sharp equalizer cuts and boosts. Default is 3.</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>This curves acts as a kind of zoom-out control, as it shows the global frequency content of the signal, leaving out details such as harmonic peaks and variations imputable to transient and noise components. Typical uses for this curve is to monitor the global frequency balance of a mix and to visualize the influence of broad equalizer corrections on the mix.</p>
+</div>
+</div>
 </section>
+<section id="curve-display" class="level1" data-number="21">
+<h1 data-number="21"><span class="header-section-number">21</span> Curve display</h1>
+<p><img src="https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Spectrum/CurveDisplay.png" class="img-fluid"></p>
+<p>Toggles between the following curve display modes: * Full: main curve only (no smoothing). * Smoothed: smoothed curve only. * All: both unsmoothed and smoothed curves.</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Selecting one of the first two modes is recommended to avoid display clutter when comparing several channels and/or snapshots.</p>
+</div>
+</div>
+</section>
+<section id="max-curve" class="level1" data-number="22">
+<h1 data-number="22"><span class="header-section-number">22</span> Max curve</h1>
+<p><img src="https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Spectrum/MaxCurve.png" class="img-fluid"></p>
+<p>The max curve employs much longer release time compared to the main curve, and as such registers short peaks much more easily.</p>
+<p>The max curve setting controls its visibility and whether smoothing is applied: * None: curve not displayed. * Full: visible, unsmoothed. * Smoothed: visible, smoothed.</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>The max curve is never displayed for snapshots, as it would be the same as the main curve, since this type of curve does not evolve in time.</p>
+</div>
+</div>
+</section>
+<section id="peak-type" class="level1" data-number="23">
+<h1 data-number="23"><span class="header-section-number">23</span> Peak type</h1>
+<p><img src="https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Spectrum/PeakType.png" class="img-fluid"></p>
+<p>This setting controls the manner in which spectrum magnitude peaks are computed: * Max (global): compute a global maximum over the entire spectrum range. * Max (user): compute the maximum across a user defined portion of the spectrum set in the Peak range.</p>
+</section>
+<section id="peak-label" class="level1" data-number="24">
+<h1 data-number="24"><span class="header-section-number">24</span> Peak label</h1>
+<p><img src="https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Spectrum/PeakLabel.png" class="img-fluid"></p>
+<p>Determines the appearance of the peak display: * None: peaks are not shown. * Bar (Full): vertical bar at current peak located at current frequency. * Bar: vertical bar from base to peak value. * Mark: text box indicating peak value, in dB, and frequency (Hz) at peak location. * Mark + Arrow: same as above, with text at the top of the display and arrow pointing at peak location. This is the most precise indication, but takes up more space.</p>
+</section>
+<section id="peak-range" class="level1" data-number="25">
+<h1 data-number="25"><span class="header-section-number">25</span> Peak range</h1>
+<p>Used in combination with the <i>Max (user)</i> Peak type setting, this defines the minimum and maximum frequencies to take into account when computing the peak.</p>
+
+
 </section>
 
 </main> <!-- /main -->
@@ -1039,10 +1091,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
+      <a href="./Spectrum_analyzer_Display_range.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">18</span>&nbsp; <span class="chapter-title">Display range</span></span>
+      </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./Pure_Analyzer_Pure-analyzer-versions.html" class="pagination-link">
-        <span class="nav-page-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">FLUX:: Analyzer Versions</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./Spectrum_analyzer_Summation.html" class="pagination-link">
+        <span class="nav-page-text"><span class="chapter-number">20</span>&nbsp; <span class="chapter-title">Summation</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

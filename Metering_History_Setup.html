@@ -6,10 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="FLUX:: Immersive">
-<meta name="dcterms.date" content="2023-02-06">
 
-<title>FLUX:: Analyzer</title>
+<title>FLUX:: Analyzer - 57&nbsp; Setup</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -32,7 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./Pure_Analyzer_Pure-analyzer-versions.html" rel="next">
+<link href="./Metering_statistics_Audio_level_statistics.html" rel="next">
+<link href="./Metering_History_Usage.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -74,7 +73,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Welcome</span></a></li></ol></nav>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./Metering_History_Usage.html">Metering history</a></li><li class="breadcrumb-item"><a href="./Metering_History_Setup.html"><span class="chapter-number">57</span>&nbsp; <span class="chapter-title">Setup</span></a></li></ol></nav>
       <a class="flex-grow-1" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
       </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -104,7 +103,7 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link active"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Welcome</span></a>
+  <a href="./index.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Welcome</span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -475,7 +474,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./Metering_History_Setup.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">57</span>&nbsp; <span class="chapter-title">Setup</span></a>
+  <a href="./Metering_History_Setup.html" class="sidebar-item-text sidebar-link active"><span class="chapter-number">57</span>&nbsp; <span class="chapter-title">Setup</span></a>
   </div>
 </li>
       </ul>
@@ -753,10 +752,24 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#welcome" id="toc-welcome" class="nav-link active" data-scroll-target="#welcome"><span class="header-section-number">1</span> Welcome</a>
+  <li><a href="#timecode" id="toc-timecode" class="nav-link active" data-scroll-target="#timecode"><span class="header-section-number">58</span> TimeCode</a>
   <ul class="collapse">
-  <li><a href="#thank-you" id="toc-thank-you" class="nav-link" data-scroll-target="#thank-you"><span class="header-section-number">1.1</span> Thank You!</a></li>
+  <li><a href="#absolute-timecode" id="toc-absolute-timecode" class="nav-link" data-scroll-target="#absolute-timecode"><span class="header-section-number">58.1</span> Absolute Timecode</a></li>
+  <li><a href="#update-factor" id="toc-update-factor" class="nav-link" data-scroll-target="#update-factor"><span class="header-section-number">58.2</span> Update Factor</a></li>
   </ul></li>
+  <li><a href="#single-curve" id="toc-single-curve" class="nav-link" data-scroll-target="#single-curve"><span class="header-section-number">59</span> Single curve</a>
+  <ul class="collapse">
+  <li><a href="#color" id="toc-color" class="nav-link" data-scroll-target="#color"><span class="header-section-number">59.1</span> Color</a></li>
+  </ul></li>
+  <li><a href="#peak" id="toc-peak" class="nav-link" data-scroll-target="#peak"><span class="header-section-number">60</span> Peak</a></li>
+  <li><a href="#rms" id="toc-rms" class="nav-link" data-scroll-target="#rms"><span class="header-section-number">61</span> RMS</a></li>
+  <li><a href="#dynamics" id="toc-dynamics" class="nav-link" data-scroll-target="#dynamics"><span class="header-section-number">62</span> Dynamics</a>
+  <ul class="collapse">
+  <li><a href="#dynamics-1" id="toc-dynamics-1" class="nav-link" data-scroll-target="#dynamics-1"><span class="header-section-number">62.1</span> Dynamics</a></li>
+  <li><a href="#integration" id="toc-integration" class="nav-link" data-scroll-target="#integration"><span class="header-section-number">62.2</span> Integration</a></li>
+  <li><a href="#color-1" id="toc-color-1" class="nav-link" data-scroll-target="#color-1"><span class="header-section-number">62.3</span> Color</a></li>
+  </ul></li>
+  <li><a href="#loudness" id="toc-loudness" class="nav-link" data-scroll-target="#loudness"><span class="header-section-number">63</span> Loudness</a></li>
   </ul>
 </nav>
     </div>
@@ -765,26 +778,14 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">FLUX:: Analyzer</h1>
+<h1 class="title"><span class="chapter-number">57</span>&nbsp; <span class="chapter-title">Setup</span></h1>
 </div>
 
 
 
 <div class="quarto-title-meta">
 
-    <div>
-    <div class="quarto-title-meta-heading">Author</div>
-    <div class="quarto-title-meta-contents">
-             <p>FLUX:: Immersive </p>
-          </div>
-  </div>
     
-    <div>
-    <div class="quarto-title-meta-heading">Published</div>
-    <div class="quarto-title-meta-contents">
-      <p class="date">February 6, 2023</p>
-    </div>
-  </div>
   
     
   </div>
@@ -792,15 +793,80 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<section id="welcome" class="level1" data-number="1">
-<h1 data-number="1"><span class="header-section-number">1</span> Welcome</h1>
-<section id="thank-you" class="level2" data-number="1.1">
-<h2 data-number="1.1" class="anchored" data-anchor-id="thank-you"><span class="header-section-number">1.1</span> Thank You!</h2>
-<p>Thank you for purchasing FLUX:: Analyzer System.</p>
-<p><a href="https://www.flux.audio/project/flux-analyzer/">Product Page</a> | <a href="https://shop.flux.audio/en_US/products/flux-analyzer">Shop Page</a></p>
-
-
+<p><img src="https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/MeteringHistory/Setup.png" class="img-fluid"></p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Metering history setup options.</p>
+</div>
+</div>
+<section id="timecode" class="level1" data-number="58">
+<h1 data-number="58"><span class="header-section-number">58</span> TimeCode</h1>
+<section id="absolute-timecode" class="level2" data-number="58.1">
+<h2 data-number="58.1" class="anchored" data-anchor-id="absolute-timecode"><span class="header-section-number">58.1</span> Absolute Timecode</h2>
+<p>Switches between absolute and relative Timecode formats.</p>
 </section>
+<section id="update-factor" class="level2" data-number="58.2">
+<h2 data-number="58.2" class="anchored" data-anchor-id="update-factor"><span class="header-section-number">58.2</span> Update Factor</h2>
+<p>Divides the History refresh interval; allowing to increase the history time period.</p>
+</section>
+</section>
+<section id="single-curve" class="level1" data-number="59">
+<h1 data-number="59"><span class="header-section-number">59</span> Single curve</h1>
+<section id="color" class="level2" data-number="59.1">
+<h2 data-number="59.1" class="anchored" data-anchor-id="color"><span class="header-section-number">59.1</span> Color</h2>
+<p>Sets the color to use when only a single curve is selected for display.</p>
+</section>
+</section>
+<section id="peak" class="level1" data-number="60">
+<h1 data-number="60"><span class="header-section-number">60</span> Peak</h1>
+<p>These settings allow to specify whether Peak and/or TruePeak curves should be displayed, as well the color to use when drawing them.</p>
+</section>
+<section id="rms" class="level1" data-number="61">
+<h1 data-number="61"><span class="header-section-number">61</span> RMS</h1>
+<p>Toggle RMS curve display on and off, and specify the color to use for drawing.</p>
+</section>
+<section id="dynamics" class="level1" data-number="62">
+<h1 data-number="62"><span class="header-section-number">62</span> Dynamics</h1>
+<p>The dynamics is the current dynamic range of the signal, that is the ratio of the peaks with respect to the average, <i>i.e.</i>the crest factor of the signal.</p>
+<section id="dynamics-1" class="level2" data-number="62.1">
+<h2 data-number="62.1" class="anchored" data-anchor-id="dynamics-1"><span class="header-section-number">62.1</span> Dynamics</h2>
+<p>Toggles dynamics curve display on and off.</p>
+</section>
+<section id="integration" class="level2" data-number="62.2">
+<h2 data-number="62.2" class="anchored" data-anchor-id="integration"><span class="header-section-number">62.2</span> Integration</h2>
+<p>Set the integration time, in milliseconds.</p>
+</section>
+<section id="color-1" class="level2" data-number="62.3">
+<h2 data-number="62.3" class="anchored" data-anchor-id="color-1"><span class="header-section-number">62.3</span> Color</h2>
+<p>Specify the color to use for drawing the curve.</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Percussive content such as drums or rhythm guitar exhibit high dynamics, as opposed to sustained sounds such as strings and synthesizer pads.</p>
+</div>
+</div>
+</section>
+</section>
+<section id="loudness" class="level1" data-number="63">
+<h1 data-number="63"><span class="header-section-number">63</span> Loudness</h1>
+<p>These settings allow to specify whether Short-term and/or Momentary EBU R128 Loudness curves should be displayed, as well the color to use when drawing them.</p>
+
+
 </section>
 
 </main> <!-- /main -->
@@ -1039,10 +1105,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
+      <a href="./Metering_History_Usage.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">56</span>&nbsp; <span class="chapter-title">Usage</span></span>
+      </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./Pure_Analyzer_Pure-analyzer-versions.html" class="pagination-link">
-        <span class="nav-page-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">FLUX:: Analyzer Versions</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./Metering_statistics_Audio_level_statistics.html" class="pagination-link">
+        <span class="nav-page-text"><span class="chapter-number">58</span>&nbsp; <span class="chapter-title">Metering statistics</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

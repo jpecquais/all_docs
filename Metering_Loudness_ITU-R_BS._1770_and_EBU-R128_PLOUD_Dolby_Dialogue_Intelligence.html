@@ -6,10 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="FLUX:: Immersive">
-<meta name="dcterms.date" content="2023-02-06">
 
-<title>FLUX:: Analyzer</title>
+<title>FLUX:: Analyzer - 49&nbsp; Dolby Dialogue Intelligence</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -32,7 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./Pure_Analyzer_Pure-analyzer-versions.html" rel="next">
+<link href="./Metering_Loudness_ITU-R_BS._1770_and_EBU-R128_PLOUD_Controls_and_display.html" rel="next">
+<link href="./Metering_Loudness_ITU-R_BS._1770_and_EBU-R128_PLOUD_Principles.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -74,7 +73,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Welcome</span></a></li></ol></nav>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./Metering_True_peak_metering_True_Peak_metering.html">True peak metering</a></li><li class="breadcrumb-item"><a href="./Metering_Loudness_ITU-R_BS._1770_and_EBU-R128_PLOUD_Dolby_Dialogue_Intelligence.html"><span class="chapter-number">49</span>&nbsp; <span class="chapter-title">Dolby Dialogue Intelligence</span></a></li></ol></nav>
       <a class="flex-grow-1" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
       </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -104,7 +103,7 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link active"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Welcome</span></a>
+  <a href="./index.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Welcome</span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -415,7 +414,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./Metering_Loudness_ITU-R_BS._1770_and_EBU-R128_PLOUD_Dolby_Dialogue_Intelligence.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">49</span>&nbsp; <span class="chapter-title">Dolby Dialogue Intelligence</span></a>
+  <a href="./Metering_Loudness_ITU-R_BS._1770_and_EBU-R128_PLOUD_Dolby_Dialogue_Intelligence.html" class="sidebar-item-text sidebar-link active"><span class="chapter-number">49</span>&nbsp; <span class="chapter-title">Dolby Dialogue Intelligence</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -753,10 +752,12 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#welcome" id="toc-welcome" class="nav-link active" data-scroll-target="#welcome"><span class="header-section-number">1</span> Welcome</a>
-  <ul class="collapse">
-  <li><a href="#thank-you" id="toc-thank-you" class="nav-link" data-scroll-target="#thank-you"><span class="header-section-number">1.1</span> Thank You!</a></li>
-  </ul></li>
+  <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction"><span class="header-section-number">49.1</span> Introduction</a></li>
+  <li><a href="#general-principle" id="toc-general-principle" class="nav-link" data-scroll-target="#general-principle"><span class="header-section-number">49.2</span> General principle</a></li>
+  <li><a href="#display" id="toc-display" class="nav-link" data-scroll-target="#display"><span class="header-section-number">49.3</span> Display</a></li>
+  <li><a href="#delay-and-compensation" id="toc-delay-and-compensation" class="nav-link" data-scroll-target="#delay-and-compensation"><span class="header-section-number">49.4</span> Delay and compensation</a></li>
+  <li><a href="#surround" id="toc-surround" class="nav-link" data-scroll-target="#surround"><span class="header-section-number">49.5</span> Surround</a></li>
+  <li><a href="#copyright-patent-information" id="toc-copyright-patent-information" class="nav-link" data-scroll-target="#copyright-patent-information"><span class="header-section-number">50</span> Copyright &amp; patent information</a></li>
   </ul>
 </nav>
     </div>
@@ -765,26 +766,14 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">FLUX:: Analyzer</h1>
+<h1 class="title"><span class="chapter-number">49</span>&nbsp; <span class="chapter-title">Dolby Dialogue Intelligence</span></h1>
 </div>
 
 
 
 <div class="quarto-title-meta">
 
-    <div>
-    <div class="quarto-title-meta-heading">Author</div>
-    <div class="quarto-title-meta-contents">
-             <p>FLUX:: Immersive </p>
-          </div>
-  </div>
     
-    <div>
-    <div class="quarto-title-meta-heading">Published</div>
-    <div class="quarto-title-meta-contents">
-      <p class="date">February 6, 2023</p>
-    </div>
-  </div>
   
     
   </div>
@@ -792,15 +781,221 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<section id="welcome" class="level1" data-number="1">
-<h1 data-number="1"><span class="header-section-number">1</span> Welcome</h1>
-<section id="thank-you" class="level2" data-number="1.1">
-<h2 data-number="1.1" class="anchored" data-anchor-id="thank-you"><span class="header-section-number">1.1</span> Thank You!</h2>
-<p>Thank you for purchasing FLUX:: Analyzer System.</p>
-<p><a href="https://www.flux.audio/project/flux-analyzer/">Product Page</a> | <a href="https://shop.flux.audio/en_US/products/flux-analyzer">Shop Page</a></p>
-
-
+<section id="introduction" class="level2" data-number="49.1">
+<h2 data-number="49.1" class="anchored" data-anchor-id="introduction"><span class="header-section-number">49.1</span> Introduction</h2>
+<p>While EBU R128 aims to measure global perceived loudness, irrespectively of the audio material, Dolby Dialogue Intelligence is a patented technology designed to specifically measure the perceived loudness of dialogue elements in the audio. It is therefore targeted towards broadcast applications.</p>
 </section>
+<section id="general-principle" class="level2" data-number="49.2">
+<h2 data-number="49.2" class="anchored" data-anchor-id="general-principle"><span class="header-section-number">49.2</span> General principle</h2>
+<p>Dialogue Intelligence replaces EBU R128’s level-based gate with a speech-content ratio based gate. The algorithm computes several low-level features for the incoming signal in speech channels. These are then combined into an overall speech percentage figure. When speech content is detected, Integrated Loudness is computed from the speech channels which have a speech content ratio above a certain threshold.</p>
+<p>When other material is detected, <i>i.e.</i> not speech, standard EBU R128 Integrated Loudness computation is employed.</p>
+</section>
+<section id="display" class="level2" data-number="49.3">
+<h2 data-number="49.3" class="anchored" data-anchor-id="display"><span class="header-section-number">49.3</span> Display</h2>
+<p>The current speech content is displayed as text below the current gate status.</p>
+<p>Additionally, color coding indicates the speech content ratio.</p>
+<ul>
+<li><p>Speech : speech content present</p></li>
+<li><p><color value="00FF00"><b>Green</b></color>: high speech content</p></li>
+<li><p><color value="00A2FF"><b>Orange</b></color>: medium speech content</p></li>
+<li><p><color value="4F4FF0"><b>Red</b></color>: low speech content</p></li>
+<li><p><color value="FF8000"><b><link type="document" target="Other">Other</b></color>: other material present</p></li>
+</ul>
+</section>
+<section id="delay-and-compensation" class="level2" data-number="49.4">
+<h2 data-number="49.4" class="anchored" data-anchor-id="delay-and-compensation"><span class="header-section-number">49.4</span> Delay and compensation</h2>
+<p>The sophistication of the algorithms employed in Dialogue Intelligence incurs an overall latency of 2048ms (approx. 2s).</p>
+<p>When Dialogue Intelligence is enabled, the display of other Loudness values is compensated to make sure meter readings are consistent. Other real-time meter (RMS, TruePeak) displays are not compensated, as we feel in this case maintaining the best reactivity to the incoming signal is more important.</p>
+<p>All meter statistics are time-aligned.</p>
+</section>
+<section id="surround" class="level2" data-number="49.5">
+<h2 data-number="49.5" class="anchored" data-anchor-id="surround"><span class="header-section-number">49.5</span> Surround</h2>
+<p>Channels taken into account by the algorithm are determined based on the current channel configuration.</p>
+<p>For mono/stereo signals, all channels are taken into account. For surround configurations, only Left/Right and Center channels are taken into account, if present.</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Dialogue Intelligence computation only affects I (Integrated) Loudness values.</p>
+<p>Toggling Dialogue Intelligence on and off forces a reset of the meter values.</p>
+</div>
+</div>
+</section>
+<section id="copyright-patent-information" class="level1" data-number="50">
+<h1 data-number="50"><span class="header-section-number">50</span> Copyright &amp; patent information</h1>
+<p><strong>Created under license from Dolby Laboratories Licensing Corporation. Use of this Software does not convey a license nor imply a right under any patent, or any other industrial or intellectual property right of Dolby Laboratories.</strong></p>
+<p>Dolby and the double-D symbol are registered trademarks of Dolby Laboratories. Dialogue Intelligence is a trademark of Dolby Laboratories.</p>
+<p>PATENT LIST - DIALOGUE INTELLIGENCE</p>
+<p>PATENTS</p>
+
+<table>
+<tbody><tr>
+<td>
+Country
+</td>
+<td>
+Patent Number
+</td>
+</tr>
+<tr>
+<td>
+AUSTRALIA
+</td>
+<td>
+2003263845
+</td>
+</tr>
+<tr>
+<td>
+CHINA
+</td>
+<td>
+ZL03819918.1
+</td>
+</tr>
+<tr>
+<td>
+FRANCE
+</td>
+<td>
+1 532 621
+</td>
+</tr>
+<tr>
+<td>
+GERMANY
+</td>
+<td>
+1 532 621
+</td>
+</tr>
+<tr>
+<td>
+HONG KONG
+</td>
+<td>
+1073917
+</td>
+</tr>
+<tr>
+<td>
+ISRAEL
+</td>
+<td>
+165938
+</td>
+</tr>
+<tr>
+<td>
+JAPAN
+</td>
+<td>
+4585855
+</td>
+</tr>
+<tr>
+<td>
+MEXICO
+</td>
+<td>
+252,228
+</td>
+</tr>
+<tr>
+<td>
+MALAYSIA
+</td>
+<td>
+MY-133623-A
+</td>
+</tr>
+<tr>
+<td>
+SINGAPORE
+</td>
+<td>
+109865
+</td>
+</tr>
+<tr>
+<td>
+TAIWAN
+</td>
+<td>
+I306238
+</td>
+</tr>
+<tr>
+<td>
+UNITED KINGDOM
+</td>
+<td>
+1 532 621
+</td>
+</tr>
+<tr>
+<td>
+UNITED STATES
+</td>
+<td>
+7,454,331
+</td>
+</tr>
+
+</tbody></table>
+<p>PATENT APPLICATIONS</p>
+
+<table>
+<tbody><tr>
+<td>
+Country
+</td>
+<td>
+Application Number
+</td>
+</tr>
+<tr>
+<td>
+CANADA
+</td>
+<td>
+2,491,570
+</td>
+</tr>
+<tr>
+<td>
+INDIA
+</td>
+<td>
+1936/KOLNP/2004
+</td>
+</tr>
+<tr>
+<td>
+SOUTH KOREA
+</td>
+<td>
+2005-7003479
+</td>
+</tr>
+<tr>
+<td>
+UNITED STATES
+</td>
+<td>
+12/948,730
+</td>
+</tr>
+
+</tbody></table>
+
+
 </section>
 
 </main> <!-- /main -->
@@ -1039,10 +1234,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
+      <a href="./Metering_Loudness_ITU-R_BS._1770_and_EBU-R128_PLOUD_Principles.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">48</span>&nbsp; <span class="chapter-title">Units</span></span>
+      </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./Pure_Analyzer_Pure-analyzer-versions.html" class="pagination-link">
-        <span class="nav-page-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">FLUX:: Analyzer Versions</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./Metering_Loudness_ITU-R_BS._1770_and_EBU-R128_PLOUD_Controls_and_display.html" class="pagination-link">
+        <span class="nav-page-text"><span class="chapter-number">50</span>&nbsp; <span class="chapter-title">Controls and display</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

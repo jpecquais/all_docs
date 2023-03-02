@@ -6,10 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="FLUX:: Immersive">
-<meta name="dcterms.date" content="2023-02-06">
 
-<title>FLUX:: Analyzer</title>
+<title>FLUX:: Analyzer - 85&nbsp; Controls</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -32,7 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./Pure_Analyzer_Pure-analyzer-versions.html" rel="next">
+<link href="./Snapshots_Setup.html" rel="next">
+<link href="./Snapshots_Usage.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -74,7 +73,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Welcome</span></a></li></ol></nav>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./Spectrogram_Usage.html">Spectrogram</a></li><li class="breadcrumb-item"><a href="./Snapshots_Controls.html"><span class="chapter-number">85</span>&nbsp; <span class="chapter-title">Controls</span></a></li></ol></nav>
       <a class="flex-grow-1" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
       </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -104,7 +103,7 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link active"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Welcome</span></a>
+  <a href="./index.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Welcome</span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -678,7 +677,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./Snapshots_Controls.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">85</span>&nbsp; <span class="chapter-title">Controls</span></a>
+  <a href="./Snapshots_Controls.html" class="sidebar-item-text sidebar-link active"><span class="chapter-number">85</span>&nbsp; <span class="chapter-title">Controls</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -753,10 +752,16 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#welcome" id="toc-welcome" class="nav-link active" data-scroll-target="#welcome"><span class="header-section-number">1</span> Welcome</a>
-  <ul class="collapse">
-  <li><a href="#thank-you" id="toc-thank-you" class="nav-link" data-scroll-target="#thank-you"><span class="header-section-number">1.1</span> Thank You!</a></li>
-  </ul></li>
+  <li><a href="#selection-and-navigation" id="toc-selection-and-navigation" class="nav-link active" data-scroll-target="#selection-and-navigation"><span class="header-section-number">85.1</span> Selection and navigation</a></li>
+  <li><a href="#add-new-snapshot" id="toc-add-new-snapshot" class="nav-link" data-scroll-target="#add-new-snapshot"><span class="header-section-number">85.2</span> Add new snapshot</a></li>
+  <li><a href="#acquire-sweep" id="toc-acquire-sweep" class="nav-link" data-scroll-target="#acquire-sweep"><span class="header-section-number">85.3</span> Acquire sweep</a></li>
+  <li><a href="#create-average" id="toc-create-average" class="nav-link" data-scroll-target="#create-average"><span class="header-section-number">85.4</span> Create average</a></li>
+  <li><a href="#update-current" id="toc-update-current" class="nav-link" data-scroll-target="#update-current"><span class="header-section-number">85.5</span> Update current</a></li>
+  <li><a href="#load-project" id="toc-load-project" class="nav-link" data-scroll-target="#load-project"><span class="header-section-number">85.6</span> Load project</a></li>
+  <li><a href="#curve-visibility" id="toc-curve-visibility" class="nav-link" data-scroll-target="#curve-visibility"><span class="header-section-number">85.7</span> Curve visibility</a></li>
+  <li><a href="#color" id="toc-color" class="nav-link" data-scroll-target="#color"><span class="header-section-number">85.8</span> Color</a></li>
+  <li><a href="#name" id="toc-name" class="nav-link" data-scroll-target="#name"><span class="header-section-number">85.9</span> Name</a></li>
+  <li><a href="#invert-iv" id="toc-invert-iv" class="nav-link" data-scroll-target="#invert-iv"><span class="header-section-number">85.10</span> Invert (Iv)</a></li>
   </ul>
 </nav>
     </div>
@@ -765,26 +770,14 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">FLUX:: Analyzer</h1>
+<h1 class="title"><span class="chapter-number">85</span>&nbsp; <span class="chapter-title">Controls</span></h1>
 </div>
 
 
 
 <div class="quarto-title-meta">
 
-    <div>
-    <div class="quarto-title-meta-heading">Author</div>
-    <div class="quarto-title-meta-contents">
-             <p>FLUX:: Immersive </p>
-          </div>
-  </div>
     
-    <div>
-    <div class="quarto-title-meta-heading">Published</div>
-    <div class="quarto-title-meta-contents">
-      <p class="date">February 6, 2023</p>
-    </div>
-  </div>
   
     
   </div>
@@ -792,15 +785,146 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<section id="welcome" class="level1" data-number="1">
-<h1 data-number="1"><span class="header-section-number">1</span> Welcome</h1>
-<section id="thank-you" class="level2" data-number="1.1">
-<h2 data-number="1.1" class="anchored" data-anchor-id="thank-you"><span class="header-section-number">1.1</span> Thank You!</h2>
-<p>Thank you for purchasing FLUX:: Analyzer System.</p>
-<p><a href="https://www.flux.audio/project/flux-analyzer/">Product Page</a> | <a href="https://shop.flux.audio/en_US/products/flux-analyzer">Shop Page</a></p>
-
-
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Snapshots/Main.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption">Snapshot list and controls</figcaption><p></p>
+</figure>
+</div>
+<p>The snapshot area shows a list view, where one or more snapshots can be selected. The selected snapshot(s) will be highlighted accordingly, both in the list and the corresponding display(s), with increased curve thickness.</p>
+<section id="selection-and-navigation" class="level2" data-number="85.1">
+<h2 data-number="85.1" class="anchored" data-anchor-id="selection-and-navigation"><span class="header-section-number">85.1</span> Selection and navigation</h2>
+<p>The snapshot list follows standard user interface guidelines, which means you can:</p>
+<ul>
+<li>Use keyboard up and down arrows to change the currently selected snapshot. Note: the snapshot section area must be in focus for this to have effect.</li>
+<li>Click on any snapshot to select it.</li>
+<li><code>Shift + click</code> to define a selection range of multiple snapshots.</li>
+</ul>
 </section>
+<section id="add-new-snapshot" class="level2" data-number="85.2">
+<h2 data-number="85.2" class="anchored" data-anchor-id="add-new-snapshot"><span class="header-section-number">85.2</span> Add new snapshot</h2>
+<p>Clicking the <img src="https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Snapshots/CreateSnapshot.png" class="img-fluid"> icon immediately creates a new snapshot, stores it on disk, in the folder, adds it to the current project and selects it.</p>
+</section>
+<section id="acquire-sweep" class="level2" data-number="85.3">
+<h2 data-number="85.3" class="anchored" data-anchor-id="acquire-sweep"><span class="header-section-number">85.3</span> Acquire sweep</h2>
+<p>The <img src="https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Generic/Sweep.png" class="img-fluid"> button launches acquisition of a sweep snapshot. This special type of snapshot automates the acquisition of transfer function and impulse response curves using a swept sine generator output.</p>
+<p>Please check the following for proper operation:</p>
+<ul>
+<li><a href="12_Signal_generator_01_Signal_types.md">Generator output</a>(s) should be properly assigned to the corresponding hardware channels .</li>
+<li>Hardware IO should be properly configured and set to hardware output(s).</li>
+<li>Sweep start/end frequencies should be set as desired.</li>
+</ul>
+<p>Providing the previous requirements are met, a progress dialog will then be displayed until all data has been acquired and the snapshot is computed and ready for display.</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Ensure the outputs of the generator and the connected speakers are set to reasonable levels in order to prevent damage to your equipment and hearing loss.</p>
+</div>
+</div>
+</section>
+<section id="create-average" class="level2" data-number="85.4">
+<h2 data-number="85.4" class="anchored" data-anchor-id="create-average"><span class="header-section-number">85.4</span> Create average</h2>
+<p>Click the <img src="https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Generic/Average.png" class="img-fluid"> button with multiple snapshots selected to create a new snapshot average of these.</p>
+<p>The new snapshot curve data is computed from the selected snapshot data as follows:</p>
+<ul>
+<li>Spectrum magnitude: average of magnitude vectors.</li>
+<li>Transfer function magnitude: average of magnitude vectors.</li>
+<li>Transfer function phase is set to zero as there is no mathematically significant meaning to averaging of potentially unrelated phase spectra.</li>
+<li>Transfer function coherence: average of coherence vectors.</li>
+<li>Impulse response: average of signals.</li>
+</ul>
+<p>The averaging can only be performed if the snapshots are compatible with one another, that is they have identical:</p>
+<ul>
+<li>Sampling rate.</li>
+<li>Number of channels.</li>
+<li>Spectrum type.</li>
+<li>Impulse response length.</li>
+</ul>
+<p>A warning message will inform you the averaging cannot be performed if one of the above conditions are not met.</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>The snapshot average stores the average of the snapshots at the moment it was created.</p>
+<p>If you change the snapshots in any way, the snapshot average will not change.</p>
+</div>
+</div>
+</section>
+<section id="update-current" class="level2" data-number="85.5">
+<h2 data-number="85.5" class="anchored" data-anchor-id="update-current"><span class="header-section-number">85.5</span> Update current</h2>
+<p>Clicking the <img src="https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Generic/Update.png" class="img-fluid"> button will overwrite the last selected snapshot contents with the most current data.</p>
+<p>This is especially useful when you are fine-tuning your measurement setup and only want to keep the latest one, without creating several snapshots and deleting them afterwards.</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>This function is destructive: there is no means to revert the original snapshot data.</p>
+</div>
+</div>
+</section>
+<section id="load-project" class="level2" data-number="85.6">
+<h2 data-number="85.6" class="anchored" data-anchor-id="load-project"><span class="header-section-number">85.6</span> Load project</h2>
+<p>Opens a dialog box where you can select an existing folder containing a previously saved project.</p>
+<p>To create a new empty project, creating a new folder and name it, then selecting using in this dialog.</p>
+</section>
+<section id="curve-visibility" class="level2" data-number="85.7">
+<h2 data-number="85.7" class="anchored" data-anchor-id="curve-visibility"><span class="header-section-number">85.7</span> Curve visibility</h2>
+<p>For each snapshot, you can control which curve should be displayed. These controls are intended to select only those curves that you really need to be displayed when there are many visible snapshots, and still maintain a legible display:</p>
+<ul>
+<li>Transfer function coherence.</li>
+<li>Transfer function magnitude.</li>
+<li>Transfer function phase.</li>
+<li>Magnitude spectrum.</li>
+<li>Impulse response.</li>
+</ul>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>The default visibility of newly created curves can be customized in Display defaults.</p>
+</div>
+</div>
+</section>
+<section id="color" class="level2" data-number="85.8">
+<h2 data-number="85.8" class="anchored" data-anchor-id="color"><span class="header-section-number">85.8</span> Color</h2>
+<p>Opens up a color selector dialog where you can manually set the color used to identify the snapshot, both in the list and as a curve.</p>
+</section>
+<section id="name" class="level2" data-number="85.9">
+<h2 data-number="85.9" class="anchored" data-anchor-id="name"><span class="header-section-number">85.9</span> Name</h2>
+<p>By the default, newly created snapshots are given the name <c>unlabeled-x</c>, where <c>x</c> is the current number of snapshots in the project. You are strongly encouraged to edit this name for further reference.</p>
+</section>
+<section id="invert-iv" class="level2" data-number="85.10">
+<h2 data-number="85.10" class="anchored" data-anchor-id="invert-iv"><span class="header-section-number">85.10</span> Invert (Iv)</h2>
+<p>Inverts the magnitude curve of the Transfer function.</p>
+<!-- LIVEVERSION-->
+<!-- TODO: Load IR, not documentated  -->
+
+
 </section>
 
 </main> <!-- /main -->
@@ -1039,10 +1163,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
+      <a href="./Snapshots_Usage.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">84</span>&nbsp; <span class="chapter-title">Usage</span></span>
+      </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./Pure_Analyzer_Pure-analyzer-versions.html" class="pagination-link">
-        <span class="nav-page-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">FLUX:: Analyzer Versions</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./Snapshots_Setup.html" class="pagination-link">
+        <span class="nav-page-text"><span class="chapter-number">86</span>&nbsp; <span class="chapter-title">Setup</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

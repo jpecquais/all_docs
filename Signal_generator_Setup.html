@@ -6,10 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="FLUX:: Immersive">
-<meta name="dcterms.date" content="2023-02-06">
 
-<title>FLUX:: Analyzer</title>
+<title>FLUX:: Analyzer - 73&nbsp; Setup</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -32,7 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./Pure_Analyzer_Pure-analyzer-versions.html" rel="next">
+<link href="./Impulse_response_measurement_Introduction.html" rel="next">
+<link href="./Signal_generator_Controls.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -74,7 +73,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Welcome</span></a></li></ol></nav>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./Signal_generator_Signal_types.html">Signal generator</a></li><li class="breadcrumb-item"><a href="./Signal_generator_Setup.html"><span class="chapter-number">73</span>&nbsp; <span class="chapter-title">Setup</span></a></li></ol></nav>
       <a class="flex-grow-1" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
       </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -104,7 +103,7 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link active"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Welcome</span></a>
+  <a href="./index.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Welcome</span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -595,7 +594,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./Signal_generator_Setup.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">73</span>&nbsp; <span class="chapter-title">Setup</span></a>
+  <a href="./Signal_generator_Setup.html" class="sidebar-item-text sidebar-link active"><span class="chapter-number">73</span>&nbsp; <span class="chapter-title">Setup</span></a>
   </div>
 </li>
       </ul>
@@ -753,10 +752,16 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#welcome" id="toc-welcome" class="nav-link active" data-scroll-target="#welcome"><span class="header-section-number">1</span> Welcome</a>
+  <li><a href="#output" id="toc-output" class="nav-link active" data-scroll-target="#output"><span class="header-section-number">73.1</span> Output</a>
   <ul class="collapse">
-  <li><a href="#thank-you" id="toc-thank-you" class="nav-link" data-scroll-target="#thank-you"><span class="header-section-number">1.1</span> Thank You!</a></li>
+  <li><a href="#output-1" id="toc-output-1" class="nav-link" data-scroll-target="#output-1"><span class="header-section-number">73.1.1</span> Output 1</a></li>
+  <li><a href="#output-2" id="toc-output-2" class="nav-link" data-scroll-target="#output-2"><span class="header-section-number">73.1.2</span> Output 2</a></li>
   </ul></li>
+  <li><a href="#feed-input-reference" id="toc-feed-input-reference" class="nav-link" data-scroll-target="#feed-input-reference"><span class="header-section-number">73.2</span> Feed input reference</a></li>
+  <li><a href="#sine-frequency" id="toc-sine-frequency" class="nav-link" data-scroll-target="#sine-frequency"><span class="header-section-number">73.3</span> Sine frequency</a></li>
+  <li><a href="#sweep-startend-frequencies" id="toc-sweep-startend-frequencies" class="nav-link" data-scroll-target="#sweep-startend-frequencies"><span class="header-section-number">73.4</span> Sweep start/end frequencies</a></li>
+  <li><a href="#sweep-length" id="toc-sweep-length" class="nav-link" data-scroll-target="#sweep-length"><span class="header-section-number">73.5</span> Sweep length</a></li>
+  <li><a href="#level" id="toc-level" class="nav-link" data-scroll-target="#level"><span class="header-section-number">73.6</span> Level</a></li>
   </ul>
 </nav>
     </div>
@@ -765,26 +770,14 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">FLUX:: Analyzer</h1>
+<h1 class="title"><span class="chapter-number">73</span>&nbsp; <span class="chapter-title">Setup</span></h1>
 </div>
 
 
 
 <div class="quarto-title-meta">
 
-    <div>
-    <div class="quarto-title-meta-heading">Author</div>
-    <div class="quarto-title-meta-contents">
-             <p>FLUX:: Immersive </p>
-          </div>
-  </div>
     
-    <div>
-    <div class="quarto-title-meta-heading">Published</div>
-    <div class="quarto-title-meta-contents">
-      <p class="date">February 6, 2023</p>
-    </div>
-  </div>
   
     
   </div>
@@ -792,15 +785,73 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<section id="welcome" class="level1" data-number="1">
-<h1 data-number="1"><span class="header-section-number">1</span> Welcome</h1>
-<section id="thank-you" class="level2" data-number="1.1">
-<h2 data-number="1.1" class="anchored" data-anchor-id="thank-you"><span class="header-section-number">1.1</span> Thank You!</h2>
-<p>Thank you for purchasing FLUX:: Analyzer System.</p>
-<p><a href="https://www.flux.audio/project/flux-analyzer/">Product Page</a> | <a href="https://shop.flux.audio/en_US/products/flux-analyzer">Shop Page</a></p>
-
-
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/SignalGenerator/Setup.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption">Signal generator setup options.</figcaption><p></p>
+</figure>
+</div>
+<section id="output" class="level2" data-number="73.1">
+<h2 data-number="73.1" class="anchored" data-anchor-id="output"><span class="header-section-number">73.1</span> Output</h2>
+<p>Selects the hardware output(s) to which the signal generator should be routed. Set to? None? to disable the signal generator output entirely.</p>
+<section id="output-1" class="level3" data-number="73.1.1">
+<h3 data-number="73.1.1" class="anchored" data-anchor-id="output-1"><span class="header-section-number">73.1.1</span> Output 1</h3>
+<p>First generator output.</p>
 </section>
+<section id="output-2" class="level3" data-number="73.1.2">
+<h3 data-number="73.1.2" class="anchored" data-anchor-id="output-2"><span class="header-section-number">73.1.2</span> Output 2</h3>
+<p>Second generator output.</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Both signals sent to the hardware output channels are identical.</p>
+</div>
+</div>
+</section>
+</section>
+<section id="feed-input-reference" class="level2" data-number="73.2">
+<h2 data-number="73.2" class="anchored" data-anchor-id="feed-input-reference"><span class="header-section-number">73.2</span> Feed input reference</h2>
+<p>Fed the reference input (default input 1) with the signal generator.</p>
+</section>
+<section id="sine-frequency" class="level2" data-number="73.3">
+<h2 data-number="73.3" class="anchored" data-anchor-id="sine-frequency"><span class="header-section-number">73.3</span> Sine frequency</h2>
+<p>Sets the frequency of the sine generator, only applicable when the signal type is set to Sine.</p>
+</section>
+<section id="sweep-startend-frequencies" class="level2" data-number="73.4">
+<h2 data-number="73.4" class="anchored" data-anchor-id="sweep-startend-frequencies"><span class="header-section-number">73.4</span> Sweep start/end frequencies</h2>
+<p>Sets the range of frequencies to sweep.</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Reverse start and end frequencies to obtain reverse sweep.</p>
+</div>
+</div>
+</section>
+<section id="sweep-length" class="level2" data-number="73.5">
+<h2 data-number="73.5" class="anchored" data-anchor-id="sweep-length"><span class="header-section-number">73.5</span> Sweep length</h2>
+<p>Sets the overall duration of the sweep in seconds,<i>i.e.</i> the time taken to go from start to end frequency.</p>
+</section>
+<section id="level" class="level2" data-number="73.6">
+<h2 data-number="73.6" class="anchored" data-anchor-id="level"><span class="header-section-number">73.6</span> Level</h2>
+<p>Generator output level in dB RMS.</p>
+<!-- LIVEVERSIONS-->
+<!-- TODO: Update image - add Feed input reference -->
+
+
 </section>
 
 </main> <!-- /main -->
@@ -1039,10 +1090,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
+      <a href="./Signal_generator_Controls.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">72</span>&nbsp; <span class="chapter-title">Controls</span></span>
+      </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./Pure_Analyzer_Pure-analyzer-versions.html" class="pagination-link">
-        <span class="nav-page-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">FLUX:: Analyzer Versions</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./Impulse_response_measurement_Introduction.html" class="pagination-link">
+        <span class="nav-page-text"><span class="chapter-number">74</span>&nbsp; <span class="chapter-title">Introduction</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

@@ -6,10 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="FLUX:: Immersive">
-<meta name="dcterms.date" content="2023-02-06">
 
-<title>FLUX:: Analyzer</title>
+<title>FLUX:: Analyzer - 33&nbsp; Preset</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -32,7 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./Pure_Analyzer_Pure-analyzer-versions.html" rel="next">
+<link href="./Metering_RMS_Metering_Reference.html" rel="next">
+<link href="./Metering_RMS_Metering_Introduction.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -74,7 +73,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Welcome</span></a></li></ol></nav>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./Metering_Metering.html">RMS Metering</a></li><li class="breadcrumb-item"><a href="./Metering_RMS_Metering_Preset.html"><span class="chapter-number">33</span>&nbsp; <span class="chapter-title">Preset</span></a></li></ol></nav>
       <a class="flex-grow-1" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
       </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -104,7 +103,7 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link active"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Welcome</span></a>
+  <a href="./index.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Welcome</span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -325,7 +324,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./Metering_RMS_Metering_Preset.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">33</span>&nbsp; <span class="chapter-title">Preset</span></a>
+  <a href="./Metering_RMS_Metering_Preset.html" class="sidebar-item-text sidebar-link active"><span class="chapter-number">33</span>&nbsp; <span class="chapter-title">Preset</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -753,10 +752,19 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#welcome" id="toc-welcome" class="nav-link active" data-scroll-target="#welcome"><span class="header-section-number">1</span> Welcome</a>
-  <ul class="collapse">
-  <li><a href="#thank-you" id="toc-thank-you" class="nav-link" data-scroll-target="#thank-you"><span class="header-section-number">1.1</span> Thank You!</a></li>
-  </ul></li>
+  <li><a href="#custom" id="toc-custom" class="nav-link active" data-scroll-target="#custom"><span class="header-section-number">33.1</span> Custom</a></li>
+  <li><a href="#default" id="toc-default" class="nav-link" data-scroll-target="#default"><span class="header-section-number">33.2</span> Default</a></li>
+  <li><a href="#ref--18db-abck" id="toc-ref--18db-abck" class="nav-link" data-scroll-target="#ref--18db-abck"><span class="header-section-number">33.3</span> Ref -18dB A/B/C/K</a></li>
+  <li><a href="#ref--20db-abck" id="toc-ref--20db-abck" class="nav-link" data-scroll-target="#ref--20db-abck"><span class="header-section-number">33.4</span> Ref -20dB A/B/C/K</a></li>
+  <li><a href="#vu-meter-standard" id="toc-vu-meter-standard" class="nav-link" data-scroll-target="#vu-meter-standard"><span class="header-section-number">33.5</span> VU meter Standard</a></li>
+  <li><a href="#k-system-vu" id="toc-k-system-vu" class="nav-link" data-scroll-target="#k-system-vu"><span class="header-section-number">33.6</span> K-System / VU</a></li>
+  <li><a href="#k-system-slow" id="toc-k-system-slow" class="nav-link" data-scroll-target="#k-system-slow"><span class="header-section-number">33.7</span> K-System / Slow</a></li>
+  <li><a href="#din-45406" id="toc-din-45406" class="nav-link" data-scroll-target="#din-45406"><span class="header-section-number">33.8</span> DIN 45406</a></li>
+  <li><a href="#nordic-n9" id="toc-nordic-n9" class="nav-link" data-scroll-target="#nordic-n9"><span class="header-section-number">33.9</span> Nordic N9</a></li>
+  <li><a href="#bbc-normal" id="toc-bbc-normal" class="nav-link" data-scroll-target="#bbc-normal"><span class="header-section-number">33.10</span> BBC Normal</a></li>
+  <li><a href="#bbc-slow" id="toc-bbc-slow" class="nav-link" data-scroll-target="#bbc-slow"><span class="header-section-number">33.11</span> BBC Slow</a></li>
+  <li><a href="#ebu-normal" id="toc-ebu-normal" class="nav-link" data-scroll-target="#ebu-normal"><span class="header-section-number">33.12</span> EBU Normal</a></li>
+  <li><a href="#ebu-slow" id="toc-ebu-slow" class="nav-link" data-scroll-target="#ebu-slow"><span class="header-section-number">33.13</span> EBU Slow</a></li>
   </ul>
 </nav>
     </div>
@@ -765,26 +773,14 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">FLUX:: Analyzer</h1>
+<h1 class="title"><span class="chapter-number">33</span>&nbsp; <span class="chapter-title">Preset</span></h1>
 </div>
 
 
 
 <div class="quarto-title-meta">
 
-    <div>
-    <div class="quarto-title-meta-heading">Author</div>
-    <div class="quarto-title-meta-contents">
-             <p>FLUX:: Immersive </p>
-          </div>
-  </div>
     
-    <div>
-    <div class="quarto-title-meta-heading">Published</div>
-    <div class="quarto-title-meta-contents">
-      <p class="date">February 6, 2023</p>
-    </div>
-  </div>
   
     
   </div>
@@ -792,15 +788,70 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<section id="welcome" class="level1" data-number="1">
-<h1 data-number="1"><span class="header-section-number">1</span> Welcome</h1>
-<section id="thank-you" class="level2" data-number="1.1">
-<h2 data-number="1.1" class="anchored" data-anchor-id="thank-you"><span class="header-section-number">1.1</span> Thank You!</h2>
-<p>Thank you for purchasing FLUX:: Analyzer System.</p>
-<p><a href="https://www.flux.audio/project/flux-analyzer/">Product Page</a> | <a href="https://shop.flux.audio/en_US/products/flux-analyzer">Shop Page</a></p>
-
-
+<p>A number of presets covering widely and not so widely-used metering standards are provided.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Metering/PresetsRMS.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption">Available RMS metering presets</figcaption><p></p>
+</figure>
+</div>
+<section id="custom" class="level2" data-number="33.1">
+<h2 data-number="33.1" class="anchored" data-anchor-id="custom"><span class="header-section-number">33.1</span> Custom</h2>
+<p>User defined values.</p>
 </section>
+<section id="default" class="level2" data-number="33.2">
+<h2 data-number="33.2" class="anchored" data-anchor-id="default"><span class="header-section-number">33.2</span> Default</h2>
+<p>All-round settings with:</p>
+<ul>
+<li>From -48 to +18 dB range, referenced at -18dB.</li>
+<li>160ms integration time, 16dB/s release, 1dB peak release and 60 frames peak hold.</li>
+</ul>
+</section>
+<section id="ref--18db-abck" class="level2" data-number="33.3">
+<h2 data-number="33.3" class="anchored" data-anchor-id="ref--18db-abck"><span class="header-section-number">33.3</span> Ref -18dB A/B/C/K</h2>
+<p>Default settings with pre-equalization following either normalized ANSI A/B/C or ITU-R BS.1170-2 weighting curves, referenced to -18dB.</p>
+</section>
+<section id="ref--20db-abck" class="level2" data-number="33.4">
+<h2 data-number="33.4" class="anchored" data-anchor-id="ref--20db-abck"><span class="header-section-number">33.4</span> Ref -20dB A/B/C/K</h2>
+<p>Default settings with pre-equalization following either normalized ANSI A/B/C or ITU-R BS.1170-2 weighting curves, referenced to -20dB.</p>
+</section>
+<section id="vu-meter-standard" class="level2" data-number="33.5">
+<h2 data-number="33.5" class="anchored" data-anchor-id="vu-meter-standard"><span class="header-section-number">33.5</span> VU meter Standard</h2>
+<p>Standard reference VU settings, with 300ms integration, 66/7dB/s release and peak release times, referenced at 0VU/-4dBu/-18dBFS. The scale is non-linear and covers -20 to +3VU, complying with IEC 60268-17.</p>
+</section>
+<section id="k-system-vu" class="level2" data-number="33.6">
+<h2 data-number="33.6" class="anchored" data-anchor-id="k-system-vu"><span class="header-section-number">33.6</span> K-System / VU</h2>
+<p>Linear scale, conforming to Bob Katz’s recommendations, referenced at either -12, -14 or -20dB, 300ms integration, 66.7dB/s release and 12dB/s peak release times, 180 frames peak hold.</p>
+</section>
+<section id="k-system-slow" class="level2" data-number="33.7">
+<h2 data-number="33.7" class="anchored" data-anchor-id="k-system-slow"><span class="header-section-number">33.7</span> K-System / Slow</h2>
+<p>Identical to K-System/VU, except that integration times are doubled. This reflects Bob Katz’s view that Vu-meter timings are appropriate for speech, but that longer timings are better suited to music.</p>
+</section>
+<section id="din-45406" class="level2" data-number="33.8">
+<h2 data-number="33.8" class="anchored" data-anchor-id="din-45406"><span class="header-section-number">33.8</span> DIN 45406</h2>
+<p>This preset conforms to the standard used many European broadcasters such as French (PAD) and German (IRT) television. Integration time is 10ms for a 90% signal increase; fall-back time is 1.7s per 20dB; with a linear scale covering a range from -50 to +5dB, referenced at -9dBFS. The corresponding standards are DIN 45406, IEC 60268-1, and ARD Pfl.H.3/6.</p>
+</section>
+<section id="nordic-n9" class="level2" data-number="33.9">
+<h2 data-number="33.9" class="anchored" data-anchor-id="nordic-n9"><span class="header-section-number">33.9</span> Nordic N9</h2>
+<p>5ms integration time for an 80% increase, fall-back time 1.7s per 20dB, linear scale covering the range from -40 to +9dB, referenced at -18dBFS, according to IEC 60268-10/1 + N9 supp.</p>
+</section>
+<section id="bbc-normal" class="level2" data-number="33.10">
+<h2 data-number="33.10" class="anchored" data-anchor-id="bbc-normal"><span class="header-section-number">33.10</span> BBC Normal</h2>
+<p>10ms integration time for an 80% increase, fall-back time 2.8s per 24dB, custom scale with graduations spaced apart by 4dB, and 4 stands for the -18dBFS reference, according to IEC 60268-10/2a.</p>
+</section>
+<section id="bbc-slow" class="level2" data-number="33.11">
+<h2 data-number="33.11" class="anchored" data-anchor-id="bbc-slow"><span class="header-section-number">33.11</span> BBC Slow</h2>
+<p>Same as above except for ballistics, where the integration time is changed to 69.2ms for an 80% increase, and 3.8s per 24dB fall-back.</p>
+</section>
+<section id="ebu-normal" class="level2" data-number="33.12">
+<h2 data-number="33.12" class="anchored" data-anchor-id="ebu-normal"><span class="header-section-number">33.12</span> EBU Normal</h2>
+<p>10ms integration time for an 80% increase, fall-back time 2.8s per 24dB, linear scale covering the range from -12 to +12dB, referenced at -18dBFS, according to IEC 60268-10/2b.</p>
+</section>
+<section id="ebu-slow" class="level2" data-number="33.13">
+<h2 data-number="33.13" class="anchored" data-anchor-id="ebu-slow"><span class="header-section-number">33.13</span> EBU Slow</h2>
+<p>Same as above except for ballistics, where the integration time is changed to 69.2ms for an 80% increase, and 3.8s per 24dB fall-back.</p>
+
+
 </section>
 
 </main> <!-- /main -->
@@ -1039,10 +1090,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
+      <a href="./Metering_RMS_Metering_Introduction.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">32</span>&nbsp; <span class="chapter-title">Introduction</span></span>
+      </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./Pure_Analyzer_Pure-analyzer-versions.html" class="pagination-link">
-        <span class="nav-page-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">FLUX:: Analyzer Versions</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./Metering_RMS_Metering_Reference.html" class="pagination-link">
+        <span class="nav-page-text"><span class="chapter-number">34</span>&nbsp; <span class="chapter-title">Reference</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

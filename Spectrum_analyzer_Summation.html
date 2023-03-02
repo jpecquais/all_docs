@@ -6,10 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="FLUX:: Immersive">
-<meta name="dcterms.date" content="2023-02-06">
 
-<title>FLUX:: Analyzer</title>
+<title>FLUX:: Analyzer - 20&nbsp; Summation</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -32,7 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./Pure_Analyzer_Pure-analyzer-versions.html" rel="next">
+<link href="./Spectrum_analyzer_Channels.html" rel="next">
+<link href="./Spectrum_analyzer_Mode.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -74,7 +73,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Welcome</span></a></li></ol></nav>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./Spectrum_analyzer_Basic_principles.html">Spectrum analyzer</a></li><li class="breadcrumb-item"><a href="./Spectrum_analyzer_Summation.html"><span class="chapter-number">20</span>&nbsp; <span class="chapter-title">Summation</span></a></li></ol></nav>
       <a class="flex-grow-1" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
       </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -104,7 +103,7 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link active"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Welcome</span></a>
+  <a href="./index.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Welcome</span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -220,7 +219,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./Spectrum_analyzer_Summation.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">20</span>&nbsp; <span class="chapter-title">Summation</span></a>
+  <a href="./Spectrum_analyzer_Summation.html" class="sidebar-item-text sidebar-link active"><span class="chapter-number">20</span>&nbsp; <span class="chapter-title">Summation</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -753,10 +752,12 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#welcome" id="toc-welcome" class="nav-link active" data-scroll-target="#welcome"><span class="header-section-number">1</span> Welcome</a>
-  <ul class="collapse">
-  <li><a href="#thank-you" id="toc-thank-you" class="nav-link" data-scroll-target="#thank-you"><span class="header-section-number">1.1</span> Thank You!</a></li>
-  </ul></li>
+  <li><a href="#filled" id="toc-filled" class="nav-link active" data-scroll-target="#filled"><span class="header-section-number">21</span> Filled</a></li>
+  <li><a href="#width" id="toc-width" class="nav-link" data-scroll-target="#width"><span class="header-section-number">22</span> Width</a></li>
+  <li><a href="#full-curve-color" id="toc-full-curve-color" class="nav-link" data-scroll-target="#full-curve-color"><span class="header-section-number">23</span> Full curve color</a></li>
+  <li><a href="#smoothed-curve-color" id="toc-smoothed-curve-color" class="nav-link" data-scroll-target="#smoothed-curve-color"><span class="header-section-number">24</span> Smoothed curve color</a></li>
+  <li><a href="#max-curve-color" id="toc-max-curve-color" class="nav-link" data-scroll-target="#max-curve-color"><span class="header-section-number">25</span> Max curve color</a></li>
+  <li><a href="#color-grading" id="toc-color-grading" class="nav-link" data-scroll-target="#color-grading"><span class="header-section-number">26</span> Color grading</a></li>
   </ul>
 </nav>
     </div>
@@ -765,26 +766,14 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">FLUX:: Analyzer</h1>
+<h1 class="title"><span class="chapter-number">20</span>&nbsp; <span class="chapter-title">Summation</span></h1>
 </div>
 
 
 
 <div class="quarto-title-meta">
 
-    <div>
-    <div class="quarto-title-meta-heading">Author</div>
-    <div class="quarto-title-meta-contents">
-             <p>FLUX:: Immersive </p>
-          </div>
-  </div>
     
-    <div>
-    <div class="quarto-title-meta-heading">Published</div>
-    <div class="quarto-title-meta-contents">
-      <p class="date">February 6, 2023</p>
-    </div>
-  </div>
   
     
   </div>
@@ -792,15 +781,52 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<section id="welcome" class="level1" data-number="1">
-<h1 data-number="1"><span class="header-section-number">1</span> Welcome</h1>
-<section id="thank-you" class="level2" data-number="1.1">
-<h2 data-number="1.1" class="anchored" data-anchor-id="thank-you"><span class="header-section-number">1.1</span> Thank You!</h2>
-<p>Thank you for purchasing FLUX:: Analyzer System.</p>
-<p><a href="https://www.flux.audio/project/flux-analyzer/">Product Page</a> | <a href="https://shop.flux.audio/en_US/products/flux-analyzer">Shop Page</a></p>
-
-
+<p>These settings allow you to modify the appearance of the curves in channel sum mode.</p>
+<section id="filled" class="level1" data-number="21">
+<h1 data-number="21"><span class="header-section-number">21</span> Filled</h1>
+<p>Toggles whether the main curve is drawn as a solid-color fill or a plain line.</p>
+<p>Default is on.</p>
 </section>
+<section id="width" class="level1" data-number="22">
+<h1 data-number="22"><span class="header-section-number">22</span> Width</h1>
+<p>Thickness of the pen used to draw the curve lines, in pixels.</p>
+<p>Default is 1.0.</p>
+<blockquote class="blockquote">
+<p>This setting also affects individual curves when channel sum mode is disabled.</p>
+</blockquote>
+</section>
+<section id="full-curve-color" class="level1" data-number="23">
+<h1 data-number="23"><span class="header-section-number">23</span> Full curve color</h1>
+<p>Color of the pen used to draw the main, full-detail, unsmoothed curve.</p>
+</section>
+<section id="smoothed-curve-color" class="level1" data-number="24">
+<h1 data-number="24"><span class="header-section-number">24</span> Smoothed curve color</h1>
+<p>Color of the pen used to draw the smoothed curve.</p>
+</section>
+<section id="max-curve-color" class="level1" data-number="25">
+<h1 data-number="25"><span class="header-section-number">25</span> Max curve color</h1>
+<p>Color of the pen used to draw the max curve.</p>
+</section>
+<section id="color-grading" class="level1" data-number="26">
+<h1 data-number="26"><span class="header-section-number">26</span> Color grading</h1>
+<p>Applies an optional frequency-dependent coloring to the main channel-sum curve.</p>
+<p><img src="https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Spectrum/Spectrum4.png" class="img-fluid"></p>
+<p>Magnitude spectrum with color grading enabled</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>When enabled, any of the above fixed color settings are overridden.</p>
+</div>
+</div>
+
+
 </section>
 
 </main> <!-- /main -->
@@ -1039,10 +1065,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
+      <a href="./Spectrum_analyzer_Mode.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">19</span>&nbsp; <span class="chapter-title">Smoothing mode</span></span>
+      </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./Pure_Analyzer_Pure-analyzer-versions.html" class="pagination-link">
-        <span class="nav-page-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">FLUX:: Analyzer Versions</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./Spectrum_analyzer_Channels.html" class="pagination-link">
+        <span class="nav-page-text"><span class="chapter-number">21</span>&nbsp; <span class="chapter-title">Channels</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

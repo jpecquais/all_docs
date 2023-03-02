@@ -6,10 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="FLUX:: Immersive">
-<meta name="dcterms.date" content="2023-02-06">
 
-<title>FLUX:: Analyzer</title>
+<title>FLUX:: Analyzer - 71&nbsp; Pink noise</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -32,7 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./Pure_Analyzer_Pure-analyzer-versions.html" rel="next">
+<link href="./Signal_generator_Controls.html" rel="next">
+<link href="./Live_IO_Setup.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -74,7 +73,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Welcome</span></a></li></ol></nav>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./Signal_generator_Signal_types.html">Signal generator</a></li><li class="breadcrumb-item"><a href="./Signal_generator_Signal_types.html"><span class="chapter-number">71</span>&nbsp; <span class="chapter-title">Pink noise</span></a></li></ol></nav>
       <a class="flex-grow-1" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
       </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -104,7 +103,7 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link active"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Welcome</span></a>
+  <a href="./index.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Welcome</span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -585,7 +584,7 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-14" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./Signal_generator_Signal_types.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">71</span>&nbsp; <span class="chapter-title">Pink noise</span></a>
+  <a href="./Signal_generator_Signal_types.html" class="sidebar-item-text sidebar-link active"><span class="chapter-number">71</span>&nbsp; <span class="chapter-title">Pink noise</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -753,10 +752,9 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#welcome" id="toc-welcome" class="nav-link active" data-scroll-target="#welcome"><span class="header-section-number">1</span> Welcome</a>
-  <ul class="collapse">
-  <li><a href="#thank-you" id="toc-thank-you" class="nav-link" data-scroll-target="#thank-you"><span class="header-section-number">1.1</span> Thank You!</a></li>
-  </ul></li>
+  <li><a href="#white-noise" id="toc-white-noise" class="nav-link active" data-scroll-target="#white-noise"><span class="header-section-number">72</span> White noise</a></li>
+  <li><a href="#sine" id="toc-sine" class="nav-link" data-scroll-target="#sine"><span class="header-section-number">73</span> Sine</a></li>
+  <li><a href="#sweep" id="toc-sweep" class="nav-link" data-scroll-target="#sweep"><span class="header-section-number">74</span> Sweep</a></li>
   </ul>
 </nav>
     </div>
@@ -765,26 +763,14 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">FLUX:: Analyzer</h1>
+<h1 class="title"><span class="chapter-number">71</span>&nbsp; <span class="chapter-title">Pink noise</span></h1>
 </div>
 
 
 
 <div class="quarto-title-meta">
 
-    <div>
-    <div class="quarto-title-meta-heading">Author</div>
-    <div class="quarto-title-meta-contents">
-             <p>FLUX:: Immersive </p>
-          </div>
-  </div>
     
-    <div>
-    <div class="quarto-title-meta-heading">Published</div>
-    <div class="quarto-title-meta-contents">
-      <p class="date">February 6, 2023</p>
-    </div>
-  </div>
   
     
   </div>
@@ -792,15 +778,21 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<section id="welcome" class="level1" data-number="1">
-<h1 data-number="1"><span class="header-section-number">1</span> Welcome</h1>
-<section id="thank-you" class="level2" data-number="1.1">
-<h2 data-number="1.1" class="anchored" data-anchor-id="thank-you"><span class="header-section-number">1.1</span> Thank You!</h2>
-<p>Thank you for purchasing FLUX:: Analyzer System.</p>
-<p><a href="https://www.flux.audio/project/flux-analyzer/">Product Page</a> | <a href="https://shop.flux.audio/en_US/products/flux-analyzer">Shop Page</a></p>
-
-
+<p>Pink noise is a random signal with an amplitude falloff inversely proportional to frequency. This is the most commonly employed variety noise in audio measurement, as it a constant-energy perceived content.</p>
+<section id="white-noise" class="level1" data-number="72">
+<h1 data-number="72"><span class="header-section-number">72</span> White noise</h1>
+<p>White noise is a random signal with constant energy across the audio range. Compared to pink noise, it sounds much brighter as it has more energy in high-frequencies. Commonly employed for electronic apparatus measurements.</p>
 </section>
+<section id="sine" class="level1" data-number="73">
+<h1 data-number="73"><span class="header-section-number">73</span> Sine</h1>
+<p>Fixed-frequency, pure tone generator.</p>
+</section>
+<section id="sweep" class="level1" data-number="74">
+<h1 data-number="74"><span class="header-section-number">74</span> Sweep</h1>
+<p>Generates a variable tone from start to end frequencies. Linear and logarithmic variants are available. Log. sweep is best suited for audio measurements as this corresponds to constant time per octave.</p>
+<!-- LIVEVERSIONS-->
+
+
 </section>
 
 </main> <!-- /main -->
@@ -1039,10 +1031,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
+      <a href="./Live_IO_Setup.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">70</span>&nbsp; <span class="chapter-title">Setup</span></span>
+      </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./Pure_Analyzer_Pure-analyzer-versions.html" class="pagination-link">
-        <span class="nav-page-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">FLUX:: Analyzer Versions</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./Signal_generator_Controls.html" class="pagination-link">
+        <span class="nav-page-text"><span class="chapter-number">72</span>&nbsp; <span class="chapter-title">Controls</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

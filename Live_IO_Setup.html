@@ -6,10 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="FLUX:: Immersive">
-<meta name="dcterms.date" content="2023-02-06">
 
-<title>FLUX:: Analyzer</title>
+<title>FLUX:: Analyzer - 70&nbsp; Setup</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -32,7 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./Pure_Analyzer_Pure-analyzer-versions.html" rel="next">
+<link href="./Signal_generator_Signal_types.html" rel="next">
+<link href="./Live_IO_User_interface_and_controls.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -74,7 +73,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Welcome</span></a></li></ol></nav>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./Live_IO_Live_IO.html">Live IO</a></li><li class="breadcrumb-item"><a href="./Live_IO_Setup.html"><span class="chapter-number">70</span>&nbsp; <span class="chapter-title">Setup</span></a></li></ol></nav>
       <a class="flex-grow-1" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
       </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -104,7 +103,7 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link active"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Welcome</span></a>
+  <a href="./index.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Welcome</span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -570,7 +569,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./Live_IO_Setup.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">70</span>&nbsp; <span class="chapter-title">Setup</span></a>
+  <a href="./Live_IO_Setup.html" class="sidebar-item-text sidebar-link active"><span class="chapter-number">70</span>&nbsp; <span class="chapter-title">Setup</span></a>
   </div>
 </li>
       </ul>
@@ -753,10 +752,9 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#welcome" id="toc-welcome" class="nav-link active" data-scroll-target="#welcome"><span class="header-section-number">1</span> Welcome</a>
-  <ul class="collapse">
-  <li><a href="#thank-you" id="toc-thank-you" class="nav-link" data-scroll-target="#thank-you"><span class="header-section-number">1.1</span> Thank You!</a></li>
-  </ul></li>
+  <li><a href="#max-delay" id="toc-max-delay" class="nav-link active" data-scroll-target="#max-delay"><span class="header-section-number">71</span> Max delay</a></li>
+  <li><a href="#algorithm" id="toc-algorithm" class="nav-link" data-scroll-target="#algorithm"><span class="header-section-number">72</span> Algorithm</a></li>
+  <li><a href="#search-passes" id="toc-search-passes" class="nav-link" data-scroll-target="#search-passes"><span class="header-section-number">73</span> Search passes</a></li>
   </ul>
 </nav>
     </div>
@@ -765,26 +763,14 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">FLUX:: Analyzer</h1>
+<h1 class="title"><span class="chapter-number">70</span>&nbsp; <span class="chapter-title">Setup</span></h1>
 </div>
 
 
 
 <div class="quarto-title-meta">
 
-    <div>
-    <div class="quarto-title-meta-heading">Author</div>
-    <div class="quarto-title-meta-contents">
-             <p>FLUX:: Immersive </p>
-          </div>
-  </div>
     
-    <div>
-    <div class="quarto-title-meta-heading">Published</div>
-    <div class="quarto-title-meta-contents">
-      <p class="date">February 6, 2023</p>
-    </div>
-  </div>
   
     
   </div>
@@ -792,15 +778,73 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<section id="welcome" class="level1" data-number="1">
-<h1 data-number="1"><span class="header-section-number">1</span> Welcome</h1>
-<section id="thank-you" class="level2" data-number="1.1">
-<h2 data-number="1.1" class="anchored" data-anchor-id="thank-you"><span class="header-section-number">1.1</span> Thank You!</h2>
-<p>Thank you for purchasing FLUX:: Analyzer System.</p>
-<p><a href="https://www.flux.audio/project/flux-analyzer/">Product Page</a> | <a href="https://shop.flux.audio/en_US/products/flux-analyzer">Shop Page</a></p>
-
-
+<p><img src="https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/LiveIO/SetupDelayFinder.png" class="img-fluid"></p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Delay finder setup options.</p>
+</div>
+</div>
+<section id="max-delay" class="level1" data-number="71">
+<h1 data-number="71"><span class="header-section-number">71</span> Max delay</h1>
+<p>Sets the maximum delay that can be computed. The default is 1 second, which equates to a maximum distance between microphone and speakers of roughly 300 meters, and should be large enough for most practical applications. You can decrease this value as this minimizes the possibility of false readings.</p>
 </section>
+<section id="algorithm" class="level1" data-number="72">
+<h1 data-number="72"><span class="header-section-number">72</span> Algorithm</h1>
+<p><img src="https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/LiveIO/Algorithm.png" class="img-fluid"></p>
+<p>Selects between three different delay finding algorithms:</p>
+<ul>
+<li>Basic: lowest CPU load, less robust to noise and interference.</li>
+<li>Standard: medium CPU load, the default.</li>
+<li>Advanced: heavy CPU load, can help in very noisy environments.</li>
+</ul>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>In the rare case where the standard method fails in your particular environment, you should try other methods.</p>
+</div>
+</div>
+</section>
+<section id="search-passes" class="level1" data-number="73">
+<h1 data-number="73"><span class="header-section-number">73</span> Search passes</h1>
+<p><img src="https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/LiveIO/SearchPasses.png" class="img-fluid"></p>
+<p>The delay can be set to work in one or two passes:</p>
+<ul>
+<li>Full (default): one search pass covering all possible values.</li>
+<li>Two-stage: first pass to determine a rough delay value, followed by a second to refine the reading.</li>
+</ul>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Two-stage delay finding can improve accuracy in the context of an environment with heavy multiple reflections.</p>
+</div>
+</div>
+<!-- LIVEVERSIONS-->
+<!-- TODO: New images-->
+<!-- TODO: Key point to highlight in presentations. multipasses and advanced dealy finder algo for particular enviroment... improve accuracy in environment with heavy multiple reflections. -->
+
+
 </section>
 
 </main> <!-- /main -->
@@ -1039,10 +1083,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
+      <a href="./Live_IO_User_interface_and_controls.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">69</span>&nbsp; <span class="chapter-title">User interface and controls</span></span>
+      </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./Pure_Analyzer_Pure-analyzer-versions.html" class="pagination-link">
-        <span class="nav-page-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">FLUX:: Analyzer Versions</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./Signal_generator_Signal_types.html" class="pagination-link">
+        <span class="nav-page-text"><span class="chapter-number">71</span>&nbsp; <span class="chapter-title">Pink noise</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

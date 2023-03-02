@@ -6,10 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="FLUX:: Immersive">
-<meta name="dcterms.date" content="2023-02-06">
 
-<title>FLUX:: Analyzer</title>
+<title>FLUX:: Analyzer - 26&nbsp; Fading</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -32,7 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./Pure_Analyzer_Pure-analyzer-versions.html" rel="next">
+<link href="./Vector_scope_Usage.html" rel="next">
+<link href="./Nebula_Spatial_Spectrogram_Scale.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -74,7 +73,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Welcome</span></a></li></ol></nav>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./Nebula_Spatial_Spectrogram_Principle_of_operation_and_intended_usage.html">Nebula (spatial spectrogram)</a></li><li class="breadcrumb-item"><a href="./Nebula_Spatial_Spectrogram_Display.html"><span class="chapter-number">26</span>&nbsp; <span class="chapter-title">Fading</span></a></li></ol></nav>
       <a class="flex-grow-1" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
       </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -104,7 +103,7 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link active"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Welcome</span></a>
+  <a href="./index.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Welcome</span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -260,7 +259,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./Nebula_Spatial_Spectrogram_Display.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">26</span>&nbsp; <span class="chapter-title">Fading</span></a>
+  <a href="./Nebula_Spatial_Spectrogram_Display.html" class="sidebar-item-text sidebar-link active"><span class="chapter-number">26</span>&nbsp; <span class="chapter-title">Fading</span></a>
   </div>
 </li>
       </ul>
@@ -753,10 +752,10 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#welcome" id="toc-welcome" class="nav-link active" data-scroll-target="#welcome"><span class="header-section-number">1</span> Welcome</a>
-  <ul class="collapse">
-  <li><a href="#thank-you" id="toc-thank-you" class="nav-link" data-scroll-target="#thank-you"><span class="header-section-number">1.1</span> Thank You!</a></li>
-  </ul></li>
+  <li><a href="#size-factor" id="toc-size-factor" class="nav-link active" data-scroll-target="#size-factor"><span class="header-section-number">27</span> Size factor</a></li>
+  <li><a href="#blur-kernel-size" id="toc-blur-kernel-size" class="nav-link" data-scroll-target="#blur-kernel-size"><span class="header-section-number">28</span> Blur kernel size</a></li>
+  <li><a href="#particle-scaling" id="toc-particle-scaling" class="nav-link" data-scroll-target="#particle-scaling"><span class="header-section-number">29</span> Particle scaling</a></li>
+  <li><a href="#color-mode" id="toc-color-mode" class="nav-link" data-scroll-target="#color-mode"><span class="header-section-number">30</span> Color mode</a></li>
   </ul>
 </nav>
     </div>
@@ -765,26 +764,14 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">FLUX:: Analyzer</h1>
+<h1 class="title"><span class="chapter-number">26</span>&nbsp; <span class="chapter-title">Fading</span></h1>
 </div>
 
 
 
 <div class="quarto-title-meta">
 
-    <div>
-    <div class="quarto-title-meta-heading">Author</div>
-    <div class="quarto-title-meta-contents">
-             <p>FLUX:: Immersive </p>
-          </div>
-  </div>
     
-    <div>
-    <div class="quarto-title-meta-heading">Published</div>
-    <div class="quarto-title-meta-contents">
-      <p class="date">February 6, 2023</p>
-    </div>
-  </div>
   
     
   </div>
@@ -792,15 +779,38 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<section id="welcome" class="level1" data-number="1">
-<h1 data-number="1"><span class="header-section-number">1</span> Welcome</h1>
-<section id="thank-you" class="level2" data-number="1.1">
-<h2 data-number="1.1" class="anchored" data-anchor-id="thank-you"><span class="header-section-number">1.1</span> Thank You!</h2>
-<p>Thank you for purchasing FLUX:: Analyzer System.</p>
-<p><a href="https://www.flux.audio/project/flux-analyzer/">Product Page</a> | <a href="https://shop.flux.audio/en_US/products/flux-analyzer">Shop Page</a></p>
-
-
+<p>Controls display persistence, <i>i.e.</i> the “fade to black” amount for a frame. Lowering this value retains past particles longer, whereas increasing this make them disappear faster.</p>
+<section id="size-factor" class="level1" data-number="27">
+<h1 data-number="27"><span class="header-section-number">27</span> Size factor</h1>
+<p>Controls the size of individual particles with respect to screen size.</p>
 </section>
+<section id="blur-kernel-size" class="level1" data-number="28">
+<h1 data-number="28"><span class="header-section-number">28</span> Blur kernel size</h1>
+<p><img src="https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Nebula/BlurKernelSize.png" class="img-fluid"></p>
+<p>Controls the radius of the blur effect applied to past particles. Particles are “smeared” more and more as they become older, depending on this setting. Naturally, a bigger value increases the smearing, at the expense of processing power.</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Choosing the value for this setting is really matter of taste, although please keep in mind values that above 5 will require a sufficiently powerful graphics card in order to maintain a responsive display.</p>
+</div>
+</div>
+</section>
+<section id="particle-scaling" class="level1" data-number="29">
+<h1 data-number="29"><span class="header-section-number">29</span> Particle scaling</h1>
+<p>Toggles automatic adjustment of particle size with screen size. When enabled, the overall aspect of the display will remain similar even if the view size changes.</p>
+</section>
+<section id="color-mode" class="level1" data-number="30">
+<h1 data-number="30"><span class="header-section-number">30</span> Color mode</h1>
+<p>Provides the following particle-coloring modes: * Power: the color varies according to the power of the signal in the frequency region * Dynamics: same as previous except this mode works on signal dynamics * Power / dynamics: a mix of the above * Frequency: the color varies according to frequency only, using a rainbow-palette</p>
+
+
 </section>
 
 </main> <!-- /main -->
@@ -1039,10 +1049,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
+      <a href="./Nebula_Spatial_Spectrogram_Scale.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">25</span>&nbsp; <span class="chapter-title">Focus</span></span>
+      </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./Pure_Analyzer_Pure-analyzer-versions.html" class="pagination-link">
-        <span class="nav-page-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">FLUX:: Analyzer Versions</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./Vector_scope_Usage.html" class="pagination-link">
+        <span class="nav-page-text"><span class="chapter-number">27</span>&nbsp; <span class="chapter-title">Usage</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

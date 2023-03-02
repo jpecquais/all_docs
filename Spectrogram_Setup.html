@@ -6,10 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="FLUX:: Immersive">
-<meta name="dcterms.date" content="2023-02-06">
 
-<title>FLUX:: Analyzer</title>
+<title>FLUX:: Analyzer - 82&nbsp; Setup</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -32,7 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./Pure_Analyzer_Pure-analyzer-versions.html" rel="next">
+<link href="./Snapshots_Snapshots.html" rel="next">
+<link href="./Spectrogram_Usage.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -74,7 +73,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Welcome</span></a></li></ol></nav>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./Spectrogram_Usage.html">Spectrogram</a></li><li class="breadcrumb-item"><a href="./Spectrogram_Setup.html"><span class="chapter-number">82</span>&nbsp; <span class="chapter-title">Setup</span></a></li></ol></nav>
       <a class="flex-grow-1" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
       </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -104,7 +103,7 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link active"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Welcome</span></a>
+  <a href="./index.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Welcome</span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -663,7 +662,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./Spectrogram_Setup.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">82</span>&nbsp; <span class="chapter-title">Setup</span></a>
+  <a href="./Spectrogram_Setup.html" class="sidebar-item-text sidebar-link active"><span class="chapter-number">82</span>&nbsp; <span class="chapter-title">Setup</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -753,9 +752,21 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#welcome" id="toc-welcome" class="nav-link active" data-scroll-target="#welcome"><span class="header-section-number">1</span> Welcome</a>
+  <li><a href="#direction" id="toc-direction" class="nav-link active" data-scroll-target="#direction"><span class="header-section-number">82.1</span> Direction</a></li>
+  <li><a href="#log-gain" id="toc-log-gain" class="nav-link" data-scroll-target="#log-gain"><span class="header-section-number">82.2</span> Log Gain</a></li>
+  <li><a href="#threshold" id="toc-threshold" class="nav-link" data-scroll-target="#threshold"><span class="header-section-number">82.3</span> Threshold</a>
   <ul class="collapse">
-  <li><a href="#thank-you" id="toc-thank-you" class="nav-link" data-scroll-target="#thank-you"><span class="header-section-number">1.1</span> Thank You!</a></li>
+  <li><a href="#threshold---range-max" id="toc-threshold---range-max" class="nav-link" data-scroll-target="#threshold---range-max"><span class="header-section-number">82.3.1</span> Threshold - Range Max</a></li>
+  <li><a href="#threshold---range-min" id="toc-threshold---range-min" class="nav-link" data-scroll-target="#threshold---range-min"><span class="header-section-number">82.3.2</span> Threshold - Range Min</a></li>
+  </ul></li>
+  <li><a href="#color-mode" id="toc-color-mode" class="nav-link" data-scroll-target="#color-mode"><span class="header-section-number">82.4</span> Color Mode</a>
+  <ul class="collapse">
+  <li><a href="#duotone" id="toc-duotone" class="nav-link" data-scroll-target="#duotone"><span class="header-section-number">82.4.1</span> Duotone</a></li>
+  <li><a href="#black-on-white" id="toc-black-on-white" class="nav-link" data-scroll-target="#black-on-white"><span class="header-section-number">82.4.2</span> Black On White</a></li>
+  <li><a href="#white-on-black" id="toc-white-on-black" class="nav-link" data-scroll-target="#white-on-black"><span class="header-section-number">82.4.3</span> White On Black</a></li>
+  <li><a href="#power-grading-1-2-3-4-5" id="toc-power-grading-1-2-3-4-5" class="nav-link" data-scroll-target="#power-grading-1-2-3-4-5"><span class="header-section-number">82.4.4</span> Power grading 1, 2, 3, 4, 5</a></li>
+  <li><a href="#frequency-grading" id="toc-frequency-grading" class="nav-link" data-scroll-target="#frequency-grading"><span class="header-section-number">82.4.5</span> Frequency grading</a></li>
+  <li><a href="#duo-tone-grading-startend-colors" id="toc-duo-tone-grading-startend-colors" class="nav-link" data-scroll-target="#duo-tone-grading-startend-colors"><span class="header-section-number">82.4.6</span> Duo-tone grading start/end colors</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -765,26 +776,14 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">FLUX:: Analyzer</h1>
+<h1 class="title"><span class="chapter-number">82</span>&nbsp; <span class="chapter-title">Setup</span></h1>
 </div>
 
 
 
 <div class="quarto-title-meta">
 
-    <div>
-    <div class="quarto-title-meta-heading">Author</div>
-    <div class="quarto-title-meta-contents">
-             <p>FLUX:: Immersive </p>
-          </div>
-  </div>
     
-    <div>
-    <div class="quarto-title-meta-heading">Published</div>
-    <div class="quarto-title-meta-contents">
-      <p class="date">February 6, 2023</p>
-    </div>
-  </div>
   
     
   </div>
@@ -792,12 +791,69 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<section id="welcome" class="level1" data-number="1">
-<h1 data-number="1"><span class="header-section-number">1</span> Welcome</h1>
-<section id="thank-you" class="level2" data-number="1.1">
-<h2 data-number="1.1" class="anchored" data-anchor-id="thank-you"><span class="header-section-number">1.1</span> Thank You!</h2>
-<p>Thank you for purchasing FLUX:: Analyzer System.</p>
-<p><a href="https://www.flux.audio/project/flux-analyzer/">Product Page</a> | <a href="https://shop.flux.audio/en_US/products/flux-analyzer">Shop Page</a></p>
+<p><img src="https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Spectrogram/Setup.png" class="img-fluid"></p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Spectrogram setup</p>
+</div>
+</div>
+<section id="direction" class="level2" data-number="82.1">
+<h2 data-number="82.1" class="anchored" data-anchor-id="direction"><span class="header-section-number">82.1</span> Direction</h2>
+<p><img src="https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Spectrogram/Direction.png" class="img-fluid"></p>
+<p>Defines the scrolling direction of the spectrogram.</p>
+</section>
+<section id="log-gain" class="level2" data-number="82.2">
+<h2 data-number="82.2" class="anchored" data-anchor-id="log-gain"><span class="header-section-number">82.2</span> Log Gain</h2>
+<p>Toggles logarithmic scaling of the magnitude spectrum on and off.</p>
+<p>Default is on.</p>
+<p>When enabled, the magnitude at a given time-frequency point is applied a logarithmic scaling before being converted to a pixel value. This has the effect of compressing the dynamic range, and makes low energy components stand out more, but also decreases the contrast of the display.</p>
+</section>
+<section id="threshold" class="level2" data-number="82.3">
+<h2 data-number="82.3" class="anchored" data-anchor-id="threshold"><span class="header-section-number">82.3</span> Threshold</h2>
+<section id="threshold---range-max" class="level3" data-number="82.3.1">
+<h3 data-number="82.3.1" class="anchored" data-anchor-id="threshold---range-max"><span class="header-section-number">82.3.1</span> Threshold - Range Max</h3>
+<p>Sets the maximum amplitude spectrum value to be displayed.</p>
+</section>
+<section id="threshold---range-min" class="level3" data-number="82.3.2">
+<h3 data-number="82.3.2" class="anchored" data-anchor-id="threshold---range-min"><span class="header-section-number">82.3.2</span> Threshold - Range Min</h3>
+<p>Sets the minimum amplitude spectrum value to be displayed.</p>
+</section>
+</section>
+<section id="color-mode" class="level2" data-number="82.4">
+<h2 data-number="82.4" class="anchored" data-anchor-id="color-mode"><span class="header-section-number">82.4</span> Color Mode</h2>
+<p><img src="https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Spectrogram/ColorMode.png" class="img-fluid"></p>
+<section id="duotone" class="level3" data-number="82.4.1">
+<h3 data-number="82.4.1" class="anchored" data-anchor-id="duotone"><span class="header-section-number">82.4.1</span> Duotone</h3>
+<p>In this color mode, the amplitude of a time-frequency point is mapped to a pixel using a two-color palette, set using start/end colors.</p>
+</section>
+<section id="black-on-white" class="level3" data-number="82.4.2">
+<h3 data-number="82.4.2" class="anchored" data-anchor-id="black-on-white"><span class="header-section-number">82.4.2</span> Black On White</h3>
+<p>In this color mode, the amplitude of a time-frequency point is mapped to a pixel using a Black &amp; White color palette with White as background.</p>
+</section>
+<section id="white-on-black" class="level3" data-number="82.4.3">
+<h3 data-number="82.4.3" class="anchored" data-anchor-id="white-on-black"><span class="header-section-number">82.4.3</span> White On Black</h3>
+<p>In this color mode, the amplitude of a time-frequency point is mapped to a pixel using a Black &amp; White color palette with Black as background.</p>
+</section>
+<section id="power-grading-1-2-3-4-5" class="level3" data-number="82.4.4">
+<h3 data-number="82.4.4" class="anchored" data-anchor-id="power-grading-1-2-3-4-5"><span class="header-section-number">82.4.4</span> Power grading 1, 2, 3, 4, 5</h3>
+<p>In this color mode, the amplitude of a time-frequency point is mapped to a pixel using different predefined color palette.</p>
+</section>
+<section id="frequency-grading" class="level3" data-number="82.4.5">
+<h3 data-number="82.4.5" class="anchored" data-anchor-id="frequency-grading"><span class="header-section-number">82.4.5</span> Frequency grading</h3>
+<p>In this color mode, the amplitude of a time-frequency point determines the intensity of the corresponding pixel, whose color varies according to frequency.</p>
+</section>
+<section id="duo-tone-grading-startend-colors" class="level3" data-number="82.4.6">
+<h3 data-number="82.4.6" class="anchored" data-anchor-id="duo-tone-grading-startend-colors"><span class="header-section-number">82.4.6</span> Duo-tone grading start/end colors</h3>
+<p>Sets the color to use for minimum and maximum amplitude components respectively, when color mode is set to <em>Duotone</em>.</p>
+<!-- ALLVERSIONS-->
 
 
 </section>
@@ -1039,10 +1095,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
+      <a href="./Spectrogram_Usage.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">81</span>&nbsp; <span class="chapter-title">Usage</span></span>
+      </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./Pure_Analyzer_Pure-analyzer-versions.html" class="pagination-link">
-        <span class="nav-page-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">FLUX:: Analyzer Versions</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./Snapshots_Snapshots.html" class="pagination-link">
+        <span class="nav-page-text"><span class="chapter-number">83</span>&nbsp; <span class="chapter-title">Snapshots</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

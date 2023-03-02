@@ -6,10 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="FLUX:: Immersive">
-<meta name="dcterms.date" content="2023-02-06">
 
-<title>FLUX:: Analyzer</title>
+<title>FLUX:: Analyzer - 53&nbsp; Mic. channel Leq setup</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -32,7 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./Pure_Analyzer_Pure-analyzer-versions.html" rel="next">
+<link href="./Metering_Leq_Metering_SPL.html" rel="next">
+<link href="./Metering_Leq_Metering_Introduction.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -74,7 +73,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Welcome</span></a></li></ol></nav>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./Metering_Leq_Metering_Introduction.html">Leq metering</a></li><li class="breadcrumb-item"><a href="./Metering_Leq_Metering_Mic_Channel_Setup.html"><span class="chapter-number">53</span>&nbsp; <span class="chapter-title">Mic. channel Leq setup</span></a></li></ol></nav>
       <a class="flex-grow-1" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
       </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -104,7 +103,7 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link active"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Welcome</span></a>
+  <a href="./index.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Welcome</span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -445,7 +444,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./Metering_Leq_Metering_Mic_Channel_Setup.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">53</span>&nbsp; <span class="chapter-title">Mic. channel Leq setup</span></a>
+  <a href="./Metering_Leq_Metering_Mic_Channel_Setup.html" class="sidebar-item-text sidebar-link active"><span class="chapter-number">53</span>&nbsp; <span class="chapter-title">Mic. channel Leq setup</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -753,10 +752,12 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#welcome" id="toc-welcome" class="nav-link active" data-scroll-target="#welcome"><span class="header-section-number">1</span> Welcome</a>
-  <ul class="collapse">
-  <li><a href="#thank-you" id="toc-thank-you" class="nav-link" data-scroll-target="#thank-you"><span class="header-section-number">1.1</span> Thank You!</a></li>
-  </ul></li>
+  <li><a href="#zero-ref." id="toc-zero-ref." class="nav-link active" data-scroll-target="#zero-ref."><span class="header-section-number">53.1</span> Zero ref.</a></li>
+  <li><a href="#weighting" id="toc-weighting" class="nav-link" data-scroll-target="#weighting"><span class="header-section-number">53.2</span> Weighting</a></li>
+  <li><a href="#time-weighted-f" id="toc-time-weighted-f" class="nav-link" data-scroll-target="#time-weighted-f"><span class="header-section-number">53.3</span> Time-weighted F</a></li>
+  <li><a href="#time-weighted-s" id="toc-time-weighted-s" class="nav-link" data-scroll-target="#time-weighted-s"><span class="header-section-number">53.4</span> Time-weighted S</a></li>
+  <li><a href="#average-integration" id="toc-average-integration" class="nav-link" data-scroll-target="#average-integration"><span class="header-section-number">53.5</span> Average integration</a></li>
+  <li><a href="#main-display" id="toc-main-display" class="nav-link" data-scroll-target="#main-display"><span class="header-section-number">53.6</span> Main display</a></li>
   </ul>
 </nav>
     </div>
@@ -765,26 +766,14 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">FLUX:: Analyzer</h1>
+<h1 class="title"><span class="chapter-number">53</span>&nbsp; <span class="chapter-title">Mic. channel Leq setup</span></h1>
 </div>
 
 
 
 <div class="quarto-title-meta">
 
-    <div>
-    <div class="quarto-title-meta-heading">Author</div>
-    <div class="quarto-title-meta-contents">
-             <p>FLUX:: Immersive </p>
-          </div>
-  </div>
     
-    <div>
-    <div class="quarto-title-meta-heading">Published</div>
-    <div class="quarto-title-meta-contents">
-      <p class="date">February 6, 2023</p>
-    </div>
-  </div>
   
     
   </div>
@@ -792,15 +781,35 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<section id="welcome" class="level1" data-number="1">
-<h1 data-number="1"><span class="header-section-number">1</span> Welcome</h1>
-<section id="thank-you" class="level2" data-number="1.1">
-<h2 data-number="1.1" class="anchored" data-anchor-id="thank-you"><span class="header-section-number">1.1</span> Thank You!</h2>
-<p>Thank you for purchasing FLUX:: Analyzer System.</p>
-<p><a href="https://www.flux.audio/project/flux-analyzer/">Product Page</a> | <a href="https://shop.flux.audio/en_US/products/flux-analyzer">Shop Page</a></p>
-
-
+<p><img src="https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/LEQMetering/Setup.png" class="img-fluid"></p>
+<blockquote class="blockquote">
+<p>Mic. channel Leq setup</p>
+</blockquote>
+<section id="zero-ref." class="level2" data-number="53.1">
+<h2 data-number="53.1" class="anchored" data-anchor-id="zero-ref."><span class="header-section-number">53.1</span> Zero ref.</h2>
+<p>Adjusts the reference point. See RMS for more information.</p>
 </section>
+<section id="weighting" class="level2" data-number="53.2">
+<h2 data-number="53.2" class="anchored" data-anchor-id="weighting"><span class="header-section-number">53.2</span> Weighting</h2>
+<p>Frequency weighting employed. Can be switched between ANSI standard (A, B, C, D) and none. The default is A.</p>
+</section>
+<section id="time-weighted-f" class="level2" data-number="53.3">
+<h2 data-number="53.3" class="anchored" data-anchor-id="time-weighted-f"><span class="header-section-number">53.3</span> Time-weighted F</h2>
+<p>Indicates the time-constant for the <i>Fast</i> time-weighted sound level.</p>
+</section>
+<section id="time-weighted-s" class="level2" data-number="53.4">
+<h2 data-number="53.4" class="anchored" data-anchor-id="time-weighted-s"><span class="header-section-number">53.4</span> Time-weighted S</h2>
+<p>Indicates the time-constant for the <i>Slow</i> time-weighted sound level.</p>
+</section>
+<section id="average-integration" class="level2" data-number="53.5">
+<h2 data-number="53.5" class="anchored" data-anchor-id="average-integration"><span class="header-section-number">53.5</span> Average integration</h2>
+<p>Sets the integration time for the time-average sound level, between 1s and 14400s (4 hours). Default is 10s.</p>
+</section>
+<section id="main-display" class="level2" data-number="53.6">
+<h2 data-number="53.6" class="anchored" data-anchor-id="main-display"><span class="header-section-number">53.6</span> Main display</h2>
+<p>Switches the main measurement display from time-average sound level (the default) to sound exposure level.</p>
+
+
 </section>
 
 </main> <!-- /main -->
@@ -1039,10 +1048,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
+      <a href="./Metering_Leq_Metering_Introduction.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">52</span>&nbsp; <span class="chapter-title">Introduction</span></span>
+      </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./Pure_Analyzer_Pure-analyzer-versions.html" class="pagination-link">
-        <span class="nav-page-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">FLUX:: Analyzer Versions</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./Metering_Leq_Metering_SPL.html" class="pagination-link">
+        <span class="nav-page-text"><span class="chapter-number">54</span>&nbsp; <span class="chapter-title">SPL</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

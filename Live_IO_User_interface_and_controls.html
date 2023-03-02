@@ -6,10 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="FLUX:: Immersive">
-<meta name="dcterms.date" content="2023-02-06">
 
-<title>FLUX:: Analyzer</title>
+<title>FLUX:: Analyzer - 69&nbsp; User interface and controls</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -32,7 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./Pure_Analyzer_Pure-analyzer-versions.html" rel="next">
+<link href="./Live_IO_Setup.html" rel="next">
+<link href="./Live_IO_Notes.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -74,7 +73,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Welcome</span></a></li></ol></nav>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./Live_IO_Live_IO.html">Live IO</a></li><li class="breadcrumb-item"><a href="./Live_IO_User_interface_and_controls.html"><span class="chapter-number">69</span>&nbsp; <span class="chapter-title">User interface and controls</span></a></li></ol></nav>
       <a class="flex-grow-1" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
       </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -104,7 +103,7 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link active"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Welcome</span></a>
+  <a href="./index.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Welcome</span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -565,7 +564,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./Live_IO_User_interface_and_controls.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">69</span>&nbsp; <span class="chapter-title">User interface and controls</span></a>
+  <a href="./Live_IO_User_interface_and_controls.html" class="sidebar-item-text sidebar-link active"><span class="chapter-number">69</span>&nbsp; <span class="chapter-title">User interface and controls</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -753,10 +752,14 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#welcome" id="toc-welcome" class="nav-link active" data-scroll-target="#welcome"><span class="header-section-number">1</span> Welcome</a>
-  <ul class="collapse">
-  <li><a href="#thank-you" id="toc-thank-you" class="nav-link" data-scroll-target="#thank-you"><span class="header-section-number">1.1</span> Thank You!</a></li>
-  </ul></li>
+  <li><a href="#name" id="toc-name" class="nav-link active" data-scroll-target="#name"><span class="header-section-number">69.1</span> Name</a></li>
+  <li><a href="#ref" id="toc-ref" class="nav-link" data-scroll-target="#ref"><span class="header-section-number">69.2</span> Ref</a></li>
+  <li><a href="#mic" id="toc-mic" class="nav-link" data-scroll-target="#mic"><span class="header-section-number">69.3</span> Mic</a></li>
+  <li><a href="#phase-invert" id="toc-phase-invert" class="nav-link" data-scroll-target="#phase-invert"><span class="header-section-number">69.4</span> Phase invert</a></li>
+  <li><a href="#onoff" id="toc-onoff" class="nav-link" data-scroll-target="#onoff"><span class="header-section-number">69.5</span> On/Off</a></li>
+  <li><a href="#delay-value" id="toc-delay-value" class="nav-link" data-scroll-target="#delay-value"><span class="header-section-number">69.6</span> Delay value</a></li>
+  <li><a href="#find" id="toc-find" class="nav-link" data-scroll-target="#find"><span class="header-section-number">69.7</span> Find</a></li>
+  <li><a href="#progress" id="toc-progress" class="nav-link" data-scroll-target="#progress"><span class="header-section-number">69.8</span> Progress</a></li>
   </ul>
 </nav>
     </div>
@@ -765,26 +768,14 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">FLUX:: Analyzer</h1>
+<h1 class="title"><span class="chapter-number">69</span>&nbsp; <span class="chapter-title">User interface and controls</span></h1>
 </div>
 
 
 
 <div class="quarto-title-meta">
 
-    <div>
-    <div class="quarto-title-meta-heading">Author</div>
-    <div class="quarto-title-meta-contents">
-             <p>FLUX:: Immersive </p>
-          </div>
-  </div>
     
-    <div>
-    <div class="quarto-title-meta-heading">Published</div>
-    <div class="quarto-title-meta-contents">
-      <p class="date">February 6, 2023</p>
-    </div>
-  </div>
   
     
   </div>
@@ -792,15 +783,66 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<section id="welcome" class="level1" data-number="1">
-<h1 data-number="1"><span class="header-section-number">1</span> Welcome</h1>
-<section id="thank-you" class="level2" data-number="1.1">
-<h2 data-number="1.1" class="anchored" data-anchor-id="thank-you"><span class="header-section-number">1.1</span> Thank You!</h2>
-<p>Thank you for purchasing FLUX:: Analyzer System.</p>
-<p><a href="https://www.flux.audio/project/flux-analyzer/">Product Page</a> | <a href="https://shop.flux.audio/en_US/products/flux-analyzer">Shop Page</a></p>
-
-
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/LiveIO/Main2.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption">Live IO controls.</figcaption><p></p>
+</figure>
+</div>
+<section id="name" class="level2" data-number="69.1">
+<h2 data-number="69.1" class="anchored" data-anchor-id="name"><span class="header-section-number">69.1</span> Name</h2>
+<p><img src="https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/LiveIO/Name.png" class="img-fluid"></p>
+<p>Allows to define a custom name for each channel. This is a global name; saved and restored with the preset but not directly related to the Hardware I/O Interface. As this, it will be consistent even if you switch the Hardware I/O Interface or switch to connect to a <a href="01_Initial_Setup_01_SampleGrabber_01_Principe_of_operation.md">SampleGrabber</a>.</p>
 </section>
+<section id="ref" class="level2" data-number="69.2">
+<h2 data-number="69.2" class="anchored" data-anchor-id="ref"><span class="header-section-number">69.2</span> Ref</h2>
+<p>The <img src="https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Generic/Reference.png" class="img-fluid"> button toggles whether the corresponding channel should be used as a reference signal.</p>
+<p>Multiple channels can be used as reference, in which case a mono-sum of these channels is used as the internal reference signal.</p>
+</section>
+<section id="mic" class="level2" data-number="69.3">
+<h2 data-number="69.3" class="anchored" data-anchor-id="mic"><span class="header-section-number">69.3</span> Mic</h2>
+<p>The <img src="https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Generic/Mic.png" class="img-fluid"> button toggles whether the corresponding channel should be used as a microphone input signal, which is used to capture the response of the system.</p>
+<p>Multiple channels can be used as microphone input, in which case a mono-sum of these channels is used as the internal microphone signal.</p>
+</section>
+<section id="phase-invert" class="level2" data-number="69.4">
+<h2 data-number="69.4" class="anchored" data-anchor-id="phase-invert"><span class="header-section-number">69.4</span> Phase invert</h2>
+<p>The <img src="https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Generic/InvPhase.png" class="img-fluid"> toggles phase inversion of the selected channel on and off. This can be used to compensate another known phase inversion somewhere else in the analog signal chain.</p>
+</section>
+<section id="onoff" class="level2" data-number="69.5">
+<h2 data-number="69.5" class="anchored" data-anchor-id="onoff"><span class="header-section-number">69.5</span> On/Off</h2>
+<p>The <img src="https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Generic/On.png" class="img-fluid"> button toggles delay compensation on and off. When the correct delay has been determined, engage this button to insert a delay line in the reference channel, to align reference and measured signals, and get correct transfer function and impulse response.</p>
+<blockquote class="blockquote">
+<p>On/Off delay button appears only on channels toggled as microphone&gt;</p>
+</blockquote>
+</section>
+<section id="delay-value" class="level2" data-number="69.6">
+<h2 data-number="69.6" class="anchored" data-anchor-id="delay-value"><span class="header-section-number">69.6</span> Delay value</h2>
+<p>The delay value is displayed simultaneously as:</p>
+<ul>
+<li>A number of samples (at the current sampling rate).</li>
+<li>A time delay, in milliseconds.</li>
+<li>A distance, in meters or feet.</li>
+</ul>
+<p>You can manually adjust any of these values, using either keyboard input or fine increments with the up and down arrows; the two other values will change accordingly.</p>
+<p>Please note precision of the distance value depends on correctness of the temperature value inserted in the main setup. In a concert hall with an audience present, there will probably important temperature variations, so this value should only be seen as a rough measure.</p>
+<p>Lastly, remember the delay value in samples is the master value, from which others are derived.</p>
+<blockquote class="blockquote">
+<p>Delay values appears only on channels toggled as microphone&gt;</p>
+</blockquote>
+</section>
+<section id="find" class="level2" data-number="69.7">
+<h2 data-number="69.7" class="anchored" data-anchor-id="find"><span class="header-section-number">69.7</span> Find</h2>
+<p>Clicking the <img src="https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Generic/Find.png" class="img-fluid"> button starts a new delay value computation. Previous values, whether computed using the delay finder or entered by hand, will be erased. The algorithm accumulates a certain amount of incoming signal before the actual computation is actually performed, to ensure the delay is always computed using the most current audio.</p>
+<blockquote class="blockquote">
+<p>Find Delay appears only on channels toggled as microphone&gt;</p>
+</blockquote>
+</section>
+<section id="progress" class="level2" data-number="69.8">
+<h2 data-number="69.8" class="anchored" data-anchor-id="progress"><span class="header-section-number">69.8</span> Progress</h2>
+<p>An informational text showing the progress of the computation is shown when the <img src="https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Generic/Find.png" class="img-fluid"> delay find button is clicked, as well any error potentially encountered.</p>
+<!-- LIVEVERSIONS-->
+
+
 </section>
 
 </main> <!-- /main -->
@@ -1039,10 +1081,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
+      <a href="./Live_IO_Notes.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">68</span>&nbsp; <span class="chapter-title">Notes</span></span>
+      </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./Pure_Analyzer_Pure-analyzer-versions.html" class="pagination-link">
-        <span class="nav-page-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">FLUX:: Analyzer Versions</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./Live_IO_Setup.html" class="pagination-link">
+        <span class="nav-page-text"><span class="chapter-number">70</span>&nbsp; <span class="chapter-title">Setup</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

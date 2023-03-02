@@ -6,10 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="FLUX:: Immersive">
-<meta name="dcterms.date" content="2023-02-06">
 
-<title>FLUX:: Analyzer</title>
+<title>FLUX:: Analyzer - 7&nbsp; Main setup</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -32,7 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./Pure_Analyzer_Pure-analyzer-versions.html" rel="next">
+<link href="./User_Interface_UI_setup.html" rel="next">
+<link href="./User_Interface_Layout_mode.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -74,7 +73,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Welcome</span></a></li></ol></nav>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./User_Interface_Common_workflow_Mouse_commands_and_conventions.html">User interface</a></li><li class="breadcrumb-item"><a href="./User_Interface_Main_setup.html"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Main setup</span></a></li></ol></nav>
       <a class="flex-grow-1" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
       </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -104,7 +103,7 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link active"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Welcome</span></a>
+  <a href="./index.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Welcome</span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -145,7 +144,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./User_Interface_Main_setup.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Main setup</span></a>
+  <a href="./User_Interface_Main_setup.html" class="sidebar-item-text sidebar-link active"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Main setup</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -753,9 +752,34 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#welcome" id="toc-welcome" class="nav-link active" data-scroll-target="#welcome"><span class="header-section-number">1</span> Welcome</a>
+  <li><a href="#configuration" id="toc-configuration" class="nav-link active" data-scroll-target="#configuration"><span class="header-section-number">7.1</span> Configuration</a></li>
+  <li><a href="#samplegrabber" id="toc-samplegrabber" class="nav-link" data-scroll-target="#samplegrabber"><span class="header-section-number">7.2</span> SampleGrabber</a></li>
+  <li><a href="#graphic-engine" id="toc-graphic-engine" class="nav-link" data-scroll-target="#graphic-engine"><span class="header-section-number">7.3</span> Graphic engine</a></li>
+  <li><a href="#time-code" id="toc-time-code" class="nav-link" data-scroll-target="#time-code"><span class="header-section-number">7.4</span> Time code</a>
   <ul class="collapse">
-  <li><a href="#thank-you" id="toc-thank-you" class="nav-link" data-scroll-target="#thank-you"><span class="header-section-number">1.1</span> Thank You!</a></li>
+  <li><a href="#display-frame-rate" id="toc-display-frame-rate" class="nav-link" data-scroll-target="#display-frame-rate"><span class="header-section-number">7.4.1</span> Display frame rate</a></li>
+  <li><a href="#absolute-timecode" id="toc-absolute-timecode" class="nav-link" data-scroll-target="#absolute-timecode"><span class="header-section-number">7.4.2</span> Absolute Timecode</a></li>
+  </ul></li>
+  <li><a href="#main" id="toc-main" class="nav-link" data-scroll-target="#main"><span class="header-section-number">7.5</span> Main</a>
+  <ul class="collapse">
+  <li><a href="#rta-block-size" id="toc-rta-block-size" class="nav-link" data-scroll-target="#rta-block-size"><span class="header-section-number">7.5.1</span> RTA block size</a></li>
+  <li><a href="#tfsweep-block-size" id="toc-tfsweep-block-size" class="nav-link" data-scroll-target="#tfsweep-block-size"><span class="header-section-number">7.5.2</span> TF/Sweep Block size</a></li>
+  <li><a href="#overlap-mode" id="toc-overlap-mode" class="nav-link" data-scroll-target="#overlap-mode"><span class="header-section-number">7.5.3</span> Overlap Mode</a></li>
+  <li><a href="#analysis-window" id="toc-analysis-window" class="nav-link" data-scroll-target="#analysis-window"><span class="header-section-number">7.5.4</span> Analysis window</a></li>
+  <li><a href="#normalization" id="toc-normalization" class="nav-link" data-scroll-target="#normalization"><span class="header-section-number">7.5.5</span> Normalization</a></li>
+  <li><a href="#scaling" id="toc-scaling" class="nav-link" data-scroll-target="#scaling"><span class="header-section-number">7.5.6</span> Scaling</a></li>
+  </ul></li>
+  <li><a href="#averaging" id="toc-averaging" class="nav-link" data-scroll-target="#averaging"><span class="header-section-number">7.6</span> Averaging</a>
+  <ul class="collapse">
+  <li><a href="#mode" id="toc-mode" class="nav-link" data-scroll-target="#mode"><span class="header-section-number">7.6.1</span> Mode</a></li>
+  <li><a href="#length" id="toc-length" class="nav-link" data-scroll-target="#length"><span class="header-section-number">7.6.2</span> Length</a></li>
+  </ul></li>
+  <li><a href="#various" id="toc-various" class="nav-link" data-scroll-target="#various"><span class="header-section-number">7.7</span> Various</a>
+  <ul class="collapse">
+  <li><a href="#auto-pause-threshold" id="toc-auto-pause-threshold" class="nav-link" data-scroll-target="#auto-pause-threshold"><span class="header-section-number">7.7.1</span> Auto-pause threshold</a></li>
+  <li><a href="#metric-system" id="toc-metric-system" class="nav-link" data-scroll-target="#metric-system"><span class="header-section-number">7.7.2</span> Metric system</a></li>
+  <li><a href="#temperature" id="toc-temperature" class="nav-link" data-scroll-target="#temperature"><span class="header-section-number">7.7.3</span> Temperature</a></li>
+  <li><a href="#preferences-reset" id="toc-preferences-reset" class="nav-link" data-scroll-target="#preferences-reset"><span class="header-section-number">7.7.4</span> Preferences reset</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -765,26 +789,14 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">FLUX:: Analyzer</h1>
+<h1 class="title"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Main setup</span></h1>
 </div>
 
 
 
 <div class="quarto-title-meta">
 
-    <div>
-    <div class="quarto-title-meta-heading">Author</div>
-    <div class="quarto-title-meta-contents">
-             <p>FLUX:: Immersive </p>
-          </div>
-  </div>
     
-    <div>
-    <div class="quarto-title-meta-heading">Published</div>
-    <div class="quarto-title-meta-contents">
-      <p class="date">February 6, 2023</p>
-    </div>
-  </div>
   
     
   </div>
@@ -792,12 +804,194 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<section id="welcome" class="level1" data-number="1">
-<h1 data-number="1"><span class="header-section-number">1</span> Welcome</h1>
-<section id="thank-you" class="level2" data-number="1.1">
-<h2 data-number="1.1" class="anchored" data-anchor-id="thank-you"><span class="header-section-number">1.1</span> Thank You!</h2>
-<p>Thank you for purchasing FLUX:: Analyzer System.</p>
-<p><a href="https://www.flux.audio/project/flux-analyzer/">Product Page</a> | <a href="https://shop.flux.audio/en_US/products/flux-analyzer">Shop Page</a></p>
+<p><img src="https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Setup/MainSetup.png" class="img-fluid"></p>
+<p>Main setup dialog</p>
+<section id="configuration" class="level2" data-number="7.1">
+<h2 data-number="7.1" class="anchored" data-anchor-id="configuration"><span class="header-section-number">7.1</span> Configuration</h2>
+<p>Save / restore a user-defined configuration to and from disk, including all the settings in this panel, as well as <a href="02_User_Interface_06_IO_Configuration.md">IO Configuration</a> and <a href="02_User_Interface_05_UI_setup.md">UI Setup</a>.</p>
+</section>
+<section id="samplegrabber" class="level2" data-number="7.2">
+<h2 data-number="7.2" class="anchored" data-anchor-id="samplegrabber"><span class="header-section-number">7.2</span> SampleGrabber</h2>
+<p><strong>SampleGrabber password</strong></p>
+<p>The password entered in this field should match the one used by the SampleGrabber you wish to use as a source. This provides a reasonable level a security and prevents unauthorized access to your audio material broadcast over the network. Please take into consideration the encryption used only provides moderate protection, and is not intended to replace other security guards such as firewalls etc.</p>
+</section>
+<section id="graphic-engine" class="level2" data-number="7.3">
+<h2 data-number="7.3" class="anchored" data-anchor-id="graphic-engine"><span class="header-section-number">7.3</span> Graphic engine</h2>
+<p><img src="https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Setup/EngineFrameRate.png" class="img-fluid"></p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Available graphic engine frame rates</p>
+</div>
+</div>
+<p>Here you can specify the rate at which the display should be refreshed. Please note higher frame rates place higher demands on the GPU, and to a lesser extent, on the CPU.</p>
+<blockquote class="blockquote">
+<p>The effective frame rate can be displayed by typing <code>SetRenderStats(1)</code> in the console.</p>
+</blockquote>
+</section>
+<section id="time-code" class="level2" data-number="7.4">
+<h2 data-number="7.4" class="anchored" data-anchor-id="time-code"><span class="header-section-number">7.4</span> Time code</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Setup/DisplayFrameRate.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption">Available display frame rates</figcaption><p></p>
+</figure>
+</div>
+<section id="display-frame-rate" class="level3" data-number="7.4.1">
+<h3 data-number="7.4.1" class="anchored" data-anchor-id="display-frame-rate"><span class="header-section-number">7.4.1</span> Display frame rate</h3>
+<p>Sets the frame-rate used for time display in various parts of the program. Set it to match the frame-rate of your source material to facilitate locating time events, when working with film, TV or other time-stamped material.</p>
+</section>
+<section id="absolute-timecode" class="level3" data-number="7.4.2">
+<h3 data-number="7.4.2" class="anchored" data-anchor-id="absolute-timecode"><span class="header-section-number">7.4.2</span> Absolute Timecode</h3>
+<p>This setting toggles between absolute and relative time-code display formats. Absolute Timecode is taken from the time the application was started. Relative Timecode is the time-elapsed since the Timecode offset position. See <a href="08_Metering_History_01_Usage.md">metering history usage</a> for information on working with Timecode.</p>
+</section>
+</section>
+<section id="main" class="level2" data-number="7.5">
+<h2 data-number="7.5" class="anchored" data-anchor-id="main"><span class="header-section-number">7.5</span> Main</h2>
+<section id="rta-block-size" class="level3" data-number="7.5.1">
+<h3 data-number="7.5.1" class="anchored" data-anchor-id="rta-block-size"><span class="header-section-number">7.5.1</span> RTA block size</h3>
+<p><img src="https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Setup/RTABlockSize.png" class="img-fluid"></p>
+<p>Defines the size of the blocks, in samples, fed to the main spectrum analyzer engine, which is used by the spectrum magnitude, Nebula and spectrogram views.</p>
+<p>Pure spectrum Toggles between optimized frequency analysis (default) and standard FFT.</p>
+</section>
+<section id="tfsweep-block-size" class="level3" data-number="7.5.2">
+<h3 data-number="7.5.2" class="anchored" data-anchor-id="tfsweep-block-size"><span class="header-section-number">7.5.2</span> TF/Sweep Block size</h3>
+<p><img src="https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Setup/TFBlockSize.png" class="img-fluid"></p>
+<p>Block size used for the transfer function and snapshot performed with sine-sweep. The default is 32768, which is appropriate for most cases.</p>
+<p>Increasing this value gives better frequency resolution, at the expense of CPU load. Lower values can be employed if you’re only interested in the overall response of the analyzed system.</p>
+</section>
+<section id="overlap-mode" class="level3" data-number="7.5.3">
+<h3 data-number="7.5.3" class="anchored" data-anchor-id="overlap-mode"><span class="header-section-number">7.5.3</span> Overlap Mode</h3>
+<p><img src="https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Setup/OverlapMode.png" class="img-fluid"></p>
+<p>The overlap mode setting determines how much incoming audio frames overlap each-other. A higher overlap results in a smoother display update, at the expense of increased CPU usage. The available settings are: * Full: highest overlap * Auto: optimized overlap depending on available CPU resources (Default). * Less: minimized overlap for minimal CPU usage (useful for slow machines)</p>
+</section>
+<section id="analysis-window" class="level3" data-number="7.5.4">
+<h3 data-number="7.5.4" class="anchored" data-anchor-id="analysis-window"><span class="header-section-number">7.5.4</span> Analysis window</h3>
+<p><img src="https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Setup/AnalysisWindow.png" class="img-fluid"></p>
+<p>Selects the analysis window applied to the incoming blocks.</p>
+<p>Available choices are:</p>
+<ul>
+<li>Rectangular (None).</li>
+<li>Bartlett.</li>
+<li>Blackmann standard (default).</li>
+<li>Blackmann optimized.</li>
+<li>Hamming.</li>
+<li>Hann.</li>
+</ul>
+<p>There is no reason to change this setting unless you have a specific reason to do so and fully understand the implications.</p>
+</section>
+<section id="normalization" class="level3" data-number="7.5.5">
+<h3 data-number="7.5.5" class="anchored" data-anchor-id="normalization"><span class="header-section-number">7.5.5</span> Normalization</h3>
+<p><img src="https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Setup/Normalization.png" class="img-fluid"></p>
+<p>Selects the normalization mode used to normalize the global gain of the spectrum display.</p>
+<p>Available choices are:</p>
+<ul>
+<li>Coherent (sinus): 0dB peak sine gives 0dB amplitude.</li>
+<li>Incoherent (noise/music): 0dB <link type="document" target="RMS">RMS noise or music gives 0dB power.</li>
+</ul>
+</section>
+<section id="scaling" class="level3" data-number="7.5.6">
+<h3 data-number="7.5.6" class="anchored" data-anchor-id="scaling"><span class="header-section-number">7.5.6</span> Scaling</h3>
+<p><img src="https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Setup/Scaling.png" class="img-fluid"></p>
+<p>This setting controls the frequency dependent amplitude spectrum correction curve.</p>
+<p>Available choices are:</p>
+<ul>
+<li><p>Amplitude: equivalent to no scaling. Amplitude of pure tones at different frequencies register at the same value. Incoming white noise is displayed as a (quasi) flat curve.</p></li>
+<li><p>Power (default): scaling inversely proportional to frequency (1/f). Incoming pink noise is displayed as a flat curve.</p></li>
+</ul>
+</section>
+</section>
+<section id="averaging" class="level2" data-number="7.6">
+<h2 data-number="7.6" class="anchored" data-anchor-id="averaging"><span class="header-section-number">7.6</span> Averaging</h2>
+<p><img src="https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Setup/AveragingMode.png" class="img-fluid"></p>
+<p><a href="07_Metering_01_RMS_Metering_06_Time.md">Time</a> averaging: engages averaging of spectrum magnitudes over time. Default is off.</p>
+<section id="mode" class="level3" data-number="7.6.1">
+<h3 data-number="7.6.1" class="anchored" data-anchor-id="mode"><span class="header-section-number">7.6.1</span> Mode</h3>
+<ul>
+<li><p>Running: the average display is updated as soon as a new incoming block arrives. This is the default.</p></li>
+<li><p>Fill-freeze: the display is only updated when a fresh batch of N new incoming blocks has arrived. The display is frozen until the next batch of N blocks arrive, and so on. N corresponds to the length setting defined below.</p></li>
+</ul>
+</section>
+<section id="length" class="level3" data-number="7.6.2">
+<h3 data-number="7.6.2" class="anchored" data-anchor-id="length"><span class="header-section-number">7.6.2</span> Length</h3>
+<p>The number of incoming blocks over which the resulting average spectrum is computed. Lower values lead to faster apparent display update rates, while higher values smooth-out any time-variations more. Default is 32.</p>
+<blockquote class="blockquote">
+<p>Running average employs a weighting window that gives more importance to the last incoming blocks of samples. This type of time averaging is also called <i>moving average</i>, <i>rolling average</i> or <i>running average</i>, and is good for smoothing out abrupt variations in time and still be able to monitor in a continuous fashion. Fill-freeze mode is useful for stabilizing a flickering display while still following long-term variations, which permits a more detailed study of the curve(s). This mode is therefore useful to get a very steady picture of the spectrum while still monitoring some of the mid-term changes, and saves you from holding and resetting the display manually again and again.</p>
+</blockquote>
+</section>
+</section>
+<section id="various" class="level2" data-number="7.7">
+<h2 data-number="7.7" class="anchored" data-anchor-id="various"><span class="header-section-number">7.7</span> Various</h2>
+<section id="auto-pause-threshold" class="level3" data-number="7.7.1">
+<h3 data-number="7.7.1" class="anchored" data-anchor-id="auto-pause-threshold"><span class="header-section-number">7.7.1</span> Auto-pause threshold</h3>
+<p>Analysis is paused whenever the level of any channel of the incoming audio falls below this level. Set this a tad above the acoustic and electronic noise floor of your input signal chain to retain measurements even though the audio (music program or test signal) has stopped.</p>
+</section>
+<section id="metric-system" class="level3" data-number="7.7.2">
+<h3 data-number="7.7.2" class="anchored" data-anchor-id="metric-system"><span class="header-section-number">7.7.2</span> Metric system</h3>
+<p>Toggle displayed units between:</p>
+<ul>
+<li>Metric system (default): distance expressed in meters, temperature in degrees Celsius.</li>
+<li>Imperial units: distance expressed in inches and feet, temperature in degrees Fahrenheit.</li>
+</ul>
+</section>
+<section id="temperature" class="level3" data-number="7.7.3">
+<h3 data-number="7.7.3" class="anchored" data-anchor-id="temperature"><span class="header-section-number">7.7.3</span> Temperature</h3>
+<p>This should be set to the ambient temperature at the current location in order to get the most accurate time to distance conversions in the delay finder and impulse response panels. The following table gives an idea of how much the speed of sound varies with temperature.</p>
+
+<table>
+<tbody><tr>
+<td>
+Temperature (°C)
+</td>
+<td>
+Speed of sound (m/s)
+</td>
+</tr>
+<tr>
+<td>
+0
+</td>
+<td>
+331.3
+</td>
+</tr>
+<tr>
+<td>
+15
+</td>
+<td>
+340.31
+</td>
+</tr>
+<tr>
+<td>
+25
+</td>
+<td>
+346.18
+</td>
+</tr>
+<tr>
+<td>
+35
+</td>
+<td>
+351.96
+</td>
+</tr>
+
+</tbody></table>
+</section>
+<section id="preferences-reset" class="level3" data-number="7.7.4">
+<h3 data-number="7.7.4" class="anchored" data-anchor-id="preferences-reset"><span class="header-section-number">7.7.4</span> Preferences reset</h3>
+<p>Resets “Default” application configuration settings to their default initial value. Please note the changes are only effective after restarting the application.</p>
 
 
 </section>
@@ -1039,10 +1233,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
+      <a href="./User_Interface_Layout_mode.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Layout mode</span></span>
+      </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./Pure_Analyzer_Pure-analyzer-versions.html" class="pagination-link">
-        <span class="nav-page-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">FLUX:: Analyzer Versions</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./User_Interface_UI_setup.html" class="pagination-link">
+        <span class="nav-page-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">UI Setup</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
