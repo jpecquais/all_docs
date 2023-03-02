@@ -2,268 +2,191 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Bittersweet Pro",
+    "title": "Elixir",
     "section": "",
-    "text": "1 BitterSweet Pro User Manual\nProduct Page | Shop Page"
+    "text": "1 Elixir - Real Multichannel True Peak Limiter\nProduct Page | Shop Page\nThank you for using Elixir. We hope that you will get good use of the information found in this manual."
   },
   {
-    "objectID": "index.html#the-ultimate-frequency-dependent-transient-designer",
-    "href": "index.html#the-ultimate-frequency-dependent-transient-designer",
-    "title": "Bittersweet Pro",
-    "section": "1.1 The Ultimate Frequency Dependent Transient Designer",
-    "text": "1.1 The Ultimate Frequency Dependent Transient Designer\nBitterSweet Pro, Frequency Dependent Transient Designer, is built around a new improved design of the algorithm found in Flux:: acclaimed freeware transient processor, BitterSweet, used by hundreds of thousands of users all over the world, and the approach we had when designing BitterSweet Pro was to make it just as easy and straightforward to use.\nWith BitterSweet Pro, Transients and Sustain can be amplified or attenuated simultaneously or individually, and it can process either all components (Main) in one, or process the Mid (Center) or the Side (Stereo) parts of the sound independently by encoding the material with its internal MS encoder, process it, and then decode it back to stereo again. This fundamental design makes it really easy to perform powerful level-independent transparent shaping of the sound spectrum with BitterSweet Pro."
-  },
-  {
-    "objectID": "index.html#frequency-dependent-transient-processing",
-    "href": "index.html#frequency-dependent-transient-processing",
-    "title": "Bittersweet Pro",
-    "section": "1.2 Frequency Dependent Transient Processing",
-    "text": "1.2 Frequency Dependent Transient Processing\nIn addition to this, BitterSweet Pro is designed with the option to process only a certain part of the frequency spectrum, turning the processing frequency dependent, acting just like a dynamic equalizer.\nWhen Frequency Range is set from 20 Hz to 20 KHz the processing is performed on the full band, now changing the value of the low cut off frequency turns it into a High shelve dynamic eq, setting the high cut off frequency turns it into a Low shelve dynamic eq, and setting both turns it into a peak dynamic eq, in any case the gain can be adjusted with the Static Gain parameter, and the slope can be set with the Frequency Order parameter, from 6dB per octave to 12, 18 and 24 dB, the higher the Frequency Order is the steeper the slope of the frequency response becomes.\nThe detector sidechain is filtered in accordance with the frequency range setting and its low cut, high cut and band pass filter, and the filtered sidechain source can be audited with a simple button click."
-  },
-  {
-    "objectID": "General_Settings.html#bypass",
-    "href": "General_Settings.html#bypass",
-    "title": "2  General Settings",
-    "section": "2.1 Bypass",
-    "text": "2.1 Bypass\nGlobal bypass, when pressed, the signal is routed directly from the inputs to the outputs.\nValue Range: Enabled/Disabled\nDefault Value: Disabled"
-  },
-  {
-    "objectID": "General_Settings.html#speed",
-    "href": "General_Settings.html#speed",
-    "title": "2  General Settings",
-    "section": "2.2 Speed",
-    "text": "2.2 Speed\nThe Speed parameter alters the mode for the processing of the transients, controlling the envelope smoothing and generating a natural attack, when set to Medium or Slow this can be compensated using Lookahead.\nValue Range: Fast/Medium/Slow\nDefault Value: Fast"
-  },
-  {
-    "objectID": "General_Settings.html#lookahead",
-    "href": "General_Settings.html#lookahead",
-    "title": "2  General Settings",
-    "section": "2.3 Lookahead",
-    "text": "2.3 Lookahead\nIntroduces a delay line to the processing path to re-sync the processing according to the speed mode, which is the interpolation time. When Lookahead is enabled a delay is introduced in the processing (not in the detection).\nValue Range: Enabled/Disabled\nDefault Value: Disabled"
-  },
-  {
-    "objectID": "General_Settings.html#dynamic",
-    "href": "General_Settings.html#dynamic",
-    "title": "2  General Settings",
-    "section": "2.4 Dynamic",
-    "text": "2.4 Dynamic\nA dynamic gain, that depending on the Mode setting dynamically adjusts the gain of the transients and/or the sustain.\nThe Sweet side reduces the transients, which typically decrease the perceived presence of percussive instruments in the mix. The Bitter side magnifies the transients, which typically increases the perceived presence of percussive instruments in the mix. If a Mode Ø setting is selected, Bitter is increasing the Transients and decreasing the Sustain, while Sweet is doing the opposite, increasing the Sustain and decreasing the Transients.\nValue Range: -100,00% (Sweet) / 100,00% (Bitter)\nDefault Value: 0,00%"
-  },
-  {
-    "objectID": "General_Settings.html#frequency-range",
-    "href": "General_Settings.html#frequency-range",
-    "title": "2  General Settings",
-    "section": "2.5 Frequency Range",
-    "text": "2.5 Frequency Range\nFrequency Range sets the actual frequency range that is to be processed.\nIf neither of the Lower or Upper values are adjusted, the BitterSweet Pro operates in Full Band. By adjusting the Lower Value a high shelf filter is introduced, and by adjusting the Upper Value a low shelf filter is introduced, adjusting both introduces a peak filter. In any case, the filter slope can be adjusted with the Frequency Order parameter, and the gain can be adjusted with the Static Gain parameter.\nThe button above the slider is a key listener provided for listening to the extraction used for the analysis of the material.\nLower Value Range: 20 Hz / 20,0 kHz\nLower Default Value: 20 Hz\nUpper Value Range: 40 Hz / 20,0 kHz\nUpper Default Value: 20,0 kHz"
-  },
-  {
-    "objectID": "General_Settings.html#frequency-order",
-    "href": "General_Settings.html#frequency-order",
-    "title": "2  General Settings",
-    "section": "2.6 Frequency Order",
-    "text": "2.6 Frequency Order\nThe Frequency Order sets the number of frequency-dependent components controlling the slope of the frequency response. One component, referred to as 1 (First-Order), gives a 6 dB/Octave slope, adding a second component, referred to as 2 (Second-Order), gives a 12 dB/Octave slope etc. The higher the Frequency Order is, the steeper the slope of the frequency response becomes.\nValue Range: 6 / 12 / 18 / 24 - dB Per Octave\nDefault Value: 6 dB/o"
-  },
-  {
-    "objectID": "General_Settings.html#static-gain",
-    "href": "General_Settings.html#static-gain",
-    "title": "2  General Settings",
-    "section": "2.7 Static Gain",
-    "text": "2.7 Static Gain\nControls the actual gain of the Frequency Range filter envelope.\nValue Range: -24.00 dB / +24.00 dB\nDefault Value: 0.00 dB"
-  },
-  {
-    "objectID": "General_Settings.html#period",
-    "href": "General_Settings.html#period",
-    "title": "2  General Settings",
-    "section": "2.8 Period",
-    "text": "2.8 Period\nThe Period parameter sets the range of the time window used for the detection of the transients that are to be processed which adjusts the extraction of the transient information. By using Period the extraction can be adjusted depending on the material that is to be processed, which in the end will affect the result differently depending on the setting.\nValue Range: 20.0 ms / 120.0 ms\nDefault Value: 40.0 ms"
-  },
-  {
-    "objectID": "General_Settings.html#mode",
-    "href": "General_Settings.html#mode",
-    "title": "2  General Settings",
-    "section": "2.9 Mode",
-    "text": "2.9 Mode\nThe Mode setting adjusts how BitterSweet Pro is processing the material.\nComponent\n\nMain - processes using regular stereo signal scheme and it’s the only available mode for multichannel operations.\nCenter - engages the internal MS encoder and processes only the Mid channel. After processing, the sound is decoded back to stereo. This setting is very efficient for snare and kick drums.\nStereo - engages the internal MS encoder and processes only the Side channel. After processing the sound is decoded back to stereo. This setting is very efficient for panned rhythmic instruments.\n\nProcessing\n\nTr. - Transients only.\nSust. - Sustain only.\nTr+Sus - Both Transients and Sustain.\nØ - Means that Dynamic/Bitter is increasing the Transients and decreasing the Sustain, while Dynamic/Sweet is doing the opposite, increasing the Sustain and decreasing the Transients.\n\nValue Range:\nTr. Main / Tr. Center / Tr. Stereo\nSust. Main / Sust. Center / Sust. Stereo\nTr. + Sust. Main / Tr. + Sust. Center / Tr. + Sust. Stereo\nTr. + Sust. Ø Main / Tr. + Sust. Ø Center / Tr. + Sust. Ø Stereo\nDefault Value: Tr. Main"
-  },
-  {
-    "objectID": "General_Settings.html#clip",
-    "href": "General_Settings.html#clip",
-    "title": "2  General Settings",
-    "section": "2.10 Clip",
-    "text": "2.10 Clip\nEnables the built in soft clipper, applied at the very last stage of the processing.\nThe soft clipper is carefully compressing and flattening the peaks in order to clip the level of the input signal. As the input signal reaches the clip threshold, the algorithm rounds the edges of the clipped peaks for a smoother clipping.\nCubic is a digital style symmetrical soft clipper (introducing odd-order harmonics).\nTube is a kind of analog style asymmetrical soft clipper (introducing even-order harmonics).\nValue Range: Off / Cubic / Tube\nDefault Value: Cubic"
-  },
-  {
-    "objectID": "General_Settings.html#output-gain",
-    "href": "General_Settings.html#output-gain",
-    "title": "2  General Settings",
-    "section": "2.11 Output Gain",
-    "text": "2.11 Output Gain\nSets the global gain applied to the processing output before the soft clipper.\nValue Range: -24.00 dB / +24.00 dB\nDefault Value: 0.00 dB"
-  },
-  {
-    "objectID": "General_Settings.html#processing-display",
-    "href": "General_Settings.html#processing-display",
-    "title": "2  General Settings",
-    "section": "2.12 Processing Display",
-    "text": "2.12 Processing Display\nDisplays a graphical representation of the actual transient and sustain processing."
-  },
-  {
-    "objectID": "Geek.html#diff.",
-    "href": "Geek.html#diff.",
-    "title": "3  Geek",
-    "section": "3.1 Diff.",
-    "text": "3.1 Diff.\nDiff. is a key listener for the Difference between input and output signal (at the final output, after the clipper).\nValue Range: Enabled/Disabled\nDefault Value: Disabled"
-  },
-  {
-    "objectID": "Geek.html#bandwidth",
-    "href": "Geek.html#bandwidth",
-    "title": "3  Geek",
-    "section": "3.2 Bandwidth",
-    "text": "3.2 Bandwidth\nValue Range: Static BW/Dynamic BW/Flat Sum\nDefault Value: Static BW\nStatic bandwidth provides a constant Q factor, no matter of the gain factor of the filter. It’s computed by having a constant bandwidth at +- 3 dB from 0 dB.\nDynamic bandwidth provides a dynamic Q factor, dependent on the gain factor of the filter. It’s computed by having a constant bandwidth at +- 3 dB from peak levels of the filter.\nFlat Sum is a more traditional way of computing the Q factor. The bandwidth is constant for the gain factor divided by two."
-  },
-  {
-    "objectID": "Geek.html#attack",
-    "href": "Geek.html#attack",
-    "title": "3  Geek",
-    "section": "3.3 Attack",
-    "text": "3.3 Attack\nAdjusts the attack time for the transient processing envelope.\nValue Range: 0.00 ms / 200.00 ms\nDefault Value: 0.00 ms"
-  },
-  {
-    "objectID": "Geek.html#hold",
-    "href": "Geek.html#hold",
-    "title": "3  Geek",
-    "section": "3.4 Hold",
-    "text": "3.4 Hold\nAdjusts the hold time for the transient processing envelope.\nValue Range: 0.00 ms / 200.00 ms\nDefault Value: 0.00 ms"
-  },
-  {
-    "objectID": "Geek.html#release",
-    "href": "Geek.html#release",
-    "title": "3  Geek",
-    "section": "3.5 Release",
-    "text": "3.5 Release\nAdjusts the release time for the transient processing envelope.\nValue Range: 0.00 ms / 500.00 ms\nDefault Value: 0.00 ms"
-  },
-  {
-    "objectID": "Plugin_Settings.html#main-setup",
-    "href": "Plugin_Settings.html#main-setup",
-    "title": "4  Plugin Settings",
-    "section": "4.1 Main Setup",
-    "text": "4.1 Main Setup\nUI Refresh Rate\nMax refresh rate of the plug-in’s UI."
-  },
-  {
-    "objectID": "Plugin_Settings.html#io",
-    "href": "Plugin_Settings.html#io",
-    "title": "4  Plugin Settings",
-    "section": "4.2 I/O",
-    "text": "4.2 I/O\nInput / Output\nI/O Config and Layout is not always available, though it is always displayed, it can only be edited in some configurations and formats.\nConfig\nCurrent I/O configuration, is only available in certain VST hosts; typically hosts with limited capabilities for handling multichannel configurations.\nLayout\nAvailable I/O routings based on current I/O configuration. Layout is available for editing if more than two input channels are available. If the Layout is changed from the default value, an asterisk * is displayed next to the Layout information in the Input section."
-  },
-  {
-    "objectID": "Plugin_Settings.html#processing",
-    "href": "Plugin_Settings.html#processing",
-    "title": "4  Plugin Settings",
-    "section": "4.3 Processing",
-    "text": "4.3 Processing\nReport Latency\nEnables/Disables the latency reporting to the host."
-  },
-  {
-    "objectID": "Plugin_Settings.html#automation",
-    "href": "Plugin_Settings.html#automation",
-    "title": "4  Plugin Settings",
-    "section": "4.4 Automation",
-    "text": "4.4 Automation\nMultithread\nEnables/Disables Multithread Automation."
-  },
-  {
-    "objectID": "Plugin_Settings.html#osc",
-    "href": "Plugin_Settings.html#osc",
-    "title": "4  Plugin Settings",
-    "section": "4.5 OSC",
-    "text": "4.5 OSC\nOSC is available in BitterSweet Pro only, and is not supported in BitterSweet Pro Studio Session.\nEnable\nEnables/Disables OSC control and mapping of the plug-in’s parameters."
-  },
-  {
-    "objectID": "Plugin_Settings.html#version-information",
-    "href": "Plugin_Settings.html#version-information",
-    "title": "4  Plugin Settings",
-    "section": "4.6 Version Information",
-    "text": "4.6 Version Information\nPlug-in version and build-number information."
-  },
-  {
-    "objectID": "Plugin_Settings.html#user-manual-credits",
-    "href": "Plugin_Settings.html#user-manual-credits",
-    "title": "4  Plugin Settings",
-    "section": "4.7 User Manual / Credits",
-    "text": "4.7 User Manual / Credits\nQuick link to the User Manual. Plug-in creation credits."
-  },
-  {
-    "objectID": "Preset_Management.html#preset-sections",
-    "href": "Preset_Management.html#preset-sections",
-    "title": "5  Preset Management",
-    "section": "5.1 Preset Sections",
-    "text": "5.1 Preset Sections\nBitterSweet Pro provides two preset sections referred to as section A and section B, offering simultaneous access to two full sets of parameter settings. Clicking the A section (bottom left) or the B section (bottom right), or clicking the arrow in the Current Selected Preset display, opens a new window accessing the built-in preset manager."
-  },
-  {
-    "objectID": "Preset_Management.html#save",
-    "href": "Preset_Management.html#save",
-    "title": "5  Preset Management",
-    "section": "5.2 Save",
-    "text": "5.2 Save\nSave replaces the selected preset by a new one under the same name featuring the current settings. If you want to keep an existing preset without your new modifications, just select an empty place into the preset list, enter a new name for this modified preset featuring the current settings and press Save."
-  },
-  {
-    "objectID": "Preset_Management.html#recall",
-    "href": "Preset_Management.html#recall",
-    "title": "5  Preset Management",
-    "section": "5.3 Recall",
-    "text": "5.3 Recall\nOnce a preset is selected from the preset list it must be explicitly loaded into section A or the section B by using the recall button. A preset is effective only after it has been recalled."
-  },
-  {
-    "objectID": "Preset_Management.html#copy-a-copy-b",
-    "href": "Preset_Management.html#copy-a-copy-b",
-    "title": "5  Preset Management",
-    "section": "5.4 Copy A / Copy B",
-    "text": "5.4 Copy A / Copy B\nThe current parameters of a section are copied to the other one. The section A or B is re-initialized with the current values and the morphing slider is parked at 100% of the corresponding section."
-  },
-  {
-    "objectID": "Preset_Management.html#morphing-slider",
-    "href": "Preset_Management.html#morphing-slider",
-    "title": "5  Preset Management",
-    "section": "5.5 Morphing Slider",
-    "text": "5.5 Morphing Slider\nMorphs the parameter values of both parameter sections, it has no unity or specific value display; it provides morphing of the current values from both of the parameter sections (A & B). A double-click on one side of the slider area toggles between the two parameter sections. The actual result of the morphed parameter settings can be saved as a new preset."
-  },
-  {
-    "objectID": "Preset_Manager.html",
-    "href": "Preset_Manager.html",
-    "title": "6  Preset Manager",
+    "objectID": "Introduction.html",
+    "href": "Introduction.html",
+    "title": "2  Introduction",
     "section": "",
-    "text": "The preset manager contains three preset banks, the Factory bank contains factory presets, this bank is not available for saving of presets but any of the presets can be loaded into a preset slot and then saved into, the User bank, where all user presets are saved. Finally, the Global bank, here you can save a complete snapshot with all the settings from both preset slots, as well as the position of the morphing slider.\n\nIn the preset manager, any preset can be loaded into a preset slot by double clicking on the name of the desired preset in the actual preset list, the preset will then be loaded into the preset slot corresponding to the position of the morphing slider.\n\nAdditional controls in the preset manager\nRecall A loads the selected preset into the corresponding slot.\nRecall B loads the selected preset into the corresponding slot.\nUpdate, saves the current settings into the selected preset. (Available in User/Global Banks only)\nNew, saves the current settings into a new preset. (Available in User/Global Banks only)\nDuplicate creates a copy of the selected preset and saves it to the list.\nEdit allows for changes to the preset meta properties. (Available in User/Global Banks only)\nDelete, removes the selected preset. (Available in User/Global Banks only)\nExport, creates a file reflecting the content of the current preset bank.\nImport, allows for import of a preset bank file by adding the imported banks content to the content in the current preset bank.\n\nWhen saving or editing a preset, an option to protect the preset is presented. The preset protection, if engaged, only allows the original preset author to uncheck and edit the preset. This means that you can protect your presets in a multi-user configuration. Protected presets can only be modified using the session used for their creation. If used in another user session they can only be imported or deleted."
+    "text": "Elixir is the improved and revamp version of the legacy Elixir. Such as it, Elixir is a novel kind of program limiter carefully designed to accomplish a truly natural sounding result without changing the nature of the audio material and its timbre, presenting none, or effectively reduced, conventional limiting “pumping” effects even during heavy processing. Now supporting up to 32 channels, 64bits float audio processing and conforming with the ITU-R and EBU loudness norms, Elixir Essential is an indispensable tool for immersive audio productions.\nIt’s a REAL True Peak Limiter, providing a guaranteed True Peak output level according to the ITU-R-BS 1770 or the ITU-R-BS 1770-3, and EBU R128 norms. The algorithm is using an oversampled representation of the audio sample as a reference when it defines the gain envelope; still, the processing is only applied to the original none oversampled data in order to reduce artifacts (like aliasing), and to achieve the most excellent sounding result.\nWorking on 64bits audio processing when the Digital Audio Workstation supports it, Elixir is incredibly easy to achieve great results with: set the input level, adjust ‘Threshold’ according to the amount of limiting you want, and finally enable ‘Make Up’ to compensate the gain and to add loudness - That’s it! There is no need to care about release time or any other conventional limiter settings!\nThere’s an additional feature provided to increase the processing quality in Elixir called ‘Stages’. Stages present the option to set the algorithm to perform the limiting processing in multi-stages, for a limitation more natural and more respectful of the sound material.\n\n3 Elixir Session, Elixir\nElixir comes with two different licensing options: - Elixir supports up to 32 channels and a sample rate up to 384kHz - Elixir Session supports up to 2 channels and a sample rate up to 96kHz.\nThe build is the same for both versions, the licensing allowing to use the plug-in as Elixir Session or Elixir."
   },
   {
-    "objectID": "Specification.html#processing-specifications---bittersweet-pro-essential",
-    "href": "Specification.html#processing-specifications---bittersweet-pro-essential",
-    "title": "7  Specifications",
-    "section": "7.1 Processing Specifications - BitterSweet Pro Essential",
-    "text": "7.1 Processing Specifications - BitterSweet Pro Essential\n\nUp to 16 channels Input/Output for Essential version.\n64-bits internal floating point processing.\nSampling rate up to 384 kHz DXD (Pyramix and Ovation MassCore/Native).\nSampling rate up to 192 kHz for Native (AU/VST/VST3/AAX/AAX AudioSuite)."
+    "objectID": "About_True_Peak.html",
+    "href": "About_True_Peak.html",
+    "title": "3  About True Peak",
+    "section": "",
+    "text": "All digital audio wave signal is ultimately converted back to analog at some point, and while it is often desirable to maximize the overall volume of a signal or a complete mix, care must be taken in order not to go above the digital scale zero decibel ceiling, or nasty distortion and clipping will occur. This common and widely used rule is however not entirely sufficient, as the digital and analog processing involved in a D/A converter does not guarantee that a 0dBfs peak signal will exactly translate to a 0dB peak in the analog domain.\nWithout getting into too much detail, this phenomenon can be attributed to the over-sampling and reconstruction filters present in D/A converters, whose role are to rebuild a continuous time signal from a set of discrete digital values sampled at regularly spaced time intervals. This interpolation process can therefore generate values, which lie above 0dB, and is known as overshoot.\nRelying solely on the peak value of samples can lead to the following problems:\n\nInconsistent readings between successive playbacks of the same material.\nUnexpected overloads of the D/A output converter.\nUnder-readings and beating of pure tones.\n\nUsing True Peak value aims to overcome these limitations by mimicking parts of the D/A conversion process, effectively up-sampling the measured signal, in order to use the true value of peaks that occur in the analog domain."
   },
   {
-    "objectID": "Specification.html#processing-specifications---bittersweet-pro",
-    "href": "Specification.html#processing-specifications---bittersweet-pro",
-    "title": "7  Specifications",
-    "section": "7.2 Processing Specifications - BitterSweet Pro",
-    "text": "7.2 Processing Specifications - BitterSweet Pro\n\nMono/Stereo Input/Output.\n64-bits internal floating-point processing.\nSampling rate up to 96 kHz."
+    "objectID": "Installation_authorization.html#create-and-account",
+    "href": "Installation_authorization.html#create-and-account",
+    "title": "4  Installation",
+    "section": "4.1 Create and account",
+    "text": "4.1 Create and account\n Create an account"
   },
   {
-    "objectID": "Specification.html#compatibility",
-    "href": "Specification.html#compatibility",
-    "title": "7  Specifications",
-    "section": "7.3 Compatibility",
-    "text": "7.3 Compatibility\nBitterSweet Pro\n\nWindows - 10 64 bits.\n\nVST (2.4) in 64 bit\nVST (3.1) in 64 bit\nAAX Native/DSP* in 64 bit\nAAX AudioSuite* in 64 bit\nWaves WPAPI Native/Soundgrid in 64 bit\nVS3** Pyramix 10 and more in 64 bit and Ovation 6 and more\nAvid Venue Systems\n\nmacOS (Intel and ARM) - 10.12 and more, 11 and 12.\n\nVST (2.4) in 64 bit\nVST3 (3.1) in 64 bit\nAU in 64 bit\nAAX Native/DSP* in 64 bit\nAAX AudioSuite* in 64 bit\nWaves WPAPI Native/Soundgrid in 64 bit\nAvid Venue Systems\n\n\n** VS3 for Pyramix & Ovation Native/MassCore sold only through Merging Technologies and authorized dealers."
+    "objectID": "Installation_authorization.html#redeem-a-license-code-from-activation-code",
+    "href": "Installation_authorization.html#redeem-a-license-code-from-activation-code",
+    "title": "4  Installation",
+    "section": "4.2 Redeem a License Code from activation code",
+    "text": "4.2 Redeem a License Code from activation code\nUnless you purchased your license in the flux.audio online store, you will need to redeem your license.\nFLUX:: uses the iLok license management system to deliver software licenses to users. If you have received an activation code (such as from a dealer purchase),you can use the Redeem License Code window to activate your license.\n\nVisit our License Code Activation page.\n\n\n\n\n\n\nNote\n\n\n\nTwo different licenses are available for this product: Elixir Session and Elixir Essential. Check the technical details page for more informations."
   },
   {
-    "objectID": "Specification.html#licence-requirements",
-    "href": "Specification.html#licence-requirements",
-    "title": "7  Specifications",
-    "section": "7.4 Licence Requirements",
-    "text": "7.4 Licence Requirements\nIn order to use BitterSweet Pro or BitterSweet Pro Studio Session, an iLok.com user account is required (the iLok USB Smart Key is not required)."
+    "objectID": "Installation_authorization.html#ilok-user-account",
+    "href": "Installation_authorization.html#ilok-user-account",
+    "title": "4  Installation",
+    "section": "4.3 iLok User Account",
+    "text": "4.3 iLok User Account\nTo activate licenses:\n\n\nAn iLok user account is required.\nAn iLok USB key is optional.\n\nFLUX:: uses the iLok license management system to deliver software licenses to users. If you don’t have an iLok account yet, please create a free iLok account at http://www.ilok.com and download the iLok license manager. All FLUX:: plug-ins come with two activations. Having two activations gives you the possibility of a fixed license on one particular machine and a portable license on an iLok USB key if you own one.\n\n\n\n\n\n\nWarning\n\n\n\nCloud license currently not supported"
   },
   {
-    "objectID": "Specification.html#aax-dsp-specifications",
-    "href": "Specification.html#aax-dsp-specifications",
-    "title": "7  Specifications",
-    "section": "7.5 AAX DSP Specifications",
-    "text": "7.5 AAX DSP Specifications\nAAX DSP - Number of BitterSweet Pro instances per DSP.\n\n\n\n\n\n\n\n\n\n\n44.1 - 48 khz (1 FS)\n88.2 - 96 khz (2 FS)\n176.4 - 192 khz (4 FS)\n\n\n\n\n1 Channel\n9\n4\n1\n\n\n2 Channels\n4\n2\n0\n\n\n3 Channels\n3\n1\n0\n\n\n4 Channels\n2\n1\n0\n\n\n5 Channels\n1\n0\n0\n\n\n6 Channels\n1\n0\n0\n\n\n7 Channels\n1\n0\n0\n\n\n8 Channels\n1\n0\n0"
+    "objectID": "Installation_authorization.html#ilok-license-manager",
+    "href": "Installation_authorization.html#ilok-license-manager",
+    "title": "4  Installation",
+    "section": "4.4 iLok License Manager",
+    "text": "4.4 iLok License Manager\nIf you have redeemed your software license or completed your purchase process, your license will automatically be delivered into your iLok account\n\nFor new iLok users, the first step is to download and install the iLok license manager available on the home page of the iLok website. When your user account is successfully activated and the iLok license manager is correctly installed, you can start the license manager software and log in to your iLok user account."
+  },
+  {
+    "objectID": "Installation_authorization.html#transferring-license",
+    "href": "Installation_authorization.html#transferring-license",
+    "title": "4  Installation",
+    "section": "4.5 Transferring license",
+    "text": "4.5 Transferring license\n\nPressing on the sign in button will allow you to connect to your account. After Logging in, you are now ready to transfer any licenses to a computer or to any iLok USB key if you happen to have one. The process of transferring a license is as simple as dragging the license from the Available tab to your Local Computer (or iLok key) on the left side.\nSimply drag your license to your Local Computer or on an iLok USB key. You are now set!\n\n\n\n\n\n\nNote\n\n\n\nIf you require further information about iLok and managing licenses please refer to iLok.com website"
+  },
+  {
+    "objectID": "Installation_authorization.html#flux-center",
+    "href": "Installation_authorization.html#flux-center",
+    "title": "4  Installation",
+    "section": "4.6 FLUX:: Center",
+    "text": "4.6 FLUX:: Center\n\nNext step is to get the installers for the FLUX:: products you are licensed for. All the software and plugins from FLUX:: are available via our FLUX:: Center software. This is a Mac or Windows application we have created to help keep your FLUX:: products up to date and to give you a clear overview of what you have installed. Firstly, please visit the download section of the FLUX:: Website to get the installer for the FLUX:: Center application.\nOn this page you will find a macOS, a Windows 64 bits, as well as legacy versions for older operating systems. After downloading and installing, you can open the FLUX:: Center applications to begin the process of installing the Elixir.\n\n\n\n\n\n\nWarning\n\n\n\nAn authentification is required at the launch of FLUX:: Center. This is the login details of your FLUX shop account which allows you to see only your products licensed for (temporary or permanent)\n\n\n\n\n\n\n\n\nNote\n\n\n\nTo be noted: The binary is the same for either Session and Essential version."
+  },
+  {
+    "objectID": "Installation_authorization.html#center-preferences",
+    "href": "Installation_authorization.html#center-preferences",
+    "title": "4  Installation",
+    "section": "4.7 Center Preferences",
+    "text": "4.7 Center Preferences\n\nWhen you open FLUX:: Center you will see a page that lists all FLUX:: products available for you to install. You will also find information about which version you have currently installed on your system and which new versions might be available for you to update to. You can select versions to install - or uninstall if necessary - using the pull down menus. If you would like to access more installer options such as your preferred plug-in format, please click on the gear icon to the top right of the header area."
+  },
+  {
+    "objectID": "Installation_authorization.html#center-preferences-and-options",
+    "href": "Installation_authorization.html#center-preferences-and-options",
+    "title": "4  Installation",
+    "section": "4.8 Center Preferences and Options",
+    "text": "4.8 Center Preferences and Options\n\nThis preference page will allow you to choose various installation options such as preferred plug-in formats for your system. Choosing your format and returning to the main page by pressing the OK button will show all your install options for software and plugins based on the desired formats chosen.\nIf you would like to be closer to the most current development cycles of the software, you can enable the Beta Versions option. This will give you access to a special set of software installers from the pull down menus on the main FLUX:: Center page. Beta versions are the new builds that are still under development but may contain useful bug fixes and new features. If you find that a beta version is not stable enough for you, then you can always roll back to a stable release version at any time through the FLUX:: Center installers. Note that these versions starts with a “B” where official releases start with a “V”."
+  },
+  {
+    "objectID": "User_interface.html#commun-parameters",
+    "href": "User_interface.html#commun-parameters",
+    "title": "5  User interface",
+    "section": "5.1 Commun parameters",
+    "text": "5.1 Commun parameters\n\n5.1.1 Threshold dBTP (3)\nControl the threshold (or ceiling) used for limiting.\nUnit: Decibel (dB) Range: -12.000 to 0. Min. Steps: 0. Default Value: 0.\n\n\n5.1.2 Input Gain (1)\nControl the gain applied to the limiter input.\nUnit: Decibel (dB) Range: -12.000 to +12. Min. Steps: 0. Default Value: 0.\n\n\n5.1.3 Output Gain (2)\nControl the gain at the output stage of the limiter.\nUnit: Decibel (dB) Range: -12.000 to +12. Min. Steps: 0. Default Value: 0.\n\n\n5.1.4 Diff. (8)\nAllow to hear the difference only. Used to better understand the action and allow to easily tweak the parameters.\nOn/Off Default Value: Off\n\n\n5.1.5 Make Up (9)\nApply Gain compensation. Add the invert of the threshold gain to the output gain.\nOn/Off\nDefault Value: Off\n\n\n5.1.6 Bypass (10)\nBypass the plug-in processing by routing the input direct to the output. The actual processing is still performed in the background allowing for a true and smooth transition between the processed and the actual incoming signal.\n\n\n5.1.7 ITU BS.1770-3 (20)\nWhen activated, the algorithm used to limit the input signal follow the ITU BS.1770-3 recommandation."
+  },
+  {
+    "objectID": "User_interface.html#processing-section",
+    "href": "User_interface.html#processing-section",
+    "title": "5  User interface",
+    "section": "5.2 Processing Section",
+    "text": "5.2 Processing Section\n\n5.2.1 Ch. Link (4)\n% of channels linkage\nUnit: Percent (%) Range: 0 to 100 Min. Steps: 1\nDefault Value: 0\n\n\n5.2.2 Ch. Link Dynamic (7)\nMake the channels’ linkage dynamic according to the signal. It means: when activated, the Channel Link will automatically move from 0 when high dynamic (i.e. high transients) are detected and the desired value when no dynamic (i.e. low transients) are detected.\nUnit: On/Off Default Value: Off\n\n\n5.2.3 Stages (5)\nNumber of stages (passes or steps) used by the algorithm. Because the algorithm adapts itself to the audio material, doing multi stages allows for the processing to be even more precise and provides an even more natural sounding result. For e.g. if the threshold is set to -3 dB and Stages set to 3: first stage will limit at -1dB, second stage will limit at -2dB and third will limit at -3dB with analyzing done for each stage!\nRange: 1 to 12 Min. Steps: 1 Default Value: 1\n\n\n5.2.4 Speed (6)\nAllow to change how the algorithm will react regarding the audio material. This will change how the gain envelop will be generated with more or less look-ahead, release and curve smoothing. Leave it at 50% by default which will be optimal for most case. Prefer increasing stages before trying to reduce it and remember that from 50% to 100 % it can generate more and more distortion…\nUnit: Percent (%)\nRange: 0.0 to 100. Min. Steps: 0. Default Value: 50."
+  },
+  {
+    "objectID": "User_interface.html#metering-section",
+    "href": "User_interface.html#metering-section",
+    "title": "5  User interface",
+    "section": "5.3 Metering Section",
+    "text": "5.3 Metering Section\n\n5.3.1 Signal Input dBTP True Peak Meter (11)\n\n\n5.3.2 Signal Output dBFS True Peak Meter (12)\n\n\n5.3.3 Comp. dBFS Meter (13)\nAll information is displayed at a refresh rate of 60 fps (if possible) and displaying the maximum action during the processing period."
+  },
+  {
+    "objectID": "User_interface.html#preset-management",
+    "href": "User_interface.html#preset-management",
+    "title": "5  User interface",
+    "section": "5.4 Preset management",
+    "text": "5.4 Preset management\nElixir, as well as all other FLUX:: plug-ins, provides two preset slots referred to as slot A and slot B, which means that you can have direct access to two sets of parameter settings simultaneously. In addition to just recall (33) the settings for each of the slots individually and alternate between their settings, a morphing slider (35) is provided offering the possibility to morph between the slots and their corresponding settings. When clicking on one of the preset slots (38), the built-in preset manager appears.\nThe preset manager contains three preset banks: - the Factory bank contains factory presets, this bank is not available for saving of presets but any of the presets can be loaded into a preset slot and then saved into, - the User bank, where all user presets are saved, - the Global bank, which is a bit special: here you can save a complete snapshot with all the settings from both preset slots, as well as the position of the morphing slider.\nIn the preset manager, any preset can be loaded into a preset slot by double-clicking on the name of the desired preset in the actual preset list, the preset will then be loaded into the preset slot corresponding to the position of the morphing slider."
+  },
+  {
+    "objectID": "User_interface.html#additional-controls-in-the-preset-manager",
+    "href": "User_interface.html#additional-controls-in-the-preset-manager",
+    "title": "5  User interface",
+    "section": "5.5 Additional controls in the preset manager",
+    "text": "5.5 Additional controls in the preset manager\n\nRecall A loads the selected preset into the corresponding slot.\nRecall B loads the selected preset into the corresponding slot.\nUpdate saves the current settings into the selected preset.\nNew saves the current settings into a new preset.\nDuplicate creates a copy of the selected preset and saves it to the list.\nEdit allows for changes to the preset meta properties.\nDelete removes the selected preset.\nExport creates a file reflecting the content of the current preset bank.\nImport allows for import of a preset bank file by adding the imported banks content to the content in the current preset bank.\n\nWhen saving or editing a preset, an option to protect the preset is presented. The preset protection, if engaged, only allows the original preset author to uncheck and edit the preset. This means that you can protect your presets in a multi-user configuration. Protected presets can only be modified using the session used for their creation. If used in another user session they can only be imported or deleted."
+  },
+  {
+    "objectID": "User_interface.html#elixir-preset-controls",
+    "href": "User_interface.html#elixir-preset-controls",
+    "title": "5  User interface",
+    "section": "5.6 Elixir Preset Controls",
+    "text": "5.6 Elixir Preset Controls\n\n5.6.1 Save (13)\nTo save a new preset using the built-in preset manager, simply click Save in the corresponding preset slot (A/B), and to save changes to your preset, simply click Save again.\nIf you want to resave your preset under a new name, open the preset manager by clicking the corresponding (A/B) preset slot (38), select New, enter a name for your preset, and press Save.\n\n\n5.6.2 Recall (14)\nRecalls the settings of the corresponding slot.\n\n\n5.6.3 Copy A/B (15)\nTo copy all parameters between the preset slots (A to B or B to A), press the Copy A or Copy B button, and the parameters from the corresponding preset slot will be copied into the current preset slot. When copying parameters from one slot to another, the preset morph slider will automatically slide to the slot the parameters where copied to.\n\n\n5.6.4 Morphing Slider (16)\nThe morphing slider provides mixing between the settings of slot A and B and allows for some very creative tweaking.\nThe result of the morphing can be saved as a global preset containing the actual settings of both preset slots as well as the morphing slider position.\nTo save a Global preset, open the preset manager by clicking the corresponding (A/B) preset slot (38), then click Global, select New and enter a name for your global preset, then press Save.\n\n\n5.6.5 Automation (Morphing Slider) (17)\nWhen enabling the Automation control button, the morphing slider will be exposed and available for both automation read and write.\nThough with the button engaged, only the morphing slider value is applied when reading automation.\nThe Automation control button must be engaged if the morphing slider needs to be mapped on a control surface.\n\n\n5.6.6 Preset Name (18)\nDisplays the name of the current preset.\n\n\n5.6.7 Preset Slot (19)\nBy pressing the little arrows in the preset slot, the built-in preset manager appears."
+  },
+  {
+    "objectID": "Preferences.html#display-quality",
+    "href": "Preferences.html#display-quality",
+    "title": "6  Main Setup",
+    "section": "6.1 Display Quality",
+    "text": "6.1 Display Quality\nSet the display refresh of the UI. Default: 30 fps."
+  },
+  {
+    "objectID": "Preferences.html#config",
+    "href": "Preferences.html#config",
+    "title": "6  Main Setup",
+    "section": "6.2 Config",
+    "text": "6.2 Config\nAllow to choose the input/output config of the plugin. The field is editable or not, according to the DAW."
+  },
+  {
+    "objectID": "Preferences.html#ui-size",
+    "href": "Preferences.html#ui-size",
+    "title": "6  Main Setup",
+    "section": "6.3 UI size",
+    "text": "6.3 UI size\nSet the plugin size.\n\n\n\n\n\n\nNote\n\n\n\nIf you choose a too big size and cannot change it anymore, please close the UI of all Elixir instances, and delete “Preferences” on “/Documents/FLUX SE/Elixir”."
+  },
+  {
+    "objectID": "Preferences.html#report-latency",
+    "href": "Preferences.html#report-latency",
+    "title": "6  Main Setup",
+    "section": "6.4 Report latency",
+    "text": "6.4 Report latency\nAllow to report the latency to the DAW or not. Default: On"
+  },
+  {
+    "objectID": "Preferences.html#process-in-multithread",
+    "href": "Preferences.html#process-in-multithread",
+    "title": "6  Main Setup",
+    "section": "6.5 Process in multithread",
+    "text": "6.5 Process in multithread\nParameter set by default according to the DAW, defining if the automation is processed on the main thread or on another thread. Please tweak this parameter only on FLUX:: support request."
+  },
+  {
+    "objectID": "Preferences.html#osc",
+    "href": "Preferences.html#osc",
+    "title": "6  Main Setup",
+    "section": "6.6 OSC",
+    "text": "6.6 OSC\nAll plugins are controllable by OSC.\n\n6.6.1 Enable\nEnable OSC control, IN and OUT.\n\n\n6.6.2 Input and Output port and IP address\nSet it according to the destination port and IP number, and the network wanted."
+  },
+  {
+    "objectID": "Specifications.html",
+    "href": "Specifications.html",
+    "title": "7  Technical Details",
+    "section": "",
+    "text": "8 Plug-in formats and platforms supported\nWindows 7, Windows 8, Windows 10 : 64 bit - AAX : 64 bit (ProTools 10 or later required) - VST : 64 bit - VST3 : 64 bit\nmacOS 10.12 (Sierra), macOS 10.13 (High Sierra), macOS 10.14 (Mojave), macOS 10.15 (Catalina), macOS 11 (Big Sur), macOS 12 (Monterey): - AAX : 64 bit (ProTools 10 or later required) - VST : 64 bit - VST3 : 64 bit - AU : 64 bit"
+  },
+  {
+    "objectID": "Specifications.html#elixir-aax-native-specifications",
+    "href": "Specifications.html#elixir-aax-native-specifications",
+    "title": "7  Technical Details",
+    "section": "8.1 Elixir AAX Native Specifications:",
+    "text": "8.1 Elixir AAX Native Specifications:\nElixir Essential * Support up to 12 stages * Support up to 192 KHz * Support up to 32 channels\nElixir Session * Support up to 12 stages * Support up to 96 kHz * Support up to 2 channels"
+  },
+  {
+    "objectID": "Specifications.html#elixir-au-vst-and-vst3-native-specifications",
+    "href": "Specifications.html#elixir-au-vst-and-vst3-native-specifications",
+    "title": "7  Technical Details",
+    "section": "8.2 Elixir AU, VST and VST3 Native Specifications:",
+    "text": "8.2 Elixir AU, VST and VST3 Native Specifications:\nElixir Essential * Support up to 12 stages * Support up to 384 KHz * Support up to 32 channels\nElixir Session * Support up to 12 stages * Support up to 96 KHz * Support up to 2 channels"
+  },
+  {
+    "objectID": "Specifications.html#elixir---1-stage-aax-dsp-specifications",
+    "href": "Specifications.html#elixir---1-stage-aax-dsp-specifications",
+    "title": "7  Technical Details",
+    "section": "8.3 Elixir - 1 Stage AAX DSP Specifications:",
+    "text": "8.3 Elixir - 1 Stage AAX DSP Specifications:\n\nSupport only 1 stage\nSupport up to 192 KHz\nSupport up to 8 channels"
   },
   {
     "objectID": "../flux_processing_release_notes.html#build-23.1.0.50251---all-plugins",
