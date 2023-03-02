@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>IRCAM Verb - 2&nbsp; Quick start guide</title>
+<title>IRCAM Verb Session - 4&nbsp; Filter</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,8 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./Decay.html" rel="next">
-<link href="./index.html" rel="prev">
+<link href="./Options.html" rel="next">
+<link href="./Time_Structure_Display.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -73,7 +73,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./Quick_start_guide.html"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Quick start guide</span></a></li></ol></nav>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./Filter.html"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Filter</span></a></li></ol></nav>
       <a class="flex-grow-1" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
       </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -88,9 +88,9 @@ ul.task-list li input[type="checkbox"] {
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation floating overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
-      <a href="./">IRCAM Verb</a> 
+      <a href="./">IRCAM Verb Session</a> 
         <div class="sidebar-tools-main">
-    <a href="./IRCAM-Verb.pdf" title="Download PDF" class="quarto-navigation-tool px-1" aria-label="Download PDF"><i class="bi bi-file-pdf"></i></a>
+    <a href="./IRCAM-Verb-Session.pdf" title="Download PDF" class="quarto-navigation-tool px-1" aria-label="Download PDF"><i class="bi bi-file-pdf"></i></a>
 </div>
     </div>
       </div>
@@ -103,22 +103,22 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">IRCAM Verb</span></a>
+  <a href="./index.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">index.html</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./Quick_start_guide.html" class="sidebar-item-text sidebar-link active"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Quick start guide</span></a>
+  <a href="./Quick_Start.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Quick Start</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./Decay.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Decay</span></a>
+  <a href="./Time_Structure_Display.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Time Structure Display</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./Time_Structure_Display.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Time Structure Display</span></a>
+  <a href="./Filter.html" class="sidebar-item-text sidebar-link active"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Filter</span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -177,14 +177,21 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#low-freq" id="toc-low-freq" class="nav-link active" data-scroll-target="#low-freq"><span class="header-section-number">4.1</span> (5) Low Freq</a></li>
+  <li><a href="#high-freq" id="toc-high-freq" class="nav-link" data-scroll-target="#high-freq"><span class="header-section-number">4.2</span> (6) High Freq</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Quick start guide</span></h1>
+<h1 class="title"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Filter</span></h1>
 </div>
 
 
@@ -199,24 +206,19 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<p>The Verb is an algorithmic reverberation processor build in a modular way, with an recursive filtering based engine.</p>
-<p><img src="https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Plugins/ircam-verb/verb_02.png" class="img-fluid"></p>
-<p>This block diagram view explain the basics of this engine, to explain the time structure of the reverberation tail:</p>
-<ul>
-<li>The direct signal is pushed first. It represents the direct sound, aka. the sound that comes first to the listener.</li>
-<li>Then, follow a first generator of early reflexions, called here EARLY. Theses early reflexions are particularly important as they describe the immediate spatial environment around the sound source: walls, floor, roof. Theses reflexions are depending on the source position : they are panned in the space.</li>
-<li>A second delay generator follows the early stage, called CLUSTER. Theses early reflexions comes a bit later, and have seen their density increased in comparaison to the first early. They can be shown as a transition stage between the early and the late tail generator. In a standard configuration, theses reflexions are seen as a common part of all the space : they are not localized. You can make it directive using the diffuseness parameter.</li>
-<li>A final LATE TAIL stage, synthetize the reverb tail. Most of the time, acoustical description of this tail shows it as an dense and homogeneous material in the reverberated space (you can change that too with the same diffuseness parameter).</li>
-</ul>
-<p>Understanding this time structure, and the associated listening feeling is really important for an enhanced approach to any reverberation system.</p>
-<p>For a first quick approach, you can:</p>
-<ul>
-<li>set the reverberation time with the main decay time</li>
-<li>set the room basics characteristic with the room size meta-parameter</li>
-<li>set some room filters, to adapt the tail to your current needs.</li>
-</ul>
+<p><img src="https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Plugins/ircam-verb-session/verb_session_04.png" class="img-fluid"></p>
+<p>This section sets the characteristics of the filter applied to the signal fed to the reverberation engine, affecting the overall frequency response, if required.</p>
+<section id="low-freq" class="level2" data-number="4.1">
+<h2 data-number="4.1" class="anchored" data-anchor-id="low-freq"><span class="header-section-number">4.1</span> (5) Low Freq</h2>
+<p>Low-pass filter frequency cutoff of the corresponding filter section.<br>
+Value can be quickly adjusted using the mouse by clicking and holding the value box or the yellow vertical bar on the graphical frequency-response display, or exactly by clicking the value box and entering a value with the keyboard.</p>
+</section>
+<section id="high-freq" class="level2" data-number="4.2">
+<h2 data-number="4.2" class="anchored" data-anchor-id="high-freq"><span class="header-section-number">4.2</span> (6) High Freq</h2>
+<p>High-pass filter frequency cutoff of the corresponding filter section.</p>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -454,13 +456,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./index.html" class="pagination-link">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">IRCAM Verb</span></span>
+      <a href="./Time_Structure_Display.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Time Structure Display</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./Decay.html" class="pagination-link">
-        <span class="nav-page-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Decay</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./Options.html" class="pagination-link">
+        <span class="nav-page-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Options</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>IRCAM Verb - 6&nbsp; Time Structure Settings</title>
+<title>IRCAM Verb Session - 6&nbsp; Time Structure Settings</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -88,9 +88,9 @@ ul.task-list li input[type="checkbox"] {
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation floating overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
-      <a href="./">IRCAM Verb</a> 
+      <a href="./">IRCAM Verb Session</a> 
         <div class="sidebar-tools-main">
-    <a href="./IRCAM-Verb.pdf" title="Download PDF" class="quarto-navigation-tool px-1" aria-label="Download PDF"><i class="bi bi-file-pdf"></i></a>
+    <a href="./IRCAM-Verb-Session.pdf" title="Download PDF" class="quarto-navigation-tool px-1" aria-label="Download PDF"><i class="bi bi-file-pdf"></i></a>
 </div>
     </div>
       </div>
@@ -103,22 +103,22 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">IRCAM Verb</span></a>
+  <a href="./index.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">index.html</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./Quick_start_guide.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Quick start guide</span></a>
+  <a href="./Quick_Start.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Quick Start</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./Decay.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Decay</span></a>
+  <a href="./Time_Structure_Display.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Time Structure Display</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./Time_Structure_Display.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Time Structure Display</span></a>
+  <a href="./Filter.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Filter</span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -181,13 +181,10 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#early-shape" id="toc-early-shape" class="nav-link active" data-scroll-target="#early-shape"><span class="header-section-number">6.1</span> (35) Early shape</a></li>
-  <li><a href="#early-min" id="toc-early-min" class="nav-link" data-scroll-target="#early-min"><span class="header-section-number">6.2</span> (36) Early Min</a></li>
-  <li><a href="#early-max" id="toc-early-max" class="nav-link" data-scroll-target="#early-max"><span class="header-section-number">6.3</span> (37) Early Max</a></li>
-  <li><a href="#early-distribution" id="toc-early-distribution" class="nav-link" data-scroll-target="#early-distribution"><span class="header-section-number">6.4</span> (38) Early Distribution</a></li>
-  <li><a href="#cluster-min" id="toc-cluster-min" class="nav-link" data-scroll-target="#cluster-min"><span class="header-section-number">6.5</span> (39) Cluster Min</a></li>
-  <li><a href="#cluster-max" id="toc-cluster-max" class="nav-link" data-scroll-target="#cluster-max"><span class="header-section-number">6.6</span> (40) Cluster Max</a></li>
-  <li><a href="#cluster-distribution" id="toc-cluster-distribution" class="nav-link" data-scroll-target="#cluster-distribution"><span class="header-section-number">6.7</span> (41) Cluster Distribution</a></li>
+  <li><a href="#early-gain" id="toc-early-gain" class="nav-link active" data-scroll-target="#early-gain"><span class="header-section-number">6.1</span> (10) Early Gain</a></li>
+  <li><a href="#tail-gain" id="toc-tail-gain" class="nav-link" data-scroll-target="#tail-gain"><span class="header-section-number">6.2</span> (11) Tail Gain</a></li>
+  <li><a href="#low-damping" id="toc-low-damping" class="nav-link" data-scroll-target="#low-damping"><span class="header-section-number">6.3</span> (12) Low Damping</a></li>
+  <li><a href="#high-damping" id="toc-high-damping" class="nav-link" data-scroll-target="#high-damping"><span class="header-section-number">6.4</span> (13) High Damping</a></li>
   </ul>
 </nav>
     </div>
@@ -211,36 +208,22 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<p><img src="https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Plugins/ircam-verb/verb_07.png" class="img-fluid"></p>
-<section id="early-shape" class="level2" data-number="6.1">
-<h2 data-number="6.1" class="anchored" data-anchor-id="early-shape"><span class="header-section-number">6.1</span> (35) Early shape</h2>
-<p>Governs the amplitude rise or fall of early reflections. The default setting of 0.5 corresponds to early reflections all having the same level. This mimics an acoustical space where reflective surfaces are all located at roughly the same distance to the listener.<br>
-Below 0.5 early reflections decay with time, above 0.5 they rise with time. Early reflections of decreasing level would be typical of a space where most of the reflective surfaces are grouped at a range closest to the listener.</p>
+<p><img src="https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Plugins/ircam-verb-session/verb_session_06.png" class="img-fluid"></p>
+<section id="early-gain" class="level2" data-number="6.1">
+<h2 data-number="6.1" class="anchored" data-anchor-id="early-gain"><span class="header-section-number">6.1</span> (10) Early Gain</h2>
+<p>Controls the level of EARLY and CLUSTER contributed to the overall effect.</p>
 </section>
-<section id="early-min" class="level2" data-number="6.2">
-<h2 data-number="6.2" class="anchored" data-anchor-id="early-min"><span class="header-section-number">6.2</span> (36) Early Min</h2>
-<p>Early reflections minimum time, i.e.&nbsp;the time at which the early reflections start to appear, in milliseconds. This is the analogous of the ubiquitous “pre-delay” setting found on most reverberation processors. It represent the time between the direct sound and the first early reflection.</p>
+<section id="tail-gain" class="level2" data-number="6.2">
+<h2 data-number="6.2" class="anchored" data-anchor-id="tail-gain"><span class="header-section-number">6.2</span> (11) Tail Gain</h2>
+<p>Controls the level of LATE/TAIL contributed to the overall effect.</p>
 </section>
-<section id="early-max" class="level2" data-number="6.3">
-<h2 data-number="6.3" class="anchored" data-anchor-id="early-max"><span class="header-section-number">6.3</span> (37) Early Max</h2>
-<p>Early reflections maximum time, i.e.&nbsp;the time at which these cease to appear.</p>
+<section id="low-damping" class="level2" data-number="6.3">
+<h2 data-number="6.3" class="anchored" data-anchor-id="low-damping"><span class="header-section-number">6.3</span> (12) Low Damping</h2>
+<p>Adjusts low-frequency damping, for increasing or decreasing the decay of bass content with respect to the rest of the spectrum.</p>
 </section>
-<section id="early-distribution" class="level2" data-number="6.4">
-<h2 data-number="6.4" class="anchored" data-anchor-id="early-distribution"><span class="header-section-number">6.4</span> (38) Early Distribution</h2>
-<p>Early reflections distribution. Determines the way early reflections are scattered in time, inside the Early Min. / Early Max. interval. The default setting of 0.5 corresponds to regularly spaced reflections, above these are more grouped towards the Early Max. value, and vice-versa.</p>
-</section>
-<section id="cluster-min" class="level2" data-number="6.5">
-<h2 data-number="6.5" class="anchored" data-anchor-id="cluster-min"><span class="header-section-number">6.5</span> (39) Cluster Min</h2>
-<p>Cluster minimum time. See Early Min.<br>
-:::{.callout-note} Please keep in mind the cluster is fed with the input of the early reflections processor section, as is shown accordingly on the display. :::</p>
-</section>
-<section id="cluster-max" class="level2" data-number="6.6">
-<h2 data-number="6.6" class="anchored" data-anchor-id="cluster-max"><span class="header-section-number">6.6</span> (40) Cluster Max</h2>
-<p>Cluster maximum time. See Early Max.</p>
-</section>
-<section id="cluster-distribution" class="level2" data-number="6.7">
-<h2 data-number="6.7" class="anchored" data-anchor-id="cluster-distribution"><span class="header-section-number">6.7</span> (41) Cluster Distribution</h2>
-<p>Cluster distribution. See Early Distribution.</p>
+<section id="high-damping" class="level2" data-number="6.4">
+<h2 data-number="6.4" class="anchored" data-anchor-id="high-damping"><span class="header-section-number">6.4</span> (13) High Damping</h2>
+<p>Adjusts high frequency content damping.</p>
 
 
 </section>

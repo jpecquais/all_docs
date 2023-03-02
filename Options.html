@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>IRCAM Verb - 5&nbsp; Options</title>
+<title>IRCAM Verb Session - 5&nbsp; Options</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -31,7 +31,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
 <link href="./Time_Structure_Settings.html" rel="next">
-<link href="./Time_Structure_Display.html" rel="prev">
+<link href="./Filter.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -88,9 +88,9 @@ ul.task-list li input[type="checkbox"] {
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation floating overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
-      <a href="./">IRCAM Verb</a> 
+      <a href="./">IRCAM Verb Session</a> 
         <div class="sidebar-tools-main">
-    <a href="./IRCAM-Verb.pdf" title="Download PDF" class="quarto-navigation-tool px-1" aria-label="Download PDF"><i class="bi bi-file-pdf"></i></a>
+    <a href="./IRCAM-Verb-Session.pdf" title="Download PDF" class="quarto-navigation-tool px-1" aria-label="Download PDF"><i class="bi bi-file-pdf"></i></a>
 </div>
     </div>
       </div>
@@ -103,22 +103,22 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">IRCAM Verb</span></a>
+  <a href="./index.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">index.html</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./Quick_start_guide.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Quick start guide</span></a>
+  <a href="./Quick_Start.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Quick Start</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./Decay.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Decay</span></a>
+  <a href="./Time_Structure_Display.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Time Structure Display</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./Time_Structure_Display.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Time Structure Display</span></a>
+  <a href="./Filter.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Filter</span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -181,13 +181,9 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#infinite" id="toc-infinite" class="nav-link active" data-scroll-target="#infinite"><span class="header-section-number">5.1</span> (28) Infinite</a></li>
-  <li><a href="#air-roll-freq" id="toc-air-roll-freq" class="nav-link" data-scroll-target="#air-roll-freq"><span class="header-section-number">5.2</span> (29) Air Roll Freq</a></li>
-  <li><a href="#air-absorption" id="toc-air-absorption" class="nav-link" data-scroll-target="#air-absorption"><span class="header-section-number">5.3</span> (30) Air Absorption</a></li>
-  <li><a href="#modal-density" id="toc-modal-density" class="nav-link" data-scroll-target="#modal-density"><span class="header-section-number">5.4</span> (31) Modal density</a></li>
-  <li><a href="#panning" id="toc-panning" class="nav-link" data-scroll-target="#panning"><span class="header-section-number">5.5</span> (32) Panning</a></li>
-  <li><a href="#width" id="toc-width" class="nav-link" data-scroll-target="#width"><span class="header-section-number">5.6</span> (33) Width</a></li>
-  <li><a href="#diffuseness" id="toc-diffuseness" class="nav-link" data-scroll-target="#diffuseness"><span class="header-section-number">5.7</span> (34) Diffuseness</a></li>
+  <li><a href="#decay-time" id="toc-decay-time" class="nav-link active" data-scroll-target="#decay-time"><span class="header-section-number">5.1</span> (7) Decay time</a></li>
+  <li><a href="#room-size" id="toc-room-size" class="nav-link" data-scroll-target="#room-size"><span class="header-section-number">5.2</span> (8) Room size</a></li>
+  <li><a href="#predelay" id="toc-predelay" class="nav-link" data-scroll-target="#predelay"><span class="header-section-number">5.3</span> (9) PreDelay</a></li>
   </ul>
 </nav>
     </div>
@@ -211,40 +207,19 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<p><img src="https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Plugins/ircam-verb/verb_06.png" class="img-fluid"></p>
-<section id="infinite" class="level2" data-number="5.1">
-<h2 data-number="5.1" class="anchored" data-anchor-id="infinite"><span class="header-section-number">5.1</span> (28) Infinite</h2>
-<p>When activated, the signal is recirculated indefinitely inside the reverberation engine.<br>
-Best suited for special effects such as “deep-freezing” the signal, or if you’re looking to create something a little less conventional than a fade-out for the end of your track.</p>
+<p><img src="https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Plugins/ircam-verb-session/verb_session_05.png" class="img-fluid"></p>
+<section id="decay-time" class="level2" data-number="5.1">
+<h2 data-number="5.1" class="anchored" data-anchor-id="decay-time"><span class="header-section-number">5.1</span> (7) Decay time</h2>
+<p>This is the duration of the reverberation ‘tail’ in seconds, in other words how long it takes for the reverberated sound to vanish away. In more technical terms, this is sometimes referred to as the RT factor, which is the time at which the response of the reverberation to an input signal goes below -60dB of attenuation.</p>
+<p>Please bear in mind that the master decay and high/mid/low controls are interactive, which means that the same audible result can be attained with different settings. This is intentional, as this allows you to get to the result faster and in a manner suited to your personal habits. Generally speaking, it might be more convenient to adjust the master decay time using the resulting sound as a guideline, then fine tune using high and/or low decay controls and leave the mid decay at the default setting. On the other hand, if you specifically to concentrate on the mids, for example to create a ‘hollow room’ sound, it’s easier to focus on the mid decay control, leaving hi and mid decay untouched.</p>
 </section>
-<section id="air-roll-freq" class="level2" data-number="5.2">
-<h2 data-number="5.2" class="anchored" data-anchor-id="air-roll-freq"><span class="header-section-number">5.2</span> (29) Air Roll Freq</h2>
-<p>Roll-off frequency for the air absorption simulation via a low-pass filter. Signal content above this frequency vanishes faster.</p>
+<section id="room-size" class="level2" data-number="5.2">
+<h2 data-number="5.2" class="anchored" data-anchor-id="room-size"><span class="header-section-number">5.2</span> (8) Room size</h2>
+<p>This parameter is a meta parameter that allow you to quickly perform an homogeneous set of parameters for the early reflexions part (early + cluster). Theses part are particularly important to achieve the “room” feeling of the desired space. It adjust the time structure of the whole reverberation (early-min, early-max, cluster-min, cluster-max, reverb-start). This is a key control for quick settings, before a detailed fi ne tune with each parameters.</p>
 </section>
-<section id="air-absorption" class="level2" data-number="5.3">
-<h2 data-number="5.3" class="anchored" data-anchor-id="air-absorption"><span class="header-section-number">5.3</span> (30) Air Absorption</h2>
-<p>Simulates the frequency-dependent absorption of air, where high frequencies roll-off quicker than low-frequencies with respect to distance. You’ve most probably noticed this real-world phenomenon when you’re far away from a concert venue and only able to hear the bass, and gradually start to hear the whole mix as you get closer.</p>
-</section>
-<section id="modal-density" class="level2" data-number="5.4">
-<h2 data-number="5.4" class="anchored" data-anchor-id="modal-density"><span class="header-section-number">5.4</span> (31) Modal density</h2>
-<p>Scales the modal density with respect to the current setting, which is internal to the plug-in engine, and depends on other parameters such as reverberation time, etc.<br>
-The modal density governs the frequency “smoothness” of the verb engine. Increasing this setting reduces the graininess of the reverberation. Adjust to taste, depending on the source material and desired result.</p>
-</section>
-<section id="panning" class="level2" data-number="5.5">
-<h2 data-number="5.5" class="anchored" data-anchor-id="panning"><span class="header-section-number">5.5</span> (32) Panning</h2>
-<p>Virtual source panning direction offset relative to input channels, in degrees.<br>
-In mono-to-stereo mode, this acts as a standard pan control, adjusting L/R direction of the source.<br>
-In a stereo-to-stereo channel configuration, this controls allows one to gradually remap the input<br>
-channels to each virtual source. In N-to-N surround configuration, the input channels are gradually remapped to their closest neighbors, in a circular, carousel fashion.</p>
-</section>
-<section id="width" class="level2" data-number="5.6">
-<h2 data-number="5.6" class="anchored" data-anchor-id="width"><span class="header-section-number">5.6</span> (33) Width</h2>
-<p>Panning width of the input channel - virtual source remapping described above.</p>
-</section>
-<section id="diffuseness" class="level2" data-number="5.7">
-<h2 data-number="5.7" class="anchored" data-anchor-id="diffuseness"><span class="header-section-number">5.7</span> (34) Diffuseness</h2>
-<p>Determines the spatial width of the reverberated signal part, one could also say it changes the directional information of the reverberation, or the ability of the listener to locate the spatial origin of the this signal. In a real-life space, this would corresponding to how non-symmetric, irregular and complicated the shape of the room would be.<br>
-When engaged, separate cluster and tail reverberation push-buttons determine which section is affected by the diffuseness parameter. A zero setting equates to maximum localization while a 100-percent setting gives full diffuseness and no localization.</p>
+<section id="predelay" class="level2" data-number="5.3">
+<h2 data-number="5.3" class="anchored" data-anchor-id="predelay"><span class="header-section-number">5.3</span> (9) PreDelay</h2>
+<p>PreDelay controls the time at which the reverberation portion of the effect starts to be heard, with respect to the DIRECT signal. Increasing this helps to distinguish between direct and effected sound and preserve intelligibility, especially with large decay times and room sizes which would otherwise drench the audio material in reverberation.</p>
 
 
 </section>
@@ -485,8 +460,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./Time_Structure_Display.html" class="pagination-link">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Time Structure Display</span></span>
+      <a href="./Filter.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Filter</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">

@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>IRCAM Verb - 9&nbsp; Preset Management</title>
+<title>IRCAM Verb Session - 9&nbsp; Preset Management</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -88,9 +88,9 @@ ul.task-list li input[type="checkbox"] {
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation floating overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
-      <a href="./">IRCAM Verb</a> 
+      <a href="./">IRCAM Verb Session</a> 
         <div class="sidebar-tools-main">
-    <a href="./IRCAM-Verb.pdf" title="Download PDF" class="quarto-navigation-tool px-1" aria-label="Download PDF"><i class="bi bi-file-pdf"></i></a>
+    <a href="./IRCAM-Verb-Session.pdf" title="Download PDF" class="quarto-navigation-tool px-1" aria-label="Download PDF"><i class="bi bi-file-pdf"></i></a>
 </div>
     </div>
       </div>
@@ -103,22 +103,22 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">IRCAM Verb</span></a>
+  <a href="./index.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">index.html</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./Quick_start_guide.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Quick start guide</span></a>
+  <a href="./Quick_Start.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Quick Start</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./Decay.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Decay</span></a>
+  <a href="./Time_Structure_Display.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Time Structure Display</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./Time_Structure_Display.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Time Structure Display</span></a>
+  <a href="./Filter.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Filter</span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -200,7 +200,7 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#delete" id="toc-delete" class="nav-link" data-scroll-target="#delete"><span class="header-section-number">9.2.8</span> Delete</a></li>
   <li><a href="#export" id="toc-export" class="nav-link" data-scroll-target="#export"><span class="header-section-number">9.2.9</span> Export</a></li>
   <li><a href="#import" id="toc-import" class="nav-link" data-scroll-target="#import"><span class="header-section-number">9.2.10</span> Import</a></li>
-  <li><a href="#ordering-arrows" id="toc-ordering-arrows" class="nav-link" data-scroll-target="#ordering-arrows"><span class="header-section-number">9.2.11</span> Ordering arrows</a></li>
+  <li><a href="#sorting-arrows" id="toc-sorting-arrows" class="nav-link" data-scroll-target="#sorting-arrows"><span class="header-section-number">9.2.11</span> Sorting arrows</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -248,54 +248,59 @@ Double-clicking on the preset name from the list, reloads the preset into the se
 </section>
 <section id="from-the-preset-management-window" class="level2" data-number="9.2">
 <h2 data-number="9.2" class="anchored" data-anchor-id="from-the-preset-management-window"><span class="header-section-number">9.2</span> From the Preset Management Window</h2>
-<p>The Preset Management Window features three preset banks: * The Factory bank gathers presets that can’t be edited by users. * The User bank is dedicated to the users presets. * The Global bank features presets for A, B and morphing sections. A single global preset includes A and B section content and the morphing slider position.</p>
+<p>The Preset Management Window features three preset banks:</p>
+<ul>
+<li>The Factory bank gathers presets that can’t be edited by users.</li>
+<li>The User bank is dedicated to the users presets.</li>
+<li>The Global bank features presets for A, B and morphing sections. A single global preset includes A and B section content and the morphing slider position.</li>
+</ul>
 <p>A Preset can directly be recalled into the preset section selected by the morphing slider position, by double-clicking on its name on the list. The preset lists can be filtered. This filter is applied to any preset information such as name, description, author, comments or key words.</p>
-<p><img src="https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Plugins/ircam-verb/verb_11.png" class="img-fluid"></p>
+<p><img src="https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Plugins/ircam-verb-session/verb_session_09.png" class="img-fluid"></p>
 <section id="recall-a" class="level3" data-number="9.2.1">
 <h3 data-number="9.2.1" class="anchored" data-anchor-id="recall-a"><span class="header-section-number">9.2.1</span> Recall A</h3>
-<p>recalls the selected preset into the corresponding section.</p>
+<p>Recalls the selected preset into the corresponding location.</p>
 </section>
 <section id="recall-b" class="level3" data-number="9.2.2">
 <h3 data-number="9.2.2" class="anchored" data-anchor-id="recall-b"><span class="header-section-number">9.2.2</span> Recall B</h3>
-<p>recalls the selected preset into the corresponding section.</p>
+<p>Recalls the selected preset into the corresponding location.</p>
 </section>
 <section id="copy-a-and-copy-b" class="level3" data-number="9.2.3">
 <h3 data-number="9.2.3" class="anchored" data-anchor-id="copy-a-and-copy-b"><span class="header-section-number">9.2.3</span> Copy A and Copy B</h3>
-<p>buttons allow to easily create a variation around a preset.</p>
+<p>These buttons allow to easily create a variation around a preset.</p>
 </section>
 <section id="update" class="level3" data-number="9.2.4">
 <h3 data-number="9.2.4" class="anchored" data-anchor-id="update"><span class="header-section-number">9.2.4</span> Update</h3>
-<p>allows to save the current settings for the selected preset.</p>
+<p>Update the current preset with current settings.</p>
 </section>
 <section id="new" class="level3" data-number="9.2.5">
 <h3 data-number="9.2.5" class="anchored" data-anchor-id="new"><span class="header-section-number">9.2.5</span> New</h3>
-<p>creates a new preset in the list.</p>
+<p>Creates a new preset in the list.</p>
 </section>
 <section id="duplicate" class="level3" data-number="9.2.6">
 <h3 data-number="9.2.6" class="anchored" data-anchor-id="duplicate"><span class="header-section-number">9.2.6</span> Duplicate</h3>
-<p>creates a new preset in the list from the selected one.</p>
+<p>Creates a new preset in the list based on the currently selected one.</p>
 </section>
 <section id="edit" class="level3" data-number="9.2.7">
 <h3 data-number="9.2.7" class="anchored" data-anchor-id="edit"><span class="header-section-number">9.2.7</span> Edit</h3>
-<p>gives access to the specific windows which allows to change preset name, description, key words…..</p>
+<p>Gives access to an edit window where you can change the preset’s name, description and add optional key words, the author’s name, etc.</p>
 </section>
 <section id="delete" class="level3" data-number="9.2.8">
 <h3 data-number="9.2.8" class="anchored" data-anchor-id="delete"><span class="header-section-number">9.2.8</span> Delete</h3>
-<p>suppresses the selected preset.</p>
+<p>Suppresses the selected preset.</p>
 </section>
 <section id="export" class="level3" data-number="9.2.9">
 <h3 data-number="9.2.9" class="anchored" data-anchor-id="export"><span class="header-section-number">9.2.9</span> Export</h3>
-<p>creates a file reflecting the content of the preset bank.</p>
+<p>Saves the preset to a file on disk.</p>
 </section>
 <section id="import" class="level3" data-number="9.2.10">
 <h3 data-number="9.2.10" class="anchored" data-anchor-id="import"><span class="header-section-number">9.2.10</span> Import</h3>
-<p>adds existing presets into the preset bank.</p>
+<p>Adds existing presets into the preset bank.</p>
 </section>
-<section id="ordering-arrows" class="level3" data-number="9.2.11">
-<h3 data-number="9.2.11" class="anchored" data-anchor-id="ordering-arrows"><span class="header-section-number">9.2.11</span> Ordering arrows</h3>
-<p>orders the presets into the list.</p>
-<p><img src="https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Plugins/ircam-verb/verb_12.png" class="img-fluid"></p>
-<p>The preset protection if engaged, allows only its original modification author to uncheck and edit. So you can protect your presets in a multi-user configuration. Protected presets can only be modified using the session of their creator. If used in another user session they can only be imported or deleted.</p>
+<section id="sorting-arrows" class="level3" data-number="9.2.11">
+<h3 data-number="9.2.11" class="anchored" data-anchor-id="sorting-arrows"><span class="header-section-number">9.2.11</span> Sorting arrows</h3>
+<p>Moves a preset up and down in the list for sorting.</p>
+<p><img src="https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Plugins/ircam-verb-session/verb_session_10.png" class="img-fluid"></p>
+<p>When engaged, the preset is protected, and any subsequent modifications or edits are allowed for the original author only. This comes in handy in a multi-user configuration. Protected presets can of course still be loaded or deleted when the user logs under a different computer session.</p>
 
 
 </section>
