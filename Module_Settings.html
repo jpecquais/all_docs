@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Evo Compressor - 3&nbsp; Module Settings</title>
+<title>Evo EQ - 3&nbsp; Module Settings</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,7 +30,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./Geek_Settings.html" rel="next">
+<link href="./Shortcuts.html" rel="next">
 <link href="./General_Settings.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
@@ -88,9 +88,9 @@ ul.task-list li input[type="checkbox"] {
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation floating overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
-      <a href="./">Evo Compressor</a> 
+      <a href="./">Evo EQ</a> 
         <div class="sidebar-tools-main">
-    <a href="./Evo-Compressor.pdf" title="Download PDF" class="quarto-navigation-tool px-1" aria-label="Download PDF"><i class="bi bi-file-pdf"></i></a>
+    <a href="./Evo-EQ.pdf" title="Download PDF" class="quarto-navigation-tool px-1" aria-label="Download PDF"><i class="bi bi-file-pdf"></i></a>
 </div>
     </div>
       </div>
@@ -118,32 +118,27 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./Geek_Settings.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Geek Settings</span></a>
+  <a href="./Shortcuts.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Shortcuts</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./Shortcuts.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Shortcuts</span></a>
+  <a href="./Plugin_Settings.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Plugin Settings</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./Plugin_Settings.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Plugin Settings</span></a>
+  <a href="./Preset_Management.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Preset Management</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./Preset_Management.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Preset Management</span></a>
+  <a href="./Preset_Manager.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Preset Manager</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./Preset_Manager.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Preset Manager</span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./Specifications.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Specifications</span></a>
+  <a href="./Specifications.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Specifications</span></a>
   </div>
 </li>
         <li class="sidebar-item sidebar-item-section">
@@ -171,26 +166,39 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#input" id="toc-input" class="nav-link active" data-scroll-target="#input"><span class="header-section-number">3.1</span> Input</a>
+  <li><a href="#analyser" id="toc-analyser" class="nav-link active" data-scroll-target="#analyser"><span class="header-section-number">3.1</span> Analyser</a>
   <ul class="collapse">
-  <li><a href="#input-gain" id="toc-input-gain" class="nav-link" data-scroll-target="#input-gain"><span class="header-section-number">3.1.1</span> Input Gain</a></li>
-  <li><a href="#drive" id="toc-drive" class="nav-link" data-scroll-target="#drive"><span class="header-section-number">3.1.2</span> Drive</a></li>
+  <li><a href="#analyser-switch" id="toc-analyser-switch" class="nav-link" data-scroll-target="#analyser-switch"><span class="header-section-number">3.1.1</span> Analyser Switch</a></li>
+  <li><a href="#analyser-slider" id="toc-analyser-slider" class="nav-link" data-scroll-target="#analyser-slider"><span class="header-section-number">3.1.2</span> Analyser Slider</a></li>
   </ul></li>
-  <li><a href="#compressor" id="toc-compressor" class="nav-link" data-scroll-target="#compressor"><span class="header-section-number">3.2</span> Compressor</a>
+  <li><a href="#input" id="toc-input" class="nav-link" data-scroll-target="#input"><span class="header-section-number">3.2</span> Input</a>
   <ul class="collapse">
-  <li><a href="#mode" id="toc-mode" class="nav-link" data-scroll-target="#mode"><span class="header-section-number">3.2.1</span> Mode</a></li>
-  <li><a href="#threshold" id="toc-threshold" class="nav-link" data-scroll-target="#threshold"><span class="header-section-number">3.2.2</span> Threshold</a></li>
-  <li><a href="#ratio" id="toc-ratio" class="nav-link" data-scroll-target="#ratio"><span class="header-section-number">3.2.3</span> Ratio</a></li>
-  <li><a href="#attack" id="toc-attack" class="nav-link" data-scroll-target="#attack"><span class="header-section-number">3.2.4</span> Attack</a></li>
-  <li><a href="#release" id="toc-release" class="nav-link" data-scroll-target="#release"><span class="header-section-number">3.2.5</span> Release</a></li>
-  <li><a href="#auto-adapt." id="toc-auto-adapt." class="nav-link" data-scroll-target="#auto-adapt."><span class="header-section-number">3.2.6</span> Auto Adapt.</a></li>
-  <li><a href="#gain-reduction-display" id="toc-gain-reduction-display" class="nav-link" data-scroll-target="#gain-reduction-display"><span class="header-section-number">3.2.7</span> Gain Reduction Display</a></li>
-  <li><a href="#compressor-output-gain" id="toc-compressor-output-gain" class="nav-link" data-scroll-target="#compressor-output-gain"><span class="header-section-number">3.2.8</span> Compressor Output Gain</a></li>
-  <li><a href="#wet" id="toc-wet" class="nav-link" data-scroll-target="#wet"><span class="header-section-number">3.2.9</span> Wet</a></li>
+  <li><a href="#input-gain" id="toc-input-gain" class="nav-link" data-scroll-target="#input-gain"><span class="header-section-number">3.2.1</span> Input Gain</a></li>
+  <li><a href="#drive" id="toc-drive" class="nav-link" data-scroll-target="#drive"><span class="header-section-number">3.2.2</span> Drive</a></li>
   </ul></li>
-  <li><a href="#output" id="toc-output" class="nav-link" data-scroll-target="#output"><span class="header-section-number">3.3</span> Output</a>
+  <li><a href="#equalization-module" id="toc-equalization-module" class="nav-link" data-scroll-target="#equalization-module"><span class="header-section-number">3.3</span> Equalization module</a>
   <ul class="collapse">
-  <li><a href="#output-gain" id="toc-output-gain" class="nav-link" data-scroll-target="#output-gain"><span class="header-section-number">3.3.1</span> Output Gain</a></li>
+  <li><a href="#low-cut-switch" id="toc-low-cut-switch" class="nav-link" data-scroll-target="#low-cut-switch"><span class="header-section-number">3.3.1</span> Low-Cut Switch</a></li>
+  <li><a href="#low-cut-cutoff-frequency" id="toc-low-cut-cutoff-frequency" class="nav-link" data-scroll-target="#low-cut-cutoff-frequency"><span class="header-section-number">3.3.2</span> Low-Cut Cutoff Frequency</a></li>
+  <li><a href="#low-cut-slope" id="toc-low-cut-slope" class="nav-link" data-scroll-target="#low-cut-slope"><span class="header-section-number">3.3.3</span> Low-Cut Slope</a></li>
+  <li><a href="#low-shelf-switch" id="toc-low-shelf-switch" class="nav-link" data-scroll-target="#low-shelf-switch"><span class="header-section-number">3.3.4</span> Low Shelf Switch</a></li>
+  <li><a href="#low-shelf-cutoff" id="toc-low-shelf-cutoff" class="nav-link" data-scroll-target="#low-shelf-cutoff"><span class="header-section-number">3.3.5</span> Low Shelf Cutoff</a></li>
+  <li><a href="#low-shelf-gain" id="toc-low-shelf-gain" class="nav-link" data-scroll-target="#low-shelf-gain"><span class="header-section-number">3.3.6</span> Low Shelf Gain</a></li>
+  <li><a href="#high-cut-switch" id="toc-high-cut-switch" class="nav-link" data-scroll-target="#high-cut-switch"><span class="header-section-number">3.3.7</span> High-Cut Switch</a></li>
+  <li><a href="#high-cut-cutoff-frequency" id="toc-high-cut-cutoff-frequency" class="nav-link" data-scroll-target="#high-cut-cutoff-frequency"><span class="header-section-number">3.3.8</span> High-Cut Cutoff Frequency</a></li>
+  <li><a href="#high-cut-slope" id="toc-high-cut-slope" class="nav-link" data-scroll-target="#high-cut-slope"><span class="header-section-number">3.3.9</span> High-Cut Slope</a></li>
+  <li><a href="#high-shelf-switch" id="toc-high-shelf-switch" class="nav-link" data-scroll-target="#high-shelf-switch"><span class="header-section-number">3.3.10</span> High Shelf Switch</a></li>
+  <li><a href="#high-shelf-cutoff" id="toc-high-shelf-cutoff" class="nav-link" data-scroll-target="#high-shelf-cutoff"><span class="header-section-number">3.3.11</span> High Shelf Cutoff</a></li>
+  <li><a href="#high-shelf-gain" id="toc-high-shelf-gain" class="nav-link" data-scroll-target="#high-shelf-gain"><span class="header-section-number">3.3.12</span> High Shelf Gain</a></li>
+  <li><a href="#parametric-equalization-switches" id="toc-parametric-equalization-switches" class="nav-link" data-scroll-target="#parametric-equalization-switches"><span class="header-section-number">3.3.13</span> Parametric Equalization Switches</a></li>
+  <li><a href="#parametric-equalization-gain" id="toc-parametric-equalization-gain" class="nav-link" data-scroll-target="#parametric-equalization-gain"><span class="header-section-number">3.3.14</span> Parametric Equalization Gain</a></li>
+  <li><a href="#parametric-equalization-center-frequency" id="toc-parametric-equalization-center-frequency" class="nav-link" data-scroll-target="#parametric-equalization-center-frequency"><span class="header-section-number">3.3.15</span> Parametric Equalization Center Frequency</a></li>
+  <li><a href="#parametric-equalization-q" id="toc-parametric-equalization-q" class="nav-link" data-scroll-target="#parametric-equalization-q"><span class="header-section-number">3.3.16</span> Parametric Equalization Q</a></li>
+  <li><a href="#equalization-output-gain" id="toc-equalization-output-gain" class="nav-link" data-scroll-target="#equalization-output-gain"><span class="header-section-number">3.3.17</span> Equalization Output Gain</a></li>
+  </ul></li>
+  <li><a href="#output" id="toc-output" class="nav-link" data-scroll-target="#output"><span class="header-section-number">3.4</span> Output</a>
+  <ul class="collapse">
+  <li><a href="#output-gain" id="toc-output-gain" class="nav-link" data-scroll-target="#output-gain"><span class="header-section-number">3.4.1</span> Output Gain</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -215,98 +223,162 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<section id="input" class="level2" data-number="3.1">
-<h2 data-number="3.1" class="anchored" data-anchor-id="input"><span class="header-section-number">3.1</span> Input</h2>
-<section id="input-gain" class="level3" data-number="3.1.1">
-<h3 data-number="3.1.1" class="anchored" data-anchor-id="input-gain"><span class="header-section-number">3.1.1</span> Input Gain</h3>
-<p>The input gain control trims the level of the signal at the input of EVO Comp. The meter shows both RMS signal (VU-Meter, blue) and peak signal (peak meter, green), from -24 to +18 dB range, referenced at -18dB.</p>
+<section id="analyser" class="level2" data-number="3.1">
+<h2 data-number="3.1" class="anchored" data-anchor-id="analyser"><span class="header-section-number">3.1</span> Analyser</h2>
+<section id="analyser-switch" class="level3" data-number="3.1.1">
+<h3 data-number="3.1.1" class="anchored" data-anchor-id="analyser-switch"><span class="header-section-number">3.1.1</span> Analyser Switch</h3>
+<p>The spectrum analyzer origins from the FLUX:: Pure Analyzer and has been optimized for the EVO Channel. It gives you an accurate direct view of what’s going on in the different frequency domains of your audio. When switched on, the spectrum analysis is activated and displayed in the equalization view panel. The grey waveform correspond to your input signal (post gain/drive), the same as the input meter. The black one is the output signal (post output gain), the same as the output meter.</p>
+<p>Value Range : Enabled/Disabled</p>
+<p>Default Value : Enabled</p>
+</section>
+<section id="analyser-slider" class="level3" data-number="3.1.2">
+<h3 data-number="3.1.2" class="anchored" data-anchor-id="analyser-slider"><span class="header-section-number">3.1.2</span> Analyser Slider</h3>
+<p>Controls the amount of frequency detail of the curve. Move the slider to the left to get a more smoothed curved, and to the right to get more details.</p>
+<p>Value Range : No Value</p>
+</section>
+</section>
+<section id="input" class="level2" data-number="3.2">
+<h2 data-number="3.2" class="anchored" data-anchor-id="input"><span class="header-section-number">3.2</span> Input</h2>
+<section id="input-gain" class="level3" data-number="3.2.1">
+<h3 data-number="3.2.1" class="anchored" data-anchor-id="input-gain"><span class="header-section-number">3.2.1</span> Input Gain</h3>
+<p>The input gain control trims the level of the signal at the input of EVO Channel. The meter shows both RMS signal (VU-Meter, blue) and peak signal (peak meter, green), from -24 to +18 dB range, referenced at -18dB.</p>
 <p>Value Range : -24.0 dB / +18.0 dB</p>
 <p>Colors : - Blue : RMS Value - Green : Peak Value</p>
 <p>Default Value : 0.0 dB</p>
 </section>
-<section id="drive" class="level3" data-number="3.1.2">
-<h3 data-number="3.1.2" class="anchored" data-anchor-id="drive"><span class="header-section-number">3.1.2</span> Drive</h3>
-<p>In EVO Comp a signal Drive is available direct at the input Gain for restoring and maintaining the vitality of the sound.</p>
+<section id="drive" class="level3" data-number="3.2.2">
+<h3 data-number="3.2.2" class="anchored" data-anchor-id="drive"><span class="header-section-number">3.2.2</span> Drive</h3>
+<p>In EVO EQ a signal Drive is available direct at the input Gain for restoring and maintaining the vitality of the sound.</p>
 <p>The drive module has been specially designed to add a soft saturation and warmth to your audio tracks.</p>
 <p>Value Range : 0% / 100%</p>
 <p>Default Value : 0%</p>
 </section>
 </section>
-<section id="compressor" class="level2" data-number="3.2">
-<h2 data-number="3.2" class="anchored" data-anchor-id="compressor"><span class="header-section-number">3.2</span> Compressor</h2>
-<p>In addition to controlling the signal dynamics, the compressor is often used for shaping the attitude of a sound. To use a compressor in a creative and artistic fashion it’s important that it’s easy to use and has the ability to create an interesting sound.</p>
-<p>The EVO Comp’s compressor module is based on the Pure Compressor’s dynamics engine, and the same range of compression types are available in EVO Comp through the different modes available (each mode corresponds to a fine tuning of Pure Compressor). As some modes use a LID compression (Level Independent Detection) in parallel, a gain reduction may be processed even if the audio level is below the threshold.</p>
-<p><img src="https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Plugins/evo-channel/ManualEvoChannel-010.jpg" class="img-fluid"></p>
-<section id="mode" class="level3" data-number="3.2.1">
-<h3 data-number="3.2.1" class="anchored" data-anchor-id="mode"><span class="header-section-number">3.2.1</span> Mode</h3>
-<p>The compressor module gives you up to 9 modes of compression.</p>
-<p>Available modes :</p>
-<ul>
-<li>Start</li>
-<li>Kick/Snare</li>
-<li>Overhead</li>
-<li>Drum Bus</li>
-<li>Bass</li>
-<li>Acoustic</li>
-<li>Piano</li>
-<li>Vocal</li>
-<li>Mix</li>
-</ul>
-<p>Default Value : Start</p>
-</section>
-<section id="threshold" class="level3" data-number="3.2.2">
-<h3 data-number="3.2.2" class="anchored" data-anchor-id="threshold"><span class="header-section-number">3.2.2</span> Threshold</h3>
-<p>Threshold value of the compressor.</p>
-<p>Value Range : -42.0dB / +18.0dB</p>
-<p>Default Value : Depends on the Mode.</p>
-</section>
-<section id="ratio" class="level3" data-number="3.2.3">
-<h3 data-number="3.2.3" class="anchored" data-anchor-id="ratio"><span class="header-section-number">3.2.3</span> Ratio</h3>
-<p>Compression ratio parameter.</p>
-<p>Value Range : 1.0:1 / 10.0:</p>
-<p>Default Value : Depends on the Mode.</p>
-</section>
-<section id="attack" class="level3" data-number="3.2.4">
-<h3 data-number="3.2.4" class="anchored" data-anchor-id="attack"><span class="header-section-number">3.2.4</span> Attack</h3>
-<p>Attack value of the compressor.</p>
-<p>Value Range : 0.1ms / 1000.0ms</p>
-<p>Default Value : Depends on the Mode.</p>
-</section>
-<section id="release" class="level3" data-number="3.2.5">
-<h3 data-number="3.2.5" class="anchored" data-anchor-id="release"><span class="header-section-number">3.2.5</span> Release</h3>
-<p>Release value of the compressor.</p>
-<p>Value Range : 1ms / 10000ms</p>
-<p>Default Value : Depends on the Mode.</p>
-</section>
-<section id="auto-adapt." class="level3" data-number="3.2.6">
-<h3 data-number="3.2.6" class="anchored" data-anchor-id="auto-adapt."><span class="header-section-number">3.2.6</span> Auto Adapt.</h3>
-<p>When enabled, the compressor adapts its release time to the input signal depending on the audio signal, but won’t exceed the release time value.</p>
+<section id="equalization-module" class="level2" data-number="3.3">
+<h2 data-number="3.3" class="anchored" data-anchor-id="equalization-module"><span class="header-section-number">3.3</span> Equalization module</h2>
+<p>One of the corner stones in a Channel Strip is a well-built, efficient and complete Equalizer.</p>
+<p>The EVO EQ is a straightforward comprehensive 4-band equalizer with additional 6-24 dB Hi/Lo filters.</p>
+<p>The graphical interactive EQ curve is layered on top of the built in Spectrum Analyzer for hands-on editing with direct connection to the visual response.</p>
+<p>Built with a 64 bit dynamic range, the EQ section has been carefully tuned to preserve the optimal signal to noise ratio independent of the parameter settings preventing the signal from deteriorating when the gain is reduced. It’s an efficient sharp-edged surgical precision tool for the most demanding equalizing and filtering tasks conceivable.</p>
+<p>Equalization module is divided in two parts : - A filtering part composed of a low cut, a low shelf, a high cut and a high shelf filter. - A parametric equalization stage made of four parametric EQs.</p>
+<p><img src="https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Plugins/evo-eq/evoEQ_eq.png" class="img-fluid"></p>
+<section id="low-cut-switch" class="level3" data-number="3.3.1">
+<h3 data-number="3.3.1" class="anchored" data-anchor-id="low-cut-switch"><span class="header-section-number">3.3.1</span> Low-Cut Switch</h3>
+<p>Enables the low cut filter.</p>
 <p>Value Range : Enabled / Disabled</p>
 <p>Default Value : Enabled</p>
 </section>
-<section id="gain-reduction-display" class="level3" data-number="3.2.7">
-<h3 data-number="3.2.7" class="anchored" data-anchor-id="gain-reduction-display"><span class="header-section-number">3.2.7</span> Gain Reduction Display</h3>
-<p>Displays the gain reduction performed by the compressor.</p>
-<p>Value Range : 0dB / -24dB</p>
+<section id="low-cut-cutoff-frequency" class="level3" data-number="3.3.2">
+<h3 data-number="3.3.2" class="anchored" data-anchor-id="low-cut-cutoff-frequency"><span class="header-section-number">3.3.2</span> Low-Cut Cutoff Frequency</h3>
+<p>Cutoff frequency of the low cut filter.</p>
+<p>Value Range : 20Hz to sampling rate / 2</p>
+<p>Default Value : 20Hz</p>
 </section>
-<section id="compressor-output-gain" class="level3" data-number="3.2.8">
-<h3 data-number="3.2.8" class="anchored" data-anchor-id="compressor-output-gain"><span class="header-section-number">3.2.8</span> Compressor Output Gain</h3>
-<p>Gain stage at the output of the compressor module.</p>
-<p>Value Range : 0.0dB / 24.0dB</p>
+<section id="low-cut-slope" class="level3" data-number="3.3.3">
+<h3 data-number="3.3.3" class="anchored" data-anchor-id="low-cut-slope"><span class="header-section-number">3.3.3</span> Low-Cut Slope</h3>
+<p>Slope of the low cut filter.</p>
+<p>Value Range : 6dB/oct - 24dB/oct</p>
+<p>Default Value : 6dB/oct</p>
+</section>
+<section id="low-shelf-switch" class="level3" data-number="3.3.4">
+<h3 data-number="3.3.4" class="anchored" data-anchor-id="low-shelf-switch"><span class="header-section-number">3.3.4</span> Low Shelf Switch</h3>
+<p>Enables the low shelf.</p>
+<p>Value Range : Enabled / Disabled</p>
+<p>Default Value : Enabled</p>
+</section>
+<section id="low-shelf-cutoff" class="level3" data-number="3.3.5">
+<h3 data-number="3.3.5" class="anchored" data-anchor-id="low-shelf-cutoff"><span class="header-section-number">3.3.5</span> Low Shelf Cutoff</h3>
+<p>Cutoff frequency of the low shelf.</p>
+<p>Value Range : 20Hz / 22050Hz</p>
+<p>Default Value : 100Hz</p>
+</section>
+<section id="low-shelf-gain" class="level3" data-number="3.3.6">
+<h3 data-number="3.3.6" class="anchored" data-anchor-id="low-shelf-gain"><span class="header-section-number">3.3.6</span> Low Shelf Gain</h3>
+<p>Target gain for frequencies below the cutoff frequency.</p>
+<p>Value Range : -24.0dB / +24.0dB</p>
 <p>Default Value : 0.0dB</p>
 </section>
-<section id="wet" class="level3" data-number="3.2.9">
-<h3 data-number="3.2.9" class="anchored" data-anchor-id="wet"><span class="header-section-number">3.2.9</span> Wet</h3>
-<p>Wet parameter defines how much of the compressed signal is mixed with the original signal, for parallel compression.</p>
-<p>Value Range : 0% / 100%</p>
-<p>Default Value : 100%</p>
+<section id="high-cut-switch" class="level3" data-number="3.3.7">
+<h3 data-number="3.3.7" class="anchored" data-anchor-id="high-cut-switch"><span class="header-section-number">3.3.7</span> High-Cut Switch</h3>
+<p>Enables the high cut filter.</p>
+<p>Value Range : Enabled / Disabled</p>
+<p>Default Value : Enabled</p>
+</section>
+<section id="high-cut-cutoff-frequency" class="level3" data-number="3.3.8">
+<h3 data-number="3.3.8" class="anchored" data-anchor-id="high-cut-cutoff-frequency"><span class="header-section-number">3.3.8</span> High-Cut Cutoff Frequency</h3>
+<p>Cutoff frequency of the high cut filter.</p>
+<p>Value Range : 20Hz to sampling rate / 2</p>
+<p>Default Value : Sampling rate / 2</p>
+</section>
+<section id="high-cut-slope" class="level3" data-number="3.3.9">
+<h3 data-number="3.3.9" class="anchored" data-anchor-id="high-cut-slope"><span class="header-section-number">3.3.9</span> High-Cut Slope</h3>
+<p>Slope of the high cut filter.</p>
+<p>Value Range : 6dB/oct - 24dB/oct</p>
+<p>Default Value : 6dB/oct</p>
+</section>
+<section id="high-shelf-switch" class="level3" data-number="3.3.10">
+<h3 data-number="3.3.10" class="anchored" data-anchor-id="high-shelf-switch"><span class="header-section-number">3.3.10</span> High Shelf Switch</h3>
+<p>Enables the high shelf.</p>
+<p>Value Range : Enabled / Disabled</p>
+<p>Default Value : Enabled</p>
+</section>
+<section id="high-shelf-cutoff" class="level3" data-number="3.3.11">
+<h3 data-number="3.3.11" class="anchored" data-anchor-id="high-shelf-cutoff"><span class="header-section-number">3.3.11</span> High Shelf Cutoff</h3>
+<p>Cutoff frequency of the high shelf.</p>
+<p>Value Range : 20Hz to sampling rate / 2</p>
+<p>Default Value : 5000Hz</p>
+</section>
+<section id="high-shelf-gain" class="level3" data-number="3.3.12">
+<h3 data-number="3.3.12" class="anchored" data-anchor-id="high-shelf-gain"><span class="header-section-number">3.3.12</span> High Shelf Gain</h3>
+<p>Target gain for frequencies above the cutoff frequency.</p>
+<p>Value Range : -24.0dB / +24.0dB</p>
+<p>Default Value : 0.0dB</p>
+</section>
+<section id="parametric-equalization-switches" class="level3" data-number="3.3.13">
+<h3 data-number="3.3.13" class="anchored" data-anchor-id="parametric-equalization-switches"><span class="header-section-number">3.3.13</span> Parametric Equalization Switches</h3>
+<p>Enables the corresponding parametric equalizer.</p>
+<p>Value Range : Enabled / Disabled</p>
+<p>Default Value : Enabled</p>
+</section>
+<section id="parametric-equalization-gain" class="level3" data-number="3.3.14">
+<h3 data-number="3.3.14" class="anchored" data-anchor-id="parametric-equalization-gain"><span class="header-section-number">3.3.14</span> Parametric Equalization Gain</h3>
+<p>Gain stage of parametric equalization.</p>
+<p>Value Range : -24.0dB / +24.0dB</p>
+<p>Default Value : 0.0dB</p>
+</section>
+<section id="parametric-equalization-center-frequency" class="level3" data-number="3.3.15">
+<h3 data-number="3.3.15" class="anchored" data-anchor-id="parametric-equalization-center-frequency"><span class="header-section-number">3.3.15</span> Parametric Equalization Center Frequency</h3>
+<p>Center frequency of parametric equalization.</p>
+<p>Value Range : 20Hz to sampling rate / 2</p>
+<p>Default Value : Default value depends of the equalizer used.</p>
+<ul>
+<li>Low parametric equalizer : 200Hz<br>
+</li>
+<li>Mid-Low parametric equalizer : 500Hz<br>
+</li>
+<li>Mid-High parametric equalizer : 1300Hz<br>
+</li>
+<li>High parametric equalizer : 2500Hz</li>
+</ul>
+</section>
+<section id="parametric-equalization-q" class="level3" data-number="3.3.16">
+<h3 data-number="3.3.16" class="anchored" data-anchor-id="parametric-equalization-q"><span class="header-section-number">3.3.16</span> Parametric Equalization Q</h3>
+<p>Q value of parametric equalization. Defines the width of the EQ band.</p>
+<p>Value Range : 1.0 Q / 100.0 Q</p>
+<p>Default Value : 5.0 Q</p>
+</section>
+<section id="equalization-output-gain" class="level3" data-number="3.3.17">
+<h3 data-number="3.3.17" class="anchored" data-anchor-id="equalization-output-gain"><span class="header-section-number">3.3.17</span> Equalization Output Gain</h3>
+<p>A stage of gain at the output of the equalization module.</p>
+<p>Value Range : -12.0dB / +12.0dB</p>
+<p>Default Value : 0.0dB</p>
 </section>
 </section>
-<section id="output" class="level2" data-number="3.3">
-<h2 data-number="3.3" class="anchored" data-anchor-id="output"><span class="header-section-number">3.3</span> Output</h2>
-<section id="output-gain" class="level3" data-number="3.3.1">
-<h3 data-number="3.3.1" class="anchored" data-anchor-id="output-gain"><span class="header-section-number">3.3.1</span> Output Gain</h3>
-<p>The output gain control trims the level of the signal at the output of EVO Comp. The meter shows both RMS signal (VU-Meter, blue) and peak signal (peak meter, green), from -24 to +18 dB range, referenced at -18dB.</p>
+<section id="output" class="level2" data-number="3.4">
+<h2 data-number="3.4" class="anchored" data-anchor-id="output"><span class="header-section-number">3.4</span> Output</h2>
+<section id="output-gain" class="level3" data-number="3.4.1">
+<h3 data-number="3.4.1" class="anchored" data-anchor-id="output-gain"><span class="header-section-number">3.4.1</span> Output Gain</h3>
+<p>The output gain control trims the level of the signal at the output of EVO Eq. The meter shows both RMS signal (VU-Meter, blue) and peak signal (peak meter, green), from -24 to +18 dB range, referenced at -18dB.</p>
 <p>Value Range : -24.0 dB / +18.0 dB</p>
 <p>Colors : - Blue : RMS Value - Green : Peak Value</p>
 <p>Default Value : 0.0 dB</p>
@@ -556,8 +628,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./Geek_Settings.html" class="pagination-link">
-        <span class="nav-page-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Geek Settings</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./Shortcuts.html" class="pagination-link">
+        <span class="nav-page-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Shortcuts</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
