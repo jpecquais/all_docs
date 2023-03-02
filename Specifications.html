@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Pure DExpander - 7&nbsp; Specifications</title>
+<title>Pure Expander - 8&nbsp; Specifications</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,8 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./../flux_processing_release_notes.html" rel="next">
-<link href="./Preset_Management.html" rel="prev">
+<link href="./Compatibility.html" rel="next">
+<link href="./Plug-in_Settings.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -73,7 +73,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./Specifications.html"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Specifications</span></a></li></ol></nav>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./Specifications.html"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Specifications</span></a></li></ol></nav>
       <a class="flex-grow-1" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
       </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -88,9 +88,9 @@ ul.task-list li input[type="checkbox"] {
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation floating overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
-      <a href="./">Pure DExpander</a> 
+      <a href="./">Pure Expander</a> 
         <div class="sidebar-tools-main">
-    <a href="./Pure-DExpander.pdf" title="Download PDF" class="quarto-navigation-tool px-1" aria-label="Download PDF"><i class="bi bi-file-pdf"></i></a>
+    <a href="./Pure-Expander.pdf" title="Download PDF" class="quarto-navigation-tool px-1" aria-label="Download PDF"><i class="bi bi-file-pdf"></i></a>
 </div>
     </div>
       </div>
@@ -103,7 +103,7 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Pure DExpander</span></a>
+  <a href="./index.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Pure Expander</span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -133,7 +133,17 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./Specifications.html" class="sidebar-item-text sidebar-link active"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Specifications</span></a>
+  <a href="./Plug-in_Settings.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Plug-in Settings</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Specifications.html" class="sidebar-item-text sidebar-link active"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Specifications</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Compatibility.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Compatibility</span></a>
   </div>
 </li>
         <li class="sidebar-item sidebar-item-section">
@@ -161,9 +171,9 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#processing-specifications---pure-dexpander" id="toc-processing-specifications---pure-dexpander" class="nav-link active" data-scroll-target="#processing-specifications---pure-dexpander"><span class="header-section-number">7.1</span> Processing Specifications - Pure DExpander</a></li>
-  <li><a href="#processing-specifications---pure-dexpander-session" id="toc-processing-specifications---pure-dexpander-session" class="nav-link" data-scroll-target="#processing-specifications---pure-dexpander-session"><span class="header-section-number">7.2</span> Processing Specifications - Pure DExpander Session</a></li>
-  <li><a href="#licence-requirements" id="toc-licence-requirements" class="nav-link" data-scroll-target="#licence-requirements"><span class="header-section-number">7.3</span> Licence Requirements</a></li>
+  <li><a href="#processing-specifications---pure-expander" id="toc-processing-specifications---pure-expander" class="nav-link active" data-scroll-target="#processing-specifications---pure-expander"><span class="header-section-number">8.0.1</span> Processing Specifications - Pure Expander</a></li>
+  <li><a href="#processing-specifications---pure-expander-session" id="toc-processing-specifications---pure-expander-session" class="nav-link" data-scroll-target="#processing-specifications---pure-expander-session"><span class="header-section-number">8.0.2</span> Processing Specifications - Pure Expander Session</a></li>
+  <li><a href="#licence-requirements" id="toc-licence-requirements" class="nav-link" data-scroll-target="#licence-requirements"><span class="header-section-number">8.0.3</span> Licence Requirements</a></li>
   </ul>
 </nav>
     </div>
@@ -172,7 +182,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Specifications</span></h1>
+<h1 class="title"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Specifications</span></h1>
 </div>
 
 
@@ -187,26 +197,26 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<section id="processing-specifications---pure-dexpander" class="level2" data-number="7.1">
-<h2 data-number="7.1" class="anchored" data-anchor-id="processing-specifications---pure-dexpander"><span class="header-section-number">7.1</span> Processing Specifications - Pure DExpander</h2>
+<section id="processing-specifications---pure-expander" class="level3" data-number="8.0.1">
+<h3 data-number="8.0.1" class="anchored" data-anchor-id="processing-specifications---pure-expander"><span class="header-section-number">8.0.1</span> Processing Specifications - Pure Expander</h3>
 <ul>
 <li>Up to 16 channels Input/Output.</li>
 <li>64-bits internal floating point processing.</li>
 <li>Sampling rate up to 384 kHz DXD (Pyramix and Ovation MassCore/Native).</li>
-<li>Sampling rate up to 192 kHz for Native (AU/VST/ST3/AAX/AAX AudioSuite).</li>
+<li>Sampling rate up to 192 kHz for Native (AU/VST/VST3/AAX/AAX AudioSuite).</li>
 </ul>
 </section>
-<section id="processing-specifications---pure-dexpander-session" class="level2" data-number="7.2">
-<h2 data-number="7.2" class="anchored" data-anchor-id="processing-specifications---pure-dexpander-session"><span class="header-section-number">7.2</span> Processing Specifications - Pure DExpander Session</h2>
+<section id="processing-specifications---pure-expander-session" class="level3" data-number="8.0.2">
+<h3 data-number="8.0.2" class="anchored" data-anchor-id="processing-specifications---pure-expander-session"><span class="header-section-number">8.0.2</span> Processing Specifications - Pure Expander Session</h3>
 <ul>
 <li>Mono/Stereo Input/Output.</li>
 <li>64-bits internal floating point processing.</li>
 <li>Sampling rate up to 96 kHz.</li>
 </ul>
 </section>
-<section id="licence-requirements" class="level2" data-number="7.3">
-<h2 data-number="7.3" class="anchored" data-anchor-id="licence-requirements"><span class="header-section-number">7.3</span> Licence Requirements</h2>
-<p>In order to use Pure DExpander or Pure DExpander Session, one of the following is required: - An iLok.com user account (the iLok USB Smart Key is not required). - A Flux:: USB Dongle (Available in our online store).</p>
+<section id="licence-requirements" class="level3" data-number="8.0.3">
+<h3 data-number="8.0.3" class="anchored" data-anchor-id="licence-requirements"><span class="header-section-number">8.0.3</span> Licence Requirements</h3>
+<p>In order to use Pure Expander or Pure Expander Session, one of the following is required: - An iLok.com user account (the iLok USB Smart Key is not required). - A Flux:: USB Dongle (Available in our online store).</p>
 
 
 </section>
@@ -447,13 +457,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./Preset_Management.html" class="pagination-link">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Preset Management</span></span>
+      <a href="./Plug-in_Settings.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Plug-in Settings</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./../flux_processing_release_notes.html" class="pagination-link">
-        <span class="nav-page-text"><span class="chapter-number">A</span>&nbsp; <span class="chapter-title">Release Notes</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./Compatibility.html" class="pagination-link">
+        <span class="nav-page-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Compatibility</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
