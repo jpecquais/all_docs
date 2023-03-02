@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Elixir V3 (Legacy) - 7&nbsp; Technical Details</title>
+<title>Epure - 4&nbsp; Specifications</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,8 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./../flux_processing_release_notes.html" rel="next">
-<link href="./User_interface.html" rel="prev">
+<link href="./Compatibility.html" rel="next">
+<link href="./Setup_-_Input_Routing_-_MS_Encode_Decode_-_Groups.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -73,7 +73,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./Technical_Details.html"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Technical Details</span></a></li></ol></nav>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./Specifications.html"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Specifications</span></a></li></ol></nav>
       <a class="flex-grow-1" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
       </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -88,9 +88,9 @@ ul.task-list li input[type="checkbox"] {
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation floating overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
-      <a href="./">Elixir V3 (Legacy)</a> 
+      <a href="./">Epure</a> 
         <div class="sidebar-tools-main">
-    <a href="./Elixir-V3--Legacy-.pdf" title="Download PDF" class="quarto-navigation-tool px-1" aria-label="Download PDF"><i class="bi bi-file-pdf"></i></a>
+    <a href="./Epure.pdf" title="Download PDF" class="quarto-navigation-tool px-1" aria-label="Download PDF"><i class="bi bi-file-pdf"></i></a>
 </div>
     </div>
       </div>
@@ -103,37 +103,27 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Elixir v3 - Real Multichannel True Peak Limiter</span></a>
+  <a href="./index.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Epure</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./Introduction.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Introduction</span></a>
+  <a href="./Special_Functions.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Special Functions</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./About_True_Peak.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">About True Peak</span></a>
+  <a href="./Setup_-_Input_Routing_-_MS_Encode_Decode_-_Groups.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Setup - Input Routing - MS Encode Decode - Groups</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./Installation.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Installation</span></a>
+  <a href="./Specifications.html" class="sidebar-item-text sidebar-link active"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Specifications</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./Authorization.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Authorization</span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./User_interface.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">User interface</span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./Technical_Details.html" class="sidebar-item-text sidebar-link active"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Technical Details</span></a>
+  <a href="./Compatibility.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Compatibility</span></a>
   </div>
 </li>
         <li class="sidebar-item sidebar-item-section">
@@ -161,13 +151,9 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#plug-in-formats-and-platforms-supported" id="toc-plug-in-formats-and-platforms-supported" class="nav-link active" data-scroll-target="#plug-in-formats-and-platforms-supported"><span class="header-section-number">8</span> Plug-in formats and platforms supported</a></li>
-  <li><a href="#specifications" id="toc-specifications" class="nav-link" data-scroll-target="#specifications"><span class="header-section-number">9</span> Specifications</a>
-  <ul class="collapse">
-  <li><a href="#elixir-v3-aax-dsp-specifications" id="toc-elixir-v3-aax-dsp-specifications" class="nav-link" data-scroll-target="#elixir-v3-aax-dsp-specifications"><span class="header-section-number">9.1</span> Elixir v3 AAX DSP Specifications:</a></li>
-  <li><a href="#elixir-v3-aax-native-specifications" id="toc-elixir-v3-aax-native-specifications" class="nav-link" data-scroll-target="#elixir-v3-aax-native-specifications"><span class="header-section-number">9.2</span> Elixir v3 AAX Native Specifications:</a></li>
-  <li><a href="#elixir-v3-au-vst-native-specifications" id="toc-elixir-v3-au-vst-native-specifications" class="nav-link" data-scroll-target="#elixir-v3-au-vst-native-specifications"><span class="header-section-number">9.3</span> Elixir v3 AU &amp; VST Native Specifications:</a></li>
-  </ul></li>
+  <li><a href="#processing-specifications---epure" id="toc-processing-specifications---epure" class="nav-link active" data-scroll-target="#processing-specifications---epure"><span class="header-section-number">4.1</span> Processing Specifications - Epure</a></li>
+  <li><a href="#processing-specifications---epure-studio-session" id="toc-processing-specifications---epure-studio-session" class="nav-link" data-scroll-target="#processing-specifications---epure-studio-session"><span class="header-section-number">4.2</span> Processing Specifications - Epure Studio Session</a></li>
+  <li><a href="#licence-requirements" id="toc-licence-requirements" class="nav-link" data-scroll-target="#licence-requirements"><span class="header-section-number">4.3</span> Licence Requirements</a></li>
   </ul>
 </nav>
     </div>
@@ -176,7 +162,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Technical Details</span></h1>
+<h1 class="title"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Specifications</span></h1>
 </div>
 
 
@@ -191,40 +177,33 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<p>Elixir v3 can manage up to 8 channels and works with 64 bits floating point and a maximum sample rate of 384kHz. depending of the configurations. Please see below.</p>
-<section id="plug-in-formats-and-platforms-supported" class="level1" data-number="8">
-<h1 data-number="8"><span class="header-section-number">8</span> Plug-in formats and platforms supported</h1>
-<p>Windows XP, Vista, Windows 7, Windows 8 : All 32 / 64 bit<br>
-- AAX : 32 / 64 bit (ProTools 10 or later required)<br>
-- VST : 32 / 64 bit</p>
-<p>OS X 10.7 (Lion), 10.8 (Mountain Lion)<br>
-- AAX : 32 / 64 bit (ProTools 10 or later required)<br>
-- VST : 32 / 64 bit<br>
-- AU : 32 / 64 bit</p>
-<p>Due to AVID ProTools changing to AAX, from Version 3 (v3) RTAS for AVID ProTools is no longer supported.</p>
-</section>
-<section id="specifications" class="level1" data-number="9">
-<h1 data-number="9"><span class="header-section-number">9</span> Specifications</h1>
-<section id="elixir-v3-aax-dsp-specifications" class="level2" data-number="9.1">
-<h2 data-number="9.1" class="anchored" data-anchor-id="elixir-v3-aax-dsp-specifications"><span class="header-section-number">9.1</span> Elixir v3 AAX DSP Specifications:</h2>
-<p>Elixir v3: takes 100 % of 1 DSP * Support up to 4 stages * Support up to 48 KHz * Support up to 2 channels</p>
-<p>Elixir v3 1 Stage: takes around 25 % of 1 DSP * Support only 1 stage * Support up to 192 KHz * Support up to 8 channels</p>
-</section>
-<section id="elixir-v3-aax-native-specifications" class="level2" data-number="9.2">
-<h2 data-number="9.2" class="anchored" data-anchor-id="elixir-v3-aax-native-specifications"><span class="header-section-number">9.2</span> Elixir v3 AAX Native Specifications:</h2>
-<p>Elixir v3 * Support up to 4 stages * Support up to 192 KHz * Support up to 8 channels</p>
-<p>Elixir v3 1 Stage: has been added for session compatibility reason with the DSP versions * Support up to 1 stages * Support up to 192 KHz * Support up to 8 channels</p>
-</section>
-<section id="elixir-v3-au-vst-native-specifications" class="level2" data-number="9.3">
-<h2 data-number="9.3" class="anchored" data-anchor-id="elixir-v3-au-vst-native-specifications"><span class="header-section-number">9.3</span> Elixir v3 AU &amp; VST Native Specifications:</h2>
+<section id="processing-specifications---epure" class="level2" data-number="4.1">
+<h2 data-number="4.1" class="anchored" data-anchor-id="processing-specifications---epure"><span class="header-section-number">4.1</span> Processing Specifications - Epure</h2>
 <ul>
-<li>Support up to 4 stages</li>
-<li>Support up to 384 KHz</li>
-<li>Support up to 8 channels</li>
+<li>Up to 16 channels Input/Output.<br>
+</li>
+<li>64-bits internal floating point processing.<br>
+</li>
+<li>Sampling rate up to 384 kHz DXD (Pyramix and Ovation MassCore/Native).<br>
+</li>
+<li>Sampling rate up to 192 kHz for Native (AU/VST/VST3/AAX/AAX AudioSuite).</li>
 </ul>
-
-
 </section>
+<section id="processing-specifications---epure-studio-session" class="level2" data-number="4.2">
+<h2 data-number="4.2" class="anchored" data-anchor-id="processing-specifications---epure-studio-session"><span class="header-section-number">4.2</span> Processing Specifications - Epure Studio Session</h2>
+<ul>
+<li>Mono/Stereo Input/Output.<br>
+</li>
+<li>64-bits internal floating point processing.<br>
+</li>
+<li>Sampling rate up to 96 kHz.</li>
+</ul>
+</section>
+<section id="licence-requirements" class="level2" data-number="4.3">
+<h2 data-number="4.3" class="anchored" data-anchor-id="licence-requirements"><span class="header-section-number">4.3</span> Licence Requirements</h2>
+<p>In order to use Epure or Epure Studio Session, an iLok.com user account is required (the iLok USB Smart Key is not required)</p>
+
+
 </section>
 
 </main> <!-- /main -->
@@ -463,13 +442,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./User_interface.html" class="pagination-link">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">User interface</span></span>
+      <a href="./Setup_-_Input_Routing_-_MS_Encode_Decode_-_Groups.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Setup - Input Routing - MS Encode Decode - Groups</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./../flux_processing_release_notes.html" class="pagination-link">
-        <span class="nav-page-text"><span class="chapter-number">A</span>&nbsp; <span class="chapter-title">Release Notes</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./Compatibility.html" class="pagination-link">
+        <span class="nav-page-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Compatibility</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

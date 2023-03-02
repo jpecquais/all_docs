@@ -2,114 +2,198 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Elixir V3 (Legacy)",
+    "title": "Epure",
     "section": "",
-    "text": "1 Elixir v3 - Real Multichannel True Peak Limiter\nProduct Page | Shop Page\nThank you for using Elixir v3. We hope that you will get good use of the information found in this manual."
+    "text": "1 Epure\nProduct Page | Shop Page\nEpure is a state-of-the-art five-band equalizer designed to provide the absolute finest audio quality within the domain of digital audio processing. Built with our proprietary State-Space technology, carefully tuned to preserve the optimal signal to noise ratio independent of the parameter settings preventing the signal from deteriorating when the gain is reduced, makes Epure a powerful go-to processor for your day-to-day session work, as well as an efficient sharp-edged surgical precision tool for the most demanding equalizing and filtering tasks conceivable.\nIn addition to the supreme audio quality, the logical and comprehensive user interface includes a variety of instant shortcut functions provided to enhance and simplify the user workflow, allowing for instant and precise operation."
   },
   {
-    "objectID": "Introduction.html",
-    "href": "Introduction.html",
-    "title": "2  Introduction",
-    "section": "",
-    "text": "Elixir v3 is a novel kind of program limiter carefully designed to accomplish a truly natural sounding result without changing the nature of the audio material and its timbre, presenting none, or effectively reduced, conventional limiting “pumping” effects even during heavy processing.\nIt’s a REAL True Peak Limiter, providing a guaranteed True Peak output level according to the ITU-R-BS 1770 and EBU R128 norms. The algorithm is using an oversampled representation of the audio sample as a reference when it defines the gain envelope; still, the processing is only applied to the original none oversampled data in order to reduce artifacts (like aliasing), and to achieve the most excellent sounding result.\nElixir v3 is incredibly easy to achieve great results with, simply set the input level, then adjust ‘Threshold’ according to the amount of limiting you want, and enable ‘Make Up’ to compensate the gain and to add loudness - That’s it! There is no need to care about release time or any other conventional limiter settings!\nThere’s an additional feature provided to increase the processing quality in Elixir v3 called ‘Stages’. Stages present the option to set the algorithm to perform the limiting processing in multi-stages."
+    "objectID": "index.html#bypass-1",
+    "href": "index.html#bypass-1",
+    "title": "Epure",
+    "section": "1.1 Bypass (1)",
+    "text": "1.1 Bypass (1)\nWhen pressed the inputs are routed direct to the outputs.\nDefault Value: Off"
   },
   {
-    "objectID": "About_True_Peak.html",
-    "href": "About_True_Peak.html",
-    "title": "3  About True Peak",
-    "section": "",
-    "text": "All digital audio wave signal is ultimately converted back to analog at some point, and while it is often desirable to maximize the overall volume of a signal or a complete mix, care must be taken in order not to go above the digital scale zero decibel ceiling, or nasty distortion and clipping will occur. This common and widely used rule is however not entirely sufficient, as the digital and analog processing involved in a D/A converter does not guarantee that a 0dBfs peak signal will exactly translate to a 0dB peak in the analog domain.\nWithout getting into too much detail, this phenomenon can be attributed to the over-sampling and reconstruction filters present in D/A converters, whose role are to rebuild a continuous time signal from a set of discrete digital values sampled at regularly spaced time intervals. This interpolation process can therefore generate values, which lie above 0dB, and is known as overshoot.\nRelying solely on the peak value of samples can lead to the following problems:\n\nInconsistent readings between successive playbacks of the same material.\nUnexpected overloads of the D/A output converter.\nUnder-readings and beating of pure tones.\n\nUsing True Peak value aims to overcome these limitations by mimicking parts of the D/A conversion process, effectively up-sampling the measured signal, in order to use the true value of peaks that occur in the analog domain."
+    "objectID": "index.html#graphic-display-2",
+    "href": "index.html#graphic-display-2",
+    "title": "Epure",
+    "section": "1.2 Graphic Display (2)",
+    "text": "1.2 Graphic Display (2)\nGraphical editing provided by grabbing the curves on the graphical display."
   },
   {
-    "objectID": "Installation.html",
-    "href": "Installation.html",
-    "title": "4  Installation",
-    "section": "",
-    "text": "First of all, make sure you have the latest version of the installer.\nTo download the latest installer, please go to:\nhttp://www.flux.audio/download/\nFrom this page you will be able access the user download section by entering either your registered email address or your product reference.\nYour product reference is the serial number of your Flux:: dongle (the serial number can be found using the Security Manager, see the “Authorization” section below), or your iLok.com user id if you use the iLok dongle for authorization.\nWhen logged in to the user download section, download the latest installer according to your operating system, run the installer, and you should be up to date in a few minutes only."
+    "objectID": "index.html#band-activation-3",
+    "href": "index.html#band-activation-3",
+    "title": "Epure",
+    "section": "1.3 Band Activation (3)",
+    "text": "1.3 Band Activation (3)\nToggles the activation of the processing for the actual band.\nDefault Value: On"
   },
   {
-    "objectID": "Authorization.html#using-ilok",
-    "href": "Authorization.html#using-ilok",
-    "title": "5  Authorization",
-    "section": "5.1 Using iLok",
-    "text": "5.1 Using iLok\nUnless you purchased your license in the fluxhome.com online store, you need to activate your license.\nTo activate your license, please go to:\nhttps://www.flux.audio/activation/\nWhen your license is activated, you need to login with iLok.com and synchronize your iLok in order to download the new license to your iLok."
+    "objectID": "index.html#filter-type-4",
+    "href": "index.html#filter-type-4",
+    "title": "Epure",
+    "section": "1.4 Filter Type (4)",
+    "text": "1.4 Filter Type (4)\nAll mentioned filter types are available on all of the five bands.\nDefault Value: Peak\nAdditional Filter Types:\n\n12 dB per octave high pass filter (Low Cut)\nLow shelving (Low Shlv)\nParametric (Peak)\nHigh shelving (High Shlv)\n12 dB per octave low pass filter (High Cut)"
   },
   {
-    "objectID": "Authorization.html#using-flux-dongle",
-    "href": "Authorization.html#using-flux-dongle",
-    "title": "5  Authorization",
-    "section": "5.2 Using Flux:: dongle",
-    "text": "5.2 Using Flux:: dongle\nIf you have purchased the license together with a new Flux:: dongle, the license is already present on the dongle and no further action is needed.\nIf you already own a Flux:: dongle and purchased a new license, please login to the user download area, then follow the instructions in the Authorization Updates section at the top of the page. http://www.flux.audio/download/\nWhen the corresponding authorization update is downloaded you need to install the license on your Flux:: dongle.\nRun the security manager and the serial number of the dongle currently plugged in to your computer will be presented.\n\n5.2.1 Windows\nSecurityManager.exe located in: C:\\\\ProgramFiles\\\\Flux\\\\Plug-ins\\\\Misc\n\n\n5.2.2 OS X\nSecurityManager.app is found on the download section of fluxhome.com.\nhttp://www.flux.audio/download/\nThen press the Update button, select the license update that you previously downloaded, then press Open.\nThe active licenses are listed in the security manager, and you are now ready to start using Elixir v3.\nIf you are upgrading from a version prior to version 1.2, your Flux:: dongle requires an update in order to work. If you haven’t already received this update by e-mail, please contact Flux:: support, (support@fluxhome.com)."
+    "objectID": "index.html#band-gain-5",
+    "href": "index.html#band-gain-5",
+    "title": "Epure",
+    "section": "1.5 Band Gain (5)",
+    "text": "1.5 Band Gain (5)\nAdjusts the gain for the selected band.\nUnit: dB\nValue Range: -24 / +\nStep: 0.\nDefault Value: 0 dB"
   },
   {
-    "objectID": "User_interface.html#input-output-section",
-    "href": "User_interface.html#input-output-section",
-    "title": "6  User interface",
-    "section": "6.1 Input / Output Section",
-    "text": "6.1 Input / Output Section\n\n6.1.1 Input Gain (1)\nControl the gain applied to the limiter input.\nUnit: Decibel (dB)\nRange: -12.000 to +12.\nMin. Steps: 0.\nDefault Value: 0.\n\n\n6.1.2 Output Gain (4)\nControl the gain at the output stage of the limiter.\nUnit: Decibel (dB)\nRange: -12.000 to +12.\nMin. Steps: 0.\nDefault Value: 0.\n\n\n6.1.3 Diff. (2)\nAllow to hear the difference only. Used to better understand the action and allow to easily tweak the parameters.\nOn/Off\nDefault Value: Off\n\n\n6.1.4 Make Up (3)\nApply Gain compensation. Add invert of the threshold gain to the output gain.\nOn/Off\nDefault Value: Off\n\n\n6.1.5 Bypass (5)\nBypasses the plug-in processing by routing the input direct to the output. The actual processing is still performed in the background allowing for a true and smooth transition between the processed and the actual incoming signal."
+    "objectID": "index.html#band-frequency-6",
+    "href": "index.html#band-frequency-6",
+    "title": "Epure",
+    "section": "1.6 Band Frequency (6)",
+    "text": "1.6 Band Frequency (6)\nAdjusts the center frequency for the band.\nUnit: Hz\nValue Range: 5 / 22k\nDefault Value: 50 / 200 / 500 / 2000\nStep: Variable"
   },
   {
-    "objectID": "User_interface.html#processing-section",
-    "href": "User_interface.html#processing-section",
-    "title": "6  User interface",
-    "section": "6.2 Processing Section",
-    "text": "6.2 Processing Section\n\n6.2.1 Ch. Link (6)\n% of channels linkage\nUnit: Percent (%)\nRange: 0 to 100\nMin. Steps: 1\nDefault Value: 0\n\n\n6.2.2 Ch. Link Dynamic (6b)\nMake the channels linkage dynamic according to the signal. It means; when On, the Channel Link will automatically move from 0 when High Dynamic (High transient) are detected and the desired value when no dynamic (low transient) are detected.\nUnit: On/Off\nDefault Value: Off\n\n\n6.2.3 Stages (7)\nNumber of stages (passes or steps) used by the algorithm. Because the algorithm adapt itself to the audio material, doing multi stages allow for the processing to be even more precise and provide an even more natural sounding result. For e.g. if the threshold is set to -3 dB and Stages set to 3: First stage will limit at -1dB, Second stage will limit at -2dB and third will limit at -3dB with analyzing done for each stages!\nRange: 1 to 5\nMin. Steps: 1\nDefault Value: 1\n\n\n6.2.4 Speed (8)\nAllow to change how the algorithm will react regarding to the audio material. This will change the how the gain envelop will be generated with more or less look-ahead, release and curve smoothing. Leave it at 50% by default which will be optimal for most case. prefer increasing stages before trying to reduce it and remember that from 50% to 100 % it can generate more and more distortion…\nUnit: Percent (%)\nRange: 0.0 to 100.\nMin. Steps: 0.\nDefault Value: 50.\n\n\n6.2.5 Theshold dBTP (9)\nControl the threshold (or ceiling) used for limiting.\nUnit: Decibel (dB)\nRange: -12.000 to 0.\nMin. Steps: 0.\nDefault Value: 0."
+    "objectID": "index.html#band-q-factor-7",
+    "href": "index.html#band-q-factor-7",
+    "title": "Epure",
+    "section": "1.7 Band Q-Factor (7)",
+    "text": "1.7 Band Q-Factor (7)\nAdjusts the frequency range affected by Gain and Frequency on the band when the Parametric filter type is used.\nWith a lower Q-Factor, a wider range of frequencies are affected, with a higher Q-Factor, a narrower range of frequencies are affected. The narrowest Q-Factor is 1/7 octave of 100 in displayed value and the widest is 6.67 octave. The effective Q-Factor depends on the amount of gain applied; the displayed value corresponds to the maximum gain variation (24 dB).\n\n\n\n\n\n\nNote\n\n\n\nExample: With 6 dB gain the max Q-Factor is not 100 as displayed, but instead 10 in a regular expression to the actual Q-Factor.\n\n\nValue Range: 1 / 100\nStep: 0.\nDefault Value: 10"
   },
   {
-    "objectID": "User_interface.html#metering-section",
-    "href": "User_interface.html#metering-section",
-    "title": "6  User interface",
-    "section": "6.3 Metering Section",
-    "text": "6.3 Metering Section\n\n6.3.1 Signal Input dBTP True Peak Meter (10)\n\n\n6.3.2 Signal Output dBFS True Peak Meter (11)\n\n\n6.3.3 Comp. dBFS Meter (12)\nAll information is displayed at a refresh rate of 60 fps (if possible) and displaying the maximum action during the processing period."
+    "objectID": "index.html#preset-manager-8",
+    "href": "index.html#preset-manager-8",
+    "title": "Epure",
+    "section": "1.8 Preset Manager (8)",
+    "text": "1.8 Preset Manager (8)\nOpens a new window accessing the built-in preset manager."
   },
   {
-    "objectID": "User_interface.html#preset-management",
-    "href": "User_interface.html#preset-management",
-    "title": "6  User interface",
-    "section": "6.4 Preset management",
-    "text": "6.4 Preset management\nElixir v3 , as well as all other Flux:: plug-ins, provides two preset slots referred to as slot A and slot B, which means that you can have direct access to two sets of parameter settings simultaneously. In addition to just recall (33) the settings for each of the slots individually and alternate between their settings, a morphing slider (35) is provided offering the possibility to morph between the slots and their corresponding settings. When clicking on one of the preset slots (38), the built in preset manager appears.\nThe preset manager contains three preset banks, the Factory bank contains factory presets, this bank is not available for saving of presets but any of the presets can be loaded into a preset slot and then saved into, the User bank, where all user presets are saved. Finally, the Global bank, which is a bit special, here you can save a complete snapshot with all the settings from both preset slots, as well as the position of the morphing slider.\nIn the preset manager, any preset can be loaded into a preset slot by double clicking on the name of the desired preset in the actual preset list, the preset will then be loaded into the preset slot corresponding to the position of the morphing slider."
+    "objectID": "index.html#save-9",
+    "href": "index.html#save-9",
+    "title": "Epure",
+    "section": "1.9 Save (9)",
+    "text": "1.9 Save (9)\nSaves the current parameter settings as a preset."
   },
   {
-    "objectID": "User_interface.html#additional-controls-in-the-preset-manager",
-    "href": "User_interface.html#additional-controls-in-the-preset-manager",
-    "title": "6  User interface",
-    "section": "6.5 Additional controls in the preset manager",
-    "text": "6.5 Additional controls in the preset manager\n\nRecall A loads the selected preset into the corresponding slot.\nRecall B loads the selected preset into the corresponding slot.\nUpdate, saves the current settings into the selected preset.\nNew, saves the current settings into a new preset.\nDuplicate creates a copy of the selected preset and saves it to the list.\nEdit allows for changes to the preset meta properties.\nDelete, removes the selected preset.\nExport, creates a file reflecting the content of the current preset bank.\nImport, allows for import of a preset bank file by adding the imported banks content to the content in the current preset bank.\n\nWhen saving or editing a preset, an option to protect the preset is presented. The preset protection, if engaged, only allows the original preset author to uncheck and edit the preset. This means that you can protect your presets in a multi-user configuration. Protected presets can only be modified using the session used for their creation. If used in another user session they can only be imported or deleted."
+    "objectID": "index.html#recall-10",
+    "href": "index.html#recall-10",
+    "title": "Epure",
+    "section": "1.10 Recall (10)",
+    "text": "1.10 Recall (10)\nPopulates all the parameters in the actual parameter section with the values from the selected preset."
   },
   {
-    "objectID": "User_interface.html#elixir-v3-preset-controls",
-    "href": "User_interface.html#elixir-v3-preset-controls",
-    "title": "6  User interface",
-    "section": "6.6 Elixir v3 Preset Controls",
-    "text": "6.6 Elixir v3 Preset Controls\n\n6.6.1 Save (13)\nTo save a new preset using the built in preset manager, simply click Save in the corresponding preset slot (A/B), and to save changes to your preset, simply click Save again.\nIf you want to resave your preset under a new name, open the preset manager by clicking the corresponding (A/B) preset slot (38), select New, enter a name for your preset, and press Save.\n\n\n6.6.2 Recall (14)\nRecalls the settings of the corresponding slot.\n\n\n6.6.3 Copy A/B (15)\nTo copy all parameters between the preset slots (A to B or B to A), press the Copy A or Copy B button, and the parameters from the corresponding preset slot will be copied into the current preset slot. When copying parameters from one slot to another, the preset morph slider will automatically slide to the slot the parameters where copied to.\n\n\n6.6.4 Morphing Slider (16)\nThe morphing slider provides mixing between the settings of slot A and B and allows for some very creative tweaking.\nThe result of the morphing can be saved as a global preset containing the actual settings of both preset slots as well as the morphing slider position.\nTo save a Global preset, open the preset manager by clicking the corresponding (A/B) preset slot (38), then click Global, select New and enter a name for your global preset, then press Save.\n\n\n6.6.5 Automation (Morphing Slider) (17)\nWhen enabling the Automation control button, the morphing slider will be exposed and available for both automation read and write.\nThough with the button engaged, only the morphing slider value is applied when reading automation.\nThe Automation control button must be engaged if the morphing slider needs to be mapped on a control surface.\n\n\n6.6.6 Preset Name (18)\nDisplays the name of the current preset.\n\n\n6.6.7 Preset Slot (19)\nBy pressing the little arrows in the preset slot, the built in preset manager appears"
+    "objectID": "index.html#copy-a-copy-b-11",
+    "href": "index.html#copy-a-copy-b-11",
+    "title": "Epure",
+    "section": "1.11 Copy A / Copy B (11)",
+    "text": "1.11 Copy A / Copy B (11)\nPopulates all the parameters in the actual parameter section with the values from the other section. This also moves the Morphing Slider to the actual parameter section."
   },
   {
-    "objectID": "Technical_Details.html",
-    "href": "Technical_Details.html",
-    "title": "7  Technical Details",
-    "section": "",
-    "text": "8 Plug-in formats and platforms supported\nWindows XP, Vista, Windows 7, Windows 8 : All 32 / 64 bit\n- AAX : 32 / 64 bit (ProTools 10 or later required)\n- VST : 32 / 64 bit\nOS X 10.7 (Lion), 10.8 (Mountain Lion)\n- AAX : 32 / 64 bit (ProTools 10 or later required)\n- VST : 32 / 64 bit\n- AU : 32 / 64 bit\nDue to AVID ProTools changing to AAX, from Version 3 (v3) RTAS for AVID ProTools is no longer supported."
+    "objectID": "index.html#morphing-slider-12",
+    "href": "index.html#morphing-slider-12",
+    "title": "Epure",
+    "section": "1.12 Morphing Slider (12)",
+    "text": "1.12 Morphing Slider (12)\nThe Morphing Slider has no unity or specific value display, it provides morphing of the current values from both of the parameter sections (A & B). A double-click on one side of the slider area toggles between the two parameter sections. The actual result of the morphed parameter settings can be saved as a new preset."
   },
   {
-    "objectID": "Technical_Details.html#elixir-v3-aax-dsp-specifications",
-    "href": "Technical_Details.html#elixir-v3-aax-dsp-specifications",
-    "title": "7  Technical Details",
-    "section": "9.1 Elixir v3 AAX DSP Specifications:",
-    "text": "9.1 Elixir v3 AAX DSP Specifications:\nElixir v3: takes 100 % of 1 DSP * Support up to 4 stages * Support up to 48 KHz * Support up to 2 channels\nElixir v3 1 Stage: takes around 25 % of 1 DSP * Support only 1 stage * Support up to 192 KHz * Support up to 8 channels"
+    "objectID": "Special_Functions.html#master-gain-13",
+    "href": "Special_Functions.html#master-gain-13",
+    "title": "2  Special Functions",
+    "section": "2.1 Master Gain (13)",
+    "text": "2.1 Master Gain (13)\nAdjusts the gain for the currently selected channel group. All channel groups features an individual Master Gain control. If only one channel group is used, this control acts as the Master Gain control for all of the channels.\nFor more information about channels and channel groups, see Setup (17)\nUnit: dB\nValue Range: -24 / +\nStep: 0.\nDefault Value: 0 dB"
   },
   {
-    "objectID": "Technical_Details.html#elixir-v3-aax-native-specifications",
-    "href": "Technical_Details.html#elixir-v3-aax-native-specifications",
-    "title": "7  Technical Details",
-    "section": "9.2 Elixir v3 AAX Native Specifications:",
-    "text": "9.2 Elixir v3 AAX Native Specifications:\nElixir v3 * Support up to 4 stages * Support up to 192 KHz * Support up to 8 channels\nElixir v3 1 Stage: has been added for session compatibility reason with the DSP versions * Support up to 1 stages * Support up to 192 KHz * Support up to 8 channels"
+    "objectID": "Special_Functions.html#x2---quick-gain-multiplier-14",
+    "href": "Special_Functions.html#x2---quick-gain-multiplier-14",
+    "title": "2  Special Functions",
+    "section": "2.2 X2 - Quick Gain Multiplier (14)",
+    "text": "2.2 X2 - Quick Gain Multiplier (14)\nMultiplies the band section gain values by two.\nIf the morphing slider is set in-between the parameter sections when the Quick Gain Multiplier is clicked, depending on its current position, the morphing slider will move to one of the parameter sections and the values of that section will be re-initialized with the current values of the actual section."
   },
   {
-    "objectID": "Technical_Details.html#elixir-v3-au-vst-native-specifications",
-    "href": "Technical_Details.html#elixir-v3-au-vst-native-specifications",
-    "title": "7  Technical Details",
-    "section": "9.3 Elixir v3 AU & VST Native Specifications:",
-    "text": "9.3 Elixir v3 AU & VST Native Specifications:\n\nSupport up to 4 stages\nSupport up to 384 KHz\nSupport up to 8 channels"
+    "objectID": "Special_Functions.html#x12--quick-gain-divider-15",
+    "href": "Special_Functions.html#x12--quick-gain-divider-15",
+    "title": "2  Special Functions",
+    "section": "2.3 X1/2- Quick Gain Divider (15)",
+    "text": "2.3 X1/2- Quick Gain Divider (15)\nDivides the band section gain values by two.\nIf the morphing slider is set in-between the parameter sections when the Quick Gain Divider is clicked, depending on its current position, the morphing slider will move to one of the parameter sections and the values of that section will be re-initialized with the current values of the actual section."
+  },
+  {
+    "objectID": "Special_Functions.html#invert---quick-gain-inverter-16",
+    "href": "Special_Functions.html#invert---quick-gain-inverter-16",
+    "title": "2  Special Functions",
+    "section": "2.4 Invert - Quick Gain Inverter (16)",
+    "text": "2.4 Invert - Quick Gain Inverter (16)\nInverts the band section gain values.\nIf the morphing slider is set in-between the parameter sections when the Quick Gain Inverter is clicked, depending on its current position, the morphing slider will move to one of the parameter sections and the values of that section will be re-initialized with the current values of the actual section."
+  },
+  {
+    "objectID": "Special_Functions.html#master-section---multiply-divide-invert-14-15-16",
+    "href": "Special_Functions.html#master-section---multiply-divide-invert-14-15-16",
+    "title": "2  Special Functions",
+    "section": "2.5 Master Section - Multiply, Divide, Invert (14, 15, 16)",
+    "text": "2.5 Master Section - Multiply, Divide, Invert (14, 15, 16)\nUsing the Multiply, Divide or Invert controls in the master section will affect the gain parameter for all band sections in the selected channel group. A master section action can be combined with a specific band section action."
+  },
+  {
+    "objectID": "Setup_-_Input_Routing_-_MS_Encode_Decode_-_Groups.html#setup-17",
+    "href": "Setup_-_Input_Routing_-_MS_Encode_Decode_-_Groups.html#setup-17",
+    "title": "3  Setup - Input Routing - MS Encode Decode - Groups",
+    "section": "3.1 Setup (17)",
+    "text": "3.1 Setup (17)\nInput Routing, MS Encoder/Decoder, Internal Channels and Groups setup.\nAny of Epure’s input channels can be routed to up to 8 internal EQ-channels using a sophisticated routing system offering individual processing of up to 8 different equalization curves. The built in routing system provides up to 4 M/S encoders and 4 M/S decoders (each of them in pairs of 2 channels).\nEpure Studio Session supports Mono/Stereo input only which can be routed to up to 2 different equalization curves and provides up to 2 M/S encoders/decoders.\nThe built in MS encoders/decoders use odd EQ-channels for Mid and even EQ-channels for Side. Stereo or M/S encoded material as well as multichannel surround material can be processed individually, or combined in configurable explicit groups, within one single instance of Epure.\nWith the Link I/O Routing engaged, every input is automatically routed to the corresponding output, when the input routing settings are consistent. Please note that the Routing Matrix allows for routing of one input channel to several EQ-channels, as well as for routing of several EQ-channels to one output.\n\n\n\n\n\n\nNote\n\n\n\nPlease note that this is an inconsistent routing action that may in turn cause the Link I/O Routing to behave inconsistently.\nWith each Group representing one explicit EQ curve, the Group Matrix can be used to gather a number of internal EQ channels in a specific group for the combined processing of several input channels (Front/Surround, etc.).\nNote that when audio channels are grouped, the settings of the first audio channel (Channel 5 in group 2 in the above example) are applied to all channels in the group (Channels 5 & 6 in the example).\n\n\nPlease note that morphing between two parameter settings using the Morphing Slider (12) affects the settings of the Setup section as well."
+  },
+  {
+    "objectID": "Setup_-_Input_Routing_-_MS_Encode_Decode_-_Groups.html#groups-18",
+    "href": "Setup_-_Input_Routing_-_MS_Encode_Decode_-_Groups.html#groups-18",
+    "title": "3  Setup - Input Routing - MS Encode Decode - Groups",
+    "section": "3.2 Groups (18)",
+    "text": "3.2 Groups (18)\nSelect EQ-channel Group.\nAny action on the EQ parameter settings is applied to the currently selected Group of internal EQ-channels.\nOnly Group 1, gathering every available channel by default, is created when the first instance of the Epure Plug-in is inserted.\nBy right clicking on the graphical display the settings of any of the groups can be instantly copied to the currently selected group. The behaviour of the vertical scale can also be selected as followed: Auto, 6 dB, 12 dB and 24 dB."
+  },
+  {
+    "objectID": "Setup_-_Input_Routing_-_MS_Encode_Decode_-_Groups.html#lowest-frequency-to-display-19",
+    "href": "Setup_-_Input_Routing_-_MS_Encode_Decode_-_Groups.html#lowest-frequency-to-display-19",
+    "title": "3  Setup - Input Routing - MS Encode Decode - Groups",
+    "section": "3.3 Lowest Frequency to display (19)",
+    "text": "3.3 Lowest Frequency to display (19)\nSelect the lowest displayed frequency. When 20 Hz is engaged, Epure displays the frequency range from 20Hz to 1/2 sampling rate."
+  },
+  {
+    "objectID": "Setup_-_Input_Routing_-_MS_Encode_Decode_-_Groups.html#solo-20",
+    "href": "Setup_-_Input_Routing_-_MS_Encode_Decode_-_Groups.html#solo-20",
+    "title": "3  Setup - Input Routing - MS Encode Decode - Groups",
+    "section": "3.4 Solo (20)",
+    "text": "3.4 Solo (20)\nMonitors the content of the selected group. The monitoring is done after the master gain section and the MS decoder."
+  },
+  {
+    "objectID": "Setup_-_Input_Routing_-_MS_Encode_Decode_-_Groups.html#automation-21",
+    "href": "Setup_-_Input_Routing_-_MS_Encode_Decode_-_Groups.html#automation-21",
+    "title": "3  Setup - Input Routing - MS Encode Decode - Groups",
+    "section": "3.5 Automation (21)",
+    "text": "3.5 Automation (21)\nWhen the Automation button is disabled all of the plug-in parameter values are recorded when writing automation.\nWhen reading automation, if it’s disabled, all the plug-in parameters are controlled by the host automation except for the Morphing Slider (12), which is then ignored. When it’s engaged all parameters are recorded when writing automation, including the Morphing Slider, though when reading automation ONLY the morphing slider value is read and applied.\nThe Automation button must be engaged if the Morphing Slider is to be mapped on a control surface.\nDefault Value: Off"
+  },
+  {
+    "objectID": "Setup_-_Input_Routing_-_MS_Encode_Decode_-_Groups.html#settings-22",
+    "href": "Setup_-_Input_Routing_-_MS_Encode_Decode_-_Groups.html#settings-22",
+    "title": "3  Setup - Input Routing - MS Encode Decode - Groups",
+    "section": "3.6 Settings (22)",
+    "text": "3.6 Settings (22)\nPressing the cogwheels opens a settings window providing information about the plug-in version/build, a direct access button to the user manual, as well as setup for latency report and OSC (Open Sound Control). OSC is available in Epure only, and is not supported in Epure Studio Session."
+  },
+  {
+    "objectID": "Specifications.html#processing-specifications---epure",
+    "href": "Specifications.html#processing-specifications---epure",
+    "title": "4  Specifications",
+    "section": "4.1 Processing Specifications - Epure",
+    "text": "4.1 Processing Specifications - Epure\n\nUp to 16 channels Input/Output.\n\n64-bits internal floating point processing.\n\nSampling rate up to 384 kHz DXD (Pyramix and Ovation MassCore/Native).\n\nSampling rate up to 192 kHz for Native (AU/VST/VST3/AAX/AAX AudioSuite)."
+  },
+  {
+    "objectID": "Specifications.html#processing-specifications---epure-studio-session",
+    "href": "Specifications.html#processing-specifications---epure-studio-session",
+    "title": "4  Specifications",
+    "section": "4.2 Processing Specifications - Epure Studio Session",
+    "text": "4.2 Processing Specifications - Epure Studio Session\n\nMono/Stereo Input/Output.\n\n64-bits internal floating point processing.\n\nSampling rate up to 96 kHz."
+  },
+  {
+    "objectID": "Specifications.html#licence-requirements",
+    "href": "Specifications.html#licence-requirements",
+    "title": "4  Specifications",
+    "section": "4.3 Licence Requirements",
+    "text": "4.3 Licence Requirements\nIn order to use Epure or Epure Studio Session, an iLok.com user account is required (the iLok USB Smart Key is not required)"
+  },
+  {
+    "objectID": "Compatibility.html#epure",
+    "href": "Compatibility.html#epure",
+    "title": "5  Compatibility",
+    "section": "5.1 Epure",
+    "text": "5.1 Epure\n\n5.1.1 Windows - 10, 64 bits.\n\nVST (2.4) in 64 bit\nVST (3.1) in 64 bit\nAAX Native/DSP/AudioSuite, all in 64 bit*\nWaves WPAPI Native/Soundgrid in 64 bit\nVS3** Pyramix 10 and more in 64 bit and Ovation 6 and more\nAVID VENUE Systems\n\n\n\n5.1.2 macOS (Intel and ARM) - 10.12 (Sierra) and more, 11 and 12.\n\nVST (2.4) in 64 bit\nVST (3.1) in 64 bit\nAU in 64 bit\nAAX Native/DSP/AudioSuite, all in 64 bit*\nWaves WPAPI Native/Soundgrid in 64 bit\nAVID VENUE Systems\n\n** VS3 for Pyramix & Ovation Native/MassCore sold only through Merging Technologies and authorized dealers."
   },
   {
     "objectID": "../flux_processing_release_notes.html#build-23.1.0.50251---all-plugins",
