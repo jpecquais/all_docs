@@ -379,7 +379,7 @@ ul.task-list li input[type="checkbox"] {
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="./Third_Party_Integration.html" class="sidebar-item-text sidebar-link">12. Third Party Integration</a>
+            <a href="./Third_Party_Integration.html" class="sidebar-item-text sidebar-link">Third Party Integration</a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" aria-expanded="true">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
@@ -510,7 +510,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-number">28</span>&nbsp; <span class="chapter-title">Source</span></h1>
+<h1 class="title"><span id="sec-sources" class="quarto-section-identifier"><span class="chapter-number">28</span>&nbsp; <span class="chapter-title">Source</span></span></h1>
 </div>
 
 
@@ -568,7 +568,7 @@ Warning
 <p>Note that the source number can also be used for OSC automation if remote number is set to 0!</p>
 </div>
 </div>
-<p>The source’s parameters are detailed on the next section, <a href="Spat_Environment_Source_Parameters.md">Source Parameters</a>.</p>
+<p>The source’s parameters are detailed on the next section, <a href="Spat_Environment_Source_Parameters.html">Source Parameters&nbsp;<span>29</span></a>.</p>
 <section id="basic-interactions" class="level2" data-number="28.1">
 <h2 data-number="28.1" class="anchored" data-anchor-id="basic-interactions"><span class="header-section-number">28.1</span> Basic interactions</h2>
 <section id="reset-to-defaults" class="level3" data-number="28.1.1">
@@ -600,16 +600,16 @@ Note
 <p>When a Source in a Room has more than one channel in its format, it will be represented as a single source with ONE unique index. It will be visualized as a group in its assigned channel based speaker arrangement.</p>
 <p><img src="https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Room/3DViewNoSpeakers.png" class="img-fluid"></p>
 <p>In the above screenshot, the red source consists of 5 channels arranged as a DTU 5.0 surround sound configuration. A multichannel cluster can be conveniently positioned and manipulated <em>as a single group</em> which maintains its correct internal spatial positioning relationships but moves in relation to the absolute listener position in the Room (the Dummy Head). The dot at the center of each cluster, where each virtual “channel emitter” is attached, is called the “BaryCentric” focus — In other words, a <em>relative</em> listener position that the virtual source configuration remains focused on.</p>
-<p>These complex spatial positioning algorithms are computed and controlled in real time using <em>SPAT Revolution’s</em> advanced <em>Barycentric</em> and relative direction source parameters. A group that may contain many elements can be transformed, scaled, moved and manipulated in complex ways, through only one set of controls. See dedicated section for a breakdown of the <a href="Spat_Environment_Source_Parameters.md"><strong>Source Parameters</strong></a>.</p>
+<p>These complex spatial positioning algorithms are computed and controlled in real time using <em>SPAT Revolution’s</em> advanced <em>Barycentric</em> and relative direction source parameters. A group that may contain many elements can be transformed, scaled, moved and manipulated in complex ways, through only one set of controls. See dedicated section for a breakdown of the <a href="Spat_Environment_Source_Parameters.html"><strong>Source Parameters</strong>&nbsp;<span>29</span></a>.</p>
 <section id="multiple-source-selection" class="level3" data-number="29.0.1">
 <h3 data-number="29.0.1" class="anchored" data-anchor-id="multiple-source-selection"><span class="header-section-number">29.0.1</span> Multiple Source Selection</h3>
 <p>You can shift click on the Index number of separate sources to create an ad hoc edit group. When you have group Sources in this way, you can perform a number of group edit actions. When you right-Click on an ad hoc group selection, a menu will pop up where you can:</p>
 <ul>
-<li>distribute the sources in the group with the <a href="Spat_Environment_Transformation.md">Transform panel</a></li>
+<li>distribute the sources in the group with the <a href="Spat_Environment_Transformation.html">Transform panel&nbsp;<span>35</span></a></li>
 <li>generate different colors for the sources</li>
 <li>reset the positions of the group</li>
 </ul>
-<p>When you have selected an ad hoc group using the shift click technique, you can then open the <em><a href="Spat_Environment_Source_Parameters.md">Source Parameter</a></em> panel by clicking on the property panel header ‘fold arrow’ as shown in the screenshot below.</p>
+<p>When you have selected an ad hoc group using the shift click technique, you can then open the <em><a href="Spat_Environment_Source_Parameters.html">Source Parameter&nbsp;<span>29</span></a></em> panel by clicking on the property panel header ‘fold arrow’ as shown in the screenshot below.</p>
 <p><img src="https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Setup/ActionsMultiselection.png" class="img-fluid"></p>
 <p>Any source parameter variable you adjust manually will assign that same setting on all selected sources in the group. A barycenter will then become practical to work from a center of mass perspective. For example, transformations like scaling, distance, rotation and directivity of the group is managed by SPAT controlling each member of the group a barycentric relationship.</p>
 </section>

@@ -379,7 +379,7 @@ ul.task-list li input[type="checkbox"] {
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="./Third_Party_Integration.html" class="sidebar-item-text sidebar-link">12. Third Party Integration</a>
+            <a href="./Third_Party_Integration.html" class="sidebar-item-text sidebar-link">Third Party Integration</a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" aria-expanded="true">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
@@ -492,7 +492,7 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#introduction-to-generic-osc" id="toc-introduction-to-generic-osc" class="nav-link active" data-scroll-target="#introduction-to-generic-osc"><span class="header-section-number">43.1</span> Introduction to Generic OSC</a></li>
+  <li><a href="#sec-intro-osc" id="toc-sec-intro-osc" class="nav-link active" data-scroll-target="#sec-intro-osc"><span class="header-section-number">43.1</span> Introduction to Generic OSC</a></li>
   <li><a href="#osc-connections-menu" id="toc-osc-connections-menu" class="nav-link" data-scroll-target="#osc-connections-menu"><span class="header-section-number">43.2</span> OSC Connections Menu</a></li>
   <li><a href="#osc-transform" id="toc-osc-transform" class="nav-link" data-scroll-target="#osc-transform"><span class="header-section-number">43.3</span> OSC Transform</a></li>
   </ul>
@@ -503,7 +503,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-number">43</span>&nbsp; <span class="chapter-title">Open Sound Control</span></h1>
+<h1 class="title"><span id="sec-spat-osc" class="quarto-section-identifier"><span class="chapter-number">43</span>&nbsp; <span class="chapter-title">Open Sound Control</span></span></h1>
 </div>
 
 
@@ -518,10 +518,10 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<section id="introduction-to-generic-osc" class="level2" data-number="43.1">
-<h2 data-number="43.1" class="anchored" data-anchor-id="introduction-to-generic-osc"><span class="header-section-number">43.1</span> Introduction to Generic OSC</h2>
+<section id="sec-intro-osc" class="level2" data-number="43.1">
+<h2 data-number="43.1" class="anchored" data-anchor-id="sec-intro-osc"><span class="header-section-number">43.1</span> Introduction to Generic OSC</h2>
 <p><img src="https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/Preference/OSCMain.png" class="img-fluid"></p>
-<p>If you are developing your own control systems to integrate with SPAT, you might find it useful to know that it is possible to export a detailed description of all OSC patterns, syntax and usage to a text file for reference. You will find that option in the SPAT preferences. You will also find a complete <a href="Appendix_C_OSC_Table.md">OSC table</a> in the appendix.</p>
+<p>If you are developing your own control systems to integrate with SPAT, you might find it useful to know that it is possible to export a detailed description of all OSC patterns, syntax and usage to a text file for reference. You will find that option in the SPAT preferences. You will also find a complete <a href="Appendix_C_OSC_Table.html">OSC table&nbsp;<span>C</span></a> in the appendix.</p>
 <div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -557,7 +557,7 @@ Warning
 <p>Sometimes, it is more convenient to have the [remote number] parameter as an argument of the OSC message. This option is available in the OSC Connections Matrix, namely <strong>Index as Arg</strong>. If this option is switched in, then the messages will be of the pattern</p>
 <p><code>/source/xyz ifff</code></p>
 <p>where <code>i</code> is an integer denoting the remote number of the target, and <code>f</code> according to convention is a float denoting the values of the message.</p>
-<p>For more details about the SPAT Revolution OSC dictionary and its usage syntax please refer to <a href="Appendix_C_OSC_Table.md">Appendix C</a>.</p>
+<p>For more details about the SPAT Revolution OSC dictionary and its usage syntax please refer to <a href="Appendix_C_OSC_Table.html">Appendix C&nbsp;<span>C</span></a>.</p>
 <p>The <strong>output rate</strong> allows changing how fast the engine will send OSC messages. The lower the value is, the more SPAT Revolution will send OSC message and the remote will display the changes, but it will also increase the stress on the CPU. If you experienced some CPU overload when moving sources through OSC command, you can try to increase the value. By default, it is set to 5.0 ms.</p>
 </section>
 <section id="osc-connections-menu" class="level2" data-number="43.2">

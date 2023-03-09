@@ -74,7 +74,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./Third_Party_Integration.html">12. Third Party Integration</a></li><li class="breadcrumb-item"><a href="./Third_Party_Nuendo.html"><span class="chapter-number">53</span>&nbsp; <span class="chapter-title">Steinberg Nuendo</span></a></li></ol></nav>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./Third_Party_Integration.html">Third Party Integration</a></li><li class="breadcrumb-item"><a href="./Third_Party_Nuendo.html"><span class="chapter-number">53</span>&nbsp; <span class="chapter-title">Steinberg Nuendo</span></a></li></ol></nav>
       <a class="flex-grow-1" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
       </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -379,7 +379,7 @@ ul.task-list li input[type="checkbox"] {
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="./Third_Party_Integration.html" class="sidebar-item-text sidebar-link">12. Third Party Integration</a>
+            <a href="./Third_Party_Integration.html" class="sidebar-item-text sidebar-link">Third Party Integration</a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" aria-expanded="true">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
@@ -517,7 +517,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-number">53</span>&nbsp; <span class="chapter-title">Steinberg Nuendo</span></h1>
+<h1 class="title"><span id="sec-nuendo" class="quarto-section-identifier"><span class="chapter-number">53</span>&nbsp; <span class="chapter-title">Steinberg Nuendo</span></span></h1>
 </div>
 
 
@@ -543,11 +543,11 @@ ul.task-list li input[type="checkbox"] {
 <li><p><strong><a href="https://public.3.basecamp.com/p/TMikxYY8Z9D1dnkaAgG9uFE8">Advanced multi-format NPR</a></strong> is an advance template using sends and returns to render Atmos 7.1.2, NHK 22.2 and multiple binaural outputs.</p></li>
 <li><p><strong><a href="https://public.3.basecamp.com/p/FgvZBZWodG9qUVCGtuXSxCFk">Ambisonic HOA mixing NPR</a></strong> is a template for using 3rd order HOA and binaural monitoring output formats.</p></li>
 </ul>
-<p>For troubleshooting, please review the <strong><a href="Appendix_B.md">Appendix B - Troubleshooting</a></strong>.</p>
+<p>For troubleshooting, please review the <strong><a href="Appendix_B.html">Appendix B - Troubleshooting&nbsp;<span>B</span></a></strong>.</p>
 </section>
 <section id="nuendo-and-external-osc-rendering" class="level2" data-number="53.2">
 <h2 data-number="53.2" class="anchored" data-anchor-id="nuendo-and-external-osc-rendering"><span class="header-section-number">53.2</span> Nuendo and External OSC rendering</h2>
-<p>Starting with Nuendo V11, it is now possible to deploy object-oriented sessions using open sound control (OSC). This brings the possibility to send/receive metadata from/to the Nuendo object VST MultiPanner. This functionality allows the support of <em>SPAT Revolution</em> as an external rendering engine using OSC thanks to the <a href="Ecosystem_&amp;_integration_ADM_OSC.md">ADM-OSC</a> initiative. More information and specifications on the <strong>ADM-OSC</strong> initiative can be found on the dedicated GitHub repository, <a href="https://github.com/immersive-audio-live/ADM-OSC">immersive-audio-live/ADM-OSC</a>.</p>
+<p>Starting with Nuendo V11, it is now possible to deploy object-oriented sessions using open sound control (OSC). This brings the possibility to send/receive metadata from/to the Nuendo object VST MultiPanner. This functionality allows the support of <em>SPAT Revolution</em> as an external rendering engine using OSC thanks to the <a href="Ecosystem_&amp;_integration_ADM_OSC.html">ADM-OSC&nbsp;<span>47</span></a> initiative. More information and specifications on the <strong>ADM-OSC</strong> initiative can be found on the dedicated GitHub repository, <a href="https://github.com/immersive-audio-live/ADM-OSC">immersive-audio-live/ADM-OSC</a>.</p>
 <p>Once configured, you can playback or record object-oriented sessions (audio and metadata) for live production and immersive creations workflows while using <em>SPAT Revolution</em> mixing and rendering capabilities.</p>
 <p>As Nuendo can import and export ADM files, this allows for an ADM master, exported from another environment, to be imported into a Nuendo session and mapped to <em>SPAT Revolution</em>. This integration brings the ability to render the object-based mix for various stream types (Ambisonic, Binaural, Channel-based), from standard to custom speaker arrangements and using multiple spatialization options and techniques.</p>
 <p>The functioning is based around the declared ADM object approach in Nuendo. At the base, as soon as a track is being assigned to a multichannel output bus, the VST MultiPanner becomes available and can work in bed or object mode. Here, we are interested in the object mode that will give us the possibility to stream or listen to the object position.</p>

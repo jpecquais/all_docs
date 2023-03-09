@@ -74,7 +74,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./Third_Party_Integration.html">12. Third Party Integration</a></li><li class="breadcrumb-item"><a href="./Third_Party_Cockos_Reaper.html"><span class="chapter-number">48</span>&nbsp; <span class="chapter-title">Cockos Reaper</span></a></li></ol></nav>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./Third_Party_Integration.html">Third Party Integration</a></li><li class="breadcrumb-item"><a href="./Third_Party_Cockos_Reaper.html"><span class="chapter-number">48</span>&nbsp; <span class="chapter-title">Cockos Reaper</span></a></li></ol></nav>
       <a class="flex-grow-1" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
       </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -379,7 +379,7 @@ ul.task-list li input[type="checkbox"] {
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="./Third_Party_Integration.html" class="sidebar-item-text sidebar-link">12. Third Party Integration</a>
+            <a href="./Third_Party_Integration.html" class="sidebar-item-text sidebar-link">Third Party Integration</a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" aria-expanded="true">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
@@ -510,7 +510,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-number">48</span>&nbsp; <span class="chapter-title">Cockos Reaper</span></h1>
+<h1 class="title"><span id="sec-reaper" class="quarto-section-identifier"><span class="chapter-number">48</span>&nbsp; <span class="chapter-title">Cockos Reaper</span></span></h1>
 </div>
 
 
@@ -526,8 +526,8 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 <p>Reaper, a DAW developed by Cockos, is a reliable, fully-featured and highly customisable digital audio workstation. It is available to evaluate freely from https://www.reaper.fm/. Many composers and designers working in spatial audio use Reaper because it is very good at handling multichannel interleaved audio (up to 64 channel WAV) and has a straightforward approach to routing. It also features a great automation system which is important for precise composition in SPAT, has native OSC support for navigation, transport and more. It is one of the most complete flexible DAW regarding immersive sound production.</p>
-<p>Reaper integrates well with the SPAT plug-ins and the Local Audio Path workflow described in section <strong><a href="Ecosystem_&amp;_integration_DAW_Automation_Local_Audio_Path.md">SPAT PI : Local audio path</a></strong>.</p>
-<p>If you are using the Local Audio Path, it is also recommended reviewing the <strong><a href="Appendix_B.md">Appendix B - Troubleshooting</a></strong> of this guide.</p>
+<p>Reaper integrates well with the SPAT plug-ins and the Local Audio Path workflow described in section <strong><a href="Ecosystem_&amp;_integration_DAW_Automation_Local_Audio_Path.html">SPAT PI : Local audio path&nbsp;<span>45</span></a></strong>.</p>
+<p>If you are using the Local Audio Path, it is also recommended reviewing the <strong><a href="Appendix_B.html">Appendix B - Troubleshooting&nbsp;<span>B</span></a></strong> of this guide.</p>
 <section id="templates" class="level2" data-number="48.1">
 <h2 data-number="48.1" class="anchored" data-anchor-id="templates"><span class="header-section-number">48.1</span> Templates</h2>
 <p>New recent templates are available for use with Reaper. They are start sessions and can be used as examples to see how to integrate <em>SPAT Revolution</em> using the SPAT plugin suite SEND, RETURN and ROOM.</p>
@@ -545,11 +545,11 @@ ul.task-list li input[type="checkbox"] {
 <h2 data-number="48.2" class="anchored" data-anchor-id="reavolution"><span class="header-section-number">48.2</span> ReaVolution</h2>
 <p>Release in 20.12 is ReaVolution. ReaVolution is an attempt to provide a customization to Reaper standard configuration in order to simplify its integration to <em>SPAT Revolution</em> and provide a complete simple immersive audio creation package.</p>
 <p>The ReaVolution package includes macros (scripts), customized toolbars, system behaviour preference enhancements and makes the integration of <em>SPAT Revolution</em> to Reaper a charm.</p>
-<p>Please follow this link for more information on <a href="Third_Party_ReaVolution.md">ReaVolution</a>.</p>
+<p>Please follow this link for more information on <a href="Third_Party_ReaVolution.html">ReaVolution&nbsp;<span>49</span></a>.</p>
 </section>
 <section id="setting-up-sync" class="level2" data-number="48.3">
 <h2 data-number="48.3" class="anchored" data-anchor-id="setting-up-sync"><span class="header-section-number">48.3</span> Setting Up Sync</h2>
-<p>As described in section <strong><a href="Ecosystem_&amp;_integration_DAW_Automation_Local_Audio_Path.md">SPAT PI : Local audio path</a></strong>, when you are using the Local Audio path, the buffer size and sample rate must be matched in both <em>SPAT Revolution</em> and Reaper. In SPAT, you set this in the preferences and in Reaper in the Audio Device preferences.</p>
+<p>As described in section <strong><a href="Ecosystem_&amp;_integration_DAW_Automation_Local_Audio_Path.html">SPAT PI : Local audio path&nbsp;<span>45</span></a></strong>, when you are using the Local Audio path, the buffer size and sample rate must be matched in both <em>SPAT Revolution</em> and Reaper. In SPAT, you set this in the preferences and in Reaper in the Audio Device preferences.</p>
 <p><img src="https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/SpatR/ThirdParty/ReaperPreferencesDevice.jpg" class="img-fluid"></p>
 </section>
 <section id="setting-up-tracks" class="level2" data-number="48.4">
@@ -877,7 +877,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
       <a href="./Third_Party_Integration.html" class="pagination-link">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">12. Third Party Integration</span>
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Third Party Integration</span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
