@@ -584,7 +584,7 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-14" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./Signal_generator_Signal_types.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">71</span>&nbsp; <span class="chapter-title">Pink noise</span></a>
+  <a href="./Signal_generator_Signal_types.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">71</span>&nbsp; <span class="chapter-title">Signal types</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -764,7 +764,7 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#buffer-size" id="toc-buffer-size" class="nav-link" data-scroll-target="#buffer-size"><span class="header-section-number">10.3</span> Buffer size</a></li>
   <li><a href="#control-panel" id="toc-control-panel" class="nav-link" data-scroll-target="#control-panel"><span class="header-section-number">10.4</span> Control panel</a></li>
   </ul></li>
-  <li><a href="#channels" id="toc-channels" class="nav-link" data-scroll-target="#channels"><span class="header-section-number">11</span> Channels</a>
+  <li><a href="#sec-io-config-channels" id="toc-sec-io-config-channels" class="nav-link" data-scroll-target="#sec-io-config-channels"><span class="header-section-number">11</span> Channels</a>
   <ul class="collapse">
   <li><a href="#max-number-of-channels" id="toc-max-number-of-channels" class="nav-link" data-scroll-target="#max-number-of-channels"><span class="header-section-number">11.1</span> Max number of channels</a></li>
   <li><a href="#reference-configuration" id="toc-reference-configuration" class="nav-link" data-scroll-target="#reference-configuration"><span class="header-section-number">11.2</span> Reference configuration</a></li>
@@ -789,7 +789,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">IO Configuration</span></h1>
+<h1 class="title"><span id="sec-io-config" class="quarto-section-identifier"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">IO Configuration</span></span></h1>
 </div>
 
 
@@ -863,12 +863,12 @@ Warning
 <p>Opens the ASIO (Windows) / CoreAudio (MacOS) control panel for the selected soundcard driver, where you can make further settings depending on your particular hardware, such as routing, input gain etc.</p>
 </section>
 </section>
-<section id="channels" class="level1" data-number="11">
+<section id="sec-io-config-channels" class="level1" data-number="11">
 <h1 data-number="11"><span class="header-section-number">11</span> Channels</h1>
 <section id="max-number-of-channels" class="level2" data-number="11.1">
 <h2 data-number="11.1" class="anchored" data-anchor-id="max-number-of-channels"><span class="header-section-number">11.1</span> Max number of channels</h2>
 <p><img src="https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Setup/Channels.png" class="img-fluid"></p>
-<p>Selects the maximum number of channels to be used by the application, or equivalently the number of channels in the application I/O bus. You should set this according to the source material format you want to analyze and visualize. This determines notably how many real-time curves are displayed in the <a href="03_Spectrum_analyzer_01_Basic_principles.md">Spectrum analyzer</a> view, whether the <a href="06_Nebula_Surround_scope_01_Usage.md">Surround scope</a> is displayed, etc.</p>
+<p>Selects the maximum number of channels to be used by the application, or equivalently the number of channels in the application I/O bus. You should set this according to the source material format you want to analyze and visualize. This determines notably how many real-time curves are displayed in the <a href="Spectrum_analyzer_Basic_principles.html">Spectrum analyzer&nbsp;<span>11</span></a> view, whether the <a href="Nebula_Surround_scope_Usage.html">Surround scope&nbsp;<span>29</span></a> is displayed, etc.</p>
 <div class="callout callout-style-default callout-warning callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -910,7 +910,7 @@ Warning
 <p></p><figcaption class="figure-caption">Example of a output channel routing (hardware specific)</figcaption><p></p>
 </figure>
 </div>
-<p>Selects one or two physical channels to which the <a href="12_Signal_generator_01_Signal_types.md">Signal generator</a> output should be sent.</p>
+<p>Selects one or two physical channels to which the <a href="Signal_generator_Signal_types.html">Signal generator&nbsp;<span>71</span></a> output should be sent.</p>
 <blockquote class="blockquote">
 <p>In case of stereo output, the signal is identical on both channels. This is provided as a facility for soundcards with minimal routing capabilities, and to avoid using a Y patch cable.</p>
 </blockquote>
@@ -918,7 +918,7 @@ Warning
 </section>
 <section id="channel-1-channel-2" class="level1" data-number="13">
 <h1 data-number="13"><span class="header-section-number">13</span> Channel 1 / Channel 2</h1>
-<p>The following group of settings are displayed for every channel selected in <a href="02_User_Interface_06_IO_Configuration?id=channels">Channels</a>. The heading displays the channel number, followed by its name, and whether it corresponds to the reference or microphone input signal for the first two channels in <a href="11_Live_IO_00_Live_IO.md">Live IO</a> mode.</p>
+<p>The following group of settings are displayed for every channel selected in <a href="#sec-io-config-channels">Channels&nbsp;<span>11</span></a>. The heading displays the channel number, followed by its name, and whether it corresponds to the reference or microphone input signal for the first two channels in <span class="quarto-unresolved-ref">?sec-live-IO</span> mode.</p>
 <section id="phase-invert" class="level2" data-number="13.1">
 <h2 data-number="13.1" class="anchored" data-anchor-id="phase-invert"><span class="header-section-number">13.1</span> Phase invert</h2>
 <p>When engaged, the phase of the corresponding channel is inverted in order to compensate for a reverse polarity somewhere else in the signal chain. Default is off.</p>

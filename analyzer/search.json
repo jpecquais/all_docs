@@ -158,7 +158,7 @@
     "href": "User_Interface_Main_setup.html#configuration",
     "title": "7  Main setup",
     "section": "7.1 Configuration",
-    "text": "7.1 Configuration\nSave / restore a user-defined configuration to and from disk, including all the settings in this panel, as well as IO Configuration and UI Setup."
+    "text": "7.1 Configuration\nSave / restore a user-defined configuration to and from disk, including all the settings in this panel, as well as IO Configuration 9 and UI Setup 8."
   },
   {
     "objectID": "User_Interface_Main_setup.html#samplegrabber",
@@ -179,7 +179,7 @@
     "href": "User_Interface_Main_setup.html#time-code",
     "title": "7  Main setup",
     "section": "7.4 Time code",
-    "text": "7.4 Time code\n\n\n\nAvailable display frame rates\n\n\n\n7.4.1 Display frame rate\nSets the frame-rate used for time display in various parts of the program. Set it to match the frame-rate of your source material to facilitate locating time events, when working with film, TV or other time-stamped material.\n\n\n7.4.2 Absolute Timecode\nThis setting toggles between absolute and relative time-code display formats. Absolute Timecode is taken from the time the application was started. Relative Timecode is the time-elapsed since the Timecode offset position. See metering history usage for information on working with Timecode."
+    "text": "7.4 Time code\n\n\n\nAvailable display frame rates\n\n\n\n7.4.1 Display frame rate\nSets the frame-rate used for time display in various parts of the program. Set it to match the frame-rate of your source material to facilitate locating time events, when working with film, TV or other time-stamped material.\n\n\n7.4.2 Absolute Timecode\nThis setting toggles between absolute and relative time-code display formats. Absolute Timecode is taken from the time the application was started. Relative Timecode is the time-elapsed since the Timecode offset position. See metering history usage 56 for information on working with Timecode."
   },
   {
     "objectID": "User_Interface_Main_setup.html#main",
@@ -193,7 +193,7 @@
     "href": "User_Interface_Main_setup.html#averaging",
     "title": "7  Main setup",
     "section": "7.6 Averaging",
-    "text": "7.6 Averaging\n\nTime averaging: engages averaging of spectrum magnitudes over time. Default is off.\n\n7.6.1 Mode\n\nRunning: the average display is updated as soon as a new incoming block arrives. This is the default.\nFill-freeze: the display is only updated when a fresh batch of N new incoming blocks has arrived. The display is frozen until the next batch of N blocks arrive, and so on. N corresponds to the length setting defined below.\n\n\n\n7.6.2 Length\nThe number of incoming blocks over which the resulting average spectrum is computed. Lower values lead to faster apparent display update rates, while higher values smooth-out any time-variations more. Default is 32.\n\nRunning average employs a weighting window that gives more importance to the last incoming blocks of samples. This type of time averaging is also called moving average, rolling average or running average, and is good for smoothing out abrupt variations in time and still be able to monitor in a continuous fashion. Fill-freeze mode is useful for stabilizing a flickering display while still following long-term variations, which permits a more detailed study of the curve(s). This mode is therefore useful to get a very steady picture of the spectrum while still monitoring some of the mid-term changes, and saves you from holding and resetting the display manually again and again."
+    "text": "7.6 Averaging\n\nTime 37 averaging: engages averaging of spectrum magnitudes over time. Default is off.\n\n7.6.1 Mode\n\nRunning: the average display is updated as soon as a new incoming block arrives. This is the default.\nFill-freeze: the display is only updated when a fresh batch of N new incoming blocks has arrived. The display is frozen until the next batch of N blocks arrive, and so on. N corresponds to the length setting defined below.\n\n\n\n7.6.2 Length\nThe number of incoming blocks over which the resulting average spectrum is computed. Lower values lead to faster apparent display update rates, while higher values smooth-out any time-variations more. Default is 32.\n\nRunning average employs a weighting window that gives more importance to the last incoming blocks of samples. This type of time averaging is also called moving average, rolling average or running average, and is good for smoothing out abrupt variations in time and still be able to monitor in a continuous fashion. Fill-freeze mode is useful for stabilizing a flickering display while still following long-term variations, which permits a more detailed study of the curve(s). This mode is therefore useful to get a very steady picture of the spectrum while still monitoring some of the mid-term changes, and saves you from holding and resetting the display manually again and again."
   },
   {
     "objectID": "User_Interface_Main_setup.html#various",
@@ -263,7 +263,7 @@
     "href": "User_Interface_IO_Configuration.html",
     "title": "9  IO Configuration",
     "section": "",
-    "text": "10 Hardware IO\nThe following group of settings are displayed for every channel selected in Channels. The heading displays the channel number, followed by its name, and whether it corresponds to the reference or microphone input signal for the first two channels in Live IO mode."
+    "text": "10 Hardware IO\nThe following group of settings are displayed for every channel selected in Channels 11. The heading displays the channel number, followed by its name, and whether it corresponds to the reference or microphone input signal for the first two channels in ?sec-live-IO mode."
   },
   {
     "objectID": "User_Interface_IO_Configuration.html#configuration",
@@ -305,7 +305,7 @@
     "href": "User_Interface_IO_Configuration.html#max-number-of-channels",
     "title": "9  IO Configuration",
     "section": "11.1 Max number of channels",
-    "text": "11.1 Max number of channels\n\nSelects the maximum number of channels to be used by the application, or equivalently the number of channels in the application I/O bus. You should set this according to the source material format you want to analyze and visualize. This determines notably how many real-time curves are displayed in the Spectrum analyzer view, whether the Surround scope is displayed, etc.\n\n\n\n\n\n\nWarning\n\n\n\nIMPORTANT! - The Pure Analyzer Studio Session supports only 2 channels of audio."
+    "text": "11.1 Max number of channels\n\nSelects the maximum number of channels to be used by the application, or equivalently the number of channels in the application I/O bus. You should set this according to the source material format you want to analyze and visualize. This determines notably how many real-time curves are displayed in the Spectrum analyzer 11 view, whether the Surround scope 29 is displayed, etc.\n\n\n\n\n\n\nWarning\n\n\n\nIMPORTANT! - The Pure Analyzer Studio Session supports only 2 channels of audio."
   },
   {
     "objectID": "User_Interface_IO_Configuration.html#reference-configuration",
@@ -319,7 +319,7 @@
     "href": "User_Interface_IO_Configuration.html#output",
     "title": "9  IO Configuration",
     "section": "12.1 Output",
-    "text": "12.1 Output\n\n\n\nExample of a output channel routing (hardware specific)\n\n\nSelects one or two physical channels to which the Signal generator output should be sent.\n\nIn case of stereo output, the signal is identical on both channels. This is provided as a facility for soundcards with minimal routing capabilities, and to avoid using a Y patch cable."
+    "text": "12.1 Output\n\n\n\nExample of a output channel routing (hardware specific)\n\n\nSelects one or two physical channels to which the Signal generator 71 output should be sent.\n\nIn case of stereo output, the signal is identical on both channels. This is provided as a facility for soundcards with minimal routing capabilities, and to avoid using a Y patch cable."
   },
   {
     "objectID": "User_Interface_IO_Configuration.html#phase-invert",
@@ -361,7 +361,7 @@
     "href": "Spectrum_analyzer_Window_type.html",
     "title": "14  Window type",
     "section": "",
-    "text": "As previously mentioned, the first step is to split the incoming signal into overlapping blocks. Each block is then multiplied with a so-called window signal prior to the spectrum computation. The purpose of this is to minimize side effects of the block processing, such as introduction of transients at the block boundaries, etc.\nThe window type to use is set in the Main setup.\n\n\n\n\n\n\nNote\n\n\n\nWe suggest you leave this setting to the default unless you are quite knowledgeable with these aspects, or in the case you should need to explicitly recreate a specific measurement such as a particular method specified in a standard’s document.\n\n\nThe Wikipedia entry on window functions in the context of signal processing is a good reference if you want to get a more thorough understanding of the subject.\n\n\n\n\n\n\nNote\n\n\n\nWhile the windowing process is implemented in the time-domain, it can be also be seen as a smoothing filter in the frequency domain, and as such the choice of window is a compromise between frequency resolution and immunity to artifacts. Skipping the windowing process altogether, which is the same as applying a rectangular window, is not recommended. Although the rectangular window provides the best frequency resolution, it has very poor leakage characteristics."
+    "text": "As previously mentioned, the first step is to split the incoming signal into overlapping blocks. Each block is then multiplied with a so-called window signal prior to the spectrum computation. The purpose of this is to minimize side effects of the block processing, such as introduction of transients at the block boundaries, etc.\nThe window type to use is set in the Main 7 setup.\n\n\n\n\n\n\nNote\n\n\n\nWe suggest you leave this setting to the default unless you are quite knowledgeable with these aspects, or in the case you should need to explicitly recreate a specific measurement such as a particular method specified in a standard’s document.\n\n\nThe Wikipedia entry on window functions in the context of signal processing is a good reference if you want to get a more thorough understanding of the subject.\n\n\n\n\n\n\nNote\n\n\n\nWhile the windowing process is implemented in the time-domain, it can be also be seen as a smoothing filter in the frequency domain, and as such the choice of window is a compromise between frequency resolution and immunity to artifacts. Skipping the windowing process altogether, which is the same as applying a rectangular window, is not recommended. Although the rectangular window provides the best frequency resolution, it has very poor leakage characteristics."
   },
   {
     "objectID": "Spectrum_analyzer_Ballistics.html#release-time",
@@ -389,7 +389,7 @@
     "href": "Spectrum_analyzer_Frequency_scaling.html",
     "title": "17  Frequency scaling",
     "section": "",
-    "text": "Scaling controls how the scaling applied to spectrum magnitudes. This is a global setting accessed through the Main setup panel.\nScaling controls whether frequency-dependent amplitude scaling should be applied. This affects how various standard reference signals register on the display. The default power scaling will result in a signal with spectrum components of constant power registering as a flat curve, whilst amplitude will have the same effect for components of constant amplitude such as pure tones (sine signal).\nThe table below shows how the curve appearance depending on the type of input signal. 1/f corresponds to a rectilinear slope on the display with both X and Y axis being logarithmic.\n\n\n\nInput signal\nSine\nWhite\nPink noise\n\n\n\n\nPower scaling\n1/f\n1/f\nFlat\n\n\nAmplitude scaling\nFlat\nFlat\n1/f\n\n\n\nFor monitoring a mix, it makes most sense to use power scaling, as this is the way our hearing responds. If you need to measure a room’s acoustic response, an outboard unit or a plugin’s frequency response, the system magnitude transfer function is best suited for this purpose and scaling has no effect.\nThe amplitude scaling setting should therefore really be employed if you need to measure relative amplitude values, such as those of sine test tones at various frequencies. Also, note that plain DFT corresponds to scaling set to amplitude.\nThe power of a time-signal is proportional to the square of its amplitude, or equivalently, its power in dB is double the amplitude. However, in the case of a spectrum, we are measuring the output of a filter-bank, which reacts very much differently depending on the type of input signal, so the simple previous formula doesn’t apply anymore."
+    "text": "Scaling controls how the scaling applied to spectrum magnitudes. This is a global setting accessed through the Main 7 setup panel.\nScaling controls whether frequency-dependent amplitude scaling should be applied. This affects how various standard reference signals register on the display. The default power scaling will result in a signal with spectrum components of constant power registering as a flat curve, whilst amplitude will have the same effect for components of constant amplitude such as pure tones (sine signal).\nThe table below shows how the curve appearance depending on the type of input signal. 1/f corresponds to a rectilinear slope on the display with both X and Y axis being logarithmic.\n\n\n\nInput signal\nSine\nWhite\nPink noise\n\n\n\n\nPower scaling\n1/f\n1/f\nFlat\n\n\nAmplitude scaling\nFlat\nFlat\n1/f\n\n\n\nFor monitoring a mix, it makes most sense to use power scaling, as this is the way our hearing responds. If you need to measure a room’s acoustic response, an outboard unit or a plugin’s frequency response, the system magnitude transfer function is best suited for this purpose and scaling has no effect.\nThe amplitude scaling setting should therefore really be employed if you need to measure relative amplitude values, such as those of sine test tones at various frequencies. Also, note that plain DFT corresponds to scaling set to amplitude.\nThe power of a time-signal is proportional to the square of its amplitude, or equivalently, its power in dB is double the amplitude. However, in the case of a spectrum, we are measuring the output of a filter-bank, which reacts very much differently depending on the type of input signal, so the simple previous formula doesn’t apply anymore."
   },
   {
     "objectID": "Spectrum_analyzer_Display_range.html#db-min-db-max",
@@ -592,7 +592,7 @@
     "href": "Metering_RMS_Metering_Introduction.html",
     "title": "32  Introduction",
     "section": "",
-    "text": "RMS stands for Root Mean Square, is a measure of the average magnitude of a varying signal, or equivalently, the average power over the signal over a time period, called the integration time.\n\nThe live layouts display dB SPL (Sound Pressure Level) values, which is the standard measure of acoustic pressure. This requires that your input chain first be calibrated in order to get accurate and meaningful readings, as factors such as your particular microphone’s sensitivity and preamplifier gain are not known in advance. For this, you will need to get your hands on a calibrator, which is a box fitted with a transducer that outputs a known acoustic level and features a socket designed to hold the microphone."
+    "text": "RMS stands for Root Mean Square, is a measure of the average magnitude of a varying signal, or equivalently, the average power over the signal over a time period, called the integration time.\n\nThe live layouts display dB SPL 35 (Sound Pressure Level) values, which is the standard measure of acoustic pressure. This requires that your input chain first be calibrated in order to get accurate and meaningful readings, as factors such as your particular microphone’s sensitivity and preamplifier gain are not known in advance. For this, you will need to get your hands on a calibrator, which is a box fitted with a transducer that outputs a known acoustic level and features a socket designed to hold the microphone."
   },
   {
     "objectID": "Metering_RMS_Metering_Preset.html#custom",
@@ -1341,7 +1341,7 @@
     "href": "System_analysis_Test_signals.html",
     "title": "65  Test signals",
     "section": "",
-    "text": "Pure Analyzer is designed to cover the broadest range of practical use cases, and does not impose a limitation on the measurement signal used.\nTraditionally, transfer curve and impulse response measurements are performed by feeding a specially designed test signal into the system, the most commonly employed being pink and white noise and swept sines. While these type of signals are those that give the best and more accurate results, with each having its own strength and weaknesses, they do prohibit the measurement of a system in the context of a live system with the audience present.\nPerforming measurements using a live music signal allows the engineer to fine tune the system settings to compensate for changing conditions such as the effect of the crowd on acoustic reflections and damping, varying temperature and humidity, etc. Although less pleasing to the ear, we do however recommend using a noise test signal whenever possible, at least as a starting point.\nYou are free to use any kind of test signal generator, outboard or plugin, provided you trust it being reliable and easy to use. A selection of plugins suitable for this task is shown in the chart below.\n\n\n\n\n\n\nNote\n\n\n\nWhile Pure Analyzer does not impose any limitation on the test signal used, we recommend using the integrated Signal generator, which has been especially designed for this task. We conducted thorough tests on a wide panel of signal generators available as plugins or integrated into DAW software and found that many do not meet the requirements for performing accurate and reliable measurements."
+    "text": "Pure Analyzer is designed to cover the broadest range of practical use cases, and does not impose a limitation on the measurement signal used.\nTraditionally, transfer curve and impulse response measurements are performed by feeding a specially designed test signal into the system, the most commonly employed being pink and white noise and swept sines. While these type of signals are those that give the best and more accurate results, with each having its own strength and weaknesses, they do prohibit the measurement of a system in the context of a live system with the audience present.\nPerforming measurements using a live music signal allows the engineer to fine tune the system settings to compensate for changing conditions such as the effect of the crowd on acoustic reflections and damping, varying temperature and humidity, etc. Although less pleasing to the ear, we do however recommend using a noise test signal whenever possible, at least as a starting point.\nYou are free to use any kind of test signal generator, outboard or plugin, provided you trust it being reliable and easy to use. A selection of plugins suitable for this task is shown in the chart below.\n\n\n\n\n\n\nNote\n\n\n\nWhile Pure Analyzer does not impose any limitation on the test signal used, we recommend using the integrated Signal generator 71, which has been especially designed for this task. We conducted thorough tests on a wide panel of signal generators available as plugins or integrated into DAW software and found that many do not meet the requirements for performing accurate and reliable measurements."
   },
   {
     "objectID": "Live_IO_Introduction.html",
@@ -1411,7 +1411,7 @@
     "href": "Live_IO_User_interface_and_controls.html#name",
     "title": "69  User interface and controls",
     "section": "69.1 Name",
-    "text": "69.1 Name\n\nAllows to define a custom name for each channel. This is a global name; saved and restored with the preset but not directly related to the Hardware I/O Interface. As this, it will be consistent even if you switch the Hardware I/O Interface or switch to connect to a SampleGrabber."
+    "text": "69.1 Name\n\nAllows to define a custom name for each channel. This is a global name; saved and restored with the preset but not directly related to the Hardware I/O Interface. As this, it will be consistent even if you switch the Hardware I/O Interface or switch to connect to a ?sec-intial-setup-samplegrabber."
   },
   {
     "objectID": "Live_IO_User_interface_and_controls.html#ref",
@@ -1470,11 +1470,32 @@
     "text": "Note\n\n\n\nDelay finder setup options.\n\n\n\n71 Max delay\nSets the maximum delay that can be computed. The default is 1 second, which equates to a maximum distance between microphone and speakers of roughly 300 meters, and should be large enough for most practical applications. You can decrease this value as this minimizes the possibility of false readings.\n\n\n72 Algorithm\n\nSelects between three different delay finding algorithms:\n\nBasic: lowest CPU load, less robust to noise and interference.\nStandard: medium CPU load, the default.\nAdvanced: heavy CPU load, can help in very noisy environments.\n\n\n\n\n\n\n\nNote\n\n\n\nIn the rare case where the standard method fails in your particular environment, you should try other methods.\n\n\n\n\n73 Search passes\n\nThe delay can be set to work in one or two passes:\n\nFull (default): one search pass covering all possible values.\nTwo-stage: first pass to determine a rough delay value, followed by a second to refine the reading.\n\n\n\n\n\n\n\nNote\n\n\n\nTwo-stage delay finding can improve accuracy in the context of an environment with heavy multiple reflections."
   },
   {
-    "objectID": "Signal_generator_Signal_types.html",
-    "href": "Signal_generator_Signal_types.html",
-    "title": "71  Pink noise",
-    "section": "",
-    "text": "Pink noise is a random signal with an amplitude falloff inversely proportional to frequency. This is the most commonly employed variety noise in audio measurement, as it a constant-energy perceived content.\n\n72 White noise\nWhite noise is a random signal with constant energy across the audio range. Compared to pink noise, it sounds much brighter as it has more energy in high-frequencies. Commonly employed for electronic apparatus measurements.\n\n\n73 Sine\nFixed-frequency, pure tone generator.\n\n\n74 Sweep\nGenerates a variable tone from start to end frequencies. Linear and logarithmic variants are available. Log. sweep is best suited for audio measurements as this corresponds to constant time per octave."
+    "objectID": "Signal_generator_Signal_types.html#pink-noise",
+    "href": "Signal_generator_Signal_types.html#pink-noise",
+    "title": "71  Signal types",
+    "section": "71.1 Pink noise",
+    "text": "71.1 Pink noise\nPink noise is a random signal with an amplitude falloff inversely proportional to frequency. This is the most commonly employed variety noise in audio measurement, as it a constant-energy perceived content."
+  },
+  {
+    "objectID": "Signal_generator_Signal_types.html#white-noise",
+    "href": "Signal_generator_Signal_types.html#white-noise",
+    "title": "71  Signal types",
+    "section": "71.2 White noise",
+    "text": "71.2 White noise\nWhite noise is a random signal with constant energy across the audio range. Compared to pink noise, it sounds much brighter as it has more energy in high-frequencies. Commonly employed for electronic apparatus measurements."
+  },
+  {
+    "objectID": "Signal_generator_Signal_types.html#sine",
+    "href": "Signal_generator_Signal_types.html#sine",
+    "title": "71  Signal types",
+    "section": "71.3 Sine",
+    "text": "71.3 Sine\nFixed-frequency, pure tone generator."
+  },
+  {
+    "objectID": "Signal_generator_Signal_types.html#sweep",
+    "href": "Signal_generator_Signal_types.html#sweep",
+    "title": "71  Signal types",
+    "section": "71.4 Sweep",
+    "text": "71.4 Sweep\nGenerates a variable tone from start to end frequencies. Linear and logarithmic variants are available. Log. sweep is best suited for audio measurements as this corresponds to constant time per octave."
   },
   {
     "objectID": "Signal_generator_Controls.html",
@@ -1537,14 +1558,14 @@
     "href": "Impulse_response_measurement_Introduction.html#delay-set",
     "title": "74  Introduction",
     "section": "74.2 Delay Set",
-    "text": "74.2 Delay Set\nThe  delay Set button set value of the peak time location to the delay value currently set for microphone channels in the Live IO panel.\nIf Real Time curve is disable, the Max value of the selected snapshot is used."
+    "text": "74.2 Delay Set\nThe  delay Set button set value of the peak time location to the delay value currently set for microphone channels in the Live IO 66 panel.\nIf Real Time curve is disable, the Max value of the selected snapshot is used."
   },
   {
     "objectID": "Impulse_response_measurement_Introduction.html#delay-add",
     "href": "Impulse_response_measurement_Introduction.html#delay-add",
     "title": "74  Introduction",
     "section": "74.3 Delay add",
-    "text": "74.3 Delay add\nThe  delay add button adds value of the peak time location to the delay value currently set for microphone channels in the Live IO panel.\nIf Real Time curve is disable, the Max value of the selected snapshot is used."
+    "text": "74.3 Delay add\nThe  delay add button adds value of the peak time location to the delay value currently set for microphone channels in the Live IO 66 panel.\nIf Real Time curve is disable, the Max value of the selected snapshot is used."
   },
   {
     "objectID": "Impulse_response_measurement_Introduction.html#delay-subtract",
@@ -1558,7 +1579,7 @@
     "href": "Impulse_response_measurement_General_procedure.html",
     "title": "75  General procedure",
     "section": "",
-    "text": "Impulse response (IR) measurement requires that sufficient samples be accumulated before the actual computation is ready, depending on the values of the Max Length and Time averaging settings. The user interface displays a message indicating the remaining time before the display is ready, whenever the related settings are changed or the reset button is pressed.\nBecause the software cannot detect whenever you make changes to the analyzed system, you need to press the Reset button in the setup or wait for the display to stabilize before reading the display.\nOnce your test setup is ready, press the ‘Reset’ button and wait for the display showing remaining time to disappear, at which point the IR display is ready. When a sufficient amount of samples has been accumulated, IR computation goes on as long as the ‘Run’ button is active, and is updated with new incoming samples.\n\n\n\n\n\n\nNote\n\n\n\nMake sure the actual impulse response is shorter than the maximum specified time, otherwise mild to severe time-aliasing will occur, and the measurement will not be reliable.\nA good rule of thumb is to set the Max length parameter to twice that of the estimated RT60 of the room.\nIf in doubt, raise the Max length setting until the impulse response curve does not change, and check the tail of the curve does indeed fall to zero."
+    "text": "Impulse response (IR) measurement requires that sufficient samples be accumulated before the actual computation is ready, depending on the values of the Max Length and Time averaging 76 settings. The user interface displays a message indicating the remaining time before the display is ready, whenever the related settings are changed or the reset button is pressed.\nBecause the software cannot detect whenever you make changes to the analyzed system, you need to press the Reset button in the setup or wait for the display to stabilize before reading the display.\nOnce your test setup is ready, press the ‘Reset’ button and wait for the display showing remaining time to disappear, at which point the IR display is ready. When a sufficient amount of samples has been accumulated, IR computation goes on as long as the ‘Run’ button is active, and is updated with new incoming samples.\n\n\n\n\n\n\nNote\n\n\n\nMake sure the actual impulse response is shorter than the maximum specified time, otherwise mild to severe time-aliasing will occur, and the measurement will not be reliable.\nA good rule of thumb is to set the Max length parameter to twice that of the estimated RT60 of the room.\nIf in doubt, raise the Max length setting until the impulse response curve does not change, and check the tail of the curve does indeed fall to zero."
   },
   {
     "objectID": "Impulse_response_measurement_Time_averaging.html",
@@ -1684,7 +1705,7 @@
     "href": "Snapshots_Controls.html#acquire-sweep",
     "title": "85  Controls",
     "section": "85.3 Acquire sweep",
-    "text": "85.3 Acquire sweep\nThe  button launches acquisition of a sweep snapshot. This special type of snapshot automates the acquisition of transfer function and impulse response curves using a swept sine generator output.\nPlease check the following for proper operation:\n\nGenerator output(s) should be properly assigned to the corresponding hardware channels .\nHardware IO should be properly configured and set to hardware output(s).\nSweep start/end frequencies should be set as desired.\n\nProviding the previous requirements are met, a progress dialog will then be displayed until all data has been acquired and the snapshot is computed and ready for display.\n\n\n\n\n\n\nNote\n\n\n\nEnsure the outputs of the generator and the connected speakers are set to reasonable levels in order to prevent damage to your equipment and hearing loss."
+    "text": "85.3 Acquire sweep\nThe  button launches acquisition of a sweep snapshot. This special type of snapshot automates the acquisition of transfer function and impulse response curves using a swept sine generator output.\nPlease check the following for proper operation:\n\nGenerator output -Chapter 71 should be properly assigned to the corresponding hardware channels .\nHardware IO should be properly configured and set to hardware output(s).\nSweep start/end frequencies should be set as desired.\n\nProviding the previous requirements are met, a progress dialog will then be displayed until all data has been acquired and the snapshot is computed and ready for display.\n\n\n\n\n\n\nNote\n\n\n\nEnsure the outputs of the generator and the connected speakers are set to reasonable levels in order to prevent damage to your equipment and hearing loss."
   },
   {
     "objectID": "Snapshots_Controls.html#create-average",
