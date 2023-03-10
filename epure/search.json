@@ -1,0 +1,240 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Epure",
+    "section": "",
+    "text": "1 Epure\nProduct Page | Shop Page\nEpure is a state-of-the-art five-band equalizer designed to provide the absolute finest audio quality within the domain of digital audio processing. Built with our proprietary State-Space technology, carefully tuned to preserve the optimal signal to noise ratio independent of the parameter settings preventing the signal from deteriorating when the gain is reduced, makes Epure a powerful go-to processor for your day-to-day session work, as well as an efficient sharp-edged surgical precision tool for the most demanding equalizing and filtering tasks conceivable.\nIn addition to the supreme audio quality, the logical and comprehensive user interface includes a variety of instant shortcut functions provided to enhance and simplify the user workflow, allowing for instant and precise operation."
+  },
+  {
+    "objectID": "index.html#bypass-1",
+    "href": "index.html#bypass-1",
+    "title": "Epure",
+    "section": "1.1 Bypass (1)",
+    "text": "1.1 Bypass (1)\nWhen pressed the inputs are routed direct to the outputs.\nDefault Value: Off"
+  },
+  {
+    "objectID": "index.html#graphic-display-2",
+    "href": "index.html#graphic-display-2",
+    "title": "Epure",
+    "section": "1.2 Graphic Display (2)",
+    "text": "1.2 Graphic Display (2)\nGraphical editing provided by grabbing the curves on the graphical display."
+  },
+  {
+    "objectID": "index.html#band-activation-3",
+    "href": "index.html#band-activation-3",
+    "title": "Epure",
+    "section": "1.3 Band Activation (3)",
+    "text": "1.3 Band Activation (3)\nToggles the activation of the processing for the actual band.\nDefault Value: On"
+  },
+  {
+    "objectID": "index.html#filter-type-4",
+    "href": "index.html#filter-type-4",
+    "title": "Epure",
+    "section": "1.4 Filter Type (4)",
+    "text": "1.4 Filter Type (4)\nAll mentioned filter types are available on all of the five bands.\nDefault Value: Peak\nAdditional Filter Types:\n\n12 dB per octave high pass filter (Low Cut)\nLow shelving (Low Shlv)\nParametric (Peak)\nHigh shelving (High Shlv)\n12 dB per octave low pass filter (High Cut)"
+  },
+  {
+    "objectID": "index.html#band-gain-5",
+    "href": "index.html#band-gain-5",
+    "title": "Epure",
+    "section": "1.5 Band Gain (5)",
+    "text": "1.5 Band Gain (5)\nAdjusts the gain for the selected band.\nUnit: dB\nValue Range: -24 / +\nStep: 0.\nDefault Value: 0 dB"
+  },
+  {
+    "objectID": "index.html#band-frequency-6",
+    "href": "index.html#band-frequency-6",
+    "title": "Epure",
+    "section": "1.6 Band Frequency (6)",
+    "text": "1.6 Band Frequency (6)\nAdjusts the center frequency for the band.\nUnit: Hz\nValue Range: 5 / 22k\nDefault Value: 50 / 200 / 500 / 2000\nStep: Variable"
+  },
+  {
+    "objectID": "index.html#band-q-factor-7",
+    "href": "index.html#band-q-factor-7",
+    "title": "Epure",
+    "section": "1.7 Band Q-Factor (7)",
+    "text": "1.7 Band Q-Factor (7)\nAdjusts the frequency range affected by Gain and Frequency on the band when the Parametric filter type is used.\nWith a lower Q-Factor, a wider range of frequencies are affected, with a higher Q-Factor, a narrower range of frequencies are affected. The narrowest Q-Factor is 1/7 octave of 100 in displayed value and the widest is 6.67 octave. The effective Q-Factor depends on the amount of gain applied; the displayed value corresponds to the maximum gain variation (24 dB).\n\n\n\n\n\n\nNote\n\n\n\nExample: With 6 dB gain the max Q-Factor is not 100 as displayed, but instead 10 in a regular expression to the actual Q-Factor.\n\n\nValue Range: 1 / 100\nStep: 0.\nDefault Value: 10"
+  },
+  {
+    "objectID": "index.html#preset-manager-8",
+    "href": "index.html#preset-manager-8",
+    "title": "Epure",
+    "section": "1.8 Preset Manager (8)",
+    "text": "1.8 Preset Manager (8)\nOpens a new window accessing the built-in preset manager."
+  },
+  {
+    "objectID": "index.html#save-9",
+    "href": "index.html#save-9",
+    "title": "Epure",
+    "section": "1.9 Save (9)",
+    "text": "1.9 Save (9)\nSaves the current parameter settings as a preset."
+  },
+  {
+    "objectID": "index.html#recall-10",
+    "href": "index.html#recall-10",
+    "title": "Epure",
+    "section": "1.10 Recall (10)",
+    "text": "1.10 Recall (10)\nPopulates all the parameters in the actual parameter section with the values from the selected preset."
+  },
+  {
+    "objectID": "index.html#copy-a-copy-b-11",
+    "href": "index.html#copy-a-copy-b-11",
+    "title": "Epure",
+    "section": "1.11 Copy A / Copy B (11)",
+    "text": "1.11 Copy A / Copy B (11)\nPopulates all the parameters in the actual parameter section with the values from the other section. This also moves the Morphing Slider to the actual parameter section."
+  },
+  {
+    "objectID": "index.html#morphing-slider-12",
+    "href": "index.html#morphing-slider-12",
+    "title": "Epure",
+    "section": "1.12 Morphing Slider (12)",
+    "text": "1.12 Morphing Slider (12)\nThe Morphing Slider has no unity or specific value display, it provides morphing of the current values from both of the parameter sections (A & B). A double-click on one side of the slider area toggles between the two parameter sections. The actual result of the morphed parameter settings can be saved as a new preset."
+  },
+  {
+    "objectID": "Special_Functions.html#master-gain-13",
+    "href": "Special_Functions.html#master-gain-13",
+    "title": "2  Special Functions",
+    "section": "2.1 Master Gain (13)",
+    "text": "2.1 Master Gain (13)\nAdjusts the gain for the currently selected channel group. All channel groups features an individual Master Gain control. If only one channel group is used, this control acts as the Master Gain control for all of the channels.\nFor more information about channels and channel groups, see Setup (17)\nUnit: dB\nValue Range: -24 / +\nStep: 0.\nDefault Value: 0 dB"
+  },
+  {
+    "objectID": "Special_Functions.html#x2---quick-gain-multiplier-14",
+    "href": "Special_Functions.html#x2---quick-gain-multiplier-14",
+    "title": "2  Special Functions",
+    "section": "2.2 X2 - Quick Gain Multiplier (14)",
+    "text": "2.2 X2 - Quick Gain Multiplier (14)\nMultiplies the band section gain values by two.\nIf the morphing slider is set in-between the parameter sections when the Quick Gain Multiplier is clicked, depending on its current position, the morphing slider will move to one of the parameter sections and the values of that section will be re-initialized with the current values of the actual section."
+  },
+  {
+    "objectID": "Special_Functions.html#x12--quick-gain-divider-15",
+    "href": "Special_Functions.html#x12--quick-gain-divider-15",
+    "title": "2  Special Functions",
+    "section": "2.3 X1/2- Quick Gain Divider (15)",
+    "text": "2.3 X1/2- Quick Gain Divider (15)\nDivides the band section gain values by two.\nIf the morphing slider is set in-between the parameter sections when the Quick Gain Divider is clicked, depending on its current position, the morphing slider will move to one of the parameter sections and the values of that section will be re-initialized with the current values of the actual section."
+  },
+  {
+    "objectID": "Special_Functions.html#invert---quick-gain-inverter-16",
+    "href": "Special_Functions.html#invert---quick-gain-inverter-16",
+    "title": "2  Special Functions",
+    "section": "2.4 Invert - Quick Gain Inverter (16)",
+    "text": "2.4 Invert - Quick Gain Inverter (16)\nInverts the band section gain values.\nIf the morphing slider is set in-between the parameter sections when the Quick Gain Inverter is clicked, depending on its current position, the morphing slider will move to one of the parameter sections and the values of that section will be re-initialized with the current values of the actual section."
+  },
+  {
+    "objectID": "Special_Functions.html#master-section---multiply-divide-invert-14-15-16",
+    "href": "Special_Functions.html#master-section---multiply-divide-invert-14-15-16",
+    "title": "2  Special Functions",
+    "section": "2.5 Master Section - Multiply, Divide, Invert (14, 15, 16)",
+    "text": "2.5 Master Section - Multiply, Divide, Invert (14, 15, 16)\nUsing the Multiply, Divide or Invert controls in the master section will affect the gain parameter for all band sections in the selected channel group. A master section action can be combined with a specific band section action."
+  },
+  {
+    "objectID": "Setup_-_Input_Routing_-_MS_Encode_Decode_-_Groups.html#setup-17",
+    "href": "Setup_-_Input_Routing_-_MS_Encode_Decode_-_Groups.html#setup-17",
+    "title": "3  Setup - Input Routing - MS Encode Decode - Groups",
+    "section": "3.1 Setup (17)",
+    "text": "3.1 Setup (17)\nInput Routing, MS Encoder/Decoder, Internal Channels and Groups setup.\nAny of Epure’s input channels can be routed to up to 8 internal EQ-channels using a sophisticated routing system offering individual processing of up to 8 different equalization curves. The built in routing system provides up to 4 M/S encoders and 4 M/S decoders (each of them in pairs of 2 channels).\nEpure Studio Session supports Mono/Stereo input only which can be routed to up to 2 different equalization curves and provides up to 2 M/S encoders/decoders.\nThe built in MS encoders/decoders use odd EQ-channels for Mid and even EQ-channels for Side. Stereo or M/S encoded material as well as multichannel surround material can be processed individually, or combined in configurable explicit groups, within one single instance of Epure.\nWith the Link I/O Routing engaged, every input is automatically routed to the corresponding output, when the input routing settings are consistent. Please note that the Routing Matrix allows for routing of one input channel to several EQ-channels, as well as for routing of several EQ-channels to one output.\n\n\n\n\n\n\nNote\n\n\n\nPlease note that this is an inconsistent routing action that may in turn cause the Link I/O Routing to behave inconsistently.\nWith each Group representing one explicit EQ curve, the Group Matrix can be used to gather a number of internal EQ channels in a specific group for the combined processing of several input channels (Front/Surround, etc.).\nNote that when audio channels are grouped, the settings of the first audio channel (Channel 5 in group 2 in the above example) are applied to all channels in the group (Channels 5 & 6 in the example).\n\n\nPlease note that morphing between two parameter settings using the Morphing Slider (12) affects the settings of the Setup section as well."
+  },
+  {
+    "objectID": "Setup_-_Input_Routing_-_MS_Encode_Decode_-_Groups.html#groups-18",
+    "href": "Setup_-_Input_Routing_-_MS_Encode_Decode_-_Groups.html#groups-18",
+    "title": "3  Setup - Input Routing - MS Encode Decode - Groups",
+    "section": "3.2 Groups (18)",
+    "text": "3.2 Groups (18)\nSelect EQ-channel Group.\nAny action on the EQ parameter settings is applied to the currently selected Group of internal EQ-channels.\nOnly Group 1, gathering every available channel by default, is created when the first instance of the Epure Plug-in is inserted.\nBy right clicking on the graphical display the settings of any of the groups can be instantly copied to the currently selected group. The behaviour of the vertical scale can also be selected as followed: Auto, 6 dB, 12 dB and 24 dB."
+  },
+  {
+    "objectID": "Setup_-_Input_Routing_-_MS_Encode_Decode_-_Groups.html#lowest-frequency-to-display-19",
+    "href": "Setup_-_Input_Routing_-_MS_Encode_Decode_-_Groups.html#lowest-frequency-to-display-19",
+    "title": "3  Setup - Input Routing - MS Encode Decode - Groups",
+    "section": "3.3 Lowest Frequency to display (19)",
+    "text": "3.3 Lowest Frequency to display (19)\nSelect the lowest displayed frequency. When 20 Hz is engaged, Epure displays the frequency range from 20Hz to 1/2 sampling rate."
+  },
+  {
+    "objectID": "Setup_-_Input_Routing_-_MS_Encode_Decode_-_Groups.html#solo-20",
+    "href": "Setup_-_Input_Routing_-_MS_Encode_Decode_-_Groups.html#solo-20",
+    "title": "3  Setup - Input Routing - MS Encode Decode - Groups",
+    "section": "3.4 Solo (20)",
+    "text": "3.4 Solo (20)\nMonitors the content of the selected group. The monitoring is done after the master gain section and the MS decoder."
+  },
+  {
+    "objectID": "Setup_-_Input_Routing_-_MS_Encode_Decode_-_Groups.html#automation-21",
+    "href": "Setup_-_Input_Routing_-_MS_Encode_Decode_-_Groups.html#automation-21",
+    "title": "3  Setup - Input Routing - MS Encode Decode - Groups",
+    "section": "3.5 Automation (21)",
+    "text": "3.5 Automation (21)\nWhen the Automation button is disabled all of the plug-in parameter values are recorded when writing automation.\nWhen reading automation, if it’s disabled, all the plug-in parameters are controlled by the host automation except for the Morphing Slider (12), which is then ignored. When it’s engaged all parameters are recorded when writing automation, including the Morphing Slider, though when reading automation ONLY the morphing slider value is read and applied.\nThe Automation button must be engaged if the Morphing Slider is to be mapped on a control surface.\nDefault Value: Off"
+  },
+  {
+    "objectID": "Setup_-_Input_Routing_-_MS_Encode_Decode_-_Groups.html#settings-22",
+    "href": "Setup_-_Input_Routing_-_MS_Encode_Decode_-_Groups.html#settings-22",
+    "title": "3  Setup - Input Routing - MS Encode Decode - Groups",
+    "section": "3.6 Settings (22)",
+    "text": "3.6 Settings (22)\nPressing the cogwheels opens a settings window providing information about the plug-in version/build, a direct access button to the user manual, as well as setup for latency report and OSC (Open Sound Control). OSC is available in Epure only, and is not supported in Epure Studio Session."
+  },
+  {
+    "objectID": "Specifications.html#processing-specifications---epure",
+    "href": "Specifications.html#processing-specifications---epure",
+    "title": "4  Specifications",
+    "section": "4.1 Processing Specifications - Epure",
+    "text": "4.1 Processing Specifications - Epure\n\nUp to 16 channels Input/Output.\n\n64-bits internal floating point processing.\n\nSampling rate up to 384 kHz DXD (Pyramix and Ovation MassCore/Native).\n\nSampling rate up to 192 kHz for Native (AU/VST/VST3/AAX/AAX AudioSuite)."
+  },
+  {
+    "objectID": "Specifications.html#processing-specifications---epure-studio-session",
+    "href": "Specifications.html#processing-specifications---epure-studio-session",
+    "title": "4  Specifications",
+    "section": "4.2 Processing Specifications - Epure Studio Session",
+    "text": "4.2 Processing Specifications - Epure Studio Session\n\nMono/Stereo Input/Output.\n\n64-bits internal floating point processing.\n\nSampling rate up to 96 kHz."
+  },
+  {
+    "objectID": "Specifications.html#licence-requirements",
+    "href": "Specifications.html#licence-requirements",
+    "title": "4  Specifications",
+    "section": "4.3 Licence Requirements",
+    "text": "4.3 Licence Requirements\nIn order to use Epure or Epure Studio Session, an iLok.com user account is required (the iLok USB Smart Key is not required)"
+  },
+  {
+    "objectID": "Compatibility.html#epure",
+    "href": "Compatibility.html#epure",
+    "title": "5  Compatibility",
+    "section": "5.1 Epure",
+    "text": "5.1 Epure\n\n5.1.1 Windows - 10, 64 bits.\n\nVST (2.4) in 64 bit\nVST (3.1) in 64 bit\nAAX Native/DSP/AudioSuite, all in 64 bit*\nWaves WPAPI Native/Soundgrid in 64 bit\nVS3** Pyramix 10 and more in 64 bit and Ovation 6 and more\nAVID VENUE Systems\n\n\n\n5.1.2 macOS (Intel and ARM) - 10.12 (Sierra) and more, 11 and 12.\n\nVST (2.4) in 64 bit\nVST (3.1) in 64 bit\nAU in 64 bit\nAAX Native/DSP/AudioSuite, all in 64 bit*\nWaves WPAPI Native/Soundgrid in 64 bit\nAVID VENUE Systems\n\n** VS3 for Pyramix & Ovation Native/MassCore sold only through Merging Technologies and authorized dealers."
+  },
+  {
+    "objectID": "../flux_processing_release_notes.html#build-23.1.0.50251---all-plugins",
+    "href": "../flux_processing_release_notes.html#build-23.1.0.50251---all-plugins",
+    "title": "Appendix A — Release Notes",
+    "section": "A.1 Build 23.1.0.50251 - All plugins",
+    "text": "A.1 Build 23.1.0.50251 - All plugins\n\nA.1.1 New features\n\nNew plugins Evo Compressor, Evo Touch and Evo EQ.\nVST3 support\nARM support for AAX, AU and VST3\nPlugins are now resizable\nElixir now supports 32 channels\nAlchemist, BitterSweet, Epure, Pure Compressor, Pure DCompressor, Pure Expander, Pure DExpander, PureLimiter, Solera, Syrah now support 16 channels\n\n\n\nA.1.2 Bugs fixes\n\nAll plugins - Preset Manager - Update user preset do not work\nAll plugins - Preset manager - Crash or freeze when saving a preset\nAll plugins - UI may be black on Intel UHD 630 graphical cards\nAll plugins - AU/VST3 - Preset manager - Default preset is not applied to parameters at plugin instantiation\nAll plugins - AAX - Crash with OSC when changing fx slot in Pro Tools\nAll plugins - AU - Logic Pro - Automation of boolean/integer parameters broken\nAll plugins - AU - Plugins crash in Da Vinci Resolve\nAll plugins - DaVinci Resolve - VST - UI is truncated\nAll plugins - Streamlabs - Plugins do not work\nAll plugins - Licensing issue in DaVinci Resolve and GarageBand\nAlchemist - The range parameter works only for the 1st band\nBitterSweet - Not possible to tweak the Output gain after unlinking it\nBitterSweet - Output gain not reloaded properly when the link is disabled\nBSPro - some modes are not accessible due to GUI issue\nEpure - macOS - Bad graphic scale initialization at 2&4FS\nEvo Channel - Meter reference is not saved\nSyrah - Crash when selecting preset “Static fast compression”\nTRAX Tr - When the link is activated, the Formant slider does not have the expected audio effect\nTRAX Tr - ProTools - Issue in AudioStudio when the modulation is enabled\nVerbSession/VerbSession Studio Session and BSPro StudioSession - Pyramix - VST crash when instantiated\nVerb/Verb Studio Session - Crash when reloading session having 2 instances\n\n\n\nA.1.3 Known issues\n\nAll plugins - VST - GUI issue in Izotope Ozone and RX\nAll plugins - AAX - Preset manager - Default preset is not applied to parameters at plugin instantiation\nElixir - Latency not properly compensated after changing stage parameters value in VST and AudioUnit\nTRAX tr - Learn function returning wrong values\nVerbV3 - HOA 3rd order not working properly"
+  },
+  {
+    "objectID": "../flux_processing_release_notes.html#build-21.12.0.50123---all-plugins-except-trax-and-studiosession",
+    "href": "../flux_processing_release_notes.html#build-21.12.0.50123---all-plugins-except-trax-and-studiosession",
+    "title": "Appendix A — Release Notes",
+    "section": "A.2 Build 21.12.0.50123 - All plugins except TRAX and StudioSession",
+    "text": "A.2 Build 21.12.0.50123 - All plugins except TRAX and StudioSession\nBug fixes\n\nAll plugins AudioUnit - GUI issue with Hdpi displays on macOS Monterey\nAll plugins VST - Plugin scan freeze in Wavelab 11 on Mac M1 machines\nAll plugins VST - Crash in Adobe Audition on macOS\nAll plugins VST macOS - Fix crashes with Ableton live\nElixir - Automation is not read for toggle parameters.\nElixir - Crash when clicking on the settings button on Session version\nElixir - Several fixes on the UI\nElixir - Windows AAX - Refresh issue with two instances in ProTools\nHEar - Bypass is working in AAX\nHEar AAX - Crash when doing offline bounce on macOS\nHEar AAX - Crash when editing the matrix on macOS\nHEar AAX - Stereo - Change on Matrix are not applied until we change the preset\nHEar AudioUnit - Ableton crashes when inserting a second instance"
+  },
+  {
+    "objectID": "../flux_processing_release_notes.html#build-21.11.0.50107-hear-ircam-verb",
+    "href": "../flux_processing_release_notes.html#build-21.11.0.50107-hear-ircam-verb",
+    "title": "Appendix A — Release Notes",
+    "section": "A.3 Build 21.11.0.50107 (HEar, IRCAM Verb)",
+    "text": "A.3 Build 21.11.0.50107 (HEar, IRCAM Verb)\nNOTE: CURRENTLY NOT COMPLIANT WITH ABLETON LIVE MACOS\nImprovement\n\nHEar - 5.1.4 & 5.0.4 now available\n\nBug fixes\n\nHEar - Fix meters refresh issue\nHEar - No verb on some presets\nHEar - Protools crashes when doing offline bounce on macOS"
+  },
+  {
+    "objectID": "../flux_processing_release_notes.html#flux-immersive---plugins-including-ircam-tools-21.09",
+    "href": "../flux_processing_release_notes.html#flux-immersive---plugins-including-ircam-tools-21.09",
+    "title": "Appendix A — Release Notes",
+    "section": "A.4 FLUX:: Immersive - Plugins (including IRCAM Tools) 21.09",
+    "text": "A.4 FLUX:: Immersive - Plugins (including IRCAM Tools) 21.09\nThis release includes updates for all FLUX::Immersive plugin processing products with the exception of EVO Channel, Epure, IRCAM Trax, Studio Session.\nNOTE: CURRENTLY NOT COMPLIANT WITH ABLETON LIVE MACOS\nMajor optimizations\n\nApple computers Big Sur (new M1 chips) AU validation\n\nImportant updates to the Ircam Verb + Session\nOverall better handling of multichannel track setups such for Atmos. (Ircam Hear, Verb and more)\nAutomatic detection of track format / channel order for DAWs when possible.\n\n\nA.4.1 Build 21.9.0.50083\nBug fixes\n\nApple computers Big Sur (new M1 chips) AU validation failing\nEmpty GUI when close/reopen plugin - Windows 10 - UHD630 graphics\nAudioUnit in Reaper - do not process audio when offline bounce\nDefault preset not loaded correctly on instantiation of Verb + Verb Session\nEvo.Channel on Retina - Input and Output Sliders badly scaled\nIncompatible AudioUnit issue in Apple Final Cut Pro\nPlugins: Recall Preset Flags (e.g. “All but setup”) recall always everything\nPreset Manager - UI issue with small plugins when a preset has been created\nIrcam Verb Session reload in VST with audio interruption\nVST Plugins Session not correctly reloaded if it integrate an IO configuration change\nVerb session - Dry/wet not applied in offline render\nVerb v3 Atmos crash on AAX\nVerb: AU validation failed on Apple M1\nVerb: LFE not disabled by default on ProTools\nVerb: Recall Preset may be not correct with double click inside the preset manager\nVerb: disabled channel is not re-injected according to dry/wet parameter (100 % wet means muted)\nVerb: init issue with Nuendo\nAAX - Some plugins - Crash on Mac / No GUI on Windows\nOverall reliability / stability fixes.\nPlugin size not correct\nPotential plugins crash when opening UI"
+  },
+  {
+    "objectID": "../flux_processing_release_notes.html#flux-immersive---plugins-including-ircam-tools-20.12",
+    "href": "../flux_processing_release_notes.html#flux-immersive---plugins-including-ircam-tools-20.12",
+    "title": "Appendix A — Release Notes",
+    "section": "A.5 FLUX:: Immersive - Plugins (including IRCAM Tools) 20.12",
+    "text": "A.5 FLUX:: Immersive - Plugins (including IRCAM Tools) 20.12\nThis major release includes updates for all FLUX::Immersive products with the exception of IRCAM Spat V3 legacy product. Please refer to Spat V3 - Spat Revolution crossgrade options.\nMajor optimizations\n\nHiDPI / Retina support + display enhancements and fixes\nPage Table unification for Avid Control, S1, S3, S4, S6 and S6L.\nOSC Control for plugins.\nIRCAM Verb support for Dolby Atmos, Multichannel support up to 16 channels\nIRCAM Hear - Multichannel stability improvement, Now up to 10 channels. (Dolby Atmos 7.1.2)\nIRCAM Tools - Audio I/O Matrix and Multichannel enhancement\nMost plugins support of 8 channel.\n16 channel support for Bittersweet Pro, Evo In and Evo Channel\n\n\nA.5.1 Build 20.12.0.49880\nBug fixes\nCore:\n\nBSPro - Latency report issue (AAX)\nIRCAM TRAX Tr - Latency report issue\nIRCAM Verb - Wrong initialization value for Reverb density\nIRCAM Verb -Dry signal still goes out in disabled channels when wet is 100%\nAll Pure Dynamics PI + Alchemist - Wrong Thresholds initialization values\nAAX “monolithic” are broken like Hear, TRAX etc…\nAlmost all AAX plugins don’t reload parameters from 47856 version session.\nPure Limiter - Diff feature bypassed the input gain.\nPure Limiter - Inverted sidechain filters.\nAny plugin except Evo Channel - Research Presets resets when click on a preset.\nEvo channel - Wrong values when reloading touch section.\n\nUI:\n\nCurrent preset name disappear on re-opening GUI or session"
+  },
+  {
+    "objectID": "../flux_processing_release_notes.html#known-issues-1",
+    "href": "../flux_processing_release_notes.html#known-issues-1",
+    "title": "Appendix A — Release Notes",
+    "section": "A.6 Known Issues",
+    "text": "A.6 Known Issues\n\nWavelab “Sample rate not supported” when a plugin is inserted on a clip, track or output section.\nTRAX Tr - Learn frequencies display wrong values (AAX only).\nHear - Internal config labels change when modify LFE input config from routing matrix.\nWhen using OSC on a plugin in Pro Tools, a chrash will occur if you change/move FX insert slots"
+  }
+]

@@ -1,0 +1,156 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Elixir V3 (Legacy)",
+    "section": "",
+    "text": "1 Elixir v3 - Real Multichannel True Peak Limiter\nProduct Page | Shop Page\nThank you for using Elixir v3. We hope that you will get good use of the information found in this manual."
+  },
+  {
+    "objectID": "Introduction.html",
+    "href": "Introduction.html",
+    "title": "2  Introduction",
+    "section": "",
+    "text": "Elixir v3 is a novel kind of program limiter carefully designed to accomplish a truly natural sounding result without changing the nature of the audio material and its timbre, presenting none, or effectively reduced, conventional limiting “pumping” effects even during heavy processing.\nIt’s a REAL True Peak Limiter, providing a guaranteed True Peak output level according to the ITU-R-BS 1770 and EBU R128 norms. The algorithm is using an oversampled representation of the audio sample as a reference when it defines the gain envelope; still, the processing is only applied to the original none oversampled data in order to reduce artifacts (like aliasing), and to achieve the most excellent sounding result.\nElixir v3 is incredibly easy to achieve great results with, simply set the input level, then adjust ‘Threshold’ according to the amount of limiting you want, and enable ‘Make Up’ to compensate the gain and to add loudness - That’s it! There is no need to care about release time or any other conventional limiter settings!\nThere’s an additional feature provided to increase the processing quality in Elixir v3 called ‘Stages’. Stages present the option to set the algorithm to perform the limiting processing in multi-stages."
+  },
+  {
+    "objectID": "About_True_Peak.html",
+    "href": "About_True_Peak.html",
+    "title": "3  About True Peak",
+    "section": "",
+    "text": "All digital audio wave signal is ultimately converted back to analog at some point, and while it is often desirable to maximize the overall volume of a signal or a complete mix, care must be taken in order not to go above the digital scale zero decibel ceiling, or nasty distortion and clipping will occur. This common and widely used rule is however not entirely sufficient, as the digital and analog processing involved in a D/A converter does not guarantee that a 0dBfs peak signal will exactly translate to a 0dB peak in the analog domain.\nWithout getting into too much detail, this phenomenon can be attributed to the over-sampling and reconstruction filters present in D/A converters, whose role are to rebuild a continuous time signal from a set of discrete digital values sampled at regularly spaced time intervals. This interpolation process can therefore generate values, which lie above 0dB, and is known as overshoot.\nRelying solely on the peak value of samples can lead to the following problems:\n\nInconsistent readings between successive playbacks of the same material.\nUnexpected overloads of the D/A output converter.\nUnder-readings and beating of pure tones.\n\nUsing True Peak value aims to overcome these limitations by mimicking parts of the D/A conversion process, effectively up-sampling the measured signal, in order to use the true value of peaks that occur in the analog domain."
+  },
+  {
+    "objectID": "Installation.html",
+    "href": "Installation.html",
+    "title": "4  Installation",
+    "section": "",
+    "text": "First of all, make sure you have the latest version of the installer.\nTo download the latest installer, please go to:\nhttp://www.flux.audio/download/\nFrom this page you will be able access the user download section by entering either your registered email address or your product reference.\nYour product reference is the serial number of your Flux:: dongle (the serial number can be found using the Security Manager, see the “Authorization” section below), or your iLok.com user id if you use the iLok dongle for authorization.\nWhen logged in to the user download section, download the latest installer according to your operating system, run the installer, and you should be up to date in a few minutes only."
+  },
+  {
+    "objectID": "Authorization.html#using-ilok",
+    "href": "Authorization.html#using-ilok",
+    "title": "5  Authorization",
+    "section": "5.1 Using iLok",
+    "text": "5.1 Using iLok\nUnless you purchased your license in the fluxhome.com online store, you need to activate your license.\nTo activate your license, please go to:\nhttps://www.flux.audio/activation/\nWhen your license is activated, you need to login with iLok.com and synchronize your iLok in order to download the new license to your iLok."
+  },
+  {
+    "objectID": "Authorization.html#using-flux-dongle",
+    "href": "Authorization.html#using-flux-dongle",
+    "title": "5  Authorization",
+    "section": "5.2 Using Flux:: dongle",
+    "text": "5.2 Using Flux:: dongle\nIf you have purchased the license together with a new Flux:: dongle, the license is already present on the dongle and no further action is needed.\nIf you already own a Flux:: dongle and purchased a new license, please login to the user download area, then follow the instructions in the Authorization Updates section at the top of the page. http://www.flux.audio/download/\nWhen the corresponding authorization update is downloaded you need to install the license on your Flux:: dongle.\nRun the security manager and the serial number of the dongle currently plugged in to your computer will be presented.\n\n5.2.1 Windows\nSecurityManager.exe located in: C:\\\\ProgramFiles\\\\Flux\\\\Plug-ins\\\\Misc\n\n\n5.2.2 OS X\nSecurityManager.app is found on the download section of fluxhome.com.\nhttp://www.flux.audio/download/\nThen press the Update button, select the license update that you previously downloaded, then press Open.\nThe active licenses are listed in the security manager, and you are now ready to start using Elixir v3.\nIf you are upgrading from a version prior to version 1.2, your Flux:: dongle requires an update in order to work. If you haven’t already received this update by e-mail, please contact Flux:: support, (support@fluxhome.com)."
+  },
+  {
+    "objectID": "User_interface.html#input-output-section",
+    "href": "User_interface.html#input-output-section",
+    "title": "6  User interface",
+    "section": "6.1 Input / Output Section",
+    "text": "6.1 Input / Output Section\n\n6.1.1 Input Gain (1)\nControl the gain applied to the limiter input.\nUnit: Decibel (dB)\nRange: -12.000 to +12.\nMin. Steps: 0.\nDefault Value: 0.\n\n\n6.1.2 Output Gain (4)\nControl the gain at the output stage of the limiter.\nUnit: Decibel (dB)\nRange: -12.000 to +12.\nMin. Steps: 0.\nDefault Value: 0.\n\n\n6.1.3 Diff. (2)\nAllow to hear the difference only. Used to better understand the action and allow to easily tweak the parameters.\nOn/Off\nDefault Value: Off\n\n\n6.1.4 Make Up (3)\nApply Gain compensation. Add invert of the threshold gain to the output gain.\nOn/Off\nDefault Value: Off\n\n\n6.1.5 Bypass (5)\nBypasses the plug-in processing by routing the input direct to the output. The actual processing is still performed in the background allowing for a true and smooth transition between the processed and the actual incoming signal."
+  },
+  {
+    "objectID": "User_interface.html#processing-section",
+    "href": "User_interface.html#processing-section",
+    "title": "6  User interface",
+    "section": "6.2 Processing Section",
+    "text": "6.2 Processing Section\n\n6.2.1 Ch. Link (6)\n% of channels linkage\nUnit: Percent (%)\nRange: 0 to 100\nMin. Steps: 1\nDefault Value: 0\n\n\n6.2.2 Ch. Link Dynamic (6b)\nMake the channels linkage dynamic according to the signal. It means; when On, the Channel Link will automatically move from 0 when High Dynamic (High transient) are detected and the desired value when no dynamic (low transient) are detected.\nUnit: On/Off\nDefault Value: Off\n\n\n6.2.3 Stages (7)\nNumber of stages (passes or steps) used by the algorithm. Because the algorithm adapt itself to the audio material, doing multi stages allow for the processing to be even more precise and provide an even more natural sounding result. For e.g. if the threshold is set to -3 dB and Stages set to 3: First stage will limit at -1dB, Second stage will limit at -2dB and third will limit at -3dB with analyzing done for each stages!\nRange: 1 to 5\nMin. Steps: 1\nDefault Value: 1\n\n\n6.2.4 Speed (8)\nAllow to change how the algorithm will react regarding to the audio material. This will change the how the gain envelop will be generated with more or less look-ahead, release and curve smoothing. Leave it at 50% by default which will be optimal for most case. prefer increasing stages before trying to reduce it and remember that from 50% to 100 % it can generate more and more distortion…\nUnit: Percent (%)\nRange: 0.0 to 100.\nMin. Steps: 0.\nDefault Value: 50.\n\n\n6.2.5 Theshold dBTP (9)\nControl the threshold (or ceiling) used for limiting.\nUnit: Decibel (dB)\nRange: -12.000 to 0.\nMin. Steps: 0.\nDefault Value: 0."
+  },
+  {
+    "objectID": "User_interface.html#metering-section",
+    "href": "User_interface.html#metering-section",
+    "title": "6  User interface",
+    "section": "6.3 Metering Section",
+    "text": "6.3 Metering Section\n\n6.3.1 Signal Input dBTP True Peak Meter (10)\n\n\n6.3.2 Signal Output dBFS True Peak Meter (11)\n\n\n6.3.3 Comp. dBFS Meter (12)\nAll information is displayed at a refresh rate of 60 fps (if possible) and displaying the maximum action during the processing period."
+  },
+  {
+    "objectID": "User_interface.html#preset-management",
+    "href": "User_interface.html#preset-management",
+    "title": "6  User interface",
+    "section": "6.4 Preset management",
+    "text": "6.4 Preset management\nElixir v3 , as well as all other Flux:: plug-ins, provides two preset slots referred to as slot A and slot B, which means that you can have direct access to two sets of parameter settings simultaneously. In addition to just recall (33) the settings for each of the slots individually and alternate between their settings, a morphing slider (35) is provided offering the possibility to morph between the slots and their corresponding settings. When clicking on one of the preset slots (38), the built in preset manager appears.\nThe preset manager contains three preset banks, the Factory bank contains factory presets, this bank is not available for saving of presets but any of the presets can be loaded into a preset slot and then saved into, the User bank, where all user presets are saved. Finally, the Global bank, which is a bit special, here you can save a complete snapshot with all the settings from both preset slots, as well as the position of the morphing slider.\nIn the preset manager, any preset can be loaded into a preset slot by double clicking on the name of the desired preset in the actual preset list, the preset will then be loaded into the preset slot corresponding to the position of the morphing slider."
+  },
+  {
+    "objectID": "User_interface.html#additional-controls-in-the-preset-manager",
+    "href": "User_interface.html#additional-controls-in-the-preset-manager",
+    "title": "6  User interface",
+    "section": "6.5 Additional controls in the preset manager",
+    "text": "6.5 Additional controls in the preset manager\n\nRecall A loads the selected preset into the corresponding slot.\nRecall B loads the selected preset into the corresponding slot.\nUpdate, saves the current settings into the selected preset.\nNew, saves the current settings into a new preset.\nDuplicate creates a copy of the selected preset and saves it to the list.\nEdit allows for changes to the preset meta properties.\nDelete, removes the selected preset.\nExport, creates a file reflecting the content of the current preset bank.\nImport, allows for import of a preset bank file by adding the imported banks content to the content in the current preset bank.\n\nWhen saving or editing a preset, an option to protect the preset is presented. The preset protection, if engaged, only allows the original preset author to uncheck and edit the preset. This means that you can protect your presets in a multi-user configuration. Protected presets can only be modified using the session used for their creation. If used in another user session they can only be imported or deleted."
+  },
+  {
+    "objectID": "User_interface.html#elixir-v3-preset-controls",
+    "href": "User_interface.html#elixir-v3-preset-controls",
+    "title": "6  User interface",
+    "section": "6.6 Elixir v3 Preset Controls",
+    "text": "6.6 Elixir v3 Preset Controls\n\n6.6.1 Save (13)\nTo save a new preset using the built in preset manager, simply click Save in the corresponding preset slot (A/B), and to save changes to your preset, simply click Save again.\nIf you want to resave your preset under a new name, open the preset manager by clicking the corresponding (A/B) preset slot (38), select New, enter a name for your preset, and press Save.\n\n\n6.6.2 Recall (14)\nRecalls the settings of the corresponding slot.\n\n\n6.6.3 Copy A/B (15)\nTo copy all parameters between the preset slots (A to B or B to A), press the Copy A or Copy B button, and the parameters from the corresponding preset slot will be copied into the current preset slot. When copying parameters from one slot to another, the preset morph slider will automatically slide to the slot the parameters where copied to.\n\n\n6.6.4 Morphing Slider (16)\nThe morphing slider provides mixing between the settings of slot A and B and allows for some very creative tweaking.\nThe result of the morphing can be saved as a global preset containing the actual settings of both preset slots as well as the morphing slider position.\nTo save a Global preset, open the preset manager by clicking the corresponding (A/B) preset slot (38), then click Global, select New and enter a name for your global preset, then press Save.\n\n\n6.6.5 Automation (Morphing Slider) (17)\nWhen enabling the Automation control button, the morphing slider will be exposed and available for both automation read and write.\nThough with the button engaged, only the morphing slider value is applied when reading automation.\nThe Automation control button must be engaged if the morphing slider needs to be mapped on a control surface.\n\n\n6.6.6 Preset Name (18)\nDisplays the name of the current preset.\n\n\n6.6.7 Preset Slot (19)\nBy pressing the little arrows in the preset slot, the built in preset manager appears"
+  },
+  {
+    "objectID": "Technical_Details.html",
+    "href": "Technical_Details.html",
+    "title": "7  Technical Details",
+    "section": "",
+    "text": "8 Plug-in formats and platforms supported\nWindows XP, Vista, Windows 7, Windows 8 : All 32 / 64 bit\n- AAX : 32 / 64 bit (ProTools 10 or later required)\n- VST : 32 / 64 bit\nOS X 10.7 (Lion), 10.8 (Mountain Lion)\n- AAX : 32 / 64 bit (ProTools 10 or later required)\n- VST : 32 / 64 bit\n- AU : 32 / 64 bit\nDue to AVID ProTools changing to AAX, from Version 3 (v3) RTAS for AVID ProTools is no longer supported."
+  },
+  {
+    "objectID": "Technical_Details.html#elixir-v3-aax-dsp-specifications",
+    "href": "Technical_Details.html#elixir-v3-aax-dsp-specifications",
+    "title": "7  Technical Details",
+    "section": "9.1 Elixir v3 AAX DSP Specifications:",
+    "text": "9.1 Elixir v3 AAX DSP Specifications:\nElixir v3: takes 100 % of 1 DSP * Support up to 4 stages * Support up to 48 KHz * Support up to 2 channels\nElixir v3 1 Stage: takes around 25 % of 1 DSP * Support only 1 stage * Support up to 192 KHz * Support up to 8 channels"
+  },
+  {
+    "objectID": "Technical_Details.html#elixir-v3-aax-native-specifications",
+    "href": "Technical_Details.html#elixir-v3-aax-native-specifications",
+    "title": "7  Technical Details",
+    "section": "9.2 Elixir v3 AAX Native Specifications:",
+    "text": "9.2 Elixir v3 AAX Native Specifications:\nElixir v3 * Support up to 4 stages * Support up to 192 KHz * Support up to 8 channels\nElixir v3 1 Stage: has been added for session compatibility reason with the DSP versions * Support up to 1 stages * Support up to 192 KHz * Support up to 8 channels"
+  },
+  {
+    "objectID": "Technical_Details.html#elixir-v3-au-vst-native-specifications",
+    "href": "Technical_Details.html#elixir-v3-au-vst-native-specifications",
+    "title": "7  Technical Details",
+    "section": "9.3 Elixir v3 AU & VST Native Specifications:",
+    "text": "9.3 Elixir v3 AU & VST Native Specifications:\n\nSupport up to 4 stages\nSupport up to 384 KHz\nSupport up to 8 channels"
+  },
+  {
+    "objectID": "../flux_processing_release_notes.html#build-23.1.0.50251---all-plugins",
+    "href": "../flux_processing_release_notes.html#build-23.1.0.50251---all-plugins",
+    "title": "Appendix A — Release Notes",
+    "section": "A.1 Build 23.1.0.50251 - All plugins",
+    "text": "A.1 Build 23.1.0.50251 - All plugins\n\nA.1.1 New features\n\nNew plugins Evo Compressor, Evo Touch and Evo EQ.\nVST3 support\nARM support for AAX, AU and VST3\nPlugins are now resizable\nElixir now supports 32 channels\nAlchemist, BitterSweet, Epure, Pure Compressor, Pure DCompressor, Pure Expander, Pure DExpander, PureLimiter, Solera, Syrah now support 16 channels\n\n\n\nA.1.2 Bugs fixes\n\nAll plugins - Preset Manager - Update user preset do not work\nAll plugins - Preset manager - Crash or freeze when saving a preset\nAll plugins - UI may be black on Intel UHD 630 graphical cards\nAll plugins - AU/VST3 - Preset manager - Default preset is not applied to parameters at plugin instantiation\nAll plugins - AAX - Crash with OSC when changing fx slot in Pro Tools\nAll plugins - AU - Logic Pro - Automation of boolean/integer parameters broken\nAll plugins - AU - Plugins crash in Da Vinci Resolve\nAll plugins - DaVinci Resolve - VST - UI is truncated\nAll plugins - Streamlabs - Plugins do not work\nAll plugins - Licensing issue in DaVinci Resolve and GarageBand\nAlchemist - The range parameter works only for the 1st band\nBitterSweet - Not possible to tweak the Output gain after unlinking it\nBitterSweet - Output gain not reloaded properly when the link is disabled\nBSPro - some modes are not accessible due to GUI issue\nEpure - macOS - Bad graphic scale initialization at 2&4FS\nEvo Channel - Meter reference is not saved\nSyrah - Crash when selecting preset “Static fast compression”\nTRAX Tr - When the link is activated, the Formant slider does not have the expected audio effect\nTRAX Tr - ProTools - Issue in AudioStudio when the modulation is enabled\nVerbSession/VerbSession Studio Session and BSPro StudioSession - Pyramix - VST crash when instantiated\nVerb/Verb Studio Session - Crash when reloading session having 2 instances\n\n\n\nA.1.3 Known issues\n\nAll plugins - VST - GUI issue in Izotope Ozone and RX\nAll plugins - AAX - Preset manager - Default preset is not applied to parameters at plugin instantiation\nElixir - Latency not properly compensated after changing stage parameters value in VST and AudioUnit\nTRAX tr - Learn function returning wrong values\nVerbV3 - HOA 3rd order not working properly"
+  },
+  {
+    "objectID": "../flux_processing_release_notes.html#build-21.12.0.50123---all-plugins-except-trax-and-studiosession",
+    "href": "../flux_processing_release_notes.html#build-21.12.0.50123---all-plugins-except-trax-and-studiosession",
+    "title": "Appendix A — Release Notes",
+    "section": "A.2 Build 21.12.0.50123 - All plugins except TRAX and StudioSession",
+    "text": "A.2 Build 21.12.0.50123 - All plugins except TRAX and StudioSession\nBug fixes\n\nAll plugins AudioUnit - GUI issue with Hdpi displays on macOS Monterey\nAll plugins VST - Plugin scan freeze in Wavelab 11 on Mac M1 machines\nAll plugins VST - Crash in Adobe Audition on macOS\nAll plugins VST macOS - Fix crashes with Ableton live\nElixir - Automation is not read for toggle parameters.\nElixir - Crash when clicking on the settings button on Session version\nElixir - Several fixes on the UI\nElixir - Windows AAX - Refresh issue with two instances in ProTools\nHEar - Bypass is working in AAX\nHEar AAX - Crash when doing offline bounce on macOS\nHEar AAX - Crash when editing the matrix on macOS\nHEar AAX - Stereo - Change on Matrix are not applied until we change the preset\nHEar AudioUnit - Ableton crashes when inserting a second instance"
+  },
+  {
+    "objectID": "../flux_processing_release_notes.html#build-21.11.0.50107-hear-ircam-verb",
+    "href": "../flux_processing_release_notes.html#build-21.11.0.50107-hear-ircam-verb",
+    "title": "Appendix A — Release Notes",
+    "section": "A.3 Build 21.11.0.50107 (HEar, IRCAM Verb)",
+    "text": "A.3 Build 21.11.0.50107 (HEar, IRCAM Verb)\nNOTE: CURRENTLY NOT COMPLIANT WITH ABLETON LIVE MACOS\nImprovement\n\nHEar - 5.1.4 & 5.0.4 now available\n\nBug fixes\n\nHEar - Fix meters refresh issue\nHEar - No verb on some presets\nHEar - Protools crashes when doing offline bounce on macOS"
+  },
+  {
+    "objectID": "../flux_processing_release_notes.html#flux-immersive---plugins-including-ircam-tools-21.09",
+    "href": "../flux_processing_release_notes.html#flux-immersive---plugins-including-ircam-tools-21.09",
+    "title": "Appendix A — Release Notes",
+    "section": "A.4 FLUX:: Immersive - Plugins (including IRCAM Tools) 21.09",
+    "text": "A.4 FLUX:: Immersive - Plugins (including IRCAM Tools) 21.09\nThis release includes updates for all FLUX::Immersive plugin processing products with the exception of EVO Channel, Epure, IRCAM Trax, Studio Session.\nNOTE: CURRENTLY NOT COMPLIANT WITH ABLETON LIVE MACOS\nMajor optimizations\n\nApple computers Big Sur (new M1 chips) AU validation\n\nImportant updates to the Ircam Verb + Session\nOverall better handling of multichannel track setups such for Atmos. (Ircam Hear, Verb and more)\nAutomatic detection of track format / channel order for DAWs when possible.\n\n\nA.4.1 Build 21.9.0.50083\nBug fixes\n\nApple computers Big Sur (new M1 chips) AU validation failing\nEmpty GUI when close/reopen plugin - Windows 10 - UHD630 graphics\nAudioUnit in Reaper - do not process audio when offline bounce\nDefault preset not loaded correctly on instantiation of Verb + Verb Session\nEvo.Channel on Retina - Input and Output Sliders badly scaled\nIncompatible AudioUnit issue in Apple Final Cut Pro\nPlugins: Recall Preset Flags (e.g. “All but setup”) recall always everything\nPreset Manager - UI issue with small plugins when a preset has been created\nIrcam Verb Session reload in VST with audio interruption\nVST Plugins Session not correctly reloaded if it integrate an IO configuration change\nVerb session - Dry/wet not applied in offline render\nVerb v3 Atmos crash on AAX\nVerb: AU validation failed on Apple M1\nVerb: LFE not disabled by default on ProTools\nVerb: Recall Preset may be not correct with double click inside the preset manager\nVerb: disabled channel is not re-injected according to dry/wet parameter (100 % wet means muted)\nVerb: init issue with Nuendo\nAAX - Some plugins - Crash on Mac / No GUI on Windows\nOverall reliability / stability fixes.\nPlugin size not correct\nPotential plugins crash when opening UI"
+  },
+  {
+    "objectID": "../flux_processing_release_notes.html#flux-immersive---plugins-including-ircam-tools-20.12",
+    "href": "../flux_processing_release_notes.html#flux-immersive---plugins-including-ircam-tools-20.12",
+    "title": "Appendix A — Release Notes",
+    "section": "A.5 FLUX:: Immersive - Plugins (including IRCAM Tools) 20.12",
+    "text": "A.5 FLUX:: Immersive - Plugins (including IRCAM Tools) 20.12\nThis major release includes updates for all FLUX::Immersive products with the exception of IRCAM Spat V3 legacy product. Please refer to Spat V3 - Spat Revolution crossgrade options.\nMajor optimizations\n\nHiDPI / Retina support + display enhancements and fixes\nPage Table unification for Avid Control, S1, S3, S4, S6 and S6L.\nOSC Control for plugins.\nIRCAM Verb support for Dolby Atmos, Multichannel support up to 16 channels\nIRCAM Hear - Multichannel stability improvement, Now up to 10 channels. (Dolby Atmos 7.1.2)\nIRCAM Tools - Audio I/O Matrix and Multichannel enhancement\nMost plugins support of 8 channel.\n16 channel support for Bittersweet Pro, Evo In and Evo Channel\n\n\nA.5.1 Build 20.12.0.49880\nBug fixes\nCore:\n\nBSPro - Latency report issue (AAX)\nIRCAM TRAX Tr - Latency report issue\nIRCAM Verb - Wrong initialization value for Reverb density\nIRCAM Verb -Dry signal still goes out in disabled channels when wet is 100%\nAll Pure Dynamics PI + Alchemist - Wrong Thresholds initialization values\nAAX “monolithic” are broken like Hear, TRAX etc…\nAlmost all AAX plugins don’t reload parameters from 47856 version session.\nPure Limiter - Diff feature bypassed the input gain.\nPure Limiter - Inverted sidechain filters.\nAny plugin except Evo Channel - Research Presets resets when click on a preset.\nEvo channel - Wrong values when reloading touch section.\n\nUI:\n\nCurrent preset name disappear on re-opening GUI or session"
+  },
+  {
+    "objectID": "../flux_processing_release_notes.html#known-issues-1",
+    "href": "../flux_processing_release_notes.html#known-issues-1",
+    "title": "Appendix A — Release Notes",
+    "section": "A.6 Known Issues",
+    "text": "A.6 Known Issues\n\nWavelab “Sample rate not supported” when a plugin is inserted on a clip, track or output section.\nTRAX Tr - Learn frequencies display wrong values (AAX only).\nHear - Internal config labels change when modify LFE input config from routing matrix.\nWhen using OSC on a plugin in Pro Tools, a chrash will occur if you change/move FX insert slots"
+  }
+]

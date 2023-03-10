@@ -1,0 +1,107 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Bittersweet",
+    "section": "",
+    "text": "1 BitterSweet\nProduct Page | Download"
+  },
+  {
+    "objectID": "index.html#specifications",
+    "href": "index.html#specifications",
+    "title": "Bittersweet",
+    "section": "1.1 Specifications",
+    "text": "1.1 Specifications\n\nMono/Stereo Input/Output.\n64-bits internal floating-point processing.\nSampling rate up to 96 kHz.\nAvailable on AAX / AAX DSP / AU / VST / VST3 on macOS\nAvailable on AAX / AAX DSP /VST / VST3 on Windows\nAvailable on AAX Venue"
+  },
+  {
+    "objectID": "index.html#bypass-1",
+    "href": "index.html#bypass-1",
+    "title": "Bittersweet",
+    "section": "1.2 Bypass (1)",
+    "text": "1.2 Bypass (1)"
+  },
+  {
+    "objectID": "index.html#transient-amount-2",
+    "href": "index.html#transient-amount-2",
+    "title": "Bittersweet",
+    "section": "1.3 Transient Amount (2)",
+    "text": "1.3 Transient Amount (2)\nOn the Sweet side, transients are reduced. It usually decreases percussive instruments in the mix.\nOn the Bitter side, transients are magnified. It usually increases the percussive instruments in the mix."
+  },
+  {
+    "objectID": "index.html#transient-integration-3",
+    "href": "index.html#transient-integration-3",
+    "title": "Bittersweet",
+    "section": "1.4 Transient Integration (3)",
+    "text": "1.4 Transient Integration (3)\nThis selector allows to choose between 3 modes to process transients."
+  },
+  {
+    "objectID": "index.html#operation-modes-4",
+    "href": "index.html#operation-modes-4",
+    "title": "Bittersweet",
+    "section": "1.5 Operation Modes (4)",
+    "text": "1.5 Operation Modes (4)\nMain processes using regular stereo signal scheme and it is the only available mode for multi-channels operations.\nCenter engages internal MS encoder and processes only the Mid channel. After processing the sound is decoded back to stereo.\nThis setting is very efficient for snare and kick drums.\nStereo engages internal MS encoder and processes only the Side channel. After processing the sound is decoded back to stereo.\nThis setting is very efficient for panned rythmic instruments."
+  },
+  {
+    "objectID": "index.html#period-5",
+    "href": "index.html#period-5",
+    "title": "Bittersweet",
+    "section": "1.6 Period (5)",
+    "text": "1.6 Period (5)\nThis control sets the range of the time window used to detect transients that will be processed."
+  },
+  {
+    "objectID": "index.html#link-to-output-gain-6",
+    "href": "index.html#link-to-output-gain-6",
+    "title": "Bittersweet",
+    "section": "1.7 Link to Output Gain (6)",
+    "text": "1.7 Link to Output Gain (6)\nWhen engaged, the output gain is compensated depending of the transient amount to produce an almost unity gain."
+  },
+  {
+    "objectID": "index.html#output-gain-7",
+    "href": "index.html#output-gain-7",
+    "title": "Bittersweet",
+    "section": "1.8 Output Gain (7)",
+    "text": "1.8 Output Gain (7)\nIt can’t be set when the Link to Output Gain button is engaged."
+  },
+  {
+    "objectID": "../flux_processing_release_notes.html#build-23.1.0.50251---all-plugins",
+    "href": "../flux_processing_release_notes.html#build-23.1.0.50251---all-plugins",
+    "title": "Appendix A — Release Notes",
+    "section": "A.1 Build 23.1.0.50251 - All plugins",
+    "text": "A.1 Build 23.1.0.50251 - All plugins\n\nA.1.1 New features\n\nNew plugins Evo Compressor, Evo Touch and Evo EQ.\nVST3 support\nARM support for AAX, AU and VST3\nPlugins are now resizable\nElixir now supports 32 channels\nAlchemist, BitterSweet, Epure, Pure Compressor, Pure DCompressor, Pure Expander, Pure DExpander, PureLimiter, Solera, Syrah now support 16 channels\n\n\n\nA.1.2 Bugs fixes\n\nAll plugins - Preset Manager - Update user preset do not work\nAll plugins - Preset manager - Crash or freeze when saving a preset\nAll plugins - UI may be black on Intel UHD 630 graphical cards\nAll plugins - AU/VST3 - Preset manager - Default preset is not applied to parameters at plugin instantiation\nAll plugins - AAX - Crash with OSC when changing fx slot in Pro Tools\nAll plugins - AU - Logic Pro - Automation of boolean/integer parameters broken\nAll plugins - AU - Plugins crash in Da Vinci Resolve\nAll plugins - DaVinci Resolve - VST - UI is truncated\nAll plugins - Streamlabs - Plugins do not work\nAll plugins - Licensing issue in DaVinci Resolve and GarageBand\nAlchemist - The range parameter works only for the 1st band\nBitterSweet - Not possible to tweak the Output gain after unlinking it\nBitterSweet - Output gain not reloaded properly when the link is disabled\nBSPro - some modes are not accessible due to GUI issue\nEpure - macOS - Bad graphic scale initialization at 2&4FS\nEvo Channel - Meter reference is not saved\nSyrah - Crash when selecting preset “Static fast compression”\nTRAX Tr - When the link is activated, the Formant slider does not have the expected audio effect\nTRAX Tr - ProTools - Issue in AudioStudio when the modulation is enabled\nVerbSession/VerbSession Studio Session and BSPro StudioSession - Pyramix - VST crash when instantiated\nVerb/Verb Studio Session - Crash when reloading session having 2 instances\n\n\n\nA.1.3 Known issues\n\nAll plugins - VST - GUI issue in Izotope Ozone and RX\nAll plugins - AAX - Preset manager - Default preset is not applied to parameters at plugin instantiation\nElixir - Latency not properly compensated after changing stage parameters value in VST and AudioUnit\nTRAX tr - Learn function returning wrong values\nVerbV3 - HOA 3rd order not working properly"
+  },
+  {
+    "objectID": "../flux_processing_release_notes.html#build-21.12.0.50123---all-plugins-except-trax-and-studiosession",
+    "href": "../flux_processing_release_notes.html#build-21.12.0.50123---all-plugins-except-trax-and-studiosession",
+    "title": "Appendix A — Release Notes",
+    "section": "A.2 Build 21.12.0.50123 - All plugins except TRAX and StudioSession",
+    "text": "A.2 Build 21.12.0.50123 - All plugins except TRAX and StudioSession\nBug fixes\n\nAll plugins AudioUnit - GUI issue with Hdpi displays on macOS Monterey\nAll plugins VST - Plugin scan freeze in Wavelab 11 on Mac M1 machines\nAll plugins VST - Crash in Adobe Audition on macOS\nAll plugins VST macOS - Fix crashes with Ableton live\nElixir - Automation is not read for toggle parameters.\nElixir - Crash when clicking on the settings button on Session version\nElixir - Several fixes on the UI\nElixir - Windows AAX - Refresh issue with two instances in ProTools\nHEar - Bypass is working in AAX\nHEar AAX - Crash when doing offline bounce on macOS\nHEar AAX - Crash when editing the matrix on macOS\nHEar AAX - Stereo - Change on Matrix are not applied until we change the preset\nHEar AudioUnit - Ableton crashes when inserting a second instance"
+  },
+  {
+    "objectID": "../flux_processing_release_notes.html#build-21.11.0.50107-hear-ircam-verb",
+    "href": "../flux_processing_release_notes.html#build-21.11.0.50107-hear-ircam-verb",
+    "title": "Appendix A — Release Notes",
+    "section": "A.3 Build 21.11.0.50107 (HEar, IRCAM Verb)",
+    "text": "A.3 Build 21.11.0.50107 (HEar, IRCAM Verb)\nNOTE: CURRENTLY NOT COMPLIANT WITH ABLETON LIVE MACOS\nImprovement\n\nHEar - 5.1.4 & 5.0.4 now available\n\nBug fixes\n\nHEar - Fix meters refresh issue\nHEar - No verb on some presets\nHEar - Protools crashes when doing offline bounce on macOS"
+  },
+  {
+    "objectID": "../flux_processing_release_notes.html#flux-immersive---plugins-including-ircam-tools-21.09",
+    "href": "../flux_processing_release_notes.html#flux-immersive---plugins-including-ircam-tools-21.09",
+    "title": "Appendix A — Release Notes",
+    "section": "A.4 FLUX:: Immersive - Plugins (including IRCAM Tools) 21.09",
+    "text": "A.4 FLUX:: Immersive - Plugins (including IRCAM Tools) 21.09\nThis release includes updates for all FLUX::Immersive plugin processing products with the exception of EVO Channel, Epure, IRCAM Trax, Studio Session.\nNOTE: CURRENTLY NOT COMPLIANT WITH ABLETON LIVE MACOS\nMajor optimizations\n\nApple computers Big Sur (new M1 chips) AU validation\n\nImportant updates to the Ircam Verb + Session\nOverall better handling of multichannel track setups such for Atmos. (Ircam Hear, Verb and more)\nAutomatic detection of track format / channel order for DAWs when possible.\n\n\nA.4.1 Build 21.9.0.50083\nBug fixes\n\nApple computers Big Sur (new M1 chips) AU validation failing\nEmpty GUI when close/reopen plugin - Windows 10 - UHD630 graphics\nAudioUnit in Reaper - do not process audio when offline bounce\nDefault preset not loaded correctly on instantiation of Verb + Verb Session\nEvo.Channel on Retina - Input and Output Sliders badly scaled\nIncompatible AudioUnit issue in Apple Final Cut Pro\nPlugins: Recall Preset Flags (e.g. “All but setup”) recall always everything\nPreset Manager - UI issue with small plugins when a preset has been created\nIrcam Verb Session reload in VST with audio interruption\nVST Plugins Session not correctly reloaded if it integrate an IO configuration change\nVerb session - Dry/wet not applied in offline render\nVerb v3 Atmos crash on AAX\nVerb: AU validation failed on Apple M1\nVerb: LFE not disabled by default on ProTools\nVerb: Recall Preset may be not correct with double click inside the preset manager\nVerb: disabled channel is not re-injected according to dry/wet parameter (100 % wet means muted)\nVerb: init issue with Nuendo\nAAX - Some plugins - Crash on Mac / No GUI on Windows\nOverall reliability / stability fixes.\nPlugin size not correct\nPotential plugins crash when opening UI"
+  },
+  {
+    "objectID": "../flux_processing_release_notes.html#flux-immersive---plugins-including-ircam-tools-20.12",
+    "href": "../flux_processing_release_notes.html#flux-immersive---plugins-including-ircam-tools-20.12",
+    "title": "Appendix A — Release Notes",
+    "section": "A.5 FLUX:: Immersive - Plugins (including IRCAM Tools) 20.12",
+    "text": "A.5 FLUX:: Immersive - Plugins (including IRCAM Tools) 20.12\nThis major release includes updates for all FLUX::Immersive products with the exception of IRCAM Spat V3 legacy product. Please refer to Spat V3 - Spat Revolution crossgrade options.\nMajor optimizations\n\nHiDPI / Retina support + display enhancements and fixes\nPage Table unification for Avid Control, S1, S3, S4, S6 and S6L.\nOSC Control for plugins.\nIRCAM Verb support for Dolby Atmos, Multichannel support up to 16 channels\nIRCAM Hear - Multichannel stability improvement, Now up to 10 channels. (Dolby Atmos 7.1.2)\nIRCAM Tools - Audio I/O Matrix and Multichannel enhancement\nMost plugins support of 8 channel.\n16 channel support for Bittersweet Pro, Evo In and Evo Channel\n\n\nA.5.1 Build 20.12.0.49880\nBug fixes\nCore:\n\nBSPro - Latency report issue (AAX)\nIRCAM TRAX Tr - Latency report issue\nIRCAM Verb - Wrong initialization value for Reverb density\nIRCAM Verb -Dry signal still goes out in disabled channels when wet is 100%\nAll Pure Dynamics PI + Alchemist - Wrong Thresholds initialization values\nAAX “monolithic” are broken like Hear, TRAX etc…\nAlmost all AAX plugins don’t reload parameters from 47856 version session.\nPure Limiter - Diff feature bypassed the input gain.\nPure Limiter - Inverted sidechain filters.\nAny plugin except Evo Channel - Research Presets resets when click on a preset.\nEvo channel - Wrong values when reloading touch section.\n\nUI:\n\nCurrent preset name disappear on re-opening GUI or session"
+  },
+  {
+    "objectID": "../flux_processing_release_notes.html#known-issues-1",
+    "href": "../flux_processing_release_notes.html#known-issues-1",
+    "title": "Appendix A — Release Notes",
+    "section": "A.6 Known Issues",
+    "text": "A.6 Known Issues\n\nWavelab “Sample rate not supported” when a plugin is inserted on a clip, track or output section.\nTRAX Tr - Learn frequencies display wrong values (AAX only).\nHear - Internal config labels change when modify LFE input config from routing matrix.\nWhen using OSC on a plugin in Pro Tools, a chrash will occur if you change/move FX insert slots"
+  }
+]
