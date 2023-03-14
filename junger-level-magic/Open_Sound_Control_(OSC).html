@@ -188,9 +188,9 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#using-multiple-controllers-and-advanced-configurations" id="toc-using-multiple-controllers-and-advanced-configurations" class="nav-link" data-scroll-target="#using-multiple-controllers-and-advanced-configurations"><span class="header-section-number">6.5</span> Using multiple controllers and advanced configurations</a></li>
   <li><a href="#commands" id="toc-commands" class="nav-link" data-scroll-target="#commands"><span class="header-section-number">6.6</span> Commands</a>
   <ul class="collapse">
-  <li><a href="#how-to-use-the-commands" id="toc-how-to-use-the-commands" class="nav-link" data-scroll-target="#how-to-use-the-commands"><span class="header-section-number">6.6.1</span> How to use the commands</a></li>
-  <li><a href="#the-levelmagictm-osc-commands" id="toc-the-levelmagictm-osc-commands" class="nav-link" data-scroll-target="#the-levelmagictm-osc-commands"><span class="header-section-number">6.6.2</span> The LevelMagic(TM) OSC commands</a></li>
-  <li><a href="#global-commands" id="toc-global-commands" class="nav-link" data-scroll-target="#global-commands"><span class="header-section-number">6.6.3</span> Global Commands</a></li>
+  <li><a href="#how-to-use-the-commands" id="toc-how-to-use-the-commands" class="nav-link" data-scroll-target="#how-to-use-the-commands">How to use the commands</a></li>
+  <li><a href="#the-levelmagictm-osc-commands" id="toc-the-levelmagictm-osc-commands" class="nav-link" data-scroll-target="#the-levelmagictm-osc-commands">The LevelMagic(TM) OSC commands</a></li>
+  <li><a href="#global-commands" id="toc-global-commands" class="nav-link" data-scroll-target="#global-commands">Global Commands</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -284,19 +284,19 @@ When a new instance of a plug-in is created Flux:: OSC will send the following m
 </section>
 <section id="commands" class="level2" data-number="6.6">
 <h2 data-number="6.6" class="anchored" data-anchor-id="commands"><span class="header-section-number">6.6</span> Commands</h2>
-<section id="how-to-use-the-commands" class="level3" data-number="6.6.1">
-<h3 data-number="6.6.1" class="anchored" data-anchor-id="how-to-use-the-commands"><span class="header-section-number">6.6.1</span> How to use the commands</h3>
+<section id="how-to-use-the-commands" class="level3">
+<h3 class="anchored" data-anchor-id="how-to-use-the-commands">How to use the commands</h3>
 <p>At first you have to know what an OSC message is composed of. Mainly, these two parts: The Address Pattern and the Argument.</p>
 <p>For controlling parameters Flux:: only supports arguments of float type so make sure that the arguments you are sending via your controller are Floats. Float arguments must always be from 0 to 1 for controlling a parameter so you don’t have to deal with scale conversion.</p>
 </section>
-<section id="the-levelmagictm-osc-commands" class="level3" data-number="6.6.2">
-<h3 data-number="6.6.2" class="anchored" data-anchor-id="the-levelmagictm-osc-commands"><span class="header-section-number">6.6.2</span> The LevelMagic(TM) OSC commands</h3>
+<section id="the-levelmagictm-osc-commands" class="level3">
+<h3 class="anchored" data-anchor-id="the-levelmagictm-osc-commands">The LevelMagic(TM) OSC commands</h3>
 <p>When OSC is enabled in the Plug-in Settings (2) the file “OSC_Dict.xml” is automatically created in:<br>
 /Documents/Flux/LevelMagic</p>
 <p>This is a properties dictionary with each parameter that can be controlled and mapped using OSC. The commands in the dictionary includes a ”Translation” attribute that can be used in order translate the OSC name into the Flux:: internal parameter name in both directions.</p>
 </section>
-<section id="global-commands" class="level3" data-number="6.6.3">
-<h3 data-number="6.6.3" class="anchored" data-anchor-id="global-commands"><span class="header-section-number">6.6.3</span> Global Commands</h3>
+<section id="global-commands" class="level3">
+<h3 class="anchored" data-anchor-id="global-commands">Global Commands</h3>
 <p>Global commands allow you to access to some additional information. These commands don’t need an instance number. These are the available additional commands: - Address Pattern:/GetDeviceInfo - Type: Float - Value: 1 - Explanation: Get all the names of the controllable parameters</p>
 <ul>
 <li><p>Address Pattern: /TalkToMeOnPort</p></li>
