@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>FLUX:: Analyzer - 15&nbsp; Nebula surround</title>
+<title>FLUX:: Analyzer - Nebula surround</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -31,7 +31,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
 <link href="./Vector_scope.html" rel="next">
-<link href="./Nebula_spectral_spectrogram.html" rel="prev">
+<link href="./Metering_statistic.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -106,7 +106,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./Spectrum_analyzer.html">Audio Analysis Tools</a></li><li class="breadcrumb-item"><a href="./Nebula_surround.html"><span class="chapter-number">15</span>&nbsp; <span class="chapter-title">Nebula surround</span></a></li></ol></nav>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./Nebula_surround.html">Spatial Analysis tools</a></li><li class="breadcrumb-item"><a href="./Nebula_surround.html"><span class="chapter-number">22</span>&nbsp; <span class="chapter-title">Nebula surround</span></a></li></ol></nav>
       <a class="flex-grow-1" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
       </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -156,12 +156,12 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./Initial_Setup_SampleGrabber.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">SampleGrabber</span></a>
+  <a href="./Initial_Setup_SampleGrabber.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">SampleGrabber</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./Initial_Setup_Typical_configuration.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Typical configuration</span></a>
+  <a href="./Initial_Setup_Typical_configuration.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Typical configuration</span></a>
   </div>
 </li>
       </ul>
@@ -176,29 +176,29 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./User_Interface_Main.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Global presentation</span></a>
+  <a href="./User_Interface_Main.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Global presentation</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./User_Interface_Header_Section.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Header Section</span></a>
+  <a href="./User_Interface_Header_Section.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Header Section</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./User_Interface_Main_setup.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Main setup</span></a>
+  <a href="./User_Interface_Main_setup.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Main setup</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./User_Interface_IO_Configuration.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">IO Configuration</span></a>
+  <a href="./User_Interface_IO_Configuration.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">IO Configuration</span></a>
   </div>
 </li>
       </ul>
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="false">System analysis</a>
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="false">System measurement</a>
           <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="false">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
@@ -206,129 +206,64 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./System_analysis_Introduction.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Introduction</span></a>
+  <a href="./System_analysis_Introduction.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Introduction</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./System_analysis_Initial_setup.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Initial setup</span></a>
+  <a href="./System_analysis_Initial_setup.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Initial setup</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./System_analysis_Practical_considerations_for_capturing_measurement_signals.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Practical considerations for capturing measurement signals</span></a>
+  <a href="./System_analysis_Practical_considerations_for_capturing_measurement_signals.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Practical considerations for capturing measurement signals</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./System_analysis_System_analysis_config.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Measurement setup</span></a>
+  <a href="./System_analysis_System_analysis_config.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Measurement setup</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./System_analysis_Test_signals.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Test signals</span></a>
+  <a href="./System_analysis_Test_signals.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Test signals</span></a>
   </div>
 </li>
       </ul>
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" aria-expanded="true">Audio Analysis Tools</a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" aria-expanded="false">Spectrum analysis tools</a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" aria-expanded="false">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 show">  
+      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./Spectrum_analyzer.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">Spectrum Analyzer</span></a>
+  <a href="./Spectrum_analyzer.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Spectrum Analyzer</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./Wave_scope.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">13</span>&nbsp; <span class="chapter-title">Wave scope</span></a>
+  <a href="./Spectrogram.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Spectrogram</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./Nebula_spectral_spectrogram.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">14</span>&nbsp; <span class="chapter-title">Nebula (spatial spectrogram)</span></a>
+  <a href="./Nebula_spatial_spectrogram.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Nebula (spatial spectrogram)</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./Nebula_surround.html" class="sidebar-item-text sidebar-link active"><span class="chapter-number">15</span>&nbsp; <span class="chapter-title">Nebula surround</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./Vector_scope.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">16</span>&nbsp; <span class="chapter-title">Vector scope</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./Metering_RMS.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">17</span>&nbsp; <span class="chapter-title">RMS metering</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./Metering_True_Peak.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">18</span>&nbsp; <span class="chapter-title">True peak metering</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./Metering_Loudness.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">19</span>&nbsp; <span class="chapter-title">Loudness metering</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./Metering_Leq.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">20</span>&nbsp; <span class="chapter-title">Leq Metering</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./Metering_History.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">21</span>&nbsp; <span class="chapter-title">Metering History</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./Metering_statistic.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">22</span>&nbsp; <span class="chapter-title">Metering statistics</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./Live_IO.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">23</span>&nbsp; <span class="chapter-title">Live IO</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./Signal_generator.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">24</span>&nbsp; <span class="chapter-title">Signal types</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./Transfer_function.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">25</span>&nbsp; <span class="chapter-title">Transfer function</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./Impulse_response_measurement.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">26</span>&nbsp; <span class="chapter-title">Impulse response measurement</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./Spectrogram.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">27</span>&nbsp; <span class="chapter-title">Spectrogram</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./Snapshots.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">28</span>&nbsp; <span class="chapter-title">Snapshots</span></a>
+  <a href="./Wave_scope.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Wave scope</span></a>
   </div>
 </li>
       </ul>
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" aria-expanded="false">Appendices</a>
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" aria-expanded="false">Level metering tools</a>
           <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" aria-expanded="false">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
@@ -336,17 +271,112 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./User_Interface_Common_workflow_Keyboard_shortcuts.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">A</span>&nbsp; <span class="chapter-title">Keyboard shortcuts</span></a>
+  <a href="./Metering_RMS.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">RMS metering</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./System_Requirements.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">B</span>&nbsp; <span class="chapter-title">System requirements</span></a>
+  <a href="./Metering_True_Peak.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">True peak metering</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./flux_analyser_release_notes.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">C</span>&nbsp; <span class="chapter-title">Release Notes</span></a>
+  <a href="./Metering_Loudness.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Loudness metering</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Metering_Leq.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Leq Metering</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Metering_History.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Metering History</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Metering_statistic.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Metering statistics</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" aria-expanded="true">Spatial Analysis tools</a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" aria-expanded="true">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-6" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Nebula_surround.html" class="sidebar-item-text sidebar-link active"><span class="chapter-title">Nebula surround</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Vector_scope.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Vector scope</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-7" aria-expanded="false">Transfer function measurement</a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-7" aria-expanded="false">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-7" class="collapse list-unstyled sidebar-section depth1 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Live_IO.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Live IO</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Signal_generator.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Signal types</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Transfer_function.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Transfer function</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Impulse_response_measurement.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Impulse response measurement</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Snapshots.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Snapshots</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-8" aria-expanded="false">Appendices</a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-8" aria-expanded="false">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-8" class="collapse list-unstyled sidebar-section depth1 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./User_Interface_Common_workflow_Keyboard_shortcuts.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Keyboard shortcuts</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./System_Requirements.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">System requirements</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./flux_analyser_release_notes.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Release Notes</span></a>
   </div>
 </li>
       </ul>
@@ -361,11 +391,11 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#sec-nebula-surround-scope-usage" id="toc-sec-nebula-surround-scope-usage" class="nav-link active" data-scroll-target="#sec-nebula-surround-scope-usage"><span class="header-section-number">15.1</span> Usage</a>
+  <li><a href="#sec-nebula-surround-scope-usage" id="toc-sec-nebula-surround-scope-usage" class="nav-link active" data-scroll-target="#sec-nebula-surround-scope-usage">Usage</a>
   <ul class="collapse">
   <li><a href="#speaker-layout" id="toc-speaker-layout" class="nav-link" data-scroll-target="#speaker-layout">Speaker layout</a></li>
   </ul></li>
-  <li><a href="#display" id="toc-display" class="nav-link" data-scroll-target="#display"><span class="header-section-number">15.2</span> Display</a>
+  <li><a href="#display" id="toc-display" class="nav-link" data-scroll-target="#display">Display</a>
   <ul class="collapse">
   <li><a href="#mode" id="toc-mode" class="nav-link" data-scroll-target="#mode">Mode</a></li>
   <li><a href="#scale" id="toc-scale" class="nav-link" data-scroll-target="#scale">Scale</a></li>
@@ -379,7 +409,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-number">15</span>&nbsp; <span class="chapter-title">Nebula surround</span></h1>
+<h1 class="title"><span class="chapter-title">Nebula surround</span></h1>
 </div>
 
 
@@ -394,8 +424,8 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<section id="sec-nebula-surround-scope-usage" class="level2" data-number="15.1">
-<h2 data-number="15.1" class="anchored" data-anchor-id="sec-nebula-surround-scope-usage"><span class="header-section-number">15.1</span> Usage</h2>
+<section id="sec-nebula-surround-scope-usage" class="level2">
+<h2 class="anchored" data-anchor-id="sec-nebula-surround-scope-usage">Usage</h2>
 <p>The Nebula | Surround scope displays a representation of how a surround signal’s various components are distributed in a surround environment. The inner region displays the location of the signal frequency components in the selected surround configuration, while the outer ring shows the phase-correlation between channels.</p>
 <p>Phase correlation between adjacent channels is shown as white section with a length proportional to the correlation. Additionally, L-R phase correlation is displayed on the top portion of the ring, and L-C and C-R inter-channel phase correlations are displayed just above the top of the ring.</p>
 <p>Physical locations of the speakers for the selected configuration are marked on the ring itself for reference.</p>
@@ -447,8 +477,8 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </section>
 </section>
-<section id="display" class="level2" data-number="15.2">
-<h2 data-number="15.2" class="anchored" data-anchor-id="display"><span class="header-section-number">15.2</span> Display</h2>
+<section id="display" class="level2">
+<h2 class="anchored" data-anchor-id="display">Display</h2>
 <p><img src="https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Analyzer/Nebula/SurroundScopeSetup.png" class="img-fluid"></p>
 <div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center">
@@ -795,13 +825,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./Nebula_spectral_spectrogram.html" class="pagination-link">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">14</span>&nbsp; <span class="chapter-title">Nebula (spatial spectrogram)</span></span>
+      <a href="./Metering_statistic.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-title">Metering statistics</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
       <a href="./Vector_scope.html" class="pagination-link">
-        <span class="nav-page-text"><span class="chapter-number">16</span>&nbsp; <span class="chapter-title">Vector scope</span></span> <i class="bi bi-arrow-right-short"></i>
+        <span class="nav-page-text"><span class="chapter-title">Vector scope</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

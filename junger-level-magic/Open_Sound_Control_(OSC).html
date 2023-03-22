@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Jünger Level Magic - 6&nbsp; Open Sound Control (OSC)</title>
+<title>Jünger Level Magic - Open Sound Control (OSC)</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -128,32 +128,32 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Level Magic</span></a>
+  <a href="./index.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Level Magic</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./General_Settings.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">General Settings</span></a>
+  <a href="./General_Settings.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">General Settings</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./Preset_Management.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Preset Management</span></a>
+  <a href="./Preset_Management.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Preset Management</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./Preset_Manager_Window.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Preset Manager Window</span></a>
+  <a href="./Preset_Manager_Window.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Preset Manager Window</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./Specifications.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Specifications</span></a>
+  <a href="./Specifications.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Specifications</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./Open_Sound_Control_(OSC).html" class="sidebar-item-text sidebar-link active"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Open Sound Control (OSC)</span></a>
+  <a href="./Open_Sound_Control_(OSC).html" class="sidebar-item-text sidebar-link active"><span class="chapter-title">Open Sound Control (OSC)</span></a>
   </div>
 </li>
         <li class="sidebar-item sidebar-item-section">
@@ -166,7 +166,7 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./../flux_processing_release_notes.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">A</span>&nbsp; <span class="chapter-title">Release Notes</span></a>
+  <a href="./../flux_processing_release_notes.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Release Notes</span></a>
   </div>
 </li>
       </ul>
@@ -181,12 +181,12 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#the-osc-protocol" id="toc-the-osc-protocol" class="nav-link active" data-scroll-target="#the-osc-protocol"><span class="header-section-number">6.1</span> The OSC protocol</a></li>
-  <li><a href="#using-the-bonjour-protocol-zero-conf" id="toc-using-the-bonjour-protocol-zero-conf" class="nav-link" data-scroll-target="#using-the-bonjour-protocol-zero-conf"><span class="header-section-number">6.2</span> Using the Bonjour protocol, Zero Conf</a></li>
-  <li><a href="#configuring-osc-parameters-manually." id="toc-configuring-osc-parameters-manually." class="nav-link" data-scroll-target="#configuring-osc-parameters-manually."><span class="header-section-number">6.3</span> Configuring OSC parameters manually.</a></li>
-  <li><a href="#feedback-from-the-plug-in-to-the-controller" id="toc-feedback-from-the-plug-in-to-the-controller" class="nav-link" data-scroll-target="#feedback-from-the-plug-in-to-the-controller"><span class="header-section-number">6.4</span> Feedback from the plug-in to the controller</a></li>
-  <li><a href="#using-multiple-controllers-and-advanced-configurations" id="toc-using-multiple-controllers-and-advanced-configurations" class="nav-link" data-scroll-target="#using-multiple-controllers-and-advanced-configurations"><span class="header-section-number">6.5</span> Using multiple controllers and advanced configurations</a></li>
-  <li><a href="#commands" id="toc-commands" class="nav-link" data-scroll-target="#commands"><span class="header-section-number">6.6</span> Commands</a>
+  <li><a href="#the-osc-protocol" id="toc-the-osc-protocol" class="nav-link active" data-scroll-target="#the-osc-protocol">The OSC protocol</a></li>
+  <li><a href="#using-the-bonjour-protocol-zero-conf" id="toc-using-the-bonjour-protocol-zero-conf" class="nav-link" data-scroll-target="#using-the-bonjour-protocol-zero-conf">Using the Bonjour protocol, Zero Conf</a></li>
+  <li><a href="#configuring-osc-parameters-manually." id="toc-configuring-osc-parameters-manually." class="nav-link" data-scroll-target="#configuring-osc-parameters-manually.">Configuring OSC parameters manually.</a></li>
+  <li><a href="#feedback-from-the-plug-in-to-the-controller" id="toc-feedback-from-the-plug-in-to-the-controller" class="nav-link" data-scroll-target="#feedback-from-the-plug-in-to-the-controller">Feedback from the plug-in to the controller</a></li>
+  <li><a href="#using-multiple-controllers-and-advanced-configurations" id="toc-using-multiple-controllers-and-advanced-configurations" class="nav-link" data-scroll-target="#using-multiple-controllers-and-advanced-configurations">Using multiple controllers and advanced configurations</a></li>
+  <li><a href="#commands" id="toc-commands" class="nav-link" data-scroll-target="#commands">Commands</a>
   <ul class="collapse">
   <li><a href="#how-to-use-the-commands" id="toc-how-to-use-the-commands" class="nav-link" data-scroll-target="#how-to-use-the-commands">How to use the commands</a></li>
   <li><a href="#the-levelmagictm-osc-commands" id="toc-the-levelmagictm-osc-commands" class="nav-link" data-scroll-target="#the-levelmagictm-osc-commands">The LevelMagic(TM) OSC commands</a></li>
@@ -200,7 +200,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Open Sound Control (OSC)</span></h1>
+<h1 class="title"><span class="chapter-title">Open Sound Control (OSC)</span></h1>
 </div>
 
 
@@ -216,16 +216,16 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 <p>How to use the OSC protocol with LevelMagic(TM)</p>
-<section id="the-osc-protocol" class="level2" data-number="6.1">
-<h2 data-number="6.1" class="anchored" data-anchor-id="the-osc-protocol"><span class="header-section-number">6.1</span> The OSC protocol</h2>
+<section id="the-osc-protocol" class="level2">
+<h2 class="anchored" data-anchor-id="the-osc-protocol">The OSC protocol</h2>
 <p>The OSC protocol is a way of controlling devices via the network. Here we present a way of taking control of the LevelMagic(TM) plug-in using this protocol.</p>
 </section>
-<section id="using-the-bonjour-protocol-zero-conf" class="level2" data-number="6.2">
-<h2 data-number="6.2" class="anchored" data-anchor-id="using-the-bonjour-protocol-zero-conf"><span class="header-section-number">6.2</span> Using the Bonjour protocol, Zero Conf</h2>
+<section id="using-the-bonjour-protocol-zero-conf" class="level2">
+<h2 class="anchored" data-anchor-id="using-the-bonjour-protocol-zero-conf">Using the Bonjour protocol, Zero Conf</h2>
 <p>If your control device uses bonjour or Zero conf protocol configuration will be quick and simple. Just select Flux::OSC in the ZeroConf device of your controller. Then, write the output port and IP address of your device in the labels of the plug-in. Remember that in the output port label of the plug-in you should write the input port of your controller and in the output address of the plug-in you should write the IP address of your device.</p>
 </section>
-<section id="configuring-osc-parameters-manually." class="level2" data-number="6.3">
-<h2 data-number="6.3" class="anchored" data-anchor-id="configuring-osc-parameters-manually."><span class="header-section-number">6.3</span> Configuring OSC parameters manually.</h2>
+<section id="configuring-osc-parameters-manually." class="level2">
+<h2 class="anchored" data-anchor-id="configuring-osc-parameters-manually.">Configuring OSC parameters manually.</h2>
 <p>The following parameters are used to configure OSC manually in LevelMagic(TM)</p>
 <ul>
 <li>Network configuration: OSC is a network based protocol so make sure that both your controller and the host are connected to the same network.</li>
@@ -237,8 +237,8 @@ ul.task-list li input[type="checkbox"] {
 <p>The image below presents the different OSC parameters used for configuration.</p>
 <p><img src="https://media.githubusercontent.com/media/FLUX-SE/doc_images/main/Plugins/junger-level-magic/level_magic_10.png" class="img-fluid"></p>
 </section>
-<section id="feedback-from-the-plug-in-to-the-controller" class="level2" data-number="6.4">
-<h2 data-number="6.4" class="anchored" data-anchor-id="feedback-from-the-plug-in-to-the-controller"><span class="header-section-number">6.4</span> Feedback from the plug-in to the controller</h2>
+<section id="feedback-from-the-plug-in-to-the-controller" class="level2">
+<h2 class="anchored" data-anchor-id="feedback-from-the-plug-in-to-the-controller">Feedback from the plug-in to the controller</h2>
 <p>The Flux:: OSC manager will send feedback to your controller. These are the different situations when you will receive feedback:</p>
 <ul>
 <li>When a parameter begins to be edited<br>
@@ -278,12 +278,12 @@ When a new instance of a plug-in is created Flux:: OSC will send the following m
 </ul></li>
 </ul>
 </section>
-<section id="using-multiple-controllers-and-advanced-configurations" class="level2" data-number="6.5">
-<h2 data-number="6.5" class="anchored" data-anchor-id="using-multiple-controllers-and-advanced-configurations"><span class="header-section-number">6.5</span> Using multiple controllers and advanced configurations</h2>
+<section id="using-multiple-controllers-and-advanced-configurations" class="level2">
+<h2 class="anchored" data-anchor-id="using-multiple-controllers-and-advanced-configurations">Using multiple controllers and advanced configurations</h2>
 <p>Flux :: OSC gives you the possibility to use multiple controllers for one instance of a plug-in and have a particular feedback for each one. If you want to use multiple controllers refer to the use of the /TalkToMeOnPort Command found under “Commands”.</p>
 </section>
-<section id="commands" class="level2" data-number="6.6">
-<h2 data-number="6.6" class="anchored" data-anchor-id="commands"><span class="header-section-number">6.6</span> Commands</h2>
+<section id="commands" class="level2">
+<h2 class="anchored" data-anchor-id="commands">Commands</h2>
 <section id="how-to-use-the-commands" class="level3">
 <h3 class="anchored" data-anchor-id="how-to-use-the-commands">How to use the commands</h3>
 <p>At first you have to know what an OSC message is composed of. Mainly, these two parts: The Address Pattern and the Argument.</p>
@@ -554,12 +554,12 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
       <a href="./Specifications.html" class="pagination-link">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Specifications</span></span>
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-title">Specifications</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
       <a href="./../flux_processing_release_notes.html" class="pagination-link">
-        <span class="nav-page-text"><span class="chapter-number">A</span>&nbsp; <span class="chapter-title">Release Notes</span></span> <i class="bi bi-arrow-right-short"></i>
+        <span class="nav-page-text"><span class="chapter-title">Release Notes</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
